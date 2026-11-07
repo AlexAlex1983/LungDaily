@@ -1,0 +1,4 @@
+{
+  "(from:WHO OR from:ERSpublications OR from:atscommunity OR from:KulikovUNIATF) -is:retweet": "2119090998210961916",
+  "(COPD OR asthma OR \"lung cancer screening\" OR bronchiectasis OR \"interstitial lung disease\" OR \"pulmonary fibrosis\" OR (\"air pollution\" lung) OR \"chronic respiratory\" OR spirometry OR \"lung health\") lang:en -is:retweet -is:reply": "2119145650537590915"
+}
