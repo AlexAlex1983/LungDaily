@@ -69,7 +69,10 @@ def post_x(rec: dict, url: str, cfg: dict) -> str | None:
         body.pop("quote_tweet_id")  # quoted post may be protected/deleted — retry as a plain post
         r = requests.post(TWEET_URL, json=body, headers={"Authorization": _oauth1_header("POST", TWEET_URL)}, timeout=30)
     if r.status_code >= 400:
-        log.warning("X posting failed: %s %s", r.status_code, r.text[:200])
+        detail = " ".join(r.text.split())[:400]
+        hint = (" — check that the Access Token/Secret were generated AFTER setting the app to Read and write, "
+                "and that all four X_* secrets come from the same @LungDaily app") if r.status_code in (401, 403) else ""
+        log.warning("X posting failed: %s %s%s", r.status_code, detail, hint)
         return None
     return r.json().get("data", {}).get("id")
 
@@ -127,17 +130,23 @@ def run(stats: dict | None = None) -> None:
             continue
         url = f"{base}/news/{slug}/"
         shared = rec.setdefault("shared", {})
+        retry = False
         if acfg["x_post"] and "x" not in shared:
             tid = post_x(rec, url, acfg)
             if tid:
                 shared["x"] = tid
+            elif os.environ.get("X_ACCESS_TOKEN"):
+                attempts = rec.get("x_attempts", 0) + 1
+                rec["x_attempts"] = attempts
+                retry = attempts < 4  # try again on the next runs, then give up
         channel = os.environ.get("TELEGRAM_CHANNEL") or cfg["site"].get("telegram_channel")
         if acfg["telegram_post"] and "telegram" not in shared and channel:
             msg = f"<b>{html.escape(rec['headline'])}</b>\n\n{html.escape(rec['dek'])}\n\n{url}"
             if tg_send(channel, msg):
                 shared["telegram"] = True
         write_json(path, rec)
-        done.append(slug)
+        if not retry:
+            done.append(slug)
     write_json(AMPLIFY_QUEUE, [s for s in queue if s not in done])
 
     write_github_summary(done, stats, base)
