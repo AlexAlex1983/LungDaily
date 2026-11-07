@@ -1,4 +1,5 @@
 {
   "(from:WHO OR from:ERSpublications OR from:atscommunity OR from:KulikovUNIATF) -is:retweet": "2119090998210961916",
-  "(COPD OR asthma OR \"lung cancer screening\" OR bronchiectasis OR \"interstitial lung disease\" OR \"pulmonary fibrosis\" OR (\"air pollution\" lung) OR \"chronic respiratory\" OR spirometry OR \"lung health\") lang:en -is:retweet -is:reply": "2119147009500500396"
+  "(COPD OR asthma OR \"lung cancer screening\" OR bronchiectasis OR \"interstitial lung disease\" OR \"pulmonary fibrosis\" OR (\"air pollution\" lung) OR \"chronic respiratory\" OR spirometry OR \"lung health\") lang:en -is:retweet -is:reply": "2119212219141620067",
+  "(from:WHO OR from:FIRS_LungsFirst OR from:GOLD_COPD OR from:ginasthma OR from:TheUnion_TBLH OR from:VitalStrat OR from:JLCastroGarcia OR from:TonyaWinders OR from:KulikovUNIATF OR from:EuroRespSoc OR from:ERSpublications OR from:atscommunity OR from:accpchest OR from:IASLC OR from:LancetRespirMed OR from:gaapporg OR from:EuropeanLung OR from:LungAssociation OR from:asthmalunguk OR from:Lungfoundation) -is:retweet": "2119155694142210224"
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "2026-11-07-nsps-st2-and-gdf15-linked-to-severity-and-exacerbations-in-bronchiecta",
+  "headline": "NSPs, ST2 and GDF15 linked to severity and exacerbations in bronchiectasis, EMBARC data show",
+  "dek": "James D Chalmers said a new paper using EMBARC data examines systemic inflammation in bronchiectasis and identifies three markers associated with disease severity and exacerbations.",
+  "body": "A new paper titled \"Systemic inflammation in bronchiectasis: data from EMBARC\" reports that NSPs, ST2 and GDF15 are associated with disease severity and exacerbations, according to a post on X by James D Chalmers.\n\nChalmers, who describes himself on the platform as Rhodes Chair of Experimental Therapeutics at the University of Oxford and Chief Editor of the European Respiratory Journal, wrote that he was \"delighted to share\" the paper. He said he was posting in a personal capacity.\n\nIn the post, Chalmers identified ST2 as the IL33 receptor. He credited the work to Chloe Hughes and international collaborators, calling it \"brilliant work\".\n\nThe post did not name the journal that published the paper. It also gave no details on study design, participant numbers, the strength of the associations or how the markers were measured. Those details would need to be checked in the full paper, which the post links to.",
+  "key_quote": "NSPs, ST2 (IL33 receptor) and GDF15 associate with severity and exacerbations",
+  "tags": [
+    "bronchiectasis",
+    "diagnostics"
+  ],
+  "people": [
+    "James D Chalmers",
+    "Chloe Hughes"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-07T23:38:02+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119186063336079766",
+    "url": "https://x.com/ProfJDChalmers/status/2119186063336079766"
+  },
+  "mentions": [
+    "ATSBlueEditor"
+  ],
+  "source": {
+    "id": "x:2119186063336079766",
+    "source": "x",
+    "url": "https://x.com/ProfJDChalmers/status/2119186063336079766",
+    "title": "",
+    "author_name": "James D Chalmers",
+    "author_handle": "ProfJDChalmers",
+    "author_url": "https://x.com/ProfJDChalmers",
+    "published_at": "2026-11-07T21:51:44+00:00",
+    "extra": {
+      "tweet_id": "2119186063336079766",
+      "query_kind": "keywords",
+      "links": [
+        "https://academic.oup.com/ajrccm/advance-article/doi/10.1093/ajrccm/aamag590/9018071",
+        "https://x.com/ProfJDChalmers/status/2119186063336079766/photo/1"
+      ],
+      "author_followers": 9299,
+      "author_id": "1155952820966703105"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-07T23:38:02+00:00",
+  "shared": {
+    "x": "2119212937768255977"
+  }
+}
