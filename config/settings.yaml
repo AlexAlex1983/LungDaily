@@ -53,7 +53,8 @@ amplify:
 
 follow:
   enabled: true
-  per_run: 10                     # accounts followed per run (runs every 6 hours -> up to 40/day)
+  per_run: 10                     # accounts followed per run (runs every 6 hours)
+  max_per_day: 40                 # hard cap over any 24 hours; on an X limit error: pause 24 h, then halve per_run
   min_followers: 300              # ignore very small accounts
   exclude: ["KulikovUNIATF"]      # never follow these
   unfollow: ["KulikovUNIATF", "imdat_eroglu", "DPedropaulo", "TKato_Thoracic"]   # one-off clean-up (done once)

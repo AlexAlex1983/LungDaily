@@ -10,13 +10,14 @@ and X_BEARER_TOKEN for username lookups.
 """
 from __future__ import annotations
 
+import datetime as dt
 import os
 import re
 
 import requests
 
 from .amplify import _env, _oauth1_header
-from .util import DATA, load_yaml, log, now, read_json, settings, write_json
+from .util import DATA, load_yaml, log, now, parse_date, read_json, settings, write_json
 
 CANDIDATES = DATA / "follow_candidates.json"
 STATE = DATA / "follow_state.json"
@@ -144,7 +145,25 @@ def run() -> dict:
             else:
                 stats["errors"].append(f"unfollow @{h}: {msg}")
 
-    budget = int(cfg.get("per_run", 10))
+    # --- limits: daily cap + automatic slow-down after X limit errors -------------------
+    max_run = int(cfg.get("per_run", 10))
+    max_day = int(cfg.get("max_per_day", 40))
+    paused = parse_date(state.get("paused_until"))
+    if paused and paused > now():
+        msg = f"paused until {state['paused_until']} after an X limit warning"
+        log.info("follow: %s", msg)
+        stats["errors"].append(msg)
+        write_json(STATE, state)
+        _summary(stats, state, 0)
+        return stats
+    per_run = min(max_run, int(state.get("per_run", max_run)))
+    day_ago = now() - dt.timedelta(hours=24)
+    last_24h = sum(1 for v in state["followed"].values() if (parse_date(v.get("at")) or day_ago) > day_ago
+                   and v.get("why") != "followed manually")
+    budget = max(0, min(per_run, max_day - last_24h))
+    if budget == 0:
+        stats["errors"].append(f"daily cap reached ({last_24h}/{max_day} in the last 24 h)")
+    limit_hit = False
     for c in pick(state, cfg):
         if budget <= 0:
             break
@@ -157,21 +176,35 @@ def run() -> dict:
             state["followed"][c["username"]] = {"at": now().isoformat(timespec="seconds"), "why": c["why"]}
             stats["followed"].append(f"@{c['username']} ({c['why']})")
             budget -= 1
-        elif msg.startswith("429") or msg.startswith("402"):
+        elif msg.startswith("429") or msg.startswith("402") or (
+                msg.startswith("403") and re.search(r"limit|spam|automat|suspend|restrict", msg, re.I)):
             stats["errors"].append(f"stopped: {msg}")
+            limit_hit = not msg.startswith("402")  # 402 = out of credits, not a follow limit
             break
         else:
             state["failed"][c["username"]] = msg
             stats["errors"].append(f"follow @{c['username']}: {msg}")
+    if limit_hit:
+        # X pushed back: pause 24 h, then follow half as many per run
+        state["per_run"] = max(2, per_run // 2)
+        state["paused_until"] = (now() + dt.timedelta(hours=24)).isoformat(timespec="seconds")
+        stats["errors"].append(f"X limit hit: pausing 24 h, then {state['per_run']} per run")
+    elif stats["followed"] and per_run < max_run:
+        state["per_run"] = per_run + 1  # clean run: recover gradually
     write_json(STATE, state)
     log.info("follow: %s", stats)
-
-    path = os.environ.get("GITHUB_STEP_SUMMARY")
-    if path:
-        lines = ["## LungDaily follow run", ""]
-        lines += [f"- Followed {x}" for x in stats["followed"]] or ["- Nobody new to follow this run"]
-        lines += [f"- Unfollowed @{x}" for x in stats["unfollowed"]]
-        lines += [f"- ⚠️ {x}" for x in stats["errors"]]
-        with open(path, "a", encoding="utf-8") as f:
-            f.write("\n".join(lines) + "\n")
+    _summary(stats, state, last_24h + len(stats["followed"]), max_day)
     return stats
+
+
+def _summary(stats: dict, state: dict, today: int, max_day: int = 40) -> None:
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    lines = ["## LungDaily follow run", ""]
+    lines += [f"- Followed {x}" for x in stats["followed"]] or ["- Nobody new to follow this run"]
+    lines += [f"- Unfollowed @{x}" for x in stats["unfollowed"]]
+    lines += [f"- ⚠️ {x}" for x in stats["errors"]]
+    lines += ["", f"Follows in the last 24 h: {today}/{max_day} · current pace: {state.get('per_run', '—')} per run"]
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
