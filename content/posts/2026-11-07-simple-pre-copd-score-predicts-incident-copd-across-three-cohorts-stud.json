@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-07-simple-pre-copd-score-predicts-incident-copd-across-three-cohorts-stud",
+  "headline": "Simple pre-COPD score predicts incident COPD across three cohorts, study finds",
+  "dek": "Researchers developed a points-based score for people without airflow obstruction and validated it in two further cohorts, with higher scores linked to greater risk of developing COPD.",
+  "body": "A simple pre-COPD score can predict which people without airflow obstruction go on to develop COPD, according to a study in the American Journal of Respiratory and Critical Care Medicine. The authors, including Yunus Çolak, Surya P Bhatt and Gregory L Kinney, noted that predicting progression from pre-COPD to overt COPD has been limited.\n\nThe score was developed in the Copenhagen General Population Study (CGPS, 14,506 participants) and externally validated in the Copenhagen City Heart Study (CCHS, 8,673) and the COPDGene Study (2,982). It assigns one point each for a smoking history of at least 10 pack-years, active smoking, any respiratory symptom, asthma, and a pre-bronchodilator FEV1/FVC of 0.70-0.75. Four points are given for a pre-bronchodilator FEV1 below 80% predicted, indicating Preserved Ratio Impaired Spirometry (PRISm).\n\nParticipants were followed for 5-10 years. COPD developed in 669 people (4.6%) in CGPS, 685 (7.9%) in CCHS and 367 (12%) in COPDGene. In CGPS, 10-year incidence was 1.5% in the low-risk category, 9.3% in the intermediate-risk, 24% in the high-risk and 42% in the very high-risk category. Corresponding 5-year incidences were 3.7%, 7.3%, 12% and 25% in CCHS, and 4.1%, 5.3%, 13% and 31% in COPDGene.\n\nAreas under the curve were 0.88 in CGPS, 0.76 in CCHS and 0.81 in COPDGene. The score was also associated with exacerbations, the authors reported.",
+  "key_quote": "The pre-COPD score is useful in predicting the onset of COPD with clinically relevant discrimination in three cohorts with different risk profiles.",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "screening"
+  ],
+  "people": [
+    "Yunus Çolak",
+    "Surya P Bhatt",
+    "Gregory L Kinney"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-07T18:27:12+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42993069/"
+  },
+  "source": {
+    "id": "pubmed:42993069",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42993069/",
+    "title": "Development and Validation of a Pre-COPD Score to Predict Incident COPD.",
+    "author_name": "Yunus Çolak, Surya P Bhatt, Gregory L Kinney et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-06T00:00:00+00:00",
+    "extra": {
+      "journal": "American journal of respiratory and critical care medicine",
+      "doi": "10.1093/ajrccm/aamag599",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Yunus Çolak"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-07T18:27:12+00:00",
+  "shared": {}
+}

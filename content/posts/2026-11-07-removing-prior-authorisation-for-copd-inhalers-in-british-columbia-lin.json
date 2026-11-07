@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-07-removing-prior-authorisation-for-copd-inhalers-in-british-columbia-lin",
+  "headline": "Removing prior authorisation for COPD inhalers in British Columbia linked to more guideline-concordant use",
+  "dek": "A Chest cohort study of 47,583 patients found modest shifts towards LAMA and away from ICS/LABA after British Columbia changed drug coverage rules in July 2020.",
+  "body": "A population-based cohort study published in Chest has examined what happened when British Columbia changed its public drug coverage for maintenance inhalers for chronic obstructive pulmonary disease (COPD). The authors, led by Kate M Johnson, Lucy Cheng and Kevin I Duan, wrote that most patients with COPD do not receive maintenance inhaled therapy in line with evidence-based guidelines.\n\nIn July 2020, the province's universal drug plan removed prior authorisation requirements for long-acting muscarinic antagonists (LAMA), the recommended first-line therapy, and restricted coverage for inhaled corticosteroid/long-acting beta-agonist (ICS/LABA) products. The researchers used provincial administrative health data and an interrupted time series analysis. They followed patients from January 2019, 18 months before the policy, to December 2022, 30 months after it.\n\nThe cohort included 47,583 patients with COPD, with a mean age of 71.5 years; 46.5% were female. Thirty months after the change, ICS/LABA use had decreased by 1.3% (95% CI -2.4 to -0.3) and LAMA use had increased by 0.8% (95% CI 0.1 to 1.6). Mean LAMA canisters dispensed rose by 9.8 per 1,000 patients, and proportion of days covered for LAMA increased by 1.5%. The study reported no significant change in ICS/LABA canisters dispensed, proportion of days covered, or the proportion of patients discontinuing ICS/LABA.\n\n(Re)initiation of LAMA increased by 0.2% (95% CI 0.02 to 0.3), and initiation of LAMA as maintenance therapy increased by 34.8% (95% CI 22.3 to 48.6). Total combined drug costs did not change, according to the abstract.\n\nThe authors concluded that the coverage changes were associated with improved guideline-concordant medication use.",
+  "key_quote": "Changes to drug coverage in BC were associated with improved guideline-concordant medication use.",
+  "tags": [
+    "copd",
+    "policy",
+    "guidelines",
+    "therapeutics"
+  ],
+  "people": [
+    "Kate M Johnson",
+    "Lucy Cheng",
+    "Kevin I Duan"
+  ],
+  "category": "policy",
+  "score": 8.0,
+  "created_at": "2026-11-07T18:27:21+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42988324/"
+  },
+  "source": {
+    "id": "pubmed:42988324",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42988324/",
+    "title": "The impact of removing prior authorization for guideline-concordant maintenance inhaled medications for COPD: a population-based cohort study.",
+    "author_name": "Kate M Johnson, Lucy Cheng, Kevin I Duan et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-05T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.10.035",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Kate M Johnson"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-07T18:27:21+00:00",
+  "shared": {}
+}

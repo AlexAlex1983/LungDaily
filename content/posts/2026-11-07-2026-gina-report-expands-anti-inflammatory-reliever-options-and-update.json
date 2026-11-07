@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-07-2026-gina-report-expands-anti-inflammatory-reliever-options-and-update",
+  "headline": "2026 GINA report expands anti-inflammatory reliever options and updates severe and acute asthma guidance",
+  "dek": "The annually updated Global Initiative for Asthma strategy report, published in the European Respiratory Journal, lists expanded reliever options, revised severe asthma guidance and substantial changes to acute asthma management.",
+  "body": "The 2026 Global Initiative for Asthma (GINA) Strategy Report executive summary, authored by Helen K Reddel, Keith Allan, Leonard B Bacharier and colleagues, has been published in The European Respiratory Journal. According to the abstract, the report offers an annually updated, evidence-based approach to asthma diagnosis, assessment, treatment and prevention across the lifespan.\n\nThe report's central approach is personalised, iterative care based on the Assess-Adjust-Review cycle, addressing both symptom control and reduction of future risk. The authors list severe exacerbations, persistent airflow limitation and treatment-related harm among those risks. GINA emphasises objective confirmation of diagnosis wherever possible, and regular assessment of lung function, inhaler technique, adherence, multimorbidity, risk factors and patient goals and preferences.\n\nOn treatment, GINA strongly recommends that all adults, adolescents, children and most preschoolers with asthma receive inhaled corticosteroid (ICS)-containing treatment, and recommends against short-acting beta2-agonist (SABA)-only treatment. For adults and adolescents, Track 1 uses low-dose ICS-formoterol as an anti-inflammatory reliever (AIR), either as needed only or as maintenance-and-reliever therapy. The abstract says this is preferred because of its substantial reduction in severe exacerbations compared with SABA-based regimens, and its simplicity.\n\nFor difficult-to-treat and severe asthma, the report provides structured guidance covering diagnostic verification, optimisation of modifiable factors, inflammatory phenotyping, biologic therapy selection and systemic corticosteroid stewardship. Key 2026 updates include expanded AIR options for adults and children, revised guidance on severe asthma and biologic selection, and substantial updates to acute asthma management.",
+  "key_quote": "GINA recommends against short-acting beta2-agonist (SABA)-only treatment.",
+  "tags": [
+    "asthma",
+    "guidelines",
+    "therapeutics",
+    "paediatrics"
+  ],
+  "people": [
+    "Helen K Reddel",
+    "Keith Allan",
+    "Leonard B Bacharier"
+  ],
+  "category": "research",
+  "score": 9.0,
+  "created_at": "2026-11-07T18:27:01+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42988388/"
+  },
+  "source": {
+    "id": "pubmed:42988388",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42988388/",
+    "title": "2026 Global Initiative for Asthma (GINA) strategy report: executive summary and key changes.",
+    "author_name": "Helen K Reddel, Keith Allan, Leonard B Bacharier et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-05T00:00:00+00:00",
+    "extra": {
+      "journal": "The European respiratory journal",
+      "doi": "10.1183/13993003.02304-2026",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Helen K Reddel"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-07T18:27:01+00:00",
+  "shared": {}
+}
