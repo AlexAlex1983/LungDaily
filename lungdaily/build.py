@@ -56,7 +56,8 @@ def build() -> int:
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
     env.filters["datefmt"] = lambda d: d.strftime("%d %b %Y, %H:%M UTC") if d else ""
     env.filters["isodate"] = iso
-    ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year}
+    ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year,
+           "build_id": now().strftime("%Y%m%d%H%M")}
 
     _write(OUT / "index.html", env.get_template("index.html").render(
         **ctx, root="./", posts=posts[:40], title=f"{site['name']}: {site['tagline']}", heading=None))
