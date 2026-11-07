@@ -4,7 +4,7 @@
 # aliases (other names used in articles, e.g. "ERS").
 #
 # Every X handle below was checked on X on 7 Nov 2026 (profile name matches).
-# Not on X: British Thoracic Society (left X in March 2026, LinkedIn only).
+# Not on X: British Thoracic Society (left X in March 2026, LinkedIn only); IPCRG (no longer active on X).
 # Not found / unverified, so left out: Every Breath Counts coalition, ERS assemblies (no separate accounts found).
 
 voices:
@@ -83,11 +83,6 @@ voices:
     aliases: ["IASLC"]
     tier: 1
     tags: [lung-cancer]
-  - name: "International Primary Care Respiratory Group"
-    x: "IPCRG"
-    aliases: ["IPCRG"]
-    tier: 2
-    tags: [primary-care]
   - name: "The Lancet Respiratory Medicine"
     x: "LancetRespirMed"
     aliases: ["Lancet Respiratory Medicine"]

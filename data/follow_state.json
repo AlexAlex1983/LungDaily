@@ -1,0 +1,66 @@
+{
+  "followed": {
+    "WHO": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "FIRS_LungsFirst": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "GOLD_COPD": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "ginasthma": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "TheUnion_TBLH": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "VitalStrat": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "JLCastroGarcia": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "TonyaWinders": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "EuroRespSoc": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "ERSpublications": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "atscommunity": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "accpchest": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "IASLC": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "LancetRespirMed": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    },
+    "IPCRG": {
+      "at": "2026-11-07T20:05:00+00:00",
+      "why": "followed manually"
+    }
+  },
+  "failed": {},
+  "unfollowed": []
+}

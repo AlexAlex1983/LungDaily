@@ -5,6 +5,7 @@
   python -m lungdaily.run process
   python -m lungdaily.run build
   python -m lungdaily.run amplify
+  python -m lungdaily.run follow           follow relevant respiratory accounts on X
   python -m lungdaily.run release <slug> publish a held article
   python -m lungdaily.run discard <slug> drop a held article
 """
@@ -12,7 +13,7 @@ from __future__ import annotations
 
 import sys
 
-from . import amplify, build, collect, process
+from . import amplify, build, collect, follow, process
 from .util import log
 
 
@@ -29,6 +30,8 @@ def main(argv: list[str]) -> int:
         build.build()
     elif cmd == "amplify":
         amplify.run()
+    elif cmd == "follow":
+        follow.run()
     elif cmd == "all":
         collect.run()
         stats = process.run()

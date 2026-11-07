@@ -74,6 +74,11 @@ def collect() -> list[dict]:
             continue
         data = r.json()
         users = {u["id"]: u for u in data.get("includes", {}).get("users", [])}
+        try:
+            from ..follow import note_candidates
+            note_candidates(list(users.values()))
+        except Exception as e:  # never let follow bookkeeping break collection
+            log.warning("follow candidates: %s", e)
         newest = data.get("meta", {}).get("newest_id")
         if newest:
             state[q] = newest
@@ -103,6 +108,7 @@ def collect() -> list[dict]:
                         "query_kind": kind,
                         "links": links,
                         "author_followers": (u.get("public_metrics") or {}).get("followers_count", 0),
+                        "author_id": t.get("author_id"),
                     },
                 )
             )

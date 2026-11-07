@@ -50,3 +50,10 @@ amplify:
   x_hashtags: 2                   # topic hashtags per post (#COPD, #Asthma...), 0 to switch off
   telegram_post: false
   telegram_admin_report: false    # run report to your private chat: published + held items
+
+follow:
+  enabled: true
+  per_run: 10                     # accounts followed per run (runs every 6 hours -> up to 40/day)
+  min_followers: 300              # ignore very small accounts
+  exclude: ["KulikovUNIATF"]      # never follow these
+  unfollow: ["KulikovUNIATF", "imdat_eroglu", "DPedropaulo", "TKato_Thoracic"]   # one-off clean-up (done once)
