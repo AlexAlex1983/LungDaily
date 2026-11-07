@@ -45,6 +45,8 @@ publishing:
 amplify:
   x_post: true                    # post each article from the site's X account
   x_quote_source_tweet: true      # for X-sourced items, quote the original post (author gets notified)
-  x_mention_authors: false        # automated @mentions can break X automation rules — keep off
+  x_mention_authors: true         # tag the source author, accounts they tagged, and followed voices named in the article
+  x_max_mentions: 3               # at most this many @tags per post
+  x_hashtags: 2                   # topic hashtags per post (#COPD, #Asthma...), 0 to switch off
   telegram_post: false
   telegram_admin_report: false    # run report to your private chat: published + held items

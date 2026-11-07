@@ -46,23 +46,80 @@ def _oauth1_header(method: str, url: str) -> str:
     return "OAuth " + ", ".join(f'{q(k, safe="")}="{q(v, safe="")}"' for k, v in sorted(params.items()))
 
 
-def x_text(rec: dict, url: str, cfg: dict) -> str:
-    """Fit headline + link in 280 chars (links count as 23)."""
+HASHTAGS = {
+    "copd": "#COPD", "asthma": "#Asthma", "lung-cancer": "#LungCancer", "screening": "#Screening",
+    "bronchiectasis": "#Bronchiectasis", "ild": "#ILD", "tb": "#TB", "rehab": "#PulmonaryRehab",
+    "air-pollution": "#AirPollution", "tobacco": "#Tobacco", "vaping": "#Vaping", "ai": "#AIinHealth",
+    "who": "#WHO", "guidelines": "#Guidelines", "global-health": "#GlobalHealth", "ncds": "#NCDs",
+    "paediatrics": "#Paediatrics", "primary-care": "#PrimaryCare",
+}
+
+
+def mentions_for(rec: dict, cfg: dict, site: dict) -> list[str]:
+    """Accounts to tag: the source author, accounts they tagged, and followed voices named in the article."""
+    import re
+    from .util import load_yaml
+    if not cfg.get("x_mention_authors"):
+        return []
+    own = (site.get("x_handle") or "").lower()
+    blocked = {h.lower().lstrip("@") for h in (load_yaml("optout.yaml").get("x_handles") or [])}
+    out: list[str] = []
+
+    def add(h):
+        h = (h or "").lstrip("@")
+        if h and h.lower() not in blocked and h.lower() != own and h.lower() not in {x.lower() for x in out}:
+            out.append(h)
+
+    src = rec.get("source") or {}
+    if src.get("source") == "x":
+        add(src.get("author_handle"))
+    for h in rec.get("mentions") or []:
+        add(h)
+    text = " ".join([rec.get("headline", ""), rec.get("body", ""), " ".join(rec.get("people") or [])])
+    for v in load_yaml("voices.yaml").get("voices", []):
+        if not v.get("x"):
+            continue
+        for name in [v.get("name", "")] + list(v.get("aliases") or []):
+            if name and re.search(rf"(?<!\w){re.escape(name)}(?!\w)", text):
+                add(v["x"])
+                break
+    return out[: int(cfg.get("x_max_mentions", 3))]
+
+
+def x_text(rec: dict, url: str, cfg: dict, site: dict | None = None) -> str:
+    """Headline, tags, hashtags and link, fitted to 280 characters (links count as 23)."""
+    site = site or {}
+    tags = " ".join(f"@{h}" for h in mentions_for(rec, cfg, site))
+    hashtags = []
+    for t in rec.get("tags") or []:
+        if t in HASHTAGS and HASHTAGS[t] not in hashtags:
+            hashtags.append(HASHTAGS[t])
+    hashtags = hashtags[: int(cfg.get("x_hashtags", 2))]
+
+    def compose(head, hs):
+        parts = [head]
+        if tags:
+            parts.append(tags)
+        if hs:
+            parts.append(" ".join(hs))
+        return "\n\n".join(parts) + "\n\n", "\n\n".join(parts) + "\n\n" + url
+
     head = rec["headline"]
-    mention = ""
-    if cfg["x_mention_authors"] and rec["source"].get("author_handle"):
-        mention = f" @{rec['source']['author_handle']}"
-    room = 280 - 23 - 2 - len(mention)
-    if len(head) > room:
-        head = head[: room - 1].rstrip() + "…"
-    return f"{head}{mention}\n\n{url}"
+    while True:
+        prefix, full = compose(head, hashtags)
+        if len(prefix) + 23 <= 280:
+            return full
+        if hashtags:
+            hashtags = hashtags[:-1]
+            continue
+        head = head[: max(20, len(head) - (len(prefix) + 23 - 280) - 1)].rstrip() + "…"
 
 
 def post_x(rec: dict, url: str, cfg: dict) -> str | None:
     if not all(os.environ.get(k) for k in ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET")):
         log.info("X posting: credentials missing, skipping")
         return None
-    body = {"text": x_text(rec, url, cfg)}
+    body = {"text": x_text(rec, url, cfg, settings()["site"])}
     if cfg["x_quote_source_tweet"] and rec["embed"].get("type") == "x" and rec["embed"].get("tweet_id"):
         body["quote_tweet_id"] = rec["embed"]["tweet_id"]
     r = requests.post(TWEET_URL, json=body, headers={"Authorization": _oauth1_header("POST", TWEET_URL)}, timeout=30)

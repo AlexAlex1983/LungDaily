@@ -8,6 +8,7 @@ from xml.sax.saxutils import escape
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from . import images
 from .util import POSTS, ROOT, iso, load_yaml, log, now, parse_date, read_json, settings
 
 OUT = ROOT / "site"
@@ -64,6 +65,11 @@ def build() -> int:
         _write(OUT / cat / "index.html", env.get_template("index.html").render(
             **ctx, root="../", posts=sel[:60], title=f"{label} — {site['name']}", heading=label, active=cat))
     for p in posts:
+        try:
+            images.render(p, OUT / "cards" / f"{p['slug']}.png", p["category_label"])
+            images.render(p, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")
+        except Exception as e:  # a broken image must never stop the site build
+            log.warning("Card image failed for %s: %s", p["slug"], e)
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
             **ctx, root="../../", post=p, related=related, title=f"{p['headline']} — {site['name']}", active=p["category"]))

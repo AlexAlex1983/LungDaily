@@ -208,6 +208,19 @@ def check(item: dict, art: dict) -> dict:
     return {"pass": bool(verdict.get("pass")) and not issues, "issues": issues}
 
 
+def source_handles(item: dict) -> list[str]:
+    """X handles that appear verbatim in an X post (people/orgs the author tagged)."""
+    if item["source"] != "x":
+        return []
+    import re
+    seen, out = set(), []
+    for h in re.findall(r"(?<![\w@])@(\w{1,15})", item.get("text") or ""):
+        if h.lower() not in seen:
+            seen.add(h.lower())
+            out.append(h)
+    return out
+
+
 def _embed(item: dict) -> dict:
     if item["source"] == "x":
         return {"type": "x", "tweet_id": item["extra"].get("tweet_id"), "url": item["url"]}
@@ -282,6 +295,7 @@ def run() -> dict:
             "created_at": now().isoformat(timespec="seconds"),
             "checker": verdict,
             "embed": _embed(item),
+            "mentions": source_handles(item),
             "source": {k: item.get(k) for k in ("id", "source", "url", "title", "author_name", "author_handle",
                                                  "author_url", "published_at", "extra")},
         }
