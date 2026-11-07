@@ -6,16 +6,16 @@
 {% else %}
   {% set lead = posts[0] %}
   <article class="lead cat-{{ lead.category }}">
-    <a class="kicker" href="{{ base }}/{{ lead.category }}/">{{ lead.category_label }}</a>
-    <h2><a href="{{ base }}/news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
+    <a class="kicker" href="{{ root }}{{ lead.category }}/">{{ lead.category_label }}</a>
+    <h2><a href="{{ root }}news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
     <p class="dek">{{ lead.dek }}</p>
     <time datetime="{{ lead.date|isodate }}">{{ lead.date|datefmt }}</time>
   </article>
   <div class="grid">
   {% for p in posts[1:] %}
     <article class="card cat-{{ p.category }}">
-      <a class="kicker" href="{{ base }}/{{ p.category }}/">{{ p.category_label }}</a>
-      <h3><a href="{{ base }}/news/{{ p.slug }}/">{{ p.headline }}</a></h3>
+      <a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+      <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
       <p class="dek">{{ p.dek }}</p>
       <time datetime="{{ p.date|isodate }}">{{ p.date|datefmt }}</time>
     </article>

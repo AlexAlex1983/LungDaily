@@ -5,23 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }}</title>
 <meta name="description" content="{% block description %}{{ site.description or site.tagline }}{% endblock %}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ base }}/rss.xml">
-<link rel="icon" type="image/svg+xml" href="{{ base }}/static/lungdaily-mark.svg">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ root }}rss.xml">
+<link rel="icon" type="image/svg+xml" href="{{ root }}static/lungdaily-mark.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ base }}/static/style.css">
+<link rel="stylesheet" href="{{ root }}static/style.css">
 {% block head %}{% endblock %}
 </head>
 <body>
 <header class="masthead">
   <div class="wrap bar">
-    <a class="brand" href="{{ base }}/"><img class="mark" src="{{ base }}/static/lungdaily-mark.svg" alt="" width="30" height="30"><span><b>Lung</b>Daily</span></a>
+    <a class="brand" href="{{ root }}"><img class="mark" src="{{ root }}static/lungdaily-mark.svg" alt="" width="30" height="30"><span><b>Lung</b>Daily</span></a>
     <span class="tagline">{{ site.tagline }}</span>
   </div>
   <nav class="wrap cats" aria-label="Sections">
-    <a href="{{ base }}/" {% if not active %}class="on"{% endif %}>Latest</a>
+    <a href="{{ root }}" {% if not active %}class="on"{% endif %}>Latest</a>
     {% for key, label in categories.items() %}
-    <a href="{{ base }}/{{ key }}/" {% if active == key %}class="on"{% endif %}>{{ label }}</a>
+    <a href="{{ root }}{{ key }}/" {% if active == key %}class="on"{% endif %}>{{ label }}</a>
     {% endfor %}
   </nav>
 </header>
@@ -32,8 +32,8 @@
   <div class="wrap">
     <p><strong>{{ site.name }}</strong> curates public posts, papers and news on lung health. Every article links to its source.
     Articles are drafted with AI assistance and automatically fact-checked against the source.</p>
-    <p><a href="{{ base }}/about/">About</a> · <a href="{{ base }}/editorial-policy/">Editorial policy</a> ·
-    <a href="{{ base }}/opt-out/">Corrections &amp; opt-out</a> · <a href="{{ base }}/rss.xml">RSS</a>
+    <p><a href="{{ root }}about/">About</a> · <a href="{{ root }}editorial-policy/">Editorial policy</a> ·
+    <a href="{{ root }}opt-out/">Corrections &amp; opt-out</a> · <a href="{{ root }}rss.xml">RSS</a>
     {% if site.x_handle %} · <a href="https://x.com/{{ site.x_handle }}">X</a>{% endif %}
     {% if site.telegram_channel %} · <a href="https://t.me/{{ site.telegram_channel|replace('@','') }}">Telegram</a>{% endif %}</p>
     <p class="small">© {{ year }} {{ site.name }}. Not medical advice.</p>

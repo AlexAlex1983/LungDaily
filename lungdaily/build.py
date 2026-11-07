@@ -58,17 +58,17 @@ def build() -> int:
     ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year}
 
     _write(OUT / "index.html", env.get_template("index.html").render(
-        **ctx, posts=posts[:40], title=f"{site['name']}: {site['tagline']}", heading=None))
+        **ctx, root="./", posts=posts[:40], title=f"{site['name']}: {site['tagline']}", heading=None))
     for cat, label in CATEGORY_LABELS.items():
         sel = [p for p in posts if p["category"] == cat]
         _write(OUT / cat / "index.html", env.get_template("index.html").render(
-            **ctx, posts=sel[:60], title=f"{label} — {site['name']}", heading=label, active=cat))
+            **ctx, root="../", posts=sel[:60], title=f"{label} — {site['name']}", heading=label, active=cat))
     for p in posts:
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
-            **ctx, post=p, related=related, title=f"{p['headline']} — {site['name']}", active=p["category"]))
+            **ctx, root="../../", post=p, related=related, title=f"{p['headline']} — {site['name']}", active=p["category"]))
     for page in ("about", "editorial-policy", "opt-out"):
-        _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, title=f"{page.replace('-', ' ').title()} — {site['name']}"))
+        _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, root="../", title=f"{page.replace('-', ' ').title()} — {site['name']}"))
 
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
     _write(OUT / "sitemap.xml", sitemap(posts, base))

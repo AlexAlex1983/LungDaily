@@ -16,7 +16,7 @@
 {% endblock %}
 {% block content %}
 <article class="article cat-{{ post.category }}">
-  <a class="kicker" href="{{ base }}/{{ post.category }}/">{{ post.category_label }}</a>
+  <a class="kicker" href="{{ root }}{{ post.category }}/">{{ post.category_label }}</a>
   <h1>{{ post.headline }}</h1>
   <p class="dek">{{ post.dek }}</p>
   <p class="meta"><time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time>
@@ -43,11 +43,11 @@
 
   {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span>{% endfor %}</p>{% endif %}
   <p class="small note">This article summarises a public source and was drafted with AI assistance, then automatically checked against the source.
-  Featured here and want a correction or removal? <a href="{{ base }}/opt-out/">Tell us</a>.</p>
+  Featured here and want a correction or removal? <a href="{{ root }}opt-out/">Tell us</a>.</p>
 </article>
 {% if related %}
 <aside class="related"><h2>Related</h2><ul>
-{% for r in related %}<li><a href="{{ base }}/news/{{ r.slug }}/">{{ r.headline }}</a></li>{% endfor %}
+{% for r in related %}<li><a href="{{ root }}news/{{ r.slug }}/">{{ r.headline }}</a></li>{% endfor %}
 </ul></aside>
 {% endif %}
 {% endblock %}
