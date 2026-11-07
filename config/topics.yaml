@@ -1,0 +1,43 @@
+# What counts as lung-health news.
+
+categories:
+  voices:    "Voices — what clinicians, researchers, advocates and organisations are saying"
+  research:  "New Paper Alert — new studies and reviews"
+  policy:    "Policy & Air — WHO/UN/national policy, air pollution, tobacco and vaping"
+  approvals: "Approvals & Trials — regulatory decisions, trial readouts, new devices and drugs"
+  people:    "People — appointments, awards, career moves"
+  events:    "Events — congresses, webinars, calls for grants"
+
+# Keyword query used for X and LinkedIn search (kept short: X query limit is 512 chars)
+# Single quotes keep the inner double quotes, so multi-word terms are searched as exact phrases.
+keywords:
+  - 'COPD'
+  - 'asthma'
+  - '"lung cancer screening"'
+  - 'bronchiectasis'
+  - '"interstitial lung disease"'
+  - '"pulmonary fibrosis"'
+  - '("air pollution" lung)'
+  - '"chronic respiratory"'
+  - 'spirometry'
+  - '"lung health"'
+
+pubmed_query: >-
+  ("pulmonary disease, chronic obstructive"[MeSH] OR COPD[tiab] OR asthma[tiab]
+  OR bronchiectasis[tiab] OR "interstitial lung disease"[tiab] OR "pulmonary fibrosis"[tiab]
+  OR "lung cancer screening"[tiab] OR ("air pollution"[tiab] AND (lung[tiab] OR respiratory[tiab])))
+  AND (randomized controlled trial[pt] OR meta-analysis[pt] OR systematic review[pt]
+  OR "Lancet"[ta] OR "N Engl J Med"[ta] OR "Eur Respir J"[ta] OR "Am J Respir Crit Care Med"[ta]
+  OR "Lancet Respir Med"[ta] OR "Thorax"[ta] OR "Chest"[ta] OR "JAMA"[ta] OR "BMJ"[ta])
+
+rss_feeds:
+  - name: "WHO news"
+    url: "https://www.who.int/rss-feeds/news-english.xml"
+  - name: "Google News — COPD"
+    url: "https://news.google.com/rss/search?q=COPD+when:2d&hl=en&gl=US&ceid=US:en"
+  - name: "Google News — asthma"
+    url: "https://news.google.com/rss/search?q=asthma+when:2d&hl=en&gl=US&ceid=US:en"
+  - name: "Google News — lung cancer screening"
+    url: "https://news.google.com/rss/search?q=%22lung+cancer+screening%22+when:2d&hl=en&gl=US&ceid=US:en"
+  - name: "Google News — air pollution health"
+    url: "https://news.google.com/rss/search?q=%22air+pollution%22+lungs+when:2d&hl=en&gl=US&ceid=US:en"

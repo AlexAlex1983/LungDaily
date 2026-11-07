@@ -1,0 +1,50 @@
+# LungDaily — main settings
+site:
+  name: "LungDaily"
+  tagline: "The Pulse of Respiratory Health"
+  description: "Daily news, study breakdowns and expert voices from the global lung health community."
+  base_url: "https://lungdaily.org"
+  custom_domain: "lungdaily.org"
+  language: "en"
+  contact_email: "editor@lungdaily.org"
+  x_handle: "LungDaily"                # the site's own X account (without @)
+  telegram_channel: ""                        # e.g. @lungdaily
+
+models:
+  triage: "claude-haiku-5-5"      # cheap: scores every collected item
+  writer: "claude-sonnet-5-5"     # writes the articles
+  checker: "claude-sonnet-5-5"    # independent fact-check of each article
+  max_tokens: 1500
+
+sources:
+  x: true
+  linkedin_profiles: true         # Apify, no LinkedIn login needed
+  linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
+  pubmed: true
+  rss: true
+
+limits:
+  x_max_results_per_query: 50     # X pay-per-use: each tweet read costs credits
+  x_max_queries_per_run: 6
+  linkedin_max_posts_per_profile: 5
+  linkedin_search_max_results: 25
+  pubmed_max: 40
+  rss_max_per_feed: 15
+  triage_batch_size: 20
+  min_score: 7                    # 0–10; items below this are dropped
+  max_articles_per_run: 4
+  max_articles_per_day: 12
+  max_item_age_hours: 72
+
+publishing:
+  auto_publish: true              # false = everything goes to the held queue for you to release
+  require_checker_pass: true      # articles failing the fact-check are held, never published
+  min_body_words: 90
+  max_body_words: 320
+
+amplify:
+  x_post: true                    # post each article from the site's X account
+  x_quote_source_tweet: true      # for X-sourced items, quote the original post (author gets notified)
+  x_mention_authors: false        # automated @mentions can break X automation rules — keep off
+  telegram_post: false
+  telegram_admin_report: false    # run report to your private chat: published + held items

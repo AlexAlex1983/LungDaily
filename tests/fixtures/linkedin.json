@@ -1,0 +1,19 @@
+[
+  {
+    "id": "7390000000000000001",
+    "url": "https://www.linkedin.com/posts/example_copd-activity-7390000000000000001",
+    "type": "original",
+    "author": {"name": "Dr Maria Example", "url": "https://www.linkedin.com/in/maria-example/", "headline": "Pulmonologist, Lisbon"},
+    "text": "Delighted to share that our pulmonary rehabilitation programme reached 1,200 patients with COPD this year, with home-based sessions now covering three rural districts.",
+    "postedAt": "2026-11-06T17:30:00Z",
+    "engagement": {"reactions": 210, "comments": 18, "reposts": 9, "total": 237}
+  },
+  {
+    "id": "7390000000000000002",
+    "url": "https://www.linkedin.com/posts/someone_repost-activity-7390000000000000002",
+    "type": "repost",
+    "author": {"name": "Someone", "url": "https://www.linkedin.com/in/someone/"},
+    "text": "Reposted content",
+    "postedAt": "2026-11-06T10:00:00Z"
+  }
+]

@@ -1,0 +1,30 @@
+# People and organisations to follow. Their posts are the core of "Voices".
+# Seed list — verify each handle/URL and extend to 200–500 respiratory voices.
+# Fields: name, x (handle without @), linkedin (profile or company URL), tier (1 = top), tags
+
+voices:
+  - name: "World Health Organization"
+    x: "WHO"
+    linkedin: "https://www.linkedin.com/company/world-health-organization/"
+    tier: 1
+    tags: [policy]
+  - name: "European Respiratory Society"
+    x: "ERSpublications"
+    linkedin: "https://www.linkedin.com/company/european-respiratory-society/"
+    tier: 1
+    tags: [society]
+  - name: "American Thoracic Society"
+    x: "atscommunity"
+    linkedin: ""
+    tier: 1
+    tags: [society]
+  - name: "Alexey Kulikov"
+    x: "KulikovUNIATF"
+    linkedin: ""
+    tier: 1
+    tags: [policy, ncd]
+  # - name: "Dr Example Pulmonologist"
+  #   x: "handle"
+  #   linkedin: "https://www.linkedin.com/in/slug/"
+  #   tier: 2
+  #   tags: [copd]

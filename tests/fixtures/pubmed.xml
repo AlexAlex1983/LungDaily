@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<PubmedArticleSet>
+  <PubmedArticle>
+    <MedlineCitation>
+      <PMID>40000001</PMID>
+      <Article>
+        <Journal><Title>The Lancet Respiratory Medicine</Title><JournalIssue><PubDate><Year>2026</Year><Month>Nov</Month><Day>5</Day></PubDate></JournalIssue></Journal>
+        <ArticleTitle>Triple inhaled therapy and mortality in moderate COPD: a randomised controlled trial</ArticleTitle>
+        <Abstract>
+          <AbstractText Label="BACKGROUND">Evidence on mortality benefit of triple therapy in moderate COPD is limited.</AbstractText>
+          <AbstractText Label="FINDINGS">Among 4,800 participants, triple therapy reduced all-cause mortality compared with dual therapy over 52 weeks.</AbstractText>
+        </Abstract>
+        <AuthorList><Author><LastName>Smith</LastName><ForeName>Anna</ForeName></Author><Author><LastName>Rossi</LastName><ForeName>Luca</ForeName></Author></AuthorList>
+        <PublicationTypeList><PublicationType>Randomized Controlled Trial</PublicationType></PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData><ArticleIdList><ArticleId IdType="doi">10.1016/test.2026.1</ArticleId></ArticleIdList></PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>

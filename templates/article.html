@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block description %}{{ post.dek }}{% endblock %}
+{% block head %}
+<link rel="canonical" href="{{ base }}/news/{{ post.slug }}/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ post.headline }}">
+<meta property="og:description" content="{{ post.dek }}">
+<meta property="og:url" content="{{ base }}/news/{{ post.slug }}/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "NewsArticle", "headline": post.headline, "description": post.dek,
+    "datePublished": post.date|isodate, "url": base ~ "/news/" ~ post.slug ~ "/",
+    "publisher": {"@type": "Organization", "name": site.name},
+    "isBasedOn": post.source.url, "keywords": post.tags|join(", ")}|tojson }}
+</script>
+{% endblock %}
+{% block content %}
+<article class="article cat-{{ post.category }}">
+  <a class="kicker" href="{{ base }}/{{ post.category }}/">{{ post.category_label }}</a>
+  <h1>{{ post.headline }}</h1>
+  <p class="dek">{{ post.dek }}</p>
+  <p class="meta"><time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time>
+    · Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
+
+  {% if post.key_quote %}<blockquote class="pull">“{{ post.key_quote }}”{% if post.source.author_name %}<cite>— {{ post.source.author_name }}</cite>{% endif %}</blockquote>{% endif %}
+
+  <div class="body">{{ post.html|safe }}</div>
+
+  <section class="source">
+    <h2>Original source</h2>
+    {% if post.embed.type == "x" %}
+      <blockquote class="twitter-tweet" data-dnt="true"><a href="{{ post.embed.url }}">View the post on X</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js"></script>
+    {% elif post.embed.type == "linkedin" and post.embed.embed_url %}
+      <iframe src="{{ post.embed.embed_url }}" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
+    {% else %}
+      <a class="sourcecard" href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">
+        <strong>{{ post.source.title or post.source.author_name or post.source.url }}</strong>
+        <span>{% if post.source.extra and post.source.extra.journal %}{{ post.source.extra.journal }} · {% endif %}{{ post.source.url }}</span>
+      </a>
+    {% endif %}
+  </section>
+
+  {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span>{% endfor %}</p>{% endif %}
+  <p class="small note">This article summarises a public source and was drafted with AI assistance, then automatically checked against the source.
+  Featured here and want a correction or removal? <a href="{{ base }}/opt-out/">Tell us</a>.</p>
+</article>
+{% if related %}
+<aside class="related"><h2>Related</h2><ul>
+{% for r in related %}<li><a href="{{ base }}/news/{{ r.slug }}/">{{ r.headline }}</a></li>{% endfor %}
+</ul></aside>
+{% endif %}
+{% endblock %}

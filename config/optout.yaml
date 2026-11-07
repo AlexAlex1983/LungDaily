@@ -1,0 +1,9 @@
+# People who asked not to be featured — their posts are never collected.
+# Add X handles (no @), LinkedIn profile URLs, or names.
+x_handles: []
+linkedin_urls: []
+names: []
+
+# Published articles to take down (slug of the article, e.g. 2026-11-08-dr-x-new-copd-data).
+# The next build removes the page, and it is never re-published.
+takedown: []

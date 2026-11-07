@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="article page">
+<h1>About {{ site.name }}</h1>
+<p class="dek"><strong>{{ site.tagline }}.</strong> {{ site.description }}</p>
+<p>{{ site.name }} follows what clinicians, researchers, patient advocates and organisations working on lung health share publicly — on X, LinkedIn, in journals and in the news — and turns the most important items into short, sourced news articles every day.</p>
+<p>We cover COPD, asthma, lung cancer and screening, bronchiectasis, interstitial lung disease, tuberculosis, pulmonary rehabilitation, air pollution, tobacco and vaping, and AI in respiratory care.</p>
+<p>Want your posts considered? Tag <a href="https://x.com/{{ site.x_handle }}">@{{ site.x_handle }}</a> or write to <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p>
+</article>
+{% endblock %}
