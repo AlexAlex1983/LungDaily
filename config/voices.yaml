@@ -1,34 +1,127 @@
-# People and organisations to follow. Their posts are the core of "Voices".
-# Seed list — verify each handle/URL and extend to 200–500 respiratory voices.
+# People and organisations to follow. Their posts are the core of "Voices",
+# and when an article names one of them, the X post tags them.
 # Fields: name, x (handle without @), linkedin (profile or company URL), tier (1 = top), tags,
-# aliases (other names used in articles, e.g. "ERS"). When an article names a voice, its X post tags them.
+# aliases (other names used in articles, e.g. "ERS").
+#
+# Every X handle below was checked on X on 7 Nov 2026 (profile name matches).
+# Not on X: British Thoracic Society (left X in March 2026, LinkedIn only).
+# Not found / unverified, so left out: Every Breath Counts coalition, ERS assemblies (no separate accounts found).
 
 voices:
+  # --- Global bodies, initiatives and forums ---------------------------------------------
   - name: "World Health Organization"
     x: "WHO"
-    aliases: ["WHO"]
     linkedin: "https://www.linkedin.com/company/world-health-organization/"
+    aliases: ["WHO"]
     tier: 1
-    tags: [policy]
+    tags: [policy, global]
+  - name: "Forum of International Respiratory Societies"
+    x: "FIRS_LungsFirst"
+    aliases: ["FIRS"]
+    tier: 1
+    tags: [global, societies]
+  - name: "Global Initiative for Chronic Obstructive Lung Disease"
+    x: "GOLD_COPD"
+    aliases: ["GOLD"]
+    tier: 1
+    tags: [copd, guidelines]
+  - name: "Global Initiative for Asthma"
+    x: "ginasthma"
+    aliases: ["GINA"]
+    tier: 1
+    tags: [asthma, guidelines]
+  - name: "International Union Against Tuberculosis and Lung Disease"
+    x: "TheUnion_TBLH"
+    aliases: ["The Union"]
+    tier: 1
+    tags: [tb, tobacco, global]
+  - name: "Vital Strategies"
+    x: "VitalStrat"
+    tier: 2
+    tags: [policy, tobacco, air-pollution]
+
+  # --- People ---------------------------------------------------------------------------
+  - name: "José Luis Castro"
+    x: "JLCastroGarcia"
+    aliases: ["Jose Luis Castro"]
+    tier: 1
+    tags: [policy, who]           # WHO Director-General's Special Envoy for Chronic Respiratory Diseases
+  - name: "Tonya Winders"
+    x: "TonyaWinders"
+    tier: 1
+    tags: [patients, asthma]      # President & CEO, GAAPP
+  - name: "Dr Alexey Kulikov"
+    x: "KulikovUNIATF"
+    aliases: ["Alexey Kulikov"]
+    tier: 1
+    tags: [policy, ncds]
+
+  # --- International professional societies ---------------------------------------------
   - name: "European Respiratory Society"
-    x: "ERSpublications"
-    aliases: ["ERS"]
+    x: "EuroRespSoc"
     linkedin: "https://www.linkedin.com/company/european-respiratory-society/"
+    aliases: ["ERS"]
     tier: 1
     tags: [society]
+  - name: "ERS publications"
+    x: "ERSpublications"
+    aliases: ["European Respiratory Journal", "European Respiratory Review", "ERJ Open Research"]
+    tier: 2
+    tags: [journals]
   - name: "American Thoracic Society"
     x: "atscommunity"
     aliases: ["ATS"]
-    linkedin: ""
     tier: 1
     tags: [society]
-  - name: "Alexey Kulikov"
-    x: "KulikovUNIATF"
-    aliases: ["Dr Alexey Kulikov"]
-    linkedin: ""
+  - name: "American College of Chest Physicians"
+    x: "accpchest"
+    aliases: ["CHEST"]
     tier: 1
-    tags: [policy, ncd]
-  # - name: "Dr Example Pulmonologist"
+    tags: [society]
+  - name: "International Association for the Study of Lung Cancer"
+    x: "IASLC"
+    aliases: ["IASLC"]
+    tier: 1
+    tags: [lung-cancer]
+  - name: "International Primary Care Respiratory Group"
+    x: "IPCRG"
+    aliases: ["IPCRG"]
+    tier: 2
+    tags: [primary-care]
+  - name: "The Lancet Respiratory Medicine"
+    x: "LancetRespirMed"
+    aliases: ["Lancet Respiratory Medicine"]
+    tier: 2
+    tags: [journals]
+
+  # --- Patient organisations and national lung associations ----------------------------
+  - name: "Global Allergy & Airways Patient Platform"
+    x: "gaapporg"
+    aliases: ["GAAPP", "Global Allergy and Airways Patient Platform"]
+    tier: 1
+    tags: [patients]
+  - name: "European Lung Foundation"
+    x: "EuropeanLung"
+    aliases: ["ELF"]
+    tier: 1
+    tags: [patients]
+  - name: "American Lung Association"
+    x: "LungAssociation"
+    tier: 2
+    tags: [national, patients]
+  - name: "Asthma + Lung UK"
+    x: "asthmalunguk"
+    aliases: ["Asthma and Lung UK"]
+    tier: 2
+    tags: [national, patients]
+  - name: "Lung Foundation Australia"
+    x: "Lungfoundation"
+    tier: 2
+    tags: [national, patients]
+
+  # --- Add leading pulmonologists, lung cancer specialists and respirologists here -------
+  # Run reports list "suggested voices": people whose posts scored highly in keyword searches.
+  # - name: "Dr Example"
   #   x: "handle"
   #   linkedin: "https://www.linkedin.com/in/slug/"
   #   tier: 2

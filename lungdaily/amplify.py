@@ -174,6 +174,13 @@ def write_github_summary(done: list, stats: dict | None, base: str) -> None:
         for h in held:
             issues = "; ".join(h["checker"]["issues"]) or "awaiting review"
             lines.append(f"- **{h['headline']}**  \n  slug: `{h['slug']}` — {issues}")
+    sug = sorted(read_json(DATA / "suggested_voices.json", {}).values(), key=lambda e: (-e["hits"], -e.get("followers", 0)))
+    if sug:
+        lines += ["", "### Suggested voices (high-scoring posts, not yet followed)",
+                  "Add the ones you trust to `config/voices.yaml`.", ""]
+        for e in sug[:10]:
+            lines.append(f"- **{e.get('name')}** @{e['handle']} — {e['hits']} strong post(s), "
+                         f"{e.get('followers', 0):,} followers — {e.get('bio', '')} ([example]({e['example']}))")
     with open(path, "a", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 

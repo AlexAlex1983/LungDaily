@@ -15,6 +15,7 @@ from .util import (DATA, POSTS, load_yaml, log, norm_text, now, parse_date, read
 
 INBOX = DATA / "inbox.json"
 HELD = DATA / "held.json"
+SUGGESTED = DATA / "suggested_voices.json"
 AMPLIFY_QUEUE = DATA / "amplify_queue.json"
 
 # ---------------------------------------------------------------- prompts
@@ -255,6 +256,7 @@ def run() -> dict:
     inbox: list = read_json(INBOX, [])
     triage(inbox)
 
+    note_suggestions(inbox)
     cutoff = now() - dt.timedelta(hours=lim["max_item_age_hours"])
     keep, candidates = [], []
     for i in inbox:
@@ -312,6 +314,23 @@ def run() -> dict:
     write_json(INBOX, keep)
     log.info("Process stats: %s", stats)
     return stats
+
+
+def note_suggestions(items: list[dict]) -> None:
+    """Remember X authors (not yet followed) whose keyword-search posts scored >= 8."""
+    known = {v.get("x", "").lower() for v in load_yaml("voices.yaml").get("voices", []) if v.get("x")}
+    sug = read_json(SUGGESTED, {})
+    for i in items:
+        t = i.get("triage") or {}
+        h = (i.get("author_handle") or "").lower()
+        if i["source"] != "x" or not h or h in known or t.get("score", 0) < 8:
+            continue
+        e = sug.setdefault(h, {"handle": i["author_handle"], "name": i.get("author_name"),
+                               "bio": (i.get("author_headline") or "")[:160], "hits": 0,
+                               "followers": i.get("extra", {}).get("author_followers", 0), "example": i["url"]})
+        e["hits"] += 1
+        e["last_seen"] = now().isoformat(timespec="seconds")
+    write_json(SUGGESTED, sug)
 
 
 def release(slug: str) -> bool:
