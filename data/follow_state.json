@@ -59,8 +59,35 @@
     "IPCRG": {
       "at": "2026-11-07T20:05:00+00:00",
       "why": "followed manually"
+    },
+    "gaapporg": {
+      "at": "2026-11-07T20:21:42+00:00",
+      "why": "followed voice"
+    },
+    "EuropeanLung": {
+      "at": "2026-11-07T20:21:43+00:00",
+      "why": "followed voice"
+    },
+    "LungAssociation": {
+      "at": "2026-11-07T20:21:43+00:00",
+      "why": "followed voice"
+    },
+    "asthmalunguk": {
+      "at": "2026-11-07T20:21:43+00:00",
+      "why": "followed voice"
+    },
+    "Lungfoundation": {
+      "at": "2026-11-07T20:21:44+00:00",
+      "why": "followed voice"
     }
   },
   "failed": {},
-  "unfollowed": []
+  "unfollowed": [
+    "KulikovUNIATF",
+    "imdat_eroglu",
+    "DPedropaulo",
+    "TKato_Thoracic"
+  ],
+  "me_id": "2119112099922112512",
+  "me_username": "LungDaily"
 }
