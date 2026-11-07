@@ -24,19 +24,23 @@ HELD = DATA / "held.json"
 TWEET_URL = "https://api.x.com/2/tweets"
 
 
+def _env(name: str) -> str:
+    return (os.environ.get(name) or "").strip()
+
+
 def _oauth1_header(method: str, url: str) -> str:
     q = urllib.parse.quote
     params = {
-        "oauth_consumer_key": os.environ["X_API_KEY"],
+        "oauth_consumer_key": _env("X_API_KEY"),
         "oauth_nonce": secrets.token_hex(16),
         "oauth_signature_method": "HMAC-SHA1",
         "oauth_timestamp": str(int(time.time())),
-        "oauth_token": os.environ["X_ACCESS_TOKEN"],
+        "oauth_token": _env("X_ACCESS_TOKEN"),
         "oauth_version": "1.0",
     }
     base_params = "&".join(f"{q(k, safe='')}={q(v, safe='')}" for k, v in sorted(params.items()))
     base = "&".join([method.upper(), q(url, safe=""), q(base_params, safe="")])
-    key = f"{q(os.environ['X_API_SECRET'], safe='')}&{q(os.environ['X_ACCESS_SECRET'], safe='')}"
+    key = f"{q(_env("X_API_SECRET"), safe='')}&{q(_env("X_ACCESS_SECRET"), safe='')}"
     sig = base64.b64encode(hmac.new(key.encode(), base.encode(), hashlib.sha1).digest()).decode()
     params["oauth_signature"] = sig
     return "OAuth " + ", ".join(f'{q(k, safe="")}="{q(v, safe="")}"' for k, v in sorted(params.items()))

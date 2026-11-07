@@ -42,7 +42,7 @@ def build_queries() -> list[tuple[str, str]]:
 
 
 def collect() -> list[dict]:
-    token = os.environ.get("X_BEARER_TOKEN")
+    token = (os.environ.get("X_BEARER_TOKEN") or "").strip()
     if not token:
         log.info("X: no X_BEARER_TOKEN, skipping")
         return []
