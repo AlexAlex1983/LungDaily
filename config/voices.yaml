@@ -6,6 +6,7 @@
 # Every X handle below was checked on X on 7 Nov 2026 (profile name matches).
 # Not on X: British Thoracic Society (left X in March 2026, LinkedIn only); IPCRG (no longer active on X).
 # Not found / unverified, so left out: Every Breath Counts coalition, ERS assemblies (no separate accounts found).
+# LinkedIn URLs were checked on 8 Nov 2026 (page name matches). FIRS: no LinkedIn company page found.
 
 voices:
   # --- Global bodies, initiatives and forums ---------------------------------------------
@@ -22,32 +23,38 @@ voices:
     tags: [global, societies]
   - name: "Global Initiative for Chronic Obstructive Lung Disease"
     x: "GOLD_COPD"
+    linkedin: "https://www.linkedin.com/company/global-initiative-for-chronic-obstructive-lung-disease/"
     aliases: ["GOLD"]
     tier: 1
     tags: [copd, guidelines]
   - name: "Global Initiative for Asthma"
     x: "ginasthma"
+    linkedin: "https://www.linkedin.com/company/global-initiative-for-asthma/"
     aliases: ["GINA"]
     tier: 1
     tags: [asthma, guidelines]
   - name: "International Union Against Tuberculosis and Lung Disease"
     x: "TheUnion_TBLH"
+    linkedin: "https://www.linkedin.com/company/theunion-tblh/"
     aliases: ["The Union"]
     tier: 1
     tags: [tb, tobacco, global]
   - name: "Vital Strategies"
     x: "VitalStrat"
+    linkedin: "https://www.linkedin.com/company/vital-strategies/"
     tier: 2
     tags: [policy, tobacco, air-pollution]
 
   # --- People ---------------------------------------------------------------------------
   - name: "José Luis Castro"
     x: "JLCastroGarcia"
+    linkedin: "https://www.linkedin.com/in/jose-luis-castro/"
     aliases: ["Jose Luis Castro"]
     tier: 1
     tags: [policy, who]           # WHO Director-General's Special Envoy for Chronic Respiratory Diseases
   - name: "Tonya Winders"
     x: "TonyaWinders"
+    linkedin: "https://www.linkedin.com/in/tonya-winders-7109169/"
     tier: 1
     tags: [patients, asthma]      # President & CEO, GAAPP
   - name: "Dr Alexey Kulikov"
@@ -70,16 +77,19 @@ voices:
     tags: [journals]
   - name: "American Thoracic Society"
     x: "atscommunity"
+    linkedin: "https://www.linkedin.com/company/american-thoracic-society_2/"
     aliases: ["ATS"]
     tier: 1
     tags: [society]
   - name: "American College of Chest Physicians"
     x: "accpchest"
+    linkedin: "https://www.linkedin.com/company/american-college-of-chest-physicians/"
     aliases: ["CHEST"]
     tier: 1
     tags: [society]
   - name: "International Association for the Study of Lung Cancer"
     x: "IASLC"
+    linkedin: "https://www.linkedin.com/company/iaslc/"
     aliases: ["IASLC"]
     tier: 1
     tags: [lung-cancer]
@@ -92,25 +102,35 @@ voices:
   # --- Patient organisations and national lung associations ----------------------------
   - name: "Global Allergy & Airways Patient Platform"
     x: "gaapporg"
+    linkedin: "https://www.linkedin.com/company/global-allergy-asthma-patient-platform/"
     aliases: ["GAAPP", "Global Allergy and Airways Patient Platform"]
     tier: 1
     tags: [patients]
   - name: "European Lung Foundation"
     x: "EuropeanLung"
+    linkedin: "https://www.linkedin.com/company/european-lung-foundation/"
     aliases: ["ELF"]
     tier: 1
     tags: [patients]
   - name: "American Lung Association"
     x: "LungAssociation"
+    linkedin: "https://www.linkedin.com/company/american-lung-association/"
     tier: 2
     tags: [national, patients]
   - name: "Asthma + Lung UK"
     x: "asthmalunguk"
+    linkedin: "https://www.linkedin.com/company/asthma-lung-uk/"
     aliases: ["Asthma and Lung UK"]
     tier: 2
     tags: [national, patients]
+  - name: "British Thoracic Society"
+    linkedin: "https://www.linkedin.com/company/british-thoracic-society/"
+    aliases: ["BTS"]
+    tier: 2
+    tags: [society, national]     # left X in March 2026; LinkedIn only
   - name: "Lung Foundation Australia"
     x: "Lungfoundation"
+    linkedin: "https://www.linkedin.com/company/lung-foundation-australia/"
     tier: 2
     tags: [national, patients]
 

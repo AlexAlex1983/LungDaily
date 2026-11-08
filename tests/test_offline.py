@@ -51,6 +51,39 @@ arts = list((site / "news").glob("*/index.html"))
 assert len(arts) == n and n >= 3
 html = arts[0].read_text()
 assert "Original source" in html and "application/ld+json" in html
+# LinkedIn page posting (mocked API, nothing leaves the machine)
+from lungdaily import linkedin_share
+assert linkedin_share.escape("COPD (GOLD) #1 @x") == "COPD \\(GOLD\\) \\#1 \\@x"
+assert linkedin_share.hashtag("#COPD") == "{hashtag|\\#|COPD}"
+import os as _os, json as _json
+from lungdaily.util import POSTS as _POSTS
+calls = []
+class _R:
+    def __init__(self, code=201, js=None, headers=None):
+        self.status_code, self._js, self.headers, self.text = code, js or {}, headers or {}, ""
+        self.ok = code < 400
+    def json(self): return self._js
+def _post(url, **kw):
+    calls.append(url)
+    if "initializeUpload" in url:
+        return _R(200, {"value": {"uploadUrl": "https://upload.example/x", "image": "urn:li:image:1"}})
+    body = kw["json"]
+    assert body["author"] == "urn:li:organization:123" and body["content"]["article"]["source"].startswith("http")
+    assert body["content"]["article"].get("thumbnail") == "urn:li:image:1"
+    return _R(201, headers={"x-restli-id": "urn:li:share:999"})
+linkedin_share.requests.post = _post
+linkedin_share.requests.put = lambda url, **kw: _R(201)
+_os.environ.update(LINKEDIN_ORG_ID="123", LINKEDIN_ACCESS_TOKEN="t")
+first = sorted(_POSTS.glob("*.json"))[0]
+rec = _json.loads(first.read_text())
+assert linkedin_share.post(rec, "https://lungdaily.org/news/x/", {}, ["COPD"]) == "urn:li:share:999"
+from lungdaily.util import DATA as _DATA
+(_DATA / "amplify_queue.json").write_text(_json.dumps([rec["slug"]]))
+amplify.run()
+assert _json.loads(first.read_text())["shared"].get("linkedin") == "urn:li:share:999"
+for k in ("LINKEDIN_ORG_ID", "LINKEDIN_ACCESS_TOKEN"):
+    _os.environ.pop(k)
+
 # takedown
 slug = arts[0].parent.name
 import yaml

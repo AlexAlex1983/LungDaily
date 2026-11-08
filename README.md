@@ -28,6 +28,9 @@ No server and no database: state lives in `data/` and articles in `content/posts
 | `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET` | posting from the site's X account |
 | `APIFY_TOKEN` | LinkedIn posts |
 | `LINKEDIN_LI_AT` | optional, LinkedIn keyword search only (cookie of a **separate** LinkedIn account) |
+| `LINKEDIN_ORG_ID` | numeric id of the LungDaily LinkedIn page (posting) |
+| `LINKEDIN_REFRESH_TOKEN`, `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET` | posting to the LinkedIn page (preferred: token renews itself) |
+| `LINKEDIN_ACCESS_TOKEN` | alternative to the three above; expires after 60 days |
 | `NCBI_API_KEY` | optional, faster PubMed |
 | `TELEGRAM_BOT_TOKEN` | bot that posts to the channel and reports to you |
 | `TELEGRAM_CHANNEL` | e.g. `@lungdaily` (bot must be channel admin) |
@@ -46,6 +49,18 @@ LinkedIn's official API cannot read or search other people's posts, so the only 
 Both actors can be swapped with `APIFY_PROFILE_ACTOR` / `APIFY_SEARCH_ACTOR`. The normaliser accepts the field names most LinkedIn actors use.
 
 You can also add posts by hand: if someone sends you a post, add their LinkedIn URL to `voices.yaml`.
+
+### Posting to the LungDaily LinkedIn page
+
+Each new article is shared on the LungDaily company page (headline, summary, source credit, up to 3 hashtags, and a link card with the branded image). It stays switched off until the secrets exist. Setup:
+
+1. Create the **LungDaily** company page on LinkedIn (you must be its admin).
+2. At https://www.linkedin.com/developers/apps create an app, associate it with the LungDaily page, and verify the page.
+3. In the app's **Products** tab request **Community Management API** (LinkedIn reviews this; it can take days or weeks).
+4. When approved, generate a token with the `w_organization_social` scope (Auth tab → OAuth 2.0 tools), signed in as the page admin. Copy the access token and, if offered, the refresh token.
+5. Add GitHub secrets: `LINKEDIN_ORG_ID` (the number in the page admin URL `linkedin.com/company/<number>/admin`), and either `LINKEDIN_REFRESH_TOKEN` + `LINKEDIN_CLIENT_ID` + `LINKEDIN_CLIENT_SECRET` (preferred) or just `LINKEDIN_ACCESS_TOKEN` (renew every 60 days).
+
+Settings: `amplify.linkedin_post`, `linkedin_hashtags`, `linkedin_api_version` in `config/settings.yaml`. Failed posts retry on the next 3 runs; the reason is in the run log.
 
 ## Day-to-day
 

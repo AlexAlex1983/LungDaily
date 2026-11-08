@@ -1,4 +1,4 @@
-"""Share new articles on X and Telegram, and send a run report to your private Telegram chat.
+"""Share new articles on X, LinkedIn (see linkedin_share.py) and Telegram, and send a run report to your private Telegram chat.
 
 X posting uses OAuth 1.0a user context: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET
 (the site's own X account). Telegram: TELEGRAM_BOT_TOKEN, TELEGRAM_CHANNEL (e.g. @lungdaily),
@@ -207,6 +207,17 @@ def run(stats: dict | None = None) -> None:
                 attempts = rec.get("x_attempts", 0) + 1
                 rec["x_attempts"] = attempts
                 retry = attempts < 4  # try again on the next runs, then give up
+        if acfg.get("linkedin_post") and "linkedin" not in shared:
+            from . import linkedin_share
+            if linkedin_share.configured():
+                tags = [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS][: int(acfg.get("linkedin_hashtags", 3))]
+                urn = linkedin_share.post(rec, url, acfg, tags)
+                if urn:
+                    shared["linkedin"] = urn
+                else:
+                    attempts = rec.get("linkedin_attempts", 0) + 1
+                    rec["linkedin_attempts"] = attempts
+                    retry = retry or attempts < 4  # try again on the next runs, then give up
         channel = os.environ.get("TELEGRAM_CHANNEL") or cfg["site"].get("telegram_channel")
         if acfg["telegram_post"] and "telegram" not in shared and channel:
             msg = f"<b>{html.escape(rec['headline'])}</b>\n\n{html.escape(rec['dek'])}\n\n{url}"
