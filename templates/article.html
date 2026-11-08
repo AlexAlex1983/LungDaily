@@ -25,7 +25,9 @@
   <h1>{{ post.headline }}</h1>
   <p class="dek">{{ post.dek }}</p>
   {% set x_embed = post.embed and post.embed.type == "x" and post.embed.url %}
-  {% if x_embed %}
+  {% if post.has_picture %}
+  <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png" alt="" width="1200" height="630">
+  {% elif x_embed %}
   <div class="xpost">
     <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-align="center">
       {% if post.key_quote %}<p>“{{ post.key_quote }}”</p>{% endif %}
@@ -45,7 +47,10 @@
 
   <section class="source">
     <h2>Original source</h2>
-    {% if x_embed %}
+    {% if x_embed and post.has_picture %}
+      <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none"><a href="{{ post.embed.url }}">View the post on X</a></blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% elif x_embed %}
       <a class="sourcecard" href="{{ post.embed.url }}" rel="nofollow noopener" target="_blank">
         <strong>Post by {{ post.source.author_name or "the author" }} on X</strong>
         <span>{{ post.embed.url }}</span>

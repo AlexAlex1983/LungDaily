@@ -81,8 +81,33 @@ from lungdaily.util import DATA as _DATA
 (_DATA / "amplify_queue.json").write_text(_json.dumps([rec["slug"]]))
 amplify.run()
 assert _json.loads(first.read_text())["shared"].get("linkedin") == "urn:li:share:999"
+# LinkedIn-sourced article -> repost of the original
+li = dict(rec, source=dict(rec["source"], source="linkedin", extra={"urn": "urn:li:share:42"}))
+seen = []
+def _post2(url, **kw):
+    seen.append(kw.get("json", {}))
+    return _R(200, {"value": {"uploadUrl": "https://u", "image": "urn:li:image:1"}}) if "initializeUpload" in url \
+        else _R(201, headers={"x-restli-id": "urn:li:share:1000"})
+linkedin_share.requests.post = _post2
+assert linkedin_share.post(li, "https://lungdaily.org/news/x/", {}, []) == "urn:li:share:1000"
+assert seen[-1]["reshareContext"]["parent"] == "urn:li:share:42" and "content" not in seen[-1]
+assert "Read on LungDaily: https://lungdaily.org/news/x/" in seen[-1]["commentary"]
 for k in ("LINKEDIN_ORG_ID", "LINKEDIN_ACCESS_TOKEN"):
     _os.environ.pop(k)
+
+# editor-supplied picture replaces the branded thumbnail and share card
+from PIL import Image as _Img
+from lungdaily import images as _images
+_images.IMAGES.mkdir(parents=True, exist_ok=True)
+_Img.new("RGB", (900, 900), (200, 120, 60)).save(_images.IMAGES / f"{rec['slug']}.jpg")
+build.build()
+_card = _Img.open(site / "cards" / f"{rec['slug']}.png")
+assert _card.size == (1200, 630)
+assert _card.getpixel((600, 120))[0] > 150, "custom picture not used"
+_page = (site / "news" / rec["slug"] / "index.html").read_text()
+assert 'class="hero"' in _page
+(_images.IMAGES / f"{rec['slug']}.jpg").unlink()
+_home = (site / "index.html").read_text()
 
 # takedown
 slug = arts[0].parent.name

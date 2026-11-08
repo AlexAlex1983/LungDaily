@@ -29,6 +29,9 @@ def load_posts() -> list[dict]:
         rec["date"] = parse_date(rec["published_at"])
         rec["html"] = markdown.markdown(html.escape(rec["body"], quote=False))
         rec["category_label"] = CATEGORY_LABELS.get(rec["category"], rec["category"].title())
+        rec["has_picture"] = images.custom_image(rec["slug"]) is not None
+        emb = rec.get("embed") or {}
+        rec["x_embed_url"] = emb.get("url") if emb.get("type") == "x" else None
         posts.append(rec)
     posts.sort(key=lambda r: r["date"], reverse=True)
     return posts
@@ -67,8 +70,13 @@ def build() -> int:
             **ctx, root="../", posts=sel[:60], title=f"{label} — {site['name']}", heading=label, active=cat))
     for p in posts:
         try:
-            images.render(p, OUT / "cards" / f"{p['slug']}.png", p["category_label"])
-            images.render(p, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")
+            pic = images.custom_image(p["slug"])
+            if pic:
+                images.render_custom(p, pic, OUT / "cards" / f"{p['slug']}.png", p["category_label"])
+                images.render_custom(p, pic, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")
+            else:
+                images.render(p, OUT / "cards" / f"{p['slug']}.png", p["category_label"])
+                images.render(p, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")
         except Exception as e:  # a broken image must never stop the site build
             log.warning("Card image failed for %s: %s", p["slug"], e)
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]

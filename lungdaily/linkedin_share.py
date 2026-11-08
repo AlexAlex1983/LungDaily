@@ -9,7 +9,12 @@ Needs a LinkedIn app with the Community Management API product and a token with 
   -> a fresh access token is fetched on every run (refresh tokens last a year).
 
 Each post: headline, short summary, source credit, hashtags, and a link card with the
-branded share image (uploaded from site/cards/<slug>.png).
+share image (uploaded from site/cards/<slug>.png).
+
+If the article's source is itself a LinkedIn post (and amplify.linkedin_reshare_source is on),
+the page reposts the original instead, with our text and article link on top. LinkedIn then
+shows the original author, their photo and their own visual. If the repost is refused, it falls
+back to the normal link post.
 """
 from __future__ import annotations
 
@@ -104,6 +109,15 @@ def upload_image(path, owner: str, token: str, version: str) -> str | None:
     return val.get("image")
 
 
+def reshare_parent(rec: dict) -> str | None:
+    """URN of the source LinkedIn post, if it can be reposted (share or ugcPost URNs only)."""
+    src = rec.get("source") or {}
+    if src.get("source") != "linkedin":
+        return None
+    urn = ((src.get("extra") or {}).get("urn") or "").strip()
+    return urn if urn.startswith(("urn:li:share:", "urn:li:ugcPost:")) else None
+
+
 def post(rec: dict, url: str, cfg: dict, hashtags: list[str]) -> str | None:
     """Publish one article. Returns the post URN, or None on failure / not configured."""
     if not configured():
@@ -127,6 +141,16 @@ def post(rec: dict, url: str, cfg: dict, hashtags: list[str]) -> str | None:
         "lifecycleState": "PUBLISHED",
         "isReshareDisabledByAuthor": False,
     }
+    parent = reshare_parent(rec) if cfg.get("linkedin_reshare_source", True) else None
+    if parent:
+        reshare = {k: v for k, v in body.items() if k != "content"}
+        reshare["commentary"] = (body["commentary"] + "\n\n" + f"Read on LungDaily: {url}")[:2990]
+        reshare["reshareContext"] = {"parent": parent}
+        r = requests.post(f"{API}/posts", headers=_headers(token, version), json=reshare, timeout=30)
+        if r.ok:
+            return r.headers.get("x-restli-id") or r.headers.get("x-linkedin-id") or "reposted"
+        log.warning("LinkedIn repost of %s refused (%s %s) — posting a link instead",
+                    parent, r.status_code, " ".join(r.text.split())[:200])
     r = requests.post(f"{API}/posts", headers=_headers(token, version), json=body, timeout=30)
     if r.status_code >= 400:
         hint = {401: " — token expired or invalid: refresh LINKEDIN_* secrets",

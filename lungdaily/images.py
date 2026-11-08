@@ -1,13 +1,15 @@
 """Branded share images (1200x630) for every article: shown on the site and as X / LinkedIn link cards.
 
-Original graphics only — headline, category, source and the LungDaily mark. No photos of people,
-no AI-generated faces, nothing copied from the source.
+By default: original graphics only — headline, category, source and the LungDaily mark.
+If the editor supplies a picture for an article (content/images/<slug>.jpg|png|webp), that picture
+becomes the background of the thumbnail and the share card, with the LungDaily branding on top.
+Only pictures the editor has the right to use go in that folder.
 """
 from __future__ import annotations
 
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 from .util import ROOT
 
@@ -135,6 +137,61 @@ def render(rec: dict, out: Path, category_label: str, variant: str = "share") ->
         while sf.getlength(src_text) > 640 and len(src_text) > 12:
             src_text = src_text[:-2].rstrip() + "…" if not src_text.endswith("…") else src_text[:-2] + "…"
         d.text((W - pad, fy + 6), src_text, font=sf, fill=SOFT, anchor="rm")
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG", optimize=True)
+    return out
+
+
+IMAGES = ROOT / "content" / "images"
+IMAGE_EXTS = (".jpg", ".jpeg", ".png", ".webp")
+
+
+def custom_image(slug: str) -> Path | None:
+    """Editor-supplied picture for an article, if any."""
+    for ext in IMAGE_EXTS:
+        p = IMAGES / f"{slug}{ext}"
+        if p.exists():
+            return p
+    return None
+
+
+def render_custom(rec: dict, src: Path, out: Path, category_label: str, variant: str = "share") -> Path:
+    """Editor picture, cover-cropped to 1200x630, with category pill and LungDaily footer.
+    variant "share" also puts the headline over a dark gradient; "thumb" keeps the picture clean."""
+    base = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
+    img = ImageOps.fit(base, (W, H), method=Image.LANCZOS, centering=(0.5, 0.4))
+    bg = CATEGORY_BG.get(rec.get("category"), CATEGORY_BG["voices"])
+
+    # dark gradient from the bottom so text stays readable on any picture
+    grad_h = 420 if variant == "share" else 150
+    grad = Image.new("L", (1, grad_h))
+    for y in range(grad_h):
+        grad.putpixel((0, y), int(225 * (y / grad_h) ** 1.4))
+    alpha = grad.resize((W, grad_h))
+    shade = Image.new("RGB", (W, grad_h), (8, 26, 30))
+    img.paste(shade, (0, H - grad_h), alpha)
+    d = ImageDraw.Draw(img)
+
+    pad = 72
+    kf = font("SemiBold", 24)
+    label = category_label.upper()
+    tw = kf.getlength(label)
+    d.rounded_rectangle([pad, 56, pad + tw + 36, 56 + 44], radius=22, fill=CORAL)
+    d.text((pad + 18, 56 + 22), label, font=kf, fill=WHITE, anchor="lm")
+
+    fy = H - 56
+    if variant == "share":
+        f, lines, lh = fit_headline(rec["headline"], W - 2 * pad, 200)
+        y = fy - 40 - len(lines) * lh
+        for line in lines:
+            d.text((pad, y), line, font=f, fill=WHITE)
+            y += lh
+    draw_mark(d, pad + 20, fy, 20, fill=WHITE, bg=(8, 26, 30))
+    bf = font("SemiBold", 30)
+    d.text((pad + 54, fy), "Lung", font=bf, fill=WHITE, anchor="lm")
+    d.text((pad + 54 + bf.getlength("Lung"), fy), "Daily", font=font("Regular", 30), fill=SOFT, anchor="lm")
+    d.text((W - pad, fy), "lungdaily.org", font=font("Medium", 24), fill=SOFT, anchor="rm")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, "PNG", optimize=True)
