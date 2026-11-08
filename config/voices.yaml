@@ -7,6 +7,7 @@
 # Not on X: British Thoracic Society (left X in March 2026, LinkedIn only); IPCRG (no longer active on X).
 # Not found / unverified, so left out: Every Breath Counts coalition, ERS assemblies (no separate accounts found).
 # LinkedIn URLs were checked on 8 Nov 2026 (page name matches). FIRS: no LinkedIn company page found.
+# Individuals below: handles checked on 8 Nov 2026 with the X API (name and bio match).
 
 voices:
   # --- Global bodies, initiatives and forums ---------------------------------------------
@@ -133,6 +134,43 @@ voices:
     linkedin: "https://www.linkedin.com/company/lung-foundation-australia/"
     tier: 2
     tags: [national, patients]
+
+  # --- Individual clinicians and researchers (X handles checked via the X API, 8 Nov 2026) ---
+  - name: "James D Chalmers"
+    x: "ProfJDChalmers"
+    aliases: ["James Chalmers", "Prof James Chalmers"]
+    tier: 1
+    tags: [bronchiectasis, copd, journals]   # Chief Editor, European Respiratory Journal
+  - name: "Nick Hopkinson"
+    x: "COPDdoc"
+    aliases: ["Prof Nick Hopkinson", "Nicholas Hopkinson"]
+    tier: 2
+    tags: [copd, tobacco, policy]
+  - name: "Narjust Florez"
+    x: "NarjustFlorezMD"
+    aliases: ["Dr Narjust Florez"]
+    tier: 2
+    tags: [lung-cancer]
+  - name: "Stephen V Liu"
+    x: "StephenVLiu"
+    aliases: ["Stephen Liu", "Dr Stephen Liu"]
+    tier: 2
+    tags: [lung-cancer]
+  - name: "H. Jack West"
+    x: "JackWestMD"
+    aliases: ["Jack West", "Dr Jack West"]
+    tier: 2
+    tags: [lung-cancer]          # now VP Global Medical Affairs at a company (see X bio)
+  - name: "Roy Herbst"
+    x: "DrRoyHerbst"
+    aliases: ["Dr Roy Herbst"]
+    tier: 2
+    tags: [lung-cancer]
+  - name: "Josh Farkas"
+    x: "PulmCrit"
+    aliases: ["Dr Josh Farkas"]
+    tier: 2
+    tags: [critical-care]
 
   # --- Add leading pulmonologists, lung cancer specialists and respirologists here -------
   # Run reports list "suggested voices": people whose posts scored highly in keyword searches.
