@@ -70,7 +70,3 @@ time,.meta,.small{color:var(--muted);font-size:.82rem}
 .xpost{margin:8px 0 18px;min-height:120px}
 .xpost .twitter-tweet{margin:0 auto!important}
 .xpost blockquote.twitter-tweet{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--paper);font:1rem/1.5 var(--sans);max-width:550px}
-.xvisual{margin:-6px -8px 12px;min-height:140px}
-.xvisual .twitter-tweet{margin:0 auto!important}
-.xvisual blockquote.twitter-tweet{border:1px solid var(--line);border-radius:12px;padding:12px 14px;font:.95rem/1.45 var(--sans);background:#fff}
-.lead .xvisual{margin:16px;align-self:center}

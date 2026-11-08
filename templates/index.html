@@ -1,13 +1,4 @@
 {% extends "base.html" %}
-{% macro visual(p, cls="thumb") -%}
-  {% if p.x_embed_url and not p.has_picture -%}
-  <div class="xvisual"><blockquote class="twitter-tweet" data-dnt="true" data-conversation="none">
-    {% if p.key_quote %}<p>“{{ p.key_quote }}”</p>{% endif %}— {{ p.source.author_name or "Post" }} <a href="{{ p.x_embed_url }}">View on X</a>
-  </blockquote></div>
-  {%- else -%}
-  <a class="{{ cls }}" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png" alt="" loading="lazy"></a>
-  {%- endif %}
-{%- endmacro %}
 {% block content %}
 {% if heading %}<h1 class="section-title">{{ heading }}</h1>{% else %}<h1 class="visually-hidden">{{ site.name }}: {{ site.tagline }}</h1><p class="intro">{{ site.description }}</p>{% endif %}
 {% if not posts %}
@@ -15,7 +6,7 @@
 {% else %}
   {% set lead = posts[0] %}
   <article class="lead cat-{{ lead.category }}">
-    {{ visual(lead) }}
+    <a class="thumb" href="{{ root }}news/{{ lead.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ lead.slug }}.png" alt="" loading="lazy"></a>
     <div class="lead-body">
     <a class="kicker" href="{{ root }}{{ lead.category }}/">{{ lead.category_label }}</a>
     <h2><a href="{{ root }}news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
@@ -26,7 +17,7 @@
   <div class="grid">
   {% for p in posts[1:] %}
     <article class="card cat-{{ p.category }}">
-      {{ visual(p) }}
+      <a class="thumb" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png" alt="" loading="lazy"></a>
       <a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
       <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
       <p class="dek">{{ p.dek }}</p>
@@ -34,6 +25,5 @@
     </article>
   {% endfor %}
   </div>
-  {% if posts|selectattr("x_embed_url")|list %}<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>{% endif %}
 {% endif %}
 {% endblock %}
