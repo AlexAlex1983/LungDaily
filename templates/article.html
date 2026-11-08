@@ -6,11 +6,11 @@
 <meta property="og:title" content="{{ post.headline }}">
 <meta property="og:description" content="{{ post.dek }}">
 <meta property="og:url" content="{{ base }}/news/{{ post.slug }}/">
-<meta property="og:image" content="{{ base }}/cards/{{ post.slug }}.png">
+<meta property="og:image" content="{{ base }}/cards/{{ post.slug }}.png?v={{ build_id }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ base }}/cards/{{ post.slug }}.png">
+<meta name="twitter:image" content="{{ base }}/cards/{{ post.slug }}.png?v={{ build_id }}">
 {% if site.x_handle %}<meta name="twitter:site" content="@{{ site.x_handle }}">{% endif %}
 <script type="application/ld+json">
 {{ {"@context": "https://schema.org", "@type": "NewsArticle", "headline": post.headline, "description": post.dek,
@@ -26,7 +26,7 @@
   <p class="dek">{{ post.dek }}</p>
   {% set x_embed = post.embed and post.embed.type == "x" and post.embed.url %}
   {% if post.has_picture %}
-  <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png" alt="" width="1200" height="630">
+  <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png?v={{ build_id }}" alt="" width="1200" height="630">
   {% elif x_embed %}
   <div class="xpost">
     <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-align="center">
@@ -36,7 +36,7 @@
   </div>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   {% else %}
-  <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png" alt="" width="1200" height="630">
+  <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png?v={{ build_id }}" alt="" width="1200" height="630">
   {% endif %}
   <p class="meta"><time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time>
     · Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
