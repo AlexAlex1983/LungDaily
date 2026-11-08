@@ -64,7 +64,7 @@ Settings: `amplify.linkedin_post`, `linkedin_hashtags`, `linkedin_api_version` i
 
 ## Pictures
 
-- **Articles from an X post** show the original post (author photo, name, text, any image) via X's official embed: at the top of the article and as the visual in the homepage and section lists. On X, LungDaily quotes the original post, so X shows it too.
+- **Articles from an X post** show the original post (author photo, name, text, any image) via X's official embed: at the top of the article page (lists keep the branded thumbnail). On X, LungDaily quotes the original post, so X shows it too.
 - **Articles from a LinkedIn post** are reposted on the LungDaily LinkedIn page (`amplify.linkedin_reshare_source`), so LinkedIn shows the original author and visual.
 - **Your own picture for an article:** put it in `content/images/` named after the article slug, e.g. `content/images/2026-11-08-some-article.jpg` (jpg, png or webp, ideally at least 1200x630). The next build uses it as the article picture, the list thumbnail and the share card (with the LungDaily branding and headline on top). Use only pictures you have the right to use. Already-sent X posts keep their old card.
 
