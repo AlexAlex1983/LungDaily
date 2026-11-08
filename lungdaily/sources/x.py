@@ -119,8 +119,10 @@ def collect() -> list[dict]:
 
 def lookup_handles(handles: list[str]) -> list[str]:
     """Verify X handles: returns 'handle | name | followers | bio' lines (or 'handle | NOT FOUND')."""
+    import re
     token = (os.environ.get("X_BEARER_TOKEN") or "").strip()
-    out = []
+    out = [f"{h} | INVALID HANDLE" for h in handles if not re.fullmatch(r"[A-Za-z0-9_]{1,15}", h)]
+    handles = [h for h in handles if re.fullmatch(r"[A-Za-z0-9_]{1,15}", h)]
     for start in range(0, len(handles), 100):
         chunk = handles[start:start + 100]
         r = requests.get("https://api.x.com/2/users/by", headers={"Authorization": f"Bearer {token}"},
