@@ -160,7 +160,9 @@ def render_custom(rec: dict, src: Path, out: Path, category_label: str, variant:
     """Editor picture, cover-cropped to 1200x630, with category pill and LungDaily footer.
     variant "share" also puts the headline over a dark gradient; "thumb" keeps the picture clean."""
     base = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
-    img = ImageOps.fit(base, (W, H), method=Image.LANCZOS, centering=(0.5, 0.4))
+    # portrait pictures: keep the upper part (faces sit near the top); landscape: near centre
+    cy = 0.15 if base.height > base.width else 0.4
+    img = ImageOps.fit(base, (W, H), method=Image.LANCZOS, centering=(0.5, cy))
     bg = CATEGORY_BG.get(rec.get("category"), CATEGORY_BG["voices"])
 
     # dark gradient from the bottom so text stays readable on any picture
