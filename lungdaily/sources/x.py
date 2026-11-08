@@ -115,3 +115,27 @@ def collect() -> list[dict]:
         log.info("X %s query: %d posts", kind, len(data.get("data", [])))
     write_json(STATE, state)
     return items
+
+
+def lookup_handles(handles: list[str]) -> list[str]:
+    """Verify X handles: returns 'handle | name | followers | bio' lines (or 'handle | NOT FOUND')."""
+    token = (os.environ.get("X_BEARER_TOKEN") or "").strip()
+    out = []
+    for start in range(0, len(handles), 100):
+        chunk = handles[start:start + 100]
+        r = requests.get("https://api.x.com/2/users/by", headers={"Authorization": f"Bearer {token}"},
+                         params={"usernames": ",".join(chunk), "user.fields": "name,description,public_metrics"},
+                         timeout=30)
+        if not r.ok:
+            out.append(f"lookup failed: {r.status_code} {r.text[:200]}")
+            continue
+        js = r.json()
+        found = {u["username"].lower(): u for u in js.get("data", [])}
+        for h in chunk:
+            u = found.get(h.lower())
+            if u:
+                bio = " ".join((u.get("description") or "").split())[:160]
+                out.append(f"{u['username']} | {u['name']} | {u['public_metrics']['followers_count']} | {bio}")
+            else:
+                out.append(f"{h} | NOT FOUND")
+    return out

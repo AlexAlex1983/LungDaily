@@ -36,6 +36,17 @@ limits:
   max_articles_per_day: 12
   max_item_age_hours: 72
 
+selection:                        # how the best items are chosen each run
+  max_per_author_per_run: 1       # one article per account/author per run
+  max_per_author_per_day: 2       # so a prolific journal or society cannot fill the site
+  person_boost: 0.5               # individuals rank slightly above organisations at equal score
+  category_boost:                 # help under-served sections
+    people: 1.0
+    approvals: 1.0
+  min_score_by_category:          # lower bar for these sections (others use limits.min_score)
+    people: 6
+    approvals: 6
+
 publishing:
   auto_publish: true              # false = everything goes to the held queue for you to release
   require_checker_pass: true      # articles failing the fact-check are held, never published

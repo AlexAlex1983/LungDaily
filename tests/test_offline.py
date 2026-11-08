@@ -114,6 +114,20 @@ _os.environ.pop("MAKE_LINKEDIN_WEBHOOK")
 for k in ():
     _os.environ.pop(k)
 
+# fair selection: one per author per run, boosts for people/approvals and individuals
+def _it(i, h, score, cat="research", at="organisation"):
+    return {"id": str(i), "author_handle": h, "source": "x", "metrics": {}, "extra": {},
+            "triage": {"score": score, "category": cat, "author_type": at}}
+_sel = {"max_per_author_per_run": 1, "max_per_author_per_day": 2, "person_boost": 0.5,
+        "category_boost": {"people": 1.0}}
+_c = [_it(1, "ERSpublications", 9), _it(2, "ERSpublications", 9), _it(3, "ERSpublications", 8.5),
+      _it(4, "drsmith", 8, at="person"), _it(5, "society", 7, cat="people")]
+_c.sort(key=lambda i: process.rank(i, _sel), reverse=True)
+_ch, _rest = process.pick(_c, 3, _sel)
+_ids = [i["id"] for i in _ch]
+assert _ids.count("1") + _ids.count("2") + _ids.count("3") == 1, _ids
+assert "4" in _ids and "5" in _ids, _ids
+
 # editor-supplied picture replaces the branded thumbnail and share card
 from PIL import Image as _Img
 from lungdaily import images as _images

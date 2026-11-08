@@ -35,9 +35,17 @@ Score each item 0-10 for whether it deserves its own short news article:
 
 Also assign one category: voices | research | policy | approvals | people | events.
 Use "voices" for social posts where the person's own view or work is the story.
+Use "approvals" for regulatory decisions (FDA, EMA/CHMP, MHRA, NMPA, PMDA, WHO prequalification),
+label expansions, new devices or drugs reaching patients, and phase 2/3 trial readouts (topline
+results, trial starts or stops) in respiratory disease — including from company press releases,
+but score marketing-only items low.
+Use "people" for appointments, elections (society presidents, editors, chairs), awards and honours,
+retirements and obituaries of people in the respiratory field.
+Also give author_type: "person" (an individual clinician, researcher, advocate or patient),
+"organisation" (society, journal, agency, company, charity) or "media" (news outlet).
 If an item repeats a story already in RECENT HEADLINES, set duplicate=true.
 
-Return ONLY JSON: [{"id": "...", "score": 0-10, "category": "...", "duplicate": false, "reason": "<12 words"}]"""
+Return ONLY JSON: [{"id": "...", "score": 0-10, "category": "...", "author_type": "person|organisation|media", "duplicate": false, "reason": "<12 words"}]"""
 
 WRITER_SYSTEM = """You write short news articles for LungDaily from a single source
 (a social media post, a paper abstract, or a news/RSS item).
@@ -173,6 +181,7 @@ def triage(items: list[dict]) -> None:
             r = by_id.get(i["id"])
             if r:
                 i["triage"] = {"score": float(r.get("score", 0)), "category": r.get("category", "voices"),
+                               "author_type": r.get("author_type", ""),
                                "duplicate": bool(r.get("duplicate")), "reason": r.get("reason", "")}
 
 
@@ -250,6 +259,47 @@ def publish_record(rec: dict) -> None:
     write_json(AMPLIFY_QUEUE, q)
 
 
+def author_key(item: dict) -> str:
+    return ((item.get("author_handle") or item.get("author_name") or "").strip().lower()
+            or (item.get("source") or "") + ":" + (item.get("extra", {}).get("feed") or ""))
+
+
+def rank(item: dict, sel: dict) -> float:
+    """Triage score plus small boosts: under-served sections, individual voices."""
+    t = item["triage"]
+    boost = float((sel.get("category_boost") or {}).get(t["category"], 0))
+    if t.get("author_type") == "person":
+        boost += float(sel.get("person_boost", 0))
+    return t["score"] + boost
+
+
+def authors_today() -> dict:
+    today, out = now().date(), {}
+    for p in _all_posts():
+        if (parse_date(p.get("published_at")) or now()).date() == today:
+            k = author_key(p.get("source") or {})
+            out[k] = out.get(k, 0) + 1
+    return out
+
+
+def pick(candidates: list[dict], room: int, sel: dict) -> tuple[list[dict], list[dict]]:
+    """Best-ranked items, but at most N per author per run / per day, so one prolific
+    account (e.g. a journal) cannot fill the site."""
+    per_run = int(sel.get("max_per_author_per_run", 1))
+    per_day = int(sel.get("max_per_author_per_day", 2))
+    counts = authors_today()
+    run_counts: dict = {}
+    chosen, rest = [], []
+    for i in candidates:
+        k = author_key(i)
+        if len(chosen) < room and run_counts.get(k, 0) < per_run and counts.get(k, 0) + run_counts.get(k, 0) < per_day:
+            chosen.append(i)
+            run_counts[k] = run_counts.get(k, 0) + 1
+        else:
+            rest.append(i)
+    return chosen, rest
+
+
 def run() -> dict:
     cfg = settings()
     lim, pub = cfg["limits"], cfg["publishing"]
@@ -258,17 +308,19 @@ def run() -> dict:
 
     note_suggestions(inbox)
     cutoff = now() - dt.timedelta(hours=lim["max_item_age_hours"])
+    sel = cfg.get("selection") or {}
+    min_by_cat = sel.get("min_score_by_category") or {}
     keep, candidates = [], []
     for i in inbox:
         t = i.get("triage")
         if t is None:  # triage failed — retry next run
             keep.append(i)
-        elif t["score"] >= lim["min_score"] and not t["duplicate"]:
+        elif t["score"] >= float(min_by_cat.get(t["category"], lim["min_score"])) and not t["duplicate"]:
             candidates.append(i)
-    candidates.sort(key=lambda i: (i["triage"]["score"], sum(i["metrics"].values())), reverse=True)
+    candidates.sort(key=lambda i: (rank(i, sel), sum(i["metrics"].values())), reverse=True)
 
     room = min(lim["max_articles_per_run"], max(0, lim["max_articles_per_day"] - published_today()))
-    to_write, leftover = candidates[:room], candidates[room:]
+    to_write, leftover = pick(candidates, room, sel)
     # good items over the cap wait for the next run unless too old
     keep += [i for i in leftover if (parse_date(i.get("collected_at")) or now()) >= cutoff]
 

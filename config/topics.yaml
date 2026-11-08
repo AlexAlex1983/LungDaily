@@ -41,3 +41,13 @@ rss_feeds:
     url: "https://news.google.com/rss/search?q=%22lung+cancer+screening%22+when:2d&hl=en&gl=US&ceid=US:en"
   - name: "Google News — air pollution health"
     url: "https://news.google.com/rss/search?q=%22air+pollution%22+lungs+when:2d&hl=en&gl=US&ceid=US:en"
+  # --- Approvals & Trials ---
+  - name: "Google News — respiratory approvals"
+    url: "https://news.google.com/rss/search?q=(FDA+OR+EMA+OR+CHMP+OR+MHRA)+(approves+OR+approval+OR+recommends)+(COPD+OR+asthma+OR+%22lung+cancer%22+OR+bronchiectasis+OR+%22pulmonary+fibrosis%22+OR+%22cystic+fibrosis%22+OR+RSV)+when:3d&hl=en&gl=US&ceid=US:en"
+  - name: "Google News — respiratory trial results"
+    url: "https://news.google.com/rss/search?q=(%22phase+3%22+OR+%22phase+III%22+OR+%22topline+results%22+OR+%22phase+2%22)+(COPD+OR+asthma+OR+bronchiectasis+OR+%22pulmonary+fibrosis%22+OR+%22lung+cancer%22)+when:3d&hl=en&gl=US&ceid=US:en"
+  # --- People ---
+  - name: "Google News — respiratory appointments"
+    url: "https://news.google.com/rss/search?q=(appointed+OR+%22named+president%22+OR+%22elected+president%22+OR+%22new+CEO%22+OR+%22editor-in-chief%22)+(respiratory+OR+thoracic+OR+pulmonology+OR+%22lung+foundation%22+OR+%22lung+association%22)+when:7d&hl=en&gl=US&ceid=US:en"
+  - name: "Google News — respiratory awards"
+    url: "https://news.google.com/rss/search?q=(award+OR+honoured+OR+honored+OR+obituary)+(pulmonologist+OR+%22respiratory+physician%22+OR+%22thoracic+society%22+OR+%22lung+researcher%22)+when:7d&hl=en&gl=US&ceid=US:en"
