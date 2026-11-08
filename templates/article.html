@@ -24,7 +24,18 @@
   <a class="kicker" href="{{ root }}{{ post.category }}/">{{ post.category_label }}</a>
   <h1>{{ post.headline }}</h1>
   <p class="dek">{{ post.dek }}</p>
+  {% set x_embed = post.embed and post.embed.type == "x" and post.embed.url %}
+  {% if x_embed %}
+  <div class="xpost">
+    <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-align="center">
+      {% if post.key_quote %}<p>“{{ post.key_quote }}”</p>{% endif %}
+      — {{ post.source.author_name or "Post" }} <a href="{{ post.embed.url }}">View the post on X</a>
+    </blockquote>
+  </div>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  {% else %}
   <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png" alt="" width="1200" height="630">
+  {% endif %}
   <p class="meta"><time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time>
     · Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
 
@@ -34,9 +45,11 @@
 
   <section class="source">
     <h2>Original source</h2>
-    {% if post.embed.type == "x" %}
-      <blockquote class="twitter-tweet" data-dnt="true"><a href="{{ post.embed.url }}">View the post on X</a></blockquote>
-      <script async src="https://platform.twitter.com/widgets.js"></script>
+    {% if x_embed %}
+      <a class="sourcecard" href="{{ post.embed.url }}" rel="nofollow noopener" target="_blank">
+        <strong>Post by {{ post.source.author_name or "the author" }} on X</strong>
+        <span>{{ post.embed.url }}</span>
+      </a>
     {% elif post.embed.type == "linkedin" and post.embed.embed_url %}
       <iframe src="{{ post.embed.embed_url }}" height="560" width="100%" frameborder="0" allowfullscreen title="LinkedIn post"></iframe>
     {% else %}
