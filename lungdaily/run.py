@@ -5,6 +5,8 @@
   python -m lungdaily.run process
   python -m lungdaily.run build
   python -m lungdaily.run amplify
+  python -m lungdaily.run linkedin-test    send the newest article to the Make webhook once (setup)
+  python -m lungdaily.run linkedin         share new articles on the LinkedIn page (after deploy)
   python -m lungdaily.run follow           follow relevant respiratory accounts on X
   python -m lungdaily.run release <slug> publish a held article
   python -m lungdaily.run discard <slug> drop a held article
@@ -30,6 +32,12 @@ def main(argv: list[str]) -> int:
         build.build()
     elif cmd == "amplify":
         amplify.run()
+    elif cmd == "linkedin-test":
+        from . import linkedin_share
+        return 0 if linkedin_share.send_test() else 3
+    elif cmd == "linkedin":
+        from . import linkedin_share
+        linkedin_share.run_pending()
     elif cmd == "follow":
         follow.run()
     elif cmd == "all":

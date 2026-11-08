@@ -48,7 +48,9 @@ amplify:
   x_mention_authors: true         # tag the source author, accounts they tagged, and followed voices named in the article
   x_max_mentions: 3               # at most this many @tags per post
   x_hashtags: 2                   # topic hashtags per post (#COPD, #Asthma...), 0 to switch off
-  linkedin_post: true             # post each article on the LungDaily LinkedIn page (only once LINKEDIN_* secrets exist)
+  linkedin_post: true             # post new articles on the LungDaily LinkedIn page, after deploy (via Make: MAKE_LINKEDIN_WEBHOOK)
+  linkedin_max_per_day: 8         # keeps Make's free plan (about 1,000 operations/month) in range
+  linkedin_window_hours: 36       # only articles published within this window are shared
   linkedin_org_id: "146950505"    # LungDaily LinkedIn page (linkedin.com/company/146950505)
   linkedin_reshare_source: true   # LinkedIn-sourced articles: repost the original (shows author photo + their visual)
   linkedin_hashtags: 3            # topic hashtags per LinkedIn post

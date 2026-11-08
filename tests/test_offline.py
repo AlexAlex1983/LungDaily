@@ -77,9 +77,8 @@ _os.environ.update(LINKEDIN_ORG_ID="123", LINKEDIN_ACCESS_TOKEN="t")
 first = sorted(_POSTS.glob("*.json"))[0]
 rec = _json.loads(first.read_text())
 assert linkedin_share.post(rec, "https://lungdaily.org/news/x/", {}, ["COPD"]) == "urn:li:share:999"
-from lungdaily.util import DATA as _DATA
-(_DATA / "amplify_queue.json").write_text(_json.dumps([rec["slug"]]))
-amplify.run()
+# post-deploy runner, direct API route
+assert linkedin_share.run_pending() >= 1
 assert _json.loads(first.read_text())["shared"].get("linkedin") == "urn:li:share:999"
 # LinkedIn-sourced article -> repost of the original
 li = dict(rec, source=dict(rec["source"], source="linkedin", extra={"urn": "urn:li:share:42"}))
@@ -92,7 +91,27 @@ linkedin_share.requests.post = _post2
 assert linkedin_share.post(li, "https://lungdaily.org/news/x/", {}, []) == "urn:li:share:1000"
 assert seen[-1]["reshareContext"]["parent"] == "urn:li:share:42" and "content" not in seen[-1]
 assert "Read on LungDaily: https://lungdaily.org/news/x/" in seen[-1]["commentary"]
+# Make.com route: webhook gets text with link + hashtags and the live card image URL
 for k in ("LINKEDIN_ORG_ID", "LINKEDIN_ACCESS_TOKEN"):
+    _os.environ.pop(k)
+_os.environ["MAKE_LINKEDIN_WEBHOOK"] = "https://hook.make.example/abc"
+hooks = []
+def _post3(url, **kw):
+    hooks.append((url, kw["json"]))
+    return _R(200)
+linkedin_share.requests.post = _post3
+for f in _POSTS.glob("*.json"):
+    d = _json.loads(f.read_text()); d.pop("shared", None); f.write_text(_json.dumps(d))
+n_li = linkedin_share.run_pending()
+assert n_li >= 3 and len(hooks) == n_li, (n_li, len(hooks))
+u, pl = hooks[0]
+assert u == "https://hook.make.example/abc"
+assert "Read more: https://" in pl["text"] and pl["image_url"].split("?")[0].endswith(".png")
+assert all(_json.loads(f.read_text())["shared"]["linkedin"] == "make" for f in _POSTS.glob("*.json")
+           if _json.loads(f.read_text()).get("status") == "published")
+assert linkedin_share.run_pending() == 0, "must not post twice"
+_os.environ.pop("MAKE_LINKEDIN_WEBHOOK")
+for k in ():
     _os.environ.pop(k)
 
 # editor-supplied picture replaces the branded thumbnail and share card

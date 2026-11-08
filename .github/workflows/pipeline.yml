@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: "all = full run · release/discard = act on a held article · build = rebuild site only"
+        description: "all = full run · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make"
         type: choice
-        options: [all, release, discard, build]
+        options: [all, release, discard, build, linkedin-test]
         default: all
       slug:
         description: "Article slug (for release/discard)"
@@ -52,6 +52,7 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           LINKEDIN_LI_AT: ${{ secrets.LINKEDIN_LI_AT }}
           LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          MAKE_LINKEDIN_WEBHOOK: ${{ secrets.MAKE_LINKEDIN_WEBHOOK }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
           LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
           LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
@@ -64,6 +65,8 @@ jobs:
           ACTION="${{ github.event.inputs.action || 'all' }}"
           if [ "$ACTION" = "release" ] || [ "$ACTION" = "discard" ]; then
             python -m lungdaily.run "$ACTION" "${{ github.event.inputs.slug }}"
+            python -m lungdaily.run build
+          elif [ "$ACTION" = "linkedin-test" ]; then
             python -m lungdaily.run build
           elif [ "$ACTION" = "build" ]; then
             python -m lungdaily.run build
@@ -85,3 +88,23 @@ jobs:
 
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Share on LinkedIn (after deploy, so images are online)
+        if: ${{ github.event.inputs.action != 'discard' }}
+        env:
+          MAKE_LINKEDIN_WEBHOOK: ${{ secrets.MAKE_LINKEDIN_WEBHOOK }}
+          LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_REFRESH_TOKEN: ${{ secrets.LINKEDIN_REFRESH_TOKEN }}
+          LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+          LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+        run: |
+          sleep 60
+          if [ "${{ github.event.inputs.action }}" = "linkedin-test" ]; then
+            python -m lungdaily.run linkedin-test
+            exit 0
+          fi
+          python -m lungdaily.run linkedin
+          git add content
+          git diff --cached --quiet || git commit -m "linkedin: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q origin main && git push

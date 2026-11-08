@@ -31,6 +31,7 @@ No server and no database: state lives in `data/` and articles in `content/posts
 | `LINKEDIN_ORG_ID` | numeric id of the LungDaily LinkedIn page (posting) |
 | `LINKEDIN_REFRESH_TOKEN`, `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET` | posting to the LinkedIn page (preferred: token renews itself) |
 | `LINKEDIN_ACCESS_TOKEN` | alternative to the three above; expires after 60 days |
+| `MAKE_LINKEDIN_WEBHOOK` | Make.com webhook URL that posts to the LungDaily LinkedIn page |
 | `NCBI_API_KEY` | optional, faster PubMed |
 | `TELEGRAM_BOT_TOKEN` | bot that posts to the channel and reports to you |
 | `TELEGRAM_CHANNEL` | e.g. `@lungdaily` (bot must be channel admin) |
@@ -50,7 +51,15 @@ Both actors can be swapped with `APIFY_PROFILE_ACTOR` / `APIFY_SEARCH_ACTOR`. Th
 
 You can also add posts by hand: if someone sends you a post, add their LinkedIn URL to `voices.yaml`.
 
-### Posting to the LungDaily LinkedIn page
+### Posting to the LungDaily LinkedIn page via Make.com (in use)
+
+After each deploy, the pipeline sends new articles (published in the last 36 h, max 8 a day) to a Make.com webhook. Make downloads the share card and creates a Company Image Post on the LungDaily page. Make already has LinkedIn's approval for page posting, so no LinkedIn developer app review is needed.
+
+Payload fields: `text` (headline, summary, source, "Read more" link, hashtags), `text_escaped` (same, LinkedIn-escaped), `image_url`, `url`, `title`, `summary`, `slug`, `category`.
+
+Setup: Make scenario = **Webhooks › Custom webhook** → **HTTP › Download a file** (`image_url`) → **LinkedIn › Create a Company Image Post** (LungDaily page, text = `text`, image = the downloaded file). Put the webhook URL in the GitHub secret `MAKE_LINKEDIN_WEBHOOK`. To let Make learn the data structure, run the workflow with `linkedin-test` (sends the newest article once, marks nothing).
+
+### Posting via our own LinkedIn app (alternative; needs LinkedIn approval of a registered business)
 
 Each new article is shared on the LungDaily company page (headline, summary, source credit, up to 3 hashtags, and a link card with the branded image). It stays switched off until the secrets exist. Setup:
 

@@ -1,4 +1,11 @@
-"""Share new articles on the LungDaily LinkedIn page (Posts API, organisation as author).
+"""Share new articles on the LungDaily LinkedIn page. Runs AFTER the site is deployed
+(python -m lungdaily.run linkedin), so the share-card image is already online.
+
+Route 1 (in use): Make.com. Secret MAKE_LINKEDIN_WEBHOOK = URL of a Make "Custom webhook".
+The Make scenario downloads image_url and creates a Company Image Post with `text`.
+Make holds LinkedIn's page-posting approval, so no LinkedIn developer app review is needed.
+
+Route 2 (only if LinkedIn ever approves our own app): Posts API, organisation as author.
 
 Needs a LinkedIn app with the Community Management API product and a token with the
 `w_organization_social` scope, issued by a page admin. Secrets:
@@ -168,3 +175,108 @@ def post(rec: dict, url: str, cfg: dict, hashtags: list[str]) -> str | None:
         log.warning("LinkedIn posting failed: %s %s%s", r.status_code, " ".join(r.text.split())[:400], hint)
         return None
     return r.headers.get("x-restli-id") or r.headers.get("x-linkedin-id") or "posted"
+
+
+# --- Make.com route + post-deploy runner ------------------------------------------------
+
+def make_webhook() -> str:
+    return _env("MAKE_LINKEDIN_WEBHOOK")
+
+
+def plain_text(rec: dict, url: str, hashtags: list[str]) -> str:
+    parts = [rec["headline"]]
+    if rec.get("dek"):
+        parts.append(rec["dek"])
+    author = (rec.get("source") or {}).get("author_name")
+    if author:
+        parts.append(f"Source: {author}")
+    parts.append(f"Read more: {url}")
+    tags = " ".join("#" + re.sub(r"[^0-9A-Za-z]", "", t.lstrip("#")) for t in hashtags if t)
+    if tags.strip("# "):
+        parts.append(tags)
+    return "\n\n".join(parts)[:2900]
+
+
+def post_via_make(rec: dict, url: str, image_url: str, hashtags: list[str]) -> str | None:
+    text = plain_text(rec, url, hashtags)
+    payload = {
+        "slug": rec["slug"], "url": url, "title": rec["headline"], "summary": rec.get("dek", ""),
+        "text": text, "text_escaped": escape(text),
+        "image_url": image_url, "category": rec.get("category_label") or rec.get("category"),
+    }
+    r = requests.post(make_webhook(), json=payload, timeout=60)
+    if r.status_code >= 400:
+        log.warning("LinkedIn via Make failed: %s %s", r.status_code, " ".join(r.text.split())[:300])
+        return None
+    return "make"
+
+
+def run_pending() -> int:
+    """Post recently published articles that are not yet on LinkedIn. Returns number posted."""
+    import datetime as dt
+    from .amplify import HASHTAGS
+    from .util import POSTS, now, parse_date, read_json, settings, write_json
+    cfg = settings()
+    acfg, base = cfg["amplify"], cfg["site"]["base_url"].rstrip("/")
+    if not acfg.get("linkedin_post"):
+        return 0
+    use_make, use_api = bool(make_webhook()), configured()
+    if not (use_make or use_api):
+        log.info("LinkedIn: no MAKE_LINKEDIN_WEBHOOK or LinkedIn API credentials, skipping")
+        return 0
+    window = now() - dt.timedelta(hours=int(acfg.get("linkedin_window_hours", 36)))
+    day_ago = now() - dt.timedelta(hours=24)
+    recs = []
+    for p in POSTS.glob("*.json"):
+        rec = read_json(p, {})
+        if rec.get("status") == "published":
+            recs.append((p, rec))
+    done_24h = sum(1 for _, r in recs if (parse_date((r.get("shared") or {}).get("linkedin_at")) or window) > day_ago)
+    cap = int(acfg.get("linkedin_max_per_day", 8))
+    todo = [(p, r) for p, r in recs
+            if "linkedin" not in (r.get("shared") or {}) and r.get("linkedin_attempts", 0) < 4
+            and (parse_date(r.get("published_at")) or window) > window]
+    todo.sort(key=lambda pr: pr[1].get("published_at", ""))
+    posted = 0
+    stamp = now().strftime("%Y%m%d%H%M")
+    for p, rec in todo:
+        if done_24h + posted >= cap:
+            log.info("LinkedIn: daily cap of %d reached, rest wait for the next run", cap)
+            break
+        url = f"{base}/news/{rec['slug']}/"
+        tags = [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS][: int(acfg.get("linkedin_hashtags", 3))]
+        if use_make:
+            res = post_via_make(rec, url, f"{base}/cards/{rec['slug']}.png?v={stamp}", tags)
+        else:
+            res = post(rec, url, acfg, tags)
+        shared = rec.setdefault("shared", {})
+        if res:
+            shared["linkedin"] = res
+            shared["linkedin_at"] = now().isoformat(timespec="seconds")
+            posted += 1
+            log.info("LinkedIn: shared %s", rec["slug"])
+        else:
+            rec["linkedin_attempts"] = rec.get("linkedin_attempts", 0) + 1
+        write_json(p, rec)
+    return posted
+
+
+def send_test() -> bool:
+    """Send the newest article to the Make webhook (so Make learns the data structure). Marks nothing."""
+    from .amplify import HASHTAGS
+    from .util import POSTS, now, read_json, settings
+    if not make_webhook():
+        log.warning("LinkedIn test: MAKE_LINKEDIN_WEBHOOK secret is not set")
+        return False
+    cfg = settings()
+    base = cfg["site"]["base_url"].rstrip("/")
+    recs = [read_json(p, {}) for p in POSTS.glob("*.json")]
+    recs = sorted((r for r in recs if r.get("status") == "published"), key=lambda r: r.get("published_at", ""))
+    if not recs:
+        return False
+    rec = recs[-1]
+    tags = [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS][:3]
+    ok = post_via_make(rec, f"{base}/news/{rec['slug']}/",
+                       f"{base}/cards/{rec['slug']}.png?v={now().strftime('%Y%m%d%H%M')}", tags)
+    log.info("LinkedIn test sent to Make: %s (%s)", bool(ok), rec["slug"])
+    return bool(ok)
