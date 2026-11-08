@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 2,
+    "seen": 3,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -10,7 +10,7 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 2,
+    "seen": 3,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
     "followers": 47382
@@ -18,7 +18,7 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 2,
+    "seen": 3,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
     "followers": 33460
@@ -26,34 +26,34 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 2,
+    "seen": 3,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
-    "followers": 21299
+    "followers": 21298
   },
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 1,
+    "seen": 2,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13819
+    "followers": 13820
   },
   "lungassociation": {
     "id": "17049255",
     "username": "LungAssociation",
-    "seen": 1,
+    "seen": 2,
     "name": "American Lung Association",
     "bio": "American Lung Association is the leading organization working to save lives by improving #lunghealth and preventing lung disease. #breathe #breath #lungs",
-    "followers": 44420
+    "followers": 44418
   },
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 1,
+    "seen": 2,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42204
+    "followers": 42205
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -82,10 +82,10 @@
   "profjdchalmers": {
     "id": "1155952820966703105",
     "username": "ProfJDChalmers",
-    "seen": 1,
+    "seen": 2,
     "name": "James D Chalmers",
     "bio": "Rhodes Chair of Experimental Therapeutics, University of Oxford. Chief Editor of the European Respiratory Journal. Tweets in a personal capacity",
-    "followers": 9299
+    "followers": 9300
   },
   "drbreatheeasy": {
     "id": "1028440041998241792",
@@ -126,5 +126,29 @@
     "name": "Richard Conway",
     "bio": "Rheumatologist @stjamesdublin , Associate Professor @tcddublin , Acute Medicine, Vasculitis, ILD, @rheum_covid CASC",
     "followers": 5725
+  },
+  "stephenvliu": {
+    "id": "377425889",
+    "username": "StephenVLiu",
+    "seen": 1,
+    "name": "Stephen V Liu, MD",
+    "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
+    "followers": 30851
+  },
+  "narjustflorezmd": {
+    "id": "855372288455311360",
+    "username": "NarjustFlorezMD",
+    "seen": 1,
+    "name": "Narjust Florez, MD, FASCO",
+    "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
+    "followers": 25576
+  },
+  "pulmcrit": {
+    "id": "873314053",
+    "username": "PulmCrit",
+    "seen": 1,
+    "name": "Josh Farkas MD 💊",
+    "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
+    "followers": 65483
   }
 }
