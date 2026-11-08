@@ -59,6 +59,8 @@ Payload fields: `text` (headline, summary, source, "Read more" link, hashtags), 
 
 Setup: Make scenario = **Webhooks › Custom webhook** → **HTTP › Download a file** (`image_url`) → **LinkedIn › Create a Company Image Post** (LungDaily page, text = `text`, image = the downloaded file). Put the webhook URL in the GitHub secret `MAKE_LINKEDIN_WEBHOOK`. To let Make learn the data structure, run the workflow with `linkedin-test` (sends the newest article once, marks nothing).
 
+**Tagging organisations on LinkedIn:** add `linkedin_id` (the page's numeric id) to a voice in `config/voices.yaml`, and optionally `linkedin_name` (the exact page name). The post then tags the source organisation ("Source: @…") and up to 2 more organisations named in the article ("Featuring: @…"). LinkedIn's API cannot tag individual people. To find a page's id: open the page, click "See all … employees", and copy the number in the address after `currentCompany=%5B%22`.
+
 ### Posting via our own LinkedIn app (alternative; needs LinkedIn approval of a registered business)
 
 Each new article is shared on the LungDaily company page (headline, summary, source credit, up to 3 hashtags, and a link card with the branded image). It stays switched off until the secrets exist. Setup:

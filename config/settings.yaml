@@ -64,7 +64,8 @@ amplify:
   linkedin_window_hours: 36       # only articles published within this window are shared
   linkedin_org_id: "146950505"    # LungDaily LinkedIn page (linkedin.com/company/146950505)
   linkedin_reshare_source: true   # LinkedIn-sourced articles: repost the original (shows author photo + their visual)
-  linkedin_hashtags: 3            # topic hashtags per LinkedIn post
+  linkedin_hashtags: 3            # topic hashtags per LinkedIn post (clickable)
+  linkedin_max_mentions: 3        # organisations tagged per LinkedIn post (needs linkedin_id in voices.yaml)
   linkedin_api_version: "202610"  # LinkedIn-Version header (YYYYMM); LinkedIn retires versions after ~1 year
   telegram_post: false
   telegram_admin_report: false    # run report to your private chat: published + held items

@@ -114,6 +114,24 @@ _os.environ.pop("MAKE_LINKEDIN_WEBHOOK")
 for k in ():
     _os.environ.pop(k)
 
+# LinkedIn organisation tags (little text) — uses linkedin_id from voices.yaml
+import yaml as _y
+_vp = Path("config/voices.yaml"); _vd = _y.safe_load(_vp.read_text())
+_vd["voices"].append({"name": "Global Initiative for Asthma", "aliases": ["GINA"], "x": "ginasthma", "linkedin_id": 111})
+_vd["voices"].append({"name": "European Respiratory Society", "aliases": ["ERS"], "linkedin_id": 222})
+_vp.write_text(_y.safe_dump(_vd))
+_r = {"headline": "GINA (2026) report out", "dek": "New report.", "body": "ERS welcomed it.", "people": [],
+      "source": {"author_name": "GINA", "author_handle": "ginasthma"}, "slug": "x"}
+_m = linkedin_share.linkedin_mentions(_r)
+assert _m[0] == ("Global Initiative for Asthma", "urn:li:organization:111", True), _m
+assert ("European Respiratory Society", "urn:li:organization:222", False) in _m, _m
+_t = linkedin_share.little_text(_r, "https://lungdaily.org/news/x/", ["COPD"], _m)
+assert "Source: @[Global Initiative for Asthma](urn:li:organization:111)" in _t, _t
+assert "Featuring: @[European Respiratory Society](urn:li:organization:222)" in _t, _t
+assert "GINA \\(2026\\)" in _t and "{hashtag|\\#|COPD}" in _t, _t
+_r2 = dict(_r, source={"author_name": "Medical Xpress"})
+assert "Source: Medical Xpress" in linkedin_share.little_text(_r2, "u", [], linkedin_share.linkedin_mentions(_r2))
+
 # fair selection: one per author per run, boosts for people/approvals and individuals
 def _it(i, h, score, cat="research", at="organisation"):
     return {"id": str(i), "author_handle": h, "source": "x", "metrics": {}, "extra": {},

@@ -197,11 +197,67 @@ def plain_text(rec: dict, url: str, hashtags: list[str]) -> str:
     return "\n\n".join(parts)[:2900]
 
 
-def post_via_make(rec: dict, url: str, image_url: str, hashtags: list[str]) -> str | None:
+def linkedin_mentions(rec: dict, limit: int = 3) -> list[tuple[str, str, bool]]:
+    """Organisations to tag on LinkedIn: the source author (if an organisation with a known
+    linkedin_id in voices.yaml), then voices named in the article. Returns [(name, urn, is_source)].
+    LinkedIn's API can tag organisations only, not individual people."""
+    from .util import load_yaml
+    voices = [v for v in load_yaml("voices.yaml").get("voices", []) if v.get("linkedin_id")]
+    opt = load_yaml("optout.yaml")
+    blocked = {u.lower().rstrip("/") for u in opt.get("linkedin_urls") or []} | {n.lower() for n in opt.get("names") or []}
+    src = rec.get("source") or {}
+    out: list[tuple[str, str, bool]] = []
+
+    def add(v, is_source=False):
+        urn = f"urn:li:organization:{str(v['linkedin_id']).strip()}"
+        if (v.get("linkedin") or "").lower().rstrip("/") in blocked or v.get("name", "").lower() in blocked:
+            return
+        if urn not in {m[1] for m in out}:
+            out.append((v.get("linkedin_name") or v["name"], urn, is_source))
+
+    def names(v):
+        return [n for n in [v.get("name", ""), v.get("linkedin_name", "")] + list(v.get("aliases") or []) if n]
+
+    handle = (src.get("author_handle") or "").lower()
+    author = (src.get("author_name") or "").lower()
+    for v in voices:
+        if (handle and handle == (v.get("x") or "").lower()) or (author and author in [n.lower() for n in names(v)]):
+            add(v, is_source=True)
+    text = " ".join([rec.get("headline", ""), rec.get("body", ""), " ".join(rec.get("people") or [])])
+    for v in voices:
+        if any(re.search(rf"(?<!\w){re.escape(n)}(?!\w)", text) for n in names(v)):
+            add(v)
+    return out[:limit]
+
+
+def little_text(rec: dict, url: str, hashtags: list[str], mentions: list[tuple[str, str, bool]]) -> str:
+    """Post text in LinkedIn's little-text format: escaped text, clickable organisation tags
+    and clickable hashtags."""
+    parts = [escape(rec["headline"])]
+    if rec.get("dek"):
+        parts.append(escape(rec["dek"]))
+    src = rec.get("source") or {}
+    author = src.get("author_name")
+    tag = lambda m: f"@[{escape(m[0])}]({m[1]})"
+    src_mention = next((m for m in mentions if m[2]), None)
+    if author:
+        parts.append("Source: " + (tag(src_mention) if src_mention else escape(author)))
+    others = [m for m in mentions if not m[2]]
+    if others:
+        parts.append("Featuring: " + " ".join(tag(m) for m in others))
+    parts.append(escape("Read more: ") + url)
+    hs = " ".join(h for h in (hashtag(t) for t in hashtags) if h)
+    if hs:
+        parts.append(hs)
+    return "\n\n".join(parts)[:2900]
+
+
+def post_via_make(rec: dict, url: str, image_url: str, hashtags: list[str], max_mentions: int = 3) -> str | None:
     text = plain_text(rec, url, hashtags)
+    mentions = linkedin_mentions(rec, max_mentions)
     payload = {
         "slug": rec["slug"], "url": url, "title": rec["headline"], "summary": rec.get("dek", ""),
-        "text": text, "text_escaped": escape(text),
+        "text": text, "text_escaped": little_text(rec, url, hashtags, mentions),
         "image_url": image_url, "category": rec.get("category_label") or rec.get("category"),
     }
     r = requests.post(make_webhook(), json=payload, timeout=60)
@@ -246,7 +302,8 @@ def run_pending() -> int:
         url = f"{base}/news/{rec['slug']}/"
         tags = [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS][: int(acfg.get("linkedin_hashtags", 3))]
         if use_make:
-            res = post_via_make(rec, url, f"{base}/cards/{rec['slug']}.png?v={stamp}", tags)
+            res = post_via_make(rec, url, f"{base}/cards/{rec['slug']}.png?v={stamp}", tags,
+                                int(acfg.get("linkedin_max_mentions", 3)))
         else:
             res = post(rec, url, acfg, tags)
         shared = rec.setdefault("shared", {})
