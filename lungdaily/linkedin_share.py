@@ -3,7 +3,7 @@
 Needs a LinkedIn app with the Community Management API product and a token with the
 `w_organization_social` scope, issued by a page admin. Secrets:
 
-* LINKEDIN_ORG_ID          numeric id of the LungDaily company page (from the admin URL)
+* LINKEDIN_ORG_ID          numeric id of the LungDaily company page (or amplify.linkedin_org_id in settings.yaml)
 * LINKEDIN_ACCESS_TOKEN    access token (lasts 60 days), OR, preferred, all three of:
 * LINKEDIN_REFRESH_TOKEN, LINKEDIN_CLIENT_ID, LINKEDIN_CLIENT_SECRET
   -> a fresh access token is fetched on every run (refresh tokens last a year).
@@ -34,10 +34,18 @@ def _env(name: str) -> str:
     return (os.environ.get(name) or "").strip()
 
 
+def org_id() -> str:
+    """LungDaily page id: LINKEDIN_ORG_ID secret, else amplify.linkedin_org_id in settings.yaml."""
+    if _env("LINKEDIN_ORG_ID"):
+        return _env("LINKEDIN_ORG_ID")
+    from .util import settings
+    return str((settings().get("amplify") or {}).get("linkedin_org_id") or "").strip()
+
+
 def configured() -> bool:
     has_token = _env("LINKEDIN_ACCESS_TOKEN") or all(
         _env(k) for k in ("LINKEDIN_REFRESH_TOKEN", "LINKEDIN_CLIENT_ID", "LINKEDIN_CLIENT_SECRET"))
-    return bool(_env("LINKEDIN_ORG_ID") and has_token)
+    return bool(org_id() and has_token)
 
 
 def access_token() -> str | None:
@@ -127,7 +135,7 @@ def post(rec: dict, url: str, cfg: dict, hashtags: list[str]) -> str | None:
     if not token:
         return None
     version = str(cfg.get("linkedin_api_version") or "202610")
-    owner = f"urn:li:organization:{_env('LINKEDIN_ORG_ID')}"
+    owner = f"urn:li:organization:{org_id()}"
     article = {"source": url, "title": rec["headline"][:200], "description": (rec.get("dek") or "")[:250]}
     image = upload_image(ROOT / "site" / "cards" / f"{rec['slug']}.png", owner, token, version)
     if image:
