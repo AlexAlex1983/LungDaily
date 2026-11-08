@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 1,
+    "seen": 2,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33459
+    "followers": 33460
   },
   "iaslc": {
     "id": "61241883",
@@ -102,5 +102,21 @@
     "name": "Allergic Living",
     "bio": "Food allergy, celiac and asthma coverage from a dedicated team of journalists.",
     "followers": 19632
+  },
+  "aldrinau": {
+    "id": "42855210",
+    "username": "AldrinAU",
+    "seen": 1,
+    "name": "A.𝙰𝚍𝚎𝚗𝚒🫁🧢",
+    "bio": "Thoracic medicine & asthma physician. Loves family, 🍫,🍦,🍣, ☕️, and @ChelseaFC supporter since 95’ #CFC. Views are my own. 💬🦋https://t.co/VdNciJaNLj",
+    "followers": 1183
+  },
+  "eaaci_jm": {
+    "id": "2239844702",
+    "username": "EAACI_JM",
+    "seen": 1,
+    "name": "EAACI JM",
+    "bio": "Junior Members of the #EAACI (European Academy of #Allergy and Clinical #Immunology) #asthma #communication #education #research #patientcare #EAACIJM",
+    "followers": 3960
   }
 }
