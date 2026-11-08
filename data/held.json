@@ -84,5 +84,101 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-08-chronic-pulmonary-aspergillosis-markedly-affects-quality-of-life-but-n",
+    "headline": "Chronic pulmonary aspergillosis markedly affects quality of life, but no disease-specific monitoring tool exists",
+    "dek": "ERS publications said on X that existing tools for monitoring health-related quality of life in chronic pulmonary aspergillosis lack specificity or validity, highlighting the need for a CPA-specific measure.",
+    "body": "Chronic pulmonary aspergillosis (CPA) has a profound effect on health-related quality of life (HRQoL), according to a summary posted by ERS publications on X.\n\nThe post states that the tools currently available for monitoring HRQoL in the condition have shortcomings. According to the summary, existing instruments lack disease specificity, are complex, or have limited validity.\n\nOn that basis, the summary highlights the need for an HRQoL tool designed specifically for CPA. The post does not describe how such a tool might be developed or what it would contain.\n\nERS publications posted the summary on 7 November 2026, with links to further material. The post itself does not give details of the study design, participants or results, and it does not name the authors or the specific journal.",
+    "key_quote": "existing monitoring tools lack disease specificity, are complex or have limited validity",
+    "tags": [
+      "diagnostics",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-08T18:49:11+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The headline says \"no disease-specific monitoring tool exists\", which the source does not state. The post says existing tools \"lack disease specificity, are complex or have limited validity\". The \"or\" implies some tools may be disease-specific but complex or of limited validity. The need for a CPA-specific tool does not establish that none exists, so the headline overstates the source."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2119008262007779338",
+      "url": "https://x.com/ERSpublications/status/2119008262007779338"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2119008262007779338",
+      "source": "x",
+      "url": "https://x.com/ERSpublications/status/2119008262007779338",
+      "title": "",
+      "author_name": "ERS publications",
+      "author_handle": "ERSpublications",
+      "author_url": "https://x.com/ERSpublications",
+      "published_at": "2026-11-07T10:05:13+00:00",
+      "extra": {
+        "tweet_id": "2119008262007779338",
+        "query_kind": "voices",
+        "links": [
+          "https://bit.ly/4uFPBLQ",
+          "https://x.com/ERSpublications/status/2119008262007779338/photo/1"
+        ],
+        "author_followers": 33453
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-08-nurse-led-protocolled-asthma-care-improved-control-in-children-in-prim",
+    "headline": "Nurse-led protocolled asthma care improved control in children in primary care",
+    "dek": "A study in ERJ Open Research reports better asthma control in children receiving protocolled, nurse-led care in primary care, according to ERS publications.",
+    "body": "Protocolled, nurse-led asthma care improved asthma control in children treated in primary care, according to a study published in ERJ Open Research and highlighted in a post on X by ERS publications.\n\nThe post described the work as the first study to assess nurse-led asthma care in children in primary care. It said that protocolled care \"significantly improved asthma control using validated measures and spirometry.\"\n\nAccording to the post, the small number of visits required makes implementation feasible. The post did not state how many children took part, their ages, the size of the improvement or how long they were followed.\n\nERS publications lists its titles as the European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and the European Lung White Book. The post includes links, but this report is based only on the text of the post.",
+    "key_quote": "Protocolled care significantly improved asthma control using validated measures and spirometry.",
+    "tags": [
+      "asthma",
+      "paediatrics",
+      "primary-care",
+      "trial"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-08T18:49:27+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The tag \"trial\" is not supported by the source. The post only says \"study\" and gives no design, so labelling it a trial asserts a study design the source does not state. The body text itself is accurate and the quote is verbatim."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2119007012675518529",
+      "url": "https://x.com/ERSpublications/status/2119007012675518529"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2119007012675518529",
+      "source": "x",
+      "url": "https://x.com/ERSpublications/status/2119007012675518529",
+      "title": "",
+      "author_name": "ERS publications",
+      "author_handle": "ERSpublications",
+      "author_url": "https://x.com/ERSpublications",
+      "published_at": "2026-11-07T10:00:15+00:00",
+      "extra": {
+        "tweet_id": "2119007012675518529",
+        "query_kind": "voices",
+        "links": [
+          "https://bit.ly/4rEUfYB",
+          "https://x.com/ERSpublications/status/2119007012675518529/photo/1"
+        ],
+        "author_followers": 33453
+      }
+    },
+    "status": "held"
   }
 ]

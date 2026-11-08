@@ -2,18 +2,18 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 1,
+    "seen": 2,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
-    "followers": 1834
+    "followers": 1835
   },
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 1,
+    "seen": 2,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47381
+    "followers": 47382
   },
   "erspublications": {
     "id": "424241621",
@@ -26,7 +26,7 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 1,
+    "seen": 2,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
     "followers": 21299
@@ -118,5 +118,13 @@
     "name": "EAACI JM",
     "bio": "Junior Members of the #EAACI (European Academy of #Allergy and Clinical #Immunology) #asthma #communication #education #research #patientcare #EAACIJM",
     "followers": 3960
+  },
+  "richardpaconway": {
+    "id": "847882911135223809",
+    "username": "RichardPAConway",
+    "seen": 1,
+    "name": "Richard Conway",
+    "bio": "Rheumatologist @stjamesdublin , Associate Professor @tcddublin , Acute Medicine, Vasculitis, ILD, @rheum_covid CASC",
+    "followers": 5725
   }
 }
