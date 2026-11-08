@@ -103,6 +103,34 @@
     "AldrinAU": {
       "at": "2026-11-08T18:04:52+00:00",
       "why": "respiratory bio"
+    },
+    "COPDdoc": {
+      "at": "2026-11-08T22:28:40+00:00",
+      "why": "followed voice"
+    },
+    "NarjustFlorezMD": {
+      "at": "2026-11-08T22:28:40+00:00",
+      "why": "followed voice"
+    },
+    "StephenVLiu": {
+      "at": "2026-11-08T22:28:40+00:00",
+      "why": "followed voice"
+    },
+    "JackWestMD": {
+      "at": "2026-11-08T22:28:41+00:00",
+      "why": "followed voice"
+    },
+    "DrRoyHerbst": {
+      "at": "2026-11-08T22:28:41+00:00",
+      "why": "followed voice"
+    },
+    "PulmCrit": {
+      "at": "2026-11-08T22:28:41+00:00",
+      "why": "followed voice"
+    },
+    "RichardPAConway": {
+      "at": "2026-11-08T22:28:41+00:00",
+      "why": "respiratory bio"
     }
   },
   "failed": {},
