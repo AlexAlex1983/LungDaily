@@ -80,6 +80,17 @@ Settings: `amplify.linkedin_post`, `linkedin_hashtags`, `linkedin_api_version` i
 - **Your own picture for an article:** put it in `content/images/` named after the article slug, e.g. `content/images/2026-11-08-some-article.jpg` (jpg, png or webp, ideally at least 1200x630). The next build uses it as the article picture, the list thumbnail and the share card (with the LungDaily branding and headline on top). Use only pictures you have the right to use. Already-sent X posts keep their old card.
 - **Picture from a URL:** Actions → Pipeline → Run workflow → `add-image`, with the article slug, `image_url` (direct link to the file) and optionally `image_credit` (shown under the picture, e.g. `NASA Worldview`). It downloads the picture into `content/images/` and rebuilds. Optional credit lines live in `content/images/<slug>.credit.txt`.
 
+## Publishing schedule
+
+Articles go out one at a time at fixed slots (`publishing.slots` in `config/settings.yaml`, Europe/Berlin time):
+07:00, 09:00, 10:00, 10:30, 11:00, 11:30, 11:45, 14:00, 15:00, 15:30, 16:00, 16:30, 16:45, 17:30, 18:00, 21:00.
+
+- **Write runs** (06:07, 09:07, 12:07, 15:07, 18:07, 21:07) collect, triage, write and fact-check, and put passing articles in a ready queue (`status: ready` in `content/posts/`, not on the site). They top the queue up to `ready_buffer` (6).
+- **Publish runs** (one per slot) publish ONE ready article — best score first, avoiding the same author twice in a row — then rebuild, post on X and send to LinkedIn. No Claude cost.
+- Catch-up: if a GitHub run is late or skipped, the next run publishes the missed slot (still one per run). Ready articles older than 36 h expire.
+- GitHub cron is UTC: the slot crons in `pipeline.yml` are written for CET (UTC+1). When summer time starts (last Sunday of March) shift them one hour earlier, or the slots run an hour late.
+- To go back to publishing straight away, delete `slots` from settings.yaml.
+
 ## Day-to-day
 
 - **Nothing is required day to day:** the pipeline runs, publishes and reports to you on Telegram.

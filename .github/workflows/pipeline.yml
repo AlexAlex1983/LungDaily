@@ -2,14 +2,21 @@ name: Pipeline
 
 on:
   schedule:
-    # 06:00, 09:00, 12:00, 15:00, 18:00, 21:00 CET (05:00–20:00 UTC)
+    # WRITE runs (collect + write into the ready queue): 06:07, 09:07, 12:07, 15:07, 18:07, 21:07 CET
     - cron: "7 5,8,11,14,17,20 * * *"
+    # PUBLISH slots, one article each (UTC = CET-1; in summer time they fire 1 h later local):
+    # 07:00 09:00 10:00 11:00 14:00 15:00 16:00 18:00 21:00 CET
+    - cron: "0 6,8,9,10,13,14,15,17,20 * * *"
+    # 10:30 11:30 15:30 16:30 17:30 CET
+    - cron: "30 9,10,14,15,16 * * *"
+    # 11:45 16:45 CET
+    - cron: "45 10,15 * * *"
   workflow_dispatch:
     inputs:
       action:
-        description: "all = full run · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build"
+        description: "all = full run · publish-slot = publish one ready article if a slot is due · write = collect + write into ready queue · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build"
         type: choice
-        options: [all, release, discard, build, linkedin-test, check-handles, add-image]
+        options: [all, publish-slot, write, release, discard, build, linkedin-test, check-handles, add-image]
         default: all
       slug:
         description: "Article slug (for release/discard/add-image)"
@@ -71,7 +78,11 @@ jobs:
           IN_IMAGE_URL: ${{ github.event.inputs.image_url }}
           IN_IMAGE_CREDIT: ${{ github.event.inputs.image_credit }}
         run: |
-          ACTION="${{ github.event.inputs.action || 'all' }}"
+          ACTION="${{ github.event.inputs.action }}"
+          if [ -z "$ACTION" ]; then
+            if [ "${{ github.event.schedule }}" = "7 5,8,11,14,17,20 * * *" ]; then ACTION=write; else ACTION=publish-slot; fi
+          fi
+          echo "Action: $ACTION"
           if [ "$ACTION" = "release" ] || [ "$ACTION" = "discard" ]; then
             python -m lungdaily.run "$ACTION" "${{ github.event.inputs.slug }}"
             python -m lungdaily.run build
@@ -83,6 +94,8 @@ jobs:
           elif [ "$ACTION" = "add-image" ]; then
             python -m lungdaily.run add-image "$IN_SLUG" "$IN_IMAGE_URL" "$IN_IMAGE_CREDIT"
             python -m lungdaily.run build
+          elif [ "$ACTION" = "write" ] || [ "$ACTION" = "publish-slot" ]; then
+            python -m lungdaily.run "$ACTION"
           elif [ "$ACTION" = "build" ]; then
             python -m lungdaily.run build
           else

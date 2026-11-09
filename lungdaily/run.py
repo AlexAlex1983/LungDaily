@@ -1,6 +1,8 @@
 """Command line entry point.
 
   python -m lungdaily.run all            collect -> process -> amplify (then build separately or with --build)
+  python -m lungdaily.run write          collect -> write articles into the ready queue (scheduled mode)
+  python -m lungdaily.run publish-slot   publish one ready article if a slot is due, then build + share
   python -m lungdaily.run collect
   python -m lungdaily.run process
   python -m lungdaily.run build
@@ -48,8 +50,18 @@ def main(argv: list[str]) -> int:
     elif cmd == "all":
         collect.run()
         stats = process.run()
+        process.publish_slot()
         build.build()
         amplify.run(stats)
+    elif cmd == "write":
+        collect.run()
+        stats = process.run()
+        build.build()
+        amplify.run(stats)
+    elif cmd == "publish-slot":
+        process.publish_slot()
+        build.build()
+        amplify.run()
     elif cmd == "add-image" and len(argv) > 2:
         images.add_image(argv[1], argv[2], argv[3] if len(argv) > 3 else "")
     elif cmd in ("release", "discard") and len(argv) > 1:

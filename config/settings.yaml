@@ -32,8 +32,8 @@ limits:
   rss_max_per_feed: 15
   triage_batch_size: 20
   min_score: 7                    # 0–10; items below this are dropped
-  max_articles_per_run: 4
-  max_articles_per_day: 12
+  max_articles_per_run: 6         # articles WRITTEN per write run (they wait in the ready queue)
+  max_articles_per_day: 20        # articles written per day (16 slots + a little spare)
   max_item_age_hours: 72
 
 selection:                        # how the best items are chosen each run
@@ -52,6 +52,13 @@ publishing:
   require_checker_pass: true      # articles failing the fact-check are held, never published
   min_body_words: 90
   max_body_words: 320
+  # Scheduled publishing: one article per slot (local time below). Write runs (6x/day) fill a
+  # ready queue; publish runs put out ONE article each. Remove `slots` to publish straight away.
+  timezone: "Europe/Berlin"       # CET/CEST
+  slots: ["07:00", "09:00", "10:00", "10:30", "11:00", "11:30", "11:45", "14:00",
+          "15:00", "15:30", "16:00", "16:30", "16:45", "17:30", "18:00", "21:00"]
+  ready_buffer: 6                 # write runs top the ready queue up to this many articles
+  ready_max_age_hours: 36         # ready articles older than this are dropped (status "expired")
 
 amplify:
   x_post: true                    # post each article from the site's X account

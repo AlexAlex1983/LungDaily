@@ -41,7 +41,17 @@ assert added == len(items) - 1, added  # opted-out author excluded (LinkedIn rep
 assert collect.add_items(items) == 0, "dedupe failed"
 stats = process.run()
 print("stats:", stats)
-assert stats["published"] >= 3, stats
+assert stats.get("ready", 0) >= 3 and stats["published"] == 0, stats
+# scheduled publishing: one ready article per due slot (10:00 UTC = 11:00 CET -> 5 slots due)
+import os as _o
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T05:30:00+00:00"   # 06:30 CET: no slot due yet
+assert process.publish_slot() is None
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
+_pub = [process.publish_slot() for _ in range(stats["ready"])]
+assert all(_pub) and len(set(_pub)) == len(_pub), _pub
+assert process.publish_slot() is None          # queue empty
+assert read_json(DATA / "slots.json", {})["count"] == len(_pub)
+stats["published"] = len(_pub)
 n = build.build()
 amplify.run(stats)  # no credentials -> no-ops
 site = Path("site")

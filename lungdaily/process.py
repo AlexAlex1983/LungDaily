@@ -17,6 +17,7 @@ INBOX = DATA / "inbox.json"
 HELD = DATA / "held.json"
 SUGGESTED = DATA / "suggested_voices.json"
 AMPLIFY_QUEUE = DATA / "amplify_queue.json"
+SLOTS_STATE = DATA / "slots.json"
 
 # ---------------------------------------------------------------- prompts
 
@@ -129,7 +130,25 @@ def recent_headlines(days: int = 4) -> list[str]:
 
 def published_today() -> int:
     today = now().date()
-    return sum(1 for p in _all_posts() if (parse_date(p.get("published_at")) or now()).date() == today)
+    return sum(1 for p in _all_posts() if p.get("status") == "published"
+               and (parse_date(p.get("published_at")) or now()).date() == today)
+
+
+def written_today() -> int:
+    """Articles written today (published or waiting in the ready queue)."""
+    today = now().date()
+    return sum(1 for p in _all_posts() if p.get("status") in ("published", "ready")
+               and (parse_date(p.get("created_at")) or now()).date() == today)
+
+
+def ready_posts() -> list[dict]:
+    return [p for p in _all_posts() if p.get("status") == "ready"]
+
+
+def save_ready(rec: dict) -> None:
+    """Article passed the checks; it waits for the next publishing slot."""
+    rec["status"] = "ready"
+    write_json(POSTS / f"{rec['slug']}.json", rec)
 
 
 def _source_text(item: dict) -> str:
@@ -276,7 +295,9 @@ def rank(item: dict, sel: dict) -> float:
 def authors_today() -> dict:
     today, out = now().date(), {}
     for p in _all_posts():
-        if (parse_date(p.get("published_at")) or now()).date() == today:
+        if p.get("status") not in ("published", "ready"):
+            continue
+        if (parse_date(p.get("published_at") or p.get("created_at")) or now()).date() == today:
             k = author_key(p.get("source") or {})
             out[k] = out.get(k, 0) + 1
     return out
@@ -319,7 +340,12 @@ def run() -> dict:
             candidates.append(i)
     candidates.sort(key=lambda i: (rank(i, sel), sum(i["metrics"].values())), reverse=True)
 
-    room = min(lim["max_articles_per_run"], max(0, lim["max_articles_per_day"] - published_today()))
+    if pub.get("slots"):   # scheduled mode: keep a small buffer of ready articles for the slots
+        room = min(lim["max_articles_per_run"],
+                   max(0, int(pub.get("ready_buffer", 6)) - len(ready_posts())),
+                   max(0, lim["max_articles_per_day"] - written_today()))
+    else:
+        room = min(lim["max_articles_per_run"], max(0, lim["max_articles_per_day"] - published_today()))
     to_write, leftover = pick(candidates, room, sel)
     # good items over the cap wait for the next run unless too old
     keep += [i for i in leftover if (parse_date(i.get("collected_at")) or now()) >= cutoff]
@@ -354,9 +380,14 @@ def run() -> dict:
                                                  "author_url", "published_at", "extra")},
         }
         if pub["auto_publish"] and (verdict["pass"] or not pub["require_checker_pass"]):
-            publish_record(rec)
-            stats["published"] += 1
-            log.info("Published: %s", rec["headline"])
+            if pub.get("slots"):
+                save_ready(rec)
+                stats["ready"] = stats.get("ready", 0) + 1
+                log.info("Ready for next slot: %s", rec["headline"])
+            else:
+                publish_record(rec)
+                stats["published"] += 1
+                log.info("Published: %s", rec["headline"])
         else:
             rec["status"] = "held"
             held.append(rec)
@@ -383,6 +414,60 @@ def note_suggestions(items: list[dict]) -> None:
         e["hits"] += 1
         e["last_seen"] = now().isoformat(timespec="seconds")
     write_json(SUGGESTED, sug)
+
+
+def _local_now(tz: str) -> dt.datetime:
+    from zoneinfo import ZoneInfo
+    return now().astimezone(ZoneInfo(tz))
+
+
+def publish_slot() -> str | None:
+    """Publish ONE ready article if a publishing slot is due (settings: publishing.slots, local time).
+    Catch-up rule: if fewer slot articles went out today than slots have passed, publish one.
+    So a late or skipped GitHub run is made up at the next run, but never more than one per run."""
+    pub = settings()["publishing"]
+    slots = sorted(pub.get("slots") or [])
+    if not slots:
+        return None
+    local = _local_now(pub.get("timezone", "Europe/Berlin"))
+    hhmm = local.strftime("%H:%M")
+    due = sum(1 for s in slots if s <= hhmm)
+    state = read_json(SLOTS_STATE, {})
+    today = local.date().isoformat()
+    done = state.get("count", 0) if state.get("date") == today else 0
+    # drop ready articles that waited too long
+    max_age = float(pub.get("ready_max_age_hours", 36))
+    ready = []
+    for r in ready_posts():
+        made = parse_date(r.get("created_at")) or now()
+        if (now() - made).total_seconds() > max_age * 3600:
+            r["status"] = "expired"
+            write_json(POSTS / f"{r['slug']}.json", r)
+            log.info("Expired (not published in time): %s", r["headline"])
+        else:
+            ready.append(r)
+    if done >= due:
+        log.info("Slot: nothing due at %s (%d of %d slots used today, %d ready)", hhmm, done, due, len(ready))
+        return None
+    if not ready:
+        log.info("Slot due at %s but no ready article", hhmm)
+        return None
+    # best first; at equal score the older one; avoid the same author twice in a row
+    ready.sort(key=lambda r: (-float(r.get("score") or 0), r.get("created_at") or ""))
+    last = sorted((p for p in _all_posts() if p.get("status") == "published"),
+                  key=lambda p: p.get("published_at") or "")
+    last_author = author_key(last[-1].get("source") or {}) if last else None
+    rec = next((r for r in ready if author_key(r.get("source") or {}) != last_author), ready[0])
+    # slug carries the publication date
+    old = rec["slug"]
+    date = now().date().isoformat()
+    if not old.startswith(date):
+        (POSTS / f"{old}.json").unlink(missing_ok=True)
+        rec["slug"] = _unique_slug(f"{date}-{old[11:]}")
+    publish_record(rec)
+    write_json(SLOTS_STATE, {"date": today, "count": done + 1})
+    log.info("Slot %d/%d published: %s", done + 1, len(slots), rec["headline"])
+    return rec["slug"]
 
 
 def release(slug: str) -> bool:
