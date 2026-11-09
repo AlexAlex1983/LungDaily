@@ -7,12 +7,18 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: "all = full run · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated)"
+        description: "all = full run · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build"
         type: choice
-        options: [all, release, discard, build, linkedin-test, check-handles]
+        options: [all, release, discard, build, linkedin-test, check-handles, add-image]
         default: all
       slug:
-        description: "Article slug (for release/discard)"
+        description: "Article slug (for release/discard/add-image)"
+        required: false
+      image_url:
+        description: "add-image: direct URL of a picture we have the right to use (jpg/png/webp)"
+        required: false
+      image_credit:
+        description: "add-image: credit line shown under the picture, e.g. NASA Worldview"
         required: false
 
 permissions:
@@ -61,6 +67,9 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL: ${{ secrets.TELEGRAM_CHANNEL }}
           TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+          IN_SLUG: ${{ github.event.inputs.slug }}
+          IN_IMAGE_URL: ${{ github.event.inputs.image_url }}
+          IN_IMAGE_CREDIT: ${{ github.event.inputs.image_credit }}
         run: |
           ACTION="${{ github.event.inputs.action || 'all' }}"
           if [ "$ACTION" = "release" ] || [ "$ACTION" = "discard" ]; then
@@ -70,6 +79,9 @@ jobs:
             python -m lungdaily.run check-handles "${{ github.event.inputs.slug }}"
             python -m lungdaily.run build
           elif [ "$ACTION" = "linkedin-test" ]; then
+            python -m lungdaily.run build
+          elif [ "$ACTION" = "add-image" ]; then
+            python -m lungdaily.run add-image "$IN_SLUG" "$IN_IMAGE_URL" "$IN_IMAGE_CREDIT"
             python -m lungdaily.run build
           elif [ "$ACTION" = "build" ]; then
             python -m lungdaily.run build

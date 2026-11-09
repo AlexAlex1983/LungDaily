@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import sys
 
-from . import amplify, build, collect, follow, process
+from . import amplify, build, collect, follow, images, process
 from .util import log
 
 
@@ -50,6 +50,8 @@ def main(argv: list[str]) -> int:
         stats = process.run()
         build.build()
         amplify.run(stats)
+    elif cmd == "add-image" and len(argv) > 2:
+        images.add_image(argv[1], argv[2], argv[3] if len(argv) > 3 else "")
     elif cmd in ("release", "discard") and len(argv) > 1:
         ok = (process.release if cmd == "release" else process.discard)(argv[1])
         log.info("%s %s: %s", cmd, argv[1], "done" if ok else "not found in held queue")

@@ -27,6 +27,7 @@
   {% set x_embed = post.embed and post.embed.type == "x" and post.embed.url %}
   {% if post.has_picture %}
   <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png?v={{ build_id }}" alt="" width="1200" height="630">
+  {% if post.picture_credit %}<p class="credit">Image: {{ post.picture_credit }}</p>{% endif %}
   {% elif x_embed %}
   <div class="xpost">
     <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none" data-align="center">

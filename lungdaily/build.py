@@ -30,6 +30,7 @@ def load_posts() -> list[dict]:
         rec["html"] = markdown.markdown(html.escape(rec["body"], quote=False))
         rec["category_label"] = CATEGORY_LABELS.get(rec["category"], rec["category"].title())
         rec["has_picture"] = images.custom_image(rec["slug"]) is not None
+        rec["picture_credit"] = images.custom_credit(rec["slug"]) if rec["has_picture"] else ""
         emb = rec.get("embed") or {}
         rec["x_embed_url"] = emb.get("url") if emb.get("type") == "x" else None
         posts.append(rec)

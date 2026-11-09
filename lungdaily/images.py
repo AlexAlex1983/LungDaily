@@ -156,6 +156,41 @@ def custom_image(slug: str) -> Path | None:
     return None
 
 
+def add_image(slug: str, url: str, credit: str = "") -> Path:
+    """Download a picture (that the editor has the right to use) as the picture for an article."""
+    import io
+    import urllib.request
+
+    slug = slug.strip()
+    if not (ROOT / "content" / "posts" / f"{slug}.json").exists():
+        raise SystemExit(f"No article with slug {slug!r}")
+    req = urllib.request.Request(url.strip(), headers={"User-Agent": "LungDaily-bot/1.0 (+https://lungdaily.org)"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = r.read()
+    img = Image.open(io.BytesIO(data))
+    img.load()
+    if img.width < 600 or img.height < 300:
+        raise SystemExit(f"Picture too small: {img.width}x{img.height}")
+    IMAGES.mkdir(parents=True, exist_ok=True)
+    for ext in IMAGE_EXTS:
+        old = IMAGES / f"{slug}{ext}"
+        if old.exists():
+            old.unlink()
+    out = IMAGES / f"{slug}.jpg"
+    img.convert("RGB").save(out, "JPEG", quality=90)
+    credit_file = IMAGES / f"{slug}.credit.txt"
+    if credit.strip():
+        credit_file.write_text(credit.strip() + "\n", encoding="utf-8")
+    print(f"Saved {out.name} ({img.width}x{img.height}); credit: {credit.strip() or '-'}")
+    return out
+
+
+def custom_credit(slug: str) -> str:
+    """Optional credit line for an editor picture: content/images/<slug>.credit.txt."""
+    p = IMAGES / f"{slug}.credit.txt"
+    return p.read_text(encoding="utf-8").strip() if p.exists() else ""
+
+
 def render_custom(rec: dict, src: Path, out: Path, category_label: str, variant: str = "share") -> Path:
     """Editor picture, cover-cropped to 1200x630, with category pill and LungDaily footer.
     variant "share" also puts the headline over a dark gradient; "thumb" keeps the picture clean."""
