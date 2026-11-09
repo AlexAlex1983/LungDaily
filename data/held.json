@@ -261,5 +261,46 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-09-ats-backs-ics-relievers-over-saba-in-mild-asthma-the-limbic-reports",
+    "headline": "ATS backs ICS relievers over SABA in mild asthma, the limbic reports",
+    "dek": "The limbic reports that the ATS now supports inhaled corticosteroid (ICS) relievers in preference to SABA relievers for people with mild asthma.",
+    "body": "The ATS has backed the use of ICS relievers over SABA in mild asthma, according to a news item published by the limbic on 9 November 2026.\n\nThe item's headline says the ATS \"finally\" backs the approach. That wording is the outlet's own framing.\n\nThe source text contains no further detail. It does not say which ATS document the report refers to, what the recommendation covers, or what evidence supports it. LungDaily will update this report if more information becomes available.",
+    "key_quote": "",
+    "tags": [
+      "asthma",
+      "guidelines",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 9.0,
+    "created_at": "2026-11-09T09:18:12+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 83 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQandCamNwM3RCR2ZtUTlRNmdtQS1CMzJPbDBadi05Z0Zadl81MGFXbFdrMkdNTWZ0RVVfME55WHVHajRfb1o5VExVWlZuNTBhSDJHVEpWRTVqYTZtTXRpZFNZR2FTdGJ3X3d6bEllMWpOV3ExZmV4eUdsejBaUHRPUUM3Zlp3ME5yTVVJ?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:7a40551f8b40b32e",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQandCamNwM3RCR2ZtUTlRNmdtQS1CMzJPbDBadi05Z0Zadl81MGFXbFdrMkdNTWZ0RVVfME55WHVHajRfb1o5VExVWlZuNTBhSDJHVEpWRTVqYTZtTXRpZFNZR2FTdGJ3X3d6bEllMWpOV3ExZmV4eUdsejBaUHRPUUM3Zlp3ME5yTVVJ?oc=5",
+      "title": "ATS finally backs ICS relievers over SABA in mild asthma - the limbic",
+      "author_name": "the limbic",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-09T02:31:23+00:00",
+      "extra": {
+        "feed": "Google News — asthma"
+      }
+    },
+    "status": "held"
   }
 ]

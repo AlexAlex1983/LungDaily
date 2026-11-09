@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-09-who-livestreams-health-day-press-conference-with-dr-tedros-at-cop31",
+  "headline": "WHO livestreams Health Day press conference with Dr Tedros at COP31",
+  "dek": "The World Health Organization announced on X that it was broadcasting a Health Day press conference with Dr Tedros live from the COP31 climate conference.",
+  "body": "The World Health Organization (WHO) said on X that it was broadcasting live from COP31, where a press conference was being held as part of Health Day.\n\nThe post said the press conference featured Dr Tedros, whose account it tagged. WHO described itself in its profile as the UN's health agency, working for #HealthForAll.\n\nThe post was published on 9 November 2026 and included a link to the broadcast. It did not say what would be discussed at the press conference or give any further details of the event.",
+  "key_quote": "LIVE from #COP31: Health Day press conference with @DrTedros",
+  "tags": [
+    "who",
+    "global-health",
+    "policy"
+  ],
+  "people": [
+    "Tedros"
+  ],
+  "category": "events",
+  "score": 7.0,
+  "created_at": "2026-11-09T09:18:35+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119706161381249100",
+    "url": "https://x.com/WHO/status/2119706161381249100"
+  },
+  "mentions": [
+    "DrTedros"
+  ],
+  "source": {
+    "id": "x:2119706161381249100",
+    "source": "x",
+    "url": "https://x.com/WHO/status/2119706161381249100",
+    "title": "",
+    "author_name": "World Health Organization (WHO)",
+    "author_handle": "WHO",
+    "author_url": "https://x.com/WHO",
+    "published_at": "2026-11-09T08:18:25+00:00",
+    "extra": {
+      "tweet_id": "2119706161381249100",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/i/broadcasts/2BlLmQYzWLjEJE"
+      ],
+      "author_followers": 12661930,
+      "author_id": "14499829"
+    }
+  },
+  "status": "ready"
+}
