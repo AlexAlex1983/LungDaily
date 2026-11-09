@@ -10,7 +10,7 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 5,
+    "seen": 6,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
     "followers": 47386
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 1,
+    "seen": 3,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65483
+    "followers": 65486
   },
   "copddoc": {
     "id": "356203202",
@@ -238,5 +238,21 @@
     "name": "Lisa Dow",
     "bio": "Physiotherapist BScHK, BScPT, Virtual Pulmonary Rehab provider, founder Keep Breathing  Program & Keep Moving Functional Fitness with a Physio",
     "followers": 442
+  },
+  "mycopdteam": {
+    "id": "2163361686",
+    "username": "myCOPDteam",
+    "seen": 1,
+    "name": "myCOPDteam",
+    "bio": "The social network for people living with COPD. We now have 75,000 members! Find support. #COPD #Emphysema #ChronicBronchitis #Alpha1",
+    "followers": 1486
+  },
+  "lungevity": {
+    "id": "15486468",
+    "username": "LUNGevity",
+    "seen": 1,
+    "name": "LUNGevity Foundation",
+    "bio": "LUNGevity, the nation’s leading lung cancer organization, is transforming what it means to be diagnosed and live with lung cancer.",
+    "followers": 18441
   }
 }

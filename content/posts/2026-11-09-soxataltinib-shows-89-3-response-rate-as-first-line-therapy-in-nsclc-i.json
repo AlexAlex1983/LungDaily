@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-09-soxataltinib-shows-89-3-response-rate-as-first-line-therapy-in-nsclc-i",
+  "headline": "Soxataltinib shows 89.3% response rate as first-line therapy in NSCLC in phase II results",
+  "dek": "Stephen V Liu summarised phase II data for the CNS-penetrant selective RET inhibitor, reporting a 19.3-month progression-free survival and high rates of diarrhoea and AST elevation.",
+  "body": "Phase II results for soxataltinib, a central nervous system (CNS) penetrant selective RET inhibitor, in non-small cell lung cancer (NSCLC) have been reported, according to a post on X by thoracic oncologist Stephen V Liu. His post tagged the account @JTOonline.\n\nIn the first-line setting, Liu wrote, the response rate was 89.3% and the time to response was 0.9 months. Progression-free survival was 19.3 months. He also reported an intracranial response rate of 100%, based on four patients.\n\nOn safety, Liu listed treatment-related adverse events including AST elevation, seen in 71% of patients, with grade 3 or higher events in 9%. He described diarrhoea as notable: it occurred in 79% of patients, with grade 3 or higher events in 18%.\n\nThe post did not give the overall number of patients treated or further detail on the study design. The figures above are as summarised by Liu and should be read alongside the full published results.",
+  "key_quote": "CNS penetrant selective RET inhibitor",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-09T17:09:23+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119720902166270153",
+    "url": "https://x.com/StephenVLiu/status/2119720902166270153"
+  },
+  "mentions": [
+    "JTOonline"
+  ],
+  "source": {
+    "id": "x:2119720902166270153",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2119720902166270153",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-09T09:17:00+00:00",
+    "extra": {
+      "tweet_id": "2119720902166270153",
+      "query_kind": "voices",
+      "links": [
+        "https://www.jto.org/article/S1556-0864(26)02697-3/abstract"
+      ],
+      "author_followers": 30854,
+      "author_id": "377425889"
+    }
+  },
+  "status": "ready"
+}
