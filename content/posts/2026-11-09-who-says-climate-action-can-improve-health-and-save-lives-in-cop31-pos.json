@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-09-who-says-climate-action-can-improve-health-and-save-lives-in-cop31-pos",
+  "headline": "WHO says climate action can improve health and save lives, in COP31 post",
+  "dek": "In a post on X, the World Health Organization said climate change worsens health risks and that investment in clean air, clean energy and sustainable transport can protect health.",
+  "body": "The World Health Organization (WHO) said climate change is making people sick, in a post on X published on 9 November that pointed readers to further information on COP31.\n\nAccording to WHO, malnutrition, mental health risks and a rise in diseases are made worse by climate change. The agency also said that communities least responsible for climate change bear the heaviest burden of its impacts, including health risks.\n\nWHO said there is \"good news\": climate action can improve health and save lives. In the post, the agency said that by investing in clean air, clean energy and sustainable transport, \"we can protect the planet and our health\".\n\nThe post came from WHO's official account, whose profile describes the organisation as the UN's health agency working for #HealthForAll. It included a link to more material on COP31.",
+  "key_quote": "Climate action can improve health and save lives.",
+  "tags": [
+    "policy",
+    "who",
+    "air-pollution",
+    "equity",
+    "global-health"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-09T20:08:17+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119745075815055445",
+    "url": "https://x.com/WHO/status/2119745075815055445"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2119745075815055445",
+    "source": "x",
+    "url": "https://x.com/WHO/status/2119745075815055445",
+    "title": "",
+    "author_name": "World Health Organization (WHO)",
+    "author_handle": "WHO",
+    "author_url": "https://x.com/WHO",
+    "published_at": "2026-11-09T10:53:03+00:00",
+    "extra": {
+      "tweet_id": "2119745075815055445",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/WHO/status/2119745075815055445/photo/1",
+        "https://x.com/WHO/status/2119745075815055445/photo/1",
+        "https://x.com/WHO/status/2119745075815055445/photo/1",
+        "https://x.com/WHO/status/2119745075815055445/photo/1"
+      ],
+      "author_followers": 12662074,
+      "author_id": "14499829"
+    }
+  },
+  "status": "ready"
+}

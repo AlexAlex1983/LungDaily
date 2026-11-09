@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 6,
+    "seen": 8,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47386
+    "followers": 47385
   },
   "erspublications": {
     "id": "424241621",
@@ -138,18 +138,18 @@
   "narjustflorezmd": {
     "id": "855372288455311360",
     "username": "NarjustFlorezMD",
-    "seen": 1,
+    "seen": 2,
     "name": "Narjust Florez, MD, FASCO",
     "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
-    "followers": 25576
+    "followers": 25578
   },
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 3,
+    "seen": 4,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65486
+    "followers": 65485
   },
   "copddoc": {
     "id": "356203202",
@@ -254,5 +254,29 @@
     "name": "LUNGevity Foundation",
     "bio": "LUNGevity, the nation’s leading lung cancer organization, is transforming what it means to be diagnosed and live with lung cancer.",
     "followers": 18441
+  },
+  "atsblueeditor": {
+    "id": "2905172883",
+    "username": "ATSBlueEditor",
+    "seen": 1,
+    "name": "ATS Blue Journal",
+    "bio": "Posting content from the American Journal of Respiratory and Critical Care Medicine; follows do not indicate endorsement.\n#pulmCC #sleepmed #AJRCCM #RespEd #ATS",
+    "followers": 20526
+  },
+  "healiopulm": {
+    "id": "3043251863",
+    "username": "HealioPulm",
+    "seen": 1,
+    "name": "Healio Pulmonology",
+    "bio": "The content you need, when you need it.",
+    "followers": 1200
+  },
+  "atlantaallergy": {
+    "id": "144965716",
+    "username": "atlantaallergy",
+    "seen": 1,
+    "name": "Atlanta Allergy & Asthma",
+    "bio": "Providing quality allergy, asthma, and immunology care in the Atlanta metro area since 1972. Follow us for the daily #AtlantaAllergyPollenCount!",
+    "followers": 4210
   }
 }

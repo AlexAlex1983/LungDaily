@@ -1,72 +1,36 @@
 [
   {
-    "id": "x:2119745075815055445",
+    "id": "x:2119867710712459454",
     "source": "x",
-    "url": "https://x.com/WHO/status/2119745075815055445",
+    "url": "https://x.com/ATSBlueEditor/status/2119867710712459454",
     "title": "",
-    "text": "Climate change is making us sick. 🤧 \n\n🦠 Malnutrition, mental health risks, and rise in diseases are made worse by #ClimateChange\n\n⚖️ Communities least responsible for climate change bear the heaviest burden of its impacts, including health risks\n\n📣  But there is good news! Climate action can improve health and save lives.  \n\n✨ By investing in clean air, clean energy and sustainable transport, we can protect the planet and our health\n\nMore on #COP31 https://t.co/Y2QVvxgI12",
-    "author_name": "World Health Organization (WHO)",
-    "author_handle": "WHO",
-    "author_url": "https://x.com/WHO",
-    "author_headline": "We are the @UN’s health agency working for #HealthForAll\nAlways check our latest tweets for updated advice/information.",
-    "published_at": "2026-11-09T10:53:03+00:00",
+    "text": "A Global Initiative for Chronic Obstructive Lung Disease (GOLD) Science Committee perspective on exacerbations and cardiovascular risk in chronic obstructive pulmonary disease #COPD #AJRCCM @atscommunity @FIRS_LungsFirst \nhttps://t.co/HDOG6gZOAl",
+    "author_name": "ATS Blue Journal",
+    "author_handle": "ATSBlueEditor",
+    "author_url": "https://x.com/ATSBlueEditor",
+    "author_headline": "Posting content from the American Journal of Respiratory and Critical Care Medicine; follows do not indicate endorsement.\n#pulmCC #sleepmed #AJRCCM #RespEd #ATS",
+    "published_at": "2026-11-09T19:00:22+00:00",
     "metrics": {
-      "likes": 36,
-      "reposts": 19,
-      "comments": 9
-    },
-    "extra": {
-      "tweet_id": "2119745075815055445",
-      "query_kind": "voices",
-      "links": [
-        "https://x.com/WHO/status/2119745075815055445/photo/1",
-        "https://x.com/WHO/status/2119745075815055445/photo/1",
-        "https://x.com/WHO/status/2119745075815055445/photo/1",
-        "https://x.com/WHO/status/2119745075815055445/photo/1"
-      ],
-      "author_followers": 12662074,
-      "author_id": "14499829"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "WHO COP31 climate-health framing on clean air and health benefits"
-    }
-  },
-  {
-    "id": "x:2119082448109593004",
-    "source": "x",
-    "url": "https://x.com/accpchest/status/2119082448109593004",
-    "title": "",
-    "text": "CHEST® journal's Editor in Chief Dr. Peter Mazzone highlights key research published in the journal CHEST November 2026 issue, including an investigation into cutting waste in bronchoscopy, an examination of the effect of pretreatment with mono or dual pulmonary hypertension-targeted medical therapy on complications and clinical outcomes in patients undergoing balloon pulmonary angioplasty, and more.\n\nListen now: https://t.co/v3r6ObDPat\n#MedEd #JournalCHEST #MedicalJournal #Pulmonology #Pulmonary #Lungs #Healthcare #LungHealth #LungDisease #Asthma #COPD #SleepMed",
-    "author_name": "CHEST",
-    "author_handle": "accpchest",
-    "author_url": "https://x.com/accpchest",
-    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "published_at": "2026-11-07T15:00:00+00:00",
-    "metrics": {
-      "likes": 2,
-      "reposts": 2,
+      "likes": 3,
+      "reposts": 1,
       "comments": 1
     },
     "extra": {
-      "tweet_id": "2119082448109593004",
-      "query_kind": "voices",
+      "tweet_id": "2119867710712459454",
+      "query_kind": "keywords",
       "links": [
-        "https://x.com/accpchest/status/2119082448109593004/photo/1"
+        "https://academic.oup.com/ajrccm/article/212/11/2724/8674724"
       ],
-      "author_followers": 47381,
-      "author_id": "34827666"
+      "author_followers": 20526,
+      "author_id": "2905172883"
     },
-    "collected_at": "2026-11-07T23:35:56+00:00",
+    "collected_at": "2026-11-09T20:07:19+00:00",
     "triage": {
       "score": 7.0,
       "category": "research",
+      "author_type": "organisation",
       "duplicate": false,
-      "reason": "Editor-in-chief highlights new CHEST November issue research on bronchoscopy and PH therapy"
+      "reason": "AJRCCM GOLD Science Committee perspective on COPD exacerbations and cardiovascular risk"
     }
   },
   {
@@ -1662,6 +1626,166 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "Company update on FDA alignment for phase 2 lung cancer dose"
+    }
+  },
+  {
+    "id": "x:2119860071819522196",
+    "source": "x",
+    "url": "https://x.com/accpchest/status/2119860071819522196",
+    "title": "",
+    "text": "A CHEST Research Letter evaluated the geographic distribution of recruitment centers and the inclusiveness of eligibility criteria in phase III/IV trials of single-inhaler triple therapy and biologic treatments for COPD to assess how generalizable and equitable these recent trials are.\n\nRead the article in the November issue of the journal CHEST®: https://t.co/fkkgn49W86\n#MedEd #JournalCHEST #COPD #HealthEquity",
+    "author_name": "CHEST",
+    "author_handle": "accpchest",
+    "author_url": "https://x.com/accpchest",
+    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
+    "published_at": "2026-11-09T18:30:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2119860071819522196",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/accpchest/status/2119860071819522196/photo/1"
+      ],
+      "author_followers": 47385,
+      "author_id": "34827666"
+    },
+    "collected_at": "2026-11-09T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "CHEST research letter on equity and generalisability of COPD trials"
+    }
+  },
+  {
+    "id": "x:2119845017355247991",
+    "source": "x",
+    "url": "https://x.com/accpchest/status/2119845017355247991",
+    "title": "",
+    "text": "A CHEST Research Letter analyzed data from the 2022 National Program of Cancer Registries and the Surveillance, Epidemiology, and End Results (SEER) database, which represents 100% of the US population, to assess state-specific incidence rates of small cell lung cancer in the United States and conducted an ecological assessment examining associations with smoking prevalence.\n\nRead more: https://t.co/QEBsk2Sv0O\n#MedEd #JournalCHEST #LungCancer #SmokingCessation",
+    "author_name": "CHEST",
+    "author_handle": "accpchest",
+    "author_url": "https://x.com/accpchest",
+    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
+    "published_at": "2026-11-09T17:30:11+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2119845017355247991",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/accpchest/status/2119845017355247991/photo/1",
+        "https://x.com/accpchest/status/2119845017355247991/photo/1"
+      ],
+      "author_followers": 47385,
+      "author_id": "34827666"
+    },
+    "collected_at": "2026-11-09T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Registry analysis of state SCLC incidence linked to smoking prevalence"
+    }
+  },
+  {
+    "id": "x:2119860071098089574",
+    "source": "x",
+    "url": "https://x.com/journal_CHEST/status/2119860071098089574",
+    "title": "",
+    "text": "A CHEST Research Letter evaluated the geographic distribution of recruitment centers and the inclusiveness of eligibility criteria in phase III/IV trials of single-inhaler triple therapy and biologic treatments for #COPD.\n\nRead more: https://t.co/dGJLwhFOg4\n#MedEd #JournalCHEST https://t.co/3fUeC1pYh8",
+    "author_name": "CHEST® Journal",
+    "author_handle": "journal_CHEST",
+    "author_url": "https://x.com/journal_CHEST",
+    "author_headline": "The official journal of @accpchest, publishing peer-reviewed, evidence-based research since 1935.  \n#JournalCHEST #journal_CHESTPulm #journal_CHESTCritCare",
+    "published_at": "2026-11-09T18:30:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2119860071098089574",
+      "query_kind": "keywords",
+      "links": [
+        "https://hubs.la/Q04CvcjJ0",
+        "https://x.com/journal_CHEST/status/2119860071098089574/photo/1"
+      ],
+      "author_followers": 7999,
+      "author_id": "1371517382884171778"
+    },
+    "collected_at": "2026-11-09T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "CHEST Research Letter on inclusiveness of COPD phase III/IV trials"
+    }
+  },
+  {
+    "id": "rss:7126ce1c0640eb7e",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUHp5VW5UVE9FX0VYVmNkVDVvbnc0Vkc0N0NIWGxpOVFBSmxtVlgwOEhUZ1VZNHE1NmFxTlJ5cDktenkyMlh6Y2Q4Ui1WWHgwZ1Bmb290aWZjck9CWElLUzNyMmp4VzJWc2xsMmlFRGk4WlprSHlPWVpURmNBQnhYcTUyOGloRFYwNVM0Q1JNb0lpOWo0dXcwcVhLaUJ4X1k?oc=5",
+    "title": "GSK Accelerates Late-Stage Studies as It Targets COPD and Long-Acting Respiratory Treatments - Yahoo Finance",
+    "text": "GSK Accelerates Late-Stage Studies as It Targets COPD and Long-Acting Respiratory Treatments Yahoo Finance",
+    "author_name": "Yahoo Finance",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-09T19:15:04+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-09T20:07:19+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "GSK late-stage COPD trial acceleration; thin detail"
+    }
+  },
+  {
+    "id": "rss:a8258db2d0a9ef59",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11djF6WTJ6MzNXeXFZaUpqenpvMFhON0dESlNvUDJBRUNud2RJeXhpMjFaZXBmN3diQzkxeFcyeHNweTB1Nm5qS3RBMUtuRVBRc3ZlX2hPOV8zWXlBdk9tMzdmcmVsRmk0R3hNWWhR?oc=5",
+    "title": "Aakash Desai: Phase 2 Results for HB0025 Plus Chemotherapy in First-Line NSCLC - Oncodaily",
+    "text": "Aakash Desai: Phase 2 Results for HB0025 Plus Chemotherapy in First-Line NSCLC Oncodaily",
+    "author_name": "Oncodaily",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-09T19:13:46+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory trial results"
+    },
+    "collected_at": "2026-11-09T20:07:19+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Phase 2 NSCLC trial readout for HB0025 with chemotherapy"
     }
   }
 ]
