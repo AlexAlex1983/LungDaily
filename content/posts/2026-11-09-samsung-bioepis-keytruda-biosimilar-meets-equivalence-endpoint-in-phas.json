@@ -35,5 +35,9 @@
       "feed": "Google News — respiratory trial results"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-09T19:37:33+00:00",
+  "shared": {
+    "x": "2119877116284080595"
+  }
 }
