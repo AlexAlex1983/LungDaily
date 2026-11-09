@@ -15,6 +15,7 @@ models:
   writer: "claude-sonnet-5-5"     # writes the articles
   checker: "claude-sonnet-5-5"    # independent fact-check of each article
   max_tokens: 1500
+  triage_max_tokens: 8000         # triage scores a whole batch in one reply; too low = cut-off JSON
 
 sources:
   x: true
@@ -30,7 +31,7 @@ limits:
   linkedin_search_max_results: 25
   pubmed_max: 40
   rss_max_per_feed: 15
-  triage_batch_size: 20
+  triage_batch_size: 15
   min_score: 7                    # 0–10; items below this are dropped
   max_articles_per_run: 6         # articles WRITTEN per write run (they wait in the ready queue)
   max_articles_per_day: 20        # articles written per day (16 slots + a little spare)
@@ -57,6 +58,8 @@ publishing:
   timezone: "Europe/Berlin"       # CET/CEST
   slots: ["07:00", "09:00", "10:00", "10:30", "11:00", "11:30", "11:45", "14:00",
           "15:00", "15:30", "16:00", "16:30", "16:45", "17:30", "18:00", "21:00"]
+  # Write runs (collect + write into the ready queue), local time. Started by slot-clock.yml.
+  write_times: ["06:07", "09:07", "12:07", "15:07", "18:07", "21:07"]
   ready_buffer: 6                 # write runs top the ready queue up to this many articles
   ready_max_age_hours: 36         # ready articles older than this are dropped (status "expired")
 

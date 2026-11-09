@@ -25,6 +25,8 @@ def _extract_json(text: str):
     fence = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
     if fence:
         text = fence.group(1).strip()
+    elif text.startswith("```"):          # opening fence without a closing one
+        text = re.sub(r"^```(?:json)?\s*", "", text)
     for opener, closer in (("{", "}"), ("[", "]")):
         start = text.find(opener)
         end = text.rfind(closer)
@@ -49,7 +51,8 @@ def ask_json(role: str, system: str, user: str, fake=None):
     cfg = settings()["models"]
     body = {
         "model": cfg[role],
-        "max_tokens": cfg.get("max_tokens", 1500) * (2 if role == "triage" else 1),
+        "max_tokens": (cfg.get("triage_max_tokens", 8000) if role == "triage"
+                       else cfg.get("max_tokens", 1500)),
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }
@@ -63,6 +66,9 @@ def ask_json(role: str, system: str, user: str, fake=None):
             r.raise_for_status()
             data = r.json()
             text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+            if data.get("stop_reason") == "max_tokens":
+                log.warning("LLM %s reply hit max_tokens (%s) — raise models.%s in settings.yaml",
+                            role, body["max_tokens"], "triage_max_tokens" if role == "triage" else "max_tokens")
             return _extract_json(text)
         except (requests.RequestException, LLMError, ValueError) as e:
             last = e

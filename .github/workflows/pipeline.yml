@@ -1,16 +1,9 @@
 name: Pipeline
 
 on:
-  schedule:
-    # WRITE runs (collect + write into the ready queue): 06:07, 09:07, 12:07, 15:07, 18:07, 21:07 CET
-    - cron: "7 5,8,11,14,17,20 * * *"
-    # PUBLISH slots, one article each (UTC = CET-1; in summer time they fire 1 h later local):
-    # 07:00 09:00 10:00 11:00 14:00 15:00 16:00 18:00 21:00 CET
-    - cron: "0 6,8,9,10,13,14,15,17,20 * * *"
-    # 10:30 11:30 15:30 16:30 17:30 CET
-    - cron: "30 9,10,14,15,16 * * *"
-    # 11:45 16:45 CET
-    - cron: "45 10,15 * * *"
+  # Scheduled runs are started by the "Slot clock" workflow (slot-clock.yml) at the times in
+  # config/settings.yaml (publishing.slots + publishing.write_times). GitHub's own cron was
+  # often hours late or skipped (9 Nov 2026: no slot fired between 10:00 and 14:46 CET).
   workflow_dispatch:
     inputs:
       action:

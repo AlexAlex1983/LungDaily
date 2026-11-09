@@ -88,7 +88,7 @@ Articles go out one at a time at fixed slots (`publishing.slots` in `config/sett
 - **Write runs** (06:07, 09:07, 12:07, 15:07, 18:07, 21:07) collect, triage, write and fact-check, and put passing articles in a ready queue (`status: ready` in `content/posts/`, not on the site). They top the queue up to `ready_buffer` (6).
 - **Publish runs** (one per slot) publish ONE ready article — best score first, avoiding the same author twice in a row — then rebuild, post on X and send to LinkedIn. No Claude cost.
 - Catch-up: if a GitHub run is late or skipped, the next run publishes the missed slot (still one per run). Ready articles older than 36 h expire.
-- GitHub cron is UTC: the slot crons in `pipeline.yml` are written for CET (UTC+1). When summer time starts (last Sunday of March) shift them one hour earlier, or the slots run an hour late.
+- Runs are started by the **Slot clock** workflow (`slot-clock.yml`, `scripts/slot_clock.py`), not by GitHub cron (which was often hours late or skipped). It waits inside a runner, starts Pipeline at each time in `publishing.slots` (publish-slot) and `publishing.write_times` (write), and hands over to a fresh copy of itself every ~5h40m; a 2-hourly cron restarts it if the chain breaks. Times are local (`publishing.timezone`), so summer time needs no change. To change times, edit settings.yaml only. To restart the clock by hand: Actions → Slot clock → Run workflow.
 - To go back to publishing straight away, delete `slots` from settings.yaml.
 
 ## Day-to-day

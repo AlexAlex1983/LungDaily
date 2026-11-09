@@ -1,0 +1,33 @@
+name: Slot clock
+
+# Starts Pipeline runs on time (publish slots + write runs from config/settings.yaml).
+# GitHub's own cron is often hours late or skipped, so this job waits inside a runner and
+# starts each run itself, then hands over to a fresh copy of itself every ~5h40m.
+# The 2-hourly cron below only restarts the clock if that chain ever breaks
+# (a duplicate start just waits in the queue; at most one clock runs at a time).
+
+on:
+  schedule:
+    - cron: "23 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+concurrency:
+  group: slot-clock
+  cancel-in-progress: false
+
+jobs:
+  clock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install pyyaml
+      - name: Wait for slots and start Pipeline runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python scripts/slot_clock.py
