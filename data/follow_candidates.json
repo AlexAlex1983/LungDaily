@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 1,
+    "seen": 2,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31652
+    "followers": 31653
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 1,
+    "seen": 2,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30851
+    "followers": 30854
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -150,5 +150,85 @@
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
     "followers": 65483
+  },
+  "copddoc": {
+    "id": "356203202",
+    "username": "COPDdoc",
+    "seen": 1,
+    "name": "Nick Hopkinson",
+    "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
+    "followers": 8687
+  },
+  "asthmalunguk": {
+    "id": "20982609",
+    "username": "asthmalunguk",
+    "seen": 1,
+    "name": "Asthma + Lung UK",
+    "bio": "We fight for everyone’s right to breath. From research, campaigning, advice + support. For queries about your lung condition please call our helpline.",
+    "followers": 52260
+  },
+  "tmmrespiratory": {
+    "id": "2853906195",
+    "username": "tmmRESPIRATORY",
+    "seen": 1,
+    "name": "touchRESPIRATORY",
+    "bio": "Intended for use by Healthcare Professionals (HCPs) only. It should not be considered medical advice, diagnosis, or treatment recommendations.",
+    "followers": 1738
+  },
+  "msrc_texasstate": {
+    "id": "1258054340129873921",
+    "username": "MSRC_TexasState",
+    "seen": 1,
+    "name": "MS in Respiratory Care at Texas State University",
+    "bio": "Post-professional, online graduate degree in Respiratory Care. Providing advanced education to respiratory therapists to further their personal or career goals.",
+    "followers": 805
+  },
+  "allergyasthmahq": {
+    "id": "23939188",
+    "username": "AllergyAsthmaHQ",
+    "seen": 1,
+    "name": "Allergy & Asthma Network",
+    "bio": "🌟 Allergy & Asthma Network unites and advocates on behalf of 60 million Americans with #asthma 😷, #allergies 🤧 and related conditions. Learn more ⬇️",
+    "followers": 10210
+  },
+  "respcare": {
+    "id": "47395645",
+    "username": "respcare",
+    "seen": 1,
+    "name": "RESPIRATORY CARE",
+    "bio": "The official peer-reviewed science journal for the American Association for Respiratory Care since 1956. Indexed in MEDLINE. Editor: Rich Branson MSc RRT FAARC",
+    "followers": 13335
+  },
+  "ats_aii": {
+    "id": "1954658088",
+    "username": "ATS_AII",
+    "seen": 1,
+    "name": "ATS AII",
+    "bio": "Welcome to the American Thoracic Society's AII Assembly Twitter feed. Tweets by @asquental\n🦋 https://t.co/T5IiMBPhSn",
+    "followers": 2475
+  },
+  "openrespiratory": {
+    "id": "1366423160116158465",
+    "username": "OpenRespiratory",
+    "seen": 1,
+    "name": "Open Respiratory Archives",
+    "bio": "Open Respiratory Archives is one of the official publications from the Spanish Respiratory Society of Pulmonology and Thoracic Surgery (SEPAR)",
+    "followers": 1301
+  },
+  "nqabsss": {
+    "id": "340177148",
+    "username": "nqabsss",
+    "seen": 1,
+    "name": "uNqaba wamaPB usena36 - Zulu(Mlaba)",
+    "bio": "Asthma Comrades finisher X6 |4x Sani Stagger finisher |5 x Kosmos 3 in 1 Finisher|OPFC | ManU| Baba kaSqalo 🙂 13/12/2017",
+    "followers": 4537
+  },
+  "jacionline": {
+    "id": "133749511",
+    "username": "jacionline",
+    "seen": 1,
+    "name": "Journal of Allergy and Clinical Immunology",
+    "bio": "The Journal of Allergy and Clinical Immunology is an official publication of the American Academy of Allergy, Asthma, and Immunology.",
+    "followers": 12668
   }
 }

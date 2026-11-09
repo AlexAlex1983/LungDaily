@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-09-us-fda-declines-to-approve-novocure-s-lung-cancer-device",
+  "headline": "US FDA declines to approve Novocure's lung cancer device",
+  "dek": "Yahoo Finance reported that the US FDA has declined to approve a lung cancer device from Novocure; the item gives no further detail.",
+  "body": "The US FDA has declined to approve Novocure's lung cancer device, according to a news item published by Yahoo Finance on 9 November 2026.\n\nThe text available for this report consists only of the headline. It does not name the device, describe the patient population or indication it was intended for, or give the grounds for the FDA's decision.\n\nThe source also does not say whether Novocure has commented on the decision or whether the company plans to respond or resubmit its application. No further details were available in the source material.",
+  "key_quote": "US FDA declines to approve Novocure's lung cancer device",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "policy"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-09T13:53:07+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2IxT0c0NFd0NV9wM3NuMUZkdHhBYlBhOGJvUm02RGhXOVZRYWZIUnN6TWM0WlRkM1EtMTc3akxHUHJubmxRVHBZdXEzV1RZNlZJMUlJckpEUHlVWlVlaEJXN1R3elBBdVd1MjFhMHRJSFhQeDRSNnhOQ0lqNzZjanNieVprSi1XQXl2YWdQV1JVRjQwVjBYODZB?oc=5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:619e498a97a6c118",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2IxT0c0NFd0NV9wM3NuMUZkdHhBYlBhOGJvUm02RGhXOVZRYWZIUnN6TWM0WlRkM1EtMTc3akxHUHJubmxRVHBZdXEzV1RZNlZJMUlJckpEUHlVWlVlaEJXN1R3elBBdVd1MjFhMHRJSFhQeDRSNnhOQ0lqNzZjanNieVprSi1XQXl2YWdQV1JVRjQwVjBYODZB?oc=5",
+    "title": "US FDA declines to approve Novocure's lung cancer device - Yahoo Finance",
+    "author_name": "Yahoo Finance",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-09T12:49:01+00:00",
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    }
+  },
+  "status": "ready"
+}
