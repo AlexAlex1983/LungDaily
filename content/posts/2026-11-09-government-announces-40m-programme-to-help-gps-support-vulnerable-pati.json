@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-09-government-announces-40m-programme-to-help-gps-support-vulnerable-pati",
+  "headline": "Government announces £40m programme to help GPs support vulnerable patients this winter",
+  "dek": "UK Politics Decoded reported that up to 300,000 patients with heart disease, frailty or COPD could receive medication reviews, health checks and other proactive support.",
+  "body": "The government has announced a £40 million programme to help GPs identify and support vulnerable patients this winter, according to a post on X by UK Politics Decoded.\n\nThe post said that up to 300,000 patients with heart disease, frailty or COPD could receive medication reviews, health checks and other proactive support under the programme.\n\nUK Politics Decoded describes itself as an independent, IMPRESS-regulated political publisher that produces evidence-based explainers on UK government and policy. The post linked to a longer article, which was not included in the source text.\n\nThe post did not give further detail on how the programme will be delivered, which practices or areas will take part, or when the support will begin.",
+  "key_quote": "Up to 300,000 patients with heart disease, frailty or COPD could receive medication reviews, health checks and other proactive support.",
+  "tags": [
+    "copd",
+    "policy",
+    "primary-care"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 8.0,
+  "created_at": "2026-11-09T14:08:30+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119777428385988808",
+    "url": "https://x.com/uk_decoded/status/2119777428385988808"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2119777428385988808",
+    "source": "x",
+    "url": "https://x.com/uk_decoded/status/2119777428385988808",
+    "title": "",
+    "author_name": "UK Politics Decoded",
+    "author_handle": "uk_decoded",
+    "author_url": "https://x.com/uk_decoded",
+    "published_at": "2026-11-09T13:01:37+00:00",
+    "extra": {
+      "tweet_id": "2119777428385988808",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 211,
+      "author_id": "1971516971981377537"
+    }
+  },
+  "status": "ready"
+}

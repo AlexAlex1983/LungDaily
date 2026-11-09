@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 3,
+    "seen": 5,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47382
+    "followers": 47386
   },
   "erspublications": {
     "id": "424241621",
@@ -230,5 +230,13 @@
     "name": "Journal of Allergy and Clinical Immunology",
     "bio": "The Journal of Allergy and Clinical Immunology is an official publication of the American Academy of Allergy, Asthma, and Immunology.",
     "followers": 12668
+  },
+  "lisadow1": {
+    "id": "495469781",
+    "username": "LisaDow1",
+    "seen": 1,
+    "name": "Lisa Dow",
+    "bio": "Physiotherapist BScHK, BScPT, Virtual Pulmonary Rehab provider, founder Keep Breathing  Program & Keep Moving Functional Fitness with a Physio",
+    "followers": 442
   }
 }
