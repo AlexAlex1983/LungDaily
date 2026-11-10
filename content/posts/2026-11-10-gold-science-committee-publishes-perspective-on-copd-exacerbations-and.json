@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-10-gold-science-committee-publishes-perspective-on-copd-exacerbations-and",
+  "headline": "GOLD Science Committee publishes perspective on COPD exacerbations and cardiovascular risk",
+  "dek": "A post from the ATS Blue Journal account highlights a GOLD Science Committee perspective on exacerbations and cardiovascular risk in chronic obstructive pulmonary disease.",
+  "body": "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) Science Committee has produced a perspective on exacerbations and cardiovascular risk in chronic obstructive pulmonary disease (COPD), according to a post on X from the ATS Blue Journal account.\n\nThe post, published on 9 November 2026, carries the hashtags #COPD and #AJRCCM and tags the @atscommunity and @FIRS_LungsFirst accounts. It includes a link to the full item.\n\nThe account describes itself as posting content from the American Journal of Respiratory and Critical Care Medicine, and says that follows do not indicate endorsement.\n\nThe post does not set out the perspective's findings, conclusions or authors. This report is based solely on the post, and further detail is available only in the linked article.",
+  "key_quote": "perspective on exacerbations and cardiovascular risk in chronic obstructive pulmonary disease",
+  "tags": [
+    "copd",
+    "guidelines"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-10T08:08:39+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119867710712459454",
+    "url": "https://x.com/ATSBlueEditor/status/2119867710712459454"
+  },
+  "mentions": [
+    "atscommunity",
+    "FIRS_LungsFirst"
+  ],
+  "source": {
+    "id": "x:2119867710712459454",
+    "source": "x",
+    "url": "https://x.com/ATSBlueEditor/status/2119867710712459454",
+    "title": "",
+    "author_name": "ATS Blue Journal",
+    "author_handle": "ATSBlueEditor",
+    "author_url": "https://x.com/ATSBlueEditor",
+    "published_at": "2026-11-09T19:00:22+00:00",
+    "extra": {
+      "tweet_id": "2119867710712459454",
+      "query_kind": "keywords",
+      "links": [
+        "https://academic.oup.com/ajrccm/article/212/11/2724/8674724"
+      ],
+      "author_followers": 20526,
+      "author_id": "2905172883"
+    }
+  },
+  "status": "ready"
+}

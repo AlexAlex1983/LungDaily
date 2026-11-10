@@ -1,39 +1,5 @@
 [
   {
-    "id": "x:2119867710712459454",
-    "source": "x",
-    "url": "https://x.com/ATSBlueEditor/status/2119867710712459454",
-    "title": "",
-    "text": "A Global Initiative for Chronic Obstructive Lung Disease (GOLD) Science Committee perspective on exacerbations and cardiovascular risk in chronic obstructive pulmonary disease #COPD #AJRCCM @atscommunity @FIRS_LungsFirst \nhttps://t.co/HDOG6gZOAl",
-    "author_name": "ATS Blue Journal",
-    "author_handle": "ATSBlueEditor",
-    "author_url": "https://x.com/ATSBlueEditor",
-    "author_headline": "Posting content from the American Journal of Respiratory and Critical Care Medicine; follows do not indicate endorsement.\n#pulmCC #sleepmed #AJRCCM #RespEd #ATS",
-    "published_at": "2026-11-09T19:00:22+00:00",
-    "metrics": {
-      "likes": 3,
-      "reposts": 1,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2119867710712459454",
-      "query_kind": "keywords",
-      "links": [
-        "https://academic.oup.com/ajrccm/article/212/11/2724/8674724"
-      ],
-      "author_followers": 20526,
-      "author_id": "2905172883"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "AJRCCM GOLD Science Committee perspective on COPD exacerbations and cardiovascular risk"
-    }
-  },
-  {
     "id": "x:2119120505903141160",
     "source": "x",
     "url": "https://x.com/MomaVelez11/status/2119120505903141160",
@@ -1821,6 +1787,40 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Phase 2 NSCLC trial readout for HB0025 with chemotherapy"
+    }
+  },
+  {
+    "id": "x:2120047053199802619",
+    "source": "x",
+    "url": "https://x.com/ThoraxBMJ/status/2120047053199802619",
+    "title": "",
+    "text": "Editorial: Is it time to re-evaluate the levels of evidence in medical research: commentary on inhaled corticosteroids in COPD.\nhttps://t.co/B72wjZnw5M",
+    "author_name": "ThoraxBMJ",
+    "author_handle": "ThoraxBMJ",
+    "author_url": "https://x.com/ThoraxBMJ",
+    "author_headline": "Publishing top research to support the #respiratory & #criticalcare community. Companion #OpenAccess journal, @BMJOpen_Resp. Published with @BTSrespiratory",
+    "published_at": "2026-11-10T06:53:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120047053199802619",
+      "query_kind": "keywords",
+      "links": [
+        "https://thorax.bmj.com/content/81/11/1043?utm_campaign=Usage&utm_content=1794293580&utm_id=BMJ215&utm_medium=social&utm_source=twitter"
+      ],
+      "author_followers": 22171,
+      "author_id": "141173210"
+    },
+    "collected_at": "2026-11-10T08:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Journal editorial questioning evidence levels for inhaled corticosteroids in COPD"
     }
   }
 ]
