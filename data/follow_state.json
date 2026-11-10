@@ -171,6 +171,34 @@
     "myCOPDteam": {
       "at": "2026-11-09T22:41:43+00:00",
       "why": "respiratory bio"
+    },
+    "RespirologyAPSR": {
+      "at": "2026-11-10T07:44:21+00:00",
+      "why": "respiratory bio"
+    },
+    "MelbournePollen": {
+      "at": "2026-11-10T07:44:21+00:00",
+      "why": "respiratory bio"
+    },
+    "SidhaantNangia": {
+      "at": "2026-11-10T07:44:21+00:00",
+      "why": "respiratory bio"
+    },
+    "OpenRespiratory": {
+      "at": "2026-11-10T07:44:21+00:00",
+      "why": "respiratory bio"
+    },
+    "HealioPulm": {
+      "at": "2026-11-10T07:44:22+00:00",
+      "why": "respiratory bio"
+    },
+    "MSRC_TexasState": {
+      "at": "2026-11-10T07:44:22+00:00",
+      "why": "respiratory bio"
+    },
+    "LisaDow1": {
+      "at": "2026-11-10T07:44:22+00:00",
+      "why": "respiratory bio"
     }
   },
   "failed": {},
