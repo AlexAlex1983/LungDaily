@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-09-samsung-bioepis-keytruda-biosimilar-sb27-meets-equivalence-in-phase-3",
+  "slug": "2026-11-10-samsung-bioepis-keytruda-biosimilar-sb27-meets-equivalence-in-phase-3",
   "headline": "Samsung Bioepis' Keytruda biosimilar SB27 meets equivalence in Phase 3 lung cancer trial",
   "dek": "A news item reports that Samsung Bioepis' SB27, a biosimilar to Keytruda, met equivalence in a Phase 3 trial in lung cancer. No further details were given.",
   "body": "Samsung Bioepis' biosimilar to Keytruda, known as SB27, has met equivalence in a Phase 3 trial in lung cancer, according to a news item published by Dealroom on 9 November 2026.\n\nThe item's headline describes the study as a Phase 3 lung cancer trial and states that the candidate met equivalence. The text available does not provide further detail, including the trial design, the number of participants, the endpoints used or the specific results.\n\nThe item does not report any regulatory submission or approval for SB27. It also does not say where or when the trial results will be presented or published.",
@@ -35,5 +35,9 @@
       "feed": "Google News — respiratory trial results"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-10T06:00:13+00:00",
+  "shared": {
+    "x": "2120033818790842575"
+  }
 }
