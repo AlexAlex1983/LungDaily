@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-09-josh-farkas-new-chest-guidelines-inpatient-varenicline-recommendation",
+  "slug": "2026-11-10-josh-farkas-new-chest-guidelines-inpatient-varenicline-recommendation",
   "headline": "Josh Farkas: New CHEST guidelines' inpatient varenicline recommendation seems evidence-based and sensible",
   "dek": "The critical care physician wrote on X that new CHEST guidance on inpatient tobacco use management strongly recommends starting varenicline in hospital, and asked colleagues whether they already do so.",
   "body": "Josh Farkas, a physician board certified in critical care, pulmonology and neurocritical care and author of the Internet Book of Critical Care, commented on new CHEST guidelines in a post on X.\n\nFarkas wrote that the guidelines on inpatient management of tobacco use \"make a strong recommendation to start varenicline in the hospital\". He said the recommendation \"seems evidence-based and sensible\", particularly for patients whose tobacco use is driving repeated admissions, and gave COPD and asthma as examples.\n\nHe argued that treating an acute exacerbation without addressing its underlying causes amounts to \"spinning our wheels\".\n\nFarkas closed the post by inviting responses from other clinicians, asking what they thought of the recommendation and whether anyone was already practising this approach. His bio states that he has no conflicts of interest.\n\nThe post is a personal commentary on the guidelines and does not set out the guideline's full recommendations or the evidence behind them.",
@@ -48,5 +48,9 @@
       "author_id": "873314053"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-10T09:00:13+00:00",
+  "shared": {
+    "x": "2120079118142157104"
+  }
 }
