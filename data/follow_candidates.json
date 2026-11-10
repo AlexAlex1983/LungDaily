@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 8,
+    "seen": 9,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47385
+    "followers": 47383
   },
   "erspublications": {
     "id": "424241621",
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 4,
+    "seen": 5,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31656
+    "followers": 31655
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 2,
+    "seen": 3,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30854
+    "followers": 30855
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -146,15 +146,15 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 5,
+    "seen": 6,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65485
+    "followers": 65483
   },
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 3,
+    "seen": 4,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
     "followers": 8684
@@ -186,10 +186,10 @@
   "allergyasthmahq": {
     "id": "23939188",
     "username": "AllergyAsthmaHQ",
-    "seen": 1,
+    "seen": 2,
     "name": "Allergy & Asthma Network",
     "bio": "🌟 Allergy & Asthma Network unites and advocates on behalf of 60 million Americans with #asthma 😷, #allergies 🤧 and related conditions. Learn more ⬇️",
-    "followers": 10210
+    "followers": 10211
   },
   "respcare": {
     "id": "47395645",
@@ -326,5 +326,45 @@
     "name": "Jarushka Naidoo",
     "bio": "Professor of Medical Oncology @CancerCentreIre | Thoracic Oncologist | Immunotherapy & Immune Toxicity | Adjunct faculty Johns Hopkins University",
     "followers": 12063
+  },
+  "firs_lungsfirst": {
+    "id": "2798489479",
+    "username": "FIRS_LungsFirst",
+    "seen": 1,
+    "name": "FIRS -Forum of International Respiratory Societies",
+    "bio": "The memberships of the Forum of International Respiratory Societies comprise over 70 000 professionals working on some aspect of respiratory health or disease.",
+    "followers": 2313
+  },
+  "lena_group4resp": {
+    "id": "1497171361730605058",
+    "username": "Lena_Group4Resp",
+    "seen": 1,
+    "name": "Lena Group Respiratory Hub 🫁",
+    "bio": "🫁 Welcome to the account of #Respiratory Projects & Events of Lena Group. We support research & education in #RespiratoryDiseases #Bronchiectasis #NTM & others",
+    "followers": 1041
+  },
+  "copdcanada": {
+    "id": "497225379",
+    "username": "COPDCanada",
+    "seen": 1,
+    "name": "COPD Canada",
+    "bio": "COPD Canada is a national non-profit patient advocacy association providing educational information and up-to-date medical news for people living with COPD.",
+    "followers": 1360
+  },
+  "healioallergy": {
+    "id": "1409602508750721033",
+    "username": "HealioAllergy",
+    "seen": 1,
+    "name": "Healio Allergy and Asthma",
+    "bio": "The content you need, when you need it.",
+    "followers": 635
+  },
+  "pftrust": {
+    "id": "1488883112",
+    "username": "PFTrust",
+    "seen": 1,
+    "name": "PF Trust",
+    "bio": "The aim of the Pulmonary Fibrosis Trust is to provide personal support to people affected by Pulmonary Fibrosis, a very debilitating and life-limiting illness.",
+    "followers": 2196
   }
 }

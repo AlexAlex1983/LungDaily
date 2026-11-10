@@ -362,5 +362,55 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-10-nasal-mrna-therapeutic-shows-numerical-symptom-reductions-in-asthma-af",
+    "headline": "Nasal mRNA therapeutic shows numerical symptom reductions in asthma after rhinovirus challenge",
+    "dek": "Topline data from Ethris show numerical reductions in respiratory symptoms versus placebo in adults with asthma on stable maintenance therapy, according to Healio Allergy and Asthma.",
+    "body": "Topline data from Ethris indicate numerical reductions in respiratory symptoms with a nasally delivered mRNA therapeutic compared with placebo in adults with asthma, according to a post by Healio Allergy and Asthma on X.\n\nThe reductions were seen after a rhinovirus challenge, the post said. The participants were adults with asthma who were on stable maintenance therapy.\n\nThe post described the findings as numerical reductions. It did not give figures, the size of the study, the name of the product or any statistical results, and it provided no further detail on study design or safety. It also did not mention any regulatory decision. The data were described as topline, and the post linked to a report from the account @HealioPulm.\n\nThe information in this article is limited to what was stated in the post.",
+    "key_quote": "a nasally delivered #mRNA therapeutic vs. placebo in adults with #asthma on stable maintenance therapy",
+    "tags": [
+      "asthma",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 7.0,
+    "created_at": "2026-11-10T14:08:26+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article says the post \"linked to a report from the account @HealioPulm.\" The source only tags @HealioPulm and includes a shortened t.co link. It does not say where the link leads or that it is a report from that account, so the claim is unsupported."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2120133921761284275",
+      "url": "https://x.com/HealioAllergy/status/2120133921761284275"
+    },
+    "mentions": [
+      "HealioPulm"
+    ],
+    "source": {
+      "id": "x:2120133921761284275",
+      "source": "x",
+      "url": "https://x.com/HealioAllergy/status/2120133921761284275",
+      "title": "",
+      "author_name": "Healio Allergy and Asthma",
+      "author_handle": "HealioAllergy",
+      "author_url": "https://x.com/HealioAllergy",
+      "published_at": "2026-11-10T12:38:11+00:00",
+      "extra": {
+        "tweet_id": "2120133921761284275",
+        "query_kind": "keywords",
+        "links": [
+          "https://vist.ly/5s63n"
+        ],
+        "author_followers": 635,
+        "author_id": "1409602508750721033"
+      }
+    },
+    "status": "held"
   }
 ]

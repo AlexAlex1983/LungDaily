@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-10-hopkins-icu-rehab-shares-randomised-trial-of-high-intensity-interval-t",
+  "headline": "Hopkins ICU Rehab shares randomised trial of high-intensity interval training in ILD",
+  "dek": "Johns Hopkins critical care rehabilitation account points to a randomised controlled trial of high intensity interval training in interstitial lung disease.",
+  "body": "Hopkins ICU Rehab, an account whose bio describes it as Johns Hopkins Critical Care Physical Medicine and Rehabilitation, shared a link on X on 10 November 2026 to a paper titled \"High intensity interval training in interstitial lung disease: a randomized controlled trial\".\n\nThe post consisted of the title and a link, along with the hashtags #icurehab and #A2Fbundle. It did not state the trial's results, the number of participants, the exercise protocol used, or the journal in which the paper appears.\n\nBecause the post contains no findings, no conclusions about the effectiveness or safety of high intensity interval training in interstitial lung disease can be drawn from it. Details of the trial's design and outcomes are available only in the linked paper itself.\n\nLungDaily will report the results if they are made available in a source that sets them out.",
+  "key_quote": "High intensity interval training in interstitial lung disease: a randomized controlled trial",
+  "tags": [
+    "ild",
+    "rehab",
+    "trial"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-10T14:08:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120134124858151387",
+    "url": "https://x.com/icurehab/status/2120134124858151387"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120134124858151387",
+    "source": "x",
+    "url": "https://x.com/icurehab/status/2120134124858151387",
+    "title": "",
+    "author_name": "Hopkins ICU Rehab",
+    "author_handle": "icurehab",
+    "author_url": "https://x.com/icurehab",
+    "published_at": "2026-11-10T12:39:00+00:00",
+    "extra": {
+      "tweet_id": "2120134124858151387",
+      "query_kind": "keywords",
+      "links": [
+        "https://bit.ly/4yAYgko"
+      ],
+      "author_followers": 11875,
+      "author_id": "2168430470"
+    }
+  },
+  "status": "ready"
+}

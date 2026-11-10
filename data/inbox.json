@@ -1,38 +1,5 @@
 [
   {
-    "id": "x:2119479310226804794",
-    "source": "x",
-    "url": "https://x.com/RichardPAConway/status/2119479310226804794",
-    "title": "",
-    "text": "Sullivan et al. RA, particularly those with COPD, had higher risk of acute respiratory exacerbation than those without RA and results were not explained by potential confounders including age, sex, and smoking intensity. @RheumNow #ACR26 Abstr#0477 https://t.co/nciY35ACha",
-    "author_name": "Richard Conway",
-    "author_handle": "RichardPAConway",
-    "author_url": "https://x.com/RichardPAConway",
-    "author_headline": "Rheumatologist @stjamesdublin , Associate Professor @tcddublin , Acute Medicine, Vasculitis, ILD, @rheum_covid CASC",
-    "published_at": "2026-11-08T17:17:00+00:00",
-    "metrics": {
-      "likes": 1,
-      "reposts": 1,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119479310226804794",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/RichardPAConway/status/2119479310226804794/photo/1"
-      ],
-      "author_followers": 5725,
-      "author_id": "847882911135223809"
-    },
-    "collected_at": "2026-11-08T18:46:47+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Rheumatologist shares ACR26 abstract: RA with COPD raises exacerbation risk."
-    }
-  },
-  {
     "id": "x:2119780766955561048",
     "source": "x",
     "url": "https://x.com/respcare/status/2119780766955561048",
@@ -135,6 +102,41 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "Respirology multicentre study linking sinonasal phenotype to COPD exacerbations"
+    }
+  },
+  {
+    "id": "x:2120113318849359952",
+    "source": "x",
+    "url": "https://x.com/FIRS_LungsFirst/status/2120113318849359952",
+    "title": "",
+    "text": "Climate change is a growing threat to lung health. Healthcare systems must be part of the response – protecting people and building climate resilience.\n👀Explore the 2026 Lancet Countdown findings:👀 https://t.co/udMlsSOJ2H #LungHealth #ClimateAndHealth https://t.co/ADPYE1YTeB",
+    "author_name": "FIRS -Forum of International Respiratory Societies",
+    "author_handle": "FIRS_LungsFirst",
+    "author_url": "https://x.com/FIRS_LungsFirst",
+    "author_headline": "The memberships of the Forum of International Respiratory Societies comprise over 70 000 professionals working on some aspect of respiratory health or disease.",
+    "published_at": "2026-11-10T11:16:19+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 2,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120113318849359952",
+      "query_kind": "voices",
+      "links": [
+        "https://buff.ly/kXXdHV4",
+        "https://twitter.com/LancetCountdown/status/2120056511476953157"
+      ],
+      "author_followers": 2313,
+      "author_id": "2798489479"
+    },
+    "collected_at": "2026-11-10T14:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "FIRS highlights 2026 Lancet Countdown findings on climate and lung health"
     }
   },
   {
@@ -1790,6 +1792,94 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "New journal study on explainable ML predicting childhood asthma"
+    }
+  },
+  {
+    "id": "x:2120128842308157739",
+    "source": "x",
+    "url": "https://x.com/PFTrust/status/2120128842308157739",
+    "title": "",
+    "text": "Tomorrow, we have our first ever Westminster Briefing in Parliament.\nHosted by Jim Shannon MP, we'll be sharing findings from our patient &amp; carer survey ensuring the voices of people affected by pulmonary fibrosis are heard. \n@CommonsHealth\n#PulmonaryFibrosis #HiddenInPlainSight",
+    "author_name": "PF Trust",
+    "author_handle": "PFTrust",
+    "author_url": "https://x.com/PFTrust",
+    "author_headline": "The aim of the Pulmonary Fibrosis Trust is to provide personal support to people affected by Pulmonary Fibrosis, a very debilitating and life-limiting illness.",
+    "published_at": "2026-11-10T12:18:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120128842308157739",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 2196,
+      "author_id": "1488883112"
+    },
+    "collected_at": "2026-11-10T14:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "events",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Patient survey findings presented at Parliament briefing on pulmonary fibrosis"
+    }
+  },
+  {
+    "id": "rss:68b021596bcb3855",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdldVZVlyallWWHJZbUs2Qm05YUhRYjR6a3J3cm1mU3lDZnVFaGJ2X1VMWFNldXNYdERjRmoxSUcyb2pQYnJ3a21lVHpwVW1ON205dW80aDN0TnRzRnRoMGNSOTFwZ3FEVjVMc2JLaEYyZmYwcVBGSVVLSFNfUTRJS3Y0UURsUGdFd3VCdA?oc=5",
+    "title": "Black Diamond Therapeutics plans pivotal lung-cancer trial - Mugglehead Investment Magazine",
+    "text": "Black Diamond Therapeutics plans pivotal lung-cancer trial Mugglehead Investment Magazine",
+    "author_name": "Mugglehead Investment Magazine",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-10T13:03:35+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    },
+    "collected_at": "2026-11-10T14:07:19+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Plans for pivotal lung cancer trial; investment-focused coverage."
+    }
+  },
+  {
+    "id": "rss:06553b552bbdc0d3",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXRVTmFIc3RpQUR6aEVwTkFnMG90dWNEY2lzZ2xudjlEc1hhblVDUmxsekUwQkNjTGJUSUhaTS1rdzZWN0xWZ0VYNWZBSWJqUTM4ODhtbUxZR2cxZFZsMlBBVk1QUjFzSTJVak5DWkZjRE5LYmgxc2ZMMk92WW81dmNqNnN3MEhGZzB4TGpiaVJYeDBVcnhTUVpBdFdxRUJabHhtTHoxZjZ3bEJtUVFWSzFhYVdhQ2p4aDJ2ZVVn?oc=5",
+    "title": "FDA feedback supports a planned trial and possible early approval for Black Diamond's lung cancer drug. - Stock Titan",
+    "text": "FDA feedback supports a planned trial and possible early approval for Black Diamond's lung cancer drug. Stock Titan",
+    "author_name": "Stock Titan",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-10T11:30:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory trial results"
+    },
+    "collected_at": "2026-11-10T14:07:19+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "FDA feedback supports planned lung cancer trial, possible early approval."
     }
   }
 ]

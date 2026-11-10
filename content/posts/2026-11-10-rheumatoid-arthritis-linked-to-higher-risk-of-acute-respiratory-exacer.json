@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-10-rheumatoid-arthritis-linked-to-higher-risk-of-acute-respiratory-exacer",
+  "headline": "Rheumatoid arthritis linked to higher risk of acute respiratory exacerbation, abstract reports",
+  "dek": "An abstract by Sullivan et al. found people with rheumatoid arthritis, particularly those with COPD, had a higher exacerbation risk than those without the condition, according to a rheumatologist's post.",
+  "body": "People with rheumatoid arthritis (RA), particularly those who also have COPD, had a higher risk of acute respiratory exacerbation than people without RA, according to an abstract by Sullivan et al.\n\nThe findings were summarised on X by Richard Conway, a rheumatologist at St James's Hospital, Dublin, and associate professor at Trinity College Dublin. He wrote that the results were not explained by potential confounders, including age, sex and smoking intensity.\n\nConway's post identified the work as Abstract 0477 at ACR26 and tagged @RheumNow. It did not name a journal, so the findings appear to come from a conference abstract rather than a published paper.\n\nThe post does not give the size of the increased risk, the number of participants, the study design or the population studied. Those details would be needed to judge how far the findings apply, and they are not available from the source.",
+  "key_quote": "RA, particularly those with COPD, had higher risk of acute respiratory exacerbation than those without RA",
+  "tags": [
+    "copd",
+    "tobacco"
+  ],
+  "people": [
+    "Richard Conway",
+    "Sullivan"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-10T14:08:51+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119479310226804794",
+    "url": "https://x.com/RichardPAConway/status/2119479310226804794"
+  },
+  "mentions": [
+    "RheumNow"
+  ],
+  "source": {
+    "id": "x:2119479310226804794",
+    "source": "x",
+    "url": "https://x.com/RichardPAConway/status/2119479310226804794",
+    "title": "",
+    "author_name": "Richard Conway",
+    "author_handle": "RichardPAConway",
+    "author_url": "https://x.com/RichardPAConway",
+    "published_at": "2026-11-08T17:17:00+00:00",
+    "extra": {
+      "tweet_id": "2119479310226804794",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/RichardPAConway/status/2119479310226804794/photo/1"
+      ],
+      "author_followers": 5725,
+      "author_id": "847882911135223809"
+    }
+  },
+  "status": "ready"
+}
