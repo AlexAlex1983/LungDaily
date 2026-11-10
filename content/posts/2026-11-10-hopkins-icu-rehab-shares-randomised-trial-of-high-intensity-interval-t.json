@@ -42,5 +42,9 @@
       "author_id": "2168430470"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-10T15:45:16+00:00",
+  "shared": {
+    "x": "2120181172655260047"
+  }
 }
