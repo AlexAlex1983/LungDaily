@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 9,
+    "seen": 10,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47383
+    "followers": 47382
   },
   "erspublications": {
     "id": "424241621",
@@ -58,7 +58,7 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 5,
+    "seen": 6,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
     "followers": 31655
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 6,
+    "seen": 7,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65483
+    "followers": 65484
   },
   "copddoc": {
     "id": "356203202",
@@ -242,7 +242,7 @@
   "mycopdteam": {
     "id": "2163361686",
     "username": "myCOPDteam",
-    "seen": 1,
+    "seen": 2,
     "name": "myCOPDteam",
     "bio": "The social network for people living with COPD. We now have 75,000 members! Find support. #COPD #Emphysema #ChronicBronchitis #Alpha1",
     "followers": 1486
@@ -362,9 +362,17 @@
   "pftrust": {
     "id": "1488883112",
     "username": "PFTrust",
-    "seen": 1,
+    "seen": 2,
     "name": "PF Trust",
     "bio": "The aim of the Pulmonary Fibrosis Trust is to provide personal support to people affected by Pulmonary Fibrosis, a very debilitating and life-limiting illness.",
     "followers": 2196
+  },
+  "allergyeaaci": {
+    "id": "1006875688903888896",
+    "username": "AllergyEaaci",
+    "seen": 1,
+    "name": "Allergy EAACI",
+    "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
+    "followers": 6054
   }
 }

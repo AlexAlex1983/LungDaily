@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-10-long-term-pm2-5-exposure-linked-to-higher-incident-asthma-risk-stronge",
+  "headline": "Long-term PM2.5 exposure linked to higher incident asthma risk, strongest in older urban Medical Aid recipients",
+  "dek": "A nationwide cohort study reports that PM2.5 exposure was associated with incident asthma, with risk rising as urban residence, poverty and older age overlapped.",
+  "body": "Long-term exposure to fine particulate matter (PM2.5) was associated with incident asthma in a nationwide cohort, according to a study published in the journal Allergy and highlighted in a post on X by the journal's account.\n\nThe study, titled \"Cumulative Vulnerability to Particulate Matter and Incident Asthma: Joint Effects of Urbanicity, Poverty, and Age in a Nationwide Cohort\", lists Hyun Lee as first author and Juhee Cho as corresponding author. PM2.5 refers to particulate matter with an aerodynamic diameter of 2.5 μm or less.\n\nThe post reported a hazard ratio (HR) of 1.33 (95% CI 1.32–1.34) for incident asthma per 10 μg/m3 of long-term PM2.5 exposure.\n\nAccording to the post, vulnerability to PM2.5-associated asthma increased with overlapping vulnerabilities of urban residence, poverty and older age, with a p value for interaction below 0.001. The association was strongest among older urban Medical Aid recipients, with an HR of 1.80 (95% CI 1.66–1.94).\n\nThe post also pointed readers to other articles published in Allergy on the impact of climate change on health.",
+  "key_quote": "The association was strongest among older urban Medical Aid recipients (HR 1.80, 95% CI 1.66–1.94).",
+  "tags": [
+    "asthma",
+    "air-pollution",
+    "equity",
+    "primary-care"
+  ],
+  "people": [
+    "Hyun Lee",
+    "Juhee Cho"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-10T17:09:16+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120189690221342792",
+    "url": "https://x.com/AllergyEaaci/status/2120189690221342792"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120189690221342792",
+    "source": "x",
+    "url": "https://x.com/AllergyEaaci/status/2120189690221342792",
+    "title": "",
+    "author_name": "Allergy EAACI",
+    "author_handle": "AllergyEaaci",
+    "author_url": "https://x.com/AllergyEaaci",
+    "published_at": "2026-11-10T16:19:48+00:00",
+    "extra": {
+      "tweet_id": "2120189690221342792",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1111/all.70502",
+        "https://x.com/AllergyEaaci/status/2120189690221342792/photo/1"
+      ],
+      "author_followers": 6054,
+      "author_id": "1006875688903888896"
+    }
+  },
+  "status": "ready"
+}
