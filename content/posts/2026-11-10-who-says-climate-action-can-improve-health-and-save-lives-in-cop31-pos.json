@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-09-who-says-climate-action-can-improve-health-and-save-lives-in-cop31-pos",
+  "slug": "2026-11-10-who-says-climate-action-can-improve-health-and-save-lives-in-cop31-pos",
   "headline": "WHO says climate action can improve health and save lives, in COP31 post",
   "dek": "In a post on X, the World Health Organization said climate change worsens health risks and that investment in clean air, clean energy and sustainable transport can protect health.",
   "body": "The World Health Organization (WHO) said climate change is making people sick, in a post on X published on 9 November that pointed readers to further information on COP31.\n\nAccording to WHO, malnutrition, mental health risks and a rise in diseases are made worse by climate change. The agency also said that communities least responsible for climate change bear the heaviest burden of its impacts, including health risks.\n\nWHO said there is \"good news\": climate action can improve health and save lives. In the post, the agency said that by investing in clean air, clean energy and sustainable transport, \"we can protect the planet and our health\".\n\nThe post came from WHO's official account, whose profile describes the organisation as the UN's health agency working for #HealthForAll. It included a link to more material on COP31.",
@@ -47,5 +47,9 @@
       "author_id": "14499829"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-10T10:00:15+00:00",
+  "shared": {
+    "x": "2120094221482754116"
+  }
 }
