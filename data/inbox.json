@@ -237,6 +237,41 @@
     }
   },
   {
+    "id": "x:2119958690711118157",
+    "source": "x",
+    "url": "https://x.com/RespirologyAPSR/status/2119958690711118157",
+    "title": "",
+    "text": "🌏RESPIROLOGY\nA Sinonasal-Dominant Symptom Phenotype Is Associated With COPD Exacerbations: A Multicentre Cross-Sectional Study \nhttps://t.co/bLcUZPR1tW https://t.co/sUqQdb8EIu",
+    "author_name": "Respirology",
+    "author_handle": "RespirologyAPSR",
+    "author_url": "https://x.com/RespirologyAPSR",
+    "author_headline": "Official Journals of the Asian Pacific Society of Respirology\n#Respirology   \n#RespirologyCaseReports",
+    "published_at": "2026-11-10T01:01:53+00:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2119958690711118157",
+      "query_kind": "keywords",
+      "links": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/resp.70341",
+        "https://x.com/RespirologyAPSR/status/2119958690711118157/photo/1"
+      ],
+      "author_followers": 8363,
+      "author_id": "867483486"
+    },
+    "collected_at": "2026-11-10T05:07:18+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Respirology multicentre study linking sinonasal phenotype to COPD exacerbations"
+    }
+  },
+  {
     "id": "x:2119097547025178651",
     "source": "x",
     "url": "https://x.com/accpchest/status/2119097547025178651",
