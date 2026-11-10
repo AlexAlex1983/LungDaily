@@ -1,5 +1,40 @@
 [
   {
+    "id": "x:2120222525661561039",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2120222525661561039",
+    "title": "",
+    "text": "ERJ Open Research: Clinically significant pulmonary arterial hypertension affects a small but significant proportion (1.1%) of adults with congenital heart disease in Australia. In this national study of 392 patients, over 35% died during follow-up. https://t.co/92At72fx70 https://t.co/39sSV4ZZXf",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-10T18:30:16+00:00",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120222525661561039",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/3S4lwr5",
+        "https://x.com/ERSpublications/status/2120222525661561039/photo/1"
+      ],
+      "author_followers": 33462,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-10T20:07:23+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERJ Open Research national study on PAH in adults with CHD"
+    }
+  },
+  {
     "id": "x:2119711597119590627",
     "source": "x",
     "url": "https://x.com/EuropeanLung/status/2119711597119590627",
@@ -183,568 +218,6 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Phase 3 tarlatamab survival benefit in SCLC, expert commentary"
-    }
-  },
-  {
-    "id": "pubmed:42980248",
-    "source": "pubmed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42980248/",
-    "title": "Targeting Accelerated Aging in COPD: The AMICO (A Trial of Metformin In COpd) Trial Design.",
-    "text": "INTRODUCTION: Chronic obstructive pulmonary disease (COPD) is increasingly recognized as a disease of accelerated biological aging characterized by progressive lung function decline, emphysema progression and multiple age-related comorbidities. Current therapies improve symptoms and reduce exacerbations but have limited effects on disease progression. Metformin has demonstrated anti-aging properties through modulation of pathways involved in oxidative stress, inflammation, mitochondrial dysfunction and cellular senescence, making it a potential disease-modifying treatment in COPD. METHODS: AMICO (A Trial of Metformin In COPD) is an investigator-initiated, multicenter, randomized, double-blind, placebo-controlled phase III trial conducted in anonymous. A total of 212 patients with clinically stable COPD, centrilobular emphysema on computed tomography, post-bronchodilator FEV1 40%-70% predicted and accelerated FEV1 decline (>40 mL·year-1) will be randomized (1:1) to receive metformin (850 mg twice daily) or matching placebo for 36 months in addition to standard COPD treatment. Assessments include pulmonary function, chest computed tomography, exercise capacity, health status, muscle strength, body composition, age associated comorbidities development and aging-related biomarkers.The primary endpoint is the annual rate of FEV1 decline over 36 months. Secondary endpoints include emphysema progression, changes in diffusing capacity, COPD Assessment Test score, 6-minute walk distance, BODE index, handgrip strength, exacerbations, major cardiovascular events, cancer incidence and renal dysfunction. CONCLUSIONS: AMICO is the first randomized trial specifically designed to evaluate metformin as a gerotherapeutic and disease-modifying intervention in COPD. The study may provide novel evidence supporting geroscience-based approaches to slow disease progression and improve long-term outcomes in patients with COPD.",
-    "author_name": "Juan P de-Torres, Ciro Casanova, José M Marín et al.",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-12-04T00:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "journal": "COPD",
-      "doi": "10.1080/15412555.2026.2753977",
-      "pub_types": [
-        "Journal Article",
-        "Randomized Controlled Trial",
-        "Multicenter Study",
-        "Clinical Trial, Phase III"
-      ],
-      "first_author": "Juan P de-Torres"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Phase III metformin COPD trial design; notable, but no results yet"
-    }
-  },
-  {
-    "id": "pubmed:42993210",
-    "source": "pubmed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42993210/",
-    "title": "Mucus Plugging Across Multiple Chronic Respiratory Diseases: A Systematic Review and Meta-analysis.",
-    "text": "OBJECTIVE: To systematically evaluate the prevalence, clinical characteristics, and clinical outcomes of mucus plugging across chronic respiratory diseases. METHODS: Two authors searched four databases for eligible studies. Prevalence of mucus plugging was pooled and shown as percentage with a 95% confidence intervals (CI). Differences in clinical characteristics were summarized using mean differences or odds ratios, with corresponding 95% CIs. Sensitivity analyses, subgroup analyses and meta-regression were conducted for heterogeneity assessments. Associations between mucus plugging and clinical outcomes were systematically evaluated. RESULTS: A total of 33 studies was included. Prevalence of mucus plugging in asthma, chronic obstructive pulmonary disease (COPD) and cystic fibrosis reached 63% (95%CI 52%, 74%), 47% (95% CI 38%, 55%) and 63% (95% CI 46%, 81%) respectively. Mucus plugging was associated with higher eosinophil counts and FeNO, and lower FEV₁% and FEV₁/FVC in asthma, as well as higher smoking odds. In COPD, mucus plugging was associated with older age and lower BMI, FEV₁%, FVC% and FEV₁/FVC (all p < 0.05). Meta-regression suggested that eosinophil counts (p < 0.01), FeNO (p = 0.02) and FEV1% (p=0.04) contributed to heterogeneity in asthma, and inhaled corticosteroid (p < 0.01) and FEV1/FVC (p < 0.01) contributed to heterogeneity in COPD. Presence of mucus plugging was also associated with higher risk of acute exacerbation, mortality, prolonged hospital stays and increased hospitalization costs in patients with COPD. CONCLUSION: Mucus plugging is prevalent in chronic respiratory diseases and associated with distinct clinical characteristics and outcomes. Future research may focus on mucus plugging as a treatable trait to improve prognosis of these patients.",
-    "author_name": "Dongru Du, Suli Liu, Yin Zhang et al.",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T00:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "journal": "Lung",
-      "doi": "10.1007/s00408-026-00958-z",
-      "pub_types": [
-        "Journal Article",
-        "Systematic Review",
-        "Meta-Analysis",
-        "Review"
-      ],
-      "first_author": "Dongru Du"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Multi-disease mucus plugging meta-analysis of 33 studies"
-    }
-  },
-  {
-    "id": "pubmed:42982805",
-    "source": "pubmed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42982805/",
-    "title": "Meta-analysis of empirical evidence on biodiversity and the risk of asthma.",
-    "text": "Climate change and urbanization are associated with reduced greenness and vegetation diversity, depletion of biodiversity, and impoverishment of human microbiota. These changes may influence immune regulation and increase the risk of many chronic inflammatory diseases, such as asthma. This study presents the results of a meta-analysis of the association between exposure to environmental and human microbiota biodiversity and the development of asthma. The effect estimates for biodiversity were summarized as the standardized mean difference or relative risk with 95% confidence interval applying the Hedges method and the restricted maximum likelihood estimator, respectively. The summary effect estimates for the association between environmental biodiversity, using the Shannon index, and asthma was not statistically significant; whereas higher bacterial richness showed a significant protective association with asthma, although the considerable heterogeneity across the studies and publication bias. For human microbiota diversity, the summary standardized mean difference suggested that the risk of asthma was associated with high bacterial diversity and bacterial richness/abundance, while the OR‑based estimate for bacterial richness and asthma was not significant. Our meta-analysis shows variable associations between exposure to environmental and human microbiota biodiversity and asthma, with the direction and magnitude of these associations depending on the specific biodiversity metrics and analytical approaches used.",
-    "author_name": "Inês Paciência, Needhi Sharma, Timo T Hugg et al.",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-10-07T00:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "journal": "Nature communications",
-      "doi": "10.1038/s41467-026-77643-5",
-      "pub_types": [
-        "Journal Article",
-        "Meta-Analysis"
-      ],
-      "first_author": "Inês Paciência"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Nature Communications meta-analysis linking biodiversity and asthma risk"
-    }
-  },
-  {
-    "id": "rss:d4480d0c1e3a64b8",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOXy0yLUZSUTV5aExpSC0zOExTZEU2bENWaGpzdFlsaXVfbHhRM01MeVZ6S2pZczhmLXZKSzJ3eEFMcktWRmJ0TURUSWRPb2gtNnJEV3pfVVVBQmdLazllRzVPa1VVY1UyT1NYamlnOWlxdmFROFlwSk9xcFhhak92X3k1RHJTTTU5eW80VmhPOEJGcHJGR2pTZ1diMA?oc=5",
-    "title": "Q&A: Discussing 2027 GOLD Report Updates in COPD, With David Singh, MD - HCPLive",
-    "text": "Q&A: Discussing 2027 GOLD Report Updates in COPD, With David Singh, MD HCPLive",
-    "author_name": "HCPLive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T23:24:15+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert Q&A on 2027 GOLD report updates in COPD"
-    }
-  },
-  {
-    "id": "rss:4423416bf4af6d8c",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CV2lPakJfSi03NnRkWmdDbW1pai11LVhweWJsdVlLeFJkZHp0LWV5SVlqWFc3VHdiQTJOWE8yWFljTjBKWHd6bVFLY09ZbWtFVXpkZTJiZlpXQnRMUGFwcE9xRjhWX3dZeGNUUWw2YXpOVWdYblE?oc=5",
-    "title": "Silent Mucus Plugs in COPD: Emily S. Wan, MD - The American Journal of Managed Care",
-    "text": "Silent Mucus Plugs in COPD: Emily S. Wan, MD The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-07T01:03:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert interview on silent mucus plugs in COPD"
-    }
-  },
-  {
-    "id": "rss:6cb3947248bbd43c",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRml3alJwRmNRZmVUcVFjaTE4QmxqcG5sdG1vcE1FVnpSS3BqMXZqVjFCTHF4bHFuVS1RLVpQWmducjVOTmVYS2ZteXliZGpTWnpGblFFRGk4M25vQ0lCTkt2QWxlczFONUE5TllRM0tnQXpRczJkZUVyd2NTYjVCLUxXVVNOcFExeks0?oc=5",
-    "title": "Q&A: Why IL-33 Matters for Mucus Plugs, Inflammation in COPD - HCPLive",
-    "text": "Q&A: Why IL-33 Matters for Mucus Plugs, Inflammation in COPD HCPLive",
-    "author_name": "HCPLive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T20:52:56+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert Q&A on IL-33 role in mucus plugs and COPD"
-    }
-  },
-  {
-    "id": "rss:a123fe8eb57b4592",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR2g4UmFZbkRlbEpJbm5CdzROWUoxak9oY1lub3NwcTVHOG5sT1FlNy1xRXo1OTdmRXQwMENLRS1hVTJwUTZGU29DSjF4TUhHYmcwZVdwNEJVbGdzSUJNaGZSekFkUEJQUVM4X1Q0TXJFVExFcnNCSzFWZGpFTjdiQlhaeTVzaXpG?oc=5",
-    "title": "Anti–IL-33 Biologics in COPD: Francesca Polverino, MD, PhD - The American Journal of Managed Care",
-    "text": "Anti–IL-33 Biologics in COPD: Francesca Polverino, MD, PhD The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T22:03:51+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert interview on anti-IL-33 biologics in COPD"
-    }
-  },
-  {
-    "id": "rss:b6e63af7e37ad5cc",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWxtUDhFWGJTUTBDWlZfbTRSSzFWNm1DYzRPd25HeDZLZ3pzOXdPSFowaGxvbTVSbGthTjgxTF9fa1Y0NHVaMmZZbXBNa2h6aG04QzNoa0NZSk9hQXhaUDlZSm9UN29sVDRId1JudWxwTmRoTlVmMjF6ZHJ6NFh4OHRhWHVRQ1lDUTVJaG04b1JOa1ZKVklIZFRtbnFSbUpPS3kzUW1KMA?oc=5",
-    "title": "Ensifentrine Outperforms Other PDE Inhibitors for COPD in Network Meta-Analysis - Bioengineer.org",
-    "text": "Ensifentrine Outperforms Other PDE Inhibitors for COPD in Network Meta-Analysis Bioengineer.org",
-    "author_name": "Bioengineer.org",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-07T11:23:12+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Network meta-analysis comparing ensifentrine with other PDE inhibitors in COPD"
-    }
-  },
-  {
-    "id": "rss:62f9465a06bfff9a",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaUJoMUtDdDAwcXVvb0swSmFLMS1DejJfQkgyY2xRVHVtbWp4UFJWTG1OamNKR0E0cVd5U3ZCcFZwRGgtUGZILURZMkdtZnZ0SGdlaHVsbXBWbDRKUC03R1dSUUVtbjlBYllwSGxFcjNoclYzMU5mdDMwSFZIN1RaRTRwNndBMUU?oc=5",
-    "title": "Choosing Inhaler Devices in COPD: David Halpin, MA, DPhil - The American Journal of Managed Care",
-    "text": "Choosing Inhaler Devices in COPD: David Halpin, MA, DPhil The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T22:03:51+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert interview on inhaler device choice in COPD"
-    }
-  },
-  {
-    "id": "rss:2c4c9b2df6043eff",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMnRNWnQxSUtETlY0MWt0bTgyUmMwY2g4a2ptcVFIU09ncy1QZk84TG94b1Bqb3VVVExoazRCMmlpaWtXSkZGNENQaTNhSklhY3lfS3ZMY3VyMENZbTFiYzhMTHYzNjZXRV85WEFnLTNRR2dvX0d6bllSWFNJeFJCTVR3VXZwSjdY?oc=5",
-    "title": "The Duality of IL-33 in COPD, With Francesca Polverino, MD, PhD - HCPLive",
-    "text": "The Duality of IL-33 in COPD, With Francesca Polverino, MD, PhD HCPLive",
-    "author_name": "HCPLive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T17:18:19+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Expert discussion of IL-33's dual role in COPD"
-    }
-  },
-  {
-    "id": "rss:ed8e36b14b475669",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY24wTzdvUUdKNUxWc0ZYUjc3UVAzSnJDR0wzNlVDdDdlSmJadlZqYXp4ZVlMdnZFd3p5ajRkWF9pNE9WUzBuMGtRcXJfSHpLMTRDZlNYek5KY29sc2FGZDFFMllpM0cxUm1TYU9SS0tzMExKb211S09MSmlGc0pyZ3ZzZ1lPckNkdURfSU5aRWxrNVh4cnJueXdySQ?oc=5",
-    "title": "COPD Mucus Plugs Often Go Unnoticed but Predict Hospitalization, Death - The American Journal of Managed Care",
-    "text": "COPD Mucus Plugs Often Go Unnoticed but Predict Hospitalization, Death The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T14:27:14+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Study linking COPD mucus plugs to hospitalization and mortality"
-    }
-  },
-  {
-    "id": "rss:3302eb819091894b",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSC1fMmF6cHNBeUd6TkJ3MTZEb0wycEZCOVdvS2JLOXV2YWY2TDZzTVdlcHVxN1BsbEd2TXUxYm85c3hmTGZsUmo4QkdGS1JQZDhxdFFDaFZWVUxLYjRMM3Z3Y2JFRUVmQ1drN1NjMVc3eHNtbHFab1JwVVlNTm5LNFU0OWpmekpsYVdKVHMzQUstNnRPRmFoSkFxbXF3QlRycmtOS04zT1kzSm9HNDlvUjVzdw?oc=5",
-    "title": "Paediatric Asthma Emergency Acuity and Hospitalizations Surged in Alberta After Pandemic - Bioengineer.org",
-    "text": "Paediatric Asthma Emergency Acuity and Hospitalizations Surged in Alberta After Pandemic Bioengineer.org",
-    "author_name": "Bioengineer.org",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-07T09:50:58+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Alberta study on pediatric asthma acuity and hospitalizations after pandemic"
-    }
-  },
-  {
-    "id": "rss:35f8a568c8c85f83",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSHBhdmlSS2RWVTFmX09lMUZCTEF0SktDSTZzam52M2JNQnZDWThiZEpGN3l1bVpGdGlaYmxhdkZWVVNKbWVVaEwwN1kzZmhFdF9CcGlkMVF3bDZLZHVMZldTRDF2RnVpbnJFRW1WYWY4VlYxX0tieWM5bkRyeVhoelNZcU5zQQ?oc=5",
-    "title": "Mucus Plug Reduction with Type 2 Biologics: Lessons for COPD - HCPLive",
-    "text": "Mucus Plug Reduction with Type 2 Biologics: Lessons for COPD HCPLive",
-    "author_name": "HCPLive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T02:04:35+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Analysis of mucus plug reduction with type 2 biologics in COPD"
-    }
-  },
-  {
-    "id": "rss:c069d3c620b036b2",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQS1RzMUt2RXU1bVNZbXN2RF9CRDVDLTduTzZvd3BUdDNuemtNT0M3b2ZubjA5dHNwTXZ5MlFMWGVDMVlXU0QteXdZZng1MUk2b1QzUkxzUy0tOGtSeExkdXJ0Qi1DVEVmbWJQeU1zeTZWa3Q0bWVHWm1KRkpydzVHVGt6Qko1OHhkSjVtcVBkZ2xrZDZadWFKS2htczNlV0FqUDlfTm1PYw?oc=5",
-    "title": "Young Adults With Lung Cancer Often Fall Outside Screening Guidelines - CancerNetwork",
-    "text": "Young Adults With Lung Cancer Often Fall Outside Screening Guidelines CancerNetwork",
-    "author_name": "CancerNetwork",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T13:14:11+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Substantive finding on young lung cancer patients missed by screening criteria."
-    }
-  },
-  {
-    "id": "rss:87d2291f1a620947",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcWR2YWdtbnUwdVdDOFFpZEQ1dU5lMl9OS3c0NG8zaVNsVG1OSmtqcFdvd3hRVG9wR3ozUzBySm1YNGcwY1E5Xy1MZGdwanZyekpqbmMwbmQ0TUdqV2E1dTJ5V3I3VU0zS2k4emx2QldndzdNdjVxRjRucW41S3ZRSkJ6WHN1M28wSEV3cjJmWHFnVnpBVzZvSTdlUGN6amJRQk5pU1JmWmREVkNOY2IxcDJKV1g4b3BPRjlVU3o1ODBUOGtRVklyQWkxeXBIZw?oc=5",
-    "title": "There's a new push to change lung cancer screening - KTVN",
-    "text": "There's a new push to change lung cancer screening KTVN",
-    "author_name": "KTVN",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T01:37:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "duplicate": false,
-      "reason": "Substantive push to change US lung cancer screening recommendations."
-    }
-  },
-  {
-    "id": "rss:c1f134839f717b1f",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaWhPOUxLMVNMVUxvMUwwMmw0ODJiSDlZVDUwZGZJTTNmbHRmNWFWeGVYajdMNm5NLWJvZEo4UTNDVmE2MndHSVlncFQzZV9SZVNGYUVaZGxSMTJ0UXNOcTNwUDNTQTB1czhadE01TXNWZTFadEJ6VjlXYllKYWJLR2NJNk5yOVlPYmc5bHJSaHNCQkZrRzR0ZmRtb3RPWVFKNmZjTW5CQkhiTmdDQ3M1OXdzRGlyamNaWTlzbDZXWUZyVWo1?oc=5",
-    "title": "Push To Change Lung Cancer Screening Recommendations - WBOC TV",
-    "text": "Push To Change Lung Cancer Screening Recommendations WBOC TV",
-    "author_name": "WBOC TV",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-05T23:31:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "duplicate": false,
-      "reason": "Covers the campaign to revise lung cancer screening recommendations."
-    }
-  },
-  {
-    "id": "rss:d6c1fbc145a8a3cc",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR1JnYTlZQ0xhNHFHTncyM0ZYd0FmbWxhMG40cko0eS1ZT3g4VlljNWZKSGZWaWpUWEJWS0lIMFliMFV0Ylp4UkFrbU5IN1lBMmhaaXhNZURqempfTEM4cjdqd3NVMlR1Z0pVNWJNd0JFRDBCbG5uSnBMWVFUSE9QM21zU1VsMnVjb1JtWGNmV3IzTXl6bDhDdFpNc1B5TzVoeklPRUtUWXFLQUUzcFhCT0o1TGdEZDFlZjdXeA?oc=5",
-    "title": "Push to change lung cancer screening criteria - KXLY.com",
-    "text": "Push to change lung cancer screening criteria KXLY.com",
-    "author_name": "KXLY.com",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T04:36:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "duplicate": false,
-      "reason": "Covers the campaign to revise lung cancer screening criteria."
-    }
-  },
-  {
-    "id": "rss:aa030acc82e256c5",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CcS0zRlAxM3NsN1ljME5GM2ZGR215bFdZSzZCcHl4WlpCaW9HTUQ2RUpYeXpRdnFXMGNSdzRBYS0tR0pRcVJBTDJRclJXVGdLSlRIemFTMTVab2JXYU1obGNUSXDSAWpBVV95cUxNWXc1cmNHS3RlMGdILWI4dnlJejY1cTEzYWVUNHJnZmRBclJxY001eFVud1JZVzNnakxtdmNsQ1E5NF9OUEVPTmtuS1ZlMjlFdmdUN0FPN3lVU0hibkhGbmpHdE9YZHJaZjdR?oc=5",
-    "title": "VA lung cancer screening saves lives: Dr. Martin Edelman - FOX 5 Atlanta",
-    "text": "VA lung cancer screening saves lives: Dr. Martin Edelman FOX 5 Atlanta",
-    "author_name": "FOX 5 Atlanta",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-05T19:02:02+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "duplicate": false,
-      "reason": "Veteran-affairs physician argues VA screening saves lives."
-    }
-  },
-  {
-    "id": "rss:175c66b8b886db11",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd3JZTHZPdUVFWXktb1p0NW1iQTlodXZBM1oxWlBYcDhJQU9ObnVIaldCT1V2Yng2RXNHM3JLOVlzVVZPemRWY0VlQ2dwa2RIdllJWVplVUpLbU8tcmw0RmVvMHhWc1hRZGc0R0VveUtDempVYXlFSmRzUDJUYnA1YjdLbU1RR0tMY25RTW1FcVdpTjNoeDg5VDBIeDdYWWR6NDZzdEF6ZDVJcmpibndlazhqSXdqY3pfaFA3UFZvdFFoODg?oc=5",
-    "title": "Researchers push to expand lung cancer screening - KVUE",
-    "text": "Researchers push to expand lung cancer screening KVUE",
-    "author_name": "KVUE",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-05T23:02:38+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T18:26:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "duplicate": false,
-      "reason": "Researchers advocate expanding lung cancer screening eligibility."
-    }
-  },
-  {
-    "id": "rss:1bea69f79d7cb116",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uNXBhU2lralNmRHdUNkx3TTVPc2RSN3RIdlBLSjZubXNkanJ4S3ktdzFlUEY2VGhLeDhFTDRUZVc5NUpmQTZCS2pNakpHaGhFdjEwYUctM2FKQQ?oc=5",
-    "title": "Rutgers-led group receives $6.5M NCI award to advance lung cancer prevention, survivorship, and tobacco control policies - The Cancer Letter",
-    "text": "Rutgers-led group receives $6.5M NCI award to advance lung cancer prevention, survivorship, and tobacco control policies The Cancer Letter",
-    "author_name": "The Cancer Letter",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T23:16:31+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-07T19:25:43+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Substantive NCI-funded award for lung cancer prevention and tobacco control."
     }
   },
   {
@@ -1774,6 +1247,34 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "PF Trust survey of 500+ people presented to Westminster; substantive advocacy"
+    }
+  },
+  {
+    "id": "rss:2e95b65249cd8bf3",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXU0U1hRNXR2dXdVQ2Zuc0hkTHpkWVBkaW8tbjlnZ1U3MHN6azJyM1BXbEVhQi1sVTE2YVlKNmhGOGd2VVF4MVh1WV8xWGJFZUZsSHI5N1dGWjZxaWo0SGdSaHc1dUhPTUJWaHpHMGtxSTg5dDMyR3NKSS16aFFPTklDdjd3YnRhUUVhTlVac3hGWkJ2NHJhdjQyUWQ4QQ?oc=5",
+    "title": "Claudia Henschke, PhD, MD: Finding Lung Cancer in Time - The ASCO Post",
+    "text": "Claudia Henschke, PhD, MD: Finding Lung Cancer in Time The ASCO Post",
+    "author_name": "The ASCO Post",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-10T17:48:34+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — lung cancer screening"
+    },
+    "collected_at": "2026-11-10T20:07:23+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Interview with CT screening researcher Claudia Henschke on early detection"
     }
   }
 ]

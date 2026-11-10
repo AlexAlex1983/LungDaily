@@ -412,5 +412,46 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-10-silevertinib-cns-activity-supports-planned-phase-3-in-egfr-mutant-nscl",
+    "headline": "Silevertinib CNS activity supports planned phase 3 in EGFR-mutant NSCLC",
+    "dek": "Targeted Oncology reports that central nervous system activity of silevertinib supports a planned phase 3 study in EGFR-mutant non-small cell lung cancer.",
+    "body": "Silevertinib has shown central nervous system (CNS) activity that supports a planned phase 3 study in EGFR-mutant non-small cell lung cancer (NSCLC), according to a Targeted Oncology news item published on 10 November 2026.\n\nThe item's headline is the only information available from the source. It does not give the underlying data, the sponsor, the design or timing of the planned phase 3 study, or any regulatory status. This report therefore does not describe those details, and the item should not be read as an approval.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 7.0,
+    "created_at": "2026-11-10T20:08:15+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 89 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHFRMEc1VEJVZEs0bmJyN25meV91TV90YlEtSnpzUDcwSlo0OTFGSE9HekM1a1ZLRWNQV3hsdk15MWx6amI5eFl3YmlMS0V6MjVmYU1tYlNYWWdmSE1sMnh5cmNNcHJIX0dKa1JuNktDcTEyMXhXRXFKS1NwQzRIZjkwTGMzRV9JQ0Q2MkNUNW1MTnFUUmc?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:d9451c1af4096d2e",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHFRMEc1VEJVZEs0bmJyN25meV91TV90YlEtSnpzUDcwSlo0OTFGSE9HekM1a1ZLRWNQV3hsdk15MWx6amI5eFl3YmlMS0V6MjVmYU1tYlNYWWdmSE1sMnh5cmNNcHJIX0dKa1JuNktDcTEyMXhXRXFKS1NwQzRIZjkwTGMzRV9JQ0Q2MkNUNW1MTnFUUmc?oc=5",
+      "title": "Silevertinib CNS Activity Supports Planned Phase 3 in EGFR-Mutant NSCLC - Targeted Oncology",
+      "author_name": "Targeted Oncology",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-10T16:08:30+00:00",
+      "extra": {
+        "feed": "Google News — respiratory trial results"
+      }
+    },
+    "status": "held"
   }
 ]

@@ -10,18 +10,18 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 10,
+    "seen": 11,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47382
+    "followers": 47383
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 3,
+    "seen": 4,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33460
+    "followers": 33462
   },
   "iaslc": {
     "id": "61241883",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 5,
+    "seen": 6,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13820
+    "followers": 13819
   },
   "lungassociation": {
     "id": "17049255",
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 3,
+    "seen": 4,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42207
+    "followers": 42210
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -178,18 +178,18 @@
   "msrc_texasstate": {
     "id": "1258054340129873921",
     "username": "MSRC_TexasState",
-    "seen": 1,
+    "seen": 2,
     "name": "MS in Respiratory Care at Texas State University",
     "bio": "Post-professional, online graduate degree in Respiratory Care. Providing advanced education to respiratory therapists to further their personal or career goals.",
-    "followers": 805
+    "followers": 806
   },
   "allergyasthmahq": {
     "id": "23939188",
     "username": "AllergyAsthmaHQ",
-    "seen": 2,
+    "seen": 3,
     "name": "Allergy & Asthma Network",
     "bio": "🌟 Allergy & Asthma Network unites and advocates on behalf of 60 million Americans with #asthma 😷, #allergies 🤧 and related conditions. Learn more ⬇️",
-    "followers": 10211
+    "followers": 10212
   },
   "respcare": {
     "id": "47395645",
@@ -374,5 +374,13 @@
     "name": "Allergy EAACI",
     "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
     "followers": 6054
+  },
+  "drewmoghanaki": {
+    "id": "1322269645",
+    "username": "DrewMoghanaki",
+    "seen": 1,
+    "name": "Drew Moghanaki",
+    "bio": "Chief of Thoracic Oncology, Endowed Professor, UCLA Dept of Radiation Oncology | Co-Director, Lung Precision Oncology Pgm, VA Greater Los Angeles",
+    "followers": 14029
   }
 }
