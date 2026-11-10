@@ -9,7 +9,7 @@ import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from . import images
-from .util import POSTS, ROOT, iso, load_yaml, log, now, parse_date, read_json, settings
+from .util import POSTS, ROOT, iso, load_yaml, log, now, parse_date, read_json, settings, write_json
 
 OUT = ROOT / "site"
 
@@ -69,9 +69,22 @@ def build() -> int:
         sel = [p for p in posts if p["category"] == cat]
         _write(OUT / cat / "index.html", env.get_template("index.html").render(
             **ctx, root="../", posts=sel[:60], title=f"{label} — {site['name']}", heading=label, active=cat))
+    pics_cfg = cfg.get("pictures") or {}
+    lib_index = images.library_index() if pics_cfg.get("library", True) else {}
+    lib_state = read_json(images.LIBRARY_STATE, {})
+    # assign library pictures oldest-first so the rotation is stable across rebuilds
+    lib_pics = {}
+    for p in sorted(posts, key=lambda r: r["date"]):
+        if not p["has_picture"]:
+            try:
+                lib_pics[p["slug"]] = images.library_picture(p, lib_state, lib_index, float(pics_cfg.get("library_share", 1.0)))
+            except Exception as e:
+                log.warning("Library picture failed for %s: %s", p["slug"], e)
+    if lib_index:
+        write_json(images.LIBRARY_STATE, lib_state)
     for p in posts:
         try:
-            pic = images.custom_image(p["slug"])
+            pic = images.custom_image(p["slug"]) or lib_pics.get(p["slug"])
             if pic:
                 images.render_custom(p, pic, OUT / "cards" / f"{p['slug']}.png", p["category_label"])
                 images.render_custom(p, pic, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")

@@ -233,3 +233,76 @@ def render_custom(rec: dict, src: Path, out: Path, category_label: str, variant:
     out.parent.mkdir(parents=True, exist_ok=True)
     img.save(out, "PNG", optimize=True)
     return out
+
+
+# ---------------------------------------------------------------- picture library
+# content/library/<theme>/*.jpg: original illustrations drawn by scripts/make_picture_library.py
+# (no photos, no people). Articles without an editor picture get one, matched by topic, rotated so
+# the least recently used picture of the theme comes next; the choice is kept in data/library.json.
+LIBRARY = ROOT / "content" / "library"
+LIBRARY_STATE = ROOT / "data" / "library.json"
+
+CATEGORY_THEME = {"voices": "lungs", "research": "research", "policy": "globe",
+                  "approvals": "pharma", "people": "lungs", "events": "events"}
+
+
+def library_index() -> dict:
+    import json
+    p = LIBRARY / "index.json"
+    if not p.exists():
+        return {}
+    idx = json.loads(p.read_text(encoding="utf-8"))
+    return {t: v for t, v in idx.items() if any((LIBRARY / t / f).exists() for f in v.get("files", []))}
+
+
+def pick_theme(rec: dict, index: dict) -> str:
+    """Theme with most keyword hits in headline/dek/tags (headline counts double); ties -> category default."""
+    head = f" {rec.get('headline', '')} ".lower()
+    rest = f" {rec.get('dek', '')} {' '.join(rec.get('tags') or [])} {(rec.get('body') or '')[:600]} ".lower()
+    default = CATEGORY_THEME.get(rec.get("category"), "lungs")
+    best, best_score = default, 0
+    for theme, info in index.items():
+        score = 0
+        for kw in info.get("keywords", []):
+            kw = kw.lower()
+            score += 2 * head.count(kw) + rest.count(kw)
+        if theme == default:
+            score += 0.5
+        if score > best_score:
+            best, best_score = theme, score
+    return best if best in index else next(iter(index), "")
+
+
+def _stable(text: str) -> int:
+    import hashlib
+    return int(hashlib.sha1(text.encode()).hexdigest()[:8], 16)
+
+
+def library_picture(rec: dict, state: dict, index: dict, share: float = 1.0) -> Path | None:
+    """Library picture for an article, or None (keep the plain branded card).
+    `state` is data/library.json content and is updated in place."""
+    if not index:
+        return None
+    slug = rec["slug"]
+    assigned = state.setdefault("assigned", {})
+    if slug in assigned:
+        name = assigned[slug]
+        if not name:
+            return None
+        p = LIBRARY / name
+        if p.exists():
+            return p
+    if share < 1.0 and (_stable("share:" + slug) % 1000) / 1000 >= share:
+        assigned[slug] = ""
+        return None
+    theme = pick_theme(rec, index)
+    files = [f for f in index[theme]["files"] if (LIBRARY / theme / f).exists()]
+    if not files:
+        return None
+    last = state.setdefault("last_used", {})
+    state["counter"] = state.get("counter", 0) + 1
+    files.sort(key=lambda f: (last.get(f"{theme}/{f}", -1), _stable(slug + f)))
+    name = f"{theme}/{files[0]}"
+    last[name] = state["counter"]
+    assigned[slug] = name
+    return LIBRARY / name
