@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 4,
+    "seen": 5,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13820
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 2,
+    "seen": 4,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31653
+    "followers": 31656
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -154,10 +154,10 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 1,
+    "seen": 3,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
-    "followers": 8687
+    "followers": 8684
   },
   "asthmalunguk": {
     "id": "20982609",
@@ -318,5 +318,13 @@
     "name": "🏳️‍⚧️Simon/Lowell CatArts (He/xe)",
     "bio": "https://t.co/fNP5tHqFeE\n\nSimon/Lowell/Max (he/xe) (ftm)\ntrans man/gay \nAutistic/asthma/migraines/adhd/absence seizures \ndigital artist",
     "followers": 564
+  },
+  "drjnaidoo": {
+    "id": "972549291867889666",
+    "username": "DrJNaidoo",
+    "seen": 1,
+    "name": "Jarushka Naidoo",
+    "bio": "Professor of Medical Oncology @CancerCentreIre | Thoracic Oncologist | Immunotherapy & Immune Toxicity | Adjunct faculty Johns Hopkins University",
+    "followers": 12063
   }
 }

@@ -1,105 +1,5 @@
 [
   {
-    "id": "x:2119120505903141160",
-    "source": "x",
-    "url": "https://x.com/MomaVelez11/status/2119120505903141160",
-    "title": "",
-    "text": "Great discussion at #CATO26 today about AI in lung cancer screening, food and lung cancer risk and how to use ctDNA to guide therapy. https://t.co/2GMx6GcHBS",
-    "author_name": "Maria Antonia Vélez",
-    "author_handle": "MomaVelez11",
-    "author_url": "https://x.com/MomaVelez11",
-    "author_headline": "#HNCancer and #Thoracic #Oncologist @UCLA. Tweets are my own.",
-    "published_at": "2026-11-07T17:31:14+00:00",
-    "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119120505903141160",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/MomaVelez11/status/2119120505903141160/photo/1"
-      ],
-      "author_followers": 906
-    },
-    "collected_at": "2026-11-07T19:12:44+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "events",
-      "duplicate": false,
-      "reason": "UCLA thoracic oncologist reports CATO26 discussion on AI screening and ctDNA."
-    }
-  },
-  {
-    "id": "x:2119702926167798168",
-    "source": "x",
-    "url": "https://x.com/thenhenews/status/2119702926167798168",
-    "title": "",
-    "text": "🚨 £40 MILLION for GPs to stop vulnerable patients ending up in hospital this winter.\n\nUp to 300,000 people with frailty, heart disease and COPD will receive proactive support, health checks and medication reviews.\n\n👉 Will this finally ease NHS winter pressures?\n\nRead more: https://t.co/amU38K5htB\n\n#NHS #PrimaryCare #GeneralPractice #WinterPressures #HealthcareNews @NHSEngland @DHSCgovuk",
-    "author_name": "National Health Executive",
-    "author_handle": "thenhenews",
-    "author_url": "https://x.com/thenhenews",
-    "author_headline": "💡Empowering healthcare leaders and enthusiasts\n💡Navigating the complexities of healthcare with you\n💡Stay informed, inspired, and in control",
-    "published_at": "2026-11-09T08:05:34+00:00",
-    "metrics": {
-      "likes": 1,
-      "reposts": 1,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2119702926167798168",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/thenhenews/status/2119702926167798168/photo/1"
-      ],
-      "author_followers": 13273,
-      "author_id": "75236427"
-    },
-    "collected_at": "2026-11-09T09:13:17+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "£40m NHS winter funding targets COPD and other high-risk patients"
-    }
-  },
-  {
-    "id": "x:2119759552870793367",
-    "source": "x",
-    "url": "https://x.com/asthmalunguk/status/2119759552870793367",
-    "title": "",
-    "text": "300,000 people are set to receive support from their doctor this winter. Dr Matt Swallow, our Clinical Lead, said: “This additional investment is a positive step, helping GPs identify and support those most at risk, reducing avoidable deterioration and hospital admissions.” https://t.co/qJ003spUDF",
-    "author_name": "Asthma + Lung UK",
-    "author_handle": "asthmalunguk",
-    "author_url": "https://x.com/asthmalunguk",
-    "author_headline": "We fight for everyone’s right to breath. From research, campaigning, advice + support. For queries about your lung condition please call our helpline.",
-    "published_at": "2026-11-09T11:50:35+00:00",
-    "metrics": {
-      "likes": 1,
-      "reposts": 0,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2119759552870793367",
-      "query_kind": "voices",
-      "links": [
-        "https://x.com/asthmalunguk/status/2119759552870793367/photo/1"
-      ],
-      "author_followers": 52260,
-      "author_id": "20982609"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "UK winter funding for GP support, with clinical lead comment"
-    }
-  },
-  {
     "id": "x:2119479310226804794",
     "source": "x",
     "url": "https://x.com/RichardPAConway/status/2119479310226804794",
@@ -335,6 +235,41 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Modelling study on China's PM2.5 standard and COPD mortality"
+    }
+  },
+  {
+    "id": "x:2120094123365744798",
+    "source": "x",
+    "url": "https://x.com/ClinExpAllergy/status/2120094123365744798",
+    "title": "",
+    "text": "Efficacy of Dupilumab in Patients From China With Persistent Type 2 Asthma With and Without an Allergic Phenotype\n\n#Asthma #AllergicAsthma #Dupilumab @BSACI_Allergy @EAACI_HQ @APAAACI1 \n\nhttps://t.co/TlLc02sXwr https://t.co/RQ3OSMtrnC",
+    "author_name": "Clinical & Experimental Allergy",
+    "author_handle": "ClinExpAllergy",
+    "author_url": "https://x.com/ClinExpAllergy",
+    "author_headline": "The Official Journal of the British Society for Allergy & Clinical Immunology @BSACI_Allergy",
+    "published_at": "2026-11-10T10:00:03+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120094123365744798",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1111/cea.70462",
+        "https://x.com/ClinExpAllergy/status/2120094123365744798/photo/1"
+      ],
+      "author_followers": 2550,
+      "author_id": "4481138073"
+    },
+    "collected_at": "2026-11-10T11:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Journal study on dupilumab efficacy in Chinese type 2 asthma"
     }
   },
   {
@@ -1821,6 +1756,40 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "Journal editorial questioning evidence levels for inhaled corticosteroids in COPD"
+    }
+  },
+  {
+    "id": "x:2120094179048968391",
+    "source": "x",
+    "url": "https://x.com/pai_eaaci/status/2120094179048968391",
+    "title": "",
+    "text": "Prediction is useful. Understanding the prediction matters too. 🧠\n\nMachine learning can help identify #patterns, but can we understand what drives its predictions?\nA new study in #PAI_journal uses post-hoc explainability alongside machine learning to investigate early predictors of persistent childhood #asthma and allergic #rhinitis.\n\n🔎 An interesting step toward more interpretable applications of AI in pediatric #allergy research.\n\nGlance at this 🔗 https://t.co/8OJyqhqUOE\n.\n#ExplainableAI #MachineLearning #ChildhoodAsthma #AllergicRhinitis #posthocexplainability #PAI_journal #Earlypredictors #clinicalaspects #earlyintervention #riskfactors",
+    "author_name": "PAI",
+    "author_handle": "pai_eaaci",
+    "author_url": "https://x.com/pai_eaaci",
+    "author_headline": "PAI - #Pediatric Allergy and #Immunology - is the world's leading #journal in pediatric #allergy. Edited by Sophia Tsabouri & Adnan Custovic.",
+    "published_at": "2026-11-10T10:00:16+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120094179048968391",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/pai_eaaci/status/2120094179048968391/photo/1"
+      ],
+      "author_followers": 1838,
+      "author_id": "1496771826571255808"
+    },
+    "collected_at": "2026-11-10T11:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "New journal study on explainable ML predicting childhood asthma"
     }
   }
 ]

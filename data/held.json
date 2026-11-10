@@ -302,5 +302,65 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-10-jarushka-naidoo-thanks-irish-media-for-explaining-how-lung-cancer-scre",
+    "headline": "Jarushka Naidoo: thanks Irish media for explaining how lung cancer screening saves lives",
+    "dek": "The thoracic oncologist thanked outlets and Con Shanahan for an explanation of screening's benefit through stage shift, and noted it came to Ireland in a clinical trial.",
+    "body": "Jarushka Naidoo, Professor of Medical Oncology at the Cancer Centre Ireland, wrote on X on 10 November 2026 to thank Irish media for their coverage of lung cancer screening.\n\nNaidoo thanked The Irish Times, RTÉ and RTÉ's Drivetime programme. She also thanked Con Shanahan for what she called a \"superb explanation of why lung cancer screening saves lives- through stage shift\". She did not elaborate on the point in her post.\n\nNaidoo added that screening \"came to\" Ireland in a clinical trial. The post did not give details of the trial.\n\nShe tagged the Irish Cancer Society, the Cancer Centre Ireland and the EU4Health programme, and used the #LCSM hashtag. The post also contained links, but the content they point to was not included in the text of the post.\n\nNaidoo's X profile describes her as a thoracic oncologist with interests in immunotherapy and immune toxicity, and as adjunct faculty at Johns Hopkins University.",
+    "key_quote": "superb explanation of why lung cancer screening saves lives",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "trial"
+    ],
+    "people": [
+      "Jarushka Naidoo",
+      "Con Shanahan"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-10T11:08:16+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article gives her affiliation as \"Cancer Centre Ireland\" and says she tagged \"the Cancer Centre Ireland\". The source only has the handle @CancerCentreIre, so the institution's full name is inferred from a handle and is not supported by the source.",
+        "It says she \"tagged\" the EU4Health programme, but in the source #EU4Health is a hashtag, not a tag. This is minor.",
+        "The source does not say who or what \"came to\" Ireland in a clinical trial. The article asserts that screening did, which is an inference."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2120093161922175281",
+      "url": "https://x.com/DrJNaidoo/status/2120093161922175281"
+    },
+    "mentions": [
+      "IrishTimes",
+      "rte",
+      "drivetimerte",
+      "IrishCancerSoc",
+      "CancerCentreIre"
+    ],
+    "source": {
+      "id": "x:2120093161922175281",
+      "source": "x",
+      "url": "https://x.com/DrJNaidoo/status/2120093161922175281",
+      "title": "",
+      "author_name": "Jarushka Naidoo",
+      "author_handle": "DrJNaidoo",
+      "author_url": "https://x.com/DrJNaidoo",
+      "published_at": "2026-11-10T09:56:13+00:00",
+      "extra": {
+        "tweet_id": "2120093161922175281",
+        "query_kind": "keywords",
+        "links": [
+          "https://www.Irish",
+          "https://times.com/ireland/2026/11/09/pilot-mobile-scanning-unit-trial-has-detected-almost-40-asymptomatic-lung-cancers-since-launch/"
+        ],
+        "author_followers": 12063,
+        "author_id": "972549291867889666"
+      }
+    },
+    "status": "held"
   }
 ]

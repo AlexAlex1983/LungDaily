@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-10-lung-health-check-pilot-shows-community-based-screening-can-detect-lun",
+  "headline": "Lung Health Check pilot shows community-based screening can detect lung cancers earlier, institute says",
+  "dek": "Trinity St James's Cancer Institute said the pilot showed community-based lung cancer screening can find cancers earlier, improve outcomes and save lives.",
+  "body": "Trinity St James's Cancer Institute has highlighted the results of the Lung Health Check pilot, which it says shows that lung cancer screening delivered in the community can detect cancers earlier.\n\nIn a post on X, the institute said the pilot \"has shown that community-based lung cancer screening can detect cancers earlier, improve outcomes & save lives\". It described the work as \"a remarkable example of research translating into real-world impact\" and congratulated everyone involved.\n\nThe institute describes itself as Ireland's first OECI-accredited comprehensive cancer centre, bringing together research, care and education. Its post also tagged the accounts of @CancerCentreIre and @CancerInstIRE.\n\nThe post did not give figures from the pilot, such as the number of people screened or cancers detected, and it did not name a journal or publication. The claims about earlier detection and improved outcomes are the institute's own account of the findings.",
+  "key_quote": "community-based lung cancer screening can detect cancers earlier, improve outcomes",
+  "tags": [
+    "lung-cancer",
+    "screening"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-10T11:08:26+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120087847365488989",
+    "url": "https://x.com/CancerInstIRE/status/2120087847365488989"
+  },
+  "mentions": [
+    "CancerCentreIre",
+    "CancerInstIRE"
+  ],
+  "source": {
+    "id": "x:2120087847365488989",
+    "source": "x",
+    "url": "https://x.com/CancerInstIRE/status/2120087847365488989",
+    "title": "",
+    "author_name": "Trinity St James's Cancer Institute",
+    "author_handle": "CancerInstIRE",
+    "author_url": "https://x.com/CancerInstIRE",
+    "published_at": "2026-11-10T09:35:06+00:00",
+    "extra": {
+      "tweet_id": "2120087847365488989",
+      "query_kind": "keywords",
+      "links": [
+        "https://twitter.com/IMT_latest/status/2119795304429944857"
+      ],
+      "author_followers": 3618,
+      "author_id": "1325829070685343744"
+    }
+  },
+  "status": "ready"
+}
