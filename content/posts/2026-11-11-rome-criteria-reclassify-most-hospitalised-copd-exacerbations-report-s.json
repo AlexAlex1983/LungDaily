@@ -35,5 +35,9 @@
       "feed": "Google News — COPD"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-11T22:39:22+00:00",
+  "shared": {
+    "x": "2120647831988178954"
+  }
 }
