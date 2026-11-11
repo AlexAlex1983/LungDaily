@@ -47,5 +47,9 @@
       "first_author": "Daiana Stolz"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-11T06:00:13+00:00",
+  "shared": {
+    "x": "2120396302848549216"
+  }
 }
