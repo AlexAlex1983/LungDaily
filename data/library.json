@@ -51,7 +51,8 @@
     "2026-11-11-pulmonary-arterial-hypertension-affects-1-1-of-adults-with-congenital": "research/research-06.jpg",
     "2026-11-11-european-study-examines-whether-air-pollution-affects-the-benefits-of": "pollution/pollution-02.jpg",
     "2026-11-11-china-s-tighter-pm2-5-limit-of-25-g-m3-could-prevent-over-233-000-prem": "pollution/pollution-03.jpg",
-    "2026-11-11-journal-highlights-dupilumab-efficacy-study-in-chinese-patients-with-p": ""
+    "2026-11-11-journal-highlights-dupilumab-efficacy-study-in-chinese-patients-with-p": "",
+    "2026-11-11-cullinan-starts-fda-review-for-zipalertinib-in-first-line-lung-cancer": "pharma/pharma-05.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -90,7 +91,8 @@
     "tobacco/tobacco-09.jpg": 34,
     "research/research-06.jpg": 35,
     "pollution/pollution-02.jpg": 36,
-    "pollution/pollution-03.jpg": 37
+    "pollution/pollution-03.jpg": 37,
+    "pharma/pharma-05.jpg": 38
   },
-  "counter": 37
+  "counter": 38
 }
