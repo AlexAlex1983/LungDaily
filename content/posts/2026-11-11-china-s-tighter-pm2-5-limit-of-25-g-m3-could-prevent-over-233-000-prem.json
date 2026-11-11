@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-11-china-s-tighter-pm2-5-limit-of-25-g-m3-could-prevent-over-233-000-prem",
+  "headline": "China's tighter PM2.5 limit of 25 µg/m³ could prevent over 233,000 premature deaths a year, research suggests",
+  "dek": "A post on X summarising new research says the standard could achieve 83% of WHO's 2040 air pollution mortality target, with the largest gains in COPD, stroke and lung cancer.",
+  "body": "New research indicates that China's tightened PM2.5 standard of 25 µg/m³ could prevent more than 233,000 premature deaths each year, according to a post on X by NewsRamp, an account that curates press release newswire content.\n\nThe post said the standard could achieve 83% of the World Health Organization's 2040 air pollution mortality target. It added that the biggest gains were seen in chronic obstructive pulmonary disease (COPD), stroke and lung cancer.\n\nThe post did not name the journal, the authors or the methods used in the research. It also did not explain how the figures were calculated or what standard was in place previously. The figures above are reported as stated in the post and have not been independently verified by LungDaily.",
+  "key_quote": "Biggest gains seen in COPD, stroke, and lung cancer.",
+  "tags": [
+    "air-pollution",
+    "copd",
+    "lung-cancer",
+    "policy",
+    "who"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-11T11:09:07+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119831079313907844",
+    "url": "https://x.com/NewsRamp_Alerts/status/2119831079313907844"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2119831079313907844",
+    "source": "x",
+    "url": "https://x.com/NewsRamp_Alerts/status/2119831079313907844",
+    "title": "",
+    "author_name": "NewsRamp",
+    "author_handle": "NewsRamp_Alerts",
+    "author_url": "https://x.com/NewsRamp_Alerts",
+    "published_at": "2026-11-09T16:34:48+00:00",
+    "extra": {
+      "tweet_id": "2119831079313907844",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 2423,
+      "author_id": "167432266"
+    }
+  },
+  "status": "ready"
+}

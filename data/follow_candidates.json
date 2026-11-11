@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 6,
+    "seen": 8,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31655
+    "followers": 31654
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 3,
+    "seen": 4,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30855
+    "followers": 30859
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -154,18 +154,18 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 4,
+    "seen": 5,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
-    "followers": 8684
+    "followers": 8685
   },
   "asthmalunguk": {
     "id": "20982609",
     "username": "asthmalunguk",
-    "seen": 1,
+    "seen": 3,
     "name": "Asthma + Lung UK",
     "bio": "We fight for everyone’s right to breath. From research, campaigning, advice + support. For queries about your lung condition please call our helpline.",
-    "followers": 52260
+    "followers": 52257
   },
   "tmmrespiratory": {
     "id": "2853906195",
@@ -338,10 +338,10 @@
   "lena_group4resp": {
     "id": "1497171361730605058",
     "username": "Lena_Group4Resp",
-    "seen": 1,
+    "seen": 2,
     "name": "Lena Group Respiratory Hub 🫁",
     "bio": "🫁 Welcome to the account of #Respiratory Projects & Events of Lena Group. We support research & education in #RespiratoryDiseases #Bronchiectasis #NTM & others",
-    "followers": 1041
+    "followers": 1043
   },
   "copdcanada": {
     "id": "497225379",
@@ -370,10 +370,10 @@
   "allergyeaaci": {
     "id": "1006875688903888896",
     "username": "AllergyEaaci",
-    "seen": 1,
+    "seen": 2,
     "name": "Allergy EAACI",
     "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
-    "followers": 6054
+    "followers": 6058
   },
   "drewmoghanaki": {
     "id": "1322269645",
@@ -382,5 +382,29 @@
     "name": "Drew Moghanaki",
     "bio": "Chief of Thoracic Oncology, Endowed Professor, UCLA Dept of Radiation Oncology | Co-Director, Lung Precision Oncology Pgm, VA Greater Los Angeles",
     "followers": 14029
+  },
+  "asthmalungscot": {
+    "id": "788359667613401088",
+    "username": "asthmalungscot",
+    "seen": 1,
+    "name": "Asthma + Lung UK Scotland",
+    "bio": "Scotland branch of @asthmalunguk. We’re here to fight for your right to breathe. Need support? Call our Helpline: 0300 222 5800",
+    "followers": 1851
+  },
+  "asthmalungcymru": {
+    "id": "221724070",
+    "username": "asthmalungcymru",
+    "seen": 1,
+    "name": "Asthma + Lung UK Cymru",
+    "bio": "We’re here to fight for your right to breathe | Rydym ni yma i ymladd dros eich hawl i anadlu. Call our Helpline for support: 0300 222 5800",
+    "followers": 2593
+  },
+  "asthmalungni": {
+    "id": "1243553076423909382",
+    "username": "asthmalungni",
+    "seen": 1,
+    "name": "Asthma + Lung UK Northern Ireland",
+    "bio": "Northern Ireland branch of @asthmalunguk. We’re here to fight for your right to breathe. Need support? Call our Helpline: 0300 222 5800",
+    "followers": 982
   }
 }

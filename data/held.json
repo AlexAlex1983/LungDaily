@@ -453,5 +453,46 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-11-blossomhill-gets-fda-alignment-on-phase-2-dose-for-lung-cancer-drug",
+    "headline": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug",
+    "dek": "BlossomHill has reached alignment with the FDA on the dose for phase 2 development of its lung cancer drug, according to Investing.com Canada.",
+    "body": "BlossomHill has secured alignment with the FDA on the phase 2 dose for its lung cancer drug, according to a news item published by Investing.com Canada on 9 November 2026.\n\nThe item's headline and text give no further detail. It does not name the drug or specify the dose, the type of lung cancer, the trial design or the timing of the phase 2 study.\n\nLungDaily will update this report if further information is published.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "therapeutics",
+      "trial"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 6.0,
+    "created_at": "2026-11-11T11:09:27+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 77 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMU9KTmdVUEhsMW1iWVdCTUdVangxWDlRX25ZTWtoX1NWbzQ5M0VxdTJuamlMbFZ5MlJ1UEJGMHhySDZQTGFnTHpEM2RCb1pTbjJzcHFfaThmZDEwUS1Eb2pocC0zYWVTSVVPNW1xd3NQeXRYMTNNRlRDVU0wTzVYUm9WVG5Gd0QxWWhSdXU4ZVpsQVZmc29ycTdybDJlWW9ydGdGODJWZkVqQ2duX1BBY1RzNGRLRHNTeGJOdFJBY1Q2Sm9ZZUNF?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:b4eb63ae990f829b",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMU9KTmdVUEhsMW1iWVdCTUdVangxWDlRX25ZTWtoX1NWbzQ5M0VxdTJuamlMbFZ5MlJ1UEJGMHhySDZQTGFnTHpEM2RCb1pTbjJzcHFfaThmZDEwUS1Eb2pocC0zYWVTSVVPNW1xd3NQeXRYMTNNRlRDVU0wTzVYUm9WVG5Gd0QxWWhSdXU4ZVpsQVZmc29ycTdybDJlWW9ydGdGODJWZkVqQ2duX1BBY1RzNGRLRHNTeGJOdFJBY1Q2Sm9ZZUNF?oc=5",
+      "title": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug - Investing.com Canada",
+      "author_name": "Investing.com Canada",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-09T12:30:52+00:00",
+      "extra": {
+        "feed": "Google News — respiratory trial results"
+      }
+    },
+    "status": "held"
   }
 ]
