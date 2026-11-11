@@ -43,7 +43,8 @@
     "2026-11-10-dupilumab-pregnancy-registry-finds-no-higher-risk-of-major-birth-defec": "research/research-07.jpg",
     "2026-11-11-lancet-commission-update-calls-for-copd-elimination-framework-built-ar": "airways/airways-14.jpg",
     "2026-11-11-sinonasal-dominant-symptom-phenotype-linked-to-copd-exacerbations-in-m": "airways/airways-08.jpg",
-    "2026-11-11-firs-says-climate-change-is-a-growing-threat-to-lung-health-and-calls": ""
+    "2026-11-11-firs-says-climate-change-is-a-growing-threat-to-lung-health-and-calls": "",
+    "2026-11-11-long-term-pm2-5-exposure-linked-to-higher-incident-asthma-risk-stronge": "pollution/pollution-12.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -75,7 +76,8 @@
     "research/research-14.jpg": 27,
     "research/research-07.jpg": 28,
     "airways/airways-14.jpg": 29,
-    "airways/airways-08.jpg": 30
+    "airways/airways-08.jpg": 30,
+    "pollution/pollution-12.jpg": 31
   },
-  "counter": 30
+  "counter": 31
 }
