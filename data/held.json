@@ -494,5 +494,133 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-11-trial-finds-insufficient-evidence-that-asthma-at-risk-registers-cut-cr",
+    "headline": "Trial finds insufficient evidence that asthma at-risk registers cut crisis events in primary care",
+    "dek": "A trial conclusion shared on X says at-risk registers for asthma in primary care were not shown to reduce crisis events, though some indication of benefit was seen.",
+    "body": "A trial of at-risk registers for asthma in primary care did not provide sufficient evidence that they reduce asthma-related crisis events, according to a conclusion shared on X.\n\nThe post quotes the trial's conclusion: \"This trial did not provide sufficient evidence to show that the establishment and integration of at-risk registers for asthma in primary care reduces asthma-related crisis events for people with at-risk asthma, but there was some indication of benefit.\"\n\nThe post was published by an account whose bio describes its owner as a thoracic medicine and asthma physician. It contains the quoted conclusion and a link to the full publication.\n\nThe post does not name the journal or the authors. It also gives no details of the trial's size, setting, duration or numerical results, so the extent of the \"indication of benefit\" cannot be assessed from the post alone.",
+    "key_quote": "at-risk registers for asthma in primary care reduces asthma-related crisis events for people with at-risk asthma, but there was some indication of benefit",
+    "tags": [
+      "asthma",
+      "primary-care",
+      "trial"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-11T17:08:43+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article says the post contains \"a link to the full publication\". The source only contains an unlabelled t.co shortlink, so what it points to (full publication, abstract, or something else) is not supported. It should say only that the post includes a link."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2119391142395433287",
+      "url": "https://x.com/AldrinAU/status/2119391142395433287"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2119391142395433287",
+      "source": "x",
+      "url": "https://x.com/AldrinAU/status/2119391142395433287",
+      "title": "",
+      "author_name": "A.𝙰𝚍𝚎𝚗𝚒🫁🧢",
+      "author_handle": "AldrinAU",
+      "author_url": "https://x.com/AldrinAU",
+      "published_at": "2026-11-08T11:26:39+00:00",
+      "extra": {
+        "tweet_id": "2119391142395433287",
+        "query_kind": "keywords",
+        "links": [
+          "https://thorax.bmj.com/content/early/2026/04/14/thorax-2025-223973"
+        ],
+        "author_followers": 1183,
+        "author_id": "42855210"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-11-pandemic-disrupted-va-lung-cancer-screening-before-a-two-year-recovery",
+    "headline": "Pandemic disrupted VA lung cancer screening before a two-year recovery, study finds",
+    "dek": "A study reported by Bioengineer.org found that the pandemic disrupted lung cancer screening in VA settings, with recovery taking two years.",
+    "body": "The pandemic disrupted lung cancer screening in VA settings before a recovery over two years, according to a study reported by Bioengineer.org on 8 November 2026.\n\nThe item available for this article consists only of the headline. It does not name the journal or the authors, and it gives no figures on screening volumes, the timing of the disruption or the extent of the recovery.\n\nFurther details, including the study design and the populations covered, were not stated in the source and cannot be reported here.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "screening"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-11T17:09:01+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 87 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVZkWjBqeXdGRUVwZmZKd3U1bjV1S0NwT0FpdFlqTklZcURkM2FKbVRYcXJKdDBkQTBRYTZPVjRnMGJxVFI4Z3RnLWtucmhOeWlCdDlpZl9JdWxPODdDTi02M29IR2psSWxpUGFJNG95Q0ZIZ1EtdnY4OURfa1kta0hkNFd5c01MVkcybGNzVXFKR3pwajFZMk54cVRHVzJvTWQ2OHF4LS0?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:288e791b4d4f665d",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVZkWjBqeXdGRUVwZmZKd3U1bjV1S0NwT0FpdFlqTklZcURkM2FKbVRYcXJKdDBkQTBRYTZPVjRnMGJxVFI4Z3RnLWtucmhOeWlCdDlpZl9JdWxPODdDTi02M29IR2psSWxpUGFJNG95Q0ZIZ1EtdnY4OURfa1kta0hkNFd5c01MVkcybGNzVXFKR3pwajFZMk54cVRHVzJvTWQ2OHF4LS0?oc=5",
+      "title": "Pandemic Disrupted VA Lung Cancer Screening Before Two-Year Recovery, Study Finds - Bioengineer.org",
+      "author_name": "Bioengineer.org",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-08T10:07:08+00:00",
+      "extra": {
+        "feed": "Google News — lung cancer screening"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-11-delhi-pollution-crisis-deepens-as-grap-stage-iii-comes-into-force-ndtv",
+    "headline": "Delhi pollution crisis deepens as GRAP Stage III comes into force, NDTV reports",
+    "dek": "NDTV's top-headlines item says Delhi's pollution crisis is worsening and that GRAP Stage III has begun, but the available text gives no further detail.",
+    "body": "Delhi's pollution crisis is deepening as GRAP Stage III \"kicks in\", according to an NDTV top-headlines item published on 6 November 2026.\n\nThe item's title and text are the only material available. They do not say what measures Stage III involves, what air quality readings prompted it, or who ordered it. They also give no figures on health effects.\n\nLungDaily will update this report if further details are published.",
+    "key_quote": "Delhi Pollution Crisis Deepens As GRAP Stage III Kicks In",
+    "tags": [
+      "air-pollution",
+      "policy"
+    ],
+    "people": [],
+    "category": "policy",
+    "score": 7.0,
+    "created_at": "2026-11-11T17:09:09+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 72 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPV2o3dzFGVmFBN2hOMGNpV1VlWU9MUVVOY1F1V3dicVlWNVFtUDRzMkVVRUlVMnFtM2FyeDUyc2YxOUFJdVJVZXhDeDc1VEM0WGJYamFZMlRHNUVORHpRNzlPN2xtb2tSSTc5eFo2VTNGMjBzYkxOQ3Brcm50ZTlBTXFEdzVMNDMyd2RaUlpzanJoVFZ4ci1Dd1VoM2JKVmpJbm1Xd1FJZk9IbktfaUNHM2FpNE1uQ2FOQlhCazVDVVc4TUZMcWktSmFvVDZETVVaQXRwQnJnbDM2VklvOHFJb3FTWkZvMEpvX2JKYlpzTjM3Q3Zyenhv?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:7c7a728d0bef1f94",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPV2o3dzFGVmFBN2hOMGNpV1VlWU9MUVVOY1F1V3dicVlWNVFtUDRzMkVVRUlVMnFtM2FyeDUyc2YxOUFJdVJVZXhDeDc1VEM0WGJYamFZMlRHNUVORHpRNzlPN2xtb2tSSTc5eFo2VTNGMjBzYkxOQ3Brcm50ZTlBTXFEdzVMNDMyd2RaUlpzanJoVFZ4ci1Dd1VoM2JKVmpJbm1Xd1FJZk9IbktfaUNHM2FpNE1uQ2FOQlhCazVDVVc4TUZMcWktSmFvVDZETVVaQXRwQnJnbDM2VklvOHFJb3FTWkZvMEpvX2JKYlpzTjM3Q3Zyenhv?oc=5",
+      "title": "Delhi Pollution Crisis Deepens As GRAP Stage III Kicks In | Top Headlines - NDTV",
+      "author_name": "NDTV",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-06T21:53:49+00:00",
+      "extra": {
+        "feed": "Google News — air pollution health"
+      }
+    },
+    "status": "held"
   }
 ]

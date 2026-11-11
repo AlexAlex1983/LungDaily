@@ -1,180 +1,5 @@
 [
   {
-    "id": "rss:112c8b6cbca86f85",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UUXgzV0h5Y2xYbnQtdGFUdlcyVlpLZE9tZy03VWFGYlAweXhpUVdKazBTWmNCYnJqV2ZNaE5Cd01ITHdfQy1EZzZ4NWFHRFJvRWVpMmRxX3EzN0hhYS15NzQ2V2pMdw?oc=5",
-    "title": "Anthony Letai: Phase 3 Trial Shows Major Survival Benefit With Tarlatamab in SCLC - Oncodaily",
-    "text": "Anthony Letai: Phase 3 Trial Shows Major Survival Benefit With Tarlatamab in SCLC Oncodaily",
-    "author_name": "Oncodaily",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T19:44:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory trial results"
-    },
-    "collected_at": "2026-11-08T23:38:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Phase 3 tarlatamab survival benefit in SCLC, expert commentary"
-    }
-  },
-  {
-    "id": "x:2119391142395433287",
-    "source": "x",
-    "url": "https://x.com/AldrinAU/status/2119391142395433287",
-    "title": "",
-    "text": "‘This trial did not provide sufficient evidence to show that the establishment and integration of at-risk registers for asthma in primary care reduces asthma-related crisis events for people with at-risk asthma, but there was some indication of benefit.’ https://t.co/On8Uu21WLk",
-    "author_name": "A.𝙰𝚍𝚎𝚗𝚒🫁🧢",
-    "author_handle": "AldrinAU",
-    "author_url": "https://x.com/AldrinAU",
-    "author_headline": "Thoracic medicine & asthma physician. Loves family, 🍫,🍦,🍣, ☕️, and @ChelseaFC supporter since 95’ #CFC. Views are my own. 💬🦋https://t.co/VdNciJaNLj",
-    "published_at": "2026-11-08T11:26:39+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119391142395433287",
-      "query_kind": "keywords",
-      "links": [
-        "https://thorax.bmj.com/content/early/2026/04/14/thorax-2025-223973"
-      ],
-      "author_followers": 1183,
-      "author_id": "42855210"
-    },
-    "collected_at": "2026-11-08T11:51:49+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Expert shares asthma at-risk register trial findings with clear conclusion"
-    }
-  },
-  {
-    "id": "rss:98d284392210296f",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON21yeEhiQXQ0TDJHVkEtcmFaalpnc2pzeUZEN1hWU2dQNmcyM1lZVi0yVTFwZ293NGRwYVlGUkcyVlg3czJpTHc5VFBvQTRHVWUwSFNILUVWdS1UWnZWa2htcHlQN2FuaklSTTNWV3kxbVhmb0F0aVRtZnRZWWxzZGNpYWtGV0RJR08xRDBCeEo?oc=5",
-    "title": "Rome Criteria Reclassify Most Hospitalized COPD Exacerbations - The American Journal of Managed Care",
-    "text": "Rome Criteria Reclassify Most Hospitalized COPD Exacerbations The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T16:48:23+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-08T11:51:49+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "Study reclassifying hospitalised COPD exacerbations using Rome criteria"
-    }
-  },
-  {
-    "id": "rss:288e791b4d4f665d",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVZkWjBqeXdGRUVwZmZKd3U1bjV1S0NwT0FpdFlqTklZcURkM2FKbVRYcXJKdDBkQTBRYTZPVjRnMGJxVFI4Z3RnLWtucmhOeWlCdDlpZl9JdWxPODdDTi02M29IR2psSWxpUGFJNG95Q0ZIZ1EtdnY4OURfa1kta0hkNFd5c01MVkcybGNzVXFKR3pwajFZMk54cVRHVzJvTWQ2OHF4LS0?oc=5",
-    "title": "Pandemic Disrupted VA Lung Cancer Screening Before Two-Year Recovery, Study Finds - Bioengineer.org",
-    "text": "Pandemic Disrupted VA Lung Cancer Screening Before Two-Year Recovery, Study Finds Bioengineer.org",
-    "author_name": "Bioengineer.org",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-08T10:07:08+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-08T11:51:49+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "New study on pandemic impact on VA lung screening uptake."
-    }
-  },
-  {
-    "id": "rss:7c7a728d0bef1f94",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPV2o3dzFGVmFBN2hOMGNpV1VlWU9MUVVOY1F1V3dicVlWNVFtUDRzMkVVRUlVMnFtM2FyeDUyc2YxOUFJdVJVZXhDeDc1VEM0WGJYamFZMlRHNUVORHpRNzlPN2xtb2tSSTc5eFo2VTNGMjBzYkxOQ3Brcm50ZTlBTXFEdzVMNDMyd2RaUlpzanJoVFZ4ci1Dd1VoM2JKVmpJbm1Xd1FJZk9IbktfaUNHM2FpNE1uQ2FOQlhCazVDVVc4TUZMcWktSmFvVDZETVVaQXRwQnJnbDM2VklvOHFJb3FTWkZvMEpvX2JKYlpzTjM3Q3Zyenhv?oc=5",
-    "title": "Delhi Pollution Crisis Deepens As GRAP Stage III Kicks In | Top Headlines - NDTV",
-    "text": "Delhi Pollution Crisis Deepens As GRAP Stage III Kicks In | Top Headlines NDTV",
-    "author_name": "NDTV",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-06T21:53:49+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — air pollution health"
-    },
-    "collected_at": "2026-11-08T11:51:49+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "duplicate": false,
-      "reason": "Delhi GRAP Stage III activation is meaningful air-quality policy action."
-    }
-  },
-  {
-    "id": "x:2119496202102223320",
-    "source": "x",
-    "url": "https://x.com/cpgale3/status/2119496202102223320",
-    "title": "",
-    "text": "🫁❤️ #ABACOSRISK @dovepress\n\nOur CPRD study clearly shows the high burden of #cardiovascular &amp; #respiratory events that occur in the years preceding a diagnosis of #COPD\n\n56.6% of 70,034 with new COPD had a #cardiopulmonary event in 3 y pre diagnosis vs 20.9% of controls, OR 4.9 https://t.co/EkiQlz3so0",
-    "author_name": "Prof Chris P Gale",
-    "author_handle": "cpgale3",
-    "author_url": "https://x.com/cpgale3",
-    "author_headline": "Professor of Cardiovascular Medicine, Honorary Consultant Cardiologist. Specialist adult cardiovascular care: putting research into practice to benefit patients",
-    "published_at": "2026-11-08T18:24:07+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119496202102223320",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/cpgale3/status/2119496202102223320/photo/1"
-      ],
-      "author_followers": 13536,
-      "author_id": "760436883734147073"
-    },
-    "collected_at": "2026-11-08T18:46:47+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "duplicate": false,
-      "reason": "CPRD study shows high cardiopulmonary event burden before COPD"
-    }
-  },
-  {
     "id": "rss:3d6671d536763cbf",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTGdXU3R6Qm5Dbl82bk0zbkFzSlV3UExIT0JEek5TLWowT3pJMUVRekpBdjE0WGdiNzVkQjgtb0tIZTdUcWFfc29ab2RKb0RzcURjUVhqZzFkTm5kcmRyZ3NNa3dqVkthaTBHNXJRTzAydlQwOUoxcVQ3bUtqSS1qZQ?oc=5",
@@ -1090,6 +915,137 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "National COPD lung-age screening programme launching in Korea"
+    }
+  },
+  {
+    "id": "x:2120532390044946479",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2120532390044946479",
+    "title": "",
+    "text": "ERJ Open Research: Being GOLD-E for 2 years in a row is associated with a high risk of COPD-related death, with the same magnitude as being GOLD-E for 1 year https://t.co/qmeRHcf05a https://t.co/R39cCGcGyp",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-11T15:01:34+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120532390044946479",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4h0tufe",
+        "https://x.com/ERSpublications/status/2120532390044946479/photo/1"
+      ],
+      "author_followers": 33462,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-11T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERJ Open Research study on repeated GOLD E COPD death risk"
+    }
+  },
+  {
+    "id": "x:2120563452892586091",
+    "source": "x",
+    "url": "https://x.com/LawyersComm/status/2120563452892586091",
+    "title": "",
+    "text": "This Veterans Day, honoring those who served also means ensuring they receive the care, benefits, and recognition they have earned.\n\nHear from Victoria Paul, a Justice Catalyst Fellow here at the Lawyers’ Committee as she examines how race-based medical practices, including race-based spirometry, may impact how veterans’ respiratory disabilities are evaluated and compensated.\n\nSpirometry is a common pulmonary function test that measures how much and the speed of air a person can breathe in and out, helping assess lung function and identify respiratory conditions. Historically, race-based adjustments in these tests have determined how lung function is interpreted, potentially affecting one’s access to appropriate care and disability benefits.\n\nVeterans deserve fair, equitable treatment—not medical standards shaped by outdated racial assumptions.\n\nAs we honor those who served, we must also demand accountability and work toward a system that recognizes and protects every veteran.\n\n#VeteransDay #CivilRights #HealthEquity #VeteransRights #RaceBasedMedicine",
+    "author_name": "Lawyers' Committee for Civil Rights Under Law",
+    "author_handle": "LawyersComm",
+    "author_url": "https://x.com/LawyersComm",
+    "author_headline": "Lawyers' Committee for Civil Rights Under Law. Making the Promises of Democracy Real. https://t.co/qoEb4CgoNc",
+    "published_at": "2026-11-11T17:04:59+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120563452892586091",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/LawyersComm/status/2120563452892586091/video/1"
+      ],
+      "author_followers": 60491,
+      "author_id": "257959346"
+    },
+    "collected_at": "2026-11-11T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Substantive policy critique of race-based spirometry in veterans' benefits"
+    }
+  },
+  {
+    "id": "x:2120559689893085428",
+    "source": "x",
+    "url": "https://x.com/Care_Chronicle/status/2120559689893085428",
+    "title": "",
+    "text": "A study tested six chatbots on 55 COPD questions, and every model gave unsafe advice at least once, in 4% to 9% of responses. https://t.co/Gih32sZoD9",
+    "author_name": "CareChronicle",
+    "author_handle": "Care_Chronicle",
+    "author_url": "https://x.com/Care_Chronicle",
+    "author_headline": "A skeptical analysis of applied AI in healthcare.  Official account for CareChronicle: advancing AI that eases clinician burden, safely.",
+    "published_at": "2026-11-11T16:50:02+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120559689893085428",
+      "query_kind": "keywords",
+      "links": [
+        "https://pubmed.ncbi.nlm.nih.gov/43003398/?fc=20250603201450&ff=20261109234638&v=2.20.1"
+      ],
+      "author_followers": 8,
+      "author_id": "1867589085214519296"
+    },
+    "collected_at": "2026-11-11T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Notable study testing chatbot safety on COPD questions"
+    }
+  },
+  {
+    "id": "rss:52cc1b8a5eac2f56",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQlVhaXphUEtqandsNF9QdEpCLVo4a1JUT3BlMThENVdPMU5ubU5FTjJ5TFNjclVrVGU0Z1FXUmNmVTJBNEFzNFVvR0Z3TW9ORHZrX3FEZDZFUll2VW1WSHNXRGhReXVsQ0xWeGlEbW9ydjFudG5ocVlxa21RQXU3OVVjN3cxdmZBckpSdm5BRmEtS0U?oc=5",
+    "title": "Q&A: Mucus Plugging, Multimorbidity, and GOLD 2027, With Gerard Criner, MD - HCPLive",
+    "text": "Q&A: Mucus Plugging, Multimorbidity, and GOLD 2027, With Gerard Criner, MD HCPLive",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-11T17:04:25+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-11T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Substantive expert Q&A on GOLD 2027 and mucus plugging"
     }
   }
 ]

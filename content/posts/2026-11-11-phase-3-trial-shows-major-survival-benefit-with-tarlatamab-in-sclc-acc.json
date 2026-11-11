@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-11-phase-3-trial-shows-major-survival-benefit-with-tarlatamab-in-sclc-acc",
+  "headline": "Phase 3 trial shows major survival benefit with tarlatamab in SCLC, according to Oncodaily item",
+  "dek": "An Oncodaily item headed with Anthony Letai's name reports that a phase 3 trial showed a major survival benefit with tarlatamab in small cell lung cancer (SCLC).",
+  "body": "An item published by Oncodaily on 6 November 2026 reports that a phase 3 trial has shown a major survival benefit with tarlatamab in SCLC. The item is headed with the name of Anthony Letai.\n\nThe headline describes the survival benefit as \"major\". The source text available does not define that term or say how it was measured.\n\nThe item as provided contains no further detail. It does not name the trial, describe the patient population or comparator, give survival figures, or state where the results were published or presented. No journal is cited.\n\nBecause of this, the finding cannot yet be assessed beyond the headline claim. Readers will need the full trial report or the original post for the data behind the statement.",
+  "key_quote": "Phase 3 Trial Shows Major Survival Benefit With Tarlatamab in SCLC",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Anthony Letai"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-11T17:08:27+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UUXgzV0h5Y2xYbnQtdGFUdlcyVlpLZE9tZy03VWFGYlAweXhpUVdKazBTWmNCYnJqV2ZNaE5Cd01ITHdfQy1EZzZ4NWFHRFJvRWVpMmRxX3EzN0hhYS15NzQ2V2pMdw?oc=5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:112c8b6cbca86f85",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UUXgzV0h5Y2xYbnQtdGFUdlcyVlpLZE9tZy03VWFGYlAweXhpUVdKazBTWmNCYnJqV2ZNaE5Cd01ITHdfQy1EZzZ4NWFHRFJvRWVpMmRxX3EzN0hhYS15NzQ2V2pMdw?oc=5",
+    "title": "Anthony Letai: Phase 3 Trial Shows Major Survival Benefit With Tarlatamab in SCLC - Oncodaily",
+    "author_name": "Oncodaily",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-06T19:44:00+00:00",
+    "extra": {
+      "feed": "Google News — respiratory trial results"
+    }
+  },
+  "status": "ready"
+}
