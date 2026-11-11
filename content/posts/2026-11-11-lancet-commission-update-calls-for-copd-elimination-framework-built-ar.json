@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-11-lancet-commission-update-calls-for-copd-elimination-framework-built-ar",
+  "headline": "Lancet Commission update calls for COPD elimination framework built around lifelong lung health",
+  "dek": "An update from the Lancet Commission on COPD reviews progress since 2022 and proposes a framework spanning lung development, ageing, precision medicine, patient-centred outcomes and regulatory reform.",
+  "body": "An update from the Lancet Commission on chronic obstructive pulmonary disease (COPD) revisits the Commission's earlier vision of disease elimination through prevention, early detection and intervention, and assesses progress since 2022. The Review, by Daiana Stolz, Andreas Hoheisel, Don D Sin and colleagues, is published in the Lancet.\n\nAccording to the authors, COPD remains a leading cause of morbidity and mortality worldwide. They write that its global burden is increasing, driven by population growth and ageing, persistent harmful exposures and substantial health inequities.\n\nAcross seven sections, the Review advances a unified framework that integrates the biology of lung development and ageing, precision medicine, patient-centred outcomes and regulatory reform. The authors describe COPD not as a single, uniform disease but as a biologically complex condition shaped by genetic, developmental, environmental, infectious and behavioural factors across the life course.\n\nThey argue that prevention and care should move beyond detecting and treating late physiological impairment. Instead, they call for earlier disease recognition, biological stratification, and interventions to preserve lung health, reduce symptoms, and prevent morbidity and premature mortality.\n\nThe authors state that the global burden of COPD can be substantially reduced, and that success should be measured not only by lung function and survival but also by daily functioning, quality of life and wellbeing. In this expanded vision, they write, COPD is viewed as a preventable and modifiable condition within a broader commitment to lifelong lung health.",
+  "key_quote": "The central premise is unequivocal: the global burden of COPD can be substantially reduced.",
+  "tags": [
+    "copd",
+    "policy",
+    "screening",
+    "equity",
+    "diagnostics"
+  ],
+  "people": [
+    "Daiana Stolz",
+    "Andreas Hoheisel",
+    "Don D Sin"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-11T05:08:22+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43008767/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43008767",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43008767/",
+    "title": "Reframing disease elimination: an update from the Lancet Commission on chronic obstructive pulmonary disease.",
+    "author_name": "Daiana Stolz, Andreas Hoheisel, Don D Sin et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-10T00:00:00+00:00",
+    "extra": {
+      "journal": "Lancet (London, England)",
+      "doi": "10.1016/S0140-6736(26)01947-1",
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "first_author": "Daiana Stolz"
+    }
+  },
+  "status": "ready"
+}
