@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 12,
+    "seen": 13,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47388
+    "followers": 47390
   },
   "erspublications": {
     "id": "424241621",
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 7,
+    "seen": 8,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13822
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 6,
+    "seen": 7,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42212
+    "followers": 42213
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -154,10 +154,10 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 5,
+    "seen": 6,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
-    "followers": 8685
+    "followers": 8686
   },
   "asthmalunguk": {
     "id": "20982609",
@@ -354,10 +354,10 @@
   "healioallergy": {
     "id": "1409602508750721033",
     "username": "HealioAllergy",
-    "seen": 1,
+    "seen": 2,
     "name": "Healio Allergy and Asthma",
     "bio": "The content you need, when you need it.",
-    "followers": 635
+    "followers": 636
   },
   "pftrust": {
     "id": "1488883112",
@@ -418,9 +418,49 @@
   "aller_md": {
     "id": "23184067",
     "username": "Aller_MD",
-    "seen": 1,
+    "seen": 2,
     "name": "Juan C Ivancevich MD",
     "bio": "Allergist - Twittering on #allergy, #asthma & #immunology. Associate Professor of Immunology , del Salvador University, WAO website social media editor",
-    "followers": 7511
+    "followers": 7512
+  },
+  "annalsallergy": {
+    "id": "951536484003311618",
+    "username": "AnnalsAllergy",
+    "seen": 1,
+    "name": "Annals of Allergy, Asthma & Immunology",
+    "bio": "Official publication of the American College of Allergy, Asthma & Immunology @acaai. Likes, follows do not constitute endorsement\n\nEditor-in-Chief @annalseditor",
+    "followers": 1953
+  },
+  "pulmonology101": {
+    "id": "771841009",
+    "username": "pulmonology101",
+    "seen": 1,
+    "name": "Carlos Andrés Celis-Preciado",
+    "bio": "Fellow Voies Aériennes/Immunologie @USherbrooke\nPulmonologist",
+    "followers": 4317
+  },
+  "medscapelung": {
+    "id": "103043484",
+    "username": "MedscapeLung",
+    "seen": 1,
+    "name": "Medscape Lung",
+    "bio": "Medscape Pulmonary Medicine provides you with breaking medical news; reference on drugs, diseases, and procedures; and free CME.",
+    "followers": 2533
+  },
+  "franciscojlk": {
+    "id": "143635215",
+    "username": "franciscojlk",
+    "seen": 1,
+    "name": "Dr. Chacón-Lozsán F .'.",
+    "bio": "Venezuelan MD in Hungary. Critical Care. Hemodynamics and lung mechanics. @esicm @escardio FESC,FACC. Reseacher. Barista, compulsive reader and traveler.'.",
+    "followers": 4367
+  },
+  "pulmonary_news": {
+    "id": "774576242",
+    "username": "pulmonary_news",
+    "seen": 1,
+    "name": "Pulmonary Cell News",
+    "bio": "An online resource for pulmonary, respiratory disease, and lung cancer researchers. Part of the @STEMCELLTech Science News service.",
+    "followers": 2255
   }
 }
