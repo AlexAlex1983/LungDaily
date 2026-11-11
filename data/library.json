@@ -52,7 +52,8 @@
     "2026-11-11-european-study-examines-whether-air-pollution-affects-the-benefits-of": "pollution/pollution-02.jpg",
     "2026-11-11-china-s-tighter-pm2-5-limit-of-25-g-m3-could-prevent-over-233-000-prem": "pollution/pollution-03.jpg",
     "2026-11-11-journal-highlights-dupilumab-efficacy-study-in-chinese-patients-with-p": "",
-    "2026-11-11-cullinan-starts-fda-review-for-zipalertinib-in-first-line-lung-cancer": "pharma/pharma-05.jpg"
+    "2026-11-11-cullinan-starts-fda-review-for-zipalertinib-in-first-line-lung-cancer": "pharma/pharma-05.jpg",
+    "2026-11-11-phase-3-trial-shows-major-survival-benefit-with-tarlatamab-in-sclc-acc": "pharma/pharma-14.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -92,7 +93,8 @@
     "research/research-06.jpg": 35,
     "pollution/pollution-02.jpg": 36,
     "pollution/pollution-03.jpg": 37,
-    "pharma/pharma-05.jpg": 38
+    "pharma/pharma-05.jpg": 38,
+    "pharma/pharma-14.jpg": 39
   },
-  "counter": 38
+  "counter": 39
 }
