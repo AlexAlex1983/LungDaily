@@ -156,6 +156,25 @@ _ids = [i["id"] for i in _ch]
 assert _ids.count("1") + _ids.count("2") + _ids.count("3") == 1, _ids
 assert "4" in _ids and "5" in _ids, _ids
 
+# People section: page text extraction, Bing redirect unwrap, Bing <News:Source>, short-brief length
+from lungdaily.sources import page as _pg
+assert _pg.real_url("http://www.bing.com/news/apiclick.aspx?ref=FexRss&url=https%3a%2f%2fexample.org%2fa&c=1") == "https://example.org/a"
+_html = "<html><nav><p>Menu menu menu menu menu menu menu menu menu menu</p></nav><script>x</script>" \
+        "<p>Professor Jane Roe has been elected president of the Example Thoracic Society, the society said.</p><p>short</p></html>"
+assert _pg.extract_text(_html) == "Professor Jane Roe has been elected president of the Example Thoracic Society, the society said.", _pg.extract_text(_html)
+_bing = ('<rss xmlns:News="https://www.bing.com/news/search?q=x&amp;format=rss"><channel><item><title>Roe elected ETS president</title>'
+         '<link>http://www.bing.com/news/apiclick.aspx?url=https%3a%2f%2fexample.org%2fb</link><description>Jane Roe was elected.</description>'
+         '<pubDate>Wed, 11 Nov 2026 10:00:00 GMT</pubDate><News:Source>Example News</News:Source></item></channel></rss>')
+_bi = rss.parse_feed(_bing, "Bing test", 5)[0]
+assert _bi["author_name"] == "Example News", _bi
+_p = {"triage": {"category": "people"}, "title": "", "text": "x", "source": "rss"}
+_a = {"headline": "Jane Roe: elected president", "body": "word " * 60, "key_quote": ""}
+assert not any("length" in s for s in process.check(_p, _a)["issues"])
+_p["triage"]["category"] = "research"
+assert any("length" in s for s in process.check(_p, _a)["issues"])
+from lungdaily.sources.x import build_queries as _bq
+assert any(k == "people" for k, _ in _bq())
+
 # editor-supplied picture replaces the branded thumbnail and share card
 from PIL import Image as _Img
 from lungdaily import images as _images

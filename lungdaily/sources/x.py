@@ -38,6 +38,9 @@ def build_queries() -> list[tuple[str, str]]:
     keywords = load_yaml("topics.yaml").get("keywords", [])
     out = [("voices", q) for q in _chunks([f"from:{h}" for h in voices], "-is:retweet")]
     out += [("keywords", q) for q in _chunks(keywords, "lang:en -is:retweet -is:reply")]
+    people_q = (load_yaml("topics.yaml").get("people_query") or "").strip()
+    if people_q:   # appointments, awards, obituaries — feeds the People section
+        out.append(("people", f"{people_q} lang:en -is:retweet -is:reply"))
     return out
 
 
@@ -53,7 +56,8 @@ def collect() -> list[dict]:
     for kind, q in build_queries()[: lim["x_max_queries_per_run"]]:
         params = {
             "query": q,
-            "max_results": max(10, min(100, lim["x_max_results_per_query"])),
+            "max_results": max(10, min(100, int((lim.get("x_max_results_by_kind") or {}).get(
+                kind, lim["x_max_results_per_query"])))),
             "tweet.fields": "created_at,public_metrics,author_id,lang,note_tweet,entities",
             "expansions": "author_id",
             "user.fields": "name,username,description,verified,public_metrics",

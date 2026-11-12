@@ -27,6 +27,8 @@ sources:
 limits:
   x_max_results_per_query: 50     # X pay-per-use: each tweet read costs credits
   x_max_queries_per_run: 6
+  x_max_results_by_kind:          # per query kind (voices / keywords / people); others use the line above
+    people: 20                    # People search: ~20 reads x 6 runs a day
   linkedin_max_posts_per_profile: 5
   linkedin_search_max_results: 25
   pubmed_max: 40
@@ -52,6 +54,8 @@ publishing:
   auto_publish: true              # false = everything goes to the held queue for you to release
   require_checker_pass: true      # articles failing the fact-check are held, never published
   min_body_words: 90
+  min_body_words_by_category:     # People items (appointments, awards) are short briefs
+    people: 50
   max_body_words: 320
   # Scheduled publishing: one article per slot (local time below). Write runs (6x/day) fill a
   # ready queue; publish runs put out ONE article each. Remove `slots` to publish straight away.

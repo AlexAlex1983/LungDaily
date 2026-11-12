@@ -66,6 +66,8 @@ Format by category:
 - other categories: plain factual headline (max 110 chars)
 - dek: one sentence, max 30 words
 - body: Markdown, 2-4 short paragraphs, 110-280 words
+  (people: a short brief of 1-3 paragraphs, 60-200 words, is fine — say who, what role/award,
+  which organisation and when, as far as the source states it; never pad with background)
 - key_quote: an EXACT verbatim excerpt from the source text (max 25 words), or "" if none fits
 - tags: 2-5 lowercase tags from: copd, asthma, lung-cancer, screening, bronchiectasis, ild,
   tb, rehab, air-pollution, tobacco, vaping, ai, policy, who, guidelines, trial, paediatrics,
@@ -224,7 +226,9 @@ def check(item: dict, art: dict) -> dict:
     if art.get("key_quote") and norm_text(art["key_quote"]) not in norm_text(_source_text(item)):
         issues.append("key_quote is not verbatim from source")
     wc = word_count(art.get("body", ""))
-    if not cfg["min_body_words"] <= wc <= cfg["max_body_words"]:
+    cat = (item.get("triage") or {}).get("category", "")
+    min_words = int((cfg.get("min_body_words_by_category") or {}).get(cat, cfg["min_body_words"]))
+    if not min_words <= wc <= cfg["max_body_words"]:
         issues.append(f"body length {wc} words outside limits")
     if len(art.get("headline", "")) > 130 or not art.get("headline"):
         issues.append("headline missing or too long")
@@ -321,6 +325,20 @@ def pick(candidates: list[dict], room: int, sel: dict) -> tuple[list[dict], list
     return chosen, rest
 
 
+def enrich(item: dict) -> None:
+    """News-feed items are often just a headline: add the article page's text before writing."""
+    if item["source"] != "rss" or len(item.get("text") or "") >= 400 or item.get("extra", {}).get("page_fetched"):
+        return
+    from .sources.page import fetch_text
+    url, text = fetch_text(item.get("url", ""))
+    item.setdefault("extra", {})["page_fetched"] = True
+    if url and url != item.get("url") and "bing.com" in (item.get("url") or ""):
+        item["url"] = url          # link the original article, not the aggregator redirect
+    if word_count(text) >= 60:
+        item["text"] = f"{item.get('text', '')}\n\nARTICLE PAGE TEXT:\n{text}"
+        log.info("Page text added (%d words): %s", word_count(text), item.get("title", "")[:80])
+
+
 def run() -> dict:
     cfg = settings()
     lim, pub = cfg["limits"], cfg["publishing"]
@@ -347,6 +365,8 @@ def run() -> dict:
     else:
         room = min(lim["max_articles_per_run"], max(0, lim["max_articles_per_day"] - published_today()))
     to_write, leftover = pick(candidates, room, sel)
+    for item in to_write:
+        enrich(item)
     # good items over the cap wait for the next run unless too old
     keep += [i for i in leftover if (parse_date(i.get("collected_at")) or now()) >= cutoff]
 

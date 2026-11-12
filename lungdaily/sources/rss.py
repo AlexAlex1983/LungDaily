@@ -32,7 +32,11 @@ def parse_feed(xml_text: str, feed_name: str, limit: int) -> list[dict]:
         desc = _clean(e.findtext("description") or e.findtext(f"{ATOM}summary") or e.findtext(f"{ATOM}content") or "")
         date = parse_date(e.findtext("pubDate") or e.findtext(f"{ATOM}updated") or e.findtext(f"{ATOM}published"))
         source_el = e.find("source")
+        if source_el is None:   # Bing News: <News:Source>
+            source_el = next((c for c in e if c.tag.lower().endswith("}source")), None)
         publisher = source_el.text if source_el is not None and source_el.text else feed_name
+        if publisher and title.endswith(" - " + publisher):   # Google News appends " - Publisher"
+            title = title[: -len(publisher) - 3].strip()
         if not title or not link:
             continue
         nid = hashlib.sha1(link.encode()).hexdigest()[:16]
