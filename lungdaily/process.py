@@ -350,6 +350,12 @@ def run() -> dict:
     sel = cfg.get("selection") or {}
     min_by_cat = sel.get("min_score_by_category") or {}
     keep, candidates = [], []
+    for i in inbox:   # visibility for the People section: what came in and how it scored
+        t, ex = i.get("triage"), i.get("extra") or {}
+        if t and (t["category"] == "people" or ex.get("query_kind") == "people"
+                  or any(w in (ex.get("feed") or "") for w in ("appointments", "awards"))):
+            log.info("People item: %.1f %s | %s | %s", t["score"], t["category"],
+                     (i.get("title") or i.get("text") or "")[:100].replace("\n", " "), t.get("reason", ""))
     for i in inbox:
         t = i.get("triage")
         if t is None:  # triage failed — retry next run
