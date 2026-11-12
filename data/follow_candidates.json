@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 5,
+    "seen": 7,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33462
+    "followers": 33469
   },
   "iaslc": {
     "id": "61241883",
@@ -50,7 +50,7 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 10,
+    "seen": 11,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
     "followers": 42214
@@ -154,7 +154,7 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 8,
+    "seen": 9,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
     "followers": 8686
@@ -486,5 +486,21 @@
     "name": "Salma Jabbour",
     "bio": "Professor | Vice Chair Clinical Research & Faculty Developmt | Thoracic & GI cancer physician| Rutgers Cancer Institute of New Jersey | opinions my own",
     "followers": 1220
+  },
+  "asthmaedu_sa": {
+    "id": "702792284803371008",
+    "username": "AsthmaEdu_SA",
+    "seen": 1,
+    "name": "#AsthmaAwareness",
+    "bio": "The National Asthma Education Programme (NAEP) is a non-profit organization that aims to educate South Africans asthma diagnosis and treatment",
+    "followers": 339
+  },
+  "saudithoracic": {
+    "id": "949299064323149824",
+    "username": "SaudiThoracic",
+    "seen": 1,
+    "name": "الجمعية السعودية لطب وجراحة الصدر",
+    "bio": "Official account of the Saudi Thoracic Society. Serving patients and the public in pulmonary medicine, sharing accurate health information, and STS activities",
+    "followers": 1585
   }
 }

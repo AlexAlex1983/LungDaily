@@ -1,39 +1,5 @@
 [
   {
-    "id": "x:2119780686735212828",
-    "source": "x",
-    "url": "https://x.com/lung_check_ie/status/2119780686735212828",
-    "title": "",
-    "text": "Those diagnosed through Beaumont RCSI Irish Cancer Society Lung Health Check pilot at early stage receive their surgery though @CancerInstIRE \nOn Friday, Prof Ryan presented  trial data to the SJH team. 80% of those diagnosed through LHC are at early stage. #LungCancerAwareness https://t.co/Myv5VrWKWR",
-    "author_name": "Lung Health Check Ireland",
-    "author_handle": "lung_check_ie",
-    "author_url": "https://x.com/lung_check_ie",
-    "author_headline": "Beaumont RCSI Irish Cancer Society Lung Health Check pilot trial.",
-    "published_at": "2026-11-09T13:14:33+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119780686735212828",
-      "query_kind": "keywords",
-      "links": [
-        "https://twitter.com/AmyNolanDublin/status/2119207184198181036"
-      ],
-      "author_followers": 73,
-      "author_id": "1824056384180420608"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Lung Health Check pilot data: 80% of diagnoses at early stage"
-    }
-  },
-  {
     "id": "rss:51cdf227d0f824ad",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV0tTaHE3RFY3VktGY0ItcDNrYkZZMXV4Wk1CNUNEN1o1SXVnR2Q3dG5LcVc4aUtESVJEYnBCTzFkeEZybnpURE9ZMlJrYWVtVHFqOTB0ZERJZ25yaDU0WmN4YkZNUnJaX2lHZ2NpbnFpMzZoNlNjVG1TVVJKVVRvYWgtekQwR1RVbVBWSEd1MlZHS0ctNHlmWmI0bkVVdzI1Y3Zzd3RkcGxVMmhBeTVDWloxMEZDWWJ1ejN1NnBWMHlVYnpfTWNDZWFEeGJ3WmZiSXJ3bnlsOUZGb09kVUE?oc=5",
@@ -1178,6 +1144,41 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "ACS-funded study reveals gap in metastatic lung cancer care"
+    }
+  },
+  {
+    "id": "x:2120788772795146539",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2120788772795146539",
+    "title": "",
+    "text": "ERJ Open Research: Suboptimal peak inspiratory flow (PIF) remains common in COPD over time and is associated with suboptimal inhaler use, highlighting the need for routine PIF assessment to support personalised inhaler selection https://t.co/g5y7nXgZp1 https://t.co/ikICaEx9XC",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-12T08:00:20+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120788772795146539",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/3SjsTLg",
+        "https://x.com/ERSpublications/status/2120788772795146539/photo/1"
+      ],
+      "author_followers": 33469,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-12T08:08:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS journal summary of COPD peak inspiratory flow study"
     }
   }
 ]

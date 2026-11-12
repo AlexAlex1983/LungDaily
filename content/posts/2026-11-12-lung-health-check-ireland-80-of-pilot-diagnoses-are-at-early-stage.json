@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-12-lung-health-check-ireland-80-of-pilot-diagnoses-are-at-early-stage",
+  "headline": "Lung Health Check Ireland: 80% of pilot diagnoses are at early stage",
+  "dek": "The Beaumont RCSI Irish Cancer Society Lung Health Check pilot trial said four in five people diagnosed through the programme have early-stage disease.",
+  "body": "The Beaumont RCSI Irish Cancer Society Lung Health Check pilot trial reported that 80% of people diagnosed through the programme are at an early stage. The figure was posted on X by the account Lung Health Check Ireland, using the hashtag #LungCancerAwareness.\n\nAccording to the post, people diagnosed at early stage through the pilot receive their surgery through @CancerInstIRE.\n\nThe post also said that Prof Ryan presented trial data to the SJH team on Friday. It did not say what else the data covered.\n\nThe post gave no further details, such as the number of people diagnosed, the screening criteria or the time period. It did not cite a journal or a published paper.",
+  "key_quote": "80% of those diagnosed through LHC are at early stage.",
+  "tags": [
+    "lung-cancer",
+    "screening",
+    "trial"
+  ],
+  "people": [
+    "Prof Ryan"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-12T08:08:37+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119780686735212828",
+    "url": "https://x.com/lung_check_ie/status/2119780686735212828"
+  },
+  "mentions": [
+    "CancerInstIRE"
+  ],
+  "source": {
+    "id": "x:2119780686735212828",
+    "source": "x",
+    "url": "https://x.com/lung_check_ie/status/2119780686735212828",
+    "title": "",
+    "author_name": "Lung Health Check Ireland",
+    "author_handle": "lung_check_ie",
+    "author_url": "https://x.com/lung_check_ie",
+    "published_at": "2026-11-09T13:14:33+00:00",
+    "extra": {
+      "tweet_id": "2119780686735212828",
+      "query_kind": "keywords",
+      "links": [
+        "https://twitter.com/AmyNolanDublin/status/2119207184198181036"
+      ],
+      "author_followers": 73,
+      "author_id": "1824056384180420608"
+    }
+  },
+  "status": "ready"
+}
