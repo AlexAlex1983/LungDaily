@@ -283,6 +283,38 @@
     "AnnalsAllergy": {
       "at": "2026-11-12T07:43:33+00:00",
       "why": "respiratory bio"
+    },
+    "allianceforph": {
+      "at": "2026-11-12T20:26:27+00:00",
+      "why": "respiratory bio"
+    },
+    "my_lungs": {
+      "at": "2026-11-12T20:26:27+00:00",
+      "why": "respiratory bio"
+    },
+    "Lung_Institute": {
+      "at": "2026-11-12T20:26:27+00:00",
+      "why": "respiratory bio"
+    },
+    "RespiratoryBMC": {
+      "at": "2026-11-12T20:26:27+00:00",
+      "why": "respiratory bio"
+    },
+    "joseph_ALUK": {
+      "at": "2026-11-12T20:26:28+00:00",
+      "why": "respiratory bio"
+    },
+    "SaudiThoracic": {
+      "at": "2026-11-12T20:26:28+00:00",
+      "why": "respiratory bio"
+    },
+    "pulmAPP": {
+      "at": "2026-11-12T20:26:28+00:00",
+      "why": "respiratory bio"
+    },
+    "AsthmaEdu_SA": {
+      "at": "2026-11-12T20:26:28+00:00",
+      "why": "respiratory bio"
     }
   },
   "failed": {},
