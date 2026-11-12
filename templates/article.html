@@ -15,7 +15,8 @@
 <script type="application/ld+json">
 {{ {"@context": "https://schema.org", "@type": "NewsArticle", "headline": post.headline, "description": post.dek,
     "datePublished": post.date|isodate, "url": base ~ "/news/" ~ post.slug ~ "/",
-    "publisher": {"@type": "Organization", "name": site.name},
+    "publisher": {"@type": "Organization", "name": site.name, "url": base ~ "/",
+                  "logo": {"@type": "ImageObject", "url": base ~ "/static/icons/logo-512.png", "width": 512, "height": 512}},
     "isBasedOn": post.source.url, "image": base ~ "/cards/" ~ post.slug ~ ".png", "keywords": post.tags|join(", ")}|tojson }}
 </script>
 {% endblock %}

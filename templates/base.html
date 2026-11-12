@@ -6,7 +6,14 @@
 <title>{{ title }}</title>
 <meta name="description" content="{% block description %}{{ site.description or site.tagline }}{% endblock %}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ root }}rss.xml">
-<link rel="icon" type="image/svg+xml" href="{{ root }}static/lungdaily-mark.svg">
+<link rel="icon" href="{{ base }}/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ base }}/static/icons/icon-96.png">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ base }}/static/icons/icon-192.png">
+<link rel="icon" type="image/svg+xml" href="{{ base }}/static/lungdaily-mark.svg">
+<link rel="apple-touch-icon" href="{{ base }}/static/icons/apple-touch-icon.png">
+<link rel="manifest" href="{{ base }}/site.webmanifest">
+<meta name="theme-color" content="#0B6E73">
+<meta property="og:site_name" content="{{ site.name }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}static/style.css?v={{ build_id }}">

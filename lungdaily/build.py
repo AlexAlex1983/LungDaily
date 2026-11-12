@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import html
+import json
 import shutil
 from xml.sax.saxutils import escape
 
@@ -54,6 +55,7 @@ def build() -> int:
     OUT.mkdir()
     shutil.copytree(ROOT / "static", OUT / "static")
     (OUT / ".nojekyll").write_text("")
+    shutil.copy(ROOT / "static" / "favicon.ico", OUT / "favicon.ico")  # search engines look for /favicon.ico
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"] + "\n")
 
@@ -102,6 +104,11 @@ def build() -> int:
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
     _write(OUT / "sitemap.xml", sitemap(posts, base))
     _write(OUT / "news-sitemap.xml", news_sitemap(posts, site, base))
+    _write(OUT / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\nSitemap: {base}/news-sitemap.xml\n")
+    _write(OUT / "site.webmanifest", json.dumps({
+        "name": site["name"], "short_name": site["name"], "description": site.get("description", ""),
+        "start_url": "/", "display": "browser", "theme_color": "#0B6E73", "background_color": "#ffffff",
+        "icons": [{"src": f"/static/icons/icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png"} for s in (192, 512)]}, indent=1))
     log.info("Built site: %d articles -> %s", len(posts), OUT)
     return len(posts)
 

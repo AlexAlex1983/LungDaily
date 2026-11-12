@@ -9,6 +9,9 @@ site:
   contact_email: "editor@lungdaily.org"
   x_handle: "LungDaily"                # the site's own X account (without @)
   telegram_channel: ""                        # e.g. @lungdaily
+  same_as:                                   # official profiles, for the Google logo/knowledge panel markup
+    - "https://x.com/LungDaily"
+    - "https://www.linkedin.com/company/146950505"
 
 models:
   triage: "claude-haiku-5-5"      # cheap: scores every collected item
