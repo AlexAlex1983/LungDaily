@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-12-ethris-announces-positive-phase-2a-results-for-eth47-in-mild-to-modera",
+  "headline": "Ethris announces positive Phase 2a results for ETH47 in mild-to-moderate asthma",
+  "dek": "The company said a single nasal dose of ETH47 was safe and well tolerated in adults with asthma and showed antiviral activity, according to a social media post.",
+  "body": "Ethris has announced positive results from a Phase 2a trial of ETH47 in adults with mild-to-moderate asthma, according to a post on X by Morse, an account describing itself as covering corporate law, patents and licensing.\n\nAccording to the post, a single nasal dose of ETH47 was found to be safe and well tolerated. The post also said the treatment demonstrated antiviral activity.\n\nThe post links to further material and carries the hashtags #mRNA, #Asthma and #Biotechnology. It does not give trial size, dosing details, endpoints, data or the nature of the antiviral activity. It also does not mention any regulatory submission or approval for ETH47.\n\nLungDaily has not independently verified the announcement. Further details were not available in the source.",
+  "key_quote": "A single nasal dose was found to be safe and well tolerated, while demonstrating antiviral activity.",
+  "tags": [
+    "asthma",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Morse"
+  ],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-12T14:08:30+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2119810257576698225",
+    "url": "https://x.com/Morse/status/2119810257576698225"
+  },
+  "mentions": [
+    "ethris_mRNA"
+  ],
+  "source": {
+    "id": "x:2119810257576698225",
+    "source": "x",
+    "url": "https://x.com/Morse/status/2119810257576698225",
+    "title": "",
+    "author_name": "Morse",
+    "author_handle": "Morse",
+    "author_url": "https://x.com/Morse",
+    "published_at": "2026-11-09T15:12:04+00:00",
+    "extra": {
+      "tweet_id": "2119810257576698225",
+      "query_kind": "keywords",
+      "links": [
+        "https://www.ethris.com/news/positive-topline-phase-2a-data-for-eth47-in-asthma/",
+        "https://x.com/Morse/status/2119810257576698225/photo/1"
+      ],
+      "author_followers": 793,
+      "author_id": "94428851"
+    }
+  },
+  "status": "ready"
+}

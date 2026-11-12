@@ -1,132 +1,5 @@
 [
   {
-    "id": "rss:eb81b987651c2baf",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb2d4d2lYS05OX2lxSDJRWEdvd3hoeUc5V3d3a05HcHhhSkZzVXlXcWVjcjlMUjJ2Ml84UzhDbHlmUTh1cW9FalZlaURVdUZ3cGs4OUlQSWx5bmVqT2praERrNVh0aVdvT3BGZnFTRWJWYjQ4YzJDSWJBa3REdFlhYWU3dXEtWWJZekYyMWJsd211NDRva0haQWtUSXhtRkp3X3MzSWhiTXNodlVXR3JGNnNobGlPVmFXWkZfTXlYU1ZBRzFnXy1Z?oc=5",
-    "title": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug - Investing.com India",
-    "text": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug Investing.com India",
-    "author_name": "Investing.com India",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T12:25:07+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory trial results"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "FDA alignment on phase 2 dose for lung cancer drug"
-    }
-  },
-  {
-    "id": "x:2119810257576698225",
-    "source": "x",
-    "url": "https://x.com/Morse/status/2119810257576698225",
-    "title": "",
-    "text": "@ethris_mRNA announced positive results from its Phase 2a trial evaluating ETH47 in adults with mild-to-moderate asthma. \n\nA single nasal dose was found to be safe and well tolerated, while demonstrating antiviral activity.\n\nhttps://t.co/fxYJT5oTXu\n\n#mRNA #Asthma #Biotechnology https://t.co/smkrhEqmZz",
-    "author_name": "Morse",
-    "author_handle": "Morse",
-    "author_url": "https://x.com/Morse",
-    "author_headline": "Corporate Law. Patent. Trademark. Licensing. Employment. Taxation. Litigation.",
-    "published_at": "2026-11-09T15:12:04+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119810257576698225",
-      "query_kind": "keywords",
-      "links": [
-        "https://www.ethris.com/news/positive-topline-phase-2a-data-for-eth47-in-asthma/",
-        "https://x.com/Morse/status/2119810257576698225/photo/1"
-      ],
-      "author_followers": 793,
-      "author_id": "94428851"
-    },
-    "collected_at": "2026-11-09T17:07:18+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Phase 2a asthma topline safety and antiviral results, promoted by law firm"
-    }
-  },
-  {
-    "id": "pubmed:43001124",
-    "source": "pubmed",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/43001124/",
-    "title": "The Association Between Chronic Obstructive Pulmonary Disease and Postoperative Delirium: A Systematic Review and Meta-Analysis.",
-    "text": "BACKGROUND: Postoperative delirium (POD) is a frequent and serious complication following surgery, particularly in high-risk patients such as those with chronic obstructive pulmonary disease (COPD). The relationship between COPD and the development of POD remains unclear, with existing studies providing inconsistent findings. This meta-analysis aims to evaluate the association between COPD and postoperative delirium in surgical patients. METHODS: A comprehensive literature search was conducted across multiple databases, including PubMed, MEDLINE, Web of Science, Embase, and the Cochrane Library, and other grey resources. Observational studies and randomized controlled trials assessing the incidence of POD in COPD patients were included. Data were extracted on study design, participant demographics, surgical context, and POD assessment. Both fixed-effect and random-effects models were evaluated, with model selection guided by statistical heterogeneity and study characteristics. Subgroup analyses were performed to explore heterogeneity. RESULTS: A total of 26 studies involving 43,051 patients were included. Both unadjusted and adjusted analyses showed a significant association between COPD and the increased risk of POD. The pooled odds ratio (OR) for the association in adjusted analyses was 2.08 (95% CI: 1.60-2.71, P < 0.001; I2 = 67.2%). In the adjusted subgroup analysis, the association remained statistically significant in non-cardiac surgery but did not reach statistical significance in cardiac surgery; however, the between-subgroup difference was not statistically significant (P for interaction = 0.139). Geographic variation was identified as a potential effect modifier, with studies conducted in Asia showing a stronger association. CONCLUSION: The available evidence suggests an association between COPD and higher odds of POD in surgical patients, including in studies reporting multivariable-adjusted estimates. However, the predominantly observational evidence and between-study heterogeneity warrant cautious interpretation and do not establish causality. These findings highlight the potential importance of tailored perioperative management strategies for patients with COPD, although their effectiveness in reducing POD risk requires further investigation. Further well-designed prospective studies are necessary to confirm these findings and explore the underlying mechanisms. However, insufficient data on COPD severity precluded an assessment of whether this association varied across GOLD stages.",
-    "author_name": "Zhenlin Wang, Jinhui Xu, Yufan Xi et al.",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-04T00:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "journal": "International journal of chronic obstructive pulmonary disease",
-      "doi": "10.2147/COPD.S644864",
-      "pub_types": [
-        "Journal Article",
-        "Systematic Review",
-        "Meta-Analysis",
-        "Review"
-      ],
-      "first_author": "Zhenlin Wang"
-    },
-    "collected_at": "2026-11-09T17:07:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "New systematic review and meta-analysis linking COPD to postoperative delirium"
-    }
-  },
-  {
-    "id": "rss:513b001255500f19",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSWNnMnMtTUdFNXBBMkdvcEdaQ2tGWFhvNDhLcV90VVVLbEYxRS1RQlU1N1QzQ1dqdjZrN05YdHZ2eWNnQ1FidWExSFRKTFQxRVBYNjJfN0JUNW5ycERyeERTV2hkdkxsaV8yc1QwdlNKQmxaZ2hoNXNOX0s4VktlSEZqZU9Eei1tV0JmdWxPZkNXOXBwa1pMRUdRclJLZTV2Ul9aUkNSUzAwSHBJSzBz?oc=5",
-    "title": "How Reprogramming Immune Cells Could Help Control Severe Asthma - King's College London",
-    "text": "How Reprogramming Immune Cells Could Help Control Severe Asthma King's College London",
-    "author_name": "King's College London",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T15:00:03+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-09T17:07:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "University release on immune reprogramming for severe asthma research"
-    }
-  },
-  {
     "id": "rss:7975aec432024ff3",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOXY0cXRPUEFHcjRvc2dndE1ib2tTRlM2bEZudEtPSnpET3J3b05IS042WVFnRm96NVpYbUZLTHpHZ0g5aHh0aXhRbTFfTTJiWTFKTVpoLVJYR3VUY254dTkzdEV6SXRQUDFBUTdZazNnTk5tV2xrR1MtNmxrbzlkOFgtZVVEVW9IYzZfbGhnVG1DRzVWc0dYZXItQjI3RG9Fd0NFOGotUUVXS1JpTGE0VzhieGEtTVl1bnk1TnNIaEdxYlpxZnNz?oc=5",
@@ -1129,6 +1002,69 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "MINT-COPD completes recruitment; notable COPD trial milestone"
+    }
+  },
+  {
+    "id": "x:2120849088023343341",
+    "source": "x",
+    "url": "https://x.com/RespiratoryBMC/status/2120849088023343341",
+    "title": "",
+    "text": "NPJ Primary Care ✍️\n⏳Throwback Thursday ⏳\n\nDevelopment and validation of a machine learning risk prediction model for asthma attacks in adults in primary care\n#OpenAccess #TBT #Nature \n\nRead the article: https://t.co/dCuZydw6KW https://t.co/9iUjW02Cd0",
+    "author_name": "Respiratory Medicine Portfolio",
+    "author_handle": "RespiratoryBMC",
+    "author_url": "https://x.com/RespiratoryBMC",
+    "author_headline": "@BioMedCentral's portfolio of respiratory medicine journals. \nRespiratory Research, Pneumonia.",
+    "published_at": "2026-11-12T12:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120849088023343341",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1038/s41533-025-00428-8",
+        "https://x.com/RespiratoryBMC/status/2120849088023343341/photo/1"
+      ],
+      "author_followers": 3542,
+      "author_id": "843772062468575232"
+    },
+    "collected_at": "2026-11-12T14:07:20+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Notable NPJ Primary Care machine learning asthma attack model"
+    }
+  },
+  {
+    "id": "rss:59302de5cc86722b",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMFRZWk9qU3ExQlFudEQ5SzlhalJFMkhZbGgxb1JsdlhYTVdUZTVkeklzeXAtYjdaQ3JoWEVraEJob05hLVAzbG9iRUZmYWhuWEZjRjNDWFpDR0lDYUVkbHdxMl8tZWJrQWl5NDJxc3k2aUlEYU8yWVR6a0lZU1hvck1IQXBLdW1mbG44bjNvbEVjQWoydkt6dW8xeHBJOWhGXzZqeG81N0RIQTZOc1Nn?oc=5",
+    "title": "Mepolizumab Reduces Steroid Use in COPD",
+    "text": "Mepolizumab Reduces Steroid Use in COPD Medscape",
+    "author_name": "Medscape",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T12:04:13+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-12T14:07:20+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Reports mepolizumab steroid-sparing effect in COPD trial"
     }
   }
 ]

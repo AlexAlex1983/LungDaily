@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-12-baseline-tp53-mutation-and-pd-l1-linked-to-early-progression-on-first",
+  "headline": "Baseline TP53 mutation and PD-L1 linked to early progression on first-line osimertinib in EGFR-mutant NSCLC",
+  "dek": "A study in JTO, highlighted by thoracic oncologist Stephen V Liu, examines factors associated with early progression on first-line osimertinib in EGFR-mutant non-small cell lung cancer.",
+  "body": "A study published in JTO has examined the determinants of early progression in patients with EGFR-mutant non-small cell lung cancer (NSCLC) who received osimertinib as first-line treatment, according to a post on X by Stephen V Liu, MD.\n\nLiu wrote that baseline TP53 mutation and PD-L1 were associated with early progression. He added that mutations in several tumour suppressor genes were also associated with it: RBM10, CREBBP, ATM, RB1, KMT2D, TSC2 and PTEN.\n\nLiu's profile describes him as a thoracic oncologist and chief of hematology and oncology at Georgetown. The post gave no details of the study design, patient numbers, definition of early progression or the size of the associations. This report is based solely on his summary of the paper.",
+  "key_quote": "Baseline TP53 mutation and PD-L1 associated with early progression",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "diagnostics"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-12T14:08:11+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120838768093520272",
+    "url": "https://x.com/StephenVLiu/status/2120838768093520272"
+  },
+  "mentions": [
+    "JTOonline"
+  ],
+  "source": {
+    "id": "x:2120838768093520272",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2120838768093520272",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-12T11:19:00+00:00",
+    "extra": {
+      "tweet_id": "2120838768093520272",
+      "query_kind": "voices",
+      "links": [
+        "https://www.jto.org/article/S1556-0864(26)02703-6/abstract"
+      ],
+      "author_followers": 30870,
+      "author_id": "377425889"
+    }
+  },
+  "status": "ready"
+}

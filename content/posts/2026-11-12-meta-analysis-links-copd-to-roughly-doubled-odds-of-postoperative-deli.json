@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-12-meta-analysis-links-copd-to-roughly-doubled-odds-of-postoperative-deli",
+  "headline": "Meta-analysis links COPD to roughly doubled odds of postoperative delirium",
+  "dek": "A systematic review of 26 studies and 43,051 patients found COPD associated with higher odds of postoperative delirium, though the evidence is largely observational and heterogeneous.",
+  "body": "A systematic review and meta-analysis has found an association between chronic obstructive pulmonary disease (COPD) and a higher risk of postoperative delirium (POD) in surgical patients. The work, led by Zhenlin Wang, Jinhui Xu, Yufan Xi and colleagues, was published in the International Journal of Chronic Obstructive Pulmonary Disease.\n\nThe authors searched PubMed, MEDLINE, Web of Science, Embase, the Cochrane Library and grey literature sources. They included observational studies and randomised controlled trials that assessed the incidence of POD in patients with COPD. In total, 26 studies involving 43,051 patients were analysed. According to the study, existing research on the relationship had been inconsistent.\n\nBoth unadjusted and adjusted analyses showed a significant association between COPD and increased POD risk. The pooled adjusted odds ratio was 2.08 (95% CI: 1.60-2.71, P < 0.001), with heterogeneity of I2 = 67.2%. In adjusted subgroup analysis, the association remained statistically significant in non-cardiac surgery but did not reach statistical significance in cardiac surgery. The difference between subgroups was not statistically significant (P for interaction = 0.139). Studies conducted in Asia showed a stronger association, which the authors identified as a potential effect modifier.\n\nThe authors cautioned that the predominantly observational evidence and between-study heterogeneity warrant careful interpretation and do not establish causality. They said the findings highlight the potential importance of tailored perioperative management for patients with COPD, but that the effectiveness of such strategies in reducing POD risk requires further investigation. They called for well-designed prospective studies to confirm the findings and explore underlying mechanisms. Insufficient data on COPD severity meant the team could not assess whether the association differed across GOLD stages.",
+  "key_quote": "the predominantly observational evidence and between-study heterogeneity warrant cautious interpretation and do not establish causality",
+  "tags": [
+    "copd",
+    "guidelines",
+    "primary-care"
+  ],
+  "people": [
+    "Zhenlin Wang",
+    "Jinhui Xu",
+    "Yufan Xi"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-12T14:08:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43001124/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43001124",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43001124/",
+    "title": "The Association Between Chronic Obstructive Pulmonary Disease and Postoperative Delirium: A Systematic Review and Meta-Analysis.",
+    "author_name": "Zhenlin Wang, Jinhui Xu, Yufan Xi et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-04T00:00:00+00:00",
+    "extra": {
+      "journal": "International journal of chronic obstructive pulmonary disease",
+      "doi": "10.2147/COPD.S644864",
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "first_author": "Zhenlin Wang"
+    }
+  },
+  "status": "ready"
+}

@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 5,
+    "seen": 7,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 13,
+    "seen": 14,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47390
+    "followers": 47387
   },
   "erspublications": {
     "id": "424241621",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 8,
+    "seen": 9,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13822
+    "followers": 13821
   },
   "lungassociation": {
     "id": "17049255",
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 10,
+    "seen": 11,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31653
+    "followers": 31654
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 5,
+    "seen": 6,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30872
+    "followers": 30870
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -186,7 +186,7 @@
   "allergyasthmahq": {
     "id": "23939188",
     "username": "AllergyAsthmaHQ",
-    "seen": 3,
+    "seen": 4,
     "name": "Allergy & Asthma Network",
     "bio": "🌟 Allergy & Asthma Network unites and advocates on behalf of 60 million Americans with #asthma 😷, #allergies 🤧 and related conditions. Learn more ⬇️",
     "followers": 10212
@@ -202,10 +202,10 @@
   "ats_aii": {
     "id": "1954658088",
     "username": "ATS_AII",
-    "seen": 1,
+    "seen": 2,
     "name": "ATS AII",
     "bio": "Welcome to the American Thoracic Society's AII Assembly Twitter feed. Tweets by @asquental\n🦋 https://t.co/T5IiMBPhSn",
-    "followers": 2475
+    "followers": 2478
   },
   "openrespiratory": {
     "id": "1366423160116158465",
@@ -226,10 +226,10 @@
   "jacionline": {
     "id": "133749511",
     "username": "jacionline",
-    "seen": 1,
+    "seen": 2,
     "name": "Journal of Allergy and Clinical Immunology",
     "bio": "The Journal of Allergy and Clinical Immunology is an official publication of the American Academy of Allergy, Asthma, and Immunology.",
-    "followers": 12668
+    "followers": 12664
   },
   "lisadow1": {
     "id": "495469781",
@@ -346,15 +346,15 @@
   "copdcanada": {
     "id": "497225379",
     "username": "COPDCanada",
-    "seen": 1,
+    "seen": 2,
     "name": "COPD Canada",
     "bio": "COPD Canada is a national non-profit patient advocacy association providing educational information and up-to-date medical news for people living with COPD.",
-    "followers": 1360
+    "followers": 1361
   },
   "healioallergy": {
     "id": "1409602508750721033",
     "username": "HealioAllergy",
-    "seen": 2,
+    "seen": 3,
     "name": "Healio Allergy and Asthma",
     "bio": "The content you need, when you need it.",
     "followers": 636
@@ -370,10 +370,10 @@
   "allergyeaaci": {
     "id": "1006875688903888896",
     "username": "AllergyEaaci",
-    "seen": 2,
+    "seen": 3,
     "name": "Allergy EAACI",
     "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
-    "followers": 6058
+    "followers": 6059
   },
   "drewmoghanaki": {
     "id": "1322269645",
@@ -506,7 +506,7 @@
   "allianceforph": {
     "id": "753870931446169600",
     "username": "allianceforph",
-    "seen": 1,
+    "seen": 2,
     "name": "AlliancePublicHealth",
     "bio": "NGO making a significant impact on the HIV/AIDS/TB/hep epidemics",
     "followers": 647
@@ -526,5 +526,13 @@
     "name": "Lung Institute, Makerere University",
     "bio": "East Africa’s first Lung Institute | Advancing lung health through research, treatment & education | Transforming respiratory care @MakerereCHS @Makerere",
     "followers": 7008
+  },
+  "respiratorybmc": {
+    "id": "843772062468575232",
+    "username": "RespiratoryBMC",
+    "seen": 1,
+    "name": "Respiratory Medicine Portfolio",
+    "bio": "@BioMedCentral's portfolio of respiratory medicine journals. \nRespiratory Research, Pneumonia.",
+    "followers": 3542
   }
 }
