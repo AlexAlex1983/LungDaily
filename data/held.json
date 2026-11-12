@@ -703,5 +703,57 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-12-nick-hopkinson-woman-with-four-exacerbation-hospitalisations-was-never",
+    "headline": "Nick Hopkinson: woman with four exacerbation hospitalisations was never referred to pulmonary rehabilitation",
+    "dek": "The professor of respiratory medicine described on X a woman hospitalised four times with acute exacerbations who, he said, was never referred for pulmonary rehabilitation.",
+    "body": "Nick Hopkinson, whose X profile describes him as Professor of Respiratory Medicine, wrote on the platform on 12 November 2026 about a woman who, he said, had four hospitalisations with acute exacerbations and was never referred for pulmonary rehabilitation.\n\nHe ended the statement with the single word \"Never.\"\n\nThe post carried the hashtags #COPD and #StructuralViolence and mentioned the account @gaapporg. It gave no further details about the woman or her care.",
+    "key_quote": "She had four hospitalisations with acute exacerbations and never referred for pulmonary rehabilitation. Never.",
+    "tags": [
+      "copd",
+      "rehab",
+      "equity"
+    ],
+    "people": [
+      "Nick Hopkinson"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-12T07:29:56+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 72 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2120776280345813015",
+      "url": "https://x.com/COPDdoc/status/2120776280345813015"
+    },
+    "mentions": [
+      "gaapporg"
+    ],
+    "source": {
+      "id": "x:2120776280345813015",
+      "source": "x",
+      "url": "https://x.com/COPDdoc/status/2120776280345813015",
+      "title": "",
+      "author_name": "Nick Hopkinson",
+      "author_handle": "COPDdoc",
+      "author_url": "https://x.com/COPDdoc",
+      "published_at": "2026-11-12T07:10:42+00:00",
+      "extra": {
+        "tweet_id": "2120776280345813015",
+        "query_kind": "voices",
+        "links": [
+          "https://open.spotify.com/episode/5yQhvfMUo6aIGuhNUr1n1m?si=rGQ3TDYLQTSdr3AHpwVrMw"
+        ],
+        "author_followers": 8686,
+        "author_id": "356203202"
+      }
+    },
+    "status": "held"
   }
 ]

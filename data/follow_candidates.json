@@ -50,7 +50,7 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 8,
+    "seen": 9,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
     "followers": 42214
@@ -154,7 +154,7 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 6,
+    "seen": 8,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
     "followers": 8686
@@ -306,10 +306,10 @@
   "thoraxbmj": {
     "id": "141173210",
     "username": "ThoraxBMJ",
-    "seen": 1,
+    "seen": 2,
     "name": "ThoraxBMJ",
     "bio": "Publishing top research to support the #respiratory & #criticalcare community. Companion #OpenAccess journal, @BMJOpen_Resp. Published with @BTSrespiratory",
-    "followers": 22171
+    "followers": 22175
   },
   "lowellcatarts": {
     "id": "1751662713279803392",
@@ -378,10 +378,10 @@
   "drewmoghanaki": {
     "id": "1322269645",
     "username": "DrewMoghanaki",
-    "seen": 1,
+    "seen": 2,
     "name": "Drew Moghanaki",
     "bio": "Chief of Thoracic Oncology, Endowed Professor, UCLA Dept of Radiation Oncology | Co-Director, Lung Precision Oncology Pgm, VA Greater Los Angeles",
-    "followers": 14029
+    "followers": 14037
   },
   "asthmalungscot": {
     "id": "788359667613401088",
@@ -470,5 +470,21 @@
     "name": "Global Initiative for Asthma (GINA)",
     "bio": "A nonprofit working to reduce the burden of #asthma worldwide through publications such as evidence-based guidelines and events such as #WorldAsthmaDay.",
     "followers": 8435
+  },
+  "boltonfibrosis": {
+    "id": "932002946144985089",
+    "username": "BoltonFibrosis",
+    "seen": 1,
+    "name": "Bolton Pulmonary Fibrosis Support Group",
+    "bio": "We are a support group made up of men and women who live with Idiopathic Pulmonary Fibrosis, Our aim is to help and support those who have Pulmonary Firbrosis",
+    "followers": 1065
+  },
+  "salmajabbour1": {
+    "id": "2280002478",
+    "username": "SalmaJabbour1",
+    "seen": 1,
+    "name": "Salma Jabbour",
+    "bio": "Professor | Vice Chair Clinical Research & Faculty Developmt | Thoracic & GI cancer physician| Rutgers Cancer Institute of New Jersey | opinions my own",
+    "followers": 1220
   }
 }
