@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 9,
+    "seen": 10,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31654
+    "followers": 31653
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -330,7 +330,7 @@
   "firs_lungsfirst": {
     "id": "2798489479",
     "username": "FIRS_LungsFirst",
-    "seen": 1,
+    "seen": 2,
     "name": "FIRS -Forum of International Respiratory Societies",
     "bio": "The memberships of the Forum of International Respiratory Societies comprise over 70 000 professionals working on some aspect of respiratory health or disease.",
     "followers": 2313
@@ -338,7 +338,7 @@
   "lena_group4resp": {
     "id": "1497171361730605058",
     "username": "Lena_Group4Resp",
-    "seen": 2,
+    "seen": 3,
     "name": "Lena Group Respiratory Hub 🫁",
     "bio": "🫁 Welcome to the account of #Respiratory Projects & Events of Lena Group. We support research & education in #RespiratoryDiseases #Bronchiectasis #NTM & others",
     "followers": 1043
@@ -502,5 +502,29 @@
     "name": "الجمعية السعودية لطب وجراحة الصدر",
     "bio": "Official account of the Saudi Thoracic Society. Serving patients and the public in pulmonary medicine, sharing accurate health information, and STS activities",
     "followers": 1585
+  },
+  "allianceforph": {
+    "id": "753870931446169600",
+    "username": "allianceforph",
+    "seen": 1,
+    "name": "AlliancePublicHealth",
+    "bio": "NGO making a significant impact on the HIV/AIDS/TB/hep epidemics",
+    "followers": 647
+  },
+  "my_lungs": {
+    "id": "1053369007179468800",
+    "username": "my_lungs",
+    "seen": 1,
+    "name": "my_lungs",
+    "bio": "The Zephyr Endobronchial Valve is a minimally invasive treatment for emphysema, a form of COPD. The broncoscopic procedure aims to help patients breathe easier.",
+    "followers": 10821
+  },
+  "lung_institute": {
+    "id": "785387368945741824",
+    "username": "Lung_Institute",
+    "seen": 1,
+    "name": "Lung Institute, Makerere University",
+    "bio": "East Africa’s first Lung Institute | Advancing lung health through research, treatment & education | Transforming respiratory care @MakerereCHS @Makerere",
+    "followers": 7008
   }
 }

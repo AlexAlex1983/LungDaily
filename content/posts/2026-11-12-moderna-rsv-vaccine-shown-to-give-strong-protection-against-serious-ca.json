@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-12-moderna-rsv-vaccine-shown-to-give-strong-protection-against-serious-ca",
+  "headline": "Moderna RSV vaccine shown to give strong protection against serious cases in adults 50 and older",
+  "dek": "CIDRAP reports that Moderna's vaccine against respiratory syncytial virus (RSV) provides strong protection against serious cases in adults aged 50 and older.",
+  "body": "Moderna's vaccine against respiratory syncytial virus (RSV) has been shown to provide strong protection against serious cases of the infection in adults aged 50 and older, according to a CIDRAP news item published on 11 November 2026.\n\nThe text available for this report consists only of the headline. It gives no details of the underlying data, including the study design, the number of participants, the size of the protective effect, the definition of a serious case or any regulatory decision.\n\nLungDaily will update this report if further information from the original CIDRAP article or from Moderna becomes available.",
+  "key_quote": "Moderna's RSV vaccine shown to provide strong protection against serious cases in adults 50 and older",
+  "tags": [
+    "therapeutics",
+    "trial"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 7.0,
+  "created_at": "2026-11-12T11:08:19+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSXFXbkV3VnEtRXNOZEsyeGxaVkdPUFRsTkdiZFM1bERjVnV1VEVjN1hDU3hBZmZMVFpjbUFFZHpyTVBnWGo0NWFWOFU4SGxvRXMxckVRWGZJNjQ1RTFIOVgwS3VwSVpqS3Vfc0dpV2YwcHk4MVY2MG5VZUxXRl9JTWplYmdMRWFFY3RlY0c4a0l0ZmQyajJhcGZhNjgwc0c5RU05Qms0VVJFTi0wNWRmeGNlNVlaTWJBSC04?oc=5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:c2c6811cade8af7d",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSXFXbkV3VnEtRXNOZEsyeGxaVkdPUFRsTkdiZFM1bERjVnV1VEVjN1hDU3hBZmZMVFpjbUFFZHpyTVBnWGo0NWFWOFU4SGxvRXMxckVRWGZJNjQ1RTFIOVgwS3VwSVpqS3Vfc0dpV2YwcHk4MVY2MG5VZUxXRl9JTWplYmdMRWFFY3RlY0c4a0l0ZmQyajJhcGZhNjgwc0c5RU05Qms0VVJFTi0wNWRmeGNlNVlaTWJBSC04?oc=5",
+    "title": "Moderna's RSV vaccine shown to provide strong protection against serious cases in adults 50 and older",
+    "author_name": "CIDRAP",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-11T21:30:00+00:00",
+    "extra": {
+      "feed": "Google News — respiratory approvals",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

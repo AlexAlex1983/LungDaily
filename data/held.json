@@ -755,5 +755,130 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-12-depemokimab-linked-to-sustained-asthma-benefits-over-two-years-medscap",
+    "headline": "Depemokimab linked to sustained asthma benefits over two years, Medscape reports",
+    "dek": "A Medscape news item reports that depemokimab produced sustained benefits in asthma over a two-year period.",
+    "body": "Depemokimab yields sustained benefits in asthma over two years, according to a headline published by Medscape on 12 November 2026.\n\nThe source item contains only its headline. It gives no details on the study design, the patient population, the outcomes measured or the size of any effect. It also does not mention any regulatory decision or approval status for depemokimab.\n\nFurther detail will be needed from the full Medscape report or the underlying data before the findings can be described more fully.",
+    "key_quote": "Depemokimab Yields Sustained Asthma Benefits Over 2 Years",
+    "tags": [
+      "asthma",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 7.0,
+    "created_at": "2026-11-12T11:08:08+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 82 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQlgyUHRYQldIZHk0azBMSFloQ3g3VmE1d2ZKNGxQb1kxTThIcmtpU0FIY1BYYjh6WHZzVDJxelNxWVU1UllEczRsNG1OMjJXSFNUNU1FcDhtSVJNZS1LUzlKUFVMcWk0Vy1zdDBrVjVwVVFxRjZxWlFOODZicEVxRWt4S0lFR1VkTm1QLUhneHNMRjZrejJaT05lUVpQbWJMVENEVzVlajdzcGM?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:12c31724c5dce9cb",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQlgyUHRYQldIZHk0azBMSFloQ3g3VmE1d2ZKNGxQb1kxTThIcmtpU0FIY1BYYjh6WHZzVDJxelNxWVU1UllEczRsNG1OMjJXSFNUNU1FcDhtSVJNZS1LUzlKUFVMcWk0Vy1zdDBrVjVwVVFxRjZxWlFOODZicEVxRWt4S0lFR1VkTm1QLUhneHNMRjZrejJaT05lUVpQbWJMVENEVzVlajdzcGM?oc=5",
+      "title": "Depemokimab Yields Sustained Asthma Benefits Over 2 Years",
+      "author_name": "Medscape",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-12T09:42:59+00:00",
+      "extra": {
+        "feed": "Google News — asthma",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-12-korea-s-severe-asthma-patients-face-restrictive-access-to-biologics-in",
+    "headline": "Korea's severe asthma patients face restrictive access to biologics, interview reports",
+    "dek": "Korea Biomedical Review published an interview on restrictive access to biologic treatments for people with severe asthma in South Korea, despite the risks they face.",
+    "body": "Korea Biomedical Review has published an interview examining access to biologic treatments for people with severe asthma in Korea.\n\nAccording to the headline of the piece, patients with severe asthma in the country face restrictive access to biologics despite risks.\n\nThe source text available contains only the headline. It does not name the interviewee, identify the specific restrictions, or give figures, so no further details can be reported here.",
+    "key_quote": "Korea's severe asthma patients face restrictive access to biologics despite risks",
+    "tags": [
+      "asthma",
+      "policy",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "policy",
+    "score": 7.0,
+    "created_at": "2026-11-12T11:08:34+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 69 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NRUNBaHBYeDZDZG9aVDRYbXMwdkYtcTBiVE9uNUx5Wk1GZmEtY1R0UUxkYnlmaFZCMHpHanN0Tjg5N01TRjMwR0RQeXQ5Wldhb081SzlxdUplbTBoeFVTeVozcWtVVldsZjEzeW530gFyQVVfeXFMUFJCa25MaV9rOW92azhMOElUR0w4cmkxX2VMNzlock1icW50eWFCalVBaUhUdFJxYjZ4cUdDdEVpQXE1TFRHSGxteGJ1c3Vhc1ZmWnd3MHVoWnJXSHg3YVJRSjJWMHZFNGtqUFVkRy1PS25R?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:67dce440d4e6ed43",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NRUNBaHBYeDZDZG9aVDRYbXMwdkYtcTBiVE9uNUx5Wk1GZmEtY1R0UUxkYnlmaFZCMHpHanN0Tjg5N01TRjMwR0RQeXQ5Wldhb081SzlxdUplbTBoeFVTeVozcWtVVldsZjEzeW530gFyQVVfeXFMUFJCa25MaV9rOW92azhMOElUR0w4cmkxX2VMNzlock1icW50eWFCalVBaUhUdFJxYjZ4cUdDdEVpQXE1TFRHSGxteGJ1c3Vhc1ZmWnd3MHVoWnJXSHg3YVJRSjJWMHZFNGtqUFVkRy1PS25R?oc=5",
+      "title": "[Interview] Korea's severe asthma patients face restrictive access to biologics despite risks - Korea Biomedical Review",
+      "author_name": "Korea Biomedical Review",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-09T06:31:25+00:00",
+      "extra": {
+        "feed": "Google News — asthma",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-12-calls-for-nationwide-lung-cancer-screening-as-10-000-take-part-in-pilo",
+    "headline": "Calls for nationwide lung cancer screening as 10,000 take part in pilot project",
+    "dek": "Irish Medical Times reports calls for a nationwide lung cancer screening programme, with 10,000 people taking part in a pilot project.",
+    "body": "Irish Medical Times reported on 9 November 2026 that there are calls for lung cancer screening to be introduced nationwide.\n\nAccording to the report's headline, 10,000 people are taking part in a pilot project on lung cancer screening.\n\nThe source text available to LungDaily contains only the headline. It does not say who is calling for a national programme, where the pilot is taking place, how it is run, or what results it has produced. Further details will be added if the full report becomes available.",
+    "key_quote": "Calls for nationwide lung cancer screening as 10,000 take part in pilot project",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "policy"
+    ],
+    "people": [],
+    "category": "policy",
+    "score": 7.0,
+    "created_at": "2026-11-12T11:08:42+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 88 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGh4WnBCbk9LX2MwYXlWa254UUdOamdpRnM3Smp6eVp3aWpfVW9ucG1OellGVGpoSFFuLWhQenVELVYwRHhVblNWT0MxcmdHTnE5V3I4cUt5R1VBRWdYMFFHbEQwS09Tdy1Qc0tPSzROem9seGZiR0dlTXRfbW85YUdGQW0xS2V4VkVEeElOSU1pWGJzOWg3SndkRWdWaWZucEMwc2FJNU91SlV6SHZaZnVlUmU?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:753637231b8f8f47",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGh4WnBCbk9LX2MwYXlWa254UUdOamdpRnM3Smp6eVp3aWpfVW9ucG1OellGVGpoSFFuLWhQenVELVYwRHhVblNWT0MxcmdHTnE5V3I4cUt5R1VBRWdYMFFHbEQwS09Tdy1Qc0tPSzROem9seGZiR0dlTXRfbW85YUdGQW0xS2V4VkVEeElOSU1pWGJzOWg3SndkRWdWaWZucEMwc2FJNU91SlV6SHZaZnVlUmU?oc=5",
+      "title": "Calls for nationwide lung cancer screening as 10,000 take part in pilot project - Irish Medical Times",
+      "author_name": "Irish Medical Times",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-09T12:28:43+00:00",
+      "extra": {
+        "feed": "Google News — lung cancer screening",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

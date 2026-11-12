@@ -1,89 +1,5 @@
 [
   {
-    "id": "rss:51cdf227d0f824ad",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOV0tTaHE3RFY3VktGY0ItcDNrYkZZMXV4Wk1CNUNEN1o1SXVnR2Q3dG5LcVc4aUtESVJEYnBCTzFkeEZybnpURE9ZMlJrYWVtVHFqOTB0ZERJZ25yaDU0WmN4YkZNUnJaX2lHZ2NpbnFpMzZoNlNjVG1TVVJKVVRvYWgtekQwR1RVbVBWSEd1MlZHS0ctNHlmWmI0bkVVdzI1Y3Zzd3RkcGxVMmhBeTVDWloxMEZDWWJ1ejN1NnBWMHlVYnpfTWNDZWFEeGJ3WmZiSXJ3bnlsOUZGb09kVUE?oc=5",
-    "title": "GPs to get £40m to support patients with frailty, heart disease and COPD this winter - Pulse Today",
-    "text": "GPs to get £40m to support patients with frailty, heart disease and COPD this winter Pulse Today",
-    "author_name": "Pulse Today",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T09:58:46+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "£40m NHS winter funding for COPD and other conditions"
-    }
-  },
-  {
-    "id": "rss:67dce440d4e6ed43",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NRUNBaHBYeDZDZG9aVDRYbXMwdkYtcTBiVE9uNUx5Wk1GZmEtY1R0UUxkYnlmaFZCMHpHanN0Tjg5N01TRjMwR0RQeXQ5Wldhb081SzlxdUplbTBoeFVTeVozcWtVVldsZjEzeW530gFyQVVfeXFMUFJCa25MaV9rOW92azhMOElUR0w4cmkxX2VMNzlock1icW50eWFCalVBaUhUdFJxYjZ4cUdDdEVpQXE1TFRHSGxteGJ1c3Vhc1ZmWnd3MHVoWnJXSHg3YVJRSjJWMHZFNGtqUFVkRy1PS25R?oc=5",
-    "title": "[Interview] Korea's severe asthma patients face restrictive access to biologics despite risks - Korea Biomedical Review",
-    "text": "[Interview] Korea's severe asthma patients face restrictive access to biologics despite risks Korea Biomedical Review",
-    "author_name": "Korea Biomedical Review",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T06:31:25+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Interview on restricted severe asthma biologic access in Korea"
-    }
-  },
-  {
-    "id": "rss:753637231b8f8f47",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGh4WnBCbk9LX2MwYXlWa254UUdOamdpRnM3Smp6eVp3aWpfVW9ucG1OellGVGpoSFFuLWhQenVELVYwRHhVblNWT0MxcmdHTnE5V3I4cUt5R1VBRWdYMFFHbEQwS09Tdy1Qc0tPSzROem9seGZiR0dlTXRfbW85YUdGQW0xS2V4VkVEeElOSU1pWGJzOWg3SndkRWdWaWZucEMwc2FJNU91SlV6SHZaZnVlUmU?oc=5",
-    "title": "Calls for nationwide lung cancer screening as 10,000 take part in pilot project - Irish Medical Times",
-    "text": "Calls for nationwide lung cancer screening as 10,000 take part in pilot project Irish Medical Times",
-    "author_name": "Irish Medical Times",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T12:28:43+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-09T13:47:00+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Calls for national lung screening after 10,000-person pilot"
-    }
-  },
-  {
     "id": "rss:eb81b987651c2baf",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb2d4d2lYS05OX2lxSDJRWEdvd3hoeUc5V3d3a05HcHhhSkZzVXlXcWVjcjlMUjJ2Ml84UzhDbHlmUTh1cW9FalZlaURVdUZ3cGs4OUlQSWx5bmVqT2praERrNVh0aVdvT3BGZnFTRWJWYjQ4YzJDSWJBa3REdFlhYWU3dXEtWWJZekYyMWJsd211NDRva0haQWtUSXhtRkp3X3MzSWhiTXNodlVXR3JGNnNobGlPVmFXWkZfTXlYU1ZBRzFnXy1Z?oc=5",
@@ -1179,6 +1095,40 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "ERS journal summary of COPD peak inspiratory flow study"
+    }
+  },
+  {
+    "id": "x:2120834993970946405",
+    "source": "x",
+    "url": "https://x.com/LeicResearch/status/2120834993970946405",
+    "title": "",
+    "text": "Researchers in Leicester are celebrating the completion of recruitment to the MINT-COPD trial after the 80th and final participant was seen this week.\n\nThe achievement marks an important milestone for the study, which is being delivered through the #NIHRBRCLeiecster at @Leic_hospital and seeks to improve recovery and quality of life for people living with #COPD following a hospital admission.\n\nMINT-COPD (Maintaining the Integrity of Muscle Trial in Chronic Obstructive Pulmonary Disease) is investigating whether a novel treatment, known as RJx-01, can help preserve muscle health and improve recovery for people hospitalised with severe flare-ups of chronic obstructive pulmonary disease (COPD). \n\nCOPD is a major cause of ill health worldwide, and hospital admissions can result in significant loss of muscle strength and physical function, affecting patients’ independence and quality of life.\n\nFor the full story visit: https://t.co/n2LZ0IGni7\n@uniofleicester \n@Rejuven8Biomed \n@WellcomeLeap \n#COPDawarenessmonth",
+    "author_name": "Research at Leicester's Hospitals",
+    "author_handle": "LeicResearch",
+    "author_url": "https://x.com/LeicResearch",
+    "author_headline": "Research to develop and test new treatments, devices and care pathways for our patients @Leic_hospital. Home of #NIHRLeicesterBRC and #NIHRLeicesterCRF.",
+    "published_at": "2026-11-12T11:04:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120834993970946405",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/LeicResearch/status/2120834993970946405/photo/1"
+      ],
+      "author_followers": 3524,
+      "author_id": "860120800837468160"
+    },
+    "collected_at": "2026-11-12T11:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "MINT-COPD completes recruitment; notable COPD trial milestone"
     }
   }
 ]
