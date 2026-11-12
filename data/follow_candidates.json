@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 16,
+    "seen": 17,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47385
+    "followers": 47387
   },
   "erspublications": {
     "id": "424241621",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 10,
+    "seen": 12,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13822
+    "followers": 13823
   },
   "lungassociation": {
     "id": "17049255",
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 12,
+    "seen": 13,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42213
+    "followers": 42212
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -186,7 +186,7 @@
   "allergyasthmahq": {
     "id": "23939188",
     "username": "AllergyAsthmaHQ",
-    "seen": 4,
+    "seen": 5,
     "name": "Allergy & Asthma Network",
     "bio": "🌟 Allergy & Asthma Network unites and advocates on behalf of 60 million Americans with #asthma 😷, #allergies 🤧 and related conditions. Learn more ⬇️",
     "followers": 10212
@@ -450,10 +450,10 @@
   "franciscojlk": {
     "id": "143635215",
     "username": "franciscojlk",
-    "seen": 1,
+    "seen": 2,
     "name": "Dr. Chacón-Lozsán F .'.",
     "bio": "Venezuelan MD in Hungary. Critical Care. Hemodynamics and lung mechanics. @esicm @escardio FESC,FACC. Reseacher. Barista, compulsive reader and traveler.'.",
-    "followers": 4367
+    "followers": 4374
   },
   "pulmonary_news": {
     "id": "774576242",
@@ -534,5 +534,21 @@
     "name": "Respiratory Medicine Portfolio",
     "bio": "@BioMedCentral's portfolio of respiratory medicine journals. \nRespiratory Research, Pneumonia.",
     "followers": 3542
+  },
+  "pulmapp": {
+    "id": "966862676361007105",
+    "username": "pulmAPP",
+    "seen": 1,
+    "name": "Assoc. of Pulmonary Advanced Practice Providers",
+    "bio": "We are the Association of Pulmonary Advanced Practice Providers. A home for NPs and PAs working in all realms of pulmonary medicine.",
+    "followers": 390
+  },
+  "joseph_aluk": {
+    "id": "3362540793",
+    "username": "joseph_ALUK",
+    "seen": 1,
+    "name": "Joseph Carter",
+    "bio": "Head of Devolved Nations for Asthma + Lung UK. Campaigning for better services for the 1 in 5 people affected by lung conditions.",
+    "followers": 1695
   }
 }

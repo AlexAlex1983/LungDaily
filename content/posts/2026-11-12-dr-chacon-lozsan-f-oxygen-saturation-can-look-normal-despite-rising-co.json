@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-12-dr-chacon-lozsan-f-oxygen-saturation-can-look-normal-despite-rising-co",
+  "headline": "Dr. Chacón-Lozsán F.: Oxygen saturation can look normal despite rising CO₂ in hypercapnic failure",
+  "dek": "In a critical physiology series post on X, the Venezuelan critical care physician set out the mechanisms, diagnosis and management of acute hypercapnic respiratory failure.",
+  "body": "Dr. Chacón-Lozsán F., who describes himself as a Venezuelan MD in Hungary working in critical care, published instalment #125 of his Critical Physiology Series on X on acute hypercapnic respiratory failure.\n\nHe wrote that SpO₂ may be 96% despite rising CO₂, and that oxygenation is not ventilation. He described three converging mechanisms behind rising PaCO₂: reduced alveolar ventilation, increased dead space, and increased CO₂ production. He listed COPD, severe asthma, obesity hypoventilation, neuromuscular disease and opioid or sedative exposure as risk factors. He also wrote that tachypnoea may conceal inadequate alveolar ventilation, and that slowing respiration during severe distress can indicate exhaustion.\n\nOn diagnosis, he wrote that arterial blood gases are central. He gave PaCO₂ of 45 mmHg or above with pH below 7.35 as indicating acute hypercapnic respiratory acidosis, and said SpO₂ cannot exclude ventilatory failure.\n\nOn management, he listed treating the underlying cause and unloading the respiratory pump. He gave a controlled oxygen target of 88 to 92% for at-risk patients, and described bilevel NIV as first-line for eligible patients with acute hypercapnic acidosis, with reassessment within one to two hours. He wrote that the 2026 ATS guideline conditionally permits high-flow nasal cannula in mild acidaemia (pH above 7.25) with close monitoring and rapid NIV escalation.\n\nThe post closed with a list of five recommended papers.",
+  "key_quote": "SpO₂ may be 96% despite rising CO₂. Oxygenation is not ventilation.",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "therapeutics",
+    "guidelines"
+  ],
+  "people": [
+    "Chacón-Lozsán F."
+  ],
+  "category": "voices",
+  "score": 7.0,
+  "created_at": "2026-11-12T20:08:22+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120955788390707553",
+    "url": "https://x.com/franciscojlk/status/2120955788390707553"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120955788390707553",
+    "source": "x",
+    "url": "https://x.com/franciscojlk/status/2120955788390707553",
+    "title": "",
+    "author_name": "Dr. Chacón-Lozsán F .'.",
+    "author_handle": "franciscojlk",
+    "author_url": "https://x.com/franciscojlk",
+    "published_at": "2026-11-12T19:04:00+00:00",
+    "extra": {
+      "tweet_id": "2120955788390707553",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 4374,
+      "author_id": "143635215"
+    }
+  },
+  "status": "ready"
+}

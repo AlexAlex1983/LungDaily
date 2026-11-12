@@ -1,131 +1,5 @@
 [
   {
-    "id": "x:2119845017355247991",
-    "source": "x",
-    "url": "https://x.com/accpchest/status/2119845017355247991",
-    "title": "",
-    "text": "A CHEST Research Letter analyzed data from the 2022 National Program of Cancer Registries and the Surveillance, Epidemiology, and End Results (SEER) database, which represents 100% of the US population, to assess state-specific incidence rates of small cell lung cancer in the United States and conducted an ecological assessment examining associations with smoking prevalence.\n\nRead more: https://t.co/QEBsk2Sv0O\n#MedEd #JournalCHEST #LungCancer #SmokingCessation",
-    "author_name": "CHEST",
-    "author_handle": "accpchest",
-    "author_url": "https://x.com/accpchest",
-    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "published_at": "2026-11-09T17:30:11+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119845017355247991",
-      "query_kind": "voices",
-      "links": [
-        "https://x.com/accpchest/status/2119845017355247991/photo/1",
-        "https://x.com/accpchest/status/2119845017355247991/photo/1"
-      ],
-      "author_followers": 47385,
-      "author_id": "34827666"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Registry analysis of state SCLC incidence linked to smoking prevalence"
-    }
-  },
-  {
-    "id": "x:2119860071098089574",
-    "source": "x",
-    "url": "https://x.com/journal_CHEST/status/2119860071098089574",
-    "title": "",
-    "text": "A CHEST Research Letter evaluated the geographic distribution of recruitment centers and the inclusiveness of eligibility criteria in phase III/IV trials of single-inhaler triple therapy and biologic treatments for #COPD.\n\nRead more: https://t.co/dGJLwhFOg4\n#MedEd #JournalCHEST https://t.co/3fUeC1pYh8",
-    "author_name": "CHEST® Journal",
-    "author_handle": "journal_CHEST",
-    "author_url": "https://x.com/journal_CHEST",
-    "author_headline": "The official journal of @accpchest, publishing peer-reviewed, evidence-based research since 1935.  \n#JournalCHEST #journal_CHESTPulm #journal_CHESTCritCare",
-    "published_at": "2026-11-09T18:30:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119860071098089574",
-      "query_kind": "keywords",
-      "links": [
-        "https://hubs.la/Q04CvcjJ0",
-        "https://x.com/journal_CHEST/status/2119860071098089574/photo/1"
-      ],
-      "author_followers": 7999,
-      "author_id": "1371517382884171778"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "CHEST Research Letter on inclusiveness of COPD phase III/IV trials"
-    }
-  },
-  {
-    "id": "rss:7126ce1c0640eb7e",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUHp5VW5UVE9FX0VYVmNkVDVvbnc0Vkc0N0NIWGxpOVFBSmxtVlgwOEhUZ1VZNHE1NmFxTlJ5cDktenkyMlh6Y2Q4Ui1WWHgwZ1Bmb290aWZjck9CWElLUzNyMmp4VzJWc2xsMmlFRGk4WlprSHlPWVpURmNBQnhYcTUyOGloRFYwNVM0Q1JNb0lpOWo0dXcwcVhLaUJ4X1k?oc=5",
-    "title": "GSK Accelerates Late-Stage Studies as It Targets COPD and Long-Acting Respiratory Treatments - Yahoo Finance",
-    "text": "GSK Accelerates Late-Stage Studies as It Targets COPD and Long-Acting Respiratory Treatments Yahoo Finance",
-    "author_name": "Yahoo Finance",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T19:15:04+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "GSK late-stage COPD trial acceleration; thin detail"
-    }
-  },
-  {
-    "id": "rss:a8258db2d0a9ef59",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11djF6WTJ6MzNXeXFZaUpqenpvMFhON0dESlNvUDJBRUNud2RJeXhpMjFaZXBmN3diQzkxeFcyeHNweTB1Nm5qS3RBMUtuRVBRc3ZlX2hPOV8zWXlBdk9tMzdmcmVsRmk0R3hNWWhR?oc=5",
-    "title": "Aakash Desai: Phase 2 Results for HB0025 Plus Chemotherapy in First-Line NSCLC - Oncodaily",
-    "text": "Aakash Desai: Phase 2 Results for HB0025 Plus Chemotherapy in First-Line NSCLC Oncodaily",
-    "author_name": "Oncodaily",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T19:13:46+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory trial results"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Phase 2 NSCLC trial readout for HB0025 with chemotherapy"
-    }
-  },
-  {
     "id": "x:2120047053199802619",
     "source": "x",
     "url": "https://x.com/ThoraxBMJ/status/2120047053199802619",
@@ -1277,6 +1151,132 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Ivonescimab FDA vote mention, but explainer-style framing with thin detail"
+    }
+  },
+  {
+    "id": "x:2120967367316451669",
+    "source": "x",
+    "url": "https://x.com/atscommunity/status/2120967367316451669",
+    "title": "",
+    "text": "The ATS is on a mission to take race out of pulmonary function testing, encouraging the use of GLI global reference equations for more accurate results. \n\nLearn more: https://t.co/PK0VewJtpr https://t.co/q4srxP9dOR",
+    "author_name": "American Thoracic Society (ATS)",
+    "author_handle": "atscommunity",
+    "author_url": "https://x.com/atscommunity",
+    "author_headline": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
+    "published_at": "2026-11-12T19:50:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120967367316451669",
+      "query_kind": "voices",
+      "links": [
+        "https://vist.ly/5sjnm",
+        "https://x.com/atscommunity/status/2120967367316451669/video/1"
+      ],
+      "author_followers": 42212,
+      "author_id": "50076632"
+    },
+    "collected_at": "2026-11-12T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ATS campaign to drop race adjustment from PFT reference equations"
+    }
+  },
+  {
+    "id": "x:2120938734518522283",
+    "source": "x",
+    "url": "https://x.com/atscommunity/status/2120938734518522283",
+    "title": "",
+    "text": "On World Pneumonia Day, Nov. 12, 2026, @FIRS_LungsFirst, of which the American Thoracic Society is a founding member, is calling for greater access to the vaccines, diagnostic tools and treatments that can prevent pneumonia and save lives. \n\nLearn more: https://t.co/2DkYyOOrip https://t.co/o9ap0ZClNC",
+    "author_name": "American Thoracic Society (ATS)",
+    "author_handle": "atscommunity",
+    "author_url": "https://x.com/atscommunity",
+    "author_headline": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
+    "published_at": "2026-11-12T17:56:14+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120938734518522283",
+      "query_kind": "voices",
+      "links": [
+        "https://site.thoracic.org/press-releases/a-new-era-in-pneumonia-prevention-must-reach-those-most-at-risk",
+        "https://x.com/atscommunity/status/2120938734518522283/photo/1"
+      ],
+      "author_followers": 42212,
+      "author_id": "50076632"
+    },
+    "collected_at": "2026-11-12T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "FIRS calls for pneumonia vaccine and diagnostic access on World Pneumonia Day"
+    }
+  },
+  {
+    "id": "rss:0c5fd13f9945c7e6",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRWdLZU5XTzhNZVVPbWkzNjdpWU1VdW5xdW90eTQyYTBHWjg5dm41N1FCTFBJenlCVFBxUnJpVjE2WXo5WUtUSXpJYjJqWUk0azRIOGYwaTJpR1N5Z1VMTFBhanVYM3M5ZjBCaGVWTFkyU0VGWXRFTk1DMHJlel8yMk9n?oc=5",
+    "title": "Looking Beyond the Lungs in COPD Care, With Gerard Criner, MD",
+    "text": "Looking Beyond the Lungs in COPD Care, With Gerard Criner, MD HCPLive",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T19:14:26+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-12T20:07:19+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Expert interview with Gerard Criner on extrapulmonary COPD care"
+    }
+  },
+  {
+    "id": "rss:8ced546da4fcb62f",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlY4YWZkRldKLUZzVS00VGoyUW54UHJGTkJBQnlCbzZ5cy1xSGRGeGJWT2NSbXJVQWNFYk15QlowTkExRWFhaGlHc1hRb3RFZnRxRmZJNmUzRk5WRlExRTcwb29Za2hlSnNiN1hOVnZFcWNCbGlTRzlmNVFxMUxJenJseHBtZXpJVWQ1aHFLTDljVDVRczNKNGJ3eXJyWmpHT0RWdDVFNFpueFk?oc=5",
+    "title": "Pharmacology Update 2026: New Approvals for PsA, SLE, and Pulmonary Fibrosis",
+    "text": "Pharmacology Update 2026: New Approvals for PsA, SLE, and Pulmonary Fibrosis Rheumatology Advisor",
+    "author_name": "Rheumatology Advisor",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-11T05:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory trial results"
+    },
+    "collected_at": "2026-11-12T20:07:19+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Approvals roundup including pulmonary fibrosis; multi-indication, less focused"
     }
   }
 ]
