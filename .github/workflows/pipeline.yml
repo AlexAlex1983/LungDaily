@@ -39,6 +39,8 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # latest state, not the commit at queue time (queued runs otherwise conflict)
 
       - uses: actions/setup-python@v5
         with:
