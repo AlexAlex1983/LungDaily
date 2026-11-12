@@ -1,67 +1,5 @@
 [
   {
-    "id": "rss:7975aec432024ff3",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOXY0cXRPUEFHcjRvc2dndE1ib2tTRlM2bEZudEtPSnpET3J3b05IS042WVFnRm96NVpYbUZLTHpHZ0g5aHh0aXhRbTFfTTJiWTFKTVpoLVJYR3VUY254dTkzdEV6SXRQUDFBUTdZazNnTk5tV2xrR1MtNmxrbzlkOFgtZVVEVW9IYzZfbGhnVG1DRzVWc0dYZXItQjI3RG9Fd0NFOGotUUVXS1JpTGE0VzhieGEtTVl1bnk1TnNIaEdxYlpxZnNz?oc=5",
-    "title": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug By Investing.com - Investing.com South Africa",
-    "text": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug By Investing.com Investing.com South Africa",
-    "author_name": "Investing.com South Africa",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T14:40:57+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory trial results"
-    },
-    "collected_at": "2026-11-09T17:07:18+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Company update on FDA alignment for phase 2 lung cancer dose"
-    }
-  },
-  {
-    "id": "x:2119860071819522196",
-    "source": "x",
-    "url": "https://x.com/accpchest/status/2119860071819522196",
-    "title": "",
-    "text": "A CHEST Research Letter evaluated the geographic distribution of recruitment centers and the inclusiveness of eligibility criteria in phase III/IV trials of single-inhaler triple therapy and biologic treatments for COPD to assess how generalizable and equitable these recent trials are.\n\nRead the article in the November issue of the journal CHEST®: https://t.co/fkkgn49W86\n#MedEd #JournalCHEST #COPD #HealthEquity",
-    "author_name": "CHEST",
-    "author_handle": "accpchest",
-    "author_url": "https://x.com/accpchest",
-    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "published_at": "2026-11-09T18:30:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2119860071819522196",
-      "query_kind": "voices",
-      "links": [
-        "https://x.com/accpchest/status/2119860071819522196/photo/1"
-      ],
-      "author_followers": 47385,
-      "author_id": "34827666"
-    },
-    "collected_at": "2026-11-09T20:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "CHEST research letter on equity and generalisability of COPD trials"
-    }
-  },
-  {
     "id": "x:2119845017355247991",
     "source": "x",
     "url": "https://x.com/accpchest/status/2119845017355247991",
@@ -1065,6 +1003,280 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Reports mepolizumab steroid-sparing effect in COPD trial"
+    }
+  },
+  {
+    "id": "x:2120924794853957665",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2120924794853957665",
+    "title": "",
+    "text": "Breathe: Phage therapy for drug-resistant nontuberculous mycobacterial pulmonary disease represents a promising approach, yet its clinical application remains experimental with heterogeneous outcomes and a need for standardised, controlled clinical trials https://t.co/j2WugSGnBF",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-12T17:00:50+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120924794853957665",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4yVprYh"
+      ],
+      "author_followers": 33468,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS Breathe review on phage therapy for NTM disease; substantive expert view"
+    }
+  },
+  {
+    "id": "x:2120920117034807755",
+    "source": "x",
+    "url": "https://x.com/AllergyEaaci/status/2120920117034807755",
+    "title": "",
+    "text": "#Allergic #rhinitis and #chronic #rhinosinusitis are common, frequently coexisting upper airway inflammatory diseases linked by shared type 2 immune mechanisms. However, broad variations in sensitisation patterns and treatment response obscure optimal surgical and pharmacological dosing. Advancing care relies on integrating prospective real-world data, non-invasive biomarkers, and personalized treatment.\n\nIn this issue, Lundberg and van Waterschoot et al. review surgical options for refractory non-allergic rhinitis in an EAACI Task Force position paper, from inferior turbinate reduction to posterior nasal nerve ablation. Sousa-Pinto et al. use a dose-response network meta-analysis to show that doubling the dose of intranasal medications outperforms adding oral antihistamines in allergic rhinitis, whereas adding intranasal corticosteroids to oral antihistamines outperforms doubling the antihistamine dose. Sola-Martínez and Zubiaga-Fernandez et al. report that exhaled decane and nonadecane may serve as non-invasive biomarkers distinguishing allergic from non-allergic individuals among patients with chronic rhinitis. Cardoso et al. show in a randomised, placebo-controlled trial that eight week supplementation with a heat-treated Bifidobacterium longum CECT 7347 postbiotic significantly reduced combined symptom and medication scores in adults with allergic rhinitis. Campion et al. show that out-of-season high-dose nasal birch pollen challenge raises allergen-specific IgE and effector cell sensitivity, while later attenuating the seasonal amplification of allergic responses in birch pollen-allergic adults. Leily et al. demonstrate that in the Isle of Wight birth cohort persistent Alternaria sensitisation from childhood to adulthood correlates with persistent asthma and, more strongly, rhinitis. Virkkula et al. report in a randomised controlled trial that full and limited endoscopic sinus surgery both improve quality of life in chronic rhinosinusitis with nasal polyps, without a significant difference between the two approaches at 24 months. Bärhold et al. show that simultaneous dual type 2 biologic therapy improves sinonasal outcomes in selected patients with severe uncontrolled chronic rhinosinusitis with nasal polyps and type 2 comorbidities. Dramburg and Hernandez Toro et al. use prospective e-Diary data from the @IT.2020 project to classify seasonal allergic rhinitis into mild, moderate, and severe clusters, revealing substantial recall bias in the retrospective ARIA classification. Sousa-Pinto et al. use MASK-air app data to show that both as-needed and regular medication use in the pollen season can achieve good symptom control and treatment satisfaction in allergic rhinitis. Hasegawa et al. link complement activation to fibrin deposition through complement-eosinophil crosstalk in eosinophilic chronic rhinosinusitis. Bousquet et al. discuss the need to assess on-demand versus continuous treatment in allergic rhinitis in the ARIA-EAACI guidelines. Han et al. report that increased cell adhesion molecule 5 expression in nasal polyps is associated with plasma cell infiltration.\n\nhttps://t.co/WsHBrsUyhR",
+    "author_name": "Allergy EAACI",
+    "author_handle": "AllergyEaaci",
+    "author_url": "https://x.com/AllergyEaaci",
+    "author_headline": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
+    "published_at": "2026-11-12T16:42:15+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120920117034807755",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/AllergyEaaci/status/2120920117034807755/photo/1"
+      ],
+      "author_followers": 6059,
+      "author_id": "1006875688903888896"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Journal issue highlights EAACI position paper and dose-response network meta-analysis"
+    }
+  },
+  {
+    "id": "x:2120913236694569318",
+    "source": "x",
+    "url": "https://x.com/GALA_Health/status/2120913236694569318",
+    "title": "",
+    "text": "Cities are built by planners, not clinicians — yet urban design determines lung health outcomes at population scale. Zoning, transit investment, and industrial siting are respiratory health policy. It's time ministries of health said so explicitly.",
+    "author_name": "GALA Health",
+    "author_handle": "GALA_Health",
+    "author_url": "https://x.com/GALA_Health",
+    "author_headline": "Global Alliance for Lungs, Air and Health",
+    "published_at": "2026-11-12T16:14:54+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120913236694569318",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 54,
+      "author_id": "2017275908537655296"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "GALA policy view that urban planning is respiratory health policy"
+    }
+  },
+  {
+    "id": "x:2120912221030990320",
+    "source": "x",
+    "url": "https://x.com/rutgershealth/status/2120912221030990320",
+    "title": "",
+    "text": "A Rutgers-led consortium has been awarded a $6.5 million NCI grant to support next-generation tools to guide tobacco control policies, improve lung cancer screening, strengthen survivorship care &amp; support state-level cancer prevention planning.\nhttps://t.co/cX4baMpSJF",
+    "author_name": "Rutgers Health",
+    "author_handle": "rutgershealth",
+    "author_url": "https://x.com/rutgershealth",
+    "author_headline": "Under the umbrella of Rutgers Health, university schools, institutes, and clinics collaborate to improve human health.",
+    "published_at": "2026-11-12T16:10:52+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2120912221030990320",
+      "query_kind": "keywords",
+      "links": [
+        "https://go.rutgers.edu/6hxxofb4"
+      ],
+      "author_followers": 2951,
+      "author_id": "441835630"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Rutgers-led $6.5M NCI grant for tobacco and lung screening tools"
+    }
+  },
+  {
+    "id": "rss:4c8950f23411e2c6",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWlVjOWNTc2F4UVRRSVl2RmRoNVFqRTZBTDNsUTRkVjZ2aDVoMW4wZzRnSWR1dGhDM1ZfUXIzeVJLUHpqRWp3X0dSei1aUmRpd2FlR2ZienBRODJvQWlXTUNxeFJDQTdVNWtVTW5zMWEwQXpXOV91a1ItaWJwcE9ORC1EOTVMdTZ3YTVsSHh4OGVQNG9BYm1rVGZlNG9wX1F0MW5FdE1YMHFST0tVYlVyMVRORENlVDhJc0VFekR1WE1iTTRaanRQVC1pMG4wcGtiWUJJZ05wR05LWXZ1?oc=5",
+    "title": "Insurance Denials, Delays Limit Pediatric Asthma Biologics",
+    "text": "Insurance Denials, Delays Limit Pediatric Asthma Biologics Respiratory Therapy",
+    "author_name": "Respiratory Therapy",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T15:03:28+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Study-based report on insurance barriers limiting pediatric asthma biologics"
+    }
+  },
+  {
+    "id": "rss:8ed2ab3a4589d6fd",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2Q3X3kxMEEyM0lxNVBqRnd6QUFqS2d0bkU5enprRHR5V1VCQ0Z1bDBkOElnTmhpbzZXY3RnV0lSTWRWSldjUDZDX0dkRWJTR2JVbXQ5RHpaMlQzRG44VUswNnVha0xjNm5FNHJtamVQQTBKX3JsdXJzb2QwTnBsZENzOVlPcEFpYkZJNERTc1lPRk54?oc=5",
+    "title": "Wildfire Smoke During Pregnancy Linked to Asthma in Young Children",
+    "text": "Wildfire Smoke During Pregnancy Linked to Asthma in Young Children American College of Allergy Asthma and Immunology",
+    "author_name": "American College of Allergy Asthma and Immunology",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T17:02:12+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Society-reported study linking prenatal wildfire smoke to childhood asthma"
+    }
+  },
+  {
+    "id": "rss:acdb10d6981c333d",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzB0Z3ZxdUFpYXNrWGVFY3dITmx5MklqZG9NR2VSVndENF93OFBnWV9xZjRER1BqWklJamJwSEx2azc1NUYxU1dWT2t6ekw2eTZhQnJQY3ZURGNCN0VjUXBCZFUxaXRJRm5NandLaUp5czA1YW9aV0RLaDN5VVpjTmZUUHJFeUNGTG1jN0ZnR3ZRLWtHRktyYmd6UW02VnNWdlBRTTdzakpFNllhekhtTWJMVEVsdDlrekRF?oc=5",
+    "title": "Biologic drug for eosinophilic esophagitis lowers childhood asthma risk",
+    "text": "Biologic drug for eosinophilic esophagitis lowers childhood asthma risk News-Medical",
+    "author_name": "News-Medical",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T17:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Notable study on eosinophilic esophagitis biologic and childhood asthma risk"
+    }
+  },
+  {
+    "id": "rss:15cedb584d0eaaae",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNEFnUzMxNjdselJxRDJYanpYX3doQXlscmphbzI4c0N1ejUtbHFQVmRtSmg0MDM3eVk5Vi0zSjBDNnRPUDVuaE1MQmdTZ1NRV044ZmE0bko1dGNmeHY2ZGJ1QXVqM04xVlV5anZHZW5xWEs3d3hFYWhGdkFjNXcyQjNFSDdHQVd2ckFWd2laZw?oc=5",
+    "title": "A new era in pneumonia prevention must reach those most at risk",
+    "text": "A new era in pneumonia prevention must reach those most at risk Global Initiative for Asthma - GINA",
+    "author_name": "Global Initiative for Asthma - GINA",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T14:15:05+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "GINA policy view on reaching high-risk groups for pneumonia prevention"
+    }
+  },
+  {
+    "id": "rss:8bd322e17bccf36f",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQa01VRm5WN3N5UmZzMmt1aTY4V2NhTk52anhOcG80ZEk1OVFVWUg0VzduWmZIUnVGNnZEeTlxMnpnczBZcjRxcldHdEtZc3FpSGM2aGlwOWpyTHF0OGVaRWtMUkRBOHhQbHZtZm1EazRUbTNOU3N6MXpvSWRTTmF6eHYwdnYzN01ZcVRHd0ZHWk5EVk9XalhtaUNCZTFXMFdpekMzY1l0YW1lemlJd0tTcndXNG9ScVVyeTduREVRNkJETWZoYkZpd1VCWENId1ctMGhmZE5JQ2xxeGxFYjY0Sg?oc=5",
+    "title": "Lung Cancer Drug Ivonescimab Uses Tumor's Own Growth Signal to Boost Immunity: FDA Votes Saturday",
+    "text": "Lung Cancer Drug Ivonescimab Uses Tumor's Own Growth Signal to Boost Immunity: FDA Votes Saturday Tech Times",
+    "author_name": "Tech Times",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T16:34:15+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    },
+    "collected_at": "2026-11-12T17:07:22+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Ivonescimab FDA vote mention, but explainer-style framing with thin detail"
     }
   }
 ]

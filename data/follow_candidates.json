@@ -10,18 +10,18 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 14,
+    "seen": 16,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47387
+    "followers": 47385
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 7,
+    "seen": 8,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33469
+    "followers": 33468
   },
   "iaslc": {
     "id": "61241883",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 9,
+    "seen": 10,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13821
+    "followers": 13822
   },
   "lungassociation": {
     "id": "17049255",
@@ -50,18 +50,18 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 11,
+    "seen": 12,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42214
+    "followers": 42213
   },
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 11,
+    "seen": 13,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31654
+    "followers": 31652
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -370,7 +370,7 @@
   "allergyeaaci": {
     "id": "1006875688903888896",
     "username": "AllergyEaaci",
-    "seen": 3,
+    "seen": 4,
     "name": "Allergy EAACI",
     "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
     "followers": 6059

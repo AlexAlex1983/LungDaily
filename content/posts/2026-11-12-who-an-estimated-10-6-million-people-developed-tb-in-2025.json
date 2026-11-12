@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-12-who-an-estimated-10-6-million-people-developed-tb-in-2025",
+  "headline": "WHO: an estimated 10.6 million people developed TB in 2025",
+  "dek": "In a post on X, the World Health Organization said TB is preventable and curable but remains one of the world's deadliest infectious killers, with 1.1 million deaths estimated in 2025.",
+  "body": "The World Health Organization (WHO) said in a post on X that tuberculosis (TB) is preventable and curable, yet remains one of the world’s deadliest infectious killers.\n\nAccording to the post, an estimated 10.6 million people developed TB in 2025, and 1.1 million people lost their lives to the disease. WHO presented both figures as estimates.\n\nThe organisation pointed readers to its Global Tuberculosis Report 2026 for more information. The post itself did not give further detail from the report, such as breakdowns by country, region or age group.\n\nThe post was published on 12 November 2026 from WHO's official account. The account describes WHO as the UN’s health agency working for #HealthForAll.",
+  "key_quote": "Yet, it remains one of the world’s deadliest infectious killers.",
+  "tags": [
+    "tb",
+    "who",
+    "global-health"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 9.0,
+  "created_at": "2026-11-12T17:08:24+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120918347206267311",
+    "url": "https://x.com/WHO/status/2120918347206267311"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120918347206267311",
+    "source": "x",
+    "url": "https://x.com/WHO/status/2120918347206267311",
+    "title": "",
+    "author_name": "World Health Organization (WHO)",
+    "author_handle": "WHO",
+    "author_url": "https://x.com/WHO",
+    "published_at": "2026-11-12T16:35:13+00:00",
+    "extra": {
+      "tweet_id": "2120918347206267311",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/WHO/status/2120918347206267311/photo/1"
+      ],
+      "author_followers": 12662662,
+      "author_id": "14499829"
+    }
+  },
+  "status": "ready"
+}

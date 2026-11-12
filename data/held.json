@@ -963,5 +963,86 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-12-fda-issues-not-approvable-letter-to-novocure-for-optune-mya-in-lung-ca",
+    "headline": "FDA issues Not Approvable Letter to NovoCure for Optune Mya in lung-cancer brain metastases",
+    "dek": "NovoCure has received a Not Approvable Letter from the FDA for Optune Mya in lung-cancer brain metastases, according to a Dealroom news item.",
+    "body": "NovoCure has received a Not Approvable Letter from the FDA for Optune Mya in lung-cancer brain metastases, according to a news item published by Dealroom on 10 November 2026.\n\nThe item gives no further detail. It does not state the FDA's reasons for the letter, what the application covered, or whether NovoCure has responded.\n\nThis article will be updated if more information becomes available from the company or the regulator.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 8.0,
+    "created_at": "2026-11-12T17:08:33+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 72 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcXZTcVVVbnZTSmxQRkdJNTlSQkQxMGhWQ0Q3Y3hGY0tnMDlQVDNTdmlIRFpCcXJwYVF6YlVwZFU5bHVITWRqbTdXbHZQSGlUYkR1TFZKMzZ3WG9VMHBRWlNJQjVXNlI2RGF0ZHI2ZW95UXAwcXZpbVNXRUFCdm1zaWlMeDdFQkhFUWZiNEV2dzh6SGxRQ1NYVWNDeHBaX0FzelhuQjI5ZUJpS2R3Zkx2R0luY2lfa3dBMERZbA?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:074f3ef323fd6958",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcXZTcVVVbnZTSmxQRkdJNTlSQkQxMGhWQ0Q3Y3hGY0tnMDlQVDNTdmlIRFpCcXJwYVF6YlVwZFU5bHVITWRqbTdXbHZQSGlUYkR1TFZKMzZ3WG9VMHBRWlNJQjVXNlI2RGF0ZHI2ZW95UXAwcXZpbVNXRUFCdm1zaWlMeDdFQkhFUWZiNEV2dzh6SGxRQ1NYVWNDeHBaX0FzelhuQjI5ZUJpS2R3Zkx2R0luY2lfa3dBMERZbA?oc=5",
+      "title": "NovoCure gets FDA Not Approvable Letter for Optune Mya in lung-cancer brain metastases",
+      "author_name": "Dealroom",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-10T08:00:00+00:00",
+      "extra": {
+        "feed": "Google News — respiratory approvals",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-12-omalizumab-biosimilar-ct-p39-quality-of-life-gains-precede-csu-control",
+    "headline": "Omalizumab biosimilar CT-P39: quality of life gains precede CSU control, HCPLive reports",
+    "dek": "An HCPLive item on the omalizumab biosimilar CT-P39 says quality of life improvements came before control of CSU.",
+    "body": "HCPLive published an item on CT-P39, a biosimilar of omalizumab. Its headline states that quality of life gains precede CSU control.\n\nThe source text provided consists only of this headline. It gives no details on the study design, patient numbers, results, timings, regulatory status or the organisations involved. This article therefore cannot say whether the item concerns a regulatory approval, or report any further findings.",
+    "key_quote": "Quality of Life Gains Precede CSU Control",
+    "tags": [
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 7.0,
+    "created_at": "2026-11-12T17:08:54+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 66 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMmhhU1JveWRaY2tmWWdOWElEbmQ5bmNfaDVhRE55MGlOTVk0VTV5QW1mOFdHcjZsdXkxWk84ZGU5LVItNDJsbWZQY29rbDd5blVNd1FJVEdhMkxqOGJqTmxnTVZHTUhwMllVU3RpZU1jaGhUbm92eFpxS21Wb0tVc1VhSE5BQVlnQktacUc3SGtELTdZ?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:3e3a24b80f85f99e",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMmhhU1JveWRaY2tmWWdOWElEbmQ5bmNfaDVhRE55MGlOTVk0VTV5QW1mOFdHcjZsdXkxWk84ZGU5LVItNDJsbWZQY29rbDd5blVNd1FJVEdhMkxqOGJqTmxnTVZHTUhwMllVU3RpZU1jaGhUbm92eFpxS21Wb0tVc1VhSE5BQVlnQktacUc3SGtELTdZ?oc=5",
+      "title": "Omalizumab Biosimilar CT-P39: Quality of Life Gains Precede CSU Control",
+      "author_name": "HCPLive",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-12T16:00:14+00:00",
+      "extra": {
+        "feed": "Google News — asthma",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
