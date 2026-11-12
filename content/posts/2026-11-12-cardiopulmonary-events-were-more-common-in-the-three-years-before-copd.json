@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-11-cardiopulmonary-events-were-more-common-in-the-three-years-before-copd",
+  "slug": "2026-11-12-cardiopulmonary-events-were-more-common-in-the-three-years-before-copd",
   "headline": "Cardiopulmonary events were more common in the three years before COPD diagnosis, study finds",
   "dek": "Prof Chris P Gale reported that 56.6% of 70,034 people with new COPD had a cardiopulmonary event in the three years before diagnosis, versus 20.9% of controls.",
   "body": "A study using CPRD data has found a high burden of cardiovascular and respiratory events in the years before a diagnosis of COPD, according to a post on X by Prof Chris P Gale.\n\nGale, who describes himself as Professor of Cardiovascular Medicine and an Honorary Consultant Cardiologist, wrote that the work \"clearly shows\" this burden. He said that 56.6% of 70,034 people with new COPD had a cardiopulmonary event in the three years before diagnosis. The figure for controls was 20.9%. He reported an odds ratio of 4.9.\n\nThe post used the hashtag #ABACOSRISK and tagged the @dovepress account. It linked to further information but did not name a journal, and it gave no other detail on study design, definitions of cardiopulmonary events or how controls were selected.\n\nThe figures come from Gale's summary on social media rather than from the full paper.",
@@ -45,5 +45,9 @@
       "author_id": "760436883734147073"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-12T08:00:14+00:00",
+  "shared": {
+    "x": "2120788921583858151"
+  }
 }
