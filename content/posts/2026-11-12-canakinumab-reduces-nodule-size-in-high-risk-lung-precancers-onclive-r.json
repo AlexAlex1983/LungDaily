@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-12-canakinumab-reduces-nodule-size-in-high-risk-lung-precancers-onclive-r",
+  "headline": "Canakinumab reduces nodule size in high-risk lung precancers, OncLive reports",
+  "dek": "An OncLive item reports that canakinumab reduced nodule size in people with high-risk lung precancers; the source gives no further detail.",
+  "body": "Canakinumab reduces nodule size in high-risk lung precancers, according to a news item published by OncLive on 7 November 2026.\n\nThe item available to LungDaily consists only of this headline. It does not state the study design, the number of participants, the size of the effect, the dosing, or the safety findings. It also does not name the investigators, their institutions, or the journal or meeting where the data appeared.\n\nLungDaily will update this report if the full text of the OncLive article or the underlying study becomes available.",
+  "key_quote": "Canakinumab Reduces Nodule Size in High-Risk Lung Precancers",
+  "tags": [
+    "lung-cancer",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-12T07:33:53+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYVhyTmx4REUyTUNhRkhNUVRTQmRaWUxsM1ZlUWF1VzlIa2pMMDVfYlJBYmxUN1NuR2ZOcmhNdzJmOGZCby1xZXc4Sl8yS0FSbUM3Ym9aS2JNVnZESjhTVUZXblpLWC1ERnByTXRIMEZ5UUhzTzBBdWJIYkVLc2llZUdnTW1BQUQzRm9SQ0pVVQ?oc=5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:2a4e9b01fd019fb1",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYVhyTmx4REUyTUNhRkhNUVRTQmRaWUxsM1ZlUWF1VzlIa2pMMDVfYlJBYmxUN1NuR2ZOcmhNdzJmOGZCby1xZXc4Sl8yS0FSbUM3Ym9aS2JNVnZESjhTVUZXblpLWC1ERnByTXRIMEZ5UUhzTzBBdWJIYkVLc2llZUdnTW1BQUQzRm9SQ0pVVQ?oc=5",
+    "title": "Canakinumab Reduces Nodule Size in High-Risk Lung Precancers - OncLive",
+    "author_name": "OncLive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-07T04:01:08+00:00",
+    "extra": {
+      "feed": "Google News — respiratory trial results",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
