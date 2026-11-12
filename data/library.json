@@ -59,7 +59,8 @@
     "2026-11-12-cardiopulmonary-events-were-more-common-in-the-three-years-before-copd": "airways/airways-09.jpg",
     "2026-11-12-amicus-tells-supreme-court-lungs-of-even-children-in-delhi-are-not-pin": "",
     "2026-11-12-trop2-normalized-membrane-ratio-proposed-as-predictor-for-dato-dxd-in": "ctscan/ctscan-02.jpg",
-    "2026-11-12-89-of-124-surveyed-patients-say-doctors-did-not-mention-low-dose-ct-lu": ""
+    "2026-11-12-89-of-124-surveyed-patients-say-doctors-did-not-mention-low-dose-ct-lu": "",
+    "2026-11-12-feno-outperforms-blood-eosinophils-for-diagnosing-suspected-asthma-stu": "asthma/asthma-10.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -104,7 +105,8 @@
     "airways/airways-06.jpg": 40,
     "ctscan/ctscan-11.jpg": 41,
     "airways/airways-09.jpg": 42,
-    "ctscan/ctscan-02.jpg": 43
+    "ctscan/ctscan-02.jpg": 43,
+    "asthma/asthma-10.jpg": 44
   },
-  "counter": 43
+  "counter": 44
 }

@@ -34,5 +34,9 @@
       "feed": "Google News — asthma"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-12T10:30:13+00:00",
+  "shared": {
+    "x": "2120826751014101292"
+  }
 }
