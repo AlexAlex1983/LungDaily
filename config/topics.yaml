@@ -26,9 +26,10 @@ keywords:
 # "lang:en -is:retweet -is:reply". Keep under ~470 characters.
 people_query: >-
   ("elected president" OR "named president" OR "new president" OR "president-elect" OR appointed
-  OR "editor-in-chief" OR "lifetime achievement" OR "award winner" OR awarded OR honoured OR honored
-  OR "in memoriam" OR "passed away") (respiratory OR pulmonary OR pulmonology OR pulmonologist
-  OR thoracic OR COPD OR asthma OR "lung health" OR "lung cancer" OR tuberculosis)
+  OR "editor-in-chief" OR congratulations OR awarded OR "award winner" OR honoured OR honored
+  OR "lifetime achievement") ("thoracic society" OR "respiratory society" OR "lung association"
+  OR "lung foundation" OR pulmonology OR pulmonologist OR "respiratory medicine" OR "respiratory physician"
+  OR "chest physician" OR ERSCongress OR ATS2027)
 
 pubmed_query: >-
   ("pulmonary disease, chronic obstructive"[MeSH] OR COPD[tiab] OR asthma[tiab]
@@ -57,9 +58,5 @@ rss_feeds:
   # --- People ---
   - name: "Google News — respiratory appointments"
     url: "https://news.google.com/rss/search?q=(appointed+OR+%22named+president%22+OR+%22elected+president%22+OR+%22new+CEO%22+OR+%22editor-in-chief%22)+(respiratory+OR+thoracic+OR+pulmonology+OR+%22lung+foundation%22+OR+%22lung+association%22)+when:7d&hl=en&gl=US&ceid=US:en"
-  - name: "Bing News — respiratory appointments"
-    url: "https://www.bing.com/news/search?q=(appointed+OR+%22named+president%22+OR+%22elected+president%22+OR+%22president-elect%22+OR+%22new+CEO%22+OR+%22editor-in-chief%22)+(respiratory+OR+thoracic+OR+pulmonology+OR+%22lung+association%22+OR+%22lung+foundation%22+OR+%22lung+cancer%22)&format=rss&qft=sortbydate%3d%221%22"
-  - name: "Bing News — respiratory awards and obituaries"
-    url: "https://www.bing.com/news/search?q=(award+OR+honoured+OR+honored+OR+obituary+OR+%22lifetime+achievement%22)+(pulmonologist+OR+%22respiratory+physician%22+OR+%22thoracic+society%22+OR+%22lung+researcher%22+OR+%22respiratory+society%22)&format=rss&qft=sortbydate%3d%221%22"
   - name: "Google News — respiratory awards"
     url: "https://news.google.com/rss/search?q=(award+OR+honoured+OR+honored+OR+obituary)+(pulmonologist+OR+%22respiratory+physician%22+OR+%22thoracic+society%22+OR+%22lung+researcher%22)+when:7d&hl=en&gl=US&ceid=US:en"
