@@ -1,33 +1,5 @@
 [
   {
-    "id": "rss:b021d77a429fe3b9",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeTByZVFJWENxMnFpV0dzcDBscV9ibHB2cFBKcWExYkd0dWdFd3hRMG1Ubmw3eVdNTl9iaS15WkJ1NmVHUmN3Ynh4XzN2MWtyQUpvbU4wNkhMTWtMNk0tYUMwR3pjREYwWmpRWjliVFR4Y0tXOFMzZ2daZ1JqeV80TFNTYW5zMnpGbFZvUWh5TnZFRmZEQUtYQ1Q3RzlscHE5MXo4YmxvSDQ2QU1fZVRfX3V1VEhfNVBCTS02TlpRQ29GQdIBxwFBVV95cUxNYXpna1NPMUlkMC1WUFhnZVNGNHBPSGN4cmtRc0RwQmhwSkctUE91akUyVE55Q29EX2VQZDF0eExHVFVOOWtscmdsdjA0T3VJY2pwenpueThWVC1ic3htRFRhUXFWSVZWYzNvMkFMdE50a2Iwek5mSmNfWDV5T1c3YUJ3Uktnc2J6MmJCcnY5VlZDZ2gyMmdSQ1NDeUU1ZGR6Y1RCODJqTXJyTDFDdC1qNFg5NkZsVllsUXpkMXFMcDhZbFYwblMw?oc=5",
-    "title": "FeNO Outperforms Blood Eosinophils for Diagnosing Suspected Asthma: Study - Medical Dialogues",
-    "text": "FeNO Outperforms Blood Eosinophils for Diagnosing Suspected Asthma: Study Medical Dialogues",
-    "author_name": "Medical Dialogues",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T02:15:14+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-09T09:13:17+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Notable study comparing FeNO and blood eosinophils for asthma diagnosis."
-    }
-  },
-  {
     "id": "rss:2a4e9b01fd019fb1",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYVhyTmx4REUyTUNhRkhNUVRTQmRaWUxsM1ZlUWF1VzlIa2pMMDVfYlJBYmxUN1NuR2ZOcmhNdzJmOGZCby1xZXc4Sl8yS0FSbUM3Ym9aS2JNVnZESjhTVUZXblpLWC1ERnByTXRIMEZ5UUhzTzBBdWJIYkVLc2llZUdnTW1BQUQzRm9SQ0pVVQ?oc=5",
@@ -1027,6 +999,95 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Notable study linking early-life air pollution to teen lung function"
+    }
+  },
+  {
+    "id": "pubmed:43014669",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43014669/",
+    "title": "Associations between temperatures, extreme temperature events, and onset of acute exacerbations of COPD: a time-stratified case-crossover study in China.",
+    "text": "BACKGROUND: Non-optimal temperatures and extreme temperature events may trigger acute exacerbations of COPD (AECOPD), but most evidence is admission based, potentially misclassifying exposure timing and obscuring susceptible groups. RESEARCH QUESTION: Are non-optimal temperature and extreme temperature events associated with AECOPD onset, and which patients are most susceptible? STUDY DESIGN AND METHODS: We used the Acute Exacerbation of Chronic Obstructive Pulmonary Disease Registry (ACURE) data and assigned residential temperature exposure using ERA5-Land, a reanalysis dataset of European Centre for Medium-Range Weather Forecasts. Cold spells (CS) were defined as consecutive days below location-specific low-temperature thresholds, and compound cold spells (CCS) as concurrent daytime and nighttime cold spells. Associations with reported symptom onset were estimated using a time-stratified case-crossover design, conditional logistic regression with distributed lag nonlinear models. Subgroup and cytokine analyses assessed susceptibility and inflammation. RESULTS: Among 5,634 patients with AECOPD (mean age, 69.4 ± 9.5 years; 78.8% male), lower temperature was associated with higher odds of AECOPD onset, whereas higher temperature was not. The strongest associations occurred for CS lasting ≥3 days and CCS lasting ≥2 days over lag 0-3 days, with ORs of 1.84 (95% CI, 1.22-2.78) and 4.31 (95% CI, 2.07-8.97), respectively. Nearly half had delayed admission within 14 days. Using admission rather than onset dates attenuated estimates by 88.8% for CS and 84.8% for CCS. Associations were stronger among older adults, men, smokers, patients with severe AECOPD in the past year or previously diagnosed COPD, and those using combination inhaler in the preceding year. CS were also associated with higher TNF-α, IL-6, and CXCL-11 concentrations. INTERPRETATION: Lower temperature and extreme cold events, particularly CCS, were associated with AECOPD onset. Symptom-onset timing may better capture temperature-related associations than admission timing. These findings highlight the need for targeted cold-weather prevention strategies to reduce AECOPD burden. TRIAL REGISTRY: ClinicalTrials.gov; NO.: NCT02657525.",
+    "author_name": "Changyun Zhang, Hailu Zhu, Zhaoyang Pan et al.",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-11T00:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.10.047",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Changyun Zhang"
+    },
+    "collected_at": "2026-11-12T05:07:18+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Chest case-crossover study linking temperature extremes to COPD exacerbations"
+    }
+  },
+  {
+    "id": "rss:0f3932c9685960fa",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFRxY0IwWVVEZ1o0YmFlX0JhR0poVDJTR1NkdWt3c1laSi1iNmJCZ0JfZmM5OV9nSVJKZmVyNzJpSXZJRlRBVTM4ZmUzQzJYMW9TTk9tV2RIWW5HSE84M1hwUURoMjdCeWNlLWZyZk9ZMnZqbXNWVkgwa1kxalVzdmNGUWN0UQ?oc=5",
+    "title": "Simple ‘pre-COPD score’ predicts incident COPD - the limbic",
+    "text": "Simple ‘pre-COPD score’ predicts incident COPD the limbic",
+    "author_name": "the limbic",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T02:42:22+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-12T05:07:18+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "The Limbic reports simple pre-COPD score predicting incident COPD"
+    }
+  },
+  {
+    "id": "rss:9ba27450b24ae732",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTjc5TzFTUGQ1SDVUYnNaZGRnVHFLZXBOSG1sZW9SUWR4Y05NeGxaX1BsN0FBdjZsUURpUE53Sk9kUGhrTkJad1dKajRGbVRZd3M5TEhndVo0ZURPYUk1VnhoVW9uMTh4RHllS2p2NE12eXpEbjluV1RERDhXZ1ZfdzFqTVN0OWdZcUNpWnNZT01Wbk1uQ1U1Q1FqVU5kN0VjaUJ5MDg2YmVObF9HanJSekZkSUszU1lSVFNTcGtkaWRRMEFySkxpWVZPR1YwZW12YkxlMdIB3AFBVV95cUxOd09mZWtZY1dzc0tBRGs1amxJVVhXUFB6NlNUUGt0VWxvc1ZEZkxVanIycGl5VXp5V015VUdUWGJKTE9iSDR3ajBtaHU2dEx3ckp2UEN0VkhBSHNvOWkwNnNSU1FBQWVlMzlyWGE3MDhVWFJST3BLb3NXMllWYnA0Unk0b2ljU010czBJR1JKNThIYmtKTXU1N3cwSkNtNnVCc1VqSEZqcy1iUzFUbVI2VEhnZ2stdU1wd0RodHlmS2x3WWpEMFpuSWJjNEpLcmFKdXBfRFJNdGNONFRu?oc=5",
+    "title": "Air Pollution Is As Big A Public Health Emergency As COVID: Former WHO Chief - NDTV",
+    "text": "Air Pollution Is As Big A Public Health Emergency As COVID: Former WHO Chief NDTV",
+    "author_name": "NDTV",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-11T08:20:02+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — air pollution health"
+    },
+    "collected_at": "2026-11-12T05:07:18+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Former WHO chief's view on air pollution as health emergency"
     }
   }
 ]

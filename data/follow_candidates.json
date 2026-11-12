@@ -26,10 +26,10 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 6,
+    "seen": 7,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
-    "followers": 21301
+    "followers": 21306
   },
   "europeanlung": {
     "id": "121759520",
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 7,
+    "seen": 8,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42213
+    "followers": 42214
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 4,
+    "seen": 5,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30859
+    "followers": 30872
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -462,5 +462,13 @@
     "name": "Pulmonary Cell News",
     "bio": "An online resource for pulmonary, respiratory disease, and lung cancer researchers. Part of the @STEMCELLTech Science News service.",
     "followers": 2255
+  },
+  "ginasthma": {
+    "id": "266637566",
+    "username": "ginasthma",
+    "seen": 1,
+    "name": "Global Initiative for Asthma (GINA)",
+    "bio": "A nonprofit working to reduce the burden of #asthma worldwide through publications such as evidence-based guidelines and events such as #WorldAsthmaDay.",
+    "followers": 8435
   }
 }
