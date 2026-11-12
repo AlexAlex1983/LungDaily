@@ -703,45 +703,5 @@
       }
     },
     "status": "held"
-  },
-  {
-    "slug": "2026-11-11-guam-tb-official-appointed-to-national-advisory-council",
-    "headline": "Guam TB official appointed to national advisory council",
-    "dek": "The Guam Daily Post reported that an official working on tuberculosis in Guam has been appointed to a national advisory council.",
-    "body": "A tuberculosis (TB) official in Guam has been appointed to a national advisory council, according to a report by The Guam Daily Post published on 6 November 2026.\n\nThe text available for this article consists only of the headline. It does not name the official, identify the council, or give the date or terms of the appointment.\n\nFurther details were not available in the source material at the time of writing.",
-    "key_quote": "",
-    "tags": [
-      "tb",
-      "policy"
-    ],
-    "people": [],
-    "category": "people",
-    "score": 6.0,
-    "created_at": "2026-11-11T20:08:41+00:00",
-    "checker": {
-      "pass": false,
-      "issues": [
-        "body length 71 words outside limits"
-      ]
-    },
-    "embed": {
-      "type": "link",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT3BkSWNDQS00VXp3eG9qazJreVZpeFhTVmVwY3UzYW53TFY2cUFZa2ozV0xJY2N3WUVpNU5PVnBHYk9oYUhES2NNWXdSVFEtdXVoREhOLW5fWWgyZHRIRGNPQnVtWVh4Rk5odHdxQ09mREpDSmxad3ZtOHpGTE9ab1pzVkQtUDBLVmxUaDRySTJPV3RyUU8zczZPVlZwVnhiTzktWlNHYUNCc3dJSlI5eE9qVnF2eDVCb2dPOWJsSnFUYzJaTHZKNmVPbjR4QS1McTcxS3cxcWY?oc=5"
-    },
-    "mentions": [],
-    "source": {
-      "id": "rss:2aa8cee2607f254e",
-      "source": "rss",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT3BkSWNDQS00VXp3eG9qazJreVZpeFhTVmVwY3UzYW53TFY2cUFZa2ozV0xJY2N3WUVpNU5PVnBHYk9oYUhES2NNWXdSVFEtdXVoREhOLW5fWWgyZHRIRGNPQnVtWVh4Rk5odHdxQ09mREpDSmxad3ZtOHpGTE9ab1pzVkQtUDBLVmxUaDRySTJPV3RyUU8zczZPVlZwVnhiTzktWlNHYUNCc3dJSlI5eE9qVnF2eDVCb2dPOWJsSnFUYzJaTHZKNmVPbjR4QS1McTcxS3cxcWY?oc=5",
-      "title": "Guam TB official appointed to national advisory council - The Guam Daily Post",
-      "author_name": "The Guam Daily Post",
-      "author_handle": "",
-      "author_url": "",
-      "published_at": "2026-11-06T05:12:00+00:00",
-      "extra": {
-        "feed": "Google News — respiratory appointments"
-      }
-    },
-    "status": "held"
   }
 ]
