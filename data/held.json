@@ -1086,5 +1086,56 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-13-abhishek-tandon-polluted-air-weakens-lung-defences-and-raises-pneumoni",
+    "headline": "Abhishek Tandon: Polluted air weakens lung defences and raises pneumonia risk",
+    "dek": "The Medanta Lucknow respiratory consultant said on X that air pollution increases susceptibility to pneumonia and can worsen disease severity in those already infected.",
+    "body": "Abhishek Tandon, a consultant in respiratory and sleep medicine at Medanta Lucknow, said he spoke with The Times of India about the link between air pollution and pneumonia on World Pneumonia Day. He announced the interview in a post on X.\n\nTandon wrote that polluted air compromises lung defences, increasing susceptibility to pneumonia. He added that in people who are already infected, air pollution can worsen inflammation and increase disease severity.\n\nThe post included a link to the interview.",
+    "key_quote": "Polluted air compromises lung defences, increasing susceptibility to pneumonia.",
+    "tags": [
+      "air-pollution",
+      "global-health"
+    ],
+    "people": [
+      "Abhishek Tandon"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-13T08:08:06+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 79 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2121127196010172590",
+      "url": "https://x.com/drtandon07/status/2121127196010172590"
+    },
+    "mentions": [
+      "timesofindia"
+    ],
+    "source": {
+      "id": "x:2121127196010172590",
+      "source": "x",
+      "url": "https://x.com/drtandon07/status/2121127196010172590",
+      "title": "",
+      "author_name": "Abhishek Tandon",
+      "author_handle": "drtandon07",
+      "author_url": "https://x.com/drtandon07",
+      "published_at": "2026-11-13T06:25:06+00:00",
+      "extra": {
+        "tweet_id": "2121127196010172590",
+        "query_kind": "keywords",
+        "links": [
+          "https://x.com/drtandon07/status/2121127196010172590/photo/1"
+        ],
+        "author_followers": 3345,
+        "author_id": "50958547"
+      }
+    },
+    "status": "held"
   }
 ]

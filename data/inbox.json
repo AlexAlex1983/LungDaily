@@ -1,36 +1,37 @@
 [
   {
-    "id": "x:2120047053199802619",
+    "id": "x:2121107959434674411",
     "source": "x",
-    "url": "https://x.com/ThoraxBMJ/status/2120047053199802619",
+    "url": "https://x.com/HCPLiveNews/status/2121107959434674411",
     "title": "",
-    "text": "Editorial: Is it time to re-evaluate the levels of evidence in medical research: commentary on inhaled corticosteroids in COPD.\nhttps://t.co/B72wjZnw5M",
-    "author_name": "ThoraxBMJ",
-    "author_handle": "ThoraxBMJ",
-    "author_url": "https://x.com/ThoraxBMJ",
-    "author_headline": "Publishing top research to support the #respiratory & #criticalcare community. Companion #OpenAccess journal, @BMJOpen_Resp. Published with @BTSrespiratory",
-    "published_at": "2026-11-10T06:53:00+00:00",
+    "text": "Mucus plugs, multimorbidity, and the 2027 GOLD Report: what is Gerard Criner, MD, watching most closely in #COPD care?\n\nView: https://t.co/coAMalXgup https://t.co/umtkNnaobg",
+    "author_name": "HCPLive",
+    "author_handle": "HCPLiveNews",
+    "author_url": "https://x.com/HCPLiveNews",
+    "author_headline": "Everything you need to enhance your clinical approach to improving patient care.",
+    "published_at": "2026-11-13T05:08:40+00:00",
     "metrics": {
-      "likes": 0,
+      "likes": 2,
       "reposts": 0,
       "comments": 0
     },
     "extra": {
-      "tweet_id": "2120047053199802619",
+      "tweet_id": "2121107959434674411",
       "query_kind": "keywords",
       "links": [
-        "https://thorax.bmj.com/content/81/11/1043?utm_campaign=Usage&utm_content=1794293580&utm_id=BMJ215&utm_medium=social&utm_source=twitter"
+        "https://www.hcplive.com/view/q-a-mucus-plugging-multimorbidity-gold-2027-gerard-criner-md",
+        "https://x.com/HCPLiveNews/status/2121107959434674411/video/1"
       ],
-      "author_followers": 22171,
-      "author_id": "141173210"
+      "author_followers": 7561,
+      "author_id": "19255955"
     },
-    "collected_at": "2026-11-10T08:07:21+00:00",
+    "collected_at": "2026-11-13T08:07:18+00:00",
     "triage": {
       "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
+      "category": "voices",
+      "author_type": "media",
       "duplicate": false,
-      "reason": "Journal editorial questioning evidence levels for inhaled corticosteroids in COPD"
+      "reason": "Expert perspective from Gerard Criner on COPD priorities and GOLD 2027."
     }
   },
   {

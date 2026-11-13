@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-13-charles-swanton-receives-bob-pinedo-award-for-lifetime-contribution-to",
+  "headline": "Charles Swanton receives Bob Pinedo award for lifetime contribution to lung cancer research",
+  "dek": "Louise O. Fresco said Swanton was honoured at the Royal Netherlands Academy of Arts and Sciences for work on tumour development, treatment resistance and air pollution.",
+  "body": "Charles Swanton received the Bob Pinedo award for his lifetime contribution to lung cancer research, according to a post on X by Louise O. Fresco.\n\nFresco wrote that the award was presented at the KNAW Royal Academy of Sciences. She described his work as including a Darwinian approach to how tumours develop and become resistant to treatment, as well as the role of air pollution.\n\nThe post does not give further details of the ceremony, the citation or the award criteria.\n\nFresco's X profile describes her as a former President of Wageningen University & Research and chair of the supervisory board of the Dutch National Opera & Ballet.",
+  "key_quote": "received the Bob Pinedo reward for his lifetime contribution to lung cancer research",
+  "tags": [
+    "lung-cancer",
+    "air-pollution"
+  ],
+  "people": [
+    "Charles Swanton",
+    "Louise O. Fresco",
+    "Bob Pinedo"
+  ],
+  "category": "people",
+  "score": 7.0,
+  "created_at": "2026-11-13T08:07:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121146208768905666",
+    "url": "https://x.com/LouiseOFresco/status/2121146208768905666"
+  },
+  "mentions": [
+    "_knaw"
+  ],
+  "source": {
+    "id": "x:2121146208768905666",
+    "source": "x",
+    "url": "https://x.com/LouiseOFresco/status/2121146208768905666",
+    "title": "",
+    "author_name": "Louise O. Fresco",
+    "author_handle": "LouiseOFresco",
+    "author_url": "https://x.com/LouiseOFresco",
+    "published_at": "2026-11-13T07:40:39+00:00",
+    "extra": {
+      "tweet_id": "2121146208768905666",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/LouiseOFresco/status/2121146208768905666/photo/1"
+      ],
+      "author_followers": 18312,
+      "author_id": "1688254968"
+    }
+  },
+  "status": "ready"
+}
