@@ -1,40 +1,5 @@
 [
   {
-    "id": "x:2121107959434674411",
-    "source": "x",
-    "url": "https://x.com/HCPLiveNews/status/2121107959434674411",
-    "title": "",
-    "text": "Mucus plugs, multimorbidity, and the 2027 GOLD Report: what is Gerard Criner, MD, watching most closely in #COPD care?\n\nView: https://t.co/coAMalXgup https://t.co/umtkNnaobg",
-    "author_name": "HCPLive",
-    "author_handle": "HCPLiveNews",
-    "author_url": "https://x.com/HCPLiveNews",
-    "author_headline": "Everything you need to enhance your clinical approach to improving patient care.",
-    "published_at": "2026-11-13T05:08:40+00:00",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2121107959434674411",
-      "query_kind": "keywords",
-      "links": [
-        "https://www.hcplive.com/view/q-a-mucus-plugging-multimorbidity-gold-2027-gerard-criner-md",
-        "https://x.com/HCPLiveNews/status/2121107959434674411/video/1"
-      ],
-      "author_followers": 7561,
-      "author_id": "19255955"
-    },
-    "collected_at": "2026-11-13T08:07:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Expert perspective from Gerard Criner on COPD priorities and GOLD 2027."
-    }
-  },
-  {
     "id": "x:2120094179048968391",
     "source": "x",
     "url": "https://x.com/pai_eaaci/status/2120094179048968391",
@@ -1278,6 +1243,34 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Approvals roundup including pulmonary fibrosis; multi-indication, less focused"
+    }
+  },
+  {
+    "id": "rss:691506ae4c0d1899",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNHkzOUludkFLR0ZBLXRjRkVmU20tMHhscTdrV1lUSVZEbWhOdXF1UmF4TEloUUQ0MDhtaUg0NnJILWF1MlllUl9sSlJWS29tVUpiQzNqUnQ1ajFlblJyMnFWbllBS2QzendESldTeW5leEU5R1N3X0FyUHJ2TXBXYV9n?oc=5",
+    "title": "Effectiveness of extrafine single-inhaler triple therapy (efSITT) on asthma control one year post treatment stratified by patients’ smoking status: the TRIANGLE study | European Respiratory Society",
+    "text": "Effectiveness of extrafine single-inhaler triple therapy (efSITT) on asthma control one year post treatment stratified by patients’ smoking status: the TRIANGLE study | European Respiratory Society ERS - European Respiratory Society",
+    "author_name": "ERS - European Respiratory Society",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-13T01:13:28+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-13T08:40:31+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS-published TRIANGLE study on efSITT asthma control by smoking"
     }
   }
 ]

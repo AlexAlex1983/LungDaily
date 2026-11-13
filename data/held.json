@@ -1137,5 +1137,55 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-13-gerard-criner-hcplive-asks-about-mucus-plugs-multimorbidity-and-the-20",
+    "headline": "Gerard Criner: HCPLive asks about mucus plugs, multimorbidity and the 2027 GOLD Report",
+    "dek": "HCPLive posted on X asking what Gerard Criner, MD, is watching most closely in COPD care, citing mucus plugs, multimorbidity and the 2027 GOLD Report.",
+    "body": "HCPLive, the clinical news outlet, posted on X on 13 November 2026 to ask what Gerard Criner, MD, is watching most closely in COPD care.\n\nThe post named three topics: mucus plugs, multimorbidity and the 2027 GOLD Report. It linked to a video or article for further detail.\n\nThe post itself does not set out Criner's views or answers, and it does not state his role or affiliation.",
+    "key_quote": "",
+    "tags": [
+      "copd",
+      "guidelines"
+    ],
+    "people": [
+      "Gerard Criner"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-13T08:40:50+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 69 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2121107959434674411",
+      "url": "https://x.com/HCPLiveNews/status/2121107959434674411"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2121107959434674411",
+      "source": "x",
+      "url": "https://x.com/HCPLiveNews/status/2121107959434674411",
+      "title": "",
+      "author_name": "HCPLive",
+      "author_handle": "HCPLiveNews",
+      "author_url": "https://x.com/HCPLiveNews",
+      "published_at": "2026-11-13T05:08:40+00:00",
+      "extra": {
+        "tweet_id": "2121107959434674411",
+        "query_kind": "keywords",
+        "links": [
+          "https://www.hcplive.com/view/q-a-mucus-plugging-multimorbidity-gold-2027-gerard-criner-md",
+          "https://x.com/HCPLiveNews/status/2121107959434674411/video/1"
+        ],
+        "author_followers": 7561,
+        "author_id": "19255955"
+      }
+    },
+    "status": "held"
   }
 ]
