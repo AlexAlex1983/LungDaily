@@ -70,11 +70,6 @@
   </section>
 
   {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span>{% endfor %}</p>{% endif %}
-  <aside class="howmade">
-    <h2>How this article was made</h2>
-    <p>{{ site.name }} reports on public posts, papers and news from the lung health community. This article is based on the source linked above and was produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a>. Facts and quotes are checked against the original before publication.</p>
-    <p>Featured here, or spotted an error? <a href="{{ root }}opt-out/">Request a correction or removal</a>.</p>
-  </aside>
 </article>
 
 {% if latest %}
@@ -114,4 +109,5 @@
   <div class="row three">{{ cardrow(more) }}</div>
 </section>
 {% endif %}
+<p class="howmade">{{ site.name }} reports on public posts, papers and news from the lung health community. This article is based on the source linked above and was produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a>; facts and quotes are checked against the original before publication. Featured here, or spotted an error? <a href="{{ root }}opt-out/">Request a correction or removal</a>.</p>
 {% endblock %}

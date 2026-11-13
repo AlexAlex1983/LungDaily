@@ -119,15 +119,13 @@ a.thumb:hover img{transform:scale(1.03)}
 .pull{margin:4px 0 28px;padding:4px 0 4px 22px;border-left:3px solid var(--c,var(--brand));font:italic 1.35rem/1.45 var(--serif)}
 .pull cite{display:block;font:normal .85rem var(--sans);color:var(--muted);margin-top:8px}
 .source{margin:34px 0 20px;padding-top:20px;border-top:1px solid var(--line)}
-.source h2,.howmade h2{font:700 .75rem var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 10px}
+.source h2{font:700 .75rem var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 10px}
 .sourcecard{display:block;border:1px solid var(--line);border-left:3px solid var(--c,var(--brand));border-radius:6px;padding:14px 16px;text-decoration:none;background:var(--tint);font-family:var(--serif)}
 .sourcecard:hover{border-color:var(--line-2)}
 .sourcecard span{display:block;color:var(--muted);font:.8rem var(--sans);word-break:break-all;margin-top:4px}
 .tags span{display:inline-block;background:var(--tint);border-radius:999px;padding:3px 11px;margin:0 6px 6px 0;font-size:.78rem;color:var(--brand-dark)}
-.howmade{background:var(--tint);border-radius:6px;padding:18px 20px;margin:24px 0 0;font-size:.9rem;color:var(--ink-2)}
-.howmade p{margin:0 0 8px}
-.howmade p:last-child{margin:0}
-.howmade a{color:var(--brand-dark)}
+.howmade{max-width:760px;margin:40px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:.78rem;line-height:1.55;color:var(--muted)}
+.howmade a{color:inherit}
 .page{max-width:760px;margin:0 auto;border-top:3px solid var(--ink);padding-top:16px}
 .page h1{font:700 2.6rem/1.12 var(--serif);margin:6px 0 18px}
 .page p,.page li{font:1.12rem/1.65 var(--serif);color:#1a2f36}
