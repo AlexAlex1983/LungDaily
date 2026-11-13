@@ -1238,5 +1238,47 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-13-black-diamond-therapeutics-plans-pivotal-lung-cancer-trial",
+    "headline": "Black Diamond Therapeutics plans pivotal lung-cancer trial",
+    "dek": "Mugglehead Investment Magazine reports that Black Diamond Therapeutics is planning a pivotal trial in lung cancer.",
+    "body": "Black Diamond Therapeutics plans to run a pivotal trial in lung cancer, according to a news item published by Mugglehead Investment Magazine on 10 November 2026.\n\nThe item available to LungDaily gives only the headline. It does not state the drug candidate, the lung-cancer subtype, the trial design, the number of patients, the timing or any regulatory status.\n\nThis article will be updated if further details are confirmed by the company or the original report.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 6.0,
+    "created_at": "2026-11-13T14:08:23+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 76 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdldVZVlyallWWHJZbUs2Qm05YUhRYjR6a3J3cm1mU3lDZnVFaGJ2X1VMWFNldXNYdERjRmoxSUcyb2pQYnJ3a21lVHpwVW1ON205dW80aDN0TnRzRnRoMGNSOTFwZ3FEVjVMc2JLaEYyZmYwcVBGSVVLSFNfUTRJS3Y0UURsUGdFd3VCdA?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:68b021596bcb3855",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdldVZVlyallWWHJZbUs2Qm05YUhRYjR6a3J3cm1mU3lDZnVFaGJ2X1VMWFNldXNYdERjRmoxSUcyb2pQYnJ3a21lVHpwVW1ON205dW80aDN0TnRzRnRoMGNSOTFwZ3FEVjVMc2JLaEYyZmYwcVBGSVVLSFNfUTRJS3Y0UURsUGdFd3VCdA?oc=5",
+      "title": "Black Diamond Therapeutics plans pivotal lung-cancer trial - Mugglehead Investment Magazine",
+      "author_name": "Mugglehead Investment Magazine",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-10T13:03:35+00:00",
+      "extra": {
+        "feed": "Google News — respiratory approvals",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

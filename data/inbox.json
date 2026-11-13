@@ -1,61 +1,5 @@
 [
   {
-    "id": "rss:68b021596bcb3855",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdldVZVlyallWWHJZbUs2Qm05YUhRYjR6a3J3cm1mU3lDZnVFaGJ2X1VMWFNldXNYdERjRmoxSUcyb2pQYnJ3a21lVHpwVW1ON205dW80aDN0TnRzRnRoMGNSOTFwZ3FEVjVMc2JLaEYyZmYwcVBGSVVLSFNfUTRJS3Y0UURsUGdFd3VCdA?oc=5",
-    "title": "Black Diamond Therapeutics plans pivotal lung-cancer trial - Mugglehead Investment Magazine",
-    "text": "Black Diamond Therapeutics plans pivotal lung-cancer trial Mugglehead Investment Magazine",
-    "author_name": "Mugglehead Investment Magazine",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-10T13:03:35+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory approvals"
-    },
-    "collected_at": "2026-11-10T14:07:19+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Plans for pivotal lung cancer trial; investment-focused coverage."
-    }
-  },
-  {
-    "id": "rss:06553b552bbdc0d3",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXRVTmFIc3RpQUR6aEVwTkFnMG90dWNEY2lzZ2xudjlEc1hhblVDUmxsekUwQkNjTGJUSUhaTS1rdzZWN0xWZ0VYNWZBSWJqUTM4ODhtbUxZR2cxZFZsMlBBVk1QUjFzSTJVak5DWkZjRE5LYmgxc2ZMMk92WW81dmNqNnN3MEhGZzB4TGpiaVJYeDBVcnhTUVpBdFdxRUJabHhtTHoxZjZ3bEJtUVFWSzFhYVdhQ2p4aDJ2ZVVn?oc=5",
-    "title": "FDA feedback supports a planned trial and possible early approval for Black Diamond's lung cancer drug. - Stock Titan",
-    "text": "FDA feedback supports a planned trial and possible early approval for Black Diamond's lung cancer drug. Stock Titan",
-    "author_name": "Stock Titan",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-10T11:30:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory trial results"
-    },
-    "collected_at": "2026-11-10T14:07:19+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "FDA feedback supports planned lung cancer trial, possible early approval."
-    }
-  },
-  {
     "id": "x:2120164836545831077",
     "source": "x",
     "url": "https://x.com/EuroRespSoc/status/2120164836545831077",
@@ -1233,6 +1177,68 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Substantive study on lung screening gaps for people with HIV"
+    }
+  },
+  {
+    "id": "x:2121227876993290272",
+    "source": "x",
+    "url": "https://x.com/ATS_AII/status/2121227876993290272",
+    "title": "",
+    "text": "Which flu vaccine are your older patients with asthma or COPD getting? In pooled data from two randomized trials at ERS 2026, high-dose vaccine led to fewer flu and pneumonia hospitalizations than standard dose in adults 65+ with lung disease. #AII\n\nhttps://t.co/CtwPcc4vFz",
+    "author_name": "ATS AII",
+    "author_handle": "ATS_AII",
+    "author_url": "https://x.com/ATS_AII",
+    "author_headline": "Welcome to the American Thoracic Society's AII Assembly Twitter feed. Tweets by @asquental\n🦋 https://t.co/T5IiMBPhSn",
+    "published_at": "2026-11-13T13:05:11+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2121227876993290272",
+      "query_kind": "keywords",
+      "links": [
+        "https://www.ersnet.org/news-and-features/news/high-dose-flu-vaccine-beneficial-for-older-people-with-lung-disease/"
+      ],
+      "author_followers": 2478,
+      "author_id": "1954658088"
+    },
+    "collected_at": "2026-11-13T14:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS 2026 pooled trials: high-dose flu vaccine in lung disease"
+    }
+  },
+  {
+    "id": "rss:438c1a8d89124599",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMkJBbExzc2p5S2lkRkNLbWhHQUhVUFVsTC1hVjFVWE1jUDZnczRVVnlqc3JDOUJUaXBFV3FrQk1WRlBhTi1VZ0ZaMkhISzBmOEZlb2pwX3hEcXhSYlpEYXFQMTQxZTltalp2YlJwR3UwaHFjN3lMRlBhRUVtX2FMQllGdHZvYUtpQkFmeTRvTVZobmxTLW8xbGxhSVdtY3h5ZGM0a2ZhOXhLdTJDV0ZWZUF4TE1qOS1qS2NLUlZiZDZWcFhSTjZBYTU2Z2VOXzVUa3ZIaFQ5ZnE4YzhOUFdtM1VvNnUwYXNyY1E?oc=5",
+    "title": "A little-known immune cell could explain why some small cell lung cancer patients respond to immunotherapy",
+    "text": "A little-known immune cell could explain why some small cell lung cancer patients respond to immunotherapy Managed Healthcare Executive",
+    "author_name": "Managed Healthcare Executive",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-10T23:14:44+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    },
+    "collected_at": "2026-11-13T14:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Notable study on immune cell linked to small cell lung cancer immunotherapy response"
     }
   }
 ]

@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 7,
+    "seen": 8,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 17,
+    "seen": 18,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47387
+    "followers": 47399
   },
   "erspublications": {
     "id": "424241621",
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 13,
+    "seen": 14,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13823
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 13,
+    "seen": 15,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31652
+    "followers": 31653
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 7,
+    "seen": 8,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30872
+    "followers": 30875
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -202,7 +202,7 @@
   "ats_aii": {
     "id": "1954658088",
     "username": "ATS_AII",
-    "seen": 2,
+    "seen": 3,
     "name": "ATS AII",
     "bio": "Welcome to the American Thoracic Society's AII Assembly Twitter feed. Tweets by @asquental\n🦋 https://t.co/T5IiMBPhSn",
     "followers": 2478
@@ -346,7 +346,7 @@
   "copdcanada": {
     "id": "497225379",
     "username": "COPDCanada",
-    "seen": 2,
+    "seen": 3,
     "name": "COPD Canada",
     "bio": "COPD Canada is a national non-profit patient advocacy association providing educational information and up-to-date medical news for people living with COPD.",
     "followers": 1361
@@ -418,10 +418,10 @@
   "aller_md": {
     "id": "23184067",
     "username": "Aller_MD",
-    "seen": 2,
+    "seen": 3,
     "name": "Juan C Ivancevich MD",
     "bio": "Allergist - Twittering on #allergy, #asthma & #immunology. Associate Professor of Immunology , del Salvador University, WAO website social media editor",
-    "followers": 7512
+    "followers": 7513
   },
   "annalsallergy": {
     "id": "951536484003311618",
@@ -598,5 +598,29 @@
     "name": "Saudi COPD Group",
     "bio": "المجموعة السعودية لمرض الانسداد الرئوي المزمن ( الجمعية السعودية لطب وجراحة الصدر )\nمجموعة تعنى بكل مايخص المرضى والمجتمع والممارسين الصحيين المهتمين بالمرض",
     "followers": 374
+  },
+  "rtalsinger1": {
+    "id": "3713110696",
+    "username": "rtalsinger1",
+    "seen": 1,
+    "name": "R Tal-Singer Lung Health Researcher & Advocate 🫁",
+    "bio": "A Scientific leader, innovator & expert in the Respiratory field. Driver of pre-competitive patient-focused international partnerships and collaborations.",
+    "followers": 322
+  },
+  "pfwarrior": {
+    "id": "3290399154",
+    "username": "PFWarrior",
+    "seen": 1,
+    "name": "Pulmonary Fibrosis Warrior",
+    "bio": "PF Warriors is a global support network that provides education, inspiration, and hope to individuals and families affected by pulmonary fibrosis.",
+    "followers": 2643
+  },
+  "interasma": {
+    "id": "147594153",
+    "username": "Interasma",
+    "seen": 1,
+    "name": "Interasma",
+    "bio": "Interasma is the Global Asthma Association focused on all aspects of asthma which bridges the gap between academia and the world of clinical practice.",
+    "followers": 2454
   }
 }
