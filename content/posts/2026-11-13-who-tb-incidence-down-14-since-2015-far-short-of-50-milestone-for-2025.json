@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-12-who-tb-incidence-down-14-since-2015-far-short-of-50-milestone-for-2025",
+  "slug": "2026-11-13-who-tb-incidence-down-14-since-2015-far-short-of-50-milestone-for-2025",
   "headline": "WHO: TB incidence down 14% since 2015, far short of 50% milestone for 2025",
   "dek": "The World Health Organization said progress against tuberculosis is being made but is far too slow, with deaths falling faster than incidence.",
   "body": "The World Health Organization (WHO) said on X that progress in tackling tuberculosis (TB) is \"far too slow\".\n\nAccording to the post, the TB incidence rate has fallen by just 14% since 2015. WHO described this as far short of the 50% reduction milestone set for 2025.\n\nThe post said TB deaths have fallen by 35% over the same period. WHO stated that this reached the first mortality milestone in the End TB Strategy, five years late.\n\nWHO added that ending TB is possible, citing political will, domestic investment and research as the factors needed to drive progress. The post included a link to further information.",
@@ -43,5 +43,9 @@
       "author_id": "14499829"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-13T09:30:14+00:00",
+  "shared": {
+    "x": "2121174080170639858"
+  }
 }
