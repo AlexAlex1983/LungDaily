@@ -84,7 +84,8 @@
     "2026-11-13-lung-cancer-detection-rates-in-general-population-screening-registry-c": "ctscan/ctscan-03.jpg",
     "2026-11-13-study-pairs-machine-learning-with-explainability-to-examine-early-pred": "asthma/asthma-11.jpg",
     "2026-11-13-ers-opens-online-registration-for-european-parliament-respiratory-heal": "globe/globe-02.jpg",
-    "2026-11-13-fda-feedback-supports-planned-trial-and-possible-early-approval-for-bl": "pharma/pharma-12.jpg"
+    "2026-11-13-fda-feedback-supports-planned-trial-and-possible-early-approval-for-bl": "pharma/pharma-12.jpg",
+    "2026-11-13-ronald-g-crystal-honoured-with-the-weill-award": "events/events-02.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -147,7 +148,8 @@
     "ctscan/ctscan-03.jpg": 58,
     "asthma/asthma-11.jpg": 59,
     "globe/globe-02.jpg": 60,
-    "pharma/pharma-12.jpg": 61
+    "pharma/pharma-12.jpg": 61,
+    "events/events-02.jpg": 62
   },
-  "counter": 61
+  "counter": 62
 }
