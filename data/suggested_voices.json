@@ -25,5 +25,14 @@
     "followers": 211,
     "example": "https://x.com/uk_decoded/status/2119777428385988808",
     "last_seen": "2026-11-09T14:08:12+00:00"
+  },
+  "emjreviews": {
+    "handle": "EMJReviews",
+    "name": "European Medical Journal",
+    "bio": "EMJ: #1 open access destination for HCPs. Peer-reviewed journals & diverse content hub. Interviews, podcasts, webinars, infographics.",
+    "hits": 1,
+    "followers": 11347,
+    "example": "https://x.com/EMJReviews/status/2121166286407266690",
+    "last_seen": "2026-11-13T11:07:46+00:00"
   }
 }

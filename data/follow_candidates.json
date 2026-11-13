@@ -26,7 +26,7 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 9,
+    "seen": 10,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
     "followers": 21306
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 12,
+    "seen": 13,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13823
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 6,
+    "seen": 7,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30870
+    "followers": 30872
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -162,10 +162,10 @@
   "asthmalunguk": {
     "id": "20982609",
     "username": "asthmalunguk",
-    "seen": 3,
+    "seen": 5,
     "name": "Asthma + Lung UK",
     "bio": "We fight for everyone’s right to breath. From research, campaigning, advice + support. For queries about your lung condition please call our helpline.",
-    "followers": 52257
+    "followers": 52255
   },
   "tmmrespiratory": {
     "id": "2853906195",
@@ -574,5 +574,29 @@
     "name": "Abhishek Tandon",
     "bio": "MD. DM. FCCP. FIAB. FAGE\nConsultant - Respiratory and Sleep Medicine at Medanta Lucknow|| Alum - AIIMS Jodhpur, SGPGI, PGIMS Rohtak, KMC Mangalore. \n#MedTwitter",
     "followers": 3345
+  },
+  "jtoonline": {
+    "id": "188832334",
+    "username": "JTOonline",
+    "seen": 1,
+    "name": "JTO & JTO CRR",
+    "bio": "JTO & JTO CRR are the official journals of @IASLC & the source for information on detection, prevention, diagnosis & treatment of thoracic cancers. https://t.co/NE8oQDHwUx",
+    "followers": 5428
+  },
+  "emjrespiratory": {
+    "id": "2265044430",
+    "username": "EMJRespiratory",
+    "seen": 1,
+    "name": "EMJ Respiratory",
+    "bio": "EMJ: #1 open access destination for HCPs. Peer-reviewed journals & diverse content hub. Interviews, podcasts, webinars, infographics.",
+    "followers": 8761
+  },
+  "saudicopd": {
+    "id": "1492606116810969088",
+    "username": "SaudiCopd",
+    "seen": 1,
+    "name": "Saudi COPD Group",
+    "bio": "المجموعة السعودية لمرض الانسداد الرئوي المزمن ( الجمعية السعودية لطب وجراحة الصدر )\nمجموعة تعنى بكل مايخص المرضى والمجتمع والممارسين الصحيين المهتمين بالمرض",
+    "followers": 374
   }
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-13-il-33-blockade-cut-copd-exacerbations-by-29-34-in-two-phase-iii-trials",
+  "headline": "IL-33 blockade cut COPD exacerbations by 29-34% in two Phase III trials, EMJ reports",
+  "dek": "A European Medical Journal post says blocking IL-33 lowered moderate-to-severe COPD flare rates versus placebo over 52 weeks in 1,750 patients on inhaled maintenance therapy.",
+  "body": "The European Medical Journal (EMJ) said in a post on X that blocking IL-33 reduced exacerbations of chronic obstructive pulmonary disease (COPD) by up to a third in two Phase III trials.\n\nAccording to the post, the trials included 1,750 patients who were already receiving inhaled maintenance therapy. Rates of moderate-to-severe exacerbations fell by 29-34% over 52 weeks, compared with placebo.\n\nThe post, published on 13 November 2026, linked to the full findings. It did not name the treatment tested, the trial sponsors or the journal in which the results appeared. It also did not refer to any regulatory submission or approval, so no regulatory status can be reported from this source.\n\nFurther detail on the trial design, safety and individual trial results was not included in the post.",
+  "key_quote": "Blocking IL-33 cut COPD exacerbations by up to a third in two Phase III trials.",
+  "tags": [
+    "copd",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-13T11:07:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121166286407266690",
+    "url": "https://x.com/EMJReviews/status/2121166286407266690"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121166286407266690",
+    "source": "x",
+    "url": "https://x.com/EMJReviews/status/2121166286407266690",
+    "title": "",
+    "author_name": "European Medical Journal",
+    "author_handle": "EMJReviews",
+    "author_url": "https://x.com/EMJReviews",
+    "published_at": "2026-11-13T09:00:26+00:00",
+    "extra": {
+      "tweet_id": "2121166286407266690",
+      "query_kind": "keywords",
+      "links": [
+        "https://hubs.la/Q04DWVW80",
+        "https://x.com/EMJReviews/status/2121166286407266690/photo/1"
+      ],
+      "author_followers": 11347,
+      "author_id": "365626248"
+    }
+  },
+  "status": "ready"
+}

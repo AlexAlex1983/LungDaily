@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-13-lung-cancer-detection-rates-in-general-population-screening-registry-c",
+  "headline": "Lung cancer detection rates in general-population screening registry comparable to NLST, study finds",
+  "dek": "Miller et al. compared cancer detection rates in a general population lung cancer screening registry with those in the NLST and found them comparable, JTO said.",
+  "body": "A study by Miller et al. has found that cancer detection rates in a general population lung cancer screening registry were comparable to those in the National Lung Screening Trial (NLST), according to a post on X from the Journal of Thoracic Oncology (JTO) and JTO Clinical and Research Reports (JTO CRR).\n\nThe post said the authors sought to compare detection rates between the registry and the NLST. It described the findings as comparable but did not give figures, sample sizes or study methods.\n\nThe post also noted the policy context for low-dose CT (LDCT) screening. It said LDCT lung cancer screening has been an approved covered benefit for adults aged 55-77 years under the Centers for Medicare and Medicaid Services since 2015.\n\nThe post linked to the full article. JTO and JTO CRR describe themselves as the official journals of the International Association for the Study of Lung Cancer (IASLC).",
+  "key_quote": "Miller et al. sought to compare the cancer detection rates in a general population #lungcancer screening registry to the #NLST, which they found were comparable.",
+  "tags": [
+    "lung-cancer",
+    "screening",
+    "policy"
+  ],
+  "people": [
+    "Miller"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-13T11:09:33+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121172519306588168",
+    "url": "https://x.com/JTOonline/status/2121172519306588168"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121172519306588168",
+    "source": "x",
+    "url": "https://x.com/JTOonline/status/2121172519306588168",
+    "title": "",
+    "author_name": "JTO & JTO CRR",
+    "author_handle": "JTOonline",
+    "author_url": "https://x.com/JTOonline",
+    "published_at": "2026-11-13T09:25:12+00:00",
+    "extra": {
+      "tweet_id": "2121172519306588168",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/JTOonline/status/2121172519306588168/photo/1"
+      ],
+      "author_followers": 5428,
+      "author_id": "188832334"
+    }
+  },
+  "status": "ready"
+}

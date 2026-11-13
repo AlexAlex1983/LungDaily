@@ -1187,5 +1187,56 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-13-pulmonary-fibrosis-trust-to-hold-first-westminster-briefing-hosted-by",
+    "headline": "Pulmonary Fibrosis Trust to hold first Westminster Briefing, hosted by Jim Shannon MP",
+    "dek": "The charity said it will present findings from its patient and carer survey at an event in Parliament, hosted by Jim Shannon MP.",
+    "body": "The Pulmonary Fibrosis Trust (PF Trust) said it will hold its first ever Westminster Briefing in Parliament on 11 November 2026.\n\nIn a post on X on 10 November, the charity said the event will be hosted by Jim Shannon MP. It said it will share findings from its patient and carer survey at the briefing.\n\nAccording to the post, the aim is to ensure that the voices of people affected by pulmonary fibrosis are heard. The post tagged the House of Commons Health and Social Care Committee account (@CommonsHealth) and used the hashtags #PulmonaryFibrosis and #HiddenInPlainSight.\n\nThe post did not give further details of the survey findings, the venue or the programme for the briefing.",
+    "key_quote": "we'll be sharing findings from our patient & carer survey ensuring the voices of people affected by pulmonary fibrosis are heard.",
+    "tags": [
+      "ild",
+      "policy",
+      "equity"
+    ],
+    "people": [
+      "Jim Shannon"
+    ],
+    "category": "events",
+    "score": 7.0,
+    "created_at": "2026-11-13T11:09:53+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "key_quote is not verbatim from source",
+        "The article identifies @CommonsHealth as the 'House of Commons Health and Social Care Committee account'. The source only shows the handle '@CommonsHealth' and never names the committee, so this identification is not supported by the source."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2120128842308157739",
+      "url": "https://x.com/PFTrust/status/2120128842308157739"
+    },
+    "mentions": [
+      "CommonsHealth"
+    ],
+    "source": {
+      "id": "x:2120128842308157739",
+      "source": "x",
+      "url": "https://x.com/PFTrust/status/2120128842308157739",
+      "title": "",
+      "author_name": "PF Trust",
+      "author_handle": "PFTrust",
+      "author_url": "https://x.com/PFTrust",
+      "published_at": "2026-11-10T12:18:00+00:00",
+      "extra": {
+        "tweet_id": "2120128842308157739",
+        "query_kind": "keywords",
+        "links": [],
+        "author_followers": 2196,
+        "author_id": "1488883112"
+      }
+    },
+    "status": "held"
   }
 ]

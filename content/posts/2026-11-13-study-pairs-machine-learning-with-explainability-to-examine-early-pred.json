@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-13-study-pairs-machine-learning-with-explainability-to-examine-early-pred",
+  "headline": "Study pairs machine learning with explainability to examine early predictors of persistent childhood asthma",
+  "dek": "A new paper in Pediatric Allergy and Immunology uses post-hoc explainability alongside machine learning to investigate early predictors of persistent childhood asthma and allergic rhinitis.",
+  "body": "A new study in Pediatric Allergy and Immunology (PAI) uses post-hoc explainability alongside machine learning to investigate early predictors of persistent childhood asthma and allergic rhinitis. The journal announced the work in a post on X on 10 November 2026.\n\nThe journal framed the study around a question of interpretability. It wrote that machine learning can help identify patterns, but asked whether it is possible to understand what drives its predictions. \"Prediction is useful. Understanding the prediction matters too,\" the post said.\n\nPAI described the study as \"an interesting step toward more interpretable applications of AI in pediatric allergy research\". That is the journal's own characterisation of the work.\n\nThe post did not give details of the study's design, data, participants or results, and it linked to the full article. Those details are not covered here.",
+  "key_quote": "Machine learning can help identify #patterns, but can we understand what drives its predictions?",
+  "tags": [
+    "asthma",
+    "ai",
+    "paediatrics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-13T11:09:46+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120094179048968391",
+    "url": "https://x.com/pai_eaaci/status/2120094179048968391"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120094179048968391",
+    "source": "x",
+    "url": "https://x.com/pai_eaaci/status/2120094179048968391",
+    "title": "",
+    "author_name": "PAI",
+    "author_handle": "pai_eaaci",
+    "author_url": "https://x.com/pai_eaaci",
+    "published_at": "2026-11-10T10:00:16+00:00",
+    "extra": {
+      "tweet_id": "2120094179048968391",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/pai_eaaci/status/2120094179048968391/photo/1"
+      ],
+      "author_followers": 1838,
+      "author_id": "1496771826571255808"
+    }
+  },
+  "status": "ready"
+}

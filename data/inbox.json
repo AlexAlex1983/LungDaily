@@ -1,71 +1,5 @@
 [
   {
-    "id": "x:2120094179048968391",
-    "source": "x",
-    "url": "https://x.com/pai_eaaci/status/2120094179048968391",
-    "title": "",
-    "text": "Prediction is useful. Understanding the prediction matters too. 🧠\n\nMachine learning can help identify #patterns, but can we understand what drives its predictions?\nA new study in #PAI_journal uses post-hoc explainability alongside machine learning to investigate early predictors of persistent childhood #asthma and allergic #rhinitis.\n\n🔎 An interesting step toward more interpretable applications of AI in pediatric #allergy research.\n\nGlance at this 🔗 https://t.co/8OJyqhqUOE\n.\n#ExplainableAI #MachineLearning #ChildhoodAsthma #AllergicRhinitis #posthocexplainability #PAI_journal #Earlypredictors #clinicalaspects #earlyintervention #riskfactors",
-    "author_name": "PAI",
-    "author_handle": "pai_eaaci",
-    "author_url": "https://x.com/pai_eaaci",
-    "author_headline": "PAI - #Pediatric Allergy and #Immunology - is the world's leading #journal in pediatric #allergy. Edited by Sophia Tsabouri & Adnan Custovic.",
-    "published_at": "2026-11-10T10:00:16+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2120094179048968391",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/pai_eaaci/status/2120094179048968391/photo/1"
-      ],
-      "author_followers": 1838,
-      "author_id": "1496771826571255808"
-    },
-    "collected_at": "2026-11-10T11:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "New journal study on explainable ML predicting childhood asthma"
-    }
-  },
-  {
-    "id": "x:2120128842308157739",
-    "source": "x",
-    "url": "https://x.com/PFTrust/status/2120128842308157739",
-    "title": "",
-    "text": "Tomorrow, we have our first ever Westminster Briefing in Parliament.\nHosted by Jim Shannon MP, we'll be sharing findings from our patient &amp; carer survey ensuring the voices of people affected by pulmonary fibrosis are heard. \n@CommonsHealth\n#PulmonaryFibrosis #HiddenInPlainSight",
-    "author_name": "PF Trust",
-    "author_handle": "PFTrust",
-    "author_url": "https://x.com/PFTrust",
-    "author_headline": "The aim of the Pulmonary Fibrosis Trust is to provide personal support to people affected by Pulmonary Fibrosis, a very debilitating and life-limiting illness.",
-    "published_at": "2026-11-10T12:18:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2120128842308157739",
-      "query_kind": "keywords",
-      "links": [],
-      "author_followers": 2196,
-      "author_id": "1488883112"
-    },
-    "collected_at": "2026-11-10T14:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "events",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Patient survey findings presented at Parliament briefing on pulmonary fibrosis"
-    }
-  },
-  {
     "id": "rss:68b021596bcb3855",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdldVZVlyallWWHJZbUs2Qm05YUhRYjR6a3J3cm1mU3lDZnVFaGJ2X1VMWFNldXNYdERjRmoxSUcyb2pQYnJ3a21lVHpwVW1ON205dW80aDN0TnRzRnRoMGNSOTFwZ3FEVjVMc2JLaEYyZmYwcVBGSVVLSFNfUTRJS3Y0UURsUGdFd3VCdA?oc=5",
@@ -1271,6 +1205,34 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "ERS-published TRIANGLE study on efSITT asthma control by smoking"
+    }
+  },
+  {
+    "id": "rss:d981da4a42c5367f",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQkhIbWJXa0hXNWhsMERVNmhpdFRTNGxQWUhRT19OT3AtUTUzR1pIb1M3UlQzZ0xBb1lXLWxTUzlVSWRxeWpUcGJSVmE1VWpOUW0xOTlRZGFOLWlHVTd6Xzh0UVRMVklUc0ZPUnh6djFTU0szYVFFVTdidEktTk82ak9HN19iR3BkQUFKd0dQX1NMenhvWTJHT2c4bw?oc=5",
+    "title": "Lung Cancer Screening Lags for People With HIV as Eligibility Triples",
+    "text": "Lung Cancer Screening Lags for People With HIV as Eligibility Triples The American Journal of Managed Care",
+    "author_name": "The American Journal of Managed Care",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-12T17:57:46+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — lung cancer screening"
+    },
+    "collected_at": "2026-11-13T11:07:17+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Substantive study on lung screening gaps for people with HIV"
     }
   }
 ]
