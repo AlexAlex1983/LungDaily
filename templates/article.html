@@ -25,6 +25,16 @@
   <a class="kicker" href="{{ root }}{{ post.category }}/">{{ post.category_label }}</a>
   <h1>{{ post.headline }}</h1>
   <p class="dek">{{ post.dek }}</p>
+  <div class="byline">
+    <p class="meta">By {{ site.name }} · <time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time> · {{ post.read_min }} min read<br>
+      Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
+    {% set url = base ~ "/news/" ~ post.slug ~ "/" %}
+    <p class="share" aria-label="Share">
+      <a href="https://x.com/intent/post?text={{ post.headline|urlencode }}&url={{ url|urlencode }}{% if site.x_handle %}&via={{ site.x_handle }}{% endif %}" target="_blank" rel="noopener">Share on X</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ url|urlencode }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="{{ url }}" data-copy="{{ url }}">Copy link</a>
+    </p>
+  </div>
   {% set x_embed = post.embed and post.embed.type == "x" and post.embed.url %}
   {% if post.has_picture %}
   <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png?v={{ build_id }}" alt="" width="1200" height="630">
@@ -40,8 +50,6 @@
   {% else %}
   <img class="hero" src="{{ root }}thumbs/{{ post.slug }}.png?v={{ build_id }}" alt="" width="1200" height="630">
   {% endif %}
-  <p class="meta"><time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time>
-    · Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
 
   {% if post.key_quote %}<blockquote class="pull">“{{ post.key_quote }}”{% if post.source.author_name %}<cite>— {{ post.source.author_name }}</cite>{% endif %}</blockquote>{% endif %}
 
@@ -68,12 +76,30 @@
   </section>
 
   {% if post.tags %}<p class="tags">{% for t in post.tags %}<span>#{{ t }}</span>{% endfor %}</p>{% endif %}
-  <p class="small note">This article summarises a public source and was drafted with AI assistance, then automatically checked against the source.
-  Featured here and want a correction or removal? <a href="{{ root }}opt-out/">Tell us</a>.</p>
+  <aside class="howmade">
+    <h2>How this article was made</h2>
+    <p>{{ site.name }} reports on public posts, papers and news from the lung health community. This article is based on the source linked above and was produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a>. Facts and quotes are checked against the original before publication.</p>
+    <p>Featured here, or spotted an error? <a href="{{ root }}opt-out/">Request a correction or removal</a>.</p>
+  </aside>
 </article>
+{% if more %}
+<section class="more-in cat-{{ post.category }}">
+  <header class="sect-head"><h2><a href="{{ root }}{{ post.category }}/">More in {{ post.category_label }}</a></h2>
+    <a class="more" href="{{ root }}{{ post.category }}/">See all <span aria-hidden="true">→</span></a></header>
+  <div class="row three">
+  {% for r in more %}
+    <article class="card compact">
+      <a class="thumb" href="{{ root }}news/{{ r.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ r.slug }}.png?v={{ build_id }}" alt="" loading="lazy" width="1200" height="630"></a>
+      <h3><a href="{{ root }}news/{{ r.slug }}/">{{ r.headline }}</a></h3>
+      <p class="meta"><time datetime="{{ r.date|isodate }}" data-rel>{{ r.date|shortdate }}</time></p>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
 {% if related %}
-<aside class="related"><h2>Related</h2><ul>
-{% for r in related %}<li><a href="{{ root }}news/{{ r.slug }}/">{{ r.headline }}</a></li>{% endfor %}
+<aside class="related"><h2>Related stories</h2><ul>
+{% for r in related %}<li><span class="kicker-inline">{{ r.category_label }}</span><a href="{{ root }}news/{{ r.slug }}/">{{ r.headline }}</a></li>{% endfor %}
 </ul></aside>
 {% endif %}
 {% endblock %}

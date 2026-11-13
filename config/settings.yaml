@@ -8,6 +8,7 @@ site:
   language: "en"
   contact_email: "editor@lungdaily.org"
   x_handle: "LungDaily"                # the site's own X account (without @)
+  linkedin_url: "https://www.linkedin.com/company/146950505"   # shown in the site header/footer
   telegram_channel: ""                        # e.g. @lungdaily
   same_as:                                   # official profiles, for the Google logo/knowledge panel markup
     - "https://x.com/LungDaily"

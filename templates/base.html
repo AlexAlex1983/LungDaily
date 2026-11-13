@@ -15,36 +15,88 @@
 <meta name="theme-color" content="#0B6E73">
 <meta property="og:site_name" content="{{ site.name }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}static/style.css?v={{ build_id }}">
 {% block head %}{% endblock %}
 </head>
 <body>
 <header class="masthead">
+  <div class="topline">
+    <div class="wrap topline-in">
+      <span class="today" data-today>{{ today }}</span>
+      <span class="topline-links">
+        {% if site.x_handle %}<a href="https://x.com/{{ site.x_handle }}" rel="noopener">X</a>{% endif %}
+        {% if site.linkedin_url %}<a href="{{ site.linkedin_url }}" rel="noopener">LinkedIn</a>{% endif %}
+        <a href="{{ root }}rss.xml">RSS</a>
+      </span>
+    </div>
+  </div>
   <div class="wrap bar">
-    <a class="brand" href="{{ root }}"><img class="mark" src="{{ root }}static/lungdaily-mark.svg" alt="" width="30" height="30"><span><b>Lung</b>Daily</span></a>
+    <a class="brand" href="{{ root }}"><img class="mark" src="{{ root }}static/lungdaily-mark.svg" alt="" width="40" height="40"><span><b>Lung</b>Daily</span></a>
     <span class="tagline">{{ site.tagline }}</span>
   </div>
-  <nav class="wrap cats" aria-label="Sections">
+  <nav class="cats-wrap" aria-label="Sections">
+    <div class="wrap cats">
     <a href="{{ root }}" {% if not active %}class="on"{% endif %}>Latest</a>
     {% for key, label in categories.items() %}
     <a href="{{ root }}{{ key }}/" {% if active == key %}class="on"{% endif %}>{{ label }}</a>
     {% endfor %}
+    </div>
   </nav>
 </header>
 <main class="wrap">
 {% block content %}{% endblock %}
 </main>
 <footer class="foot">
-  <div class="wrap">
-    <p><strong>{{ site.name }}</strong> curates public posts, papers and news on lung health. Every article links to its source.
-    Articles are drafted with AI assistance and automatically fact-checked against the source.</p>
-    <p><a href="{{ root }}about/">About</a> · <a href="{{ root }}editorial-policy/">Editorial policy</a> ·
-    <a href="{{ root }}opt-out/">Corrections &amp; opt-out</a> · <a href="{{ root }}rss.xml">RSS</a>
-    {% if site.x_handle %} · <a href="https://x.com/{{ site.x_handle }}">X</a>{% endif %}
-    {% if site.telegram_channel %} · <a href="https://t.me/{{ site.telegram_channel|replace('@','') }}">Telegram</a>{% endif %}</p>
-    <p class="small">© {{ year }} {{ site.name }}. Not medical advice.</p>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand brand-sm" href="{{ root }}"><img class="mark" src="{{ root }}static/lungdaily-mark.svg" alt="" width="28" height="28"><span><b>Lung</b>Daily</span></a>
+      <p>{{ site.description }}</p>
+    </div>
+    <div>
+      <h2>Sections</h2>
+      <ul>{% for key, label in categories.items() %}<li><a href="{{ root }}{{ key }}/">{{ label }}</a></li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h2>About</h2>
+      <ul>
+        <li><a href="{{ root }}about/">About {{ site.name }}</a></li>
+        <li><a href="{{ root }}editorial-policy/">Editorial standards</a></li>
+        <li><a href="{{ root }}opt-out/">Corrections &amp; opt-out</a></li>
+        {% if site.contact_email %}<li><a href="mailto:{{ site.contact_email }}">Contact</a></li>{% endif %}
+      </ul>
+    </div>
+    <div>
+      <h2>Follow</h2>
+      <ul>
+        {% if site.x_handle %}<li><a href="https://x.com/{{ site.x_handle }}">X @{{ site.x_handle }}</a></li>{% endif %}
+        {% if site.linkedin_url %}<li><a href="{{ site.linkedin_url }}">LinkedIn</a></li>{% endif %}
+        {% if site.telegram_channel %}<li><a href="https://t.me/{{ site.telegram_channel|replace('@','') }}">Telegram</a></li>{% endif %}
+        <li><a href="{{ root }}rss.xml">RSS feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-base">
+    <p>Every article links to its original source. Articles are produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a> and checked against the source before publication.</p>
+    <p>© {{ year }} {{ site.name }} · Not medical advice.</p>
   </div>
 </footer>
+<script>
+(function(){
+  var d=new Date(), t=document.querySelector('[data-today]');
+  if(t){t.textContent=d.toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'});}
+  document.querySelectorAll('time[data-rel]').forEach(function(el){
+    var then=new Date(el.getAttribute('datetime')); if(isNaN(then)) return;
+    var m=Math.round((d-then)/60000);
+    if(m<0||m>=1440) return;
+    el.textContent = m<60 ? (m<=1?'Just now':m+' min ago') : Math.floor(m/60)+' h ago';
+  });
+  var c=document.querySelector('[data-copy]');
+  if(c){c.addEventListener('click',function(e){e.preventDefault();
+    try{navigator.clipboard.writeText(c.getAttribute('data-copy'));c.textContent='Link copied';}catch(_){}
+  });}
+})();
+</script>
 </body>
 </html>

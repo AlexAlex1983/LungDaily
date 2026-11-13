@@ -1,4 +1,13 @@
 {% extends "base.html" %}
+{% macro thumb(p) -%}
+<a class="thumb" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png?v={{ build_id }}" alt="" loading="lazy" width="1200" height="630"></a>
+{%- endmacro %}
+{% macro kicker(p) -%}
+<a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+{%- endmacro %}
+{% macro when(p) -%}
+<time datetime="{{ p.date|isodate }}" data-rel>{{ p.date|shortdate }}</time>
+{%- endmacro %}
 {% block head %}
 {% if not heading %}
 <link rel="canonical" href="{{ base }}/">
@@ -16,28 +25,88 @@
 {% endif %}
 {% endblock %}
 {% block content %}
-{% if heading %}<h1 class="section-title">{{ heading }}</h1>{% else %}<h1 class="visually-hidden">{{ site.name }}: {{ site.tagline }}</h1><p class="intro">{{ site.description }}</p>{% endif %}
 {% if not posts %}
+  {% if heading %}<h1 class="section-title">{{ heading }}</h1>{% endif %}
   <p class="empty">No articles yet — the first ones appear after the next pipeline run.</p>
-{% else %}
-  {% set lead = posts[0] %}
-  <article class="lead cat-{{ lead.category }}">
-    <a class="thumb" href="{{ root }}news/{{ lead.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ lead.slug }}.png?v={{ build_id }}" alt="" loading="lazy"></a>
-    <div class="lead-body">
-    <a class="kicker" href="{{ root }}{{ lead.category }}/">{{ lead.category_label }}</a>
-    <h2><a href="{{ root }}news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
-    <p class="dek">{{ lead.dek }}</p>
-    <time datetime="{{ lead.date|isodate }}">{{ lead.date|datefmt }}</time>
-    </div>
-  </article>
-  <div class="grid">
-  {% for p in posts[1:] %}
+
+{% elif not heading and front %}
+  <h1 class="visually-hidden">{{ site.name }}: {{ site.tagline }}</h1>
+  {% set lead = front.lead %}
+  <section class="front">
+    <article class="lead cat-{{ lead.category }}">
+      {{ thumb(lead) }}
+      <div class="lead-body">
+        {{ kicker(lead) }}
+        <h2><a href="{{ root }}news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
+        <p class="dek">{{ lead.dek }}</p>
+        <p class="meta">{{ when(lead) }} · {{ lead.read_min }} min read</p>
+      </div>
+    </article>
+    {% if front.latest %}
+    <aside class="latest" aria-labelledby="latest-h">
+      <h2 id="latest-h" class="rail-title"><span class="pulse" aria-hidden="true"></span>Latest</h2>
+      <ol>
+      {% for p in front.latest %}
+        <li class="cat-{{ p.category }}">{{ when(p) }} {{ kicker(p) }}
+          <a class="hl" href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></li>
+      {% endfor %}
+      </ol>
+    </aside>
+    {% endif %}
+  </section>
+
+  {% if front.secondary %}
+  <section class="row three">
+  {% for p in front.secondary %}
     <article class="card cat-{{ p.category }}">
-      <a class="thumb" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png?v={{ build_id }}" alt="" loading="lazy"></a>
-      <a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+      {{ thumb(p) }}
+      {{ kicker(p) }}
       <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
       <p class="dek">{{ p.dek }}</p>
-      <time datetime="{{ p.date|isodate }}">{{ p.date|datefmt }}</time>
+      <p class="meta">{{ when(p) }}</p>
+    </article>
+  {% endfor %}
+  </section>
+  {% endif %}
+
+  {% for s in front.sections %}
+  <section class="sect cat-{{ s.key }}" aria-labelledby="s-{{ s.key }}">
+    <header class="sect-head">
+      <h2 id="s-{{ s.key }}"><a href="{{ root }}{{ s.key }}/">{{ s.label }}</a></h2>
+      <a class="more" href="{{ root }}{{ s.key }}/">See all <span aria-hidden="true">→</span></a>
+    </header>
+    <div class="row four">
+    {% for p in s.posts %}
+      <article class="card compact cat-{{ p.category }}">
+        {{ thumb(p) }}
+        <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
+        <p class="meta">{{ when(p) }}</p>
+      </article>
+    {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+{% else %}
+  <header class="section-head cat-{{ active }}">
+    <h1 class="section-title">{{ heading }}</h1>
+  </header>
+  {% set lead = posts[0] %}
+  <article class="lead lead-solo cat-{{ lead.category }}">
+    {{ thumb(lead) }}
+    <div class="lead-body">
+      <h2><a href="{{ root }}news/{{ lead.slug }}/">{{ lead.headline }}</a></h2>
+      <p class="dek">{{ lead.dek }}</p>
+      <p class="meta">{{ when(lead) }} · {{ lead.read_min }} min read</p>
+    </div>
+  </article>
+  <div class="row three">
+  {% for p in posts[1:] %}
+    <article class="card cat-{{ p.category }}">
+      {{ thumb(p) }}
+      <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
+      <p class="dek">{{ p.dek }}</p>
+      <p class="meta">{{ when(p) }}</p>
     </article>
   {% endfor %}
   </div>

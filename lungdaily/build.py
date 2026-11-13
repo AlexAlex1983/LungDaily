@@ -34,6 +34,7 @@ def load_posts() -> list[dict]:
         rec["picture_credit"] = images.custom_credit(rec["slug"]) if rec["has_picture"] else ""
         emb = rec.get("embed") or {}
         rec["x_embed_url"] = emb.get("url") if emb.get("type") == "x" else None
+        rec["read_min"] = max(1, round(len(rec["body"].split()) / 200))
         posts.append(rec)
     posts.sort(key=lambda r: r["date"], reverse=True)
     return posts
@@ -61,12 +62,15 @@ def build() -> int:
 
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape(["html"]))
     env.filters["datefmt"] = lambda d: d.strftime("%d %b %Y, %H:%M UTC") if d else ""
+    env.filters["shortdate"] = lambda d: f"{d.day} {d.strftime('%b %Y')}" if d else ""
     env.filters["isodate"] = iso
     ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year,
-           "build_id": now().strftime("%Y%m%d%H%M")}
+           "build_id": now().strftime("%Y%m%d%H%M"),
+           "today": f"{now().strftime('%A')}, {now().day} {now().strftime('%B %Y')}"}
 
     _write(OUT / "index.html", env.get_template("index.html").render(
-        **ctx, root="./", posts=posts[:40], title=f"{site['name']}: {site['tagline']}", heading=None))
+        **ctx, root="./", posts=posts[:40], front=front_page(posts),
+        title=f"{site['name']}: {site['tagline']}", heading=None))
     for cat, label in CATEGORY_LABELS.items():
         sel = [p for p in posts if p["category"] == cat]
         _write(OUT / cat / "index.html", env.get_template("index.html").render(
@@ -96,8 +100,9 @@ def build() -> int:
         except Exception as e:  # a broken image must never stop the site build
             log.warning("Card image failed for %s: %s", p["slug"], e)
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]
+        same_cat = [r for r in posts if r is not p and r["category"] == p["category"] and r not in related][:3]
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
-            **ctx, root="../../", post=p, related=related, title=f"{p['headline']} — {site['name']}", active=p["category"]))
+            **ctx, root="../../", post=p, related=related, more=same_cat, title=f"{p['headline']} — {site['name']}", active=p["category"]))
     for page in ("about", "editorial-policy", "opt-out"):
         _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, root="../", title=f"{page.replace('-', ' ').title()} — {site['name']}"))
 
@@ -111,6 +116,24 @@ def build() -> int:
         "icons": [{"src": f"/static/icons/icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png"} for s in (192, 512)]}, indent=1))
     log.info("Built site: %d articles -> %s", len(posts), OUT)
     return len(posts)
+
+
+def front_page(posts: list[dict]) -> dict:
+    """Split the newest posts into a newspaper-style front page.
+
+    lead = newest article; secondary = next 3; latest = headline list; sections = up to
+    4 per category that are not already shown above, in CATEGORY_LABELS order.
+    """
+    lead, secondary = (posts[:1] or [None])[0], posts[1:4]
+    shown = {p["slug"] for p in posts[:4]}
+    latest = posts[4:12]
+    sections = []
+    for cat, label in CATEGORY_LABELS.items():
+        sel = [p for p in posts if p["category"] == cat and p["slug"] not in shown][:4]
+        if sel:
+            sections.append({"key": cat, "label": label, "posts": sel})
+            shown.update(p["slug"] for p in sel)
+    return {"lead": lead, "secondary": secondary, "latest": latest, "sections": sections}
 
 
 def rss(posts, site, base) -> str:

@@ -100,21 +100,24 @@ def render(rec: dict, out: Path, category_label: str, variant: str = "share") ->
     d = ImageDraw.Draw(img)
 
     pad = 72
-    # category pill
-    kf = font("SemiBold", 24)
-    label = category_label.upper()
-    tw = kf.getlength(label)
-    d.rounded_rectangle([pad, 64, pad + tw + 36, 64 + 44], radius=22, fill=CORAL)
-    d.text((pad + 18, 64 + 22), label, font=kf, fill=WHITE, anchor="lm")
-
     if variant == "thumb":
+        # site thumbnail: clean — the page already shows category and brand around it
         name = source_label(rec)
         f, lines, lh = fit_headline(name, W - 2 * pad - 160, 300)
-        y = 150 + max(0, (300 - len(lines) * lh) // 2)
+        y = (H - len(lines) * lh) // 2
         for line in lines:
             d.text((pad, y), line, font=f, fill=WHITE)
             y += lh
+        out.parent.mkdir(parents=True, exist_ok=True)
+        img.save(out, "PNG", optimize=True)
+        return out
     else:
+        # category pill
+        kf = font("SemiBold", 24)
+        label = category_label.upper()
+        tw = kf.getlength(label)
+        d.rounded_rectangle([pad, 64, pad + tw + 36, 64 + 44], radius=22, fill=CORAL)
+        d.text((pad + 18, 64 + 22), label, font=kf, fill=WHITE, anchor="lm")
         f, lines, lh = fit_headline(rec["headline"], W - 2 * pad - 60, 330)
         y = 150
         for line in lines:
@@ -199,6 +202,11 @@ def render_custom(rec: dict, src: Path, out: Path, category_label: str, variant:
     cy = 0.15 if base.height > base.width else 0.4
     img = ImageOps.fit(base, (W, H), method=Image.LANCZOS, centering=(0.5, cy))
     bg = CATEGORY_BG.get(rec.get("category"), CATEGORY_BG["voices"])
+    if variant == "thumb":
+        # site thumbnail: the picture alone — category and brand are shown by the page itself
+        out.parent.mkdir(parents=True, exist_ok=True)
+        img.save(out, "PNG", optimize=True)
+        return out
 
     # dark gradient from the bottom so text stays readable on any picture
     grad_h = 420 if variant == "share" else 150
