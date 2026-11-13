@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-12-blossomhill-gets-fda-alignment-on-phase-2-dose-for-lung-cancer-drug-2",
+  "slug": "2026-11-13-blossomhill-gets-fda-alignment-on-phase-2-dose-for-lung-cancer-drug-2",
   "headline": "BlossomHill gets FDA alignment on phase 2 dose for lung cancer drug",
   "dek": "BlossomHill has reached alignment with the FDA on the phase 2 dose for its lung cancer drug, according to an Investing.com report.",
   "body": "BlossomHill has gained alignment with the FDA on the phase 2 dose for a lung cancer drug, according to a news item published by Investing.com South Africa on 9 November 2026.\n\nThe item, whose available text consists of the headline only, does not name the drug, describe the dose, or say how the alignment was reached. It also gives no details of the planned phase 2 study, such as its design, size or timing.\n\nLungDaily will update this report if further information becomes available from the company or the regulator.",
@@ -36,5 +36,9 @@
       "page_fetched": true
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-13T10:45:12+00:00",
+  "shared": {
+    "x": "2121192913002529222"
+  }
 }
