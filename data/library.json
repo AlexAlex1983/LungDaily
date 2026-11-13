@@ -82,7 +82,8 @@
     "2026-11-13-merck-receives-positive-chmp-opinion-to-extend-enflonsia-use-to-childr": "cells/cells-06.jpg",
     "2026-11-13-mtap-loss-found-in-17-of-nsclc-by-ihc-more-often-in-driver-positive-st": "",
     "2026-11-13-lung-cancer-detection-rates-in-general-population-screening-registry-c": "ctscan/ctscan-03.jpg",
-    "2026-11-13-study-pairs-machine-learning-with-explainability-to-examine-early-pred": "asthma/asthma-11.jpg"
+    "2026-11-13-study-pairs-machine-learning-with-explainability-to-examine-early-pred": "asthma/asthma-11.jpg",
+    "2026-11-13-ers-opens-online-registration-for-european-parliament-respiratory-heal": "globe/globe-02.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -143,7 +144,8 @@
     "xray/xray-01.jpg": 56,
     "cells/cells-06.jpg": 57,
     "ctscan/ctscan-03.jpg": 58,
-    "asthma/asthma-11.jpg": 59
+    "asthma/asthma-11.jpg": 59,
+    "globe/globe-02.jpg": 60
   },
-  "counter": 59
+  "counter": 60
 }
