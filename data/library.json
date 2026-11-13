@@ -74,7 +74,8 @@
     "2026-11-13-chest-research-letter-examines-geographic-reach-and-eligibility-criter": "research/research-09.jpg",
     "2026-11-13-dr-chacon-lozsan-f-oxygen-saturation-can-look-normal-despite-rising-co": "airways/airways-13.jpg",
     "2026-11-13-who-tb-incidence-down-14-since-2015-far-short-of-50-milestone-for-2025": "globe/globe-14.jpg",
-    "2026-11-13-charles-swanton-receives-bob-pinedo-award-for-lifetime-contribution-to": "events/events-07.jpg"
+    "2026-11-13-charles-swanton-receives-bob-pinedo-award-for-lifetime-contribution-to": "events/events-07.jpg",
+    "2026-11-13-who-370-000-people-developed-drug-resistant-tb-in-2025": "pharma/pharma-02.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -129,7 +130,8 @@
     "research/research-09.jpg": 50,
     "airways/airways-13.jpg": 51,
     "globe/globe-14.jpg": 52,
-    "events/events-07.jpg": 53
+    "events/events-07.jpg": 53,
+    "pharma/pharma-02.jpg": 54
   },
-  "counter": 53
+  "counter": 54
 }
