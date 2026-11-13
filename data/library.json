@@ -78,7 +78,8 @@
     "2026-11-13-who-370-000-people-developed-drug-resistant-tb-in-2025": "pharma/pharma-02.jpg",
     "2026-11-13-blossomhill-gets-fda-alignment-on-phase-2-dose-for-lung-cancer-drug-2": "",
     "2026-11-13-il-33-blockade-cut-copd-exacerbations-by-29-34-in-two-phase-iii-trials": "pharma/pharma-16.jpg",
-    "2026-11-13-dr-alexey-kulikov-pneumonia-prevention-is-part-of-everyday-ncd-care": "xray/xray-01.jpg"
+    "2026-11-13-dr-alexey-kulikov-pneumonia-prevention-is-part-of-everyday-ncd-care": "xray/xray-01.jpg",
+    "2026-11-13-merck-receives-positive-chmp-opinion-to-extend-enflonsia-use-to-childr": "cells/cells-06.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -136,7 +137,8 @@
     "events/events-07.jpg": 53,
     "pharma/pharma-02.jpg": 54,
     "pharma/pharma-16.jpg": 55,
-    "xray/xray-01.jpg": 56
+    "xray/xray-01.jpg": 56,
+    "cells/cells-06.jpg": 57
   },
-  "counter": 56
+  "counter": 57
 }
