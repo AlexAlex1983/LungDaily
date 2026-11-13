@@ -102,7 +102,8 @@ def build() -> int:
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]
         same_cat = [r for r in posts if r is not p and r["category"] == p["category"] and r not in related][:3]
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
-            **ctx, root="../../", post=p, related=related, more=same_cat, title=f"{p['headline']} — {site['name']}", active=p["category"]))
+            **ctx, root="../../", post=p, related=related, more=same_cat,
+            latest=[r for r in posts[:9] if r is not p][:8], title=f"{p['headline']} — {site['name']}", active=p["category"]))
     for page in ("about", "editorial-policy", "opt-out"):
         _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, root="../", title=f"{page.replace('-', ' ').title()} — {site['name']}"))
 

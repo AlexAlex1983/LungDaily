@@ -93,45 +93,48 @@ a.thumb:hover img{transform:scale(1.03)}
 .lead-solo h2{margin-top:0}
 
 /* ---------- article ---------- */
-.article{max-width:720px;margin:0 auto}
-.article h1{font:700 2.6rem/1.12 var(--serif);letter-spacing:-.01em;margin:8px 0 14px}
-.article > .dek{font:1.25rem/1.45 var(--serif);color:var(--ink-2)}
-.byline{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:10px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:18px 0 22px}
+.story{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:start;border-top:3px solid var(--c,var(--ink));padding-top:18px}
+.article{min-width:0}
+.story .article{max-width:760px}
+.story-rail{position:sticky;top:150px;border-left:1px solid var(--line);padding-left:28px}
+.story-head h1{font:700 2.7rem/1.1 var(--serif);letter-spacing:-.015em;margin:8px 0 14px}
+.story-head .dek{font:1.25rem/1.45 var(--serif);color:var(--ink-2);margin:0}
+.byline{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:10px 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0;margin:20px 0 24px}
 .byline .meta{line-height:1.6}
+.byline .by{font-weight:600;color:var(--ink)}
 .byline .meta a{color:var(--brand-dark)}
 .share{display:flex;gap:8px;margin:0}
 .share a{font-size:.78rem;font-weight:600;text-decoration:none;border:1px solid var(--line-2);border-radius:999px;padding:5px 12px;color:var(--ink-2)}
 .share a:hover{border-color:var(--brand);color:var(--brand)}
-.hero{display:block;width:100%;height:auto;border-radius:4px;margin:0 0 18px}
-.credit{font-size:12px;color:var(--muted);margin:-10px 0 18px}
-.xpost{margin:4px 0 22px;min-height:120px}
-.xpost .twitter-tweet{margin:0 auto!important}
-.xpost blockquote.twitter-tweet{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--bg);font:1rem/1.5 var(--sans);max-width:550px}
+.hero-wrap{margin:0 0 24px}
+.hero{display:block;width:100%;height:auto;border-radius:4px}
+.credit{font-size:12px;color:var(--muted);margin-top:6px}
+.xpost{margin:0;min-height:120px}
+.xpost .twitter-tweet{margin:0!important}
+.xpost blockquote.twitter-tweet{border:1px solid var(--line);border-left:3px solid var(--c,var(--brand));border-radius:6px;padding:14px 16px;background:var(--tint);font:1rem/1.5 var(--serif);max-width:550px}
 .body{font:1.16rem/1.72 var(--serif);color:#1a2f36}
 .body p{margin:0 0 1.15em}
 .body > p:first-child::first-letter{float:left;font:700 3.4em/.82 var(--serif);padding:.06em .08em 0 0;color:var(--c,var(--brand))}
-.pull{margin:26px 0;padding:4px 0 4px 22px;border-left:3px solid var(--c);font:italic 1.35rem/1.45 var(--serif)}
+.body a{color:var(--brand-dark)}
+.pull{margin:4px 0 28px;padding:4px 0 4px 22px;border-left:3px solid var(--c,var(--brand));font:italic 1.35rem/1.45 var(--serif)}
 .pull cite{display:block;font:normal .85rem var(--sans);color:var(--muted);margin-top:8px}
 .source{margin:34px 0 20px;padding-top:20px;border-top:1px solid var(--line)}
-.source h2,.related h2,.howmade h2{font:700 .75rem var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 10px}
-.sourcecard{display:block;border:1px solid var(--line);border-radius:6px;padding:14px 16px;text-decoration:none;background:var(--tint)}
+.source h2,.howmade h2{font:700 .75rem var(--sans);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 10px}
+.sourcecard{display:block;border:1px solid var(--line);border-left:3px solid var(--c,var(--brand));border-radius:6px;padding:14px 16px;text-decoration:none;background:var(--tint);font-family:var(--serif)}
 .sourcecard:hover{border-color:var(--line-2)}
-.sourcecard span{display:block;color:var(--muted);font-size:.82rem;word-break:break-all;margin-top:2px}
+.sourcecard span{display:block;color:var(--muted);font:.8rem var(--sans);word-break:break-all;margin-top:4px}
 .tags span{display:inline-block;background:var(--tint);border-radius:999px;padding:3px 11px;margin:0 6px 6px 0;font-size:.78rem;color:var(--brand-dark)}
 .howmade{background:var(--tint);border-radius:6px;padding:18px 20px;margin:24px 0 0;font-size:.9rem;color:var(--ink-2)}
 .howmade p{margin:0 0 8px}
 .howmade p:last-child{margin:0}
 .howmade a{color:var(--brand-dark)}
-.more-in{max-width:1000px;margin:48px auto 0}
-.related{max-width:720px;margin:36px auto 0}
-.related ul{list-style:none;padding:0;margin:0}
-.related li{padding:10px 0;border-bottom:1px solid var(--line);font:600 1.02rem/1.35 var(--serif)}
-.related li a{text-decoration:none}
-.related li a:hover{text-decoration:underline}
-.kicker-inline{display:block;font:600 .68rem var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
-.page h1{font:700 2.4rem/1.15 var(--serif)}
-.page ul li{margin-bottom:12px}
-.page p,.page li{font-size:1.05rem}
+.page{max-width:760px;margin:0 auto;border-top:3px solid var(--ink);padding-top:16px}
+.page h1{font:700 2.6rem/1.12 var(--serif);margin:6px 0 18px}
+.page p,.page li{font:1.12rem/1.65 var(--serif);color:#1a2f36}
+.page .dek{font-size:1.25rem;color:var(--ink-2)}
+.page ul{padding-left:1.1em}
+.page ul li{margin-bottom:14px}
+.page a{color:var(--brand-dark)}
 
 /* ---------- footer ---------- */
 .foot{background:var(--ink);color:#b9cacf;font-size:.9rem;margin-top:24px}
@@ -155,6 +158,9 @@ a.thumb:hover img{transform:scale(1.03)}
   .front{grid-template-columns:1fr}
   .latest{border-left:0;padding-left:0}
   .foot-grid{grid-template-columns:1fr 1fr}
+  .story{grid-template-columns:1fr;gap:32px}
+  .story .article{max-width:none}
+  .story-rail{position:static;border-left:0;padding-left:0}
 }
 @media (max-width:700px){
   .wrap{padding:0 16px}
@@ -172,8 +178,8 @@ a.thumb:hover img{transform:scale(1.03)}
   .front + .row .card .dek{display:none}
   .lead-solo{grid-template-columns:1fr}
   .section-title{font-size:2rem}
-  .article h1{font-size:1.95rem}
-  .article > .dek{font-size:1.1rem}
+  .story-head h1,.page h1{font-size:1.95rem}
+  .story-head .dek{font-size:1.1rem}
   .body{font-size:1.1rem}
   .foot-grid{grid-template-columns:1fr 1fr;gap:24px}
   .foot-brand{grid-column:1/-1}
