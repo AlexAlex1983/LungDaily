@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-13-long-term-inhaled-mometasone-linked-to-higher-vcam-1-in-adults-with-si",
+  "headline": "Long-term inhaled mometasone linked to higher VCAM-1 in adults with sickle cell disease and cough or wheeze",
+  "dek": "A 48-week randomised trial found inhaled mometasone was associated with worsened markers of disease severity in adults with sickle cell disease and episodic cough and wheeze, but no asthma.",
+  "body": "A randomised, placebo-controlled trial has reported that long-term daily inhaled mometasone was associated with worse markers of disease severity in adults with sickle cell disease (SCD) and episodic cough and wheeze (ECW) who do not have asthma. The findings were published in JAMA Network Open.\n\nThe work followed an earlier trial in which 15 weeks of inhaled mometasone improved daily pain and reduced soluble vascular cell adhesion molecule 1 (VCAM-1), a marker of disease severity in SCD, in a similar patient group. The new study examined the biological effects and safety of a longer course.\n\nPatients were recruited from December 2018 to May 2022 and randomly assigned to 220 μg of mometasone furoate dry powder once daily or a matching placebo inhaler for 48 weeks. The analysis included 77 patients: 40 in the mometasone group and 37 in the placebo group. The primary outcome was the percentage change in soluble VCAM-1 from baseline to the end of the study.\n\nCompared with placebo, soluble VCAM-1 levels in the mometasone group increased by 42% (95% CI, -11% to 96%; P = .02). Point estimates for clinical outcomes favoured placebo, although these differences were not statistically significant.\n\nThe authors concluded that inhaled mometasone should not be used long-term in patients with SCD and ECW who lack a definitive diagnosis of asthma. The trial is registered at ClinicalTrials.gov (NCT03758950).",
+  "key_quote": "extended courses of inhaled mometasone were associated with worsened markers of disease severity",
+  "tags": [
+    "asthma",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Susanna A Curtis",
+    "Sarah McCuskee",
+    "Robyn T Cohen"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-13T17:09:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43007675/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43007675",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43007675/",
+    "title": "Inhaled Corticosteroids and Sickle Cell Disease Severity in Adults Without Asthma: A Randomized Clinical Trial.",
+    "author_name": "Susanna A Curtis, Sarah McCuskee, Robyn T Cohen et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-02T00:00:00+00:00",
+    "extra": {
+      "journal": "JAMA network open",
+      "doi": "10.1001/jamanetworkopen.2026.42232",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "first_author": "Susanna A Curtis"
+    }
+  },
+  "status": "ready"
+}

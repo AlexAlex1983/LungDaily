@@ -1280,5 +1280,48 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-13-claudia-henschke-phd-md-featured-by-the-asco-post-in-finding-lung-canc",
+    "headline": "Claudia Henschke, PhD, MD, featured by The ASCO Post in 'Finding Lung Cancer in Time'",
+    "dek": "The ASCO Post published an item on 10 November 2026 titled 'Claudia Henschke, PhD, MD: Finding Lung Cancer in Time'.",
+    "body": "The ASCO Post published an item on 10 November 2026 featuring Claudia Henschke, PhD, MD, under the title \"Finding Lung Cancer in Time\".\n\nThe source text available to LungDaily consists only of the headline. It gives no further detail on Dr Henschke's role, her organisation or what she said, so none is reported here.",
+    "key_quote": "",
+    "tags": [
+      "lung-cancer",
+      "screening"
+    ],
+    "people": [
+      "Claudia Henschke"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-13T17:08:42+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 55 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXU0U1hRNXR2dXdVQ2Zuc0hkTHpkWVBkaW8tbjlnZ1U3MHN6azJyM1BXbEVhQi1sVTE2YVlKNmhGOGd2VVF4MVh1WV8xWGJFZUZsSHI5N1dGWjZxaWo0SGdSaHc1dUhPTUJWaHpHMGtxSTg5dDMyR3NKSS16aFFPTklDdjd3YnRhUUVhTlVac3hGWkJ2NHJhdjQyUWQ4QQ?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:2e95b65249cd8bf3",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXU0U1hRNXR2dXdVQ2Zuc0hkTHpkWVBkaW8tbjlnZ1U3MHN6azJyM1BXbEVhQi1sVTE2YVlKNmhGOGd2VVF4MVh1WV8xWGJFZUZsSHI5N1dGWjZxaWo0SGdSaHc1dUhPTUJWaHpHMGtxSTg5dDMyR3NKSS16aFFPTklDdjd3YnRhUUVhTlVac3hGWkJ2NHJhdjQyUWQ4QQ?oc=5",
+      "title": "Claudia Henschke, PhD, MD: Finding Lung Cancer in Time - The ASCO Post",
+      "author_name": "The ASCO Post",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-10T17:48:34+00:00",
+      "extra": {
+        "feed": "Google News — lung cancer screening",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

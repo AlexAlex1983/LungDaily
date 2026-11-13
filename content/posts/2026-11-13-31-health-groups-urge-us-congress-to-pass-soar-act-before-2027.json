@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-13-31-health-groups-urge-us-congress-to-pass-soar-act-before-2027",
+  "headline": "31 health groups urge US Congress to pass SOAR Act before 2027",
+  "dek": "The American Lung Association said a coalition of 31 national health and advocacy organisations has called on Congress to pass the SOAR Act, citing access to oxygen.",
+  "body": "The American Lung Association said on X on 10 November 2026 that 31 national health and advocacy organisations had urged Congress to pass the SOAR Act before 2027. The post gave the bill numbers as H.R. 2902/S.1406.\n\nThe association wrote that \"patients cannot afford to wait any longer\". It invited others to join its call on Congress \"so everyone can get the oxygen they need\", and included a link for further information.\n\nThe post did not name the other organisations in the coalition or set out the provisions of the bill. The American Lung Association describes itself on X as working to improve lung health and prevent lung disease.",
+  "key_quote": "Patients cannot afford to wait any longer.",
+  "tags": [
+    "policy",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-13T17:09:10+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120267507239956619",
+    "url": "https://x.com/LungAssociation/status/2120267507239956619"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120267507239956619",
+    "source": "x",
+    "url": "https://x.com/LungAssociation/status/2120267507239956619",
+    "title": "",
+    "author_name": "American Lung Association",
+    "author_handle": "LungAssociation",
+    "author_url": "https://x.com/LungAssociation",
+    "published_at": "2026-11-10T21:29:01+00:00",
+    "extra": {
+      "tweet_id": "2120267507239956619",
+      "query_kind": "voices",
+      "links": [
+        "https://on.lung.org/3UvbJMu"
+      ],
+      "author_followers": 44417,
+      "author_id": "17049255"
+    }
+  },
+  "status": "ready"
+}
