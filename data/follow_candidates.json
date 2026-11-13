@@ -18,15 +18,15 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 8,
+    "seen": 10,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33468
+    "followers": 33470
   },
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 7,
+    "seen": 8,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
     "followers": 21306
@@ -138,10 +138,10 @@
   "narjustflorezmd": {
     "id": "855372288455311360",
     "username": "NarjustFlorezMD",
-    "seen": 3,
+    "seen": 4,
     "name": "Narjust Florez, MD, FASCO",
     "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
-    "followers": 25575
+    "followers": 25577
   },
   "pulmcrit": {
     "id": "873314053",
@@ -550,5 +550,21 @@
     "name": "Joseph Carter",
     "bio": "Head of Devolved Nations for Asthma + Lung UK. Campaigning for better services for the 1 in 5 people affected by lung conditions.",
     "followers": 1695
+  },
+  "gold_copd": {
+    "id": "723254289708158976",
+    "username": "GOLD_COPD",
+    "seen": 1,
+    "name": "GOLD COPD",
+    "bio": "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) works around the world to raise awareness of COPD & improve the lives of those living with it.",
+    "followers": 9071
+  },
+  "apsrapsr": {
+    "id": "3177502867",
+    "username": "APSRapsr",
+    "seen": 1,
+    "name": "Asian Pacific Society of Respirology",
+    "bio": "Official X account of the Asian Pacific Society of Respirology",
+    "followers": 2256
   }
 }

@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-13-higher-sama-use-linked-to-greater-cardiovascular-and-mortality-risks-i",
+  "headline": "Higher SAMA use linked to greater cardiovascular and mortality risks in asthma and COPD",
+  "dek": "A post from ERS publications reports that increased use of SAMA, or SABA plus SAMA, was associated with higher cardiovascular and mortality risks in people with asthma and COPD.",
+  "body": "Increased use of short-acting muscarinic antagonists (SAMA), or of short-acting beta-agonists combined with SAMA (SABA+SAMA), was associated with higher cardiovascular and mortality risks in people with asthma and COPD, according to a post by ERS publications on X.\n\nThe post also addressed SABA use on its own. Using three or more SABA canisters was associated with a higher risk of mortality. No increased risks were observed for those using one or two SABA canisters.\n\nThe post is a brief summary and links to further material. It does not state the study design, the size or characteristics of the population, the size of the associations or the time period covered. It also does not name the journal in which the findings appear. The findings describe associations, and the post does not say whether the medicines caused the observed risks.",
+  "key_quote": "Using ≥3 SABA canisters was associated with higher mortality risk; no increased risks were observed for 1–2 SABA canisters.",
+  "tags": [
+    "asthma",
+    "copd",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-13T05:08:13+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121060538293666283",
+    "url": "https://x.com/ERSpublications/status/2121060538293666283"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121060538293666283",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2121060538293666283",
+    "title": "",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "published_at": "2026-11-13T02:00:14+00:00",
+    "extra": {
+      "tweet_id": "2121060538293666283",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4e3GfE9",
+        "https://x.com/ERSpublications/status/2121060538293666283/photo/1"
+      ],
+      "author_followers": 33470,
+      "author_id": "424241621"
+    }
+  },
+  "status": "ready"
+}
