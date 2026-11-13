@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-13-ers-opens-online-registration-for-european-parliament-respiratory-heal",
+  "headline": "ERS opens online registration for European Parliament respiratory health policy discussion",
+  "dek": "The European Respiratory Society said online registration is available for a high-level policy discussion in Brussels on 11 November.",
+  "body": "The European Respiratory Society (ERS) said online registration is open for a high-level policy discussion titled \"From JARED to sustained European action on respiratory health\". The society announced this in a post on X on 10 November.\n\nAccording to the post, the discussion is being held on 11 November at the European Parliament in Brussels, Belgium. The post described the event as a \"high-level policy discussion\" and said online registration is available.\n\nThe post directed readers to a link for further information and registration, and tagged the @EuropeanLung account. It did not give a programme, a list of speakers or further details of what the discussion will cover.",
+  "key_quote": "From JARED to sustained European action on respiratory health",
+  "tags": [
+    "policy",
+    "global-health"
+  ],
+  "people": [],
+  "category": "events",
+  "score": 7.0,
+  "created_at": "2026-11-13T14:20:54+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120164836545831077",
+    "url": "https://x.com/EuroRespSoc/status/2120164836545831077"
+  },
+  "mentions": [
+    "EuropeanLung"
+  ],
+  "source": {
+    "id": "x:2120164836545831077",
+    "source": "x",
+    "url": "https://x.com/EuroRespSoc/status/2120164836545831077",
+    "title": "",
+    "author_name": "ERS",
+    "author_handle": "EuroRespSoc",
+    "author_url": "https://x.com/EuroRespSoc",
+    "published_at": "2026-11-10T14:41:02+00:00",
+    "extra": {
+      "tweet_id": "2120164836545831077",
+      "query_kind": "voices",
+      "links": [
+        "https://europeanlung.org/jared/2026/10/26/from-joint-action-on-chronic-respiratory-diseases-jared-to-sustained-european-action-on-respiratory-health/",
+        "https://x.com/EuroRespSoc/status/2120164836545831077/photo/1"
+      ],
+      "author_followers": 31655,
+      "author_id": "121685027"
+    }
+  },
+  "status": "ready"
+}
