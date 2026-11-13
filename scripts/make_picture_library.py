@@ -1220,19 +1220,19 @@ def t_events(s: Svg, v: int):
 THEMES = {
     "lungs":     (t_lungs, 18, DARK + LIGHT, ["lung health", "respiratory health", "breath", "breathing", "lungs", "world lung", "respiratory disease"]),
     "xray":      (t_xray, 12, ["teal", "ink", "navy"], ["x-ray", "xray", "radiograph", "chest film", "pneumonia", "tuberculosis", " tb ", "imaging"]),
-    "ctscan":    (t_ctscan, 12, ["teal", "navy", "ink", "sky"], ["screening", " ct ", "ct scan", "computed tomography", "nodule", "ldct", "radiolog", "lung cancer", "nsclc", "sclc", "tumour", "tumor", "oncolog", "mesothelioma"]),
+    "ctscan":    (t_ctscan, 16, ["teal", "navy", "ink", "sky"], ["screening", " ct ", "ct scan", "computed tomography", "nodule", "ldct", "radiolog", "lung cancer", "nsclc", "sclc", "tumour", "tumor", "oncolog", "mesothelioma"]),
     "pollution": (t_pollution, 16, ["sand"], ["air pollution", "pollution", "smog", "pm2.5", "pm 2.5", "particulate", "air quality", "aqi", "wildfire", "emission", "dust", "haze", "no2", "ozone"]),
     "city":      (t_city, 12, ["sky"], ["clean air", "climate", "cop31", "cop 31", "urban", "city", "cities", "active travel", "low emission", "green space", "net zero"]),
     "nature":    (t_nature, 12, DARK + LIGHT, ["environment", "planet", "forest", "heat", "climate change", "nature", "biodivers"]),
-    "airways":   (t_airways, 15, DARK + LIGHT, ["copd", "emphysema", "bronchiectasis", "bronchitis", "exacerbation", "airway", "gold", "alveol", "rehabilitation", "pulmonary rehab", "small airway", "breathless", "dyspnoea", "dyspnea"]),
-    "asthma":    (t_asthma, 14, DARK + LIGHT, ["asthma", "inhaler", "reliever", "gina", "wheez", "allerg", "spacer", "peak flow", "ics", "saba", "maintenance and reliever"]),
-    "pharma":    (t_pharma, 16, DARK + LIGHT + ["coral"], ["drug", "fda", "ema", "approv", "biologic", "biosimilar", "phase 2", "phase 3", "phase ii", "phase iii", "inhibitor", "antibod", "mab ", "therapy", "treatment", "dose", "pharma", "medicine", "vaccine", "prescri", "label"]),
-    "research":  (t_research, 14, DARK + LIGHT, ["study", "trial", "cohort", "meta-analysis", "systematic review", "randomi", "gene", "genetic", "biomarker", "researchers", "journal", "paper"]),
-    "cells":     (t_cells, 12, ["teal"], ["cell", "neutrophil", "eosinophil", "immune", "inflammat", "fibrosis", "fibrotic", "ild", "interstitial", "granulom", "silica", "infection", "bacteria", "virus", "viral", "rsv", "influenza", "covid", "microbio", "pathway", "molecular"]),
-    "tobacco":   (t_tobacco, 12, DARK + LIGHT, ["tobacco", "smok", "cigarette", "vape", "vaping", "e-cig", "nicotine", "varenicline", "cessation", "quit"]),
-    "data":      (t_data, 14, DARK + LIGHT, ["spirometr", "lung function", "fev1", "data", "survey", "statistic", "figures", "prevalence", "burden", "mortality", "rate", "score", "predict", "model", "ai ", "artificial intelligence", "algorithm"]),
-    "globe":     (t_globe, 14, DARK + LIGHT, ["who", "world health", "global", "policy", "government", "minister", "ministry", "law", "regulation", "un ", "united nations", "funding", "gdp", "cost", "report", "parliament", "nhs", "guideline", "strategy"]),
-    "events":    (t_events, 12, DARK + LIGHT, ["congress", "conference", "symposium", "webinar", "summit", "session", "meeting", "livestream", "school", "course", "award", "appointed", "president", "elected", "podcast", "episode"]),
+    "airways":   (t_airways, 32, DARK + LIGHT, ["copd", "emphysema", "bronchiectasis", "bronchitis", "exacerbation", "airway", "gold", "alveol", "rehabilitation", "pulmonary rehab", "small airway", "breathless", "dyspnoea", "dyspnea"]),
+    "asthma":    (t_asthma, 20, DARK + LIGHT, ["asthma", "inhaler", "reliever", "gina", "wheez", "allerg", "spacer", "peak flow", "ics", "saba", "maintenance and reliever"]),
+    "pharma":    (t_pharma, 24, DARK + LIGHT + ["coral"], ["drug", "fda", "ema", "approv", "biologic", "biosimilar", "phase 2", "phase 3", "phase ii", "phase iii", "inhibitor", "antibod", "mab ", "therapy", "treatment", "dose", "pharma", "medicine", "vaccine", "prescri", "label"]),
+    "research":  (t_research, 20, DARK + LIGHT, ["study", "trial", "cohort", "meta-analysis", "systematic review", "randomi", "gene", "genetic", "biomarker", "researchers", "journal", "paper"]),
+    "cells":     (t_cells, 16, ["teal"], ["cell", "neutrophil", "eosinophil", "immune", "inflammat", "fibrosis", "fibrotic", "ild", "interstitial", "granulom", "silica", "infection", "bacteria", "virus", "viral", "rsv", "influenza", "covid", "microbio", "pathway", "molecular"]),
+    "tobacco":   (t_tobacco, 16, DARK + LIGHT, ["tobacco", "smok", "cigarette", "vape", "vaping", "e-cig", "nicotine", "varenicline", "cessation", "quit"]),
+    "data":      (t_data, 14, DARK + LIGHT, ["spirometr", "lung function", "fev1", "data", "survey", "statistic", "figures", "prevalence", "burden", "mortality", " rate", "rates", "score", "predict", "model", "ai ", "artificial intelligence", "algorithm"]),
+    "globe":     (t_globe, 24, DARK + LIGHT, ["who:", "(who)", "who's", "world health", "global", "policy", "government", "minister", "ministry", "law", "regulation", "un ", "united nations", "funding", "gdp", "cost", "report", "parliament", "nhs", "guideline", "strategy"]),
+    "events":    (t_events, 14, DARK + LIGHT, ["congress", "conference", "symposium", "webinar", "summit", "session", "meeting", "livestream", "school", "course", "award", "appointed", "president", "elected", "podcast", "episode"]),
 }
 
 
@@ -1279,15 +1279,19 @@ def contact_sheet(theme, files, dest: Path):
 
 def main(argv):
     sheet = "--sheet" in argv
+    force = "--force" in argv
     names = [a for a in argv if not a.startswith("--")] or list(THEMES)
     sheets = Path("/tmp/library-sheets")
     sheets.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory() as td:
         for theme in names:
             _, count, _, _ = THEMES[theme]
-            for old in (OUT / theme).glob("*.jpg") if (OUT / theme).exists() else []:
-                old.unlink()
-            files = [render_one(theme, i, Path(td)) for i in range(count)]
+            # existing pictures are kept as they are (articles already use them); --force redraws all
+            if force:
+                for old in (OUT / theme).glob("*.jpg") if (OUT / theme).exists() else []:
+                    old.unlink()
+            files = [OUT / theme / f"{theme}-{i + 1:02d}.jpg" if (OUT / theme / f"{theme}-{i + 1:02d}.jpg").exists()
+                     else render_one(theme, i, Path(td)) for i in range(count)]
             print(f"{theme}: {len(files)}")
             if sheet:
                 contact_sheet(theme, files, sheets)

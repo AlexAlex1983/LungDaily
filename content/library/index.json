@@ -85,7 +85,11 @@
    "ctscan-09.jpg",
    "ctscan-10.jpg",
    "ctscan-11.jpg",
-   "ctscan-12.jpg"
+   "ctscan-12.jpg",
+   "ctscan-13.jpg",
+   "ctscan-14.jpg",
+   "ctscan-15.jpg",
+   "ctscan-16.jpg"
   ]
  },
  "pollution": {
@@ -210,7 +214,24 @@
    "airways-12.jpg",
    "airways-13.jpg",
    "airways-14.jpg",
-   "airways-15.jpg"
+   "airways-15.jpg",
+   "airways-16.jpg",
+   "airways-17.jpg",
+   "airways-18.jpg",
+   "airways-19.jpg",
+   "airways-20.jpg",
+   "airways-21.jpg",
+   "airways-22.jpg",
+   "airways-23.jpg",
+   "airways-24.jpg",
+   "airways-25.jpg",
+   "airways-26.jpg",
+   "airways-27.jpg",
+   "airways-28.jpg",
+   "airways-29.jpg",
+   "airways-30.jpg",
+   "airways-31.jpg",
+   "airways-32.jpg"
   ]
  },
  "asthma": {
@@ -241,7 +262,13 @@
    "asthma-11.jpg",
    "asthma-12.jpg",
    "asthma-13.jpg",
-   "asthma-14.jpg"
+   "asthma-14.jpg",
+   "asthma-15.jpg",
+   "asthma-16.jpg",
+   "asthma-17.jpg",
+   "asthma-18.jpg",
+   "asthma-19.jpg",
+   "asthma-20.jpg"
   ]
  },
  "pharma": {
@@ -284,7 +311,15 @@
    "pharma-13.jpg",
    "pharma-14.jpg",
    "pharma-15.jpg",
-   "pharma-16.jpg"
+   "pharma-16.jpg",
+   "pharma-17.jpg",
+   "pharma-18.jpg",
+   "pharma-19.jpg",
+   "pharma-20.jpg",
+   "pharma-21.jpg",
+   "pharma-22.jpg",
+   "pharma-23.jpg",
+   "pharma-24.jpg"
   ]
  },
  "research": {
@@ -316,7 +351,13 @@
    "research-11.jpg",
    "research-12.jpg",
    "research-13.jpg",
-   "research-14.jpg"
+   "research-14.jpg",
+   "research-15.jpg",
+   "research-16.jpg",
+   "research-17.jpg",
+   "research-18.jpg",
+   "research-19.jpg",
+   "research-20.jpg"
   ]
  },
  "cells": {
@@ -355,7 +396,11 @@
    "cells-09.jpg",
    "cells-10.jpg",
    "cells-11.jpg",
-   "cells-12.jpg"
+   "cells-12.jpg",
+   "cells-13.jpg",
+   "cells-14.jpg",
+   "cells-15.jpg",
+   "cells-16.jpg"
   ]
  },
  "tobacco": {
@@ -383,7 +428,11 @@
    "tobacco-09.jpg",
    "tobacco-10.jpg",
    "tobacco-11.jpg",
-   "tobacco-12.jpg"
+   "tobacco-12.jpg",
+   "tobacco-13.jpg",
+   "tobacco-14.jpg",
+   "tobacco-15.jpg",
+   "tobacco-16.jpg"
   ]
  },
  "data": {
@@ -398,7 +447,8 @@
    "prevalence",
    "burden",
    "mortality",
-   "rate",
+   " rate",
+   "rates",
    "score",
    "predict",
    "model",
@@ -425,7 +475,9 @@
  },
  "globe": {
   "keywords": [
-   "who",
+   "who:",
+   "(who)",
+   "who's",
    "world health",
    "global",
    "policy",
@@ -459,7 +511,17 @@
    "globe-11.jpg",
    "globe-12.jpg",
    "globe-13.jpg",
-   "globe-14.jpg"
+   "globe-14.jpg",
+   "globe-15.jpg",
+   "globe-16.jpg",
+   "globe-17.jpg",
+   "globe-18.jpg",
+   "globe-19.jpg",
+   "globe-20.jpg",
+   "globe-21.jpg",
+   "globe-22.jpg",
+   "globe-23.jpg",
+   "globe-24.jpg"
   ]
  },
  "events": {
@@ -493,7 +555,9 @@
    "events-09.jpg",
    "events-10.jpg",
    "events-11.jpg",
-   "events-12.jpg"
+   "events-12.jpg",
+   "events-13.jpg",
+   "events-14.jpg"
   ]
  }
 }

@@ -263,27 +263,42 @@ def library_index() -> dict:
     return {t: v for t, v in idx.items() if any((LIBRARY / t / f).exists() for f in v.get("files", []))}
 
 
-def pick_theme(rec: dict, index: dict) -> str:
-    """Theme with most keyword hits in headline/dek/tags (headline counts double); ties -> category default."""
+def rank_themes(rec: dict, index: dict) -> list[str]:
+    """Themes ordered by keyword hits in headline/dek/tags/body (headline counts double).
+    The category default gets +0.5, so it wins ties and comes first when nothing matches.
+    Only themes with a hit (plus the default) are returned."""
     head = f" {rec.get('headline', '')} ".lower()
     rest = f" {rec.get('dek', '')} {' '.join(rec.get('tags') or [])} {(rec.get('body') or '')[:600]} ".lower()
     default = CATEGORY_THEME.get(rec.get("category"), "lungs")
-    best, best_score = default, 0
+    scores = {}
     for theme, info in index.items():
-        score = 0
+        score = 0.0
         for kw in info.get("keywords", []):
             kw = kw.lower()
             score += 2 * head.count(kw) + rest.count(kw)
         if theme == default:
             score += 0.5
-        if score > best_score:
-            best, best_score = theme, score
-    return best if best in index else next(iter(index), "")
+        if score > 0:
+            scores[theme] = score
+    ranked = sorted(scores, key=lambda t: -scores[t])
+    return ranked or ([default] if default in index else list(index)[:1])
+
+
+def pick_theme(rec: dict, index: dict) -> str:
+    """Best-matching theme (see rank_themes)."""
+    ranked = rank_themes(rec, index)
+    return ranked[0] if ranked else ""
 
 
 def _stable(text: str) -> int:
     import hashlib
     return int(hashlib.sha1(text.encode()).hexdigest()[:8], 16)
+
+
+# a picture used within the last RECENT_WINDOW assignments (~2 days at 16 articles/day) is
+# avoided: the next-best matching theme is tried first, then the generic fallback themes
+RECENT_WINDOW = 32
+FALLBACK_THEMES = ("lungs", "research", "data", "nature")
 
 
 def library_picture(rec: dict, state: dict, index: dict, share: float = 1.0) -> Path | None:
@@ -295,22 +310,39 @@ def library_picture(rec: dict, state: dict, index: dict, share: float = 1.0) -> 
     assigned = state.setdefault("assigned", {})
     if slug in assigned:
         name = assigned[slug]
-        if not name:
-            return None
-        p = LIBRARY / name
-        if p.exists():
-            return p
+        if name and (LIBRARY / name).exists():
+            return LIBRARY / name
+        if not name and share < 1.0:
+            return None  # kept the plain card earlier; at share 1.0 it gets a picture now
     if share < 1.0 and (_stable("share:" + slug) % 1000) / 1000 >= share:
         assigned[slug] = ""
         return None
-    theme = pick_theme(rec, index)
-    files = [f for f in index[theme]["files"] if (LIBRARY / theme / f).exists()]
-    if not files:
-        return None
     last = state.setdefault("last_used", {})
-    state["counter"] = state.get("counter", 0) + 1
-    files.sort(key=lambda f: (last.get(f"{theme}/{f}", -1), _stable(slug + f)))
-    name = f"{theme}/{files[0]}"
+    counter = state.get("counter", 0)
+
+    def lru(theme):
+        files = [f for f in index.get(theme, {}).get("files", []) if (LIBRARY / theme / f).exists()]
+        if not files:
+            return None, None
+        files.sort(key=lambda f: (last.get(f"{theme}/{f}", -1), _stable(slug + f)))
+        return f"{theme}/{files[0]}", last.get(f"{theme}/{files[0]}", -1)
+
+    ranked = rank_themes(rec, index)
+    candidates = ranked + [t for t in FALLBACK_THEMES if t not in ranked]
+    name = None
+    for theme in candidates:
+        cand, used = lru(theme)
+        if cand and (used < 0 or counter - used >= RECENT_WINDOW):
+            name = cand
+            break
+    if name is None:  # everything used recently: least recently used of the best theme
+        for theme in candidates:
+            name, _ = lru(theme)
+            if name:
+                break
+    if name is None:
+        return None
+    state["counter"] = counter + 1
     last[name] = state["counter"]
     assigned[slug] = name
     return LIBRARY / name

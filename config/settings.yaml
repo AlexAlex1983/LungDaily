@@ -75,7 +75,7 @@ publishing:
 # (drawn by scripts/make_picture_library.py; no photos, no people), matched to the topic and rotated.
 pictures:
   library: true                   # false = always the plain branded card
-  library_share: 0.75             # share of articles that get an illustration; the rest keep the plain card
+  library_share: 1.0              # share of articles that get an illustration; the rest keep the plain card
 
 amplify:
   x_post: true                    # post each article from the site's X account
