@@ -386,6 +386,14 @@ def run() -> dict:
             stats["failed"] += 1
             keep.append(item)
             continue
+        # the writer occasionally wraps the article in a list; anything else unusable is a failed write
+        if isinstance(art, list):
+            art = next((a for a in art if isinstance(a, dict)), None)
+        if not isinstance(art, dict) or not art.get("headline"):
+            log.error("Writer returned no usable article for %s", item["id"])
+            stats["failed"] += 1
+            keep.append(item)
+            continue
         verdict = check(item, art)
         date = now().date().isoformat()
         rec = {
