@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-13-national-screenings-to-detect-copd-to-start-this-year-report-says",
+  "slug": "2026-11-14-national-screenings-to-detect-copd-to-start-this-year-report-says",
   "headline": "National screenings to detect COPD to start this year, report says",
   "dek": "A Financial News Health Talk item says national screenings to detect COPD will begin this year, with a headline referring to a single breath test revealing 'lung age'.",
   "body": "National screenings to detect chronic obstructive pulmonary disease (COPD) are due to start this year, according to a Health Talk item published by Financial News (파이낸셜뉴스).\n\nThe item's headline says that \"one blow reveals your lung age\", pointing to a breath-based test as part of the screening.\n\nThe text available for this article contains only the headline. It does not give details of who will be eligible, how the programme will be run, which organisation is responsible, or when it will begin. LungDaily will update this report if further information becomes available.",
@@ -36,5 +36,9 @@
       "page_fetched": true
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-14T10:00:17+00:00",
+  "shared": {
+    "x": "2121544109353800030"
+  }
 }
