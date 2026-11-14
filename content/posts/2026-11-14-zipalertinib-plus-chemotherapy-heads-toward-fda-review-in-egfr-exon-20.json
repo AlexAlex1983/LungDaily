@@ -1,0 +1,39 @@
+{
+  "slug": "2026-11-14-zipalertinib-plus-chemotherapy-heads-toward-fda-review-in-egfr-exon-20",
+  "headline": "Zipalertinib plus chemotherapy heads toward FDA review in EGFR exon 20 insertion-mutated lung cancer",
+  "dek": "Oncodaily reports that the combination is moving toward review by the US Food and Drug Administration after a six-month progression-free survival benefit.",
+  "body": "Zipalertinib combined with chemotherapy is moving toward review by the US Food and Drug Administration (FDA) for lung cancer with EGFR exon 20 insertion mutations, according to a news item published by Oncodaily on 13 November 2026.\n\nThe item's headline links the regulatory step to a six-month benefit in progression-free survival (PFS) in this patient population.\n\nThe text available for this report consists only of that headline. It does not give trial design, patient numbers, comparator arm, safety findings, the submitting company or a timeline for the FDA's decision. LungDaily has therefore not included those details. Further information would need to come from the full Oncodaily report or from primary announcements.",
+  "key_quote": "",
+  "tags": [
+    "lung-cancer",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-14T05:08:29+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80Umh3WGEyMW9ZaURrekE4VUU2Y2plNEVGN19KbHNMc3dldUtJc3kyZTkzdnBDejBmMXMwMlVBTnBZOUoxQ0VKOE9BMGR0R0ZfMXVmMjRubHBpbFZIUkMzd2FNRlhyQnJR?oc=5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:0e1ee7ff052faaa1",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80Umh3WGEyMW9ZaURrekE4VUU2Y2plNEVGN19KbHNMc3dldUtJc3kyZTkzdnBDejBmMXMwMlVBTnBZOUoxQ0VKOE9BMGR0R0ZfMXVmMjRubHBpbFZIUkMzd2FNRlhyQnJR?oc=5",
+    "title": "Zipalertinib Plus Chemotherapy Moves Toward FDA Review After Six-Month PFS Benefit in EGFR Exon 20 Insertion-Mutated Lung Cancer",
+    "author_name": "Oncodaily",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-13T20:46:59+00:00",
+    "extra": {
+      "feed": "Google News — respiratory approvals",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

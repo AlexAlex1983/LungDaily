@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-14-analysis-of-indian-research-links-air-pollution-exposure-to-health-har",
+  "headline": "Analysis of Indian research links air pollution exposure to health harms from pregnancy through childhood",
+  "dek": "Dr. Manoj Kumar of CREA said a new analysis of Indian studies documents associations between air pollution and outcomes spanning pregnancy, birth, infancy and childhood.",
+  "body": "Air pollution exposure is associated with a wide range of health impacts from pregnancy through childhood, according to a new analysis of Indian research described by Dr. Manoj Kumar in a post on X. Kumar, who describes himself as an analyst at CREA (@CREACleanAir), posted on Children's Day. He noted that all findings are drawn from studies conducted in India.\n\nAccording to the post, exposure during pregnancy was associated with pregnancy loss, miscarriage, stillbirth and preeclampsia/eclampsia. Before birth, it was associated with impaired foetal growth, reduced birthweight, low birthweight and premature birth. At birth and in infancy, studies reported associations with neonatal, post-neonatal and under-five mortality, as well as respiratory infections and pneumonia.\n\nFor childhood, the analysis reported associations between exposure and impaired lung function, asthma, stunting, wasting and underweight. Studies also reported higher anaemia prevalence, reduced haemoglobin, poorer cognitive performance (IQ, memory and visual processing) and higher ADHD prevalence.\n\nKumar wrote that the impacts are not limited to children in heavily polluted cities. He said exposure also occurs inside homes, and that children in urban and rural areas, and across different socioeconomic backgrounds, can face high exposure through different sources and pathways. The post links to the full study.",
+  "key_quote": "These impacts are not limited to children in heavily polluted cities. Air pollution exposure also occurs inside homes.",
+  "tags": [
+    "air-pollution",
+    "paediatrics",
+    "asthma",
+    "global-health"
+  ],
+  "people": [
+    "Manoj Kumar"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T05:08:36+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121406329814446121",
+    "url": "https://x.com/manoj_kumar_nr/status/2121406329814446121"
+  },
+  "mentions": [
+    "CREACleanAir"
+  ],
+  "source": {
+    "id": "x:2121406329814446121",
+    "source": "x",
+    "url": "https://x.com/manoj_kumar_nr/status/2121406329814446121",
+    "title": "",
+    "author_name": "Dr. Manoj Kumar",
+    "author_handle": "manoj_kumar_nr",
+    "author_url": "https://x.com/manoj_kumar_nr",
+    "published_at": "2026-11-14T00:54:17+00:00",
+    "extra": {
+      "tweet_id": "2121406329814446121",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/manoj_kumar_nr/status/2121406329814446121/photo/1"
+      ],
+      "author_followers": 557,
+      "author_id": "192936638"
+    }
+  },
+  "status": "ready"
+}

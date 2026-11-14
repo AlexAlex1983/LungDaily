@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 8,
+    "seen": 9,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 10,
+    "seen": 11,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33470
+    "followers": 33473
   },
   "iaslc": {
     "id": "61241883",
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 14,
+    "seen": 15,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42211
+    "followers": 42214
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 8,
+    "seen": 9,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65485
+    "followers": 65486
   },
   "copddoc": {
     "id": "356203202",
@@ -266,10 +266,10 @@
   "healiopulm": {
     "id": "3043251863",
     "username": "HealioPulm",
-    "seen": 1,
+    "seen": 2,
     "name": "Healio Pulmonology",
     "bio": "The content you need, when you need it.",
-    "followers": 1200
+    "followers": 1201
   },
   "atlantaallergy": {
     "id": "144965716",
@@ -622,5 +622,13 @@
     "name": "Interasma",
     "bio": "Interasma is the Global Asthma Association focused on all aspects of asthma which bridges the gap between academia and the world of clinical practice.",
     "followers": 2454
+  },
+  "life_asthma": {
+    "id": "1122698466575077376",
+    "username": "life_asthma",
+    "seen": 1,
+    "name": "🫁 My Life as an Asthma Mom 🫁",
+    "bio": "Certified Asthma Educator, mom to 3 adults with allergies and asthma (inherited from me 😬) chocolate lover and world traveler. my opinions my own",
+    "followers": 366
   }
 }
