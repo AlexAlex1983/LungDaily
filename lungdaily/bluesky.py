@@ -91,6 +91,29 @@ def post(rec: dict, url: str, hashtags: list[str], session: dict) -> str | None:
     return r.json().get("uri")
 
 
+def ensure_avatar(session: dict) -> None:
+    """Give the account the LungDaily avatar once (keeps name/bio set in the app)."""
+    from .util import ROOT
+    auth = {"Authorization": f"Bearer {session['accessJwt']}"}
+    r = requests.get(f"{PDS}/xrpc/com.atproto.repo.getRecord", headers=auth, timeout=30,
+                     params={"repo": session["did"], "collection": "app.bsky.actor.profile", "rkey": "self"})
+    rec = r.json().get("value", {}) if r.ok else {}
+    if rec.get("avatar"):
+        return
+    img = ROOT / "static" / "icons" / "avatar-400.png"
+    if not img.exists():
+        return
+    up = requests.post(f"{PDS}/xrpc/com.atproto.repo.uploadBlob", data=img.read_bytes(), timeout=60,
+                       headers={**auth, "Content-Type": "image/png"})
+    if up.status_code >= 400:
+        log.warning("Bluesky avatar upload failed: %s", up.text[:200])
+        return
+    rec = {**rec, "$type": "app.bsky.actor.profile", "avatar": up.json()["blob"]}
+    w = requests.post(f"{PDS}/xrpc/com.atproto.repo.putRecord", headers=auth, timeout=30,
+                      json={"repo": session["did"], "collection": "app.bsky.actor.profile", "rkey": "self", "record": rec})
+    log.info("Bluesky avatar set: %s", w.status_code)
+
+
 def run_pending() -> int:
     from .amplify import HASHTAGS
     from .awareness import hashtags_for
@@ -106,10 +129,14 @@ def run_pending() -> int:
         if (rec.get("status") == "published" and "bluesky" not in sh and rec.get("bluesky_attempts", 0) < 3
                 and now() - (parse_date(rec.get("published_at")) or now()) <= window):
             todo.append((p, rec))
-    if not todo:
-        return 0
     session = _session()
     if not session:
+        return 0
+    try:
+        ensure_avatar(session)
+    except Exception as e:
+        log.warning("Bluesky avatar check failed: %s", e)
+    if not todo:
         return 0
     todo.sort(key=lambda pr: pr[1].get("published_at", ""))
     done = 0
