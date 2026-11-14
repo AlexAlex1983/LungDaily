@@ -12,7 +12,7 @@ site:
   telegram_channel: ""                        # e.g. @lungdaily
   # Search engines: paste the verification code (content="...") from Google Search Console /
   # Bing Webmaster Tools ("HTML tag" method), then run the `build` action. Leave "" until then.
-  google_site_verification: ""
+  google_site_verification: "_OQtKBw-sX8J644KtOXjlR_Xs5a3vBs09_MCnJu_1Qw"
   bing_site_verification: ""
   # Visitor counts: GoatCounter (free, no cookies, no consent banner). Sign up at goatcounter.com,
   # choose a code (e.g. "lungdaily" -> lungdaily.goatcounter.com) and put it here. "" = off.
