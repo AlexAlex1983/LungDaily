@@ -6,7 +6,7 @@ share links. At most one note per address every `per_address_days` days (default
 opted-out addresses or organisations.
 
 settings.yaml -> featured_email.send: false = preview only (the notes are listed in the run report).
-Sending needs the SMTP_HOST / SMTP_PORT / SMTP_USER / SMTP_PASSWORD secrets.
+Sending uses Brevo (settings smtp_host/smtp_port) with the SMTP_USER / SMTP_PASSWORD secrets.
 """
 from __future__ import annotations
 
@@ -91,8 +91,10 @@ We send at most one note like this a week. Reply "stop" and we will not send mor
     return subject, text, html
 
 
-def smtp_ready() -> bool:
-    return all(os.environ.get(k) for k in ("SMTP_HOST", "SMTP_USER", "SMTP_PASSWORD"))
+def smtp_ready(cfg: dict | None = None) -> bool:
+    cfg = cfg or {}
+    return bool((os.environ.get("SMTP_HOST") or cfg.get("smtp_host"))
+                and os.environ.get("SMTP_USER") and os.environ.get("SMTP_PASSWORD"))
 
 
 def send(to: str, subject: str, text: str, html: str, cfg: dict) -> bool:
@@ -106,7 +108,8 @@ def send(to: str, subject: str, text: str, html: str, cfg: dict) -> bool:
         msg["Bcc"] = cfg["bcc"]
     msg.set_content(text)
     msg.add_alternative(html, subtype="html")
-    host, port = os.environ["SMTP_HOST"], int(os.environ.get("SMTP_PORT") or 587)
+    host = os.environ.get("SMTP_HOST") or cfg.get("smtp_host")
+    port = int(os.environ.get("SMTP_PORT") or cfg.get("smtp_port") or 587)
     try:
         if port == 465:
             server = smtplib.SMTP_SSL(host, port, context=ssl.create_default_context(), timeout=30)
@@ -129,7 +132,7 @@ def run() -> list[dict]:
     if not cfg.get("enabled"):
         return []
     site, base = cfg_all["site"], cfg_all["site"]["base_url"].rstrip("/")
-    live = bool(cfg.get("send")) and smtp_ready()
+    live = bool(cfg.get("send")) and smtp_ready(cfg)
     if cfg.get("send") and not live:
         log.info("Featured emails: send is on but SMTP secrets are missing — preview only")
     gap = dt.timedelta(days=float(cfg.get("per_address_days", 7)))

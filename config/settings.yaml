@@ -119,6 +119,8 @@ featured_email:
   from_name: "LungDaily"
   from_address: "editor@lungdaily.org"
   bcc: "editor@lungdaily.org"     # a copy of every note lands in the editor inbox
+  smtp_host: "smtp-relay.brevo.com"   # Brevo (free plan, lungdaily.org authenticated 14 Nov 2026)
+  smtp_port: 587                  # login + key are the SMTP_USER / SMTP_PASSWORD secrets
 
 # Weekly newsletter "The Week in Respiratory Health" via Buttondown (.github/workflows/newsletter.yml, Fridays)
 newsletter:
