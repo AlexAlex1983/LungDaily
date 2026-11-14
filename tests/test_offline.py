@@ -127,6 +127,8 @@ for k in ():
 # LinkedIn organisation tags (little text) — uses linkedin_id from voices.yaml
 import yaml as _y
 _vp = Path("config/voices.yaml"); _vd = _y.safe_load(_vp.read_text())
+for _v in _vd["voices"]:
+    _v.pop("linkedin_id", None)      # test with its own fake ids only
 _vd["voices"].append({"name": "Global Initiative for Asthma", "aliases": ["GINA"], "x": "ginasthma", "linkedin_id": 111})
 _vd["voices"].append({"name": "European Respiratory Society", "aliases": ["ERS"], "linkedin_id": 222})
 _vp.write_text(_y.safe_dump(_vd))
