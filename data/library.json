@@ -99,7 +99,8 @@
     "2026-11-14-breathe-digital-health-and-ai-are-moving-lung-function-evaluation-towa": "data/data-02.jpg",
     "2026-11-14-aiims-new-delhi-launches-air-care-study-on-air-pollution-and-lung-canc": "pollution/pollution-10.jpg",
     "2026-11-14-azeem-majeed-relying-mainly-on-reliever-inhalers-for-asthma-is-outdate": "asthma/asthma-14.jpg",
-    "2026-11-14-alexey-kulikov-illicit-tobacco-is-an-enforcement-issue-and-lower-taxes": "tobacco/tobacco-14.jpg"
+    "2026-11-14-alexey-kulikov-illicit-tobacco-is-an-enforcement-issue-and-lower-taxes": "tobacco/tobacco-14.jpg",
+    "2026-11-14-automated-lung-nodule-detection-has-evolved-from-rule-based-cad-to-dee": "ctscan/ctscan-04.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -201,7 +202,8 @@
     "data/data-02.jpg": 97,
     "pollution/pollution-10.jpg": 98,
     "asthma/asthma-14.jpg": 99,
-    "tobacco/tobacco-14.jpg": 100
+    "tobacco/tobacco-14.jpg": 100,
+    "ctscan/ctscan-04.jpg": 101
   },
-  "counter": 100
+  "counter": 101
 }
