@@ -84,6 +84,7 @@ voices:
     tier: 1
     tags: [society]
   - name: "ERS publications"
+    press_name: "European Respiratory Society publications"   # greeting in featured emails
     press_email: "press@ersnet.org"
     x: "ERSpublications"
     aliases: ["European Respiratory Journal", "European Respiratory Review", "ERJ Open Research"]

@@ -57,7 +57,7 @@ def compose(rec: dict, v: dict, base: str, site: dict) -> tuple[str, str, str]:
     q = urllib.parse.quote
     x_share = f"https://x.com/intent/post?text={q(rec['headline'])}&url={q(url)}&via={site.get('x_handle', 'LungDaily')}"
     li_share = f"https://www.linkedin.com/sharing/share-offsite/?url={q(url)}"
-    name = v.get("linkedin_name") or v["name"]
+    name = v.get("press_name") or v.get("linkedin_name") or v["name"]
     subject = f"{site['name']} featured your {kind}: {rec['headline']}"[:150]
     text = f"""Hello {name} team,
 
@@ -81,7 +81,7 @@ We send at most one note like this a week. Reply "stop" and we will not send mor
     html = f"""<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#10242b;max-width:600px">
 <p>Hello {esc(name)} team,</p>
 <p><a href="{base}">{esc(site['name'])}</a>, a daily news site on respiratory health, has published a short article based on your recent {kind}:</p>
-<p><a href="{url}"><img src="{card}" alt="{esc(rec['headline'])}" width="560" style="max-width:100%;border:0;border-radius:6px"></a></p>
+<p><a href="{url}"><img src="{card}" alt="LungDaily share card" width="560" style="max-width:100%;border:0;border-radius:6px"></a></p>
 <p style="font-size:17px"><strong><a href="{url}" style="color:#0b6e73">{esc(rec['headline'])}</a></strong></p>
 <p>You are welcome to share it: <a href="{x_share}">share on X</a> · <a href="{li_share}">share on LinkedIn</a> · <a href="{card}">download the image card</a></p>
 <p>If anything in the article needs correcting, just reply to this email and we will fix it promptly.</p>
