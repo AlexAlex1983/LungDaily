@@ -90,7 +90,8 @@
     "2026-11-14-pulmonary-fibrosis-trust-to-take-survey-findings-to-westminster": "cells/cells-02.jpg",
     "2026-11-14-31-health-groups-urge-us-congress-to-pass-soar-act-before-2027": "events/events-05.jpg",
     "2026-11-14-long-term-inhaled-mometasone-linked-to-higher-vcam-1-in-adults-with-si": "asthma/asthma-20.jpg",
-    "2026-11-14-national-screenings-to-detect-copd-to-start-this-year-report-says": "ctscan/ctscan-01.jpg"
+    "2026-11-14-national-screenings-to-detect-copd-to-start-this-year-report-says": "ctscan/ctscan-01.jpg",
+    "2026-11-14-analysis-of-indian-research-links-air-pollution-exposure-to-health-har": "pollution/pollution-04.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -183,7 +184,8 @@
     "cells/cells-02.jpg": 88,
     "events/events-05.jpg": 89,
     "asthma/asthma-20.jpg": 90,
-    "ctscan/ctscan-01.jpg": 91
+    "ctscan/ctscan-01.jpg": 91,
+    "pollution/pollution-04.jpg": 92
   },
-  "counter": 91
+  "counter": 92
 }
