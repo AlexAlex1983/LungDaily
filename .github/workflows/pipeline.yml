@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: "all = full run · publish-slot = publish one ready article if a slot is due · write = collect + write into ready queue · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build · from-url = write an article from the page at url (press release, announcement) and publish it at the next slot · qa = publish the email Q&A file given in slug (content/qa/<name>.md)"
+        description: "all = full run · publish-slot = publish one ready article if a slot is due · write = collect + write into ready queue · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build · from-url = write an article from the page at url (press release, announcement) and publish it at the next slot · qa = publish the email Q&A file given in slug (content/qa/<name>.md) · featured-test = send one sample featured email to editor@ only"
         type: choice
-        options: [all, publish-slot, write, release, discard, build, linkedin-test, check-handles, add-image, from-url, qa]
+        options: [all, publish-slot, write, release, discard, build, linkedin-test, check-handles, add-image, from-url, qa, featured-test]
         default: all
       slug:
         description: "Article slug (for release/discard/add-image)"
@@ -141,6 +141,10 @@ jobs:
           LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
         run: |
           sleep 60
+          if [ "${{ github.event.inputs.action }}" = "featured-test" ]; then
+            python -m lungdaily.run featured-test
+            exit $?
+          fi
           if [ "${{ github.event.inputs.action }}" = "linkedin-test" ]; then
             python -m lungdaily.run linkedin-test
             exit 0

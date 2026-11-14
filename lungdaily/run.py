@@ -62,6 +62,9 @@ def main(argv: list[str]) -> int:
             featured.summary(featured.run())
         except Exception as e:
             log.error("Featured emails failed: %s", e)
+    elif cmd == "featured-test":
+        from . import featured
+        return 0 if featured.send_test() else 3
     elif cmd == "from-url" and len(argv) > 1:
         from . import submit
         slug = submit.from_url(argv[1], argv[2] if len(argv) > 2 else "")

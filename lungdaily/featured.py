@@ -183,3 +183,26 @@ def summary(entries: list[dict]) -> None:
         lines.append(f"- {'Sent' if e['sent'] else 'Preview (not sent)'} → {e['org']} <{e['to']}>: {e['subject']}")
     with open(path, "a", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
+
+
+def send_test() -> bool:
+    """Send ONE sample note to the editor inbox only (never to an organisation)."""
+    cfg_all = settings()
+    cfg = dict(cfg_all.get("featured_email") or {})
+    site, base = cfg_all["site"], cfg_all["site"]["base_url"].rstrip("/")
+    if not smtp_ready(cfg):
+        log.warning("Featured test: SMTP_USER / SMTP_PASSWORD secrets missing")
+        return False
+    recs = sorted((read_json(p, {}) for p in POSTS.glob("*.json")), key=lambda r: r.get("published_at") or "", reverse=True)
+    for rec in recs:
+        v = source_voice(rec) if rec.get("status") == "published" else None
+        if v and v.get("press_email"):
+            subject, text, html = compose(rec, v, base, site)
+            to = cfg.get("from_address", "editor@lungdaily.org")
+            cfg["bcc"] = ""
+            note = f"[TEST — would go to {v['press_email']}]\n\n"
+            ok = send(to, "[TEST] " + subject, note + text, f"<p style='color:#e4572e'><b>TEST</b> — would go to {v['press_email']}</p>" + html, cfg)
+            log.info("Featured test email to %s: %s (%s)", to, ok, rec["slug"])
+            return ok
+    log.warning("Featured test: no published article from an organisation with a press_email")
+    return False
