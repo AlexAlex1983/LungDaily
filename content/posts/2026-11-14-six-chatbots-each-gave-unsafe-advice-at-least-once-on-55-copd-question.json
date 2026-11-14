@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-14-six-chatbots-each-gave-unsafe-advice-at-least-once-on-55-copd-question",
+  "headline": "Six chatbots each gave unsafe advice at least once on 55 COPD questions, study reports",
+  "dek": "A study testing six chatbots on 55 COPD questions found unsafe advice from every model, in 4% to 9% of responses, according to a social media post.",
+  "body": "A study that tested six chatbots on 55 questions about COPD found that every model gave unsafe advice at least once, according to a post on X by CareChronicle on 11 November 2026.\n\nThe account wrote that unsafe advice appeared in 4% to 9% of responses. The post did not specify which chatbots were tested, how the questions were chosen or how responses were judged to be unsafe.\n\nThe post also did not name the study's authors or the journal in which it was published, and it linked to further material that is not reproduced here. CareChronicle describes itself as a sceptical analysis account focused on applied AI in healthcare.\n\nThe figures reported here are as stated in the post and could not be checked against the underlying study.",
+  "key_quote": "every model gave unsafe advice at least once, in 4% to 9% of responses",
+  "tags": [
+    "copd",
+    "ai"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T17:08:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2120559689893085428",
+    "url": "https://x.com/Care_Chronicle/status/2120559689893085428"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2120559689893085428",
+    "source": "x",
+    "url": "https://x.com/Care_Chronicle/status/2120559689893085428",
+    "title": "",
+    "author_name": "CareChronicle",
+    "author_handle": "Care_Chronicle",
+    "author_url": "https://x.com/Care_Chronicle",
+    "published_at": "2026-11-11T16:50:02+00:00",
+    "extra": {
+      "tweet_id": "2120559689893085428",
+      "query_kind": "keywords",
+      "links": [
+        "https://pubmed.ncbi.nlm.nih.gov/43003398/?fc=20250603201450&ff=20261109234638&v=2.20.1"
+      ],
+      "author_followers": 8,
+      "author_id": "1867589085214519296"
+    }
+  },
+  "status": "ready"
+}

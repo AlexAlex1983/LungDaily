@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 9,
+    "seen": 10,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 20,
+    "seen": 21,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47402
+    "followers": 47405
   },
   "erspublications": {
     "id": "424241621",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 8,
+    "seen": 9,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30875
+    "followers": 30877
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -234,7 +234,7 @@
   "lisadow1": {
     "id": "495469781",
     "username": "LisaDow1",
-    "seen": 2,
+    "seen": 3,
     "name": "Lisa Dow",
     "bio": "Physiotherapist BScHK, BScPT, Virtual Pulmonary Rehab provider, founder Keep Breathing  Program & Keep Moving Functional Fitness with a Physio",
     "followers": 442
@@ -242,7 +242,7 @@
   "mycopdteam": {
     "id": "2163361686",
     "username": "myCOPDteam",
-    "seen": 3,
+    "seen": 4,
     "name": "myCOPDteam",
     "bio": "The social network for people living with COPD. We now have 75,000 members! Find support. #COPD #Emphysema #ChronicBronchitis #Alpha1",
     "followers": 1486
@@ -346,7 +346,7 @@
   "copdcanada": {
     "id": "497225379",
     "username": "COPDCanada",
-    "seen": 3,
+    "seen": 4,
     "name": "COPD Canada",
     "bio": "COPD Canada is a national non-profit patient advocacy association providing educational information and up-to-date medical news for people living with COPD.",
     "followers": 1361
@@ -354,10 +354,10 @@
   "healioallergy": {
     "id": "1409602508750721033",
     "username": "HealioAllergy",
-    "seen": 3,
+    "seen": 4,
     "name": "Healio Allergy and Asthma",
     "bio": "The content you need, when you need it.",
-    "followers": 636
+    "followers": 637
   },
   "pftrust": {
     "id": "1488883112",
@@ -522,10 +522,10 @@
   "lung_institute": {
     "id": "785387368945741824",
     "username": "Lung_Institute",
-    "seen": 1,
+    "seen": 2,
     "name": "Lung Institute, Makerere University",
     "bio": "East Africa’s first Lung Institute | Advancing lung health through research, treatment & education | Transforming respiratory care @MakerereCHS @Makerere",
-    "followers": 7008
+    "followers": 7017
   },
   "respiratorybmc": {
     "id": "843772062468575232",
@@ -646,5 +646,21 @@
     "name": "ATS_Assemblies",
     "bio": "Follow @ATS_Assemblies for news and updates on the American Thoracic Society’s 14 Assemblies and Sections! 🫁",
     "followers": 5061
+  },
+  "prwukee": {
+    "id": "845622996349976576",
+    "username": "prwukee",
+    "seen": 1,
+    "name": "Pulmonary Rehab Awareness @pulmonaryrehab@bsky)",
+    "bio": "Pulmonary Rehabilitation UK & All Ireland #PulmonaryRehab Exercise & Education for lung illness \nOfficial account Founded in 2016 by Paul Mills & Elaine Smith",
+    "followers": 2630
+  },
+  "templelung": {
+    "id": "1126206643908304899",
+    "username": "TempleLung",
+    "seen": 1,
+    "name": "Temple Lung Center",
+    "bio": "National leader in pulmonology, critical care, sleep med & thoracic surgery. Updates in research & practice for medical professionals.",
+    "followers": 783
   }
 }

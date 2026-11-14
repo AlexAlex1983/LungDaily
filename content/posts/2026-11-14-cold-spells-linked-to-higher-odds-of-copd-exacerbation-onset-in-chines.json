@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-14-cold-spells-linked-to-higher-odds-of-copd-exacerbation-onset-in-chines",
+  "headline": "Cold spells linked to higher odds of COPD exacerbation onset in Chinese case-crossover study",
+  "dek": "A study of 5,634 patients in China found lower temperatures and extreme cold events, especially compound cold spells, were associated with acute exacerbations of COPD, while higher temperatures were not.",
+  "body": "Lower temperatures and extreme cold events were associated with the onset of acute exacerbations of COPD (AECOPD), according to a study published in Chest. Higher temperature was not associated with higher odds of onset.\n\nThe researchers used data from the Acute Exacerbation of Chronic Obstructive Pulmonary Disease Registry (ACURE) and assigned residential temperature exposure using ERA5-Land, a reanalysis dataset of the European Centre for Medium-Range Weather Forecasts. Cold spells were defined as consecutive days below location-specific low-temperature thresholds. Compound cold spells were defined as concurrent daytime and nighttime cold spells. Associations with reported symptom onset were estimated using a time-stratified case-crossover design.\n\nThe analysis included 5,634 patients with AECOPD (mean age 69.4 ± 9.5 years; 78.8% male). The strongest associations were seen for cold spells lasting at least three days and compound cold spells lasting at least two days over lag 0-3 days, with odds ratios of 1.84 (95% CI, 1.22-2.78) and 4.31 (95% CI, 2.07-8.97), respectively.\n\nNearly half of patients had delayed admission within 14 days. Using admission dates rather than onset dates attenuated estimates by 88.8% for cold spells and 84.8% for compound cold spells. The authors concluded that symptom-onset timing may better capture temperature-related associations than admission timing.\n\nAssociations were stronger among older adults, men, smokers, patients with severe AECOPD in the past year or a previous COPD diagnosis, and those who had used a combination inhaler in the preceding year. Cold spells were also associated with higher concentrations of TNF-α, IL-6 and CXCL-11.\n\nThe authors wrote that the findings highlight the need for targeted cold-weather prevention strategies to reduce AECOPD burden. The study is registered at ClinicalTrials.gov (NCT02657525).",
+  "key_quote": "Symptom-onset timing may better capture temperature-related associations than admission timing.",
+  "tags": [
+    "copd",
+    "air-pollution",
+    "trial",
+    "primary-care"
+  ],
+  "people": [
+    "Changyun Zhang",
+    "Hailu Zhu",
+    "Zhaoyang Pan"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T17:08:58+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43014669/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43014669",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43014669/",
+    "title": "Associations between temperatures, extreme temperature events, and onset of acute exacerbations of COPD: a time-stratified case-crossover study in China.",
+    "author_name": "Changyun Zhang, Hailu Zhu, Zhaoyang Pan et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-11T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.10.047",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Changyun Zhang"
+    }
+  },
+  "status": "ready"
+}

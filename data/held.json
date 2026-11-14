@@ -1374,5 +1374,46 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-14-simple-pre-copd-score-predicts-incident-copd-news-report-says",
+    "headline": "Simple 'pre-COPD score' predicts incident COPD, news report says",
+    "dek": "A news item from the limbic reports that a simple 'pre-COPD score' can predict incident COPD, but the available text gives no further detail.",
+    "body": "A news item published by the limbic on 12 November 2026 reports that a simple ‘pre-COPD score’ predicts incident COPD.\n\nThe text available gives only this headline finding. It does not say who developed the score, what it measures, which population or how many people were studied, how well it performed, or where the underlying work was published.\n\nThose details cannot be confirmed from the source provided. Further reporting or the original study would be needed to assess the score's design and accuracy.",
+    "key_quote": "Simple ‘pre-COPD score’ predicts incident COPD",
+    "tags": [
+      "copd",
+      "diagnostics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-14T17:09:08+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 85 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFRxY0IwWVVEZ1o0YmFlX0JhR0poVDJTR1NkdWt3c1laSi1iNmJCZ0JfZmM5OV9nSVJKZmVyNzJpSXZJRlRBVTM4ZmUzQzJYMW9TTk9tV2RIWW5HSE84M1hwUURoMjdCeWNlLWZyZk9ZMnZqbXNWVkgwa1kxalVzdmNGUWN0UQ?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:0f3932c9685960fa",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRFRxY0IwWVVEZ1o0YmFlX0JhR0poVDJTR1NkdWt3c1laSi1iNmJCZ0JfZmM5OV9nSVJKZmVyNzJpSXZJRlRBVTM4ZmUzQzJYMW9TTk9tV2RIWW5HSE84M1hwUURoMjdCeWNlLWZyZk9ZMnZqbXNWVkgwa1kxalVzdmNGUWN0UQ?oc=5",
+      "title": "Simple ‘pre-COPD score’ predicts incident COPD - the limbic",
+      "author_name": "the limbic",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-12T02:42:22+00:00",
+      "extra": {
+        "feed": "Google News — COPD",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
