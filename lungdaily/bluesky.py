@@ -92,14 +92,16 @@ def post(rec: dict, url: str, hashtags: list[str], session: dict) -> str | None:
 
 
 def ensure_avatar(session: dict) -> None:
-    """Give the account the LungDaily avatar once (keeps name/bio set in the app)."""
-    from .util import ROOT
+    """Give the account the LungDaily avatar once (keeps name/bio set in the app). Done once, then
+    remembered in data/bluesky.json, so an avatar changed later in the app is left alone."""
+    from .util import DATA, ROOT
+    state = read_json(DATA / "bluesky.json", {})
+    if state.get("avatar_set"):
+        return
     auth = {"Authorization": f"Bearer {session['accessJwt']}"}
     r = requests.get(f"{PDS}/xrpc/com.atproto.repo.getRecord", headers=auth, timeout=30,
                      params={"repo": session["did"], "collection": "app.bsky.actor.profile", "rkey": "self"})
     rec = r.json().get("value", {}) if r.ok else {}
-    if rec.get("avatar"):
-        return
     img = ROOT / "static" / "icons" / "avatar-400.png"
     if not img.exists():
         return
@@ -112,6 +114,8 @@ def ensure_avatar(session: dict) -> None:
     w = requests.post(f"{PDS}/xrpc/com.atproto.repo.putRecord", headers=auth, timeout=30,
                       json={"repo": session["did"], "collection": "app.bsky.actor.profile", "rkey": "self", "record": rec})
     log.info("Bluesky avatar set: %s", w.status_code)
+    if w.ok:
+        write_json(DATA / "bluesky.json", {**state, "avatar_set": now().isoformat(timespec="seconds")})
 
 
 def run_pending() -> int:
