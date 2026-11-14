@@ -88,7 +88,8 @@
     "2026-11-13-ronald-g-crystal-honoured-with-the-weill-award": "events/events-02.jpg",
     "2026-11-14-zipalertinib-plus-chemotherapy-heads-toward-fda-review-in-egfr-exon-20": "pharma/pharma-24.jpg",
     "2026-11-14-pulmonary-fibrosis-trust-to-take-survey-findings-to-westminster": "cells/cells-02.jpg",
-    "2026-11-14-31-health-groups-urge-us-congress-to-pass-soar-act-before-2027": "events/events-05.jpg"
+    "2026-11-14-31-health-groups-urge-us-congress-to-pass-soar-act-before-2027": "events/events-05.jpg",
+    "2026-11-14-long-term-inhaled-mometasone-linked-to-higher-vcam-1-in-adults-with-si": "asthma/asthma-20.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -179,7 +180,8 @@
     "ctscan/ctscan-14.jpg": 86,
     "pharma/pharma-24.jpg": 87,
     "cells/cells-02.jpg": 88,
-    "events/events-05.jpg": 89
+    "events/events-05.jpg": 89,
+    "asthma/asthma-20.jpg": 90
   },
-  "counter": 89
+  "counter": 90
 }
