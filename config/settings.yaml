@@ -9,7 +9,7 @@ site:
   contact_email: "editor@lungdaily.org"
   x_handle: "LungDaily"                # the site's own X account (without @)
   linkedin_url: "https://www.linkedin.com/company/146950505"   # shown in the site header/footer
-  bluesky_handle: ""                          # e.g. lungdaily.bsky.social — shows Bluesky links on the site
+  bluesky_handle: "lungdaily.bsky.social"                          # e.g. lungdaily.bsky.social — shows Bluesky links on the site
   telegram_channel: ""                        # e.g. @lungdaily
   # Search engines: paste the verification code (content="...") from Google Search Console /
   # Bing Webmaster Tools ("HTML tag" method), then run the `build` action. Leave "" until then.
@@ -21,6 +21,7 @@ site:
   same_as:                                   # official profiles, for the Google logo/knowledge panel markup
     - "https://x.com/LungDaily"
     - "https://www.linkedin.com/company/146950505"
+    - "https://bsky.app/profile/lungdaily.bsky.social"
 
 models:
   triage: "claude-haiku-5-5"      # cheap: scores every collected item
