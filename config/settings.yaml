@@ -113,7 +113,7 @@ amplify:
 # (voices.yaml -> press_email). One per address per week at most. Opt-outs: optout.yaml -> emails.
 featured_email:
   enabled: true
-  send: false                     # false = preview only (listed in the run report); true = send (needs SMTP_* secrets)
+  send: true                      # false = preview only (listed in the run report); true = send (needs SMTP_* secrets)
   per_address_days: 7
   window_hours: 36
   from_name: "LungDaily"
