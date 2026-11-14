@@ -1290,5 +1290,33 @@
       "duplicate": false,
       "reason": "GALA policy view on caregiver burden in chronic respiratory disease"
     }
+  },
+  {
+    "id": "rss:cf3404b8b7a27d07",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTEVWbmZucmI0b2NaamJ2NEJzTWhIQi1KUkotLVloV0twcnJVdW9nd2hES1FTUklMc21CYmpSTFlMbk54WC1qemQ2eWU2ZTlGeUIwOGFJSE85VHJXNnpVa2t6dl9Xa2xRaDFKeDViT29vcVBhZjFrU01xNkJKNDFqcjdmMW1UTU0?oc=5",
+    "title": "Early Dupilumab in Pediatric EoE Tied to Lower Incident Asthma",
+    "text": "Early Dupilumab in Pediatric EoE Tied to Lower Incident Asthma HCPLive",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-14T21:14:31+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-14T21:33:30+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Notable cohort finding linking dupilumab to lower asthma incidence"
+    }
   }
 ]

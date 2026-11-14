@@ -178,9 +178,9 @@
   "msrc_texasstate": {
     "id": "1258054340129873921",
     "username": "MSRC_TexasState",
-    "seen": 3,
+    "seen": 4,
     "name": "MS in Respiratory Care at Texas State University",
-    "bio": "Post-professional, online graduate degree in Respiratory Care. Providing advanced education to respiratory therapists to further their personal or career goals.",
+    "bio": "Post-professional online graduate degree in Respiratory Care. Providing advanced education to respiratory therapists to further their career goals. https://t.co/gn1rhpqmZE",
     "followers": 806
   },
   "allergyasthmahq": {
@@ -686,5 +686,13 @@
     "name": "EGFR Positive Lung Cancer UK",
     "bio": "The only UK charity for EGFR+ lung cancer advocacy, empowerment & support 💜 Our community offers hope & learning for those living with EGFR+. Get involved ⤵",
     "followers": 1620
+  },
+  "lcfamerica": {
+    "id": "86914520",
+    "username": "lcfamerica",
+    "seen": 1,
+    "name": "Lung Cancer Foundation of America",
+    "bio": "Improvement in survivorship of lung cancer patients through funding transformative science. Raise awareness & serve as a resource for anyone seeking answers.",
+    "followers": 4177
   }
 }
