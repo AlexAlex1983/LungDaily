@@ -46,6 +46,10 @@
   "status": "published",
   "published_at": "2026-11-13T08:00:26+00:00",
   "shared": {
-    "x": "2121151421475442836"
+    "x": "2121151421475442836",
+    "featured_preview": {
+      "to": "media@chestnet.org",
+      "at": "2026-11-14T17:51:29+00:00"
+    }
   }
 }
