@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-14-breathe-digital-health-and-ai-are-moving-lung-function-evaluation-towa",
+  "headline": "Breathe: digital health and AI are moving lung function evaluation towards continuous monitoring",
+  "dek": "An ERS publications post says digital tools and AI are shifting lung function assessment from episodic laboratory tests to real-world monitoring.",
+  "body": "Digital health and artificial intelligence (AI) are changing how lung function is evaluated, according to a post by ERS publications on X that refers to the journal Breathe.\n\nThe post said these technologies are \"transforming lung function evaluation from episodic laboratory testing into continuous, real-world monitoring\". It added that this shift supports earlier detection, personalised care and clinician-guided decisions.\n\nThe post is brief and links to further material. It does not give study data, methods, specific technologies or the authors of the Breathe piece, so this report is limited to the summary stated in the post.\n\nERS publications describes its output as including the European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and the European Lung White Book.",
+  "key_quote": "transforming lung function evaluation from episodic laboratory testing into continuous, real-world monitoring",
+  "tags": [
+    "ai",
+    "diagnostics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T11:09:21+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121543737834688965",
+    "url": "https://x.com/ERSpublications/status/2121543737834688965"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121543737834688965",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2121543737834688965",
+    "title": "",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "published_at": "2026-11-14T10:00:18+00:00",
+    "extra": {
+      "tweet_id": "2121543737834688965",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4wyndvJ",
+        "https://x.com/ERSpublications/status/2121543737834688965/photo/1"
+      ],
+      "author_followers": 33473,
+      "author_id": "424241621"
+    }
+  },
+  "status": "ready"
+}

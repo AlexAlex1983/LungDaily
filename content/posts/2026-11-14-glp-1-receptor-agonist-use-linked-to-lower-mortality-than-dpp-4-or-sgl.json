@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-14-glp-1-receptor-agonist-use-linked-to-lower-mortality-than-dpp-4-or-sgl",
+  "headline": "GLP-1 receptor agonist use linked to lower mortality than DPP-4 or SGLT2 inhibitors in bronchiectasis with type 2 diabetes",
+  "dek": "A retrospective TriNetX cohort study found GLP-1RA use was associated with lower all-cause mortality, acute respiratory failure and lower respiratory tract infection, but not fewer bronchiectasis exacerbations.",
+  "body": "Patients with bronchiectasis and type 2 diabetes who used glucagon-like peptide-1 receptor agonists (GLP-1RAs) had lower mortality and fewer respiratory complications than those taking dipeptidyl peptidase-4 inhibitors (DPP-4i) or sodium-glucose cotransporter-2 inhibitors (SGLT2i), according to a study published in Chest.\n\nThe authors, led by Kuo-Ming Liao, Yao-Ming Chuang and Wan-Hsuan Hsu, conducted a retrospective cohort study using the TriNetX global federated research network. It included patients with bronchiectasis and type 2 diabetes who started GLP-1RA therapy between 1 June 2022 and 30 May 2025. Outcomes were all-cause mortality, bronchiectasis exacerbation, acute respiratory failure and lower respiratory tract infection. Propensity score matching was used to balance baseline characteristics.\n\nAfter matching, the GLP-1RA versus DPP-4i comparison included 1,029 patients per group, and the GLP-1RA versus SGLT2i comparison included 2,255 patients per group. Against DPP-4i, GLP-1RA use was associated with lower all-cause mortality (hazard ratio [HR] 0.43; 95% CI 0.33–0.56), acute respiratory failure (HR 0.46; 95% CI 0.36–0.58) and lower respiratory tract infection (HR 0.55; 95% CI 0.46–0.65).\n\nAgainst SGLT2i, the corresponding HRs were 0.49 (95% CI 0.40–0.60) for all-cause mortality, 0.46 (95% CI 0.39–0.55) for acute respiratory failure and 0.77 (95% CI 0.68–0.86) for lower respiratory tract infection. Subgroup analyses showed consistent mortality benefits, with particularly pronounced effects in obese patients. There was no statistically significant reduction in bronchiectasis exacerbations.\n\nThe authors concluded that the findings suggest potential disease-modifying benefits of GLP-1RAs in bronchiectasis beyond glycaemic control. As a retrospective cohort analysis, the study reports associations.",
+  "key_quote": "GLP-1RA therapy was associated with significantly lower mortality and reduced respiratory complications compared with DPP-4i or SGLT2i.",
+  "tags": [
+    "bronchiectasis",
+    "therapeutics",
+    "diagnostics"
+  ],
+  "people": [
+    "Kuo-Ming Liao",
+    "Yao-Ming Chuang",
+    "Wan-Hsuan Hsu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T11:08:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025805/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43025805",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025805/",
+    "title": "Comparative Effectiveness of GLP-1 Receptor Agonists versus DPP-4 and SGLT2 Inhibitors in Patients with Bronchiectasis and Type 2 Diabetes.",
+    "author_name": "Kuo-Ming Liao, Yao-Ming Chuang, Wan-Hsuan Hsu et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-13T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.005",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Kuo-Ming Liao"
+    }
+  },
+  "status": "ready"
+}

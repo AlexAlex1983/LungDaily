@@ -1323,5 +1323,56 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-14-us-survey-finds-chronic-cough-in-ipf-and-other-ild-affects-daily-life",
+    "headline": "US survey finds chronic cough in IPF and other ILD affects daily life, sleep and emotional well-being",
+    "dek": "A survey of 197 US adults with idiopathic pulmonary fibrosis or non-IPF interstitial lung disease found widespread physical, emotional and social effects of chronic cough, with limited relief from treatment.",
+    "body": "A cross-sectional survey of patients with interstitial lung disease (ILD) and chronic cough has reported substantial effects on daily activities, sleep, mood and relationships. The findings, from a team led by Jeffrey Swigris, Tejaswini Kulkarni and Charlene Watterston, are published in Chest.\n\nThe online survey was distributed to adults from June to July 2025 through the Pulmonary Fibrosis Foundation's US Community Registry. Participants needed a self-reported diagnosis of idiopathic pulmonary fibrosis (IPF) or non-IPF ILD, and chronic cough, defined as lasting at least eight weeks. Questions covered demographics, disease history, cough characteristics, daily life impact, social and emotional and long-term impact, and healthcare experience.\n\nIn total, 197 participants completed the survey. Of these, 75.63% reported a diagnosis of IPF, 21.32% reported non-IPF ILD, and 3.05% were awaiting further ILD diagnosis. In the preceding week, 76.15% reported cough-related interference with daily activities and 79.69% reported sleep disruption.\n\nEmotional burden was frequently reported: 95.94% had cough-induced worry, 75.13% reported depression, sadness or low mood, and 67.01% said they avoided social situations because of cough. Some 60.91% said chronic cough affected their platonic relationships, and 55.33% reported an impact on their ability or desire to maintain physical or intimate relationships.\n\nParticipants reported using an average of 2.7 therapeutic classes historically and 2.0 classes currently to treat cough, with many reporting limited or no relief. The authors concluded that, among respondents, the burden of chronic cough is physical, psychological and psychosocial, and that reports of limited relief suggest an unmet need in managing chronic cough in this population.\n\nThe abstract notes that the survey relied on self-reported diagnoses.",
+    "key_quote": "chronic cough burden manifests physically, psychologically, and psychosocially",
+    "tags": [
+      "ild",
+      "therapeutics",
+      "equity"
+    ],
+    "people": [
+      "Jeffrey Swigris",
+      "Tejaswini Kulkarni",
+      "Charlene Watterston"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-14T11:09:07+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article says the findings are \"from a team led by Jeffrey Swigris, Tejaswini Kulkarni and Charlene Watterston\". The source only lists them as authors, followed by \"et al.\", and says nothing about who led the team. The \"led by\" role is unsupported, and it gives the three named authors a status the source does not.",
+        "Minor: \"The abstract notes that the survey relied on self-reported diagnoses\" frames an eligibility criterion as a limitation the abstract acknowledges. The abstract states only that eligibility required a self-reported diagnosis."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025804/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "pubmed:43025804",
+      "source": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43025804/",
+      "title": "The Burden of Chronic Cough in Patients With Interstitial Lung Disease: a US Survey-Based Analysis of Its Effects on Daily Life and Emotional and Social Well-Being.",
+      "author_name": "Jeffrey Swigris, Tejaswini Kulkarni, Charlene Watterston et al.",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-13T00:00:00+00:00",
+      "extra": {
+        "journal": "Chest",
+        "doi": "10.1016/j.chest.2026.11.003",
+        "pub_types": [
+          "Journal Article"
+        ],
+        "first_author": "Jeffrey Swigris"
+      }
+    },
+    "status": "held"
   }
 ]
