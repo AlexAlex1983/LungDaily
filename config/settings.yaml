@@ -16,7 +16,7 @@ site:
   bing_site_verification: ""
   # Visitor counts: GoatCounter (free, no cookies, no consent banner). Sign up at goatcounter.com,
   # choose a code (e.g. "lungdaily" -> lungdaily.goatcounter.com) and put it here. "" = off.
-  goatcounter: ""
+  goatcounter: "lungdaily"
   same_as:                                   # official profiles, for the Google logo/knowledge panel markup
     - "https://x.com/LungDaily"
     - "https://www.linkedin.com/company/146950505"
