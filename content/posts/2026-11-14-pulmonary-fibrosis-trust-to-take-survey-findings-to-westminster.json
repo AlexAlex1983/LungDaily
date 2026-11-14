@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-13-pulmonary-fibrosis-trust-to-take-survey-findings-to-westminster",
+  "slug": "2026-11-14-pulmonary-fibrosis-trust-to-take-survey-findings-to-westminster",
   "headline": "Pulmonary Fibrosis Trust to take survey findings to Westminster",
   "dek": "The charity said more than 500 people responded to its survey, which it says shows impacts on mental health, independence and finances as well as breathing.",
   "body": "The Pulmonary Fibrosis Trust said more than 500 people had shared their experiences in its pulmonary fibrosis survey. In a post on X, the charity said the responses revealed impacts beyond breathing difficulties, including effects on mental health, independence and financial wellbeing.\n\nThe Trust said it would take the findings to Westminster the following day. The post tagged the account @CommonsHealth. It did not say what form the engagement would take or who would attend.\n\nThe post used the hashtags #HiddenInPlainSight and #PFAwareness.\n\nThe Trust describes its aim as providing personal support to people affected by pulmonary fibrosis, which it calls \"a very debilitating and life-limiting illness\". The post did not set out detailed survey results.",
@@ -41,5 +41,9 @@
       "author_id": "1488883112"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-14T08:00:21+00:00",
+  "shared": {
+    "x": "2121513892761248113"
+  }
 }
