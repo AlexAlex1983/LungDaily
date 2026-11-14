@@ -630,5 +630,21 @@
     "name": "🫁 My Life as an Asthma Mom 🫁",
     "bio": "Certified Asthma Educator, mom to 3 adults with allergies and asthma (inherited from me 😬) chocolate lover and world traveler. my opinions my own",
     "followers": 366
+  },
+  "livelung1": {
+    "id": "701223517099073541",
+    "username": "LiveLung1",
+    "seen": 1,
+    "name": "LiveLung",
+    "bio": "LiveLung is on a mission to improve health outcomes by advancing lung cancer education, early detection, and compassion for people impacted by lung cancer.",
+    "followers": 775
+  },
+  "ats_assemblies": {
+    "id": "2876663831",
+    "username": "ATS_Assemblies",
+    "seen": 1,
+    "name": "ATS_Assemblies",
+    "bio": "Follow @ATS_Assemblies for news and updates on the American Thoracic Society’s 14 Assemblies and Sections! 🫁",
+    "followers": 5061
   }
 }

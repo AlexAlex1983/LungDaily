@@ -1,40 +1,5 @@
 [
   {
-    "id": "x:2121302203625275428",
-    "source": "x",
-    "url": "https://x.com/ERSpublications/status/2121302203625275428",
-    "title": "",
-    "text": "Breathe: Automated lung nodule detection has evolved from rule-based CAD systems to deep learning AI, building on foundational CT imaging studies from the 1990s, and is now playing an increasing role in lung cancer screening https://t.co/iPncmK4RqZ https://t.co/olgcsS4IkQ",
-    "author_name": "ERS publications",
-    "author_handle": "ERSpublications",
-    "author_url": "https://x.com/ERSpublications",
-    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "published_at": "2026-11-13T18:00:31+00:00",
-    "metrics": {
-      "likes": 2,
-      "reposts": 1,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2121302203625275428",
-      "query_kind": "voices",
-      "links": [
-        "https://bit.ly/4whc4yY",
-        "https://x.com/ERSpublications/status/2121302203625275428/photo/1"
-      ],
-      "author_followers": 33473,
-      "author_id": "424241621"
-    },
-    "collected_at": "2026-11-14T05:07:25+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ERS Breathe explainer on AI nodule detection in screening."
-    }
-  },
-  {
     "id": "x:2121498432971919370",
     "source": "x",
     "url": "https://x.com/ERSpublications/status/2121498432971919370",

@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-14-azeem-majeed-relying-mainly-on-reliever-inhalers-for-asthma-is-outdate",
+  "headline": "Azeem Majeed: Relying mainly on reliever inhalers for asthma is outdated",
+  "dek": "The Imperial College London professor said in a post on X that his health column explains why modern asthma treatment centres on airway inflammation.",
+  "body": "Azeem Majeed, Professor of Primary Care & Public Health and Head of the Department of Primary Care & Public Health at Imperial College London, has written about asthma in his health column.\n\nIn a post on X on 14 November 2026, Professor Majeed said the column discusses asthma, which he described as a common respiratory condition. He wrote that the past approach of relying mainly on \"reliever\" inhalers is now outdated.\n\nAccording to Professor Majeed, modern asthma treatment focuses on addressing inflammation in the airways in the lungs. His post linked to the full column. His X profile states that the views he posts there are his own.",
+  "key_quote": "Modern asthma treatment focuses on addressing inflammation in the airways in the lungs.",
+  "tags": [
+    "asthma",
+    "primary-care",
+    "therapeutics"
+  ],
+  "people": [
+    "Azeem Majeed"
+  ],
+  "category": "voices",
+  "score": 7.0,
+  "created_at": "2026-11-14T14:08:14+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121571818771263772",
+    "url": "https://x.com/Azeem_Majeed/status/2121571818771263772"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121571818771263772",
+    "source": "x",
+    "url": "https://x.com/Azeem_Majeed/status/2121571818771263772",
+    "title": "",
+    "author_name": "Professor Azeem Majeed",
+    "author_handle": "Azeem_Majeed",
+    "author_url": "https://x.com/Azeem_Majeed",
+    "published_at": "2026-11-14T11:51:53+00:00",
+    "extra": {
+      "tweet_id": "2121571818771263772",
+      "query_kind": "keywords",
+      "links": [
+        "https://www.express.co.uk/life-style/health/2230912/asthma-inhaler-GP-health-lung-condition/amp"
+      ],
+      "author_followers": 25169,
+      "author_id": "1396575560"
+    }
+  },
+  "status": "ready"
+}
