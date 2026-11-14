@@ -97,7 +97,8 @@
     "2026-11-14-glp-1-receptor-agonist-use-linked-to-lower-mortality-than-dpp-4-or-sgl": "airways/airways-27.jpg",
     "2026-11-14-dr-arvind-kumar-air-pollution-is-an-existential-crisis-serious-impleme": "pollution/pollution-16.jpg",
     "2026-11-14-breathe-digital-health-and-ai-are-moving-lung-function-evaluation-towa": "data/data-02.jpg",
-    "2026-11-14-aiims-new-delhi-launches-air-care-study-on-air-pollution-and-lung-canc": "pollution/pollution-10.jpg"
+    "2026-11-14-aiims-new-delhi-launches-air-care-study-on-air-pollution-and-lung-canc": "pollution/pollution-10.jpg",
+    "2026-11-14-azeem-majeed-relying-mainly-on-reliever-inhalers-for-asthma-is-outdate": "asthma/asthma-14.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -197,7 +198,8 @@
     "airways/airways-27.jpg": 95,
     "pollution/pollution-16.jpg": 96,
     "data/data-02.jpg": 97,
-    "pollution/pollution-10.jpg": 98
+    "pollution/pollution-10.jpg": 98,
+    "asthma/asthma-14.jpg": 99
   },
-  "counter": 98
+  "counter": 99
 }
