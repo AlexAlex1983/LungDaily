@@ -85,7 +85,8 @@
     "2026-11-13-study-pairs-machine-learning-with-explainability-to-examine-early-pred": "asthma/asthma-11.jpg",
     "2026-11-13-ers-opens-online-registration-for-european-parliament-respiratory-heal": "globe/globe-02.jpg",
     "2026-11-13-fda-feedback-supports-planned-trial-and-possible-early-approval-for-bl": "pharma/pharma-12.jpg",
-    "2026-11-13-ronald-g-crystal-honoured-with-the-weill-award": "events/events-02.jpg"
+    "2026-11-13-ronald-g-crystal-honoured-with-the-weill-award": "events/events-02.jpg",
+    "2026-11-14-zipalertinib-plus-chemotherapy-heads-toward-fda-review-in-egfr-exon-20": "pharma/pharma-24.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -173,7 +174,8 @@
     "asthma/asthma-05.jpg": 83,
     "asthma/asthma-13.jpg": 84,
     "pharma/pharma-11.jpg": 85,
-    "ctscan/ctscan-14.jpg": 86
+    "ctscan/ctscan-14.jpg": 86,
+    "pharma/pharma-24.jpg": 87
   },
-  "counter": 86
+  "counter": 87
 }
