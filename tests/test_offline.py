@@ -189,6 +189,39 @@ assert 'class="hero"' in _page
 (_images.IMAGES / f"{rec['slug']}.jpg").unlink()
 _home = (site / "index.html").read_text()
 
+# awareness days: date rules, windows, hashtags, ranking boost, banner + day page
+import datetime as _dt
+from lungdaily import awareness as _aw
+assert _aw.date_for("third wednesday of november", 2026) == _dt.date(2026, 11, 18)
+assert _aw.date_for("third wednesday of november", 2027) == _dt.date(2027, 11, 17)
+assert _aw.date_for("first tuesday of may", 2026) == _dt.date(2026, 5, 5)
+assert _aw.date_for("last friday of december", 2026) == _dt.date(2026, 12, 25)
+assert _aw.date_for("03-24", 2027) == _dt.date(2027, 3, 24)
+_at = _dt.datetime(2026, 11, 16, 9, tzinfo=_dt.timezone.utc)
+assert [d["slug"] for d in _aw.active(_at)] == ["world-copd-day"]
+assert not any(d["slug"] == "world-copd-day" for d in _aw.active(_dt.datetime(2026, 11, 20, tzinfo=_dt.timezone.utc)))
+assert _aw.matches({"match": [" TB "]}, "new TB drug") and not _aw.matches({"match": [" TB "]}, "TBS and HTTP")
+_o.environ["LUNGDAILY_NOW"] = "2026-11-16T09:00:00+00:00"
+assert any(k == "awareness" and "#WorldCOPDDay" in q for k, q in _bq())
+assert any("World COPD Day" in f["name"] for f in _aw.rss_feeds())
+_copd = {"headline": "GOLD: early COPD diagnosis", "body": "Spirometry matters.", "tags": ["copd"]}
+assert amplify.x_text(_copd, "https://lungdaily.org/x", {"x_hashtags": 2}).count("#WorldCOPDDay") == 1
+_ai = {"id": "9", "title": "COPD", "text": "COPD case-finding", "triage": {"score": 8, "category": "research"}}
+assert process.rank(_ai, {"awareness_boost": 1.0}) == 9.0 and process.rank(_ai, {}) == 8.0
+build.build()
+_home = (site / "index.html").read_text()
+assert 'class="awareness"' in _home and "World COPD Day is on Wednesday 18 November" in _home, "banner missing"
+_day = (site / "days" / "world-copd-day" / "index.html").read_text()
+assert "World COPD Day 2026" in _day and "news/" in _day, "day page missing coverage"
+assert "/days/world-copd-day/" in (site / "sitemap.xml").read_text()
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
+build.build()
+assert 'class="awareness"' not in (site / "index.html").read_text()
+_sm = (site / "sitemap.xml").read_text()
+assert "<lastmod>" in _sm and "/about/" in _sm
+_art = arts[0].read_text()
+assert '"author"' in _art and '"dateModified"' in _art
+
 # takedown
 slug = arts[0].parent.name
 import yaml

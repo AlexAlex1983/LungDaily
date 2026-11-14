@@ -300,7 +300,9 @@ def run_pending() -> int:
             log.info("LinkedIn: daily cap of %d reached, rest wait for the next run", cap)
             break
         url = f"{base}/news/{rec['slug']}/"
-        tags = [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS][: int(acfg.get("linkedin_hashtags", 3))]
+        from .awareness import hashtags_for
+        tags = [h[1:] for h in hashtags_for(rec)[:1]]
+        tags = (tags + [HASHTAGS[t][1:] for t in rec.get("tags") or [] if t in HASHTAGS])[: int(acfg.get("linkedin_hashtags", 3))]
         if use_make:
             res = post_via_make(rec, url, f"{base}/cards/{rec['slug']}.png?v={stamp}", tags,
                                 int(acfg.get("linkedin_max_mentions", 3)))

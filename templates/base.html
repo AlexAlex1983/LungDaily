@@ -13,12 +13,15 @@
 <link rel="apple-touch-icon" href="{{ base }}/static/icons/apple-touch-icon.png">
 <link rel="manifest" href="{{ base }}/site.webmanifest">
 <meta name="theme-color" content="#0B6E73">
+{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">{% endif %}
+{% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{ site.bing_site_verification }}">{% endif %}
 <meta property="og:site_name" content="{{ site.name }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}static/style.css?v={{ build_id }}">
 {% block head %}{% endblock %}
+{% if site.goatcounter %}<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>{% endif %}
 </head>
 <body>
 <header class="masthead">
@@ -45,6 +48,12 @@
     </div>
   </nav>
 </header>
+{% for d in awareness_banner or [] %}
+<div class="awareness"><div class="wrap awareness-in">
+  <span><b>{% if d.is_today %}Today is {{ d.name }}{% elif d.days_to_go > 0 %}{{ d.name }} is on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% else %}{{ d.name }} was on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% endif %}</b>{% if d.hashtag %} · {{ d.hashtag }}{% endif %}</span>
+  <a href="{{ root }}days/{{ d.slug }}/">Our coverage →</a>
+</div></div>
+{% endfor %}
 <main class="wrap">
 {% block content %}{% endblock %}
 </main>

@@ -10,6 +10,13 @@ site:
   x_handle: "LungDaily"                # the site's own X account (without @)
   linkedin_url: "https://www.linkedin.com/company/146950505"   # shown in the site header/footer
   telegram_channel: ""                        # e.g. @lungdaily
+  # Search engines: paste the verification code (content="...") from Google Search Console /
+  # Bing Webmaster Tools ("HTML tag" method), then run the `build` action. Leave "" until then.
+  google_site_verification: ""
+  bing_site_verification: ""
+  # Visitor counts: GoatCounter (free, no cookies, no consent banner). Sign up at goatcounter.com,
+  # choose a code (e.g. "lungdaily" -> lungdaily.goatcounter.com) and put it here. "" = off.
+  goatcounter: ""
   same_as:                                   # official profiles, for the Google logo/knowledge panel markup
     - "https://x.com/LungDaily"
     - "https://www.linkedin.com/company/146950505"
@@ -33,6 +40,7 @@ limits:
   x_max_queries_per_run: 6
   x_max_results_by_kind:          # per query kind (voices / keywords / people); others use the line above
     people: 20                    # People search: ~20 reads x 6 runs a day
+    awareness: 20                 # awareness-day hashtag search (only in the days around each day)
   linkedin_max_posts_per_profile: 5
   linkedin_search_max_results: 25
   pubmed_max: 40
@@ -47,6 +55,7 @@ selection:                        # how the best items are chosen each run
   max_per_author_per_run: 1       # one article per account/author per run
   max_per_author_per_day: 2       # so a prolific journal or society cannot fill the site
   person_boost: 0.5               # individuals rank slightly above organisations at equal score
+  awareness_boost: 1.0            # items about an awareness day in its window (config/awareness.yaml)
   category_boost:                 # help under-served sections
     people: 1.0
     approvals: 1.0

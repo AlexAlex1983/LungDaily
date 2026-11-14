@@ -293,6 +293,10 @@ def rank(item: dict, sel: dict) -> float:
     boost = float((sel.get("category_boost") or {}).get(t["category"], 0))
     if t.get("author_type") == "person":
         boost += float(sel.get("person_boost", 0))
+    if sel.get("awareness_boost"):
+        from .awareness import days_for
+        if days_for(item):          # e.g. a COPD item in the days around World COPD Day
+            boost += float(sel["awareness_boost"])
     return t["score"] + boost
 
 

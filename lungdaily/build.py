@@ -9,7 +9,7 @@ from xml.sax.saxutils import escape
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import images
+from . import awareness, images
 from .util import POSTS, ROOT, iso, load_yaml, log, now, parse_date, read_json, settings, write_json
 
 OUT = ROOT / "site"
@@ -66,7 +66,8 @@ def build() -> int:
     env.filters["isodate"] = iso
     ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year,
            "build_id": now().strftime("%Y%m%d%H%M"),
-           "today": f"{now().strftime('%A')}, {now().day} {now().strftime('%B %Y')}"}
+           "today": f"{now().strftime('%A')}, {now().day} {now().strftime('%B %Y')}",
+           "awareness_banner": awareness.active()}
 
     _write(OUT / "index.html", env.get_template("index.html").render(
         **ctx, root="./", posts=posts[:40], front=front_page(posts),
@@ -107,8 +108,20 @@ def build() -> int:
     for page in ("about", "editorial-policy", "opt-out"):
         _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, root="../", title=f"{page.replace('-', ' ').title()} — {site['name']}"))
 
+    day_slugs = []
+    for day, sel in awareness_pages(posts):
+        day_slugs.append(day["slug"])
+        when = f"{day['date'].strftime('%A')} {day['date'].day} {day['date'].strftime('%B %Y')}"
+        intro = (f"{day['name']} {'is' if day['date'] >= now().date() else 'was'} on {when}"
+                 + (f", led by {day['organiser']}" if day.get("organiser") else "")
+                 + f". Our latest coverage{' · ' + day['hashtag'] if day.get('hashtag') else ''}.")
+        _write(OUT / "days" / day["slug"] / "index.html", env.get_template("index.html").render(
+            **ctx, root="../../", posts=sel[:60], title=f"{day['name']} {day['date'].year} — {site['name']}",
+            heading=f"{day['name']} {day['date'].year}", intro=intro, active="days",
+            empty_text="Coverage will appear here in the days around the date."))
+
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
-    _write(OUT / "sitemap.xml", sitemap(posts, base))
+    _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs))
     _write(OUT / "news-sitemap.xml", news_sitemap(posts, site, base))
     _write(OUT / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\nSitemap: {base}/news-sitemap.xml\n")
     _write(OUT / "site.webmanifest", json.dumps({
@@ -150,9 +163,29 @@ def rss(posts, site, base) -> str:
             f"<description>{escape(site.get('description') or site['tagline'])}</description><language>en</language>{items}</channel></rss>")
 
 
-def sitemap(posts, base) -> str:
-    urls = [f"{base}/"] + [f"{base}/{c}/" for c in CATEGORY_LABELS] + [f"{base}/news/{p['slug']}/" for p in posts]
-    body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
+def awareness_pages(posts: list[dict]) -> list[tuple[dict, list[dict]]]:
+    """(day, matching posts) for each awareness day this year that is active or has coverage.
+
+    Coverage = articles about the day published from 14 days before to 7 days after it."""
+    import datetime as dt
+    active = {d["slug"] for d in awareness.active()}
+    out = []
+    for day in awareness.all_days():
+        lo, hi = day["date"] - dt.timedelta(days=14), day["date"] + dt.timedelta(days=7)
+        sel = [p for p in posts if lo <= p["date"].date() <= hi and awareness.matches(day, awareness.item_text(p))]
+        if sel or day["slug"] in active:
+            out.append((day, sel))
+    return out
+
+
+def sitemap(posts, base, day_slugs=()) -> str:
+    pages = [(f"{base}/", None)] + [(f"{base}/{c}/", None) for c in CATEGORY_LABELS]
+    pages += [(f"{base}/days/{s}/", None) for s in day_slugs]
+    pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out")]
+    pages += [(f"{base}/news/{p['slug']}/", p["date"]) for p in posts]
+    if posts:
+        pages[0] = (pages[0][0], posts[0]["date"])
+    body = "".join(f"<url><loc>{u}</loc>" + (f"<lastmod>{iso(d)}</lastmod>" if d else "") + "</url>" for u, d in pages)
     return f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>'
 
 

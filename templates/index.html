@@ -26,8 +26,8 @@
 {% endblock %}
 {% block content %}
 {% if not posts %}
-  {% if heading %}<h1 class="section-title">{{ heading }}</h1>{% endif %}
-  <p class="empty">No articles yet — the first ones appear after the next pipeline run.</p>
+  {% if heading %}<header class="section-head"><h1 class="section-title">{{ heading }}</h1>{% if intro %}<p class="section-intro">{{ intro }}</p>{% endif %}</header>{% endif %}
+  <p class="empty">{{ empty_text or "No articles yet — the first ones appear after the next pipeline run." }}</p>
 
 {% elif not heading and front %}
   <h1 class="visually-hidden">{{ site.name }}: {{ site.tagline }}</h1>
@@ -90,6 +90,7 @@
 {% else %}
   <header class="section-head cat-{{ active }}">
     <h1 class="section-title">{{ heading }}</h1>
+    {% if intro %}<p class="section-intro">{{ intro }}</p>{% endif %}
   </header>
   {% set lead = posts[0] %}
   <article class="lead lead-solo cat-{{ lead.category }}">

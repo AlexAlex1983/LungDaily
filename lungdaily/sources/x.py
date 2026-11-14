@@ -37,6 +37,8 @@ def build_queries() -> list[tuple[str, str]]:
     voices = [v["x"] for v in load_yaml("voices.yaml").get("voices", []) if v.get("x")]
     keywords = load_yaml("topics.yaml").get("keywords", [])
     out = [("voices", q) for q in _chunks([f"from:{h}" for h in voices], "-is:retweet")]
+    from ..awareness import x_queries
+    out += [("awareness", q) for q in x_queries()]   # e.g. #WorldCOPDDay in the days around it
     out += [("keywords", q) for q in _chunks(keywords, "lang:en -is:retweet -is:reply")]
     people_q = (load_yaml("topics.yaml").get("people_query") or "").strip()
     if people_q:   # appointments, awards, obituaries — feeds the People section

@@ -90,7 +90,8 @@ def x_text(rec: dict, url: str, cfg: dict, site: dict | None = None) -> str:
     """Headline, tags, hashtags and link, fitted to 280 characters (links count as 23)."""
     site = site or {}
     tags = " ".join(f"@{h}" for h in mentions_for(rec, cfg, site))
-    hashtags = []
+    from .awareness import hashtags_for
+    hashtags = hashtags_for(rec)[:1]   # awareness day hashtag first (e.g. #WorldCOPDDay)
     for t in rec.get("tags") or []:
         if t in HASHTAGS and HASHTAGS[t] not in hashtags:
             hashtags.append(HASHTAGS[t])

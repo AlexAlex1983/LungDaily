@@ -1,0 +1,67 @@
+# Respiratory awareness days. Around each day (days_before .. days_after) the pipeline:
+#   * adds an extra Google News query and an X hashtag search for the day,
+#   * gives matching items a ranking boost (settings.yaml -> awareness.boost),
+#   * puts the day's hashtag first on X/LinkedIn posts about it,
+#   * shows a banner on the homepage linking to the day's page (/days/<slug>/).
+# date: "MM-DD" for a fixed date, or e.g. "third wednesday of november".
+# match: words/phrases (case-insensitive) that make an article "about" the day.
+# Dates as listed by FIRS for 2026; World COPD Day = third Wednesday of November (GOLD).
+
+days_before: 3
+days_after: 1
+
+days:
+  - slug: world-copd-day
+    name: "World COPD Day"
+    date: "third wednesday of november"
+    organiser: "GOLD"
+    hashtag: "#WorldCOPDDay"
+    days_before: 5            # big day: start the lead-up coverage earlier
+    match: ["COPD", "chronic obstructive", "emphysema", "WorldCOPDDay", "World COPD Day", "spirometry"]
+    news_query: '"World COPD Day" OR COPD'
+  - slug: world-pneumonia-day
+    name: "World Pneumonia Day"
+    date: "11-12"
+    hashtag: "#WorldPneumoniaDay"
+    match: ["pneumonia", "WorldPneumoniaDay", "pneumococcal", "RSV"]
+    news_query: '"World Pneumonia Day" OR pneumonia'
+  - slug: world-tb-day
+    name: "World TB Day"
+    date: "03-24"
+    organiser: "WHO"
+    hashtag: "#WorldTBDay"
+    match: ["tuberculosis", " TB ", "WorldTBDay", "World TB Day"]
+    news_query: '"World TB Day" OR tuberculosis'
+  - slug: world-asthma-day
+    name: "World Asthma Day"
+    date: "first tuesday of may"
+    organiser: "GINA"
+    hashtag: "#WorldAsthmaDay"
+    match: ["asthma", "WorldAsthmaDay", "inhaler"]
+    news_query: '"World Asthma Day" OR asthma'
+  - slug: world-no-tobacco-day
+    name: "World No Tobacco Day"
+    date: "05-31"
+    organiser: "WHO"
+    hashtag: "#NoTobacco"
+    match: ["tobacco", "smoking", "cigarette", "vaping", "e-cigarette", "nicotine", "NoTobacco"]
+    news_query: '"World No Tobacco Day" OR tobacco'
+  - slug: world-bronchiectasis-day
+    name: "World Bronchiectasis Day"
+    date: "07-01"
+    hashtag: "#WorldBronchiectasisDay"
+    match: ["bronchiectasis", "WorldBronchiectasisDay"]
+    news_query: '"World Bronchiectasis Day" OR bronchiectasis'
+  - slug: world-lung-cancer-day
+    name: "World Lung Cancer Day"
+    date: "08-01"
+    hashtag: "#WorldLungCancerDay"
+    match: ["lung cancer", "NSCLC", "SCLC", "lung cancer screening", "WorldLungCancerDay"]
+    news_query: '"World Lung Cancer Day" OR "lung cancer"'
+  - slug: world-lung-day
+    name: "World Lung Day"
+    date: "09-25"
+    organiser: "FIRS"
+    hashtag: "#WorldLungDay"
+    match: ["lung health", "respiratory", "WorldLungDay", "World Lung Day", "lungs"]
+    news_query: '"World Lung Day" OR "lung health"'

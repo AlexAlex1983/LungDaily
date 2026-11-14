@@ -88,6 +88,13 @@ a.thumb:hover img{transform:scale(1.03)}
 /* ---------- section pages ---------- */
 .section-head{border-top:3px solid var(--c,var(--ink));padding-top:12px;margin-bottom:24px}
 .section-title{font:700 2.4rem/1.1 var(--serif);margin:0}
+.section-intro{color:var(--muted);max-width:720px;margin:8px 0 0}
+
+/* ---------- awareness-day banner ---------- */
+.awareness{background:var(--accent);color:#fff;font-size:.9rem}
+.awareness-in{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:40px;flex-wrap:wrap}
+.awareness a{color:#fff;font-weight:600;text-decoration:none;white-space:nowrap}
+.awareness a:hover{text-decoration:underline}
 .lead-solo{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:center;padding-bottom:28px;margin-bottom:28px;border-bottom:1px solid var(--line)}
 .lead-solo .thumb{margin:0}
 .lead-solo h2{margin-top:0}

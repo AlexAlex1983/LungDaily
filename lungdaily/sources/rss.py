@@ -50,7 +50,8 @@ def parse_feed(xml_text: str, feed_name: str, limit: int) -> list[dict]:
 def collect() -> list[dict]:
     lim = settings()["limits"]["rss_max_per_feed"]
     items = []
-    for feed in load_yaml("topics.yaml").get("rss_feeds", []):
+    from ..awareness import rss_feeds as awareness_feeds
+    for feed in load_yaml("topics.yaml").get("rss_feeds", []) + awareness_feeds():
         try:
             r = requests.get(feed["url"], timeout=30, headers={"User-Agent": "LungDaily/1.0 (+news aggregator)"})
             r.raise_for_status()
