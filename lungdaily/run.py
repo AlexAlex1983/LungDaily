@@ -11,6 +11,10 @@
   python -m lungdaily.run linkedin-test    send the newest article to the Make webhook once (setup)
   python -m lungdaily.run linkedin         share new articles on the LinkedIn page (after deploy)
   python -m lungdaily.run follow           follow relevant respiratory accounts on X
+  python -m lungdaily.run social           after deploy: LinkedIn + Bluesky + "you've been featured" emails
+  python -m lungdaily.run from-url <url> [category]  write an article from a press release / announcement link
+  python -m lungdaily.run qa <content/qa/file.md>   publish an email Q&A (answers as given) at the next slot
+  python -m lungdaily.run newsletter [force]  create this week's newsletter in Buttondown
   python -m lungdaily.run release <slug> publish a held article
   python -m lungdaily.run discard <slug> drop a held article
 """
@@ -47,6 +51,30 @@ def main(argv: list[str]) -> int:
         linkedin_share.run_pending()
     elif cmd == "follow":
         follow.run()
+    elif cmd == "social":
+        from . import bluesky, featured, linkedin_share
+        for name, fn in (("LinkedIn", linkedin_share.run_pending), ("Bluesky", bluesky.run_pending)):
+            try:
+                fn()
+            except Exception as e:   # one channel failing must not stop the others
+                log.error("%s sharing failed: %s", name, e)
+        try:
+            featured.summary(featured.run())
+        except Exception as e:
+            log.error("Featured emails failed: %s", e)
+    elif cmd == "from-url" and len(argv) > 1:
+        from . import submit
+        slug = submit.from_url(argv[1], argv[2] if len(argv) > 2 else "")
+        build.build()
+        return 0 if slug else 2
+    elif cmd == "qa" and len(argv) > 1:
+        from . import submit
+        slug = submit.qa(argv[1])
+        build.build()
+        return 0 if slug else 2
+    elif cmd == "newsletter":
+        from . import newsletter
+        newsletter.run(force=len(argv) > 1 and argv[1] == "force")
     elif cmd == "all":
         collect.run()
         stats = process.run()

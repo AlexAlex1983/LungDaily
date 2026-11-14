@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block description %}Send {{ site.name }} your news: studies, guidelines, approvals, appointments, awards and events from the lung health community.{% endblock %}
+{% block content %}
+<article class="article page">
+<p class="kicker">{{ site.name }}</p>
+<h1>Send us your news</h1>
+<p class="dek">Societies, journals, research groups, patient organisations and companies working on lung health: tell us what is new, and we will consider it for a short, sourced article.</p>
+
+<h2>What we cover</h2>
+<ul>
+  <li><strong>Research</strong> — new studies, reviews and guidelines on COPD, asthma, lung cancer and screening, bronchiectasis, ILD, TB, rehabilitation, air pollution, tobacco and vaping</li>
+  <li><strong>Approvals &amp; trials</strong> — regulatory decisions, trial readouts, new devices and medicines</li>
+  <li><strong>Policy &amp; air</strong> — national and global policy, clean air and tobacco control</li>
+  <li><strong>People</strong> — appointments, elections, awards and honours in the respiratory field</li>
+  <li><strong>Events</strong> — congresses, campaigns, calls for grants and awareness days</li>
+</ul>
+
+<h2>How to send it</h2>
+<p>Email <a href="mailto:{{ site.contact_email }}?subject=News%20for%20{{ site.name }}">{{ site.contact_email }}</a> with:</p>
+<ol>
+  <li>a <strong>link</strong> to your press release, announcement or paper (a public web page is best);</li>
+  <li>two or three lines on why it matters;</li>
+  <li>the <strong>embargo</strong> date and time, if there is one;</li>
+  <li>a contact for questions.</li>
+</ol>
+<p>On X you can also tag <a href="https://x.com/{{ site.x_handle }}">@{{ site.x_handle }}</a>.</p>
+
+<h2>What happens next</h2>
+<ul>
+  <li>If it fits, we publish a short article that links to your original and quotes it word for word.</li>
+  <li>We never publish embargoed material before the embargo lifts.</li>
+  <li>Not every item can be covered; we choose by relevance to the lung health community.</li>
+  <li>Spotted an error after publication? See <a href="{{ root }}opt-out/">corrections &amp; opt-out</a>.</li>
+</ul>
+<p>Articles are produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a> and checked against the source before publication.</p>
+</article>
+{% endblock %}

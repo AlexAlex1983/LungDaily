@@ -222,6 +222,60 @@ assert "<lastmod>" in _sm and "/about/" in _sm
 _art = arts[0].read_text()
 assert '"author"' in _art and '"dateModified"' in _art
 
+# "Send us your news" page + footer link
+build.build()
+assert (site / "submit-news" / "index.html").exists() and "/submit-news/" in (site / "sitemap.xml").read_text()
+assert "Send us news" in (site / "index.html").read_text()
+assert 'class="newsletter"' not in (site / "index.html").read_text()     # no Buttondown username yet
+
+# featured emails: source matching, compose, preview mode + weekly cap
+from lungdaily import featured as _fe
+_ers = next(r for r in (json.loads(x.read_text()) for x in POSTS.glob("*.json"))
+            if r.get("status") == "published" and (r.get("source") or {}).get("author_handle") == "ERSpublications")
+assert _fe.source_voice(_ers)["press_email"] == "press@ersnet.org"
+_subj, _txt, _html = _fe.compose(_ers, _fe.source_voice(_ers), "https://lungdaily.org", {"name": "LungDaily", "tagline": "The Pulse of Respiratory Health", "x_handle": "LungDaily"})
+assert _ers["headline"][:40] in _subj and "/cards/" in _txt and "stop" in _txt and "<img" in _html
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T12:00:00+00:00"
+_prev = _fe.run()
+assert [e["to"] for e in _prev] == ["press@ersnet.org"] and not _prev[0]["sent"], _prev
+assert _fe.run() == []                       # already previewed / weekly cap
+# Bluesky text + hashtag facets (byte offsets)
+from lungdaily import bluesky as _bs
+_t, _f = _bs.post_text({"headline": "Lung health ü study"}, ["#COPD", "#WorldCOPDDay"])
+assert _t == "Lung health ü study\n\n#COPD #WorldCOPDDay"
+_b = _t.encode()
+assert [_b[f["index"]["byteStart"]:f["index"]["byteEnd"]].decode() for f in _f] == ["#COPD", "#WorldCOPDDay"]
+assert len(_bs.post_text({"headline": "x" * 400}, ["#COPD"])[0]) <= 300
+assert _bs.run_pending() == 0                # no credentials -> no-op
+# newsletter: pick + compose (no API key -> composed only)
+from lungdaily import newsletter as _nl
+_picked = _nl.pick(days=30)
+assert len(_picked) >= 3
+_s2, _body = _nl.compose(_picked, {"name": "LungDaily", "tagline": "The Pulse of Respiratory Health", "x_handle": "LungDaily"}, "https://lungdaily.org")
+assert _s2.startswith("The Week in Respiratory Health") and _body.count("### [") == len(_picked)
+# Q&A: refused without consent, published as given with consent
+from lungdaily import submit as _sub
+Path("content/qa").mkdir(parents=True, exist_ok=True)
+_qa = Path("content/qa/test.md")
+_qa.write_text("---\nname: Dr Jane Roe\nrole: Professor\nheadline: 'Q&A: Jane Roe on spirometry'\nlink: https://example.org/roe\ntags: [copd]\nconsent: no\n---\nIntro.\n\n## Why spirometry?\n\nBecause it works.\n")
+assert _sub.qa("content/qa/test.md") is None
+_qa.write_text(_qa.read_text().replace("consent: no", "consent: yes"))
+_qs = _sub.qa("content/qa/test.md")
+_qr = json.loads((POSTS / f"{_qs}.json").read_text())
+assert _qr["status"] == "ready" and "**Why spirometry?**" in _qr["body"] and "Because it works." in _qr["body"]
+# newsletter form + congress banner
+import yaml as _y
+_cfg = _y.safe_load(open("config/settings.yaml")); _cfg["newsletter"]["buttondown_username"] = "lungdaily"
+_y.safe_dump(_cfg, open("config/settings.yaml", "w"))
+_o.environ["LUNGDAILY_NOW"] = "2027-05-16T09:00:00+00:00"
+build.build()
+_home = (site / "index.html").read_text()
+assert "embed-subscribe/lungdaily" in _home
+assert "ATS 2027 is on now, until 19 May" in _home and "New Orleans" in _home, "congress banner"
+assert (site / "days" / "ats-2027" / "index.html").exists()
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
+build.build()
+
 # takedown
 slug = arts[0].parent.name
 import yaml

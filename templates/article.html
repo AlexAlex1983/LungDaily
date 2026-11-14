@@ -53,7 +53,7 @@
   <div class="body">{{ post.html|safe }}</div>
 
   <section class="source">
-    <h2>Original source</h2>
+    <h2>{% if post.kind == "qa" %}About the interviewee{% else %}Original source{% endif %}</h2>
     {% if x_embed %}
       <div class="xpost">
         <blockquote class="twitter-tweet" data-dnt="true" data-conversation="none">
@@ -112,5 +112,10 @@
   <div class="row three">{{ cardrow(more) }}</div>
 </section>
 {% endif %}
+{% include "_newsletter.html" %}
+{% if post.kind == "qa" %}
+<p class="howmade">This Q&amp;A was conducted by email; the answers are published as given, with the interviewee's agreement. Introduction by {{ site.name }} under our <a href="{{ root }}editorial-policy/">editorial standards</a>. Spotted an error? <a href="{{ root }}opt-out/">Request a correction</a>.</p>
+{% else %}
 <p class="howmade">{{ site.name }} reports on public posts, papers and news from the lung health community. This article is based on the source linked above and was produced with AI-assisted tools under our <a href="{{ root }}editorial-policy/">editorial standards</a>; facts and quotes are checked against the original before publication. Featured here, or spotted an error? <a href="{{ root }}opt-out/">Request a correction or removal</a>.</p>
+{% endif %}
 {% endblock %}

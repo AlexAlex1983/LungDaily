@@ -9,6 +9,7 @@ site:
   contact_email: "editor@lungdaily.org"
   x_handle: "LungDaily"                # the site's own X account (without @)
   linkedin_url: "https://www.linkedin.com/company/146950505"   # shown in the site header/footer
+  bluesky_handle: ""                          # e.g. lungdaily.bsky.social — shows Bluesky links on the site
   telegram_channel: ""                        # e.g. @lungdaily
   # Search engines: paste the verification code (content="...") from Google Search Console /
   # Bing Webmaster Tools ("HTML tag" method), then run the `build` action. Leave "" until then.
@@ -100,8 +101,30 @@ amplify:
   linkedin_hashtags: 3            # topic hashtags per LinkedIn post (clickable)
   linkedin_max_mentions: 3        # organisations tagged per LinkedIn post (needs linkedin_id in voices.yaml)
   linkedin_api_version: "202610"  # LinkedIn-Version header (YYYYMM); LinkedIn retires versions after ~1 year
+  bluesky_post: true              # mirror articles to Bluesky (needs BLUESKY_HANDLE + BLUESKY_APP_PASSWORD secrets)
+  bluesky_max_per_run: 3          # posted after deploy; at most this many per run (so a backlog trickles out)
+  bluesky_window_hours: 36        # only articles published within this window
+  bluesky_hashtags: 2
   telegram_post: false
   telegram_admin_report: false    # run report to your private chat: published + held items
+
+# "You've been featured" notes to the press office of the organisation an article is based on
+# (voices.yaml -> press_email). One per address per week at most. Opt-outs: optout.yaml -> emails.
+featured_email:
+  enabled: true
+  send: false                     # false = preview only (listed in the run report); true = send (needs SMTP_* secrets)
+  per_address_days: 7
+  window_hours: 36
+  from_name: "LungDaily"
+  from_address: "editor@lungdaily.org"
+  bcc: "editor@lungdaily.org"     # a copy of every note lands in the editor inbox
+
+# Weekly newsletter "The Week in Respiratory Health" via Buttondown (.github/workflows/newsletter.yml, Fridays)
+newsletter:
+  enabled: true
+  buttondown_username: ""         # Buttondown username -> shows the sign-up form on the site; "" = no form
+  mode: "draft"                   # draft = you review and press Send in Buttondown; send = goes out automatically
+  top_n: 8                        # stories per issue
 
 follow:
   enabled: true

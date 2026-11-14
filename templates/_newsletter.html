@@ -1,0 +1,14 @@
+{% if newsletter.buttondown_username %}
+<section class="newsletter" aria-labelledby="nl-h">
+  <div>
+    <h2 id="nl-h">The Week in Respiratory Health</h2>
+    <p>The week's most important lung-health stories in one short email, every Friday. Free; unsubscribe any time.</p>
+  </div>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/{{ newsletter.buttondown_username }}" method="post" target="_blank" class="nl-form">
+    <label class="visually-hidden" for="nl-email">Email address</label>
+    <input type="email" name="email" id="nl-email" placeholder="you@example.org" required>
+    <input type="hidden" value="1" name="embed">
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+{% endif %}

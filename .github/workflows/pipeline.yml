@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       action:
-        description: "all = full run · publish-slot = publish one ready article if a slot is due · write = collect + write into ready queue · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build"
+        description: "all = full run · publish-slot = publish one ready article if a slot is due · write = collect + write into ready queue · release/discard = act on a held article · build = rebuild site only · linkedin-test = send one sample to Make · check-handles = look up X handles given in slug (comma-separated) · add-image = download image_url as the picture for slug, then build · from-url = write an article from the page at url (press release, announcement) and publish it at the next slot · qa = publish the email Q&A file given in slug (content/qa/<name>.md)"
         type: choice
-        options: [all, publish-slot, write, release, discard, build, linkedin-test, check-handles, add-image]
+        options: [all, publish-slot, write, release, discard, build, linkedin-test, check-handles, add-image, from-url, qa]
         default: all
       slug:
         description: "Article slug (for release/discard/add-image)"
@@ -19,6 +19,12 @@ on:
         required: false
       image_credit:
         description: "add-image: credit line shown under the picture, e.g. NASA Worldview"
+        required: false
+      url:
+        description: "from-url: link to the press release / announcement / news page"
+        required: false
+      category:
+        description: "from-url: optional section — voices, research, policy, approvals, people, events (blank = automatic)"
         required: false
 
 permissions:
@@ -72,6 +78,8 @@ jobs:
           IN_SLUG: ${{ github.event.inputs.slug }}
           IN_IMAGE_URL: ${{ github.event.inputs.image_url }}
           IN_IMAGE_CREDIT: ${{ github.event.inputs.image_credit }}
+          IN_URL: ${{ github.event.inputs.url }}
+          IN_CATEGORY: ${{ github.event.inputs.category }}
         run: |
           ACTION="${{ github.event.inputs.action }}"
           if [ -z "$ACTION" ]; then
@@ -89,6 +97,10 @@ jobs:
           elif [ "$ACTION" = "add-image" ]; then
             python -m lungdaily.run add-image "$IN_SLUG" "$IN_IMAGE_URL" "$IN_IMAGE_CREDIT"
             python -m lungdaily.run build
+          elif [ "$ACTION" = "from-url" ]; then
+            python -m lungdaily.run from-url "$IN_URL" "$IN_CATEGORY"
+          elif [ "$ACTION" = "qa" ]; then
+            python -m lungdaily.run qa "$IN_SLUG"
           elif [ "$ACTION" = "write" ] || [ "$ACTION" = "publish-slot" ]; then
             python -m lungdaily.run "$ACTION"
           elif [ "$ACTION" = "build" ]; then
@@ -112,9 +124,15 @@ jobs:
       - id: deploy
         uses: actions/deploy-pages@v4
 
-      - name: Share on LinkedIn (after deploy, so images are online)
+      - name: Share on LinkedIn + Bluesky, featured emails (after deploy, so images are online)
         if: ${{ github.event.inputs.action != 'discard' }}
         env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAKE_LINKEDIN_WEBHOOK: ${{ secrets.MAKE_LINKEDIN_WEBHOOK }}
           LINKEDIN_ORG_ID: ${{ secrets.LINKEDIN_ORG_ID }}
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
@@ -127,7 +145,7 @@ jobs:
             python -m lungdaily.run linkedin-test
             exit 0
           fi
-          python -m lungdaily.run linkedin
-          git add content
-          git diff --cached --quiet || git commit -m "linkedin: $(date -u +%Y-%m-%dT%H:%MZ)"
+          python -m lungdaily.run social
+          git add content data
+          git diff --cached --quiet || git commit -m "social: $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase -q origin main && git push

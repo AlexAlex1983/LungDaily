@@ -65,3 +65,30 @@ days:
     hashtag: "#WorldLungDay"
     match: ["lung health", "respiratory", "WorldLungDay", "World Lung Day", "lungs"]
     news_query: '"World Lung Day" OR "lung health"'
+
+# Congresses: live coverage mode for the meeting (same machinery, a date range).
+# date/until = first and last congress day (YYYY-MM-DD; dates from the organisers' sites, checked 14 Nov 2026).
+# Add next year's meetings as they are announced.
+congresses:
+  - slug: ats-2027
+    name: "ATS 2027"
+    date: "2027-05-14"
+    until: "2027-05-19"
+    city: "New Orleans"
+    organiser: "the American Thoracic Society"
+    hashtag: "#ATS2027"
+    days_before: 7
+    days_after: 2
+    match: ["ATS 2027", "ATS2027", "ATS International Conference", "American Thoracic Society"]
+    news_query: '"ATS 2027" OR "American Thoracic Society" conference'
+  - slug: ers-congress-2027
+    name: "ERS Congress 2027"
+    date: "2027-09-11"
+    until: "2027-09-14"
+    city: "Milan"
+    organiser: "the European Respiratory Society"
+    hashtag: "#ERSCongress"
+    days_before: 7
+    days_after: 2
+    match: ["ERS Congress", "ERSCongress", "ERS 2027", "European Respiratory Society Congress"]
+    news_query: '"ERS Congress" OR "European Respiratory Society"'

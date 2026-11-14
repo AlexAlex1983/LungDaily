@@ -383,59 +383,66 @@ def run() -> dict:
     held = read_json(HELD, [])
     stats = {"triaged": len(inbox), "candidates": len(candidates), "published": 0, "held": 0, "failed": 0}
     for item in to_write:
-        try:
-            art = write(item)
-        except LLMError as e:
-            log.error("Writer failed for %s: %s", item["id"], e)
-            stats["failed"] += 1
+        if produce(item, held, stats) is False:
             keep.append(item)
-            continue
-        # the writer occasionally wraps the article in a list; anything else unusable is a failed write
-        if isinstance(art, list):
-            art = next((a for a in art if isinstance(a, dict)), None)
-        if not isinstance(art, dict) or not art.get("headline"):
-            log.error("Writer returned no usable article for %s", item["id"])
-            stats["failed"] += 1
-            keep.append(item)
-            continue
-        verdict = check(item, art)
-        date = now().date().isoformat()
-        rec = {
-            "slug": _unique_slug(f"{date}-{slugify(art['headline'])}"),
-            "headline": art["headline"].strip(),
-            "dek": art.get("dek", "").strip(),
-            "body": art.get("body", "").strip(),
-            "key_quote": art.get("key_quote", "").strip(),
-            "tags": [t.lower() for t in art.get("tags", [])][:5],
-            "people": [p for p in art.get("people", []) if p],
-            "category": item["triage"]["category"],
-            "score": item["triage"]["score"],
-            "created_at": now().isoformat(timespec="seconds"),
-            "checker": verdict,
-            "embed": _embed(item),
-            "mentions": source_handles(item),
-            "source": {k: item.get(k) for k in ("id", "source", "url", "title", "author_name", "author_handle",
-                                                 "author_url", "published_at", "extra")},
-        }
-        if pub["auto_publish"] and (verdict["pass"] or not pub["require_checker_pass"]):
-            if pub.get("slots"):
-                save_ready(rec)
-                stats["ready"] = stats.get("ready", 0) + 1
-                log.info("Ready for next slot: %s", rec["headline"])
-            else:
-                publish_record(rec)
-                stats["published"] += 1
-                log.info("Published: %s", rec["headline"])
-        else:
-            rec["status"] = "held"
-            held.append(rec)
-            stats["held"] += 1
-            log.info("Held: %s — %s", rec["headline"], "; ".join(verdict["issues"]) or "auto_publish off")
     write_json(HELD, held)
     write_json(INBOX, keep)
     log.info("Process stats: %s", stats)
     return stats
 
+
+
+def produce(item: dict, held: list, stats: dict):
+    """Write + fact-check one item. Ready/published/held -> slug; writer failure -> False."""
+    cfg = settings()
+    pub = cfg["publishing"]
+    try:
+        art = write(item)
+    except LLMError as e:
+        log.error("Writer failed for %s: %s", item["id"], e)
+        stats["failed"] = stats.get("failed", 0) + 1
+        return False
+    # the writer occasionally wraps the article in a list; anything else unusable is a failed write
+    if isinstance(art, list):
+        art = next((a for a in art if isinstance(a, dict)), None)
+    if not isinstance(art, dict) or not art.get("headline"):
+        log.error("Writer returned no usable article for %s", item["id"])
+        stats["failed"] = stats.get("failed", 0) + 1
+        return False
+    verdict = check(item, art)
+    date = now().date().isoformat()
+    rec = {
+        "slug": _unique_slug(f"{date}-{slugify(art['headline'])}"),
+        "headline": art["headline"].strip(),
+        "dek": art.get("dek", "").strip(),
+        "body": art.get("body", "").strip(),
+        "key_quote": art.get("key_quote", "").strip(),
+        "tags": [t.lower() for t in art.get("tags", [])][:5],
+        "people": [p for p in art.get("people", []) if p],
+        "category": item["triage"]["category"],
+        "score": item["triage"]["score"],
+        "created_at": now().isoformat(timespec="seconds"),
+        "checker": verdict,
+        "embed": _embed(item),
+        "mentions": source_handles(item),
+        "source": {k: item.get(k) for k in ("id", "source", "url", "title", "author_name", "author_handle",
+                                             "author_url", "published_at", "extra")},
+    }
+    if pub["auto_publish"] and (verdict["pass"] or not pub["require_checker_pass"]):
+        if pub.get("slots"):
+            save_ready(rec)
+            stats["ready"] = stats.get("ready", 0) + 1
+            log.info("Ready for next slot: %s", rec["headline"])
+        else:
+            publish_record(rec)
+            stats["published"] += 1
+            log.info("Published: %s", rec["headline"])
+    else:
+        rec["status"] = "held"
+        held.append(rec)
+        stats["held"] = stats.get("held", 0) + 1
+        log.info("Held: %s — %s", rec["headline"], "; ".join(verdict["issues"]) or "auto_publish off")
+    return rec["slug"]
 
 def note_suggestions(items: list[dict]) -> None:
     """Remember X authors (not yet followed) whose keyword-search posts scored >= 8."""

@@ -67,7 +67,7 @@ def build() -> int:
     ctx = {"site": site, "base": base, "categories": CATEGORY_LABELS, "year": now().year,
            "build_id": now().strftime("%Y%m%d%H%M"),
            "today": f"{now().strftime('%A')}, {now().day} {now().strftime('%B %Y')}",
-           "awareness_banner": awareness.active()}
+           "awareness_banner": awareness.active(), "newsletter": cfg.get("newsletter") or {}}
 
     _write(OUT / "index.html", env.get_template("index.html").render(
         **ctx, root="./", posts=posts[:40], front=front_page(posts),
@@ -105,19 +105,27 @@ def build() -> int:
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
             **ctx, root="../../", post=p, related=related, more=same_cat,
             latest=[r for r in posts[:9] if r is not p][:8], title=f"{p['headline']} — {site['name']}", active=p["category"]))
-    for page in ("about", "editorial-policy", "opt-out"):
-        _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(**ctx, root="../", title=f"{page.replace('-', ' ').title()} — {site['name']}"))
+    page_titles = {"submit-news": "Send us your news"}
+    for page in ("about", "editorial-policy", "opt-out", "submit-news"):
+        _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(
+            **ctx, root="../", title=f"{page_titles.get(page, page.replace('-', ' ').title())} — {site['name']}"))
 
     day_slugs = []
     for day, sel in awareness_pages(posts):
         day_slugs.append(day["slug"])
         when = f"{day['date'].strftime('%A')} {day['date'].day} {day['date'].strftime('%B %Y')}"
-        intro = (f"{day['name']} {'is' if day['date'] >= now().date() else 'was'} on {when}"
+        if day.get("until"):
+            when = (f"{day['date'].day} {day['date'].strftime('%B')} to {day['until'].day} "
+                    f"{day['until'].strftime('%B %Y')}" + (f" in {day['city']}" if day.get("city") else ""))
+        intro = (f"{day['name']} {'runs' if day.get('until') else 'is on'} {when}" if (day.get("until") or day["date"]) >= now().date()
+                 else f"{day['name']} {'ran' if day.get('until') else 'was on'} {when}")
+        intro = (intro
                  + (f", led by {day['organiser']}" if day.get("organiser") else "")
                  + f". Our latest coverage{' · ' + day['hashtag'] if day.get('hashtag') else ''}.")
         _write(OUT / "days" / day["slug"] / "index.html", env.get_template("index.html").render(
-            **ctx, root="../../", posts=sel[:60], title=f"{day['name']} {day['date'].year} — {site['name']}",
-            heading=f"{day['name']} {day['date'].year}", intro=intro, active="days",
+            **ctx, root="../../", posts=sel[:60], title=f"{day['name']} — {site['name']}",
+            heading=day["name"] if str(day['date'].year) in day["name"] else f"{day['name']} {day['date'].year}",
+            intro=intro, active="days",
             empty_text="Coverage will appear here in the days around the date."))
 
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
@@ -171,7 +179,7 @@ def awareness_pages(posts: list[dict]) -> list[tuple[dict, list[dict]]]:
     active = {d["slug"] for d in awareness.active()}
     out = []
     for day in awareness.all_days():
-        lo, hi = day["date"] - dt.timedelta(days=14), day["date"] + dt.timedelta(days=7)
+        lo, hi = day["date"] - dt.timedelta(days=14), (day.get("until") or day["date"]) + dt.timedelta(days=7)
         sel = [p for p in posts if lo <= p["date"].date() <= hi and awareness.matches(day, awareness.item_text(p))]
         if sel or day["slug"] in active:
             out.append((day, sel))
@@ -181,7 +189,7 @@ def awareness_pages(posts: list[dict]) -> list[tuple[dict, list[dict]]]:
 def sitemap(posts, base, day_slugs=()) -> str:
     pages = [(f"{base}/", None)] + [(f"{base}/{c}/", None) for c in CATEGORY_LABELS]
     pages += [(f"{base}/days/{s}/", None) for s in day_slugs]
-    pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out")]
+    pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out", "submit-news")]
     pages += [(f"{base}/news/{p['slug']}/", p["date"]) for p in posts]
     if posts:
         pages[0] = (pages[0][0], posts[0]["date"])

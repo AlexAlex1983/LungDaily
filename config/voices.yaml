@@ -7,6 +7,8 @@
 # Not on X: British Thoracic Society (left X in March 2026, LinkedIn only); IPCRG (no longer active on X).
 # Not found / unverified, so left out: Every Breath Counts coalition, ERS assemblies (no separate accounts found).
 # LinkedIn URLs were checked on 8 Nov 2026 (page name matches). FIRS: no LinkedIn company page found.
+# press_email: team press/comms address for "you've been featured" notes (found on the organisation's
+#   own site or press releases, 14 Nov 2026). WHO deliberately has none. GOLD, GINA, FIRS, BTS: none published.
 # Individuals below: handles checked on 8 Nov 2026 with the X API (name and bio match).
 
 voices:
@@ -35,12 +37,14 @@ voices:
     tier: 1
     tags: [asthma, guidelines]
   - name: "International Union Against Tuberculosis and Lung Disease"
+    press_email: "union@theunion.org"
     x: "TheUnion_TBLH"
     linkedin: "https://www.linkedin.com/company/theunion-tblh/"
     aliases: ["The Union"]
     tier: 1
     tags: [tb, tobacco, global]
   - name: "Vital Strategies"
+    press_email: "press@vitalstrategies.org"
     x: "VitalStrat"
     linkedin: "https://www.linkedin.com/company/vital-strategies/"
     tier: 2
@@ -66,29 +70,34 @@ voices:
 
   # --- International professional societies ---------------------------------------------
   - name: "European Respiratory Society"
+    press_email: "press@ersnet.org"
     x: "EuroRespSoc"
     linkedin: "https://www.linkedin.com/company/european-respiratory-society/"
     aliases: ["ERS"]
     tier: 1
     tags: [society]
   - name: "ERS publications"
+    press_email: "press@ersnet.org"
     x: "ERSpublications"
     aliases: ["European Respiratory Journal", "European Respiratory Review", "ERJ Open Research"]
     tier: 2
     tags: [journals]
   - name: "American Thoracic Society"
+    press_email: "communications@thoracic.org"
     x: "atscommunity"
     linkedin: "https://www.linkedin.com/company/american-thoracic-society_2/"
     aliases: ["ATS"]
     tier: 1
     tags: [society]
   - name: "American College of Chest Physicians"
+    press_email: "media@chestnet.org"
     x: "accpchest"
     linkedin: "https://www.linkedin.com/company/american-college-of-chest-physicians/"
     aliases: ["CHEST"]
     tier: 1
     tags: [society]
   - name: "International Association for the Study of Lung Cancer"
+    press_email: "media@iaslc.org"
     x: "IASLC"
     linkedin: "https://www.linkedin.com/company/iaslc/"
     aliases: ["IASLC"]
@@ -102,23 +111,27 @@ voices:
 
   # --- Patient organisations and national lung associations ----------------------------
   - name: "Global Allergy & Airways Patient Platform"
+    press_email: "info@gaapp.org"
     x: "gaapporg"
     linkedin: "https://www.linkedin.com/company/global-allergy-asthma-patient-platform/"
     aliases: ["GAAPP", "Global Allergy and Airways Patient Platform"]
     tier: 1
     tags: [patients]
   - name: "European Lung Foundation"
+    press_email: "info@europeanlung.org"
     x: "EuropeanLung"
     linkedin: "https://www.linkedin.com/company/european-lung-foundation/"
     aliases: ["ELF"]
     tier: 1
     tags: [patients]
   - name: "American Lung Association"
+    press_email: "media@lung.org"
     x: "LungAssociation"
     linkedin: "https://www.linkedin.com/company/american-lung-association/"
     tier: 2
     tags: [national, patients]
   - name: "Asthma + Lung UK"
+    press_email: "press@asthmaandlung.org.uk"
     x: "asthmalunguk"
     linkedin: "https://www.linkedin.com/company/asthma-lung-uk/"
     aliases: ["Asthma and Lung UK"]
@@ -130,6 +143,7 @@ voices:
     tier: 2
     tags: [society, national]     # left X in March 2026; LinkedIn only
   - name: "Lung Foundation Australia"
+    press_email: "media@lungfoundation.com.au"
     x: "Lungfoundation"
     linkedin: "https://www.linkedin.com/company/lung-foundation-australia/"
     tier: 2

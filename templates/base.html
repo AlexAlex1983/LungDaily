@@ -31,7 +31,9 @@
       <span class="topline-links">
         {% if site.x_handle %}<a href="https://x.com/{{ site.x_handle }}" rel="noopener">X</a>{% endif %}
         {% if site.linkedin_url %}<a href="{{ site.linkedin_url }}" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.bluesky_handle %}<a href="https://bsky.app/profile/{{ site.bluesky_handle }}" rel="noopener">Bluesky</a>{% endif %}
         <a href="{{ root }}rss.xml">RSS</a>
+        <a href="{{ root }}submit-news/">Send us news</a>
       </span>
     </div>
   </div>
@@ -50,8 +52,8 @@
 </header>
 {% for d in awareness_banner or [] %}
 <div class="awareness"><div class="wrap awareness-in">
-  <span><b>{% if d.is_today %}Today is {{ d.name }}{% elif d.days_to_go > 0 %}{{ d.name }} is on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% else %}{{ d.name }} was on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% endif %}</b>{% if d.hashtag %} · {{ d.hashtag }}{% endif %}</span>
-  <a href="{{ root }}days/{{ d.slug }}/">Our coverage →</a>
+  <span><b>{% if d.until %}{{ d.name }}{% if d.days_to_go > 0 %} starts {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% elif d.until >= d.today %} is on now, until {{ d.until.day }} {{ d.until.strftime('%B') }}{% else %} ended on {{ d.until.day }} {{ d.until.strftime('%B') }}{% endif %}{% if d.city %} · {{ d.city }}{% endif %}{% elif d.is_today %}Today is {{ d.name }}{% elif d.days_to_go > 0 %}{{ d.name }} is on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% else %}{{ d.name }} was on {{ d.date.strftime('%A') }} {{ d.date.day }} {{ d.date.strftime('%B') }}{% endif %}</b>{% if d.hashtag %} · {{ d.hashtag }}{% endif %}</span>
+  <a href="{{ root }}days/{{ d.slug }}/">{% if d.until %}Live coverage →{% else %}Our coverage →{% endif %}</a>
 </div></div>
 {% endfor %}
 <main class="wrap">
@@ -73,6 +75,7 @@
         <li><a href="{{ root }}about/">About {{ site.name }}</a></li>
         <li><a href="{{ root }}editorial-policy/">Editorial standards</a></li>
         <li><a href="{{ root }}opt-out/">Corrections &amp; opt-out</a></li>
+        <li><a href="{{ root }}submit-news/">Send us your news</a></li>
         {% if site.contact_email %}<li><a href="mailto:{{ site.contact_email }}">Contact</a></li>{% endif %}
       </ul>
     </div>
@@ -81,6 +84,8 @@
       <ul>
         {% if site.x_handle %}<li><a href="https://x.com/{{ site.x_handle }}">X @{{ site.x_handle }}</a></li>{% endif %}
         {% if site.linkedin_url %}<li><a href="{{ site.linkedin_url }}">LinkedIn</a></li>{% endif %}
+        {% if site.bluesky_handle %}<li><a href="https://bsky.app/profile/{{ site.bluesky_handle }}">Bluesky</a></li>{% endif %}
+        {% if newsletter.buttondown_username %}<li><a href="https://buttondown.com/{{ newsletter.buttondown_username }}">Weekly newsletter</a></li>{% endif %}
         {% if site.telegram_channel %}<li><a href="https://t.me/{{ site.telegram_channel|replace('@','') }}">Telegram</a></li>{% endif %}
         <li><a href="{{ root }}rss.xml">RSS feed</a></li>
       </ul>

@@ -20,6 +20,12 @@ ORDINALS = {"first": 1, "second": 2, "third": 3, "fourth": 4, "last": -1}
 def date_for(rule: str, year: int) -> dt.date:
     """'MM-DD' or e.g. 'third wednesday of november' -> date in that year."""
     rule = str(rule).strip().lower()
+    m = re.fullmatch(r"(\d{4})-(\d{1,2})-(\d{1,2})", rule)
+    if m:   # one-off date (congresses): only in its own year
+        d = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        if d.year != year:
+            raise LookupError
+        return d
     m = re.fullmatch(r"(\d{1,2})-(\d{1,2})", rule)
     if m:
         return dt.date(year, int(m.group(1)), int(m.group(2)))
@@ -46,9 +52,13 @@ def all_days(year: int | None = None) -> list[dict]:
     cfg = _config()
     year = year or now().year
     out = []
-    for d in cfg.get("days") or []:
+    for d in (cfg.get("days") or []) + (cfg.get("congresses") or []):
         rec = dict(d)
-        rec["date"] = date_for(d["date"], year)
+        try:
+            rec["date"] = date_for(d["date"], year)
+        except LookupError:
+            continue
+        rec["until"] = date_for(d["until"], year) if d.get("until") else None
         rec["days_before"] = int(d.get("days_before", cfg.get("days_before", 3)))
         rec["days_after"] = int(d.get("days_after", cfg.get("days_after", 1)))
         out.append(rec)
@@ -61,9 +71,11 @@ def active(at: dt.datetime | None = None) -> list[dict]:
     out = []
     for year in (today.year - 1, today.year, today.year + 1):   # windows can cross New Year
         for d in all_days(year):
-            if d["date"] - dt.timedelta(days=d["days_before"]) <= today <= d["date"] + dt.timedelta(days=d["days_after"]):
-                d["is_today"] = d["date"] == today
+            last = d["until"] or d["date"]
+            if d["date"] - dt.timedelta(days=d["days_before"]) <= today <= last + dt.timedelta(days=d["days_after"]):
+                d["is_today"] = d["date"] <= today <= last
                 d["days_to_go"] = (d["date"] - today).days
+                d["today"] = today
                 out.append(d)
     return out
 
