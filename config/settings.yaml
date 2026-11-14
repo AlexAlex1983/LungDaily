@@ -122,7 +122,7 @@ featured_email:
 # Weekly newsletter "The Week in Respiratory Health" via Buttondown (.github/workflows/newsletter.yml, Fridays)
 newsletter:
   enabled: true
-  buttondown_username: ""         # Buttondown username -> shows the sign-up form on the site; "" = no form
+  buttondown_username: "lungdaily"       # Buttondown username -> shows the sign-up form on the site; "" = no form
   mode: "draft"                   # draft = you review and press Send in Buttondown; send = goes out automatically
   top_n: 8                        # stories per issue
 
