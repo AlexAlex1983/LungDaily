@@ -142,7 +142,9 @@ def run_pending() -> int:
         log.warning("Bluesky avatar check failed: %s", e)
     if not todo:
         return 0
-    todo.sort(key=lambda pr: pr[1].get("published_at", ""))
+    from .util import focus_keys, is_focus
+    fk = focus_keys()
+    todo.sort(key=lambda pr: (not is_focus(pr[1].get("source") or {}, fk), pr[1].get("published_at", "")))
     done = 0
     for p, rec in todo[: int(acfg.get("bluesky_max_per_run", 3))]:
         tags = hashtags_for(rec)[:1]

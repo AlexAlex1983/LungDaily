@@ -100,3 +100,21 @@ def norm_text(s: str) -> str:
 
 def word_count(s: str) -> int:
     return len(re.findall(r"\w+", s or ""))
+
+
+def focus_keys() -> set[str]:
+    """X handles, LinkedIn URLs and names of voices marked focus: true in voices.yaml."""
+    keys = set()
+    for v in load_yaml("voices.yaml").get("voices", []):
+        if v.get("focus"):
+            for k in [v.get("x"), (v.get("linkedin") or "").rstrip("/"), v.get("name")] + list(v.get("aliases") or []):
+                if k:
+                    keys.add(k.lower())
+    return keys
+
+
+def is_focus(src: dict, keys: set[str] | None = None) -> bool:
+    """True if an item / article source comes from a focus voice."""
+    keys = focus_keys() if keys is None else keys
+    vals = [src.get("author_handle"), (src.get("author_url") or "").rstrip("/"), src.get("author_name")]
+    return any(v and v.lower().lstrip("@") in keys for v in vals)

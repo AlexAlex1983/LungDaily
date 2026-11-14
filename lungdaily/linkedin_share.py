@@ -292,7 +292,9 @@ def run_pending() -> int:
     todo = [(p, r) for p, r in recs
             if "linkedin" not in (r.get("shared") or {}) and r.get("linkedin_attempts", 0) < 4
             and (parse_date(r.get("published_at")) or window) > window]
-    todo.sort(key=lambda pr: pr[1].get("published_at", ""))
+    from .util import focus_keys, is_focus
+    fk = focus_keys()
+    todo.sort(key=lambda pr: (not is_focus(pr[1].get("source") or {}, fk), pr[1].get("published_at", "")))   # focus voices first
     posted = 0
     stamp = now().strftime("%Y%m%d%H%M")
     for p, rec in todo:

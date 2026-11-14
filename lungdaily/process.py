@@ -293,6 +293,10 @@ def rank(item: dict, sel: dict) -> float:
     boost = float((sel.get("category_boost") or {}).get(t["category"], 0))
     if t.get("author_type") == "person":
         boost += float(sel.get("person_boost", 0))
+    if sel.get("focus_boost"):
+        from .util import is_focus
+        if is_focus(item):           # owner's priority voices (voices.yaml focus: true)
+            boost += float(sel["focus_boost"])
     if sel.get("awareness_boost"):
         from .awareness import days_for
         if days_for(item):          # e.g. a COPD item in the days around World COPD Day
@@ -353,6 +357,7 @@ def run() -> dict:
     cutoff = now() - dt.timedelta(hours=lim["max_item_age_hours"])
     sel = cfg.get("selection") or {}
     min_by_cat = sel.get("min_score_by_category") or {}
+    from .util import is_focus
     keep, candidates = [], []
     for i in inbox:   # visibility for the People section: what came in and how it scored
         t, ex = i.get("triage"), i.get("extra") or {}
@@ -364,7 +369,8 @@ def run() -> dict:
         t = i.get("triage")
         if t is None:  # triage failed — retry next run
             keep.append(i)
-        elif t["score"] >= float(min_by_cat.get(t["category"], lim["min_score"])) and not t["duplicate"]:
+        elif not t["duplicate"] and (t["score"] >= float(min_by_cat.get(t["category"], lim["min_score"]))
+                                     or (is_focus(i) and t["score"] >= float(sel.get("focus_min_score", 99)))):
             candidates.append(i)
     candidates.sort(key=lambda i: (rank(i, sel), sum(i["metrics"].values())), reverse=True)
 

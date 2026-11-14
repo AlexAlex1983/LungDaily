@@ -57,6 +57,8 @@ selection:                        # how the best items are chosen each run
   max_per_author_per_run: 1       # one article per account/author per run
   max_per_author_per_day: 2       # so a prolific journal or society cannot fill the site
   person_boost: 0.5               # individuals rank slightly above organisations at equal score
+  focus_boost: 1.5                # voices.yaml focus: true (José Luis Castro, Tonya Winders) rank well above others
+  focus_min_score: 6              # ...and need only score 6 to be written (others 7)
   awareness_boost: 1.0            # items about an awareness day in its window (config/awareness.yaml)
   category_boost:                 # help under-served sections
     people: 1.0
