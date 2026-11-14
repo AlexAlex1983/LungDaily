@@ -224,7 +224,10 @@ assert "<lastmod>" in _sm and "/about/" in _sm
 _art = arts[0].read_text()
 assert '"author"' in _art and '"dateModified"' in _art
 
-# "Send us your news" page + footer link
+# "Send us your news" page + footer link (newsletter form off while no Buttondown username)
+import yaml as _y0
+_c0 = _y0.safe_load(open("config/settings.yaml")); _c0["newsletter"]["buttondown_username"] = ""
+_y0.safe_dump(_c0, open("config/settings.yaml", "w"))
 build.build()
 assert (site / "submit-news" / "index.html").exists() and "/submit-news/" in (site / "sitemap.xml").read_text()
 assert "Send us news" in (site / "index.html").read_text()
