@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-14-anchor-ra-study-presented-at-acr26-examines-clinical-clues-for-ra-ild",
+  "headline": "ANCHOR-RA study presented at ACR26 examines clinical clues for RA-ILD screening",
+  "dek": "Dr Jeffrey Sparks presented ANCHOR-RA, a prospective cross-sectional study of risk factors for interstitial lung disease in at-risk patients with rheumatoid arthritis, according to Dr John Cush.",
+  "body": "Dr John Cush wrote on X that Dr Jeffrey Sparks presented findings from the ANCHOR-RA trial in abstract #2884 at #ACR26. The post is headed \"Looking for RA-ILD: 9 Clinical Clues from ANCHOR-RA\".\n\nAccording to Cush's post, ANCHOR-RA is a large prospective cross-sectional study evaluating risk factors for interstitial lung disease (ILD) in at-risk patients with rheumatoid arthritis (RA) who have no known ILD diagnosis. The stated goal was to identify clinical characteristics that can guide screening for RA-ILD.\n\nThe post asks which patients with RA will develop RA-ILD and how such patients can be better identified. The text provided does not list the nine clues or report any results. No journal publication is cited, and the findings were presented as a conference abstract.",
+  "key_quote": "Which of our RA patients will develop RA-ILD, and how can we better identify these patients?",
+  "tags": [
+    "ild",
+    "screening",
+    "trial",
+    "diagnostics"
+  ],
+  "people": [
+    "John Cush",
+    "Jeffrey Sparks"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-14T08:08:20+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121407957296378272",
+    "url": "https://x.com/RheumNow/status/2121407957296378272"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121407957296378272",
+    "source": "x",
+    "url": "https://x.com/RheumNow/status/2121407957296378272",
+    "title": "",
+    "author_name": "Dr. John Cush",
+    "author_handle": "RheumNow",
+    "author_url": "https://x.com/RheumNow",
+    "published_at": "2026-11-14T01:00:45+00:00",
+    "extra": {
+      "tweet_id": "2121407957296378272",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/RheumNow/status/2121407957296378272/photo/1"
+      ],
+      "author_followers": 25979,
+      "author_id": "279184000"
+    }
+  },
+  "status": "ready"
+}

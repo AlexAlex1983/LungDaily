@@ -1,36 +1,68 @@
 [
   {
-    "id": "x:2121407957296378272",
-    "source": "x",
-    "url": "https://x.com/RheumNow/status/2121407957296378272",
-    "title": "",
-    "text": "Looking for RA-ILD: 9 Clinical Clues from ANCHOR-RA \n\nWhich of our RA patients will develop RA-ILD, and how can we better identify these patients? In abstract #2884 at #ACR26 , Dr. Jeffrey Sparks presented findings from ANCHOR-RA trial, a large prospective cross-sectional study evaluating risk factors for interstitial lung disease in at-risk patients with rheumatoid arthritis without a known diagnosis. The goal was to identify the clinical characteristics that can guide screening for RA-ILD. \n\nhttps://t.co/6sAsQlZ1EM",
-    "author_name": "Dr. John Cush",
-    "author_handle": "RheumNow",
-    "author_url": "https://x.com/RheumNow",
-    "author_headline": "Know-it-Now. Info on RA, Stills disease, Lupus, Gout, Pregnancy, Spondylitis, Psoriasis, Drug Safety, Rheumatology Research, Medical Education & Drug Evaluation",
-    "published_at": "2026-11-14T01:00:45+00:00",
+    "id": "pubmed:43025805",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025805/",
+    "title": "Comparative Effectiveness of GLP-1 Receptor Agonists versus DPP-4 and SGLT2 Inhibitors in Patients with Bronchiectasis and Type 2 Diabetes.",
+    "text": "BACKGROUND: Bronchiectasis is a chronic inflammatory airway disease with limited disease-modifying therapies. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) have demonstrated anti-inflammatory and immunomodulatory effects, but their impact on bronchiectasis outcomes remains unknown. RESEARCH QUESTION: Is GLP-1RA use, compared with dipeptidyl peptidase-4 inhibitor (DPP-4i) or sodium-glucose cotransporter-2 inhibitor (SGLT2i) use, associated with better clinical outcomes in patients with bronchiectasis and type 2 diabetes (T2D)? STUDY DESIGN AND METHODS: Using the TriNetX global federated research network, we conducted a retrospective cohort study of patients with bronchiectasis and type 2 diabetes who initiated GLP-1RA therapy between June 1, 2022, and May 30, 2025. We compared clinical outcomes, including all-cause mortality, bronchiectasis exacerbation, acute respiratory failure, and lower respiratory tract infections, with patients receiving DPP-4i) or SGLT2i using propensity score matching to balance baseline characteristics. RESULTS: After propensity score matching, 1,029 patients per group were included in the GLP-1RA versus DPP-4i cohort, and 2,255 patients per group in the GLP-1RA versus SGLT2i cohort. Compared with DPP-4i, GLP-1RA use was associated with significantly lower all-cause mortality (hazard ratio [HR], 0.43; 95% CI, 0.33-0.56) and reduced risks of acute respiratory failure (HR, 0.46; 95% CI, 0.36-0.58) and lower respiratory tract infection (HR, 0.55; 95% CI, 0.46-0.65). Similar benefits were observed compared with SGLT2i for all-cause mortality (HR, 0.49; 95% CI, 0.40-0.60), acute respiratory failure (HR, 0.46; 95% CI, 0.39-0.55), and lower respiratory tract infection (HR, 0.77; 95% CI, 0.68-0.86). Stratified analyses demonstrated consistent mortality benefits across demographic and clinical subgroups, with particularly pronounced effects in obese patients but there was no statistically significant reduction in bronchiectasis exacerbations. INTERPRETATION: Among patients with bronchiectasis and type 2 diabetes, GLP-1RA therapy was associated with significantly lower mortality and reduced respiratory complications compared with DPP-4i or SGLT2i. These findings suggest potential disease-modifying benefits of GLP-1RAs in bronchiectasis beyond glycemic control.",
+    "author_name": "Kuo-Ming Liao, Yao-Ming Chuang, Wan-Hsuan Hsu et al.",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-13T00:00:00+00:00",
     "metrics": {
-      "likes": 3,
+      "likes": 0,
       "reposts": 0,
       "comments": 0
     },
     "extra": {
-      "tweet_id": "2121407957296378272",
-      "query_kind": "keywords",
-      "links": [
-        "https://x.com/RheumNow/status/2121407957296378272/photo/1"
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.005",
+      "pub_types": [
+        "Journal Article"
       ],
-      "author_followers": 25979,
-      "author_id": "279184000"
+      "first_author": "Kuo-Ming Liao"
     },
-    "collected_at": "2026-11-14T05:07:25+00:00",
+    "collected_at": "2026-11-14T08:07:31+00:00",
     "triage": {
       "score": 7.0,
       "category": "research",
       "author_type": "person",
       "duplicate": false,
-      "reason": "Summarises ANCHOR-RA trial RA-ILD risk factors presented at ACR"
+      "reason": "Notable Chest cohort study: GLP-1RA outcomes in bronchiectasis"
+    }
+  },
+  {
+    "id": "pubmed:43025804",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43025804/",
+    "title": "The Burden of Chronic Cough in Patients With Interstitial Lung Disease: a US Survey-Based Analysis of Its Effects on Daily Life and Emotional and Social Well-Being.",
+    "text": "BACKGROUND: Chronic cough (≥8 weeks) is highly prevalent among patients with idiopathic pulmonary fibrosis (IPF) and non-IPF interstitial lung disease (ILD) and imposes significant physical, social, and psychological burden. Research characterizing the burden of chronic cough in patients with IPF and non-IPF ILD from the patient perspective is limited. RESEARCH QUESTION: What is the multidimensional burden of chronic cough in patients living with IPF or non-IPF ILD? STUDY DESIGN AND METHODS: An online cross-sectional survey was distributed to adults from June to July 2025 via the Pulmonary Fibrosis Foundation's US Community Registry. Eligibility required a self-reported diagnosis of IPF or non-IPF ILD and chronic cough. Multiple-choice and open-text questions spanned six domains: demographics, disease history, cough characteristics, daily life impact, social/emotional and long-term impact, and healthcare experience. RESULTS: A total of 197 participants completed the survey: 75.63% reported a diagnosis of IPF, 21.32% reported non-IPF ILD, and 3.05% were awaiting further ILD diagnosis. Participants reported cough-related interference with daily activities (76.15%) and sleep disruption (79.69%) within the preceding week. Emotional burden was frequently reported: 95.94% of participants had cough-induced worry, 75.13% had depression, sadness, or low mood, and 67.01% reported avoiding social situations because of cough. Additionally, 60.91% of participants reported that chronic cough affected their platonic relationships, and 55.33% reported impact on their ability or desire to maintain physical or intimate relationships. To treat cough, participants reported using an average of 2.7 therapeutic classes historically and 2.0 classes currently, with many reporting limited or no relief. INTERPRETATION: Findings from this US survey of patients with IPF or non-IPF ILD and chronic cough indicate that, among respondents, chronic cough burden manifests physically, psychologically, and psychosocially. Reports of limited relief from available therapies suggest an unmet need in managing chronic cough in this patient population. CLINICAL TRIAL REGISTRATION: Not applicable.",
+    "author_name": "Jeffrey Swigris, Tejaswini Kulkarni, Charlene Watterston et al.",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-13T00:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.003",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Jeffrey Swigris"
+    },
+    "collected_at": "2026-11-14T08:07:31+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "person",
+      "duplicate": false,
+      "reason": "Chest survey quantifying chronic cough burden in ILD patients"
     }
   },
   {
@@ -100,6 +132,41 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "AIIMS launches national air pollution and lung cancer study"
+    }
+  },
+  {
+    "id": "x:2121498432971919370",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2121498432971919370",
+    "title": "",
+    "text": "Allergic and T2 biomarkers are highly prevalent in asthma and asthma+COPD but less frequent in COPD. Their patterns show distinct associations, sometimes with opposite trends, across diagnostic groups, suggesting distinct underlying mechanisms that differ. https://t.co/cPoPv3unui https://t.co/3VfolnXvIT",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-14T07:00:16+00:00",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2121498432971919370",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4tI3zMS",
+        "https://x.com/ERSpublications/status/2121498432971919370/photo/1"
+      ],
+      "author_followers": 33474,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-14T08:07:31+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS journals share study on allergic and T2 biomarkers"
     }
   },
   {
@@ -1387,6 +1454,34 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Study comparing nondrug cough therapies in lung cancer, pulmonary rehab leading"
+    }
+  },
+  {
+    "id": "rss:bbbeb2d7cc8c5279",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHV5OXp3dWFUOTJmbHRGRVNXaEozZ2lhcWNJbkpuNU5rRVIyTHVUYkptY0JyMGdHejhBTGxNb3BvSEhkUjBkS2Qxbmk5X1QxOGo4aEYtU3c1UEFDMzZTVWl4TmtqaHd2UGhSTDVaUTVEeXpXMnRpTjdpaENZeVZ1amhVSjVkclZNV21uUk43N1hpeV96QXhPVklDRndhZXdpSWRHbmhISkhBdW43WGhKcU5NZWZydw?oc=5",
+    "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 November 2026",
+    "text": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 November 2026 European Medicines Agency (EMA)",
+    "author_name": "European Medicines Agency (EMA)",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-13T11:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    },
+    "collected_at": "2026-11-14T08:07:31+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "EMA CHMP highlights; text is title only, respiratory relevance unclear"
     }
   }
 ]
