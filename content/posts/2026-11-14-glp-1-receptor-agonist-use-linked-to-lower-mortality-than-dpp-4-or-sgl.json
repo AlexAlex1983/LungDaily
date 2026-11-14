@@ -44,5 +44,9 @@
       "first_author": "Kuo-Ming Liao"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-14T14:00:14+00:00",
+  "shared": {
+    "x": "2121604430827028851"
+  }
 }
