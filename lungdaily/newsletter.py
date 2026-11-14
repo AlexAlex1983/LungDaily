@@ -19,7 +19,7 @@ STATE = DATA / "newsletter.json"
 API = "https://api.buttondown.com/v1/emails"
 
 
-def pick(days: int = 7, n: int = 8) -> list[dict]:
+def pick(days: int = 7, n: int = 8, min_score: float = 0) -> list[dict]:
     since = now() - dt.timedelta(days=days)
     recs = []
     for p in POSTS.glob("*.json"):
@@ -27,6 +27,9 @@ def pick(days: int = 7, n: int = 8) -> list[dict]:
         d = parse_date(r.get("published_at"))
         if r.get("status") == "published" and d and d >= since:
             recs.append(r)
+    good = [r for r in recs if float(r.get("score") or 0) >= min_score]
+    if len(good) >= 5:   # quality bar: skip a section rather than fill it with a weak story
+        recs = good
     recs.sort(key=lambda r: (-float(r.get("score") or 0), r.get("published_at", "")))
     chosen, seen_cat, seen_author = [], set(), set()
     for r in recs:                       # first pass: the best story from each section
@@ -53,7 +56,7 @@ def compose(recs: list[dict], site: dict, base: str) -> tuple[str, str]:
         else f"{start.day}–{end.day} {end.strftime('%B %Y')}"
     subject = f"The Week in Respiratory Health: {recs[0]['headline']}" if recs else "The Week in Respiratory Health"
     lines = [f"*{rng}*", "",
-             f"This week's most important stories from {site['name']}, {site['tagline'].lower()}.", ""]
+             f"This week's most important stories from {site['name']} — {site['tagline']}.", ""]
     for i, r in enumerate(recs):
         url = f"{base}/news/{r['slug']}/"
         label = CATEGORY_LABELS.get(r["category"], r["category"].title())
@@ -84,7 +87,7 @@ def run(force: bool = False) -> bool:
     if state.get("last_week") == week and not force:
         log.info("Newsletter: already created for %s", week)
         return False
-    recs = pick(n=int(ncfg.get("top_n", 8)))
+    recs = pick(n=int(ncfg.get("top_n", 8)), min_score=float(ncfg.get("min_score", 8)))
     if len(recs) < 3:
         log.info("Newsletter: only %d articles this week, skipping", len(recs))
         return False
