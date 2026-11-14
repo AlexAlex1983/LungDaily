@@ -266,7 +266,7 @@
   "healiopulm": {
     "id": "3043251863",
     "username": "HealioPulm",
-    "seen": 2,
+    "seen": 3,
     "name": "Healio Pulmonology",
     "bio": "The content you need, when you need it.",
     "followers": 1201
@@ -450,10 +450,10 @@
   "franciscojlk": {
     "id": "143635215",
     "username": "franciscojlk",
-    "seen": 2,
+    "seen": 3,
     "name": "Dr. Chacón-Lozsán F .'.",
     "bio": "Venezuelan MD in Hungary. Critical Care. Hemodynamics and lung mechanics. @esicm @escardio FESC,FACC. Reseacher. Barista, compulsive reader and traveler.'.",
-    "followers": 4374
+    "followers": 4393
   },
   "pulmonary_news": {
     "id": "774576242",
@@ -570,7 +570,7 @@
   "drtandon07": {
     "id": "50958547",
     "username": "drtandon07",
-    "seen": 1,
+    "seen": 2,
     "name": "Abhishek Tandon",
     "bio": "MD. DM. FCCP. FIAB. FAGE\nConsultant - Respiratory and Sleep Medicine at Medanta Lucknow|| Alum - AIIMS Jodhpur, SGPGI, PGIMS Rohtak, KMC Mangalore. \n#MedTwitter",
     "followers": 3345
@@ -662,5 +662,29 @@
     "name": "Temple Lung Center",
     "bio": "National leader in pulmonology, critical care, sleep med & thoracic surgery. Updates in research & practice for medical professionals.",
     "followers": 783
+  },
+  "acaai": {
+    "id": "36959894",
+    "username": "ACAAI",
+    "seen": 1,
+    "name": "ACAAI",
+    "bio": "The American College of Allergy, Asthma & Immunology is a professional association dedicated to improving patient care through research, advocacy and education.",
+    "followers": 12247
+  },
+  "breathingmatter": {
+    "id": "234327611",
+    "username": "Breathingmatter",
+    "seen": 1,
+    "name": "Breathing Matters",
+    "bio": "Our mission is to raise awareness and inspire fundraising for research into pulmonary fibrosis and lung infection, supporting research at UCL Respiratory",
+    "followers": 2086
+  },
+  "egfruk": {
+    "id": "1096359148332204032",
+    "username": "EgfrUk",
+    "seen": 1,
+    "name": "EGFR Positive Lung Cancer UK",
+    "bio": "The only UK charity for EGFR+ lung cancer advocacy, empowerment & support 💜 Our community offers hope & learning for those living with EGFR+. Get involved ⤵",
+    "followers": 1620
   }
 }
