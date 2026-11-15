@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-14-preliminary-findings-link-long-term-vaping-to-persistent-changes-in-lu",
+  "slug": "2026-11-15-preliminary-findings-link-long-term-vaping-to-persistent-changes-in-lu",
   "headline": "Preliminary findings link long-term vaping to persistent changes in lung function",
   "dek": "BMJ Group said early findings associate long-term vaping with lasting changes in lung function that may increase the risk of COPD.",
   "body": "BMJ Group said on X that preliminary findings link long-term vaping to persistent changes in lung function, which \"may heighten COPD risk\". The post was published on 11 November 2026.\n\nThe post refers to a journal using the handle @TC_BMJ and includes a link to the findings. It does not name the journal in full.\n\nThe post gives no details of the study design, the size or characteristics of the study population, or how long participants had vaped. It does not describe the specific lung function changes observed. The findings are described only as preliminary, and the post does not say whether the link has been shown to be causal.\n\nThis article is based solely on the BMJ Group post and not on the full paper.",
@@ -44,5 +44,9 @@
       "author_id": "110397757"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-15T09:00:12+00:00",
+  "shared": {
+    "x": "2121891437503508704"
+  }
 }
