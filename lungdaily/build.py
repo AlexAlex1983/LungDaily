@@ -89,6 +89,8 @@ def build() -> int:
                 log.warning("Library picture failed for %s: %s", p["slug"], e)
     if lib_index:
         write_json(images.LIBRARY_STATE, lib_state)
+    import datetime as dt
+    featured_window = dt.timedelta(days=14)
     for p in posts:
         try:
             pic = images.custom_image(p["slug"]) or lib_pics.get(p["slug"])
@@ -100,36 +102,76 @@ def build() -> int:
                 images.render(p, OUT / "thumbs" / f"{p['slug']}.png", p["category_label"], variant="thumb")
         except Exception as e:  # a broken image must never stop the site build
             log.warning("Card image failed for %s: %s", p["slug"], e)
+        if now() - p["date"] <= featured_window:
+            try:   # "Featured in LungDaily" version of the card, for the people/orgs we wrote about
+                images.render_featured(OUT / "cards" / f"{p['slug']}.png", OUT / "cards" / "featured" / f"{p['slug']}.png")
+            except Exception as e:
+                log.warning("Featured card failed for %s: %s", p["slug"], e)
         related = [r for r in posts if r is not p and set(r["tags"]) & set(p["tags"])][:4]
         same_cat = [r for r in posts if r is not p and r["category"] == p["category"] and r not in related][:3]
         _write(OUT / "news" / p["slug"] / "index.html", env.get_template("article.html").render(
             **ctx, root="../../", post=p, related=related, more=same_cat,
             latest=[r for r in posts[:9] if r is not p][:8], title=f"{p['headline']} — {site['name']}", active=p["category"]))
-    page_titles = {"submit-news": "Send us your news"}
-    for page in ("about", "editorial-policy", "opt-out", "submit-news"):
+    page_titles = {"submit-news": "Send us your news", "featured": "Featured in LungDaily",
+                   "newsletter": "The Week in Respiratory Health — newsletter"}
+    for page in ("about", "editorial-policy", "opt-out", "submit-news", "featured", "newsletter"):
         _write(OUT / page / "index.html", env.get_template(f"{page}.html").render(
             **ctx, root="../", title=f"{page_titles.get(page, page.replace('-', ' ').title())} — {site['name']}"))
 
-    day_slugs = []
+    images.render_badge(OUT / "badges" / "featured-in-lungdaily.png")
+    shutil.copy(ROOT / "static" / "featured-badge.svg", OUT / "badges" / "featured-in-lungdaily.svg")
+
+    day_slugs, day_list = [], []
     for day, sel in awareness_pages(posts):
         day_slugs.append(day["slug"])
+        until = day.get("until")
         when = f"{day['date'].strftime('%A')} {day['date'].day} {day['date'].strftime('%B %Y')}"
-        if day.get("until"):
-            when = (f"{day['date'].day} {day['date'].strftime('%B')} to {day['until'].day} "
-                    f"{day['until'].strftime('%B %Y')}" + (f" in {day['city']}" if day.get("city") else ""))
-        intro = (f"{day['name']} {'runs' if day.get('until') else 'is on'} {when}" if (day.get("until") or day["date"]) >= now().date()
-                 else f"{day['name']} {'ran' if day.get('until') else 'was on'} {when}")
-        intro = (intro
-                 + (f", led by {day['organiser']}" if day.get("organiser") else "")
+        if until:
+            when = (f"{day['date'].day} {day['date'].strftime('%B')} to {until.day} "
+                    f"{until.strftime('%B %Y')}" + (f" in {day['city']}" if day.get("city") else ""))
+        day["when_label"] = (f"{day['date'].day} {day['date'].strftime('%B %Y')}" if not until
+                             else f"{day['date'].day}–{until.day} {until.strftime('%B %Y')}")
+        upcoming = (until or day["date"]) >= now().date()
+        intro = (f"{day['name']} {'runs' if until else 'is on'} {when}" if upcoming
+                 else f"{day['name']} {'ran' if until else 'was on'} {when}")
+        intro = (intro + (f", led by {day['organiser']}" if day.get("organiser") else "")
                  + f". Our latest coverage{' · ' + day['hashtag'] if day.get('hashtag') else ''}.")
-        _write(OUT / "days" / day["slug"] / "index.html", env.get_template("index.html").render(
-            **ctx, root="../../", posts=sel[:60], title=f"{day['name']} — {site['name']}",
-            heading=day["name"] if str(day['date'].year) in day["name"] else f"{day['name']} {day['date'].year}",
-            intro=intro, active="days",
-            empty_text="Coverage will appear here in the days around the date."))
+        togo = (day["date"] - now().date()).days
+        countdown = ("today" if day["date"] <= now().date() <= (until or day["date"])
+                     else (f"in {togo} day{'s' if togo != 1 else ''}" if 0 < togo <= 60 else ""))
+        heading = day["name"] if str(day['date'].year) in day["name"] else f"{day['name']} {day['date'].year}"
+        page = f"{base}/days/{day['slug']}/"
+        kit_text = (f"{heading} — {day['when_label']}" + (f": “{day['theme']}”" if day.get("theme") else "") + ".\n\n"
+                    + (f"{day['facts'][0]['figure']} {day['facts'][0]['text']} ({day['facts'][0]['source']}).\n\n" if day.get("facts") else "")
+                    + f"News, facts and expert voices in one place: {page}?utm_source=sharekit&utm_campaign={day['slug']}\n\n"
+                    + " ".join(h for h in [day.get("hashtag"), "#LungHealth"] if h))
+        kit_x = f"{heading}" + (f": “{day['theme']}”" if day.get("theme") else "") + " — news and facts via @" + site.get("x_handle", "LungDaily")
+        if day.get("hashtag"):
+            kit_x += f" {day['hashtag']}"
+        orgs = coverage_orgs(sel)
+        try:
+            images.render_day(dict(day, name=heading), OUT / "cards" / "days" / f"{day['slug']}.png")
+        except Exception as e:
+            log.warning("Day card failed for %s: %s", day["slug"], e)
+        _write(OUT / "days" / day["slug"] / "index.html", env.get_template("day.html").render(
+            **ctx, root="../../", day=day, posts=sel[:60], title=f"{heading} — {site['name']}", heading=heading,
+            intro=intro, when_label=day["when_label"], countdown=countdown, kit_text=kit_text, kit_x=kit_x,
+            orgs=orgs, active="days"))
+        day_list.append(day)
+    day_list.sort(key=lambda d: (d["date"] < now().date() - dt.timedelta(days=7), d["date"]))
+    _write(OUT / "days" / "index.html", env.get_template("days.html").render(
+        **ctx, root="../", days=day_list, title=f"Awareness days & congresses — {site['name']}", active="days"))
+
+    from .reports import build_reports
+    reps = build_reports(posts)
+    for r in reps:
+        _write(OUT / "reports" / r["key"] / "index.html", env.get_template("report.html").render(
+            **ctx, root="../../", r=r, title=f"{r['title']} — {site['name']}"))
+    _write(OUT / "reports" / "index.html", env.get_template("reports.html").render(
+        **ctx, root="../", reports=reps, title=f"Monthly reports — {site['name']}"))
 
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
-    _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs))
+    _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs, [r["key"] for r in reps]))
     _write(OUT / "news-sitemap.xml", news_sitemap(posts, site, base))
     _write(OUT / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\nSitemap: {base}/news-sitemap.xml\n")
     _write(OUT / "site.webmanifest", json.dumps({
@@ -171,25 +213,48 @@ def rss(posts, site, base) -> str:
             f"<description>{escape(site.get('description') or site['tagline'])}</description><language>en</language>{items}</channel></rss>")
 
 
+def coverage_orgs(sel: list[dict], limit: int = 16) -> list[str]:
+    """Tracked voices (voices.yaml) whose posts/news are in the coverage; never the site's own people
+    (settings follow.exclude)."""
+    from .featured import source_voice
+    skip = {h.lower() for h in (settings().get("follow") or {}).get("exclude") or []}
+    out = []
+    for p in sel:
+        v = source_voice(p)
+        if not v or (v.get("x") or "").lower() in skip:
+            continue
+        if v["name"] not in out:
+            out.append(v["name"])
+    return out[:limit]
+
+
 def awareness_pages(posts: list[dict]) -> list[tuple[dict, list[dict]]]:
-    """(day, matching posts) for each awareness day this year that is active or has coverage.
+    """(day, matching posts) for each awareness day / congress: the occurrence that is current or
+    next (within a year), else the most recent one that has coverage. One page per slug.
 
     Coverage = articles about the day published from 14 days before to 7 days after it."""
     import datetime as dt
-    active = {d["slug"] for d in awareness.active()}
-    out = []
-    for day in awareness.all_days():
-        lo, hi = day["date"] - dt.timedelta(days=14), (day.get("until") or day["date"]) + dt.timedelta(days=7)
-        sel = [p for p in posts if lo <= p["date"].date() <= hi and awareness.matches(day, awareness.item_text(p))]
-        if sel or day["slug"] in active:
-            out.append((day, sel))
-    return out
+    today = now().date()
+    best: dict = {}
+    for year in (today.year - 1, today.year, today.year + 1):
+        for day in awareness.all_days(year):
+            end = day.get("until") or day["date"]
+            lo, hi = day["date"] - dt.timedelta(days=14), end + dt.timedelta(days=7)
+            sel = [p for p in posts if lo <= p["date"].date() <= hi and awareness.matches(day, awareness.item_text(p))]
+            current = end >= today - dt.timedelta(days=7) and day["date"] <= today + dt.timedelta(days=366)
+            if not (current or sel):
+                continue
+            rank = (0, day["date"]) if current else (1, -day["date"].toordinal())   # nearest upcoming first
+            if day["slug"] not in best or rank < best[day["slug"]][0]:
+                best[day["slug"]] = (rank, day, sel)
+    return [(d, sel) for _, d, sel in sorted(best.values(), key=lambda t: t[0])]
 
 
-def sitemap(posts, base, day_slugs=()) -> str:
+def sitemap(posts, base, day_slugs=(), report_keys=()) -> str:
     pages = [(f"{base}/", None)] + [(f"{base}/{c}/", None) for c in CATEGORY_LABELS]
     pages += [(f"{base}/days/{s}/", None) for s in day_slugs]
-    pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out", "submit-news")]
+    pages += [(f"{base}/days/", None), (f"{base}/reports/", None)] + [(f"{base}/reports/{k}/", None) for k in report_keys]
+    pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out", "submit-news", "newsletter", "featured")]
     pages += [(f"{base}/news/{p['slug']}/", p["date"]) for p in posts]
     if posts:
         pages[0] = (pages[0][0], posts[0]["date"])

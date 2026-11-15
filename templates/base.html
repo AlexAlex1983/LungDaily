@@ -76,6 +76,9 @@
         <li><a href="{{ root }}editorial-policy/">Editorial standards</a></li>
         <li><a href="{{ root }}opt-out/">Corrections &amp; opt-out</a></li>
         <li><a href="{{ root }}submit-news/">Send us your news</a></li>
+        <li><a href="{{ root }}reports/">Monthly reports</a></li>
+        <li><a href="{{ root }}days/">Awareness days &amp; congresses</a></li>
+        <li><a href="{{ root }}featured/">Featured? Get the badge</a></li>
         {% if site.contact_email %}<li><a href="mailto:{{ site.contact_email }}">Contact</a></li>{% endif %}
       </ul>
     </div>
@@ -85,7 +88,7 @@
         {% if site.x_handle %}<li><a href="https://x.com/{{ site.x_handle }}">X @{{ site.x_handle }}</a></li>{% endif %}
         {% if site.linkedin_url %}<li><a href="{{ site.linkedin_url }}">LinkedIn</a></li>{% endif %}
         {% if site.bluesky_handle %}<li><a href="https://bsky.app/profile/{{ site.bluesky_handle }}">Bluesky</a></li>{% endif %}
-        {% if newsletter.buttondown_username %}<li><a href="https://buttondown.com/{{ newsletter.buttondown_username }}">Weekly newsletter</a></li>{% endif %}
+        {% if newsletter.buttondown_username %}<li><a href="{{ root }}newsletter/">Weekly newsletter</a></li>{% endif %}
         {% if site.telegram_channel %}<li><a href="https://t.me/{{ site.telegram_channel|replace('@','') }}">Telegram</a></li>{% endif %}
         <li><a href="{{ root }}rss.xml">RSS feed</a></li>
       </ul>

@@ -1,13 +1,23 @@
+{# Newsletter sign-up. Set nl_id before including to use it twice on a page; nl_compact for the in-article box. #}
 {% if newsletter.buttondown_username %}
-<section class="newsletter" aria-labelledby="nl-h">
+{% set _id = nl_id|default('nl') %}
+<section class="newsletter{% if nl_compact %} nl-compact{% endif %}" aria-labelledby="{{ _id }}-h">
   <div>
-    <h2 id="nl-h">The Week in Respiratory Health</h2>
-    <p>The week's most important lung-health stories in one short email, every Friday. Free; unsubscribe any time.</p>
+    <h2 id="{{ _id }}-h">{% if nl_compact %}Get the week's lung-health news by email{% else %}The Week in Respiratory Health{% endif %}</h2>
+    <p>{% if nl_compact %}The most important stories in one short email, every Friday. Free; unsubscribe any time.{% else %}The week's most important lung-health stories in one short email, every Friday. Free; unsubscribe any time.{% endif %}{% if newsletter.languages %} Also in Español, Français, Português and Русский.{% endif %}</p>
   </div>
   <form action="https://buttondown.com/api/emails/embed-subscribe/{{ newsletter.buttondown_username }}" method="post" target="_blank" class="nl-form">
-    <label class="visually-hidden" for="nl-email">Email address</label>
-    <input type="email" name="email" id="nl-email" placeholder="you@example.org" required>
+    <label class="visually-hidden" for="{{ _id }}-email">Email address</label>
+    <input type="email" name="email" id="{{ _id }}-email" placeholder="you@example.org" required>
+    {% if newsletter.languages %}
+    <label class="visually-hidden" for="{{ _id }}-lang">Language</label>
+    <select name="tag" id="{{ _id }}-lang">
+      <option value="lang-en">English</option>
+      {% for code in newsletter.languages %}<option value="lang-{{ code }}">{{ {"es": "Español", "fr": "Français", "pt": "Português", "ru": "Русский"}[code] }}</option>{% endfor %}
+    </select>
+    {% endif %}
     <input type="hidden" value="1" name="embed">
+    {% if nl_source %}<input type="hidden" name="referrer_url" value="{{ nl_source }}">{% endif %}
     <button type="submit">Subscribe</button>
   </form>
 </section>

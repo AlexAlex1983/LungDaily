@@ -5,6 +5,8 @@
 #   * shows a banner on the homepage linking to the day's page (/days/<slug>/).
 # date: "MM-DD" for a fixed date, or e.g. "third wednesday of november".
 # match: words/phrases (case-insensitive) that make an article "about" the day.
+# Optional hub-page extras: theme / theme_url (the organiser's official theme), watch / watch_url
+# (one thing to look out for), facts: [{figure, text, source, url}] — sourced figures only.
 # Dates as listed by FIRS for 2026; World COPD Day = third Wednesday of November (GOLD).
 
 days_before: 3
@@ -19,6 +21,24 @@ days:
     days_before: 5            # big day: start the lead-up coverage earlier
     match: ["COPD", "chronic obstructive", "emphysema", "WorldCOPDDay", "World COPD Day", "spirometry"]
     news_query: '"World COPD Day" OR COPD'
+    # Hub page extras (/days/world-copd-day/). Facts: only from the linked source, checked 15 Nov 2026.
+    theme: "Early Diagnosis and Management for a Better Life"     # GOLD's 2026 theme
+    theme_url: "https://goldcopd.org/world-copd-day-2026/"
+    watch: "GOLD says the full 2027 GOLD Report will be published on World COPD Day."
+    watch_url: "https://www.healio.com/news/pulmonology/20261109/2027-gold-report-discusses-ct-use-nonpharmacological-treatments-cvd-in-copd"
+    facts:
+      - figure: "4th"
+        text: "leading cause of death worldwide"
+        source: "WHO COPD fact sheet"
+        url: "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+      - figure: "3.5 million"
+        text: "deaths in 2021, about 5% of all deaths globally"
+        source: "WHO COPD fact sheet"
+        url: "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+      - figure: "~90%"
+        text: "of COPD deaths in people under 70 occur in low- and middle-income countries"
+        source: "WHO COPD fact sheet"
+        url: "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
   - slug: world-pneumonia-day
     name: "World Pneumonia Day"
     date: "11-12"

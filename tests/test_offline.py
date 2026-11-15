@@ -50,6 +50,15 @@ added = collect.add_items(items)
 print("added:", added)
 assert added == len(items) - 1, added  # opted-out author excluded (LinkedIn repost already dropped by normalise)
 assert collect.add_items(items) == 0, "dedupe failed"
+# quality gate: headline-only / teaser sources are not written up (default thresholds)
+assert process.too_thin({"source": "rss", "text": "WHO releases guidance."})
+assert not process.too_thin({"source": "x", "text": "New ERS statement on COPD case-finding in primary care: spirometry for adults over 40."})
+_fa = {"headline": "H", "dek": "d", "body": "Novocure won approval. The item gives no further detail. " + "word " * 100, "key_quote": ""}
+assert any("thin article" in s for s in process.check({"triage": {"category": "approvals"}, "title": "", "text": "x", "source": "rss"}, _fa)["issues"])
+# the fixtures are deliberately short: lower the bar for the rest of the end-to-end test
+import yaml as _yq
+_cq = _yq.safe_load(open("config/settings.yaml")); _cq["publishing"]["min_source_words"] = {"rss": 5, "pubmed": 5, "x": 5, "linkedin": 5}
+_yq.safe_dump(_cq, open("config/settings.yaml", "w"))
 stats = process.run()
 print("stats:", stats)
 assert stats.get("ready", 0) >= 3 and stats["published"] == 0, stats
@@ -229,6 +238,15 @@ assert "World COPD Day 2026" in _day and "news/" in _day, "day page missing cove
 assert "/days/world-copd-day/" in (site / "sitemap.xml").read_text()
 _o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
 build.build()
+_copd = (site / "days" / "world-copd-day" / "index.html").read_text()
+assert "Early Diagnosis and Management for a Better Life" in _copd and "3.5 million" in _copd and "in 11 days" in _copd
+assert "/days/world-asthma-day/" in (site / "days" / "index.html").read_text()   # whole calendar, not just active days
+assert (site / "reports" / "index.html").exists() and (site / "newsletter" / "index.html").exists()
+# congress daily: composes on a congress day (no API key -> composed only)
+_o.environ["LUNGDAILY_NOW"] = "2027-05-16T18:00:00+00:00"
+from lungdaily import newsletter as _nlc
+assert _nlc.congress_daily() is False
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
 assert 'class="awareness"' not in (site / "index.html").read_text()
 _sm = (site / "sitemap.xml").read_text()
 assert "<lastmod>" in _sm and "/about/" in _sm
@@ -251,6 +269,22 @@ _ers = next(r for r in (json.loads(x.read_text()) for x in POSTS.glob("*.json"))
 assert _fe.source_voice(_ers)["press_email"] == "press@ersnet.org"
 _subj, _txt, _html = _fe.compose(_ers, _fe.source_voice(_ers), "https://lungdaily.org", {"name": "LungDaily", "tagline": "The Pulse of Respiratory Health", "x_handle": "LungDaily"})
 assert _ers["headline"][:40] in _subj and "/cards/" in _txt and "stop" in _txt and "<img" in _html
+# sharing kit: ready-made LinkedIn post, featured card, tracked links, badge, newsletter sign-up
+assert "READY TO POST ON LINKEDIN" in _txt and "/cards/featured/" in _txt and "utm_campaign=featured" in _txt
+assert "/featured/" in _txt and "/newsletter/" in _txt and "Share on LinkedIn" in _html
+assert (site / "cards" / "featured" / f"{_ers['slug']}.png").exists()
+assert (site / "badges" / "featured-in-lungdaily.png").exists() and (site / "badges" / "featured-in-lungdaily.svg").exists()
+assert "badge code" in (site / "featured" / "index.html").read_text().lower()
+# reshare tracking
+from lungdaily import reshares as _rs
+assert _rs.slugs_in("see https://lungdaily.org/news/2026-11-07-abc/?utm_source=x") == ["2026-11-07-abc"]
+_rs.note_featured(_ers["slug"], "European Respiratory Society", "press@ersnet.org")
+assert _rs.record(_ers["slug"], "ERS", "ERSpublications", "x", "https://x.com/ERSpublications/status/9")
+assert not _rs.record(_ers["slug"], "ERS", "ERSpublications", "x", "https://x.com/ERSpublications/status/9")   # dedupe
+assert _rs.from_linkedin_rows([{"content": "Proud to be featured: https://lungdaily.org/news/" + _ers["slug"] + "/",
+                                "linkedinUrl": "https://www.linkedin.com/posts/ers_1", "author": {"name": "ERS"}}]) == 1
+_rr = _rs.report()
+assert _rr["featured"] == 1 and _rr["reshared"] == 1 and _rr["rate"] == 100 and _rr["by_channel"] == {"x": 1, "linkedin": 1}, _rr
 _o.environ["LUNGDAILY_NOW"] = "2026-11-07T12:00:00+00:00"
 _prev = _fe.run()
 assert [e["to"] for e in _prev] == ["press@ersnet.org"] and not _prev[0]["sent"], _prev
@@ -269,6 +303,17 @@ _picked = _nl.pick(days=30)
 assert len(_picked) >= 3
 _s2, _body = _nl.compose(_picked, {"name": "LungDaily", "tagline": "The Pulse of Respiratory Health", "x_handle": "LungDaily"}, "https://lungdaily.org")
 assert _s2.startswith("The Week in Respiratory Health") and _body.count("### [") == len(_picked)
+assert "/newsletter/" in _body                 # forward-to-a-colleague line
+_ts, _tb = _nl.translate(_s2, _body, "es")     # fake LLM: returns the text; real run translates
+assert _ts.startswith("[ES]") and "Traducido del inglés" in _tb
+assert _nl._filters([("contains", "lang-es")])["filters"][0] == {"operator": "contains", "field": "subscriber.tags", "value": "lang-es"}
+# monthly report (needs >= 10 articles in a finished month)
+from lungdaily.reports import build_reports as _br
+import datetime as _dt
+_fake = [dict(json.loads(next(POSTS.glob("*.json")).read_text()), slug=f"s{i}", tags=["copd"], key_quote="q",
+              category="research", score=8, date=_dt.datetime(2026, 10, 3, tzinfo=_dt.timezone.utc)) for i in range(12)]
+_rep = _br(_fake)
+assert _rep and _rep[0]["key"] == "2026-10" and _rep[0]["sections"][0]["label"] == "COPD" and len(_rep[0]["studies"]) == 10
 # Q&A: refused without consent, published as given with consent
 from lungdaily import submit as _sub
 Path("content/qa").mkdir(parents=True, exist_ok=True)
@@ -289,6 +334,10 @@ _home = (site / "index.html").read_text()
 assert "embed-subscribe/lungdaily" in _home
 assert "ATS 2027 is on now, until 19 May" in _home and "New Orleans" in _home, "congress banner"
 assert (site / "days" / "ats-2027" / "index.html").exists()
+_ats = (site / "days" / "ats-2027" / "index.html").read_text()
+assert "Share kit" in _ats and "#ATS2027" in _ats and (site / "cards" / "days" / "ats-2027.png").exists()
+assert "nl-a-email" in next((site / "news").glob("*/index.html")).read_text()   # sign-up box inside every article
+assert 'value="lang-es"' in _home
 _o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
 build.build()
 

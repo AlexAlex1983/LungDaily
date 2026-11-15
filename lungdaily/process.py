@@ -59,6 +59,10 @@ Hard rules:
 - Neutral, precise, professional tone. No hype ("groundbreaking", "game-changer").
 - No medical advice and no recommendations to patients.
 - British English.
+- Never write filler about what the source lacks ("the item gives no further detail",
+  "no further information was provided", "details were not disclosed"). If the source is too thin
+  for a useful article (only a headline, a teaser, a link with no facts, a generic greeting),
+  return ONLY {"skip": true, "reason": "<12 words"} instead of an article.
 
 Format by category:
 - voices / people: headline "<Full Name>: <what they said or did>"  (max 110 chars)
@@ -82,6 +86,8 @@ Fail the article if ANY of these is true:
 - a quote is not verbatim from the source, or words are attributed to the wrong person
 - an opinion is presented as established fact, or the headline overstates the source
 - it gives medical advice, or could be defamatory, or reveals details about an identifiable patient
+- it is thin: it restates a headline, pads with generic background, or says the source gives no
+  details — a reader would learn almost nothing beyond the headline
 Minor style issues are not failures.
 
 Return ONLY JSON: {"pass": true|false, "issues": ["..."]}"""
@@ -220,6 +226,27 @@ def write(item: dict) -> dict:
     return ask_json("writer", WRITER_SYSTEM, user, fake=fake)
 
 
+FILLER = ("gives no further detail", "give no further detail", "no further details", "no further detail",
+          "did not provide further", "does not provide further", "no additional details", "no additional information",
+          "did not specify", "does not specify", "were not disclosed", "was not disclosed", "not stated in the",
+          "the item does not", "the source does not", "the announcement does not", "the post does not say",
+          "did not give details", "does not give details", "did not give further", "did not give the",
+          "did not name the authors", "did not provide details", "does not provide details", "no details were given")
+
+
+def substance_words(item: dict) -> int:
+    """Words of real source text (title excluded)."""
+    return word_count(item.get("text") or "")
+
+
+def too_thin(item: dict) -> bool:
+    """Skip sources that are only a headline or a teaser (quality before quantity: an empty slot is
+    better than a thin article). publishing.min_source_words: per source type."""
+    mins = {"rss": 60, "pubmed": 60, "x": 12, "linkedin": 15}
+    mins.update(settings()["publishing"].get("min_source_words") or {})
+    return substance_words(item) < int(mins.get(item.get("source"), 0))
+
+
 def check(item: dict, art: dict) -> dict:
     cfg = settings()["publishing"]
     issues = []
@@ -232,6 +259,10 @@ def check(item: dict, art: dict) -> dict:
         issues.append(f"body length {wc} words outside limits")
     if len(art.get("headline", "")) > 130 or not art.get("headline"):
         issues.append("headline missing or too long")
+    low = " ".join((art.get("body", "") + " " + art.get("dek", "")).lower().split())
+    hits = [f for f in FILLER if f in low]
+    if hits:
+        issues.append(f"thin article: says the source lacks detail ({hits[0]!r})")
     user = f"{_source_block(item)}\n\nARTICLE:\n{json.dumps(art, ensure_ascii=False)}"
     try:
         verdict = ask_json("checker", CHECKER_SYSTEM, user, fake={"pass": True, "issues": []})
@@ -293,6 +324,8 @@ def rank(item: dict, sel: dict) -> float:
     boost = float((sel.get("category_boost") or {}).get(t["category"], 0))
     if t.get("author_type") == "person":
         boost += float(sel.get("person_boost", 0))
+    if item.get("source") == "linkedin":
+        boost += float(sel.get("linkedin_boost", 0))
     if sel.get("focus_boost"):
         from .util import is_focus
         if is_focus(item):           # owner's priority voices (voices.yaml focus: true)
@@ -380,17 +413,29 @@ def run() -> dict:
                    max(0, lim["max_articles_per_day"] - written_today()))
     else:
         room = min(lim["max_articles_per_run"], max(0, lim["max_articles_per_day"] - published_today()))
-    to_write, leftover = pick(candidates, room, sel)
+    to_write, leftover = pick(candidates, room + 3, sel)   # a few spare in case some are too thin
+    thin = []
     for item in to_write:
         enrich(item)
+        if too_thin(item):
+            thin.append(item)
+            log.info("Skipped (too thin to write up, %d words): %s", substance_words(item),
+                     (item.get("title") or item.get("text") or "")[:90].replace("\n", " "))
+    spare = [i for i in to_write if i not in thin][room:]
+    to_write = [i for i in to_write if i not in thin][:room]
+    leftover = spare + leftover
     # good items over the cap wait for the next run unless too old
     keep += [i for i in leftover if (parse_date(i.get("collected_at")) or now()) >= cutoff]
 
     held = read_json(HELD, [])
-    stats = {"triaged": len(inbox), "candidates": len(candidates), "published": 0, "held": 0, "failed": 0}
+    stats = {"triaged": len(inbox), "candidates": len(candidates), "published": 0, "held": 0, "failed": 0,
+             "skipped_thin": len(thin)}
     for item in to_write:
-        if produce(item, held, stats) is False:
+        res = produce(item, held, stats)
+        if res is False:
             keep.append(item)
+        elif res == "skip":
+            stats["skipped_thin"] += 1
     write_json(HELD, held)
     write_json(INBOX, keep)
     log.info("Process stats: %s", stats)
@@ -411,6 +456,10 @@ def produce(item: dict, held: list, stats: dict):
     # the writer occasionally wraps the article in a list; anything else unusable is a failed write
     if isinstance(art, list):
         art = next((a for a in art if isinstance(a, dict)), None)
+    if isinstance(art, dict) and art.get("skip"):
+        log.info("Writer skipped (source too thin): %s — %s", (item.get("title") or item.get("text") or "")[:80],
+                 art.get("reason", ""))
+        return "skip"
     if not isinstance(art, dict) or not art.get("headline"):
         log.error("Writer returned no usable article for %s", item["id"])
         stats["failed"] = stats.get("failed", 0) + 1

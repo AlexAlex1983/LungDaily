@@ -294,7 +294,15 @@ def run_pending() -> int:
             and (parse_date(r.get("published_at")) or window) > window]
     from .util import focus_keys, is_focus
     fk = focus_keys()
-    todo.sort(key=lambda pr: (not is_focus(pr[1].get("source") or {}, fk), pr[1].get("published_at", "")))   # focus voices first
+    def priority(pr):
+        """LinkedIn first: focus voices, then people stories, then articles that tag an organisation
+        (it gets notified and can repost), then the rest; best score first within each group."""
+        r = pr[1]
+        tagged = bool(linkedin_mentions(r, 1))
+        person = r.get("category") == "people" or (r.get("source") or {}).get("source") == "linkedin"
+        return (not is_focus(r.get("source") or {}, fk), not person, not tagged,
+                -float(r.get("score") or 0), r.get("published_at", ""))
+    todo.sort(key=priority)
     posted = 0
     stamp = now().strftime("%Y%m%d%H%M")
     for p, rec in todo:

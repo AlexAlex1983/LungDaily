@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block description %}Featured in {{ site.name }}? Share the article and add the badge to your website.{% endblock %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Featured in {{ site.name }}</h1>
+<p class="section-intro">If {{ site.name }} has written about your work, your organisation or your post, you are welcome to share it and to show this badge on your website, press page or email signature.</p></header>
+<p><img src="{{ root }}badges/featured-in-lungdaily.png" alt="Featured in {{ site.name }}" width="220" height="60"></p>
+<section class="kit">
+  <h2>Badge code for your website</h2>
+  <p>Paste this where you list press coverage. Link it to your article on {{ site.name }} if you like (replace the address).</p>
+  <textarea id="badge-code" readonly>&lt;a href="{{ base }}/?utm_source=badge&amp;utm_campaign=featured"&gt;&lt;img src="{{ base }}/badges/featured-in-lungdaily.png" alt="Featured in {{ site.name }}" width="220" height="60"&gt;&lt;/a&gt;</textarea>
+  <p class="btns"><button type="button" data-copy-text="#badge-code">Copy code</button>
+  <a class="alt" href="{{ root }}badges/featured-in-lungdaily.png" download>Download PNG</a>
+  <a class="alt" href="{{ root }}badges/featured-in-lungdaily.svg" download>Download SVG</a></p>
+</section>
+<section class="kit">
+  <h2>Sharing your article</h2>
+  <p>Every article has share buttons and a branded image card. When we feature an organisation we also email its press office a ready-made LinkedIn post and a “Featured in {{ site.name }}” image. Tag <strong>@{{ site.name }}</strong> on LinkedIn{% if site.x_handle %} or <strong>@{{ site.x_handle }}</strong> on X{% endif %} and we will repost.</p>
+  <p>Something to correct? <a href="{{ root }}opt-out/">Tell us</a> and we fix it promptly.</p>
+</section>
+{% include "_newsletter.html" %}
+<script>
+document.querySelectorAll('[data-copy-text]').forEach(function(b){b.addEventListener('click',function(){
+  var t=document.querySelector(b.getAttribute('data-copy-text'));t.select();
+  try{navigator.clipboard.writeText(t.value);}catch(e){document.execCommand('copy');}
+  b.textContent='Copied';});});
+</script>
+{% endblock %}

@@ -121,6 +121,11 @@ def collect() -> list[dict]:
                     "scrapeReactions": False,
                     "scrapeComments": False,
                 })
+                try:   # sharing loop: posts by our voices that link or name LungDaily
+                    from ..reshares import from_linkedin_rows
+                    from_linkedin_rows(rows)
+                except Exception as e:
+                    log.warning("Reshare tracking (LinkedIn): %s", e)
                 items += [i for i in (normalise(r, "profiles") for r in rows) if i]
             except requests.RequestException as e:
                 log.warning("LinkedIn profiles actor failed: %s", e)

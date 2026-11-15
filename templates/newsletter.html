@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block description %}The Week in Respiratory Health: a free weekly email from {{ site.name }}.{% endblock %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">The Week in Respiratory Health</h1>
+<p class="section-intro">One short email every Friday with the week's most important lung-health stories — guidelines, studies, policy, approvals and the people shaping the field. Free; unsubscribe any time.{% if newsletter.languages %} Choose English, Español, Français, Português or Русский.{% endif %}</p></header>
+{% set nl_id = "nl-p" %}
+{% include "_newsletter.html" %}
+<ul>
+  <li>Only stories that pass our quality bar, each linked to its original source.</li>
+  <li>During ATS and the ERS Congress: a short daily congress email.</li>
+  <li>Monthly: <a href="{{ root }}reports/">who said what</a> in respiratory health.</li>
+</ul>
+{% if newsletter.buttondown_username %}<p><a href="https://buttondown.com/{{ newsletter.buttondown_username }}/archive/">Read past issues</a></p>{% endif %}
+{% endblock %}

@@ -199,3 +199,29 @@ a.thumb:hover img{transform:scale(1.03)}
 .nl-form button{font:600 .95rem var(--sans);padding:10px 18px;border:0;border-radius:4px;background:var(--brand);color:#fff;cursor:pointer}
 .nl-form button:hover{background:var(--brand-dark)}
 .page h2{font:700 1.3rem/1.25 var(--serif);margin:28px 0 8px}
+/* in-article sign-up, language choice */
+.nl-compact{margin:28px 0;padding:16px 18px}
+.nl-compact h2{font-size:1.1rem}
+.nl-form select{font:inherit;padding:10px 8px;border:1px solid var(--line-2);border-radius:4px;background:#fff}
+/* hubs: awareness days, reports, badge page */
+.hub-hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:28px;align-items:start;margin-bottom:28px}
+.hub-hero img{width:100%;height:auto;border-radius:6px}
+.hub-when{font:600 .9rem var(--sans);text-transform:uppercase;letter-spacing:.04em;color:var(--brand)}
+.hub-theme{font:italic 600 1.2rem/1.35 var(--serif);margin:6px 0 12px}
+.facts{list-style:none;padding:0;margin:0 0 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.facts li{background:var(--tint);border-top:3px solid var(--brand);padding:14px 16px;font-size:.95rem}
+.facts li b{display:block;font:700 1.6rem/1.1 var(--serif);margin-bottom:4px}
+.facts li a{font-size:.8rem;color:var(--muted)}
+.kit{border:1px solid var(--line);border-radius:6px;padding:18px 20px;margin:24px 0}
+.kit h2{font:700 1.2rem var(--serif);margin:0 0 10px}
+.kit textarea{width:100%;min-height:110px;font:inherit;font-size:.9rem;padding:10px;border:1px solid var(--line-2);border-radius:4px}
+.kit .btns a,.kit .btns button{display:inline-block;margin:8px 8px 0 0;padding:8px 14px;border-radius:4px;background:var(--brand);color:#fff;text-decoration:none;font:600 .9rem var(--sans);border:0;cursor:pointer}
+.kit .btns a.alt{background:#fff;color:var(--brand);border:1px solid var(--brand)}
+.orgs{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
+.orgs li{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:.88rem}
+.report h2{font:700 1.35rem var(--serif);margin:32px 0 10px;border-top:3px solid var(--brand);padding-top:10px}
+.report blockquote{margin:6px 0 4px;padding-left:12px;border-left:3px solid var(--line-2);font-style:italic}
+.report li{margin-bottom:14px}
+.stat-row{display:flex;gap:28px;flex-wrap:wrap;margin:10px 0 20px}
+.stat-row div b{display:block;font:700 2rem var(--serif)}
+@media (max-width:760px){.hub-hero{grid-template-columns:1fr}}

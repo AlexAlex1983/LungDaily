@@ -39,7 +39,7 @@ def _extract_json(text: str):
 
 
 def ask_json(role: str, system: str, user: str, fake=None):
-    """role: triage | writer | checker (selects model from settings)."""
+    """role: triage | writer | checker | translator (selects model from settings; unknown -> writer)."""
     if os.environ.get("LUNGDAILY_FAKE_LLM") == "1":
         if fake is None:
             raise LLMError("fake LLM requested but no fake output given")
@@ -50,9 +50,8 @@ def ask_json(role: str, system: str, user: str, fake=None):
         raise LLMError("ANTHROPIC_API_KEY is not set")
     cfg = settings()["models"]
     body = {
-        "model": cfg[role],
-        "max_tokens": (cfg.get("triage_max_tokens", 8000) if role == "triage"
-                       else cfg.get("max_tokens", 1500)),
+        "model": cfg.get(role) or cfg["writer"],
+        "max_tokens": int(cfg.get(f"{role}_max_tokens") or (8000 if role == "triage" else cfg.get("max_tokens", 1500))),
         "system": system,
         "messages": [{"role": "user", "content": user}],
     }

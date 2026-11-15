@@ -27,6 +27,8 @@ models:
   triage: "claude-haiku-5-5"      # cheap: scores every collected item
   writer: "claude-sonnet-5-5"     # writes the articles
   checker: "claude-sonnet-5-5"    # independent fact-check of each article
+  translator: "claude-sonnet-5-5" # newsletter language editions (es, fr, pt, ru)
+  translator_max_tokens: 6000
   max_tokens: 1500
   triage_max_tokens: 8000         # triage scores a whole batch in one reply; too low = cut-off JSON
 
@@ -57,7 +59,8 @@ limits:
 selection:                        # how the best items are chosen each run
   max_per_author_per_run: 1       # one article per account/author per run
   max_per_author_per_day: 2       # so a prolific journal or society cannot fill the site
-  person_boost: 0.5               # individuals rank slightly above organisations at equal score
+  person_boost: 1.0               # individuals rank above organisations at equal score (feature more people)
+  linkedin_boost: 0.5             # LinkedIn-sourced items rank a little higher (LinkedIn first: that's where the community is)
   focus_boost: 1.5                # voices.yaml focus: true (José Luis Castro, Tonya Winders) rank well above others
   focus_min_score: 6              # ...and need only score 6 to be written (others 7)
   awareness_boost: 1.0            # items about an awareness day in its window (config/awareness.yaml)
@@ -72,6 +75,9 @@ publishing:
   auto_publish: true              # false = everything goes to the held queue for you to release
   require_checker_pass: true      # articles failing the fact-check are held, never published
   min_body_words: 90
+  # Quality before quantity: sources thinner than this (words of real text, title excluded) are not
+  # written up at all — an empty slot is better than a thin article. News feeds get the page text first.
+  min_source_words: {rss: 60, pubmed: 60, x: 12, linkedin: 15}
   min_body_words_by_category:     # People items (appointments, awards) are short briefs
     people: 50
   max_body_words: 320
@@ -98,7 +104,7 @@ amplify:
   x_max_mentions: 3               # at most this many @tags per post
   x_hashtags: 2                   # topic hashtags per post (#COPD, #Asthma...), 0 to switch off
   linkedin_post: true             # post new articles on the LungDaily LinkedIn page, after deploy (via Make: MAKE_LINKEDIN_WEBHOOK)
-  linkedin_max_per_day: 8         # keeps Make's free plan (about 1,000 operations/month) in range
+  linkedin_max_per_day: 10        # ~3 Make operations each -> ~930/month, inside Make's free 1,000; order: focus voices, people, taggable orgs, best score
   linkedin_window_hours: 36       # only articles published within this window are shared
   linkedin_org_id: "146950505"    # LungDaily LinkedIn page (linkedin.com/company/146950505)
   linkedin_reshare_source: true   # LinkedIn-sourced articles: repost the original (shows author photo + their visual)
@@ -132,6 +138,8 @@ newsletter:
   mode: "draft"                   # draft = you review and press Send in Buttondown; send = goes out automatically
   top_n: 8                        # stories per issue
   min_score: 8                    # only stories scored 8+ (falls back if fewer than 5 qualify)
+  languages: [es, fr, pt, ru]     # translated editions, created as drafts for subscribers tagged lang-xx ([] = off)
+  congress_daily: true            # during ATS/ERS (awareness.yaml congresses): a daily congress email draft
 
 follow:
   enabled: true

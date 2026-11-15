@@ -14,7 +14,9 @@
   python -m lungdaily.run social           after deploy: LinkedIn + Bluesky + "you've been featured" emails
   python -m lungdaily.run from-url <url> [category]  write an article from a press release / announcement link
   python -m lungdaily.run qa <content/qa/file.md>   publish an email Q&A (answers as given) at the next slot
-  python -m lungdaily.run newsletter [force]  create this week's newsletter in Buttondown
+  python -m lungdaily.run newsletter [force]  create this week's newsletter in Buttondown (+ language editions)
+  python -m lungdaily.run congress-daily   during a congress: today's congress email as a Buttondown draft
+  python -m lungdaily.run reshares         check X for shares of LungDaily now and print the sharing-loop report
   python -m lungdaily.run release <slug> publish a held article
   python -m lungdaily.run discard <slug> drop a held article
 """
@@ -62,6 +64,12 @@ def main(argv: list[str]) -> int:
             featured.summary(featured.run())
         except Exception as e:
             log.error("Featured emails failed: %s", e)
+        try:   # sharing loop: who reshared LungDaily (X search once a day) + run-summary table
+            from . import reshares
+            reshares.check_x()
+            reshares.write_summary()
+        except Exception as e:
+            log.error("Reshare tracking failed: %s", e)
     elif cmd == "featured-test":
         from . import featured
         return 0 if featured.send_test() else 3
@@ -75,6 +83,14 @@ def main(argv: list[str]) -> int:
         slug = submit.qa(argv[1])
         build.build()
         return 0 if slug else 2
+    elif cmd == "congress-daily":
+        from . import newsletter
+        newsletter.congress_daily(force=len(argv) > 1 and argv[1] == "force")
+    elif cmd == "reshares":
+        from . import reshares
+        reshares.check_x(force=True)
+        print("\n".join(reshares.summary_lines()))
+        reshares.write_summary()
     elif cmd == "newsletter":
         from . import newsletter
         newsletter.run(force=len(argv) > 1 and argv[1] == "force")

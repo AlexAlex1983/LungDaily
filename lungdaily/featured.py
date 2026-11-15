@@ -49,44 +49,90 @@ def blocked(v: dict, email: str) -> bool:
             or (v.get("x") or "").lower() in handles)
 
 
-def compose(rec: dict, v: dict, base: str, site: dict) -> tuple[str, str, str]:
-    """(subject, plain text, html) — short, factual, no hard sell."""
+def tracked(url: str, source: str) -> str:
+    """Article link that shows up under GoatCounter -> Campaigns -> featured."""
+    return f"{url}?utm_source={source}&utm_medium=social&utm_campaign=featured"
+
+
+def share_kit(rec: dict, v: dict, base: str, site: dict) -> dict:
+    """Everything a featured organisation needs to share the article in one click."""
+    from .amplify import HASHTAGS
+    from .awareness import hashtags_for
     url = f"{base}/news/{rec['slug']}/"
-    card = f"{base}/cards/{rec['slug']}.png"
+    tags = list(dict.fromkeys(hashtags_for(rec)[:1] + [HASHTAGS[t] for t in rec.get("tags") or [] if t in HASHTAGS]))[:3]
+    li_url, x_url = tracked(url, "linkedin"), tracked(url, "x")
     kind = SOURCE_WORDS.get((rec.get("source") or {}).get("source"), "update")
+    li_text = (f"Our {kind} was featured in {site['name']}, the daily news site on respiratory health:\n\n"
+               f"“{rec['headline']}”\n\n{li_url}\n\n" + " ".join(tags + ["#LungHealth"])).strip()
+    x_text = f"Featured in @{site.get('x_handle', 'LungDaily')}: {rec['headline']}"
+    if len(x_text) > 230:
+        x_text = x_text[:227].rstrip() + "…"
     q = urllib.parse.quote
-    x_share = f"https://x.com/intent/post?text={q(rec['headline'])}&url={q(url)}&via={site.get('x_handle', 'LungDaily')}"
-    li_share = f"https://www.linkedin.com/sharing/share-offsite/?url={q(url)}"
+    return {
+        "url": url, "li_url": li_url, "x_url": x_url,
+        "card": f"{base}/cards/{rec['slug']}.png",
+        "featured_card": f"{base}/cards/featured/{rec['slug']}.png",
+        "badge_page": f"{base}/featured/?utm_source=featured-email&utm_campaign=featured",
+        "newsletter": f"{base}/newsletter/?utm_source=featured-email&utm_campaign=featured",
+        "linkedin_page": site.get("linkedin_url") or "",
+        "li_text": li_text,
+        "li_share": f"https://www.linkedin.com/sharing/share-offsite/?url={q(li_url)}",
+        "x_share": f"https://x.com/intent/post?text={q(x_text)}&url={q(x_url)}",
+    }
+
+
+def compose(rec: dict, v: dict, base: str, site: dict) -> tuple[str, str, str]:
+    """(subject, plain text, html) — short, factual, no hard sell, with a ready-to-post sharing kit."""
+    k = share_kit(rec, v, base, site)
+    kind = SOURCE_WORDS.get((rec.get("source") or {}).get("source"), "update")
     name = v.get("press_name") or v.get("linkedin_name") or v["name"]
+    host = base.replace("https://", "")
     subject = f"{site['name']} featured your {kind}: {rec['headline']}"[:150]
+    li_tag = " Our LinkedIn post tags your page — a repost helps it reach your followers." if v.get("linkedin_id") else ""
     text = f"""Hello {name} team,
 
-{site['name']} ({base.replace('https://', '')}), a daily news site on respiratory health, has published a short article based on your recent {kind}:
+{site['name']} ({host}), a daily news site on respiratory health, has published a short article based on your recent {kind}:
 
 {rec['headline']}
-{url}
+{k['url']}
 
-You are welcome to share it. A ready-made image card is here: {card}
-Share on X: {x_share}
-Share on LinkedIn: {li_share}
+READY TO POST ON LINKEDIN (copy, paste, and tag @{site['name']} if you like):
+---
+{k['li_text']}
+---
+Image to attach ("Featured in {site['name']}" card): {k['featured_card']}
+Or share in one click — LinkedIn: {k['li_share']} · X: {k['x_share']}
+{li_tag.strip()}
+
+A "Featured in {site['name']}" badge for your website or press page: {k['badge_page']}
 
 If anything in the article needs correcting, just reply to this email and we will fix it promptly.
+
+Our free weekly email, The Week in Respiratory Health: {k['newsletter']}
 
 We send at most one note like this a week. Reply "stop" and we will not send more.
 
 {site['name']} — {site['tagline']}
-{base.replace('https://', '')} · @{site.get('x_handle', 'LungDaily')}
+{host} · @{site.get('x_handle', 'LungDaily')}
 """
     esc = lambda s: (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    li_html = esc(k["li_text"]).replace("\n", "<br>")
+    btn = ("display:inline-block;padding:9px 16px;border-radius:4px;background:#0b6e73;color:#ffffff;"
+           "text-decoration:none;font-weight:bold;margin:0 6px 6px 0")
     html = f"""<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#10242b;max-width:600px">
 <p>Hello {esc(name)} team,</p>
 <p><a href="{base}">{esc(site['name'])}</a>, a daily news site on respiratory health, has published a short article based on your recent {kind}:</p>
-<p><a href="{url}"><img src="{card}" alt="LungDaily share card" width="560" style="max-width:100%;border:0;border-radius:6px"></a></p>
-<p style="font-size:17px"><strong><a href="{url}" style="color:#0b6e73">{esc(rec['headline'])}</a></strong></p>
-<p>You are welcome to share it: <a href="{x_share}">share on X</a> · <a href="{li_share}">share on LinkedIn</a> · <a href="{card}">download the image card</a></p>
+<p style="font-size:17px"><strong><a href="{k['url']}" style="color:#0b6e73">{esc(rec['headline'])}</a></strong></p>
+<p><a href="{k['url']}"><img src="{k['featured_card']}" alt="Featured in {esc(site['name'])}: {esc(rec['headline'])}" width="560" style="max-width:100%;border:0;border-radius:6px"></a></p>
+<p style="margin:18px 0 6px"><strong>Ready to post on LinkedIn</strong> — copy, paste, attach the image above{' and tag @' + esc(site['name']) if site.get('name') else ''}:</p>
+<div style="background:#eef6f6;border-left:3px solid #0b6e73;padding:12px 14px;font-size:14px">{li_html}</div>
+<p style="margin-top:14px"><a href="{k['li_share']}" style="{btn}">Share on LinkedIn</a><a href="{k['x_share']}" style="{btn}">Share on X</a><a href="{k['featured_card']}" style="{btn};background:#ffffff;color:#0b6e73;border:1px solid #0b6e73">Download the image</a></p>
+{f'<p style="font-size:14px">{esc(li_tag.strip())}</p>' if li_tag else ''}
+<p style="font-size:14px">A <a href="{k['badge_page']}">“Featured in {esc(site['name'])}” badge</a> is available for your website or press page.</p>
 <p>If anything in the article needs correcting, just reply to this email and we will fix it promptly.</p>
+<p style="font-size:14px;background:#f6f8f8;padding:10px 12px">Our free weekly email, <strong>The Week in Respiratory Health</strong>: <a href="{k['newsletter']}">subscribe here</a>.</p>
 <p style="color:#5d7178;font-size:13px">We send at most one note like this a week. Reply "stop" and we will not send more.<br>
-{esc(site['name'])} — {esc(site['tagline'])} · <a href="{base}">{base.replace('https://', '')}</a></p>
+{esc(site['name'])} — {esc(site['tagline'])} · <a href="{base}">{host}</a></p>
 </div>"""
     return subject, text, html
 
@@ -162,6 +208,11 @@ def run() -> list[dict]:
             if send(email, subject, text, html, cfg):
                 entry["sent"] = True
                 shared["featured_email"] = {"to": email, "at": now().isoformat(timespec="seconds")}
+                try:
+                    from .reshares import note_featured
+                    note_featured(rec["slug"], v["name"], email)
+                except Exception as e:
+                    log.warning("Reshare bookkeeping: %s", e)
                 state[email.lower()] = now().isoformat(timespec="seconds")
                 log.info("Featured email sent to %s (%s)", email, rec["slug"])
         else:

@@ -346,3 +346,85 @@ def library_picture(rec: dict, state: dict, index: dict, share: float = 1.0) -> 
     last[name] = state["counter"]
     assigned[slug] = name
     return LIBRARY / name
+
+
+# ---------------------------------------------------------------- sharing kit
+
+TEAL, DEEP, INK = (11, 110, 115), (8, 79, 83), (16, 36, 43)
+
+
+def render_featured(card: Path, out: Path) -> Path:
+    """The article's share card with a 'Featured in LungDaily' ribbon — for the people and
+    organisations an article is about, to post on their own LinkedIn/X."""
+    img = Image.open(card).convert("RGB").resize((W, H))
+    d = ImageDraw.Draw(img)
+    f = font("Bold", 26)
+    label = "FEATURED IN LUNGDAILY"
+    tw = f.getlength(label)
+    x1, y0 = W - 40, 40
+    x0 = x1 - tw - 96
+    d.rounded_rectangle([x0, y0, x1, y0 + 56], radius=28, fill=WHITE)
+    draw_mark(d, x0 + 36, y0 + 30, 15, fill=TEAL, bg=WHITE)
+    d.text((x0 + 64, y0 + 28), label, font=f, fill=TEAL, anchor="lm")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG", optimize=True)
+    return out
+
+
+def render_badge(out: Path, scale: int = 2) -> Path:
+    """'Featured in LungDaily' badge (440x120 at scale 2) for organisations' websites."""
+    w, h = 220 * scale, 60 * scale
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([0, 0, w - 1, h - 1], radius=10 * scale, fill=WHITE, outline=TEAL, width=2 * scale)
+    draw_mark(d, 31 * scale, 31 * scale, 17 * scale, fill=TEAL, bg=WHITE)
+    d.text((58 * scale, 19 * scale), "FEATURED IN", font=font("SemiBold", 10 * scale), fill=(93, 113, 120), anchor="lm")
+    bf = font("Bold", 21 * scale)
+    d.text((58 * scale, 39 * scale), "Lung", font=bf, fill=INK, anchor="lm")
+    d.text((58 * scale + bf.getlength("Lung"), 39 * scale), "Daily", font=font("Regular", 21 * scale), fill=TEAL, anchor="lm")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG", optimize=True)
+    return out
+
+
+def render_day(day: dict, out: Path) -> Path:
+    """Share card for an awareness day / congress page (no people, no photos)."""
+    img = Image.new("RGB", (W, H), DEEP)
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    draw_mark(ImageDraw.Draw(layer), 1060, 500, 280, fill=(255, 255, 255, 22), bg=(0, 0, 0, 0), accent=(255, 255, 255, 0))
+    img.paste(layer, (0, 0), layer)
+    d = ImageDraw.Draw(img)
+    pad = 72
+    when = day.get("when_label") or ""
+    kf = font("SemiBold", 26)
+    d.rounded_rectangle([pad, 64, pad + kf.getlength(when.upper()) + 40, 112], radius=24, fill=CORAL)
+    d.text((pad + 20, 88), when.upper(), font=kf, fill=WHITE, anchor="lm")
+    f, lines, lh = fit_headline(day["name"], W - 2 * pad - 120, 220)
+    y = 160
+    for line in lines:
+        d.text((pad, y), line, font=f, fill=WHITE)
+        y += lh
+    if day.get("theme"):
+        tf = font("Medium", 34)
+        for line in wrap(f"“{day['theme']}”", tf, W - 2 * pad - 160)[:2]:
+            d.text((pad, y + 14), line, font=tf, fill=SOFT)
+            y += 44
+    facts = day.get("facts") or []
+    if facts:   # one sourced headline figure
+        f0 = facts[0]
+        ff, sf = font("Bold", 64), font("Medium", 28)
+        fy0 = 400
+        d.text((pad, fy0), f0["figure"], font=ff, fill=WHITE, anchor="ls")
+        d.text((pad + ff.getlength(f0["figure"]) + 18, fy0 - 6), f"{f0['text']} ({f0['source'].split(' ')[0]})",
+               font=sf, fill=SOFT, anchor="ls")
+    fy = H - 70
+    d.line([pad, fy - 30, W - pad, fy - 30], fill=WHITE, width=1)
+    draw_mark(d, pad + 20, fy + 6, 20, fill=WHITE, bg=DEEP)
+    bf = font("SemiBold", 30)
+    d.text((pad + 54, fy + 6), "Lung", font=bf, fill=WHITE, anchor="lm")
+    d.text((pad + 54 + bf.getlength("Lung"), fy + 6), "Daily", font=font("Regular", 30), fill=SOFT, anchor="lm")
+    if day.get("hashtag"):
+        d.text((W - pad, fy + 6), day["hashtag"], font=font("SemiBold", 28), fill=WHITE, anchor="rm")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out, "PNG", optimize=True)
+    return out

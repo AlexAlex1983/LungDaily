@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block description %}{{ day.name }}: news, facts and a share kit from {{ site.name }}.{% endblock %}
+{% block head %}
+<link rel="canonical" href="{{ base }}/days/{{ day.slug }}/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ heading }} — {{ site.name }}">
+<meta property="og:description" content="{{ intro }}">
+<meta property="og:url" content="{{ base }}/days/{{ day.slug }}/">
+<meta property="og:image" content="{{ base }}/cards/days/{{ day.slug }}.png?v={{ build_id }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ base }}/cards/days/{{ day.slug }}.png?v={{ build_id }}">
+<script type="application/ld+json">
+{{ {"@context": "https://schema.org", "@type": "Event", "name": heading, "startDate": day.date.isoformat(),
+    "endDate": (day.until or day.date).isoformat(), "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {"@type": "VirtualLocation", "url": base ~ "/days/" ~ day.slug ~ "/"} if not day.city else {"@type": "Place", "name": day.city, "address": day.city},
+    "organizer": {"@type": "Organization", "name": day.organiser or site.name}, "description": intro,
+    "image": [base ~ "/cards/days/" ~ day.slug ~ ".png"]}|tojson }}
+</script>
+{% endblock %}
+{% block content %}
+{% set page = base ~ "/days/" ~ day.slug ~ "/" %}
+<header class="section-head">
+  <p class="hub-when">{{ when_label }}{% if countdown %} · {{ countdown }}{% endif %}</p>
+  <h1 class="section-title">{{ heading }}</h1>
+  {% if day.theme %}<p class="hub-theme">“{{ day.theme }}”{% if day.theme_url %} <a href="{{ day.theme_url }}" rel="noopener" target="_blank" style="font:400 .85rem var(--sans)">— {{ day.organiser or "official theme" }}</a>{% endif %}</p>{% endif %}
+  <p class="section-intro">{{ intro }}</p>
+</header>
+
+<div class="hub-hero">
+  <div>
+    {% if day.facts %}
+    <ul class="facts">
+      {% for f in day.facts %}<li><b>{{ f.figure }}</b>{{ f.text }}<br><a href="{{ f.url }}" rel="noopener" target="_blank">{{ f.source }}</a></li>{% endfor %}
+    </ul>
+    {% endif %}
+    {% if day.watch %}<p><strong>Watch for:</strong> {{ day.watch }}{% if day.watch_url %} <a href="{{ day.watch_url }}" rel="noopener" target="_blank">Source</a>{% endif %}</p>{% endif %}
+    {% if orgs %}
+    <h2 class="rail-title" style="margin-top:18px">In our coverage</h2>
+    <ul class="orgs">{% for o in orgs %}<li>{{ o }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  <img src="{{ root }}cards/days/{{ day.slug }}.png?v={{ build_id }}" alt="{{ heading }}{% if day.hashtag %} {{ day.hashtag }}{% endif %} — {{ site.name }}" width="1200" height="630">
+</div>
+
+<section class="kit" aria-labelledby="kit-h">
+  <h2 id="kit-h">Share kit for organisations</h2>
+  <p>Free to use: the image above (<a href="{{ root }}cards/days/{{ day.slug }}.png" download>download</a>) and the text below. Link to this page so your followers can find all the {{ day.name }} news in one place.</p>
+  <label class="visually-hidden" for="kit-text">Ready-made post</label>
+  <textarea id="kit-text" readonly>{{ kit_text }}</textarea>
+  <p class="btns">
+    <button type="button" data-copy-text="#kit-text">Copy text</button>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ (page ~ '?utm_source=linkedin&utm_campaign=' ~ day.slug)|urlencode }}" target="_blank" rel="noopener">Share on LinkedIn</a>
+    <a href="https://x.com/intent/post?text={{ kit_x|urlencode }}&url={{ (page ~ '?utm_source=x&utm_campaign=' ~ day.slug)|urlencode }}" target="_blank" rel="noopener">Share on X</a>
+    <a class="alt" href="mailto:?subject={{ heading|urlencode }}&body={{ (kit_text)|urlencode }}">Email it</a>
+  </p>
+  <p style="font-size:.85rem;color:var(--muted)">Have {{ day.name }} news, a statement or an event? <a href="{{ root }}submit-news/">Send it to us</a> — we cover it here.</p>
+</section>
+
+{% set nl_id = "nl-d" %}{% set nl_source = page %}
+{% include "_newsletter.html" %}
+
+<section class="sect">
+  <header class="sect-head"><h2>Latest {{ day.name }} coverage</h2></header>
+  {% if posts %}
+  <div class="row three">
+  {% for p in posts %}
+    <article class="card cat-{{ p.category }}">
+      <a class="thumb" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png?v={{ build_id }}" alt="" loading="lazy" width="1200" height="630"></a>
+      <a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+      <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
+      <p class="dek">{{ p.dek }}</p>
+      <p class="meta"><time datetime="{{ p.date|isodate }}" data-rel>{{ p.date|shortdate }}</time></p>
+    </article>
+  {% endfor %}
+  </div>
+  {% else %}<p class="empty">Coverage will appear here in the days around the date.</p>{% endif %}
+</section>
+<script>
+document.querySelectorAll('[data-copy-text]').forEach(function(b){b.addEventListener('click',function(){
+  var t=document.querySelector(b.getAttribute('data-copy-text'));t.select();
+  try{navigator.clipboard.writeText(t.value);}catch(e){document.execCommand('copy');}
+  b.textContent='Copied';});});
+</script>
+{% endblock %}

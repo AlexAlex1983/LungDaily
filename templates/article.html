@@ -52,6 +52,9 @@
 
   <div class="body">{{ post.html|safe }}</div>
 
+  {% set nl_id = "nl-a" %}{% set nl_compact = true %}{% set nl_source = base ~ "/news/" ~ post.slug ~ "/" %}
+  {% include "_newsletter.html" %}
+
   <section class="source">
     <h2>{% if post.kind == "qa" %}About the interviewee{% else %}Original source{% endif %}</h2>
     {% if x_embed %}
@@ -112,7 +115,6 @@
   <div class="row three">{{ cardrow(more) }}</div>
 </section>
 {% endif %}
-{% include "_newsletter.html" %}
 {% if post.kind == "qa" %}
 <p class="howmade">This Q&amp;A was conducted by email; the answers are published as given, with the interviewee's agreement. Introduction by {{ site.name }} under our <a href="{{ root }}editorial-policy/">editorial standards</a>. Spotted an error? <a href="{{ root }}opt-out/">Request a correction</a>.</p>
 {% else %}

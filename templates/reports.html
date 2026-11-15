@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Monthly reports</h1>
+<p class="section-intro">Who said what in respiratory health each month: the key voices, verbatim quotes and top-rated studies from our coverage.</p></header>
+{% if reports %}<ul>{% for r in reports %}<li><a href="{{ root }}reports/{{ r.key }}/">{{ r.title }}</a> — {{ r.total }} articles</li>{% endfor %}</ul>
+{% else %}<p class="empty">The first report appears after the end of the first full month of coverage.</p>{% endif %}
+{% endblock %}

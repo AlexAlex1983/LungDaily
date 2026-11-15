@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Awareness days &amp; congresses</h1>
+<p class="section-intro">The respiratory calendar: each page collects our coverage, sourced facts and a free share kit for organisations.</p></header>
+<div class="row three">
+{% for d in days %}
+  <article class="card">
+    <a class="thumb" href="{{ root }}days/{{ d.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}cards/days/{{ d.slug }}.png?v={{ build_id }}" alt="" loading="lazy" width="1200" height="630"></a>
+    <p class="hub-when">{{ d.when_label }}</p>
+    <h3><a href="{{ root }}days/{{ d.slug }}/">{{ d.name }}</a></h3>
+    {% if d.theme %}<p class="dek">“{{ d.theme }}”</p>{% endif %}
+  </article>
+{% endfor %}
+</div>
+{% endblock %}

@@ -4,9 +4,15 @@ name: Newsletter
 # Buttondown (draft or sent, see settings.yaml -> newsletter). Fridays ~08:20 CET.
 on:
   schedule:
-    - cron: "19 7 * * 5"
+    - cron: "19 7 * * 5"          # weekly issue (+ language editions as drafts)
+    - cron: "41 17 * * *"         # congress daily: only does something on ATS / ERS congress days
   workflow_dispatch:
     inputs:
+      kind:
+        description: "weekly = The Week in Respiratory Health (+ language editions) · congress-daily = today's congress email"
+        type: choice
+        options: [weekly, congress-daily]
+        default: weekly
       force:
         description: "Create it again even if this week's newsletter already exists"
         type: boolean
@@ -35,11 +41,14 @@ jobs:
       - name: Compose and create in Buttondown
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            python -m lungdaily.run newsletter force
+          F=""
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then F="force"; fi
+          if [ "${{ github.event.inputs.kind }}" = "congress-daily" ] || [ "${{ github.event.schedule }}" = "41 17 * * *" ]; then
+            python -m lungdaily.run congress-daily $F
           else
-            python -m lungdaily.run newsletter
+            python -m lungdaily.run newsletter $F
           fi
       - name: Save state
         run: |

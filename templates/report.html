@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block description %}{{ r.title }}: the month's most important respiratory news, voices and studies, from {{ site.name }}.{% endblock %}
+{% block head %}<link rel="canonical" href="{{ base }}/reports/{{ r.key }}/">
+<meta property="og:title" content="{{ r.title }}"><meta property="og:url" content="{{ base }}/reports/{{ r.key }}/">
+<meta property="og:image" content="{{ base }}/static/icons/logo-512.png">{% endblock %}
+{% block content %}
+<div class="report">
+<header class="section-head"><p class="hub-when">Monthly report</p><h1 class="section-title">{{ r.title }}</h1>
+<p class="section-intro">Who said what in respiratory health in {{ r.month_label }}, based on {{ site.name }}'s coverage: {{ r.total }} articles from {{ r.sources }} sources. Quotes are verbatim from the original posts and papers; every item links to our article and its source.</p></header>
+<div class="stat-row">
+  {% for t in r.top_topics %}<div><b>{{ t.n }}</b>{{ t.label }}</div>{% endfor %}
+</div>
+{% for sec in r.sections %}
+<h2>{{ sec.label }}: who said what</h2>
+<ol>
+{% for p in sec.posts %}
+  <li><a href="{{ root }}news/{{ p.slug }}/"><strong>{{ p.headline }}</strong></a>
+  {% if p.key_quote %}<blockquote>“{{ p.key_quote }}” — {{ p.source.author_name or "source" }}</blockquote>{% endif %}
+  <span class="meta">{{ p.date|shortdate }} · <a href="{{ p.source.url }}" rel="nofollow noopener" target="_blank">original source</a></span></li>
+{% endfor %}
+</ol>
+{% endfor %}
+{% if r.studies %}
+<h2>The month's top-rated studies</h2>
+<p class="meta">Ranked by our editors' newsworthiness score (journal, design, size and relevance), not by citations.</p>
+<ol>{% for p in r.studies %}<li><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a>{% if p.source.extra and p.source.extra.journal %} — <em>{{ p.source.extra.journal }}</em>{% endif %}</li>{% endfor %}</ol>
+{% endif %}
+{% if r.voices %}
+<h2>Most-featured voices</h2>
+<ul class="orgs">{% for v in r.voices %}<li>{{ v.name }} ({{ v.n }})</li>{% endfor %}</ul>
+{% endif %}
+<p class="howmade">Compiled automatically from articles published on {{ site.name }} in {{ r.month_label }}. Counts reflect our coverage, not all research or news published. Citing this report: “{{ r.title }}, {{ site.name }}, {{ base }}/reports/{{ r.key }}/”.</p>
+</div>
+{% set nl_id = "nl-r" %}{% include "_newsletter.html" %}
+{% endblock %}

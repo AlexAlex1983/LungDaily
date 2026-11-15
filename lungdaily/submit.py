@@ -70,6 +70,9 @@ def from_url(url: str, category: str = "") -> str | None:
     held = read_json(process.HELD, [])
     stats = {"published": 0, "held": 0, "failed": 0}
     slug = process.produce(item, held, stats)
+    if slug == "skip":
+        log.warning("From URL: the page had too little substance for an article — nothing written")
+        slug = None
     write_json(process.HELD, held)
     log.info("From URL result: %s", stats)
     return slug or None
