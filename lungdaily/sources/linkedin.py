@@ -1,6 +1,7 @@
 """LinkedIn posts via Apify actors (LinkedIn's own API cannot read other people's posts).
 
-* Profile tracking (default): scrapemint/linkedin-profile-posts-scraper — public pages, no login.
+* Profile tracking (default): harvestapi/linkedin-profile-posts — public pages, no login.
+  Image-only posts (no text) are skipped; so are reposts.
   Follows the LinkedIn URLs in config/voices.yaml.
 * Keyword search (optional): crawlerbros/linkedin-post-search-scraper — needs a LinkedIn
   `li_at` session cookie (LINKEDIN_LI_AT). Use a separate LinkedIn account, not your own:
@@ -59,6 +60,9 @@ def normalise(row: dict, via: str) -> dict | None:
         return None
     if row.get("type") == "repost" or row.get("repost") or row.get("isRepost"):
         return None
+    # HarvestAPI marks reposts only in the header ("X reposted this"); the author is then the original poster.
+    if "reposted" in str(_get(row, "header.text", default="")).lower():
+        return None
     text = _get(row, "text", "content", "postText", "commentary")
     url = _get(row, "url", "postUrl", "linkedinUrl", "shareUrl")
     if not text or not url:
@@ -71,7 +75,7 @@ def normalise(row: dict, via: str) -> dict | None:
         url=url,
         text=text,
         author_name=_get(row, "author.name", "authorName", "author.fullName"),
-        author_url=_get(row, "author.linkedinUrl", "author.url", "authorProfileUrl", "author.profileUrl"),
+        author_url=str(_get(row, "author.linkedinUrl", "author.url", "authorProfileUrl", "author.profileUrl")).split("?")[0],
         author_headline=_get(row, "author.info", "author.headline", "authorHeadline"),
         published_at=iso(parse_date(_get(row, "postedAt.timestamp", "postedAt.date", "postedAt", "postedDate", "date",
                                          "postedAtISO", default=None))),

@@ -32,6 +32,17 @@ items = [
               author_name="Blocked Person", author_handle="blockedperson", published_at="2026-11-07T08:00:00+00:00"),
 ]
 items += [i for i in (linkedin.normalise(r, "profiles") for r in json.loads((fx / "linkedin.json").read_text())) if i]
+# HarvestAPI shape: own post kept (URL query stripped, focus match), repost + image-only skipped
+_hv = {"type": "post", "id": "752", "linkedinUrl": "https://www.linkedin.com/posts/tonya-winders-7109169_activity-752",
+       "content": "COPD update text", "author": {"name": "Tonya Winders", "info": "President of GAAPP",
+       "linkedinUrl": "https://www.linkedin.com/in/tonya-winders-7109169?miniProfileUrn=x"},
+       "postedAt": {"timestamp": 1794505468595}, "engagement": {"likes": 44, "comments": 1, "shares": 4}, "header": {"text": None}}
+_n = linkedin.normalise(_hv, "profiles")
+assert _n and _n["author_url"] == "https://www.linkedin.com/in/tonya-winders-7109169" and _n["metrics"]["likes"] == 44
+from lungdaily.util import is_focus as _isf
+assert _isf({"author_url": _n["author_url"]})
+assert linkedin.normalise(dict(_hv, header={"text": "Tonya Winders reposted this"}), "profiles") is None
+assert linkedin.normalise(dict(_hv, content=None), "profiles") is None
 items += pubmed.parse_efetch((fx / "pubmed.xml").read_text())
 items += rss.parse_feed((fx / "rss.xml").read_text(), "Test feed", 10)
 print("fixture items:", len(items))
