@@ -348,16 +348,31 @@ def authors_today() -> dict:
     return out
 
 
+def authors_week(days: int = 7) -> dict:
+    """Articles per author written (ready or published) in the last 7 days."""
+    since, out = now() - dt.timedelta(days=days), {}
+    for p in _all_posts():
+        if p.get("status") in ("published", "ready") and (parse_date(p.get("created_at")) or now()) >= since:
+            k = author_key(p.get("source") or {})
+            out[k] = out.get(k, 0) + 1
+    return out
+
+
 def pick(candidates: list[dict], room: int, sel: dict) -> tuple[list[dict], list[dict]]:
     """Best-ranked items, but at most N per author per run / per day, so one prolific
     account (e.g. a journal) cannot fill the site."""
     per_run = int(sel.get("max_per_author_per_run", 1))
     per_day = int(sel.get("max_per_author_per_day", 2))
     counts = authors_today()
+    weekly = {str(h).lower().lstrip("@"): int(n) for h, n in (sel.get("max_per_author_per_week") or {}).items()}
+    week_counts = authors_week() if weekly else {}
     run_counts: dict = {}
     chosen, rest = [], []
     for i in candidates:
         k = author_key(i)
+        if k in weekly and week_counts.get(k, 0) + run_counts.get(k, 0) >= weekly[k]:
+            rest.append(i)          # weekly cap for this account reached (e.g. the owner's own X posts)
+            continue
         if len(chosen) < room and run_counts.get(k, 0) < per_run and counts.get(k, 0) + run_counts.get(k, 0) < per_day:
             chosen.append(i)
             run_counts[k] = run_counts.get(k, 0) + 1

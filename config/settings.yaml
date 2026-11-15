@@ -59,6 +59,8 @@ limits:
 selection:                        # how the best items are chosen each run
   max_per_author_per_run: 1       # one article per account/author per run
   max_per_author_per_day: 2       # so a prolific journal or society cannot fill the site
+  max_per_author_per_week:        # rolling 7 days, by X handle (articles written from this account's posts)
+    KulikovUNIATF: 2
   person_boost: 1.0               # individuals rank above organisations at equal score (feature more people)
   linkedin_boost: 0.5             # LinkedIn-sourced items rank a little higher (LinkedIn first: that's where the community is)
   focus_boost: 1.5                # voices.yaml focus: true (José Luis Castro, Tonya Winders) rank well above others

@@ -60,6 +60,11 @@ import yaml as _yq
 _cq = _yq.safe_load(open("config/settings.yaml")); _cq["publishing"]["min_source_words"] = {"rss": 5, "pubmed": 5, "x": 5, "linkedin": 5}
 _yq.safe_dump(_cq, open("config/settings.yaml", "w"))
 stats = process.run()
+# weekly per-account cap (settings selection.max_per_author_per_week)
+_wk = {"max_per_author_per_run": 5, "max_per_author_per_day": 9, "max_per_author_per_week": {"ERSpublications": 0}}
+_ers_items = [{"author_handle": "ERSpublications", "id": "w1"}, {"author_handle": "someoneelse", "id": "w2"}]
+_ch, _rest = process.pick(_ers_items, 5, _wk)
+assert [c["id"] for c in _ch] == ["w2"] and [r["id"] for r in _rest] == ["w1"], (_ch, _rest)
 print("stats:", stats)
 assert stats.get("ready", 0) >= 3 and stats["published"] == 0, stats
 # scheduled publishing: one ready article per due slot (10:00 UTC = 11:00 CET -> 5 slots due)
