@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-14-dr-chacon-lozsan-f-trapped-gas-can-cause-hypotension-in-ventilated-pat",
+  "slug": "2026-11-15-dr-chacon-lozsan-f-trapped-gas-can-cause-hypotension-in-ventilated-pat",
   "headline": "Dr. Chacón-Lozsán F: trapped gas can cause hypotension in ventilated patients",
   "dek": "In a post on X, the critical care physician outlined how dynamic hyperinflation and auto-PEEP arise, how they are identified on the ventilator, and how they can be managed.",
   "body": "Dr. Chacón-Lozsán F, who describes himself on X as a Venezuelan doctor in Hungary working in critical care, posted entry #127 of his \"Critical Physiology Series\" on dynamic hyperinflation and auto-PEEP. He wrote that a ventilated patient may become hypotensive despite adequate oxygenation because of trapped gas.\n\nAccording to the post, dynamic hyperinflation occurs when a new inspiration begins before lung units have emptied. He wrote that increased airway resistance and expiratory flow limitation prolong exhalation and raise end-expiratory lung volume. He listed COPD, severe asthma, mucus plugging, airway oedema, tachypnoea, excessive minute ventilation and short expiratory times as risk factors. He added that breath stacking raises intrathoracic pressure, reduces venous return and right ventricular output, and may cause shock.\n\nOn diagnosis, he wrote that expiratory flow fails to return to zero before the next breath. In a passive patient, he said, an end-expiratory hold measures total PEEP, and auto-PEEP equals total minus set PEEP.\n\nFor management, he wrote that the priority is giving the patient time to exhale. His list included treating bronchospasm, clearing secretions, lowering respiratory rate and, where appropriate, tidal volume, and avoiding excessive minute ventilation. He also wrote that carefully monitored permissive hypercapnia may be safer than chasing a normal PaCO₂.\n\nThe post cited recent literature from Marini, Demoule and colleagues, Jubran, and Mein and Ferrera.",
@@ -48,5 +48,9 @@
       "author_id": "143635215"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-15T10:00:15+00:00",
+  "shared": {
+    "x": "2121906557671833647"
+  }
 }
