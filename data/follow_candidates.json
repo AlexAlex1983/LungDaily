@@ -18,7 +18,7 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 14,
+    "seen": 15,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
     "followers": 33473
@@ -26,10 +26,10 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 11,
+    "seen": 12,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
-    "followers": 21312
+    "followers": 21314
   },
   "europeanlung": {
     "id": "121759520",
@@ -50,7 +50,7 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 15,
+    "seen": 16,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
     "followers": 42214
@@ -90,10 +90,10 @@
   "drbreatheeasy": {
     "id": "1028440041998241792",
     "username": "drbreatheeasy",
-    "seen": 1,
+    "seen": 2,
     "name": "Dr Adebayo Fasanya",
     "bio": "Dr. Fasanya, MD\nPulmonologist • Physician • Investor\nMedicine, health & building wealth beyond the white coat\nHelping physicians create financial freedom",
-    "followers": 4616
+    "followers": 4614
   },
   "allergicliving": {
     "id": "27036843",
@@ -138,10 +138,10 @@
   "narjustflorezmd": {
     "id": "855372288455311360",
     "username": "NarjustFlorezMD",
-    "seen": 4,
+    "seen": 5,
     "name": "Narjust Florez, MD, FASCO",
     "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
-    "followers": 25577
+    "followers": 25578
   },
   "pulmcrit": {
     "id": "873314053",
@@ -694,5 +694,13 @@
     "name": "Lung Cancer Foundation of America",
     "bio": "Improvement in survivorship of lung cancer patients through funding transformative science. Raise awareness & serve as a resource for anyone seeking answers.",
     "followers": 4177
+  },
+  "chifujeffyang": {
+    "id": "850212731357614080",
+    "username": "ChiFuJeffYang",
+    "seen": 1,
+    "name": "Jeff Yang MD FACS",
+    "bio": "Thoracic surgeon @MGHSurgery | Associate Professor of Surgery @harvardmed | Advocate for early detection of lung cancer @amlungcsi",
+    "followers": 2576
   }
 }

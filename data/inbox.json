@@ -257,6 +257,75 @@
     }
   },
   {
+    "id": "x:2121755087965962699",
+    "source": "x",
+    "url": "https://x.com/Medscape/status/2121755087965962699",
+    "title": "",
+    "text": "Lung cancer screenings have continued to lag behind other types of cancer screenings, due in part to a communication gap in which few people eligible for screening are discussing their risk with clinicians, according to findings presented at CHEST, the annual meeting of the American College of Chest Physicians, in Phoenix on October 20. \n\n“Addressing these deficits at multiple points along the screening continuum is essential to improve lung cancer screening uptake and reduce mortality, “ Sarvesh Sharma, MD, a fellow of pulmonary disease and critical care medicine at Cape Fear Valley Medical Center and a clinical instructor at Methodist University Cape Fear Valley School of Medicine in Fayetteville, North Carolina, told attendees. https://t.co/5BZFQXuz9l",
+    "author_name": "Medscape",
+    "author_handle": "Medscape",
+    "author_url": "https://x.com/Medscape",
+    "author_headline": "Medscape provides breaking medical news and expert perspectives, drug and disease information, and free CME across 30+ medical specialties.",
+    "published_at": "2026-11-15T00:00:07+00:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 2,
+      "comments": 2
+    },
+    "extra": {
+      "tweet_id": "2121755087965962699",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/Medscape/status/2121755087965962699/photo/1"
+      ],
+      "author_followers": 291789,
+      "author_id": "16892009"
+    },
+    "collected_at": "2026-11-15T05:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Medscape reports CHEST data on lung cancer screening communication gaps"
+    }
+  },
+  {
+    "id": "x:2121773182315098614",
+    "source": "x",
+    "url": "https://x.com/NEJMClinician/status/2121773182315098614",
+    "title": "",
+    "text": "To assess the performance of biomarkers in the diagnosis of asthma, investigators conducted a systematic review and parallel prospective validation cohort. Read the key results: https://t.co/R2QxVZwDjD\n\n#pulmonology https://t.co/lTLb3W5y6P",
+    "author_name": "NEJM Clinician",
+    "author_handle": "NEJMClinician",
+    "author_url": "https://x.com/NEJMClinician",
+    "author_headline": "NEJM Clinician is a new digital resource delivering contextualized insights of the most impactful and practice-changing research in medicine.",
+    "published_at": "2026-11-15T01:12:01+00:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "comments": 1
+    },
+    "extra": {
+      "tweet_id": "2121773182315098614",
+      "query_kind": "keywords",
+      "links": [
+        "https://jwat.ch/4kxCjil",
+        "https://x.com/NEJMClinician/status/2121773182315098614/photo/1"
+      ],
+      "author_followers": 65690,
+      "author_id": "25952049"
+    },
+    "collected_at": "2026-11-15T05:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Systematic review and validation cohort on asthma diagnostic biomarkers"
+    }
+  },
+  {
     "id": "x:2121433667050319940",
     "source": "x",
     "url": "https://x.com/CNNnews18/status/2121433667050319940",
@@ -356,34 +425,6 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "CHEST commentary on surgical versus cryobiopsy lung diagnosis"
-    }
-  },
-  {
-    "id": "rss:9ba27450b24ae732",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTjc5TzFTUGQ1SDVUYnNaZGRnVHFLZXBOSG1sZW9SUWR4Y05NeGxaX1BsN0FBdjZsUURpUE53Sk9kUGhrTkJad1dKajRGbVRZd3M5TEhndVo0ZURPYUk1VnhoVW9uMTh4RHllS2p2NE12eXpEbjluV1RERDhXZ1ZfdzFqTVN0OWdZcUNpWnNZT01Wbk1uQ1U1Q1FqVU5kN0VjaUJ5MDg2YmVObF9HanJSekZkSUszU1lSVFNTcGtkaWRRMEFySkxpWVZPR1YwZW12YkxlMdIB3AFBVV95cUxOd09mZWtZY1dzc0tBRGs1amxJVVhXUFB6NlNUUGt0VWxvc1ZEZkxVanIycGl5VXp5V015VUdUWGJKTE9iSDR3ajBtaHU2dEx3ckp2UEN0VkhBSHNvOWkwNnNSU1FBQWVlMzlyWGE3MDhVWFJST3BLb3NXMllWYnA0Unk0b2ljU010czBJR1JKNThIYmtKTXU1N3cwSkNtNnVCc1VqSEZqcy1iUzFUbVI2VEhnZ2stdU1wd0RodHlmS2x3WWpEMFpuSWJjNEpLcmFKdXBfRFJNdGNONFRu?oc=5",
-    "title": "Air Pollution Is As Big A Public Health Emergency As COVID: Former WHO Chief - NDTV",
-    "text": "Air Pollution Is As Big A Public Health Emergency As COVID: Former WHO Chief NDTV",
-    "author_name": "NDTV",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-11T08:20:02+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — air pollution health"
-    },
-    "collected_at": "2026-11-12T05:07:18+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Former WHO chief's view on air pollution as health emergency"
     }
   },
   {
@@ -1317,6 +1358,40 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Notable cohort finding linking dupilumab to lower asthma incidence"
+    }
+  },
+  {
+    "id": "x:2121815509192605757",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2121815509192605757",
+    "title": "",
+    "text": "ERJOR: Thoracic ultrasound reliably identifies malignant pleural effusion through highly specific signs such as pleural and diaphragmatic nodules or thickening. Shear wave elastography shows balanced accuracy but needs further evidence before routine use. https://t.co/mnJsAZlbUJ",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-15T04:00:13+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2121815509192605757",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4wm5Zmm"
+      ],
+      "author_followers": 33473,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-15T05:07:21+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERJOR study on thoracic ultrasound for malignant pleural effusion"
     }
   }
 ]
