@@ -1,40 +1,5 @@
 [
   {
-    "id": "x:2121498432971919370",
-    "source": "x",
-    "url": "https://x.com/ERSpublications/status/2121498432971919370",
-    "title": "",
-    "text": "Allergic and T2 biomarkers are highly prevalent in asthma and asthma+COPD but less frequent in COPD. Their patterns show distinct associations, sometimes with opposite trends, across diagnostic groups, suggesting distinct underlying mechanisms that differ. https://t.co/cPoPv3unui https://t.co/3VfolnXvIT",
-    "author_name": "ERS publications",
-    "author_handle": "ERSpublications",
-    "author_url": "https://x.com/ERSpublications",
-    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "published_at": "2026-11-14T07:00:16+00:00",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2121498432971919370",
-      "query_kind": "voices",
-      "links": [
-        "https://bit.ly/4tI3zMS",
-        "https://x.com/ERSpublications/status/2121498432971919370/photo/1"
-      ],
-      "author_followers": 33474,
-      "author_id": "424241621"
-    },
-    "collected_at": "2026-11-14T08:07:31+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ERS journals share study on allergic and T2 biomarkers"
-    }
-  },
-  {
     "id": "x:2120788772795146539",
     "source": "x",
     "url": "https://x.com/ERSpublications/status/2120788772795146539",
@@ -67,34 +32,6 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "ERS journal summary of COPD peak inspiratory flow study"
-    }
-  },
-  {
-    "id": "rss:59302de5cc86722b",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMFRZWk9qU3ExQlFudEQ5SzlhalJFMkhZbGgxb1JsdlhYTVdUZTVkeklzeXAtYjdaQ3JoWEVraEJob05hLVAzbG9iRUZmYWhuWEZjRjNDWFpDR0lDYUVkbHdxMl8tZWJrQWl5NDJxc3k2aUlEYU8yWVR6a0lZU1hvck1IQXBLdW1mbG44bjNvbEVjQWoydkt6dW8xeHBJOWhGXzZqeG81N0RIQTZOc1Nn?oc=5",
-    "title": "Mepolizumab Reduces Steroid Use in COPD",
-    "text": "Mepolizumab Reduces Steroid Use in COPD Medscape",
-    "author_name": "Medscape",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-12T12:04:13+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — COPD"
-    },
-    "collected_at": "2026-11-12T14:07:20+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Reports mepolizumab steroid-sparing effect in COPD trial"
     }
   },
   {
@@ -219,6 +156,40 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "New ATS 2026 guideline on as-needed ICS in asthma"
+    }
+  },
+  {
+    "id": "pubmed:43033191",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43033191/",
+    "title": "Effects of Cooking With Liquefied Petroleum Gas or Biomass on Lung Function Among Pre-School Aged Children in Peru: A Prospective Follow-Up of a Randomized Trial.",
+    "text": "INTRODUCTION: Billions worldwide are exposed to household air pollution (HAP) from solid fuel use, increasing risk of lung function impairment and chronic respiratory disease. Understanding HAP effects on early life lung function may identify critical windows for intervention. METHODS: We performed respiratory oscillometry in 3-5-year-olds whose mothers participated in a randomized trial of LPG versus usual solid fuel use during pregnancy and infancy. We assessed resistance (R7) and reactance (X7) at 7 Hertz, frequency dependence of resistance (R7-19), resonance frequency (fres) and area above the reactance curve from 7 Hertz (AX7). We computed z-scores for R7, X7, fres, and AX7 from pediatric reference equations. Rigorous quality control was applied. Exposure-response analyses examined the association between R7 or AX7 z-scores and prenatal or postnatal PM2.5 or CO exposures. RESULTS: We tested 101 children (mean [±SD] age 4.4 ± 0.6 years, 51.5% male, 50.5% intervention). Mean R7, X7, fres and AX7 z-scores were similar between intervention and control groups: -0.1 ± 1.0 vs -0.2 ± 1.2, -0.8 ± 1.0 vs -1.0 ± 1.1, 0.9 ± 1.1 vs 0.4 ± 1.1, and 1.2 ± 1.0 vs 1.3 ± 1.3, respectively. Intention-to-treat analysis showed no differences between arms in pre-bronchodilator lung function or bronchodilator response, except for a larger post-bronchodilator decrease in mean fres z-score in the intervention arm (-0.36, 95% CI -0.71 to -0.02). Postnatal CO exposure was associated with higher AX7 z-scores, indicating worse reactance (0.041 per 1 ppm CO increase, 95% CI 0.003 to 0.078). No associations were found for PM2.5 exposure. CONCLUSION: Early-life LPG use did not improve oscillometric lung function compared with those exposed to biomass smoke. An exploratory association between postnatal CO exposure and impaired lung reactance warrants confirmation in larger cohorts.",
+    "author_name": "Laura Nicolaou, William Checkley, Jennifer Rha et al.",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-01T00:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "journal": "Pediatric pulmonology",
+      "doi": "10.1002/ppul.71901",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "first_author": "Laura Nicolaou"
+    },
+    "collected_at": "2026-11-15T08:07:26+00:00",
+    "triage": {
+      "score": 8.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Randomised trial follow-up on LPG versus biomass and child lung function"
     }
   },
   {
@@ -425,124 +396,6 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "CHEST commentary on surgical versus cryobiopsy lung diagnosis"
-    }
-  },
-  {
-    "id": "x:2120772836125970855",
-    "source": "x",
-    "url": "https://x.com/ThoraxBMJ/status/2120772836125970855",
-    "title": "",
-    "text": "Editorial: Preventing severe asthma exacerbations in at-risk patients - time for a rethink.\nhttps://t.co/AWIurF43vW",
-    "author_name": "ThoraxBMJ",
-    "author_handle": "ThoraxBMJ",
-    "author_url": "https://x.com/ThoraxBMJ",
-    "author_headline": "Publishing top research to support the #respiratory & #criticalcare community. Companion #OpenAccess journal, @BMJOpen_Resp. Published with @BTSrespiratory",
-    "published_at": "2026-11-12T06:57:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2120772836125970855",
-      "query_kind": "keywords",
-      "links": [
-        "https://thorax.bmj.com/content/81/11/1048?utm_campaign=Usage&utm_content=1794466620&utm_id=BMJ215&utm_medium=social&utm_source=twitter"
-      ],
-      "author_followers": 22175,
-      "author_id": "141173210"
-    },
-    "collected_at": "2026-11-12T07:28:48+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ThoraxBMJ editorial calling for rethink on severe asthma exacerbation prevention"
-    }
-  },
-  {
-    "id": "rss:e106a19cdaf17215",
-    "source": "rss",
-    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af56ab0219649db845dd55d032769fa&url=https%3a%2f%2fwww.cancer.org%2fcancer%2flatest-news%2four-impact%2facs-backed-research-reveals-gap-in-metastatic-lung-cancer-care.html&c=10300129348595752456&mkt=en-us",
-    "title": "ACS-Backed Research Reveals Gap in Metastatic Lung Cancer Care",
-    "text": "In July 2024, he was awarded an American Cancer Society Clinician Scientist Development Grant, which helps physician researchers build independent research programs while continuing to care for ...",
-    "author_name": "American Cancer Society",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T16:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Bing News — respiratory awards and obituaries"
-    },
-    "collected_at": "2026-11-12T07:28:48+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ACS-backed research on care gaps in metastatic lung cancer"
-    }
-  },
-  {
-    "id": "rss:3a85e5fbedc1782d",
-    "source": "rss",
-    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af56ab0219649db845dd55d032769fa&url=https%3a%2f%2ftobaccocontrol.bmj.com%2fcontent%2fearly%2f2026%2f10%2f30%2ftc-2025-059746&c=4591233708272377335&mkt=en-us",
-    "title": "Prolonged effect of e-cigarette use on pulmonary function: A Pilot Study",
-    "text": "This study aimed to investigate the effect of prolonged e-cigarette use on the pulmonary function tests (PFTs) of young individuals using a within-subject design. In this study, 22 current primarily e ...",
-    "author_name": "Tobacco Control",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T16:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Bing News — respiratory awards and obituaries"
-    },
-    "collected_at": "2026-11-12T07:28:48+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Pilot study on prolonged e-cigarette effects on lung function"
-    }
-  },
-  {
-    "id": "rss:5011cab443e7cf1b",
-    "source": "rss",
-    "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6af56bbb9c43432ab4b4f75a3f7f0802&url=https%3a%2f%2fwww.cancer.org%2fcancer%2flatest-news%2four-impact%2facs-backed-research-reveals-gap-in-metastatic-lung-cancer-care.html&c=10300129348595752456&mkt=en-us",
-    "title": "ACS-Backed Research Reveals Gap in Metastatic Lung Cancer Care",
-    "text": "In July 2024, he was awarded an American Cancer Society Clinician Scientist Development Grant, which helps physician researchers build independent research programs while continuing to care for ...",
-    "author_name": "American Cancer Society",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-09T16:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Bing News — respiratory awards and obituaries"
-    },
-    "collected_at": "2026-11-12T07:33:15+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ACS-funded study reveals gap in metastatic lung cancer care"
     }
   },
   {

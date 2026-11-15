@@ -1415,5 +1415,46 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-15-mepolizumab-reduces-steroid-use-in-copd-medscape-reports",
+    "headline": "Mepolizumab reduces steroid use in COPD, Medscape reports",
+    "dek": "A Medscape news item reports that mepolizumab reduces steroid use in chronic obstructive pulmonary disease, but the item as provided gives no further detail.",
+    "body": "Mepolizumab reduces steroid use in COPD, according to a news item published by Medscape on 12 November 2026.\n\nThe item available to LungDaily consists only of the headline. It does not state the study design, the patient population, the size of the reduction, the type or dose of steroid, or the journal in which any findings appear. Those details cannot be reported here.\n\nThis article will be updated if the full report or the underlying study becomes available.",
+    "key_quote": "",
+    "tags": [
+      "copd",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-15T08:08:20+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 78 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMFRZWk9qU3ExQlFudEQ5SzlhalJFMkhZbGgxb1JsdlhYTVdUZTVkeklzeXAtYjdaQ3JoWEVraEJob05hLVAzbG9iRUZmYWhuWEZjRjNDWFpDR0lDYUVkbHdxMl8tZWJrQWl5NDJxc3k2aUlEYU8yWVR6a0lZU1hvck1IQXBLdW1mbG44bjNvbEVjQWoydkt6dW8xeHBJOWhGXzZqeG81N0RIQTZOc1Nn?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:59302de5cc86722b",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMFRZWk9qU3ExQlFudEQ5SzlhalJFMkhZbGgxb1JsdlhYTVdUZTVkeklzeXAtYjdaQ3JoWEVraEJob05hLVAzbG9iRUZmYWhuWEZjRjNDWFpDR0lDYUVkbHdxMl8tZWJrQWl5NDJxc3k2aUlEYU8yWVR6a0lZU1hvck1IQXBLdW1mbG44bjNvbEVjQWoydkt6dW8xeHBJOWhGXzZqeG81N0RIQTZOc1Nn?oc=5",
+      "title": "Mepolizumab Reduces Steroid Use in COPD",
+      "author_name": "Medscape",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-12T12:04:13+00:00",
+      "extra": {
+        "feed": "Google News — COPD",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

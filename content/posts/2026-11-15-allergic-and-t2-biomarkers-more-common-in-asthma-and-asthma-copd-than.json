@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-15-allergic-and-t2-biomarkers-more-common-in-asthma-and-asthma-copd-than",
+  "headline": "Allergic and T2 biomarkers more common in asthma and asthma+COPD than in COPD",
+  "dek": "A post from ERS publications says biomarker patterns differ across diagnostic groups, sometimes in opposite directions, suggesting distinct underlying mechanisms.",
+  "body": "Allergic and T2 biomarkers are highly prevalent in asthma and in asthma+COPD, but less frequent in COPD alone, according to a post from ERS publications on X.\n\nThe post said the biomarker patterns showed distinct associations across the diagnostic groups, with some trends running in opposite directions. It said this suggests that the underlying mechanisms differ between the groups.\n\nThe post does not name the journal or the authors, and it gives no details of the study population, methods or figures. It links to further material that was not available for this report.",
+  "key_quote": "Allergic and T2 biomarkers are highly prevalent in asthma and asthma+COPD but less frequent in COPD.",
+  "tags": [
+    "asthma",
+    "copd",
+    "diagnostics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T08:08:11+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121498432971919370",
+    "url": "https://x.com/ERSpublications/status/2121498432971919370"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121498432971919370",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2121498432971919370",
+    "title": "",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "published_at": "2026-11-14T07:00:16+00:00",
+    "extra": {
+      "tweet_id": "2121498432971919370",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4tI3zMS",
+        "https://x.com/ERSpublications/status/2121498432971919370/photo/1"
+      ],
+      "author_followers": 33474,
+      "author_id": "424241621"
+    }
+  },
+  "status": "ready"
+}
