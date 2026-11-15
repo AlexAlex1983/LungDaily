@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-15-study-assesses-performance-of-biomarkers-in-diagnosing-asthma-combinin",
+  "headline": "Study assesses performance of biomarkers in diagnosing asthma, combining systematic review and validation cohort",
+  "dek": "NEJM Clinician highlighted a study that evaluated asthma biomarkers using a systematic review alongside a parallel prospective validation cohort.",
+  "body": "NEJM Clinician, a digital resource that describes itself as delivering contextualised insights on impactful research in medicine, highlighted a study on asthma diagnosis in a post on X.\n\nAccording to the post, investigators set out to assess the performance of biomarkers in the diagnosis of asthma. They conducted a systematic review and a parallel prospective validation cohort.\n\nThe post did not name the journal, and it did not report the biomarkers studied, the size of the cohort or the results. It directed readers to a linked page for the key results.",
+  "key_quote": "To assess the performance of biomarkers in the diagnosis of asthma, investigators conducted a systematic review and parallel prospective validation cohort.",
+  "tags": [
+    "asthma",
+    "diagnostics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T17:10:25+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121773182315098614",
+    "url": "https://x.com/NEJMClinician/status/2121773182315098614"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121773182315098614",
+    "source": "x",
+    "url": "https://x.com/NEJMClinician/status/2121773182315098614",
+    "title": "",
+    "author_name": "NEJM Clinician",
+    "author_handle": "NEJMClinician",
+    "author_url": "https://x.com/NEJMClinician",
+    "published_at": "2026-11-15T01:12:01+00:00",
+    "extra": {
+      "tweet_id": "2121773182315098614",
+      "query_kind": "keywords",
+      "links": [
+        "https://jwat.ch/4kxCjil",
+        "https://x.com/NEJMClinician/status/2121773182315098614/photo/1"
+      ],
+      "author_followers": 65690,
+      "author_id": "25952049"
+    }
+  },
+  "status": "ready"
+}

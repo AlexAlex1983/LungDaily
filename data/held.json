@@ -1639,5 +1639,87 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-15-mitiperstat-fails-to-improve-copd-outcomes-emj-reports",
+    "headline": "Mitiperstat fails to improve COPD outcomes, EMJ reports",
+    "dek": "An EMJ news item reports that mitiperstat did not improve outcomes in chronic obstructive pulmonary disease (COPD).",
+    "body": "Mitiperstat failed to improve outcomes in chronic obstructive pulmonary disease (COPD), according to a news item published by EMJ on 15 November 2026.\n\nThe item as provided contains only its headline. It gives no details on the study design, the patient population, the specific outcomes measured, the size of any effect, or the organisation behind the work. It does not mention any regulatory decision or approval.\n\nLungDaily will update this report if further information becomes available from the original source.",
+    "key_quote": "Mitiperstat Fails to Improve COPD Outcomes",
+    "tags": [
+      "copd",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 8.0,
+    "created_at": "2026-11-15T17:09:37+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 80 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOay1Zd04yckREby1TUXpsck5rcERhUGNkSWlKdFlQWkNySmZrek1JY0prYkx5dVNGWkdacTFjc0o0dXFZVjhGU0czQXg2UG1wMjdRTW13WHNjQnphaXpDeDlBUi1KbUZRQjZvQkd6SWNEZVE0T1ZGZ1N5RFdjcGozSkQzVDdZSG52eVFtaGwtZGc?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:67e170036c1d930b",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOay1Zd04yckREby1TUXpsck5rcERhUGNkSWlKdFlQWkNySmZrek1JY0prYkx5dVNGWkdacTFjc0o0dXFZVjhGU0czQXg2UG1wMjdRTW13WHNjQnphaXpDeDlBUi1KbUZRQjZvQkd6SWNEZVE0T1ZGZ1N5RFdjcGozSkQzVDdZSG52eVFtaGwtZGc?oc=5",
+      "title": "Mitiperstat Fails to Improve COPD Outcomes",
+      "author_name": "EMJ",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-15T14:04:33+00:00",
+      "extra": {
+        "feed": "Google News — COPD",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-15-fda-rejects-summit-s-ivonescimab-halting-us-arrival-of-pd-1xvegf-class",
+    "headline": "FDA rejects Summit's ivonescimab, halting US arrival of PD-1xVEGF class",
+    "dek": "Fierce Pharma reports that the US Food and Drug Administration has rejected Summit's ivonescimab, delaying the arrival of the PD-1xVEGF drug class in the United States.",
+    "body": "The US Food and Drug Administration (FDA) has rejected Summit's ivonescimab, according to a Fierce Pharma report published on 15 November 2026.\n\nFierce Pharma described the decision as derailing the US arrival of the PD-1xVEGF class, which it characterised as \"much-hyped\".\n\nThe item available to LungDaily consists only of the headline. It does not state the indication under review, the FDA's reasons for the rejection, or any response from Summit. This article will be updated if further details are confirmed.",
+    "key_quote": "FDA rejects Summit’s ivonescimab",
+    "tags": [
+      "therapeutics",
+      "policy"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 9.0,
+    "created_at": "2026-11-15T17:09:49+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 84 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUFJWnNTQ00yaXJYT21NN1BCMUdpM3BjbjdyUk9WOEFIcGx4U090RlVIbXp6OGVjTkFBREhGUnUtclFRU3d5OS1PVkVNQk9tZGVGSS1wZmNMamlleFBMalZUQzFrNXB5TGN5SzFMd3REcTZCcG5IQXpMMkFYc2lac0VEbnZ4V2NuSTZ4VVJrRnd6TkJfdUtJWmt6VQ?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:a0fe852d23884bff",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUFJWnNTQ00yaXJYT21NN1BCMUdpM3BjbjdyUk9WOEFIcGx4U090RlVIbXp6OGVjTkFBREhGUnUtclFRU3d5OS1PVkVNQk9tZGVGSS1wZmNMamlleFBMalZUQzFrNXB5TGN5SzFMd3REcTZCcG5IQXpMMkFYc2lac0VEbnZ4V2NuSTZ4VVJrRnd6TkJfdUtJWmt6VQ?oc=5",
+      "title": "FDA rejects Summit’s ivonescimab, derailing US arrival of much-hyped PD-1xVEGF class",
+      "author_name": "Fierce Pharma",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-15T12:50:00+00:00",
+      "extra": {
+        "feed": "Google News — respiratory approvals",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

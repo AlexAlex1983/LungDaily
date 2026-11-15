@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-15-nurse-led-inhaler-education-improved-technique-and-symptoms-in-copd-ou",
+  "headline": "Nurse-led inhaler education improved technique and symptoms in COPD outpatients in 90-patient trial",
+  "dek": "A post from GALA Health summarises a randomised trial in which structured nurse-led inhaler education outperformed routine care at four weeks.",
+  "body": "GALA Health, the Global Alliance for Lungs, Air and Health, summarised the findings of a randomised trial of 90 COPD outpatients in a post on X on 15 November 2026.\n\nAccording to the post, structured nurse-led inhaler education significantly improved inhaler technique, reduced dyspnoea and lowered disease severity scores after four weeks, compared with routine care.\n\nThe post's text is cut off after the words \"Findings support\", so the authors' conclusions are not given here. It does not name the journal, the authors or the country where the trial took place. It also does not report the size of the effects or say which scales were used to measure dyspnoea and disease severity. The post includes a link to further information.",
+  "key_quote": "structured nurse-led inhaler education significantly improved inhaler technique, reduced dyspnoea, and lowered disease severity scores after 4 weeks vs. routine care",
+  "tags": [
+    "copd",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T17:10:06+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121991847178379618",
+    "url": "https://x.com/GALA_Health/status/2121991847178379618"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121991847178379618",
+    "source": "x",
+    "url": "https://x.com/GALA_Health/status/2121991847178379618",
+    "title": "",
+    "author_name": "GALA Health",
+    "author_handle": "GALA_Health",
+    "author_url": "https://x.com/GALA_Health",
+    "published_at": "2026-11-15T15:40:55+00:00",
+    "extra": {
+      "tweet_id": "2121991847178379618",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1177/17449871261492921"
+      ],
+      "author_followers": 55,
+      "author_id": "2017275908537655296"
+    }
+  },
+  "status": "ready"
+}
