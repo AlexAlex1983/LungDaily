@@ -1540,5 +1540,57 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-15-early-life-lpg-cooking-did-not-improve-lung-function-in-peruvian-pre-s",
+    "headline": "Early-life LPG cooking did not improve lung function in Peruvian pre-schoolers versus biomass, follow-up finds",
+    "dek": "A follow-up of a randomised trial in Peru found no overall difference in oscillometric lung function between children whose households used LPG and those using solid fuel.",
+    "body": "Early-life use of liquefied petroleum gas (LPG) for cooking did not improve lung function in pre-school children compared with exposure to biomass smoke, according to a study published in Pediatric Pulmonology.\n\nThe researchers, led by Laura Nicolaou, William Checkley and Jennifer Rha and colleagues, performed respiratory oscillometry in 3-5-year-olds whose mothers had taken part in a randomised trial of LPG versus usual solid fuel use during pregnancy and infancy. They tested 101 children, with a mean age of 4.4 years; 51.5% were male and 50.5% were in the intervention group.\n\nMean z-scores for resistance at 7 Hertz (R7), reactance at 7 Hertz (X7), resonance frequency (fres) and area above the reactance curve (AX7) were similar between the intervention and control groups. For AX7, the scores were 1.2 and 1.3 respectively. Intention-to-treat analysis showed no differences between arms in pre-bronchodilator lung function or bronchodilator response. The one exception was a larger post-bronchodilator decrease in mean fres z-score in the intervention arm (-0.36, 95% CI -0.71 to -0.02).\n\nIn exposure-response analyses, postnatal carbon monoxide (CO) exposure was associated with higher AX7 z-scores, indicating worse reactance (0.041 per 1 ppm CO increase, 95% CI 0.003 to 0.078). No associations were found for PM2.5 exposure.\n\nThe authors described the CO finding as exploratory and said it warrants confirmation in larger cohorts. They noted that billions of people worldwide are exposed to household air pollution from solid fuel use.",
+    "key_quote": "Early-life LPG use did not improve oscillometric lung function compared with those exposed to biomass smoke.",
+    "tags": [
+      "air-pollution",
+      "paediatrics",
+      "trial",
+      "global-health"
+    ],
+    "people": [
+      "Laura Nicolaou",
+      "William Checkley",
+      "Jennifer Rha"
+    ],
+    "category": "research",
+    "score": 8.0,
+    "created_at": "2026-11-15T11:09:04+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article says the researchers were \"led by Laura Nicolaou, William Checkley and Jennifer Rha\". The source only lists them as authors (\"et al.\") and says nothing about who led the study. Calling all three leaders is an unsupported claim about their roles."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033191/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "pubmed:43033191",
+      "source": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43033191/",
+      "title": "Effects of Cooking With Liquefied Petroleum Gas or Biomass on Lung Function Among Pre-School Aged Children in Peru: A Prospective Follow-Up of a Randomized Trial.",
+      "author_name": "Laura Nicolaou, William Checkley, Jennifer Rha et al.",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-01T00:00:00+00:00",
+      "extra": {
+        "journal": "Pediatric pulmonology",
+        "doi": "10.1002/ppul.71901",
+        "pub_types": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "first_author": "Laura Nicolaou"
+      }
+    },
+    "status": "held"
   }
 ]
