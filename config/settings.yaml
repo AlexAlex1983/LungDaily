@@ -32,7 +32,8 @@ models:
 
 sources:
   x: true
-  linkedin_profiles: true         # Apify, no LinkedIn login needed
+  linkedin_profiles: true         # Apify (harvestapi~linkedin-profile-posts), no LinkedIn login needed
+  linkedin_all_hours: [6, 15]     # read ALL voices' LinkedIn at these local hours; focus voices at every write run
   linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
   pubmed: true
   rss: true
@@ -43,7 +44,7 @@ limits:
   x_max_results_by_kind:          # per query kind (voices / keywords / people); others use the line above
     people: 20                    # People search: ~20 reads x 6 runs a day
     awareness: 20                 # awareness-day hashtag search (only in the days around each day)
-  linkedin_max_posts_per_profile: 5
+  linkedin_max_posts_per_profile: 3   # last 24 h only; Apify charges per post
   linkedin_search_max_results: 25
   pubmed_max: 40
   rss_max_per_feed: 15
