@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-14-six-chatbots-each-gave-unsafe-advice-at-least-once-on-55-copd-question",
+  "slug": "2026-11-15-six-chatbots-each-gave-unsafe-advice-at-least-once-on-55-copd-question",
   "headline": "Six chatbots each gave unsafe advice at least once on 55 COPD questions, study reports",
   "dek": "A study testing six chatbots on 55 COPD questions found unsafe advice from every model, in 4% to 9% of responses, according to a social media post.",
   "body": "A study that tested six chatbots on 55 questions about COPD found that every model gave unsafe advice at least once, according to a post on X by CareChronicle on 11 November 2026.\n\nThe account wrote that unsafe advice appeared in 4% to 9% of responses. The post did not specify which chatbots were tested, how the questions were chosen or how responses were judged to be unsafe.\n\nThe post also did not name the study's authors or the journal in which it was published, and it linked to further material that is not reproduced here. CareChronicle describes itself as a sceptical analysis account focused on applied AI in healthcare.\n\nThe figures reported here are as stated in the post and could not be checked against the underlying study.",
@@ -41,5 +41,9 @@
       "author_id": "1867589085214519296"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-15T08:00:19+00:00",
+  "shared": {
+    "x": "2121876338441126209"
+  }
 }
