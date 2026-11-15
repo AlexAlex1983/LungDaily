@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-15-aiims-new-delhi-launches-three-year-air-care-study-on-air-pollution-an",
+  "headline": "AIIMS New Delhi launches three-year AIR CARE study on air pollution and lung cancer",
+  "dek": "News18 reported on X that the population-level study will examine long-term air pollution exposure and lung cancer, including in never-smokers, and is open to public participation.",
+  "body": "AIIMS New Delhi has launched a study called AIR CARE, according to a post on X by News18, the official account of CNN-News18. The post describes it as India’s first population-level study examining how long-term air pollution exposure may contribute to lung cancer, including among people who have never smoked.\n\nThe post states that the study will run for three years and invites public participation. It did not say how people can take part, who is eligible, how many participants are sought or what will be measured.\n\nNews18 closed its post by asking whether the study could reshape what is known about air quality and health. That was a question posed by the account rather than a finding, and the post reported no results. It was tagged with the hashtags AirPollution, LungCancer and HealthResearch.",
+  "key_quote": "India’s first population-level study examining how long-term air pollution exposure may contribute to lung cancer",
+  "tags": [
+    "air-pollution",
+    "lung-cancer"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T17:23:16+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121433667050319940",
+    "url": "https://x.com/CNNnews18/status/2121433667050319940"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121433667050319940",
+    "source": "x",
+    "url": "https://x.com/CNNnews18/status/2121433667050319940",
+    "title": "",
+    "author_name": "News18",
+    "author_handle": "CNNnews18",
+    "author_url": "https://x.com/CNNnews18",
+    "published_at": "2026-11-14T02:42:55+00:00",
+    "extra": {
+      "tweet_id": "2121433667050319940",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/CNNnews18/status/2121433667050319940/video/1"
+      ],
+      "author_followers": 4630940,
+      "author_id": "6509832"
+    }
+  },
+  "status": "ready"
+}

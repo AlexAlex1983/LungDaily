@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-15-fewer-children-with-eoe-on-dupilumab-developed-asthma-than-those-on-bu",
+  "headline": "Fewer children with EoE on dupilumab developed asthma than those on budesonide",
+  "dek": "A Healio Pulmonology post on X reports findings presented at ACAAI26 comparing incident asthma in children with eosinophilic oesophagitis treated with dupilumab or budesonide.",
+  "body": "Significantly fewer children with eosinophilic oesophagitis (EoE) who received dupilumab developed incident asthma than those who received budesonide, according to findings presented at ACAAI26.\n\nThe result was reported in a post on X by Healio Pulmonology on 14 November 2026. The post, which also tagged @ACAAI, @HealioAllergy and @HealioGastro, compared the two treatments in terms of the development of new asthma in children with EoE.\n\nThe post does not give further details of the study, including its design, the number of children involved, the size of the difference between the groups or the follow-up period. It also does not name a journal or the researchers behind the work.",
+  "key_quote": "Significantly fewer children with eosinophilic esophagitis (#EoE) receiving dupilumab developed incident #asthma than those receiving budesonide.",
+  "tags": [
+    "asthma",
+    "paediatrics",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T17:23:27+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121392934289351064",
+    "url": "https://x.com/HealioPulm/status/2121392934289351064"
+  },
+  "mentions": [
+    "ACAAI",
+    "HealioAllergy",
+    "HealioGastro"
+  ],
+  "source": {
+    "id": "x:2121392934289351064",
+    "source": "x",
+    "url": "https://x.com/HealioPulm/status/2121392934289351064",
+    "title": "",
+    "author_name": "Healio Pulmonology",
+    "author_handle": "HealioPulm",
+    "author_url": "https://x.com/HealioPulm",
+    "published_at": "2026-11-14T00:01:03+00:00",
+    "extra": {
+      "tweet_id": "2121392934289351064",
+      "query_kind": "keywords",
+      "links": [
+        "https://vist.ly/5srt5"
+      ],
+      "author_followers": 1201,
+      "author_id": "3043251863"
+    }
+  },
+  "status": "ready"
+}
