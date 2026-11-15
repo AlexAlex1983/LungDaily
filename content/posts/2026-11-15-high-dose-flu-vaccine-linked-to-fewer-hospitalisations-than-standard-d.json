@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-15-high-dose-flu-vaccine-linked-to-fewer-hospitalisations-than-standard-d",
+  "headline": "High-dose flu vaccine linked to fewer hospitalisations than standard dose in older adults with lung disease",
+  "dek": "Pooled data from two randomised trials presented at ERS 2026 point to fewer flu and pneumonia hospitalisations with high-dose vaccine in adults aged 65 and over with lung disease.",
+  "body": "The American Thoracic Society's AII Assembly said in a post on X that pooled data from two randomised trials, presented at ERS 2026, showed that high-dose influenza vaccine led to fewer flu and pneumonia hospitalisations than standard-dose vaccine. The analysis covered adults aged 65 and over with lung disease.\n\nThe post framed the result as a question to clinicians, asking which flu vaccine their older patients with asthma or COPD are receiving. It carried the hashtag #AII and included a link to further material, which was not part of the text available.\n\nThe post did not name the two trials, give the number of participants, or state the size of the difference between the vaccines. It also did not say who carried out the pooled analysis, how lung disease was defined, or what period of follow-up was covered. The findings are therefore known only from this brief social media summary.",
+  "key_quote": "high-dose vaccine led to fewer flu and pneumonia hospitalizations than standard dose in adults 65+ with lung disease",
+  "tags": [
+    "copd",
+    "asthma",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-15T10:05:01+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2121227876993290272",
+    "url": "https://x.com/ATS_AII/status/2121227876993290272"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2121227876993290272",
+    "source": "x",
+    "url": "https://x.com/ATS_AII/status/2121227876993290272",
+    "title": "",
+    "author_name": "ATS AII",
+    "author_handle": "ATS_AII",
+    "author_url": "https://x.com/ATS_AII",
+    "published_at": "2026-11-13T13:05:11+00:00",
+    "extra": {
+      "tweet_id": "2121227876993290272",
+      "query_kind": "keywords",
+      "links": [
+        "https://www.ersnet.org/news-and-features/news/high-dose-flu-vaccine-beneficial-for-older-people-with-lung-disease/"
+      ],
+      "author_followers": 2478,
+      "author_id": "1954658088"
+    }
+  },
+  "status": "ready"
+}

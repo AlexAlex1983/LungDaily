@@ -1456,5 +1456,89 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-15-gerard-criner-hcplive-item-looks-beyond-the-lungs-in-copd-care",
+    "headline": "Gerard Criner: HCPLive item looks beyond the lungs in COPD care",
+    "dek": "HCPLive published an item on 12 November 2026 featuring Gerard Criner, MD, titled \"Looking Beyond the Lungs in COPD Care\".",
+    "body": "HCPLive published an item on 12 November 2026 titled \"Looking Beyond the Lungs in COPD Care, With Gerard Criner, MD\".\n\nThe source text contains only the title. It gives no details of what Dr Criner said, his role or affiliation, or which aspects of COPD care beyond the lungs are discussed.",
+    "key_quote": "",
+    "tags": [
+      "copd"
+    ],
+    "people": [
+      "Gerard Criner"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-15T10:04:45+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 51 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRWdLZU5XTzhNZVVPbWkzNjdpWU1VdW5xdW90eTQyYTBHWjg5dm41N1FCTFBJenlCVFBxUnJpVjE2WXo5WUtUSXpJYjJqWUk0azRIOGYwaTJpR1N5Z1VMTFBhanVYM3M5ZjBCaGVWTFkyU0VGWXRFTk1DMHJlel8yMk9n?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:0c5fd13f9945c7e6",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRWdLZU5XTzhNZVVPbWkzNjdpWU1VdW5xdW90eTQyYTBHWjg5dm41N1FCTFBJenlCVFBxUnJpVjE2WXo5WUtUSXpJYjJqWUk0azRIOGYwaTJpR1N5Z1VMTFBhanVYM3M5ZjBCaGVWTFkyU0VGWXRFTk1DMHJlel8yMk9n?oc=5",
+      "title": "Looking Beyond the Lungs in COPD Care, With Gerard Criner, MD",
+      "author_name": "HCPLive",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-12T19:14:26+00:00",
+      "extra": {
+        "feed": "Google News — COPD",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-15-merck-tests-a-copd-drug-against-flare-ups-longevity-technology-reports",
+    "headline": "Merck tests a COPD drug against flare-ups, Longevity.Technology reports",
+    "dek": "Longevity.Technology reports that Merck is testing a drug for chronic obstructive pulmonary disease (COPD) against flare-ups of the condition.",
+    "body": "Merck is testing a drug for chronic obstructive pulmonary disease (COPD) against flare-ups, according to a news item published by Longevity.Technology on 13 November 2026.\n\nThe item available for this report consists only of a headline and the publisher's name. It does not name the drug, describe the design or stage of the testing, or give any results or regulatory status. No regulatory approval is mentioned.\n\nFurther details were not available in the source.",
+    "key_quote": "Merck tests a COPD drug against flare-ups",
+    "tags": [
+      "copd",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [],
+    "category": "approvals",
+    "score": 6.0,
+    "created_at": "2026-11-15T10:05:09+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 77 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTdrdGZ4SVA4VlZqcndPNVhHR3FnLS1IWnFUdGItc1doc296OFpkcWVVUHNWa1pOWldEX3p1QW9HWTI0RWdvaHN5QXVaUGJFSWhDUU0tNEI4SWFmWkxVNGJoQjVlRDExWnE5b0JXMkh4OE5DaVFHc2diLTdjUlBmT3l3?oc=5"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:5357f14baae504f9",
+      "source": "rss",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTdrdGZ4SVA4VlZqcndPNVhHR3FnLS1IWnFUdGItc1doc296OFpkcWVVUHNWa1pOWldEX3p1QW9HWTI0RWdvaHN5QXVaUGJFSWhDUU0tNEI4SWFmWkxVNGJoQjVlRDExWnE5b0JXMkh4OE5DaVFHc2diLTdjUlBmT3l3?oc=5",
+      "title": "Merck tests a COPD drug against flare-ups",
+      "author_name": "Longevity.Technology",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-13T18:03:55+00:00",
+      "extra": {
+        "feed": "Google News — COPD",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
