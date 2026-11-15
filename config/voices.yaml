@@ -206,6 +206,99 @@ voices:
     tier: 2
     tags: [critical-care]
 
+  # --- LinkedIn-only individuals (added 15 Nov 2026; profile links from public LinkedIn search results,
+  #     confirm on first Apify read). Read at sources.linkedin_all_hours. No X handle checked yet. ---
+  - name: "Madhukar Pai"
+    linkedin: "https://www.linkedin.com/in/madhukar-pai/"
+    aliases: ["Prof Madhukar Pai", "Dr Madhukar Pai"]
+    tier: 1
+    tags: [tb, global-health, diagnostics]   # McGill; ~39K LinkedIn followers
+  - name: "Lucica Ditiu"
+    linkedin: "https://www.linkedin.com/in/ditiu-lucica-a3b2b829/"
+    aliases: ["Dr Lucica Ditiu", "Ditiu Lucica"]
+    tier: 1
+    tags: [tb, global-health, policy]   # Executive Director, Stop TB Partnership
+  - name: "Zorana Jovanovic Andersen"
+    linkedin: "https://www.linkedin.com/in/zorana-jovanovic-andersen-098496b/"
+    aliases: ["Zorana Andersen", "Prof Zorana Jovanovic Andersen"]
+    tier: 2
+    tags: [air-pollution, policy]   # University of Copenhagen
+  - name: "Sundeep Salvi"
+    linkedin: "https://www.linkedin.com/in/sundeep-salvi-933507272/"
+    aliases: ["Dr Sundeep Salvi"]
+    tier: 1
+    tags: [copd, air-pollution, global-health]   # Pulmocare Research and Education Foundation, Pune
+  - name: "Obianuju Ozoh"
+    linkedin: "https://www.linkedin.com/in/obianuju-ozoh-31247043/"
+    aliases: ["Prof Obianuju Ozoh", "Dr Obianuju Ozoh"]
+    tier: 2
+    tags: [asthma, copd, global-health]   # University of Lagos
+  - name: "Alvar Agustí"
+    linkedin: "https://www.linkedin.com/in/alvaragusti/"
+    aliases: ["Alvar Agusti", "Àlvar Agustí", "Prof Alvar Agustí"]
+    tier: 1
+    tags: [copd, guidelines]   # Cátedra de Salud Respiratoria, Barcelona; posts mostly in Spanish
+  - name: "MeiLan Han"
+    linkedin: "https://www.linkedin.com/in/meilan-han-03753133/"
+    aliases: ["Dr MeiLan Han", "MeiLan K Han"]
+    tier: 1
+    tags: [copd, air-pollution]   # University of Michigan
+  - name: "Francesca Polverino"
+    linkedin: "https://www.linkedin.com/in/francesca-polverino-49596625/"
+    aliases: ["Dr Francesca Polverino"]
+    tier: 2
+    tags: [copd]   # Baylor College of Medicine; American Lung Association spokesperson
+  - name: "Surya Bhatt"
+    linkedin: "https://www.linkedin.com/in/surya-bhatt-7ba14810/"
+    aliases: ["Dr Surya Bhatt", "Surya P Bhatt"]
+    tier: 2
+    tags: [copd, diagnostics]   # University of Alabama at Birmingham
+  - name: "Mona Bafadhel"
+    linkedin: "https://www.linkedin.com/in/mona-bafadhel/"
+    aliases: ["Prof Mona Bafadhel"]
+    tier: 2
+    tags: [copd, asthma]   # King's College London
+  - name: "John Hurst"
+    linkedin: "https://www.linkedin.com/in/professor-john-hurst-7006b5225/"
+    aliases: ["Professor John Hurst", "Prof John Hurst", "John R Hurst"]
+    tier: 2
+    tags: [copd]   # UCL
+  - name: "Omar Usmani"
+    linkedin: "https://www.linkedin.com/in/omar-usmani-08345437/"
+    aliases: ["Prof Omar Usmani"]
+    tier: 2
+    tags: [asthma, copd, therapeutics]   # Imperial College London; ERS Science Council Chair
+  - name: "Mohsen Sadatsafavi"
+    linkedin: "https://www.linkedin.com/in/msadatsafavi/"
+    aliases: ["Dr Mohsen Sadatsafavi"]
+    tier: 2
+    tags: [copd, asthma]   # University of British Columbia
+  - name: "Sanjay Ramakrishnan"
+    linkedin: "https://www.linkedin.com/in/sanjay-ramakrishnan-5808a354/"
+    aliases: ["Dr Sanjay Ramakrishnan"]
+    tier: 2
+    tags: [asthma, copd]   # Institute for Respiratory Health, Perth
+  - name: "Martijn Spruit"
+    linkedin: "https://www.linkedin.com/in/mspruit/"
+    aliases: ["Prof Martijn Spruit", "Martijn A Spruit"]
+    tier: 2
+    tags: [rehab, copd]   # Ciro, Netherlands
+  - name: "David Price"
+    linkedin: "https://www.linkedin.com/in/david-price/"
+    aliases: ["Prof David Price", "David B Price"]
+    tier: 2
+    tags: [asthma, copd, primary-care]   # Observational & Pragmatic Research Institute; mostly reposts
+  - name: "Jean Wright"
+    linkedin: "https://www.linkedin.com/in/jeanwrightmdmba/"
+    aliases: ["Dr Jean Wright", "Jean Wright, MD MBA"]
+    tier: 1
+    tags: [copd, patients]   # CEO, COPD Foundation
+  - name: "Ruth Tal-Singer"
+    linkedin: "https://www.linkedin.com/in/r-tal-singer-phd/"
+    aliases: ["Dr Ruth Tal-Singer"]
+    tier: 2
+    tags: [copd, bronchiectasis, patients]   # patient advocate and lung health researcher
+
   # --- Add leading pulmonologists, lung cancer specialists and respirologists here -------
   # Run reports list "suggested voices": people whose posts scored highly in keyword searches.
   # - name: "Dr Example"
