@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-15-study-assesses-performance-of-biomarkers-in-diagnosing-asthma-combinin",
+  "slug": "2026-11-16-study-assesses-performance-of-biomarkers-in-diagnosing-asthma-combinin",
   "headline": "Study assesses performance of biomarkers in diagnosing asthma, combining systematic review and validation cohort",
   "dek": "NEJM Clinician highlighted a study that evaluated asthma biomarkers using a systematic review alongside a parallel prospective validation cohort.",
   "body": "NEJM Clinician, a digital resource that describes itself as delivering contextualised insights on impactful research in medicine, highlighted a study on asthma diagnosis in a post on X.\n\nAccording to the post, investigators set out to assess the performance of biomarkers in the diagnosis of asthma. They conducted a systematic review and a parallel prospective validation cohort.\n\nThe post did not name the journal, and it did not report the biomarkers studied, the size of the cohort or the results. It directed readers to a linked page for the key results.",
@@ -42,5 +42,9 @@
       "author_id": "25952049"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-16T08:00:22+00:00",
+  "shared": {
+    "x": "2122239037369196664"
+  }
 }
