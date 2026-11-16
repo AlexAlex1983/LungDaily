@@ -1769,5 +1769,162 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-16-david-mannino-why-copd-remains-underdiagnosed-and-underfunded",
+    "headline": "David Mannino: why COPD remains underdiagnosed and underfunded",
+    "dek": "The COPD Foundation's Chief Medical Officer discusses underdiagnosis, funding and the weight given to patients' symptoms when treatments are judged, in an interview with EMJ Respiratory.",
+    "body": "The European Medical Journal (EMJ) has published an interview with David Mannino, Chief Medical Officer of the COPD Foundation, in EMJ Respiratory.\n\nAccording to EMJ, the interview explores why chronic obstructive pulmonary disease (COPD) is still underdiagnosed and underfunded. It also looks at why patients' symptoms deserve more weight in how treatments are judged.\n\nAnnouncing the interview on X on 16 November 2026, EMJ noted that more than a quarter of people in the USA with evidence of COPD have never smoked.",
+    "key_quote": "More than a quarter of people in the USA with evidence of COPD have never smoked.",
+    "tags": [
+      "copd",
+      "policy",
+      "diagnostics",
+      "therapeutics"
+    ],
+    "people": [
+      "David Mannino"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-16T17:08:27+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 82 words outside limits",
+        "The article is thin. It only restates the X post's headline and teaser, and gives no details from the interview itself (no Mannino findings, arguments or specifics). A reader would learn almost nothing beyond the headline.",
+        "The headline attributes the claim to Mannino (\"David Mannino: why COPD remains underdiagnosed and underfunded\") in a way that implies he stated this. The source only says the interview \"explores\" these topics, and no words from Mannino are provided.",
+        "The key_quote is EMJ's own post text, not a statement by Mannino. The body correctly attributes it to EMJ, but its use as a pull quote could suggest it comes from the interview or from Mannino. It is also a statistic with no source or citation given, and the article does not say where the figure comes from.",
+        "\"Announcing the interview on X on 16 November 2026\" is supported by the metadata. However, the article says EMJ \"published\" the interview in EMJ Respiratory, while the source only links to it and says to read it there. Publication date and details are not confirmed."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2122355352511385718",
+      "url": "https://x.com/EMJReviews/status/2122355352511385718"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2122355352511385718",
+      "source": "x",
+      "url": "https://x.com/EMJReviews/status/2122355352511385718",
+      "title": "",
+      "author_name": "European Medical Journal",
+      "author_handle": "EMJReviews",
+      "author_url": "https://x.com/EMJReviews",
+      "published_at": "2026-11-16T15:45:22+00:00",
+      "extra": {
+        "tweet_id": "2122355352511385718",
+        "query_kind": "keywords",
+        "links": [
+          "https://x.com/EMJReviews/status/2122355352511385718/video/1"
+        ],
+        "author_followers": 11350,
+        "author_id": "365626248"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-16-polluted-air-can-trigger-growth-of-lung-cells-carrying-egfr-mutations",
+    "headline": "Polluted air can trigger growth of lung cells carrying EGFR mutations, Swanton's team reports",
+    "dek": "Prof Charles Swanton of the Francis Crick Institute cites air pollution as one reason lung cancer can develop in people who have never smoked.",
+    "body": "Air pollution is one reason lung cancer can develop in people who have never smoked, according to Prof Charles Swanton of the Francis Crick Institute.\n\nSwanton makes the point in an article for the Telegraph, which was highlighted in a post on X by EGFR Positive Lung Cancer UK, a UK charity focused on EGFR-positive lung cancer.\n\nAccording to the charity's summary, research by Swanton's team found that polluted air inflames the lungs and can wake up cells that already carry EGFR mutations, so they start to grow.\n\nThe charity shared the post during Lung Cancer Awareness Month and linked to further reading on the All You Need Is Lungs website.",
+    "key_quote": "polluted air inflames the lungs and can wake up cells that already carry EGFR mutations, so they start to grow",
+    "tags": [
+      "lung-cancer",
+      "air-pollution",
+      "therapeutics"
+    ],
+    "people": [
+      "Charles Swanton"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-16T17:08:43+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The body restates the headline and dek (air pollution, EGFR-mutant cells, Swanton) and adds only provenance filler: the post was shared during Lung Cancer Awareness Month, and it links to further reading. A reader learns nothing beyond the headline, such as study details, the mechanism, or what it means for patients.",
+        "The 'therapeutics' tag is not supported by the source. The post says nothing about treatment.",
+        "The article calls All You Need Is Lungs a 'website'. The source only says 'Read more on All You Need Is Lungs' and gives a link, so this is a minor unsupported detail."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2122372963177537557",
+      "url": "https://x.com/EgfrUk/status/2122372963177537557"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2122372963177537557",
+      "source": "x",
+      "url": "https://x.com/EgfrUk/status/2122372963177537557",
+      "title": "",
+      "author_name": "EGFR Positive Lung Cancer UK",
+      "author_handle": "EgfrUk",
+      "author_url": "https://x.com/EgfrUk",
+      "published_at": "2026-11-16T16:55:20+00:00",
+      "extra": {
+        "tweet_id": "2122372963177537557",
+        "query_kind": "keywords",
+        "links": [
+          "https://x.com/EgfrUk/status/2122372963177537557/photo/1"
+        ],
+        "author_followers": 1621,
+        "author_id": "1096359148332204032"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-16-eaaci-to-hold-allergy-and-respiratory-health-session-at-cop31-in-antal",
+    "headline": "EAACI to hold allergy and respiratory health session at COP31 in Antalya",
+    "dek": "The European Academy of Allergy and Clinical Immunology will host a session at the Francophonie Pavilion on 17 November 2026, with live streaming available.",
+    "body": "EAACI said it is bringing allergy and respiratory health into the COP31 dialogue, in a post on X on 16 November 2026. The session will explore how implementation of the Paris Agreement can better address these diseases, as well as inequalities in exposure and care.\n\nThe session will take place at the Francophonie Pavilion in Antalya, Türkiye, on 17 November 2026. It runs from 11:30 to 12:30 local time in Antalya (09:30 to 10:30 CET). It will be held in French and English, and live streaming will be available.\n\nEAACI wrote that the session advances its commitment to Vision Zero, which it described as a future free from the burden of allergy and asthma. The organisation also framed the event with the statement: \"Climate action is also action for health.\"\n\nEAACI describes itself as the primary source of expertise in Europe for all aspects of allergy. Details of the session and a link to watch online were shared in the post.",
+    "key_quote": "Climate action is also action for health.",
+    "tags": [
+      "asthma",
+      "policy",
+      "air-pollution",
+      "equity"
+    ],
+    "people": [],
+    "category": "events",
+    "score": 7.0,
+    "created_at": "2026-11-16T17:08:54+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The dek expands EAACI as \"The European Academy of Allergy and Clinical Immunology\". The source only says \"EAACI\" and never gives the full name, so this is not supported by the source.",
+        "The article adds nothing beyond the post: the date, venue, time, languages and streaming details are all restated, with no speakers, agenda or further substance. This is borderline thin, though acceptable for a short event notice."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2122313713067692050",
+      "url": "https://x.com/EAACI_HQ/status/2122313713067692050"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2122313713067692050",
+      "source": "x",
+      "url": "https://x.com/EAACI_HQ/status/2122313713067692050",
+      "title": "",
+      "author_name": "EAACI",
+      "author_handle": "EAACI_HQ",
+      "author_url": "https://x.com/EAACI_HQ",
+      "published_at": "2026-11-16T12:59:54+00:00",
+      "extra": {
+        "tweet_id": "2122313713067692050",
+        "query_kind": "keywords",
+        "links": [
+          "https://x.com/EAACI_HQ/status/2122313713067692050/photo/1"
+        ],
+        "author_followers": 8945,
+        "author_id": "111253056"
+      }
+    },
+    "status": "held"
   }
 ]
