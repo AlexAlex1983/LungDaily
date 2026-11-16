@@ -1,61 +1,5 @@
 [
   {
-    "id": "rss:438c1a8d89124599",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMkJBbExzc2p5S2lkRkNLbWhHQUhVUFVsTC1hVjFVWE1jUDZnczRVVnlqc3JDOUJUaXBFV3FrQk1WRlBhTi1VZ0ZaMkhISzBmOEZlb2pwX3hEcXhSYlpEYXFQMTQxZTltalp2YlJwR3UwaHFjN3lMRlBhRUVtX2FMQllGdHZvYUtpQkFmeTRvTVZobmxTLW8xbGxhSVdtY3h5ZGM0a2ZhOXhLdTJDV0ZWZUF4TE1qOS1qS2NLUlZiZDZWcFhSTjZBYTU2Z2VOXzVUa3ZIaFQ5ZnE4YzhOUFdtM1VvNnUwYXNyY1E?oc=5",
-    "title": "A little-known immune cell could explain why some small cell lung cancer patients respond to immunotherapy",
-    "text": "A little-known immune cell could explain why some small cell lung cancer patients respond to immunotherapy Managed Healthcare Executive",
-    "author_name": "Managed Healthcare Executive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-10T23:14:44+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory approvals"
-    },
-    "collected_at": "2026-11-13T14:07:21+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Notable study on immune cell linked to small cell lung cancer immunotherapy response"
-    }
-  },
-  {
-    "id": "rss:901762cce38e46d2",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbGJsYm9McWk2TDd0T09xOUMycHl5a254anlTXzNFY0U3NzdVaHRQcFJCZW84cWJabVhMV29pczV1TFNDZDY3alNTdlFyZUVGVGlDaE1icHpxWHljVFc1YUp5dEJaREtuQmdBVHV1Ulh3d2dsVkZsSzhtQ3duZnVUTnlSaGgzZEZTWi1qVGNjenBIdzFMQ1ZzbDlxM1JpU2dkeGdLZy1qQkV4UDdVVXF2QTlJcnc0WU5neENlZVI5dk42bkpqNTlFTXUzTUh3U1h6SkUySEFRZ3A3SXBJWXJadEZn0gH2AUFVX3lxTE4zYWxhU0ZuVkwxMkxzMnF6eEdmdWx5bnZId1hjQTFQYmxnbnVPMl9CN01RUWZhTXdsOUVlcnEtUVlGTk8tbW1WZ0t5QXlLd3JUWWlkQTdYTVd4Z01VZ09zbFk4eEFmTzVWWEpWQktNSjdZbDU1YXF4NldfZHdiejJZcmx0aFROSDRLUHpIckt3YzM5NHZEYlBoanpYd0Fqb3c5U09mR0dXbW81VE5ycXBfbHhvMVVIcjFTSnVQZWVBWUJ1QWs5aWFUSURBM0pHNjE1ZGE4RGtMY0ZUd0NaeTV1ZXNUR2VBaVhCZzl3aGo4R3ZtNHVNdw?oc=5",
-    "title": "HOMETOWN HEALTH: Babies born to mothers exposed to wildfire smoke, air pollution more likely to develop asthma, research finds",
-    "text": "HOMETOWN HEALTH: Babies born to mothers exposed to wildfire smoke, air pollution more likely to develop asthma, research finds WDBJ7",
-    "author_name": "WDBJ7",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-13T15:35:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-13T17:07:24+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Study linking prenatal wildfire smoke exposure to childhood asthma"
-    }
-  },
-  {
     "id": "rss:8b981bbb7c9b2785",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkhoWGJzaVRXdlNPTFpVVGszLWc0OWFiT1NNVmtyUDYwZWNzeGh6U184VHg3aHFpYXpEX0FEOHlJWEZLZENHN1g0NFFuUkNVVDdlVFZxb0d4amZ3MWdPX2NzajJuM1ZJQU13S0NIRUJHNXZDZU1QUHJ2VWl2dURwM01ITEhZWDBUYmY0RTlKeTY2Zk9lSDdpdHltVC01Zw?oc=5",
@@ -443,6 +387,62 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "New study links prenatal wildfire smoke to childhood asthma"
+    }
+  },
+  {
+    "id": "rss:2b8b8874f181635a",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2xwT1lyVndNVUp5R3A0Y2JHRUUyT0pveGQwWGxFYzc5ckdvWndJWVJZd29XbjdSTEd6MU4tUV9XYWNDa2U5a0NBUDR0bDNHQTdGRVFVeG5TLUUwcWJwQWpjdmktWm1sRFU0NzhIUXlRSklNY08teERpbmNlQ3c1WVZlcTJYRWF5WkNxVXB2V1BiNy12SHYtNTVTMTJSWkV5T0RxMEZlSDkzY00?oc=5",
+    "title": "Wildfire Smoke Exposure in Pregnancy Linked to Kids’ Asthma",
+    "text": "Wildfire Smoke Exposure in Pregnancy Linked to Kids’ Asthma Medscape",
+    "author_name": "Medscape",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-16T02:17:11+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-16T05:07:41+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Notable cohort link between prenatal wildfire smoke and childhood asthma."
+    }
+  },
+  {
+    "id": "rss:d57c40b627f59092",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWDY0RzFNTGwwUWhjelBfOVQtUzZGUXkwTHNYS25JZlN5TlA4QmJqMG1Ba2VobzI1enpxSDlLY2J0dFBIVTN3alBVcllDbVcxbVRmN19yMEZPeGJEVXUxWk1qSFFhX1NHTG5XVGpZb2dzVGpxNmxKcVRKYVBoTy1hQWlvXzctdDZPZW1hZXhCMXJEZzBraHZFZ2tCcTRzX0pFQ3JQV3pHT01mUl9PZFI3RXd6U1lpSXFHRWVheFlUNkpmY3RJeDdRaWI3NFg0WDTSAdQBQVVfeXFMTTI4SDRGcUd0UjJ3V2dpeE9pMWI2YjQ0amZTYTZjTDZsS1NFQkZsOGlJdy1GVzNVdU9oVUIwZmdZNTVvTWEzWDB6Z05rVHBwQ2h5WHFqTHo2YjZxWEtGQkxySUJiQ2NGMk1ibzhRRmdHWHo3VlJCaW5DS1o0WXVXRGNyRzNjRjk5WC02NjM1TU1iVUpOSzQwVU12cWwxdnFRUUdTSDA3SEw0TF9ld1VJd0JTTVFIemN3Y1JMTzEzdVN4aTkyODhHSWFPYmZ0MzJrVkpyaFQ?oc=5",
+    "title": "Alembic Pharma receives USFDA approval for lung cancer drug",
+    "text": "Alembic Pharma receives USFDA approval for lung cancer drug pharma.economictimes.indiatimes.com",
+    "author_name": "pharma.economictimes.indiatimes.com",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-15T11:49:33+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory approvals"
+    },
+    "collected_at": "2026-11-16T05:07:41+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "USFDA approval for lung cancer drug, likely generic, limited detail"
     }
   }
 ]
