@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 10,
+    "seen": 11,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1835
@@ -10,18 +10,18 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 23,
+    "seen": 24,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47411
+    "followers": 47415
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 16,
+    "seen": 17,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33481
+    "followers": 33479
   },
   "iaslc": {
     "id": "61241883",
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 16,
+    "seen": 17,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13826
@@ -210,10 +210,10 @@
   "openrespiratory": {
     "id": "1366423160116158465",
     "username": "OpenRespiratory",
-    "seen": 1,
+    "seen": 2,
     "name": "Open Respiratory Archives",
     "bio": "Open Respiratory Archives is one of the official publications from the Spanish Respiratory Society of Pulmonology and Thoracic Surgery (SEPAR)",
-    "followers": 1301
+    "followers": 1303
   },
   "nqabsss": {
     "id": "340177148",
@@ -346,10 +346,10 @@
   "copdcanada": {
     "id": "497225379",
     "username": "COPDCanada",
-    "seen": 4,
+    "seen": 5,
     "name": "COPD Canada",
     "bio": "COPD Canada is a national non-profit patient advocacy association providing educational information and up-to-date medical news for people living with COPD.",
-    "followers": 1361
+    "followers": 1362
   },
   "healioallergy": {
     "id": "1409602508750721033",
@@ -650,10 +650,10 @@
   "prwukee": {
     "id": "845622996349976576",
     "username": "prwukee",
-    "seen": 1,
+    "seen": 2,
     "name": "Pulmonary Rehab Awareness @pulmonaryrehab@bsky)",
     "bio": "Pulmonary Rehabilitation UK & All Ireland #PulmonaryRehab Exercise & Education for lung illness \nOfficial account Founded in 2016 by Paul Mills & Elaine Smith",
-    "followers": 2630
+    "followers": 2631
   },
   "templelung": {
     "id": "1126206643908304899",
@@ -726,5 +726,13 @@
     "name": "Medway Asthma Self-Help (MASH)",
     "bio": "Medway Asthma Self-Help helps people & families with asthma with info & advice & raises asthma awareness. \n\nRetweets/sharing are not endorsements.",
     "followers": 342
+  },
+  "amlungcsi": {
+    "id": "1088956963319209984",
+    "username": "AmLungCSI",
+    "seen": 1,
+    "name": "ALCSI",
+    "bio": "The American Lung Cancer Screening Initiative: we aim to spread awareness about the importance of lung cancer screening for high-risk individuals.",
+    "followers": 1313
   }
 }
