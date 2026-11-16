@@ -46,5 +46,9 @@
       "first_author": "Ingmar B Bruns"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-16T14:00:18+00:00",
+  "shared": {
+    "x": "2122329690832560160"
+  }
 }
