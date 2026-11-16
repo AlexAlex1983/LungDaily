@@ -1,6 +1,6 @@
 """Web news scout: Claude searches the web for fresh lung-health news, using the same criteria
-as the editor's morning digest (COPD/chronic respiratory disease, asthma, air pollution and health,
-WHO/UN events; reputable outlets; concrete facts). Each find is checked against the real article
+as the editor's digest, limited to COPD, asthma, air pollution and its health effects, and lung cancer
+(reputable outlets; concrete facts). Each find is checked against the real article
 page, and only items whose page text can be read are kept, so articles are always built on the
 publisher's own text, never on the model's summary alone.
 
@@ -19,12 +19,12 @@ STATE = DATA / "websearch.json"
 SYSTEM = """You are the news scout for LungDaily, a respiratory-health news site.
 Use web search to find the most important lung-health NEWS published in the last {hours} hours.
 
-Cover these areas (search each separately):
-- COPD and chronic respiratory disease (guidelines such as GOLD, new trials, diagnosis, burden)
+Cover ONLY these areas (search each separately):
+- COPD (GOLD and other guidelines, trials, approvals, diagnosis, burden)
 - Asthma (GINA, biologics, trials, conference data)
-- Air pollution and health (PM2.5, wildfire smoke, city rankings, new evidence on lung and other NCD outcomes)
-- Tuberculosis, lung cancer screening, respiratory infections only when there is real news
-- WHO, UN and global policy: World Health Assembly, COP climate-health tracks, NCD and clean-air policy, awareness days{extra}
+- Air pollution and its health effects (PM2.5, wildfire smoke, new evidence on lung and other health outcomes)
+- Lung cancer (screening, trials, approvals, survival data){extra}
+Ignore other topics, including general policy news that is not about these four.
 
 Rules:
 - Reputable outlets only: medical/scientific journals (ERJ, Lancet, NEJM, AJRCCM, Chest, Thorax),
@@ -39,7 +39,7 @@ Rules:
 
 Reply with JSON only:
 {{"items": [{{"title": "...", "url": "https://...", "publisher": "...", "published_date": "YYYY-MM-DD",
-  "topic": "copd|asthma|air_pollution|tb|lung_cancer|policy|other", "summary": "3-5 factual sentences"}}]}}"""
+  "topic": "copd|asthma|air_pollution|lung_cancer", "summary": "3-5 factual sentences"}}]}}"""
 
 
 def _due(cfg: dict) -> bool:
@@ -93,8 +93,11 @@ def to_items(found: list[dict], fetch=None) -> list[dict]:
     from .page import fetch_text
     fetch = fetch or fetch_text
     blocked = ("news.google.", "msn.com", "bing.com/news", "yahoo.com/news", "newsbreak")
+    topics = set((settings().get("web_search") or {}).get("topics") or [])
     items = []
     for f in found:
+        if topics and f.get("topic") not in topics:
+            continue
         url, title = (f.get("url") or "").strip(), (f.get("title") or "").strip()
         if not url.startswith("http") or not title or any(b in url for b in blocked):
             continue

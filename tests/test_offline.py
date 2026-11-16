@@ -390,6 +390,34 @@ _cfg = _st(); _cfg["sources"]["web_search_hours"] = [11]
 assert _ws._due(_cfg) and not _ws._due(_cfg)                     # once per hour slot
 print("OK web search scout")
 
+# digest picks: only LungDaily topics, each file read once
+import json as _json
+from lungdaily.sources import digest as _dg
+_dg.DIGEST.mkdir(parents=True, exist_ok=True)
+(_dg.DIGEST / "2026-11-07-0800.json").write_text(_json.dumps({"items": [
+    {"title": "GINA update", "url": "https://example.org/gina", "publisher": "ERJ", "topic": "asthma", "summary": "s"},
+    {"title": "AI chatbot", "url": "https://example.org/ai", "publisher": "X", "topic": "ai", "summary": "s"}]}))
+_fp = lambda u: (u, " ".join(["word"] * 80))
+_d = _dg.collect(fetch=_fp)
+assert [i["url"] for i in _d] == ["https://example.org/gina"] and _d[0]["extra"]["feed"] == "Editor digest", _d
+assert _dg.collect(fetch=_fp) == []
+print("OK digest picks")
+
+# source figures: open licence + chart caption only; photos and NC pages skipped
+from lungdaily import figures as _fg
+from PIL import Image as _Im
+import io as _io
+_b = _io.BytesIO(); _Im.new("RGB", (900, 500), "white").save(_b, "PNG")
+_html = ('<a href="https://creativecommons.org/licenses/by/4.0/">CC</a>'
+         '<figure><img src="/p.jpg"><figcaption>Dr Smith pictured at the congress</figcaption></figure>'
+         '<figure><img src="/f2.png" alt=""><figcaption>Figure 2. COPD prevalence by country</figcaption></figure>')
+_it = {"source": "rss", "url": "https://journal.example/a", "author_name": "Example Journal"}
+_f = _fg.grab(_it, "fig-test", fetch=lambda u: (u, _html), download=lambda u: _b.getvalue())
+assert _f and _f["licence"] == "CC BY 4.0" and _f["caption"].startswith("Figure 2") and (_fg.FIGURES / "fig-test.jpg").exists(), _f
+assert _fg.grab(_it, "fig-nc", fetch=lambda u: (u, _html.replace("/by/4.0", "/by-nc/4.0")), download=lambda u: _b.getvalue()) is None
+assert _fg.grab(_it, "fig-none", fetch=lambda u: (u, _html.split("</a>")[1]), download=lambda u: _b.getvalue()) is None
+print("OK source figures")
+
 # takedown
 slug = arts[0].parent.name
 import yaml

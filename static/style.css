@@ -225,3 +225,8 @@ a.thumb:hover img{transform:scale(1.03)}
 .stat-row{display:flex;gap:28px;flex-wrap:wrap;margin:10px 0 20px}
 .stat-row div b{display:block;font:700 2rem var(--serif)}
 @media (max-width:760px){.hub-hero{grid-template-columns:1fr}}
+
+.source-figure{margin:1.6rem 0;padding:0}
+.source-figure img{width:100%;height:auto;border:1px solid #e3e8ee;border-radius:6px;background:#fff}
+.source-figure figcaption{font-size:.85rem;color:#556;margin-top:.4rem;line-height:1.4}
+.source-figure .credit{display:block;margin-top:.2rem;color:#778;font-size:.78rem}

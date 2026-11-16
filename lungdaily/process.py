@@ -516,6 +516,14 @@ def produce(item: dict, held: list, stats: dict):
         "source": {k: item.get(k) for k in ("id", "source", "url", "title", "author_name", "author_handle",
                                              "author_url", "published_at", "extra")},
     }
+    if verdict["pass"]:
+        try:
+            from .figures import grab
+            fig = grab(item, rec["slug"])
+            if fig:
+                rec["figure"] = fig
+        except Exception as e:   # noqa: BLE001 - a figure is a bonus, never a reason to fail
+            log.info("Figure skipped for %s: %s", rec["slug"], e)
     if pub["auto_publish"] and (verdict["pass"] or not pub["require_checker_pass"]):
         if pub.get("slots"):
             save_ready(rec)

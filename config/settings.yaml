@@ -41,14 +41,21 @@ sources:
   linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
   pubmed: true
   rss: true
-  web_search: true                # Claude web-search news scout (same criteria as the morning digest)
+  digest: true                    # LungDaily picks from the editor's 08:00/15:00 digest (content/digest/*.json)
+  web_search: false               # own Claude web-search scout (API cost) — off while the digest feeds us
   web_search_hours: [6, 15]       # local hours it runs (each run ~8 searches)
 
 web_search:
   lookback_hours: 48
   max_searches: 8                 # web searches per run ($10 per 1,000 searches + tokens)
   max_items: 12
-  extra_topics: []                # e.g. "AI in lung health"
+  extra_topics: []
+  topics: [copd, asthma, air_pollution, lung_cancer]   # digest + web-search picks outside these are ignored
+
+figures:                          # one data figure (chart/graph/map) from openly licensed source pages
+  enabled: true
+  min_width: 500
+  public_domain_domains: [cdc.gov, epa.gov, cancer.gov, fda.gov]   # not nih.gov: PubMed/PMC host publishers' figures
 
 limits:
   x_max_results_per_query: 50     # X pay-per-use: each tweet read costs credits

@@ -55,6 +55,8 @@ def build() -> int:
         shutil.rmtree(OUT)
     OUT.mkdir()
     shutil.copytree(ROOT / "static", OUT / "static")
+    if (ROOT / "content" / "figures").exists():
+        shutil.copytree(ROOT / "content" / "figures", OUT / "figures")
     (OUT / ".nojekyll").write_text("")
     shutil.copy(ROOT / "static" / "favicon.ico", OUT / "favicon.ico")  # search engines look for /favicon.ico
     if site.get("custom_domain"):

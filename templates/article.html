@@ -52,6 +52,13 @@
 
   <div class="body">{{ post.html|safe }}</div>
 
+  {% if post.figure %}
+  <figure class="source-figure">
+    <a href="{{ post.figure.source_url }}" rel="nofollow noopener" target="_blank"><img src="{{ root }}figures/{{ post.figure.file }}" alt="{{ post.figure.caption }}" loading="lazy"></a>
+    <figcaption>{{ post.figure.caption }}<span class="credit">Figure: {{ post.figure.credit }} · {{ post.figure.licence }}{% if post.figure.licence != "Public domain" %} · reproduced unchanged{% endif %}</span></figcaption>
+  </figure>
+  {% endif %}
+
   {% set nl_id = "nl-a" %}{% set nl_compact = true %}{% set nl_source = base ~ "/news/" ~ post.slug ~ "/" %}
   {% include "_newsletter.html" %}
 
