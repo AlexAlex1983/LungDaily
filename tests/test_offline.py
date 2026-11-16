@@ -374,6 +374,22 @@ assert 'value="lang-es"' in _home
 _o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
 build.build()
 
+# web-search scout: only finds with a readable article page are kept; aggregators dropped
+from lungdaily.sources import websearch as _ws
+_page = " ".join(["word"] * 80)
+_found = _ws.search() + [
+    {"title": "Agg", "url": "https://news.google.com/x", "summary": "s"},
+    {"title": "Thin page", "url": "https://example.org/thin", "summary": "s"},
+]
+_got = _ws.to_items(_found, fetch=lambda u: (u, "" if "thin" in u else _page))
+assert [i["url"] for i in _got] == ["https://example.org/gold-2027"], _got
+assert _got[0]["extra"]["feed"] == "Web search" and _got[0]["text"].startswith("ARTICLE PAGE TEXT")
+assert "GOLD 2027 report was published" not in _got[0]["text"]   # model summary is not source text
+from lungdaily.util import settings as _st
+_cfg = _st(); _cfg["sources"]["web_search_hours"] = [11]
+assert _ws._due(_cfg) and not _ws._due(_cfg)                     # once per hour slot
+print("OK web search scout")
+
 # takedown
 slug = arts[0].parent.name
 import yaml

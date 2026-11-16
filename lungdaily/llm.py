@@ -75,3 +75,42 @@ def ask_json(role: str, system: str, user: str, fake=None):
             log.warning("LLM %s attempt %d failed: %s — retrying in %ss", role, attempt + 1, e, wait)
             time.sleep(wait)
     raise LLMError(f"LLM {role} failed after retries: {last}")
+
+
+def ask_web(system: str, user: str, max_uses: int = 8, role: str = "scout", fake=None):
+    """Like ask_json, but Claude may use Anthropic's server-side web search tool first."""
+    if os.environ.get("LUNGDAILY_FAKE_LLM") == "1":
+        if fake is None:
+            raise LLMError("fake LLM requested but no fake output given")
+        return fake() if callable(fake) else fake
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        raise LLMError("ANTHROPIC_API_KEY is not set")
+    cfg = settings()["models"]
+    messages = [{"role": "user", "content": user}]
+    body = {
+        "model": cfg.get(role) or cfg["writer"],
+        "max_tokens": int(cfg.get(f"{role}_max_tokens") or 6000),
+        "system": system,
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": max_uses}],
+        "messages": messages,
+    }
+    headers = {"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"}
+    text, last = "", None
+    for attempt in range(6):
+        try:
+            r = requests.post(API_URL, headers=headers, json=body, timeout=300)
+            if r.status_code in (429, 500, 502, 503, 529):
+                raise LLMError(f"HTTP {r.status_code}: {r.text[:200]}")
+            r.raise_for_status()
+            data = r.json()
+            text = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+            if data.get("stop_reason") == "pause_turn":   # long search turn: let it continue
+                messages.append({"role": "assistant", "content": data["content"]})
+                continue
+            return _extract_json(text)
+        except (requests.RequestException, LLMError, ValueError) as e:
+            last = e
+            log.warning("LLM %s web attempt %d failed: %s", role, attempt + 1, e)
+            time.sleep(5 * (attempt + 1))
+    raise LLMError(f"LLM {role} web search failed: {last}")

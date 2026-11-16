@@ -29,6 +29,8 @@ models:
   checker: "claude-sonnet-5-5"    # independent fact-check of each article
   translator: "claude-sonnet-5-5" # newsletter language editions (es, fr, pt, ru)
   translator_max_tokens: 6000
+  scout: "claude-sonnet-5-5"      # web-search news scout
+  scout_max_tokens: 6000
   max_tokens: 1500
   triage_max_tokens: 8000         # triage scores a whole batch in one reply; too low = cut-off JSON
 
@@ -39,6 +41,14 @@ sources:
   linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
   pubmed: true
   rss: true
+  web_search: true                # Claude web-search news scout (same criteria as the morning digest)
+  web_search_hours: [6, 15]       # local hours it runs (each run ~8 searches)
+
+web_search:
+  lookback_hours: 48
+  max_searches: 8                 # web searches per run ($10 per 1,000 searches + tokens)
+  max_items: 12
+  extra_topics: []                # e.g. "AI in lung health"
 
 limits:
   x_max_results_per_query: 50     # X pay-per-use: each tweet read costs credits

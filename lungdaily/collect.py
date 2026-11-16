@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 
-from .sources import linkedin, pubmed, rss, x
+from .sources import linkedin, pubmed, rss, websearch, x
 from .util import DATA, load_yaml, log, now, parse_date, read_json, settings, write_json
 
 INBOX = DATA / "inbox.json"
@@ -59,6 +59,8 @@ def run() -> int:
         collected += pubmed.collect()
     if enabled.get("rss"):
         collected += rss.collect()
+    if enabled.get("web_search"):
+        collected += websearch.collect()
     added = add_items(collected)
     log.info("Collected %d, new in inbox: %d", len(collected), added)
     return added
