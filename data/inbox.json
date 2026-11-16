@@ -1,220 +1,34 @@
 [
   {
-    "id": "rss:96080dd594bb4fa2",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSERlNG1BLXpEOUp0T0FIZzhGcG9udGU2bHdYVFlvUDAxR1NzaG01NWNtZ3R4UUthbUhXRllUS2NMYW5RcFFTVmNCdVpEaEhSczhFejhsdWRVRk9lRUZDQS1CaEhBXzNRUmVHTkVHa3BDWUNFbmtSMmRveVpVeUNVSnFYQXFEQS1hdHU4ZHVNYXd5YkRVWDVJeG9FLTc?oc=5",
-    "title": "Nondrug Therapies Ease Cough in Lung Cancer, Pulmonary Rehab Leads Pack",
-    "text": "Nondrug Therapies Ease Cough in Lung Cancer, Pulmonary Rehab Leads Pack The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-13T16:15:52+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory approvals"
-    },
-    "collected_at": "2026-11-14T05:07:25+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Study comparing nondrug cough therapies in lung cancer, pulmonary rehab leading"
-    }
-  },
-  {
-    "id": "x:2121630849699369088",
+    "id": "x:2122283737241002231",
     "source": "x",
-    "url": "https://x.com/LungDaily/status/2121630849699369088",
+    "url": "https://x.com/KulikovUNIATF/status/2122283737241002231",
     "title": "",
-    "text": "Azeem Majeed: Relying mainly on reliever inhalers for asthma is outdated\n\n@Azeem_Majeed\n\n#Asthma #PrimaryCare\n\nhttps://t.co/FbHSmnj4GI",
-    "author_name": "LungDaily",
-    "author_handle": "LungDaily",
-    "author_url": "https://x.com/LungDaily",
-    "author_headline": "The Pulse of Respiratory Health\n\nDaily news, study breakdowns and expert voices from the global 🫁 lung health community",
-    "published_at": "2026-11-14T15:46:27+00:00",
+    "text": "A new study in @BMJOpen_Resp suggests that early-life exposure to #airpollution is linked to poorer lung function 🫁 in childhood, and that the difference persists into adolescence.\n\nResearchers from the University of Copenhagen followed 846 mother-child pairs in the Danish COPSAC2000 and COPSAC2010 cohorts. They modelled exposure to PM2.5 and NO₂ during #pregnancy and the first year of life, and measured lung function from age 3 to 18. Each extra 2 µg/m³ of PM2.5 during pregnancy was associated with nearly 2% lower #lung capacity at age six, and higher exposure was linked to slower lung development through childhood and adolescence.\n\nThese effects showed up at relatively low levels. The average annual PM2.5 in the study was 9.6 µg/m³, compared with the @WHO guideline of 5 µg/m³. A\n\nFor one child the difference is small, but across a population even small shifts matter for #health. Protecting pregnant women and young children from polluted air is an early investment in lifelong lung health.\n\nhttps://t.co/QCygpZ4c3J",
+    "author_name": "Dr Alexey Kulikov",
+    "author_handle": "KulikovUNIATF",
+    "author_url": "https://x.com/KulikovUNIATF",
+    "author_headline": "Technical Officer, @WHO Department of #NCDs and #mentalhealth. UN NCD Task Force Secretariat. Support countries achieve #health related #SDGs. PhD MPH MD.",
+    "published_at": "2026-11-16T11:00:47+00:00",
     "metrics": {
-      "likes": 0,
+      "likes": 1,
       "reposts": 0,
-      "comments": 0
+      "comments": 1
     },
     "extra": {
-      "tweet_id": "2121630849699369088",
-      "query_kind": "keywords",
-      "links": [
-        "https://lungdaily.org/news/2026-11-14-azeem-majeed-relying-mainly-on-reliever-inhalers-for-asthma-is-outdate/"
-      ],
-      "author_followers": 6,
-      "author_id": "2119112099922112512"
-    },
-    "collected_at": "2026-11-14T17:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Expert Azeem Majeed's view on reliever-only asthma management"
-    }
-  },
-  {
-    "id": "rss:e69d4285ae869f91",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSjM1NkgtX0ZjZ0dHNElWX2NwUnVMMWV6aXE0blRmaE1CZkNheU9pQUIxcTNud3M2WHlGZV9EOE1pajV4aUV5dFhkT19UcG1HcE5vTjQtYVdUdEFxOVZDRTlmcTJFOHlMOE5hN2hWTE40enQyeXRtd1NxM0pDWlduclp6aURpRWVYcnJmeVdid2ZLLWhlNGZ3empFSllXXzc2cy00MA?oc=5",
-    "title": "Insurance Delays and Denials Mean Kids Don’t Get Allergy and Asthma Medications",
-    "text": "Insurance Delays and Denials Mean Kids Don’t Get Allergy and Asthma Medications American College of Allergy Asthma and Immunology",
-    "author_name": "American College of Allergy Asthma and Immunology",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-12T17:12:12+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-14T17:07:19+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ACAAI reports insurance delays and denials block paediatric asthma medicines"
-    }
-  },
-  {
-    "id": "x:2121687092883267738",
-    "source": "x",
-    "url": "https://x.com/HealioPulm/status/2121687092883267738",
-    "title": "",
-    "text": "“I hypothesized that new #asthma incidence would be lower because #dupilumab would be treating the underlying pathway that would lead to asthma, something oral budesonide would not theoretically do,” Kayla Steinberger, MD, PhD, @WestVirginiaU, told Healio.\nhttps://t.co/ApWlMeiPY1",
-    "author_name": "Healio Pulmonology",
-    "author_handle": "HealioPulm",
-    "author_url": "https://x.com/HealioPulm",
-    "author_headline": "The content you need, when you need it.",
-    "published_at": "2026-11-14T19:29:56+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2121687092883267738",
-      "query_kind": "keywords",
-      "links": [
-        "https://vist.ly/5su39"
-      ],
-      "author_followers": 1201,
-      "author_id": "3043251863"
-    },
-    "collected_at": "2026-11-14T20:07:17+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Expert quoted on dupilumab and new asthma incidence versus oral budesonide."
-    }
-  },
-  {
-    "id": "x:2121676304982372769",
-    "source": "x",
-    "url": "https://x.com/GALA_Health/status/2121676304982372769",
-    "title": "",
-    "text": "Chronic respiratory disease doesn't stay in the clinic. It moves into the home — and onto the person managing medications, tracking symptoms, absorbing the anxiety. Health systems that ignore caregiver burden aren't delivering whole-disease care. They're offloading…",
-    "author_name": "GALA Health",
-    "author_handle": "GALA_Health",
-    "author_url": "https://x.com/GALA_Health",
-    "author_headline": "Global Alliance for Lungs, Air and Health",
-    "published_at": "2026-11-14T18:47:04+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2121676304982372769",
-      "query_kind": "keywords",
-      "links": [],
-      "author_followers": 54,
-      "author_id": "2017275908537655296"
-    },
-    "collected_at": "2026-11-14T20:07:17+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "voices",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "GALA policy view on caregiver burden in chronic respiratory disease"
-    }
-  },
-  {
-    "id": "rss:cf3404b8b7a27d07",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTEVWbmZucmI0b2NaamJ2NEJzTWhIQi1KUkotLVloV0twcnJVdW9nd2hES1FTUklMc21CYmpSTFlMbk54WC1qemQ2eWU2ZTlGeUIwOGFJSE85VHJXNnpVa2t6dl9Xa2xRaDFKeDViT29vcVBhZjFrU01xNkJKNDFqcjdmMW1UTU0?oc=5",
-    "title": "Early Dupilumab in Pediatric EoE Tied to Lower Incident Asthma",
-    "text": "Early Dupilumab in Pediatric EoE Tied to Lower Incident Asthma HCPLive",
-    "author_name": "HCPLive",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-14T21:14:31+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — asthma"
-    },
-    "collected_at": "2026-11-14T21:33:30+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Notable cohort finding linking dupilumab to lower asthma incidence"
-    }
-  },
-  {
-    "id": "x:2121815509192605757",
-    "source": "x",
-    "url": "https://x.com/ERSpublications/status/2121815509192605757",
-    "title": "",
-    "text": "ERJOR: Thoracic ultrasound reliably identifies malignant pleural effusion through highly specific signs such as pleural and diaphragmatic nodules or thickening. Shear wave elastography shows balanced accuracy but needs further evidence before routine use. https://t.co/mnJsAZlbUJ",
-    "author_name": "ERS publications",
-    "author_handle": "ERSpublications",
-    "author_url": "https://x.com/ERSpublications",
-    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "published_at": "2026-11-15T04:00:13+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2121815509192605757",
+      "tweet_id": "2122283737241002231",
       "query_kind": "voices",
-      "links": [
-        "https://bit.ly/4wm5Zmm"
-      ],
-      "author_followers": 33473,
-      "author_id": "424241621"
+      "links": [],
+      "author_followers": 63385,
+      "author_id": "737362108397060096"
     },
-    "collected_at": "2026-11-15T05:07:21+00:00",
+    "collected_at": "2026-11-16T11:08:45+00:00",
     "triage": {
-      "score": 7.0,
+      "score": 8.0,
       "category": "research",
-      "author_type": "organisation",
+      "author_type": "person",
       "duplicate": false,
-      "reason": "ERJOR study on thoracic ultrasound for malignant pleural effusion"
+      "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
     }
   },
   {
@@ -331,41 +145,6 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "USFDA approval for lung cancer drug, likely generic, limited detail"
-    }
-  },
-  {
-    "id": "x:2122235993566941503",
-    "source": "x",
-    "url": "https://x.com/cpgale3/status/2122235993566941503",
-    "title": "",
-    "text": "Our meta-analysis of 140 case-control studies including 30M people.\n\n#COPD was associated with higher risk of #heartfailure (RR 2.33, 95% CI 1.78 to 3.06), #heartattack (RR 1.47), chronic #kidney disease &amp; death.\n\n@eClinicalMed\n\nhttps://t.co/8pGkZHEAnV https://t.co/W3QGxOvEFd",
-    "author_name": "Prof Chris P Gale",
-    "author_handle": "cpgale3",
-    "author_url": "https://x.com/cpgale3",
-    "author_headline": "Professor of Cardiovascular Medicine, Honorary Consultant Cardiologist. Specialist adult cardiovascular care: putting research into practice to benefit patients",
-    "published_at": "2026-11-16T07:51:04+00:00",
-    "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2122235993566941503",
-      "query_kind": "keywords",
-      "links": [
-        "https://doi.org/10.1016/j.eclinm.2026.104131",
-        "https://x.com/cpgale3/status/2122235993566941503/photo/1"
-      ],
-      "author_followers": 13537,
-      "author_id": "760436883734147073"
-    },
-    "collected_at": "2026-11-16T08:07:51+00:00",
-    "triage": {
-      "score": 8.0,
-      "category": "research",
-      "author_type": "person",
-      "duplicate": false,
-      "reason": "Meta-analysis of 140 studies on COPD and cardiovascular risk, eClinicalMedicine"
     }
   }
 ]

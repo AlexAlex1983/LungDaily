@@ -1721,5 +1721,53 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-16-thoracic-ultrasound-reliably-identifies-malignant-pleural-effusion-erj",
+    "headline": "Thoracic ultrasound reliably identifies malignant pleural effusion, ERJ Open Research paper reports",
+    "dek": "Specific ultrasound signs can identify malignant pleural effusion, while shear wave elastography needs more evidence before routine use, according to an ERJ Open Research summary.",
+    "body": "Thoracic ultrasound can reliably identify malignant pleural effusion, according to a summary of an ERJ Open Research (ERJOR) paper posted on X by ERS publications.\n\nThe post said the technique does so through highly specific signs. It named pleural nodules, diaphragmatic nodules and thickening as examples of these signs.\n\nThe post also addressed shear wave elastography. It said the method shows balanced accuracy but that further evidence is needed before it is used routinely.\n\nERS publications, the account for the European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe and other European Respiratory Society titles, shared the summary on 15 November 2026.",
+    "key_quote": "Thoracic ultrasound reliably identifies malignant pleural effusion through highly specific signs such as pleural and diaphragmatic nodules or thickening.",
+    "tags": [
+      "diagnostics",
+      "lung-cancer"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-16T11:10:26+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a single short post, and the headline, dek and body all restate it. They add no detail beyond the claim that ultrasound reliably identifies malignant pleural effusion and that shear wave elastography needs more evidence. There are no figures, no study design, no authors and no accuracy data, so a reader learns almost nothing beyond the headline.",
+        "The body's last paragraph and the second paragraph add only filler: the account description, the date and a re-listing of the signs. They give the reader no new information about the research."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2121815509192605757",
+      "url": "https://x.com/ERSpublications/status/2121815509192605757"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2121815509192605757",
+      "source": "x",
+      "url": "https://x.com/ERSpublications/status/2121815509192605757",
+      "title": "",
+      "author_name": "ERS publications",
+      "author_handle": "ERSpublications",
+      "author_url": "https://x.com/ERSpublications",
+      "published_at": "2026-11-15T04:00:13+00:00",
+      "extra": {
+        "tweet_id": "2121815509192605757",
+        "query_kind": "voices",
+        "links": [
+          "https://bit.ly/4wm5Zmm"
+        ],
+        "author_followers": 33473,
+        "author_id": "424241621"
+      }
+    },
+    "status": "held"
   }
 ]

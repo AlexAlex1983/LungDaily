@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-16-inhaled-anticalin-elarekibep-shows-pulmonary-target-engagement-and-goo",
+  "headline": "Inhaled Anticalin elarekibep shows pulmonary target engagement and good tolerability in two phase 1 asthma trials",
+  "dek": "Two first-in-human studies found the inhaled IL-4Rα inhibitor elarekibep was well tolerated and reduced FeNO in participants with mild asthma, indicating local target engagement.",
+  "body": "Elarekibep (AZD1402/PRS-060), an inhaled Anticalin protein engineered to inhibit interleukin-4 receptor α-subunit (IL-4Rα) signalling, was well tolerated and showed pulmonary and systemic target engagement in two phase 1 trials, according to a study published in Respiratory Research. Anticalins are described by the authors as a new class of inhaled therapeutic proteins.\n\nThe two randomised, single-blind, dose-escalating, first-in-human studies (NCT03384290 and NCT03574805) enrolled 148 participants in total. In the single-ascending-dose study, healthy participants received one inhaled dose of elarekibep from 0.1 to 160 mg, intravenous doses of 1 mg or 2 mg, or matched placebo. In the multiple-ascending-dose study, participants with mild asthma and elevated fractional exhaled nitric oxide (FeNO) received inhaled elarekibep at 0.2 to 60 mg or placebo twice daily for 10 or 17 days, continuously or intermittently.\n\nThe authors reported no safety concerns. Treatment-emergent adverse events occurred in 34.7% of participants in the single-dose study (elarekibep 35.2%, placebo 33.3%) and 81.6% in the multiple-dose study (elarekibep 75.9%, placebo 95.5%).\n\nElarekibep was absorbed after inhalation, with dose-related increases in systemic exposure detectable at doses of 6 mg or higher. In both studies, systemic exposure was accompanied by lower levels of phosphorylated signal transducer and activator of transcription 6, a biomarker of systemic IL-4Rα target engagement. In the multiple-dose study, FeNO fell rapidly at doses of 2 mg or higher, which the authors said indicated pulmonary target engagement.\n\nThe authors concluded that elarekibep was well tolerated and demonstrated both pulmonary and systemic target engagement. It was investigated further in a phase 2a study (NCT04643158).",
+  "key_quote": "Elarekibep was well tolerated in both studies and demonstrated pulmonary and systemic target engagement.",
+  "tags": [
+    "asthma",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Ingmar B Bruns",
+    "Jason D Lickliter",
+    "Kayti Aviano"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-16T11:10:02+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43035707/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43035707",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43035707/",
+    "title": "Elarekibep, an inhaled Anticalin protein, targets IL-4Rα locally: first-in-human randomized phase 1 trials of a novel potential therapeutic class in asthma.",
+    "author_name": "Ingmar B Bruns, Jason D Lickliter, Kayti Aviano et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-08-19T00:00:00+00:00",
+    "extra": {
+      "journal": "Respiratory research",
+      "doi": "10.1186/s12931-026-03854-5",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Clinical Trial, Phase I"
+      ],
+      "first_author": "Ingmar B Bruns"
+    }
+  },
+  "status": "ready"
+}
