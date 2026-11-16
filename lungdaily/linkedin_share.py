@@ -245,7 +245,7 @@ def little_text(rec: dict, url: str, hashtags: list[str], mentions: list[tuple[s
         parts.append(escape(rec["dek"]))
     src = rec.get("source") or {}
     author = src.get("author_name")
-    tag = lambda m: f"@[{escape(m[0])}]({m[1]})"
+    tag = lambda m: f"@[{escape(m[0])}]({escape(m[1])})"   # LinkedIn escapes reserved chars (e.g. _) in URNs too
     src_mention = next((m for m in mentions if m[2]), None)
     if author:
         parts.append("Source: " + (tag(src_mention) if src_mention else escape(author)))

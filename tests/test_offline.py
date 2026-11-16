@@ -170,14 +170,16 @@ _r2 = dict(_r, source={"author_name": "Medical Xpress"})
 assert "Source: Medical Xpress" in linkedin_share.little_text(_r2, "u", [], linkedin_share.linkedin_mentions(_r2))
 # people: tagged only with linkedin_tag_people on, matched by LinkedIn profile URL, exact profile name
 _vd["voices"].append({"name": "Jane Roe", "linkedin": "https://www.linkedin.com/in/jane-roe-1/", "linkedin_name": "Jane Roe, MD",
-                      "linkedin_person_urn": "urn:li:person:AbC123"})
+                      "linkedin_person_urn": "urn:li:person:AbC_123"})
 _vp.write_text(_y.safe_dump(_vd))
 _r3 = dict(_r, headline="Asthma remission", body="x", source={"author_name": "Jane Roe", "author_url": "https://www.linkedin.com/in/jane-roe-1"})
-assert linkedin_share.linkedin_mentions(_r3) == []
-_sp = Path("config/settings.yaml"); _sd = _y.safe_load(_sp.read_text()); _sd["amplify"]["linkedin_tag_people"] = True
+_sp = Path("config/settings.yaml"); _sd = _y.safe_load(_sp.read_text()); _sd["amplify"]["linkedin_tag_people"] = False
 _sp.write_text(_y.safe_dump(_sd))
-assert linkedin_share.linkedin_mentions(_r3) == [("Jane Roe, MD", "urn:li:person:AbC123", True)], linkedin_share.linkedin_mentions(_r3)
-assert "Source: @[Jane Roe, MD](urn:li:person:AbC123)" in linkedin_share.little_text(_r3, "u", [], linkedin_share.linkedin_mentions(_r3))
+assert linkedin_share.linkedin_mentions(_r3) == []
+_sd["amplify"]["linkedin_tag_people"] = True
+_sp.write_text(_y.safe_dump(_sd))
+assert linkedin_share.linkedin_mentions(_r3) == [("Jane Roe, MD", "urn:li:person:AbC_123", True)], linkedin_share.linkedin_mentions(_r3)
+assert "Source: @[Jane Roe, MD](urn:li:person:AbC\\_123)" in linkedin_share.little_text(_r3, "u", [], linkedin_share.linkedin_mentions(_r3))
 _sd["amplify"]["linkedin_tag_people"] = False
 _sp.write_text(_y.safe_dump(_sd))
 

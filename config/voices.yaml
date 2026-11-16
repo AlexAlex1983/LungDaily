@@ -10,6 +10,8 @@
 # press_email: team press/comms address for "you've been featured" notes (found on the organisation's
 #   own site or press releases, 14 Nov 2026). WHO deliberately has none. GOLD, GINA, FIRS, BTS: none published.
 # linkedin_id: numeric LinkedIn company id (from each company page's own data, 14 Nov 2026) — lets LinkedIn posts tag the organisation.
+# linkedin_person_urn + linkedin_name: LinkedIn member id and exact profile name for @tags, read back from a
+#   hand-tagged LungDaily page post via Make (16 Nov 2026). Never add the owner.
 # focus: true = owner priority voice (settings.yaml -> selection.focus_boost / focus_min_score; LinkedIn + Bluesky queue first).
 # Individuals below: handles checked on 8 Nov 2026 with the X API (name and bio match).
 
@@ -59,6 +61,8 @@ voices:
 
   # --- People ---------------------------------------------------------------------------
   - name: "José Luis Castro"
+    linkedin_name: "José Luis Castro"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:yJBxje-1X8"
     focus: true                   # owner priority (14 Nov 2026): ranked higher, first in line for LinkedIn/Bluesky
     x: "JLCastroGarcia"
     linkedin: "https://www.linkedin.com/in/jose-luis-castro/"
@@ -66,6 +70,8 @@ voices:
     tier: 1
     tags: [policy, who]           # WHO Director-General's Special Envoy for Chronic Respiratory Diseases
   - name: "Tonya Winders"
+    linkedin_name: "Tonya Winders"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:6U9F6r13Ou"
     focus: true                   # owner priority (14 Nov 2026): ranked higher, first in line for LinkedIn/Bluesky
     x: "TonyaWinders"
     linkedin: "https://www.linkedin.com/in/tonya-winders-7109169/"
@@ -234,11 +240,15 @@ voices:
     tier: 2
     tags: [asthma, copd, global-health]   # University of Lagos
   - name: "Alvar Agustí"
+    linkedin_name: "Alvar Agustí"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:i6nCZkOP9J"
     linkedin: "https://www.linkedin.com/in/alvaragusti/"
     aliases: ["Alvar Agusti", "Àlvar Agustí", "Prof Alvar Agustí"]
     tier: 1
     tags: [copd, guidelines]   # Cátedra de Salud Respiratoria, Barcelona; posts mostly in Spanish
   - name: "MeiLan Han"
+    linkedin_name: "MeiLan Han"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:AN20XnhVF6"
     linkedin: "https://www.linkedin.com/in/meilan-han-03753133/"
     aliases: ["Dr MeiLan Han", "MeiLan K Han"]
     tier: 1
@@ -289,15 +299,26 @@ voices:
     tier: 2
     tags: [asthma, copd, primary-care]   # Observational & Pragmatic Research Institute; mostly reposts
   - name: "Jean Wright"
+    linkedin_name: "Jean Wright, MD MBA"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:HhRSmnLjzZ"
     linkedin: "https://www.linkedin.com/in/jeanwrightmdmba/"
     aliases: ["Dr Jean Wright", "Jean Wright, MD MBA"]
     tier: 1
     tags: [copd, patients]   # CEO, COPD Foundation
   - name: "Ruth Tal-Singer"
+    linkedin_name: "Ruth Tal-Singer"            # exact LinkedIn profile name (for tags)
+    linkedin_person_urn: "urn:li:person:YhLidBUoup"
     linkedin: "https://www.linkedin.com/in/r-tal-singer-phd/"
     aliases: ["Dr Ruth Tal-Singer"]
     tier: 2
     tags: [copd, bronchiectasis, patients]   # patient advocate and lung health researcher
+
+  - name: "John Cush"
+    linkedin_name: "John Cush"
+    linkedin_person_urn: "urn:li:person:KN2BXDq_PL"
+    aliases: ["Dr. John Cush", "Dr John Cush", "John J Cush"]
+    tier: 2
+    tags: [ild]   # rheumatologist (RheumNow); LinkedIn profile URL not yet added
 
   # --- Add leading pulmonologists, lung cancer specialists and respirologists here -------
   # Run reports list "suggested voices": people whose posts scored highly in keyword searches.
