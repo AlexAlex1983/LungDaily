@@ -111,7 +111,8 @@ amplify:
   linkedin_org_id: "146950505"    # LungDaily LinkedIn page (linkedin.com/company/146950505)
   linkedin_reshare_source: true   # LinkedIn-sourced articles: repost the original (shows author photo + their visual)
   linkedin_hashtags: 3            # topic hashtags per LinkedIn post (clickable)
-  linkedin_max_mentions: 3        # organisations tagged per LinkedIn post (needs linkedin_id in voices.yaml)
+  linkedin_max_mentions: 3        # pages/people tagged per LinkedIn post (voices.yaml linkedin_id / linkedin_person_urn)
+  linkedin_tag_people: false      # true = also tag people (voices.yaml linkedin_person_urn + exact linkedin_name)
   linkedin_api_version: "202610"  # LinkedIn-Version header (YYYYMM); LinkedIn retires versions after ~1 year
   bluesky_post: true              # mirror articles to Bluesky (needs BLUESKY_HANDLE + BLUESKY_APP_PASSWORD secrets)
   bluesky_max_per_run: 3          # posted after deploy; at most this many per run (so a backlog trickles out)

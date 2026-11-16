@@ -198,18 +198,23 @@ def plain_text(rec: dict, url: str, hashtags: list[str]) -> str:
 
 
 def linkedin_mentions(rec: dict, limit: int = 3) -> list[tuple[str, str, bool]]:
-    """Organisations to tag on LinkedIn: the source author (if an organisation with a known
-    linkedin_id in voices.yaml), then voices named in the article. Returns [(name, urn, is_source)].
-    LinkedIn's API can tag organisations only, not individual people."""
-    from .util import load_yaml
-    voices = [v for v in load_yaml("voices.yaml").get("voices", []) if v.get("linkedin_id")]
+    """Pages and people to tag on LinkedIn: the source author, then voices named in the article.
+    Organisations need voices.yaml linkedin_id; people need linkedin_person_urn (the member id from
+    LinkedIn's vanity-URL lookup, urn:li:person:...) and linkedin_name EXACTLY as on their profile
+    (LinkedIn shows a mismatched name as plain text). People are tagged only when
+    settings.yaml amplify.linkedin_tag_people is true. Returns [(name, urn, is_source)]."""
+    from .util import load_yaml, settings
+    people_on = bool((settings().get("amplify") or {}).get("linkedin_tag_people"))
+    voices = [v for v in load_yaml("voices.yaml").get("voices", [])
+              if v.get("linkedin_id") or (people_on and v.get("linkedin_person_urn"))]
     opt = load_yaml("optout.yaml")
     blocked = {u.lower().rstrip("/") for u in opt.get("linkedin_urls") or []} | {n.lower() for n in opt.get("names") or []}
     src = rec.get("source") or {}
     out: list[tuple[str, str, bool]] = []
 
     def add(v, is_source=False):
-        urn = f"urn:li:organization:{str(v['linkedin_id']).strip()}"
+        urn = (f"urn:li:organization:{str(v['linkedin_id']).strip()}" if v.get("linkedin_id")
+               else str(v["linkedin_person_urn"]).strip())
         if (v.get("linkedin") or "").lower().rstrip("/") in blocked or v.get("name", "").lower() in blocked:
             return
         if urn not in {m[1] for m in out}:
@@ -220,8 +225,10 @@ def linkedin_mentions(rec: dict, limit: int = 3) -> list[tuple[str, str, bool]]:
 
     handle = (src.get("author_handle") or "").lower()
     author = (src.get("author_name") or "").lower()
+    a_url = (src.get("author_url") or "").lower().rstrip("/")
     for v in voices:
-        if (handle and handle == (v.get("x") or "").lower()) or (author and author in [n.lower() for n in names(v)]):
+        if ((handle and handle == (v.get("x") or "").lower()) or (author and author in [n.lower() for n in names(v)])
+                or (a_url and a_url == (v.get("linkedin") or "").lower().rstrip("/"))):
             add(v, is_source=True)
     text = " ".join([rec.get("headline", ""), rec.get("body", ""), " ".join(rec.get("people") or [])])
     for v in voices:
