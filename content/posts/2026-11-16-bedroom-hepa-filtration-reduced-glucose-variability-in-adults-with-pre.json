@@ -1,5 +1,5 @@
 {
-  "slug": "2026-11-15-bedroom-hepa-filtration-reduced-glucose-variability-in-adults-with-pre",
+  "slug": "2026-11-16-bedroom-hepa-filtration-reduced-glucose-variability-in-adults-with-pre",
   "headline": "Bedroom HEPA filtration reduced glucose variability in adults with prediabetes, trial reports",
   "dek": "A sham-controlled trial of 150 adults found four weeks of bedroom air filtration lowered PM2.5 exposure and some glucose measures, but not HOMA-IR, according to a cardiologist's summary.",
   "body": "A randomised, double-blind, sham-controlled trial in 150 adults with prediabetes found that four weeks of bedroom HEPA filtration was associated with improvements in several glucose measures, according to a summary posted on X by cardiologist Chayakrit Krittanawong as part of an \"AHA 2026 Series\". The post did not name a journal.\n\nAccording to the results listed in the post, PM2.5 exposure fell by 36%. Glucose variability decreased by 7.7% (p=0.025), post-breakfast glucose exposure by 16.6% (p=0.008) and the breakfast glucose peak by 13.2% (p=0.030). HOMA-IR, a measure of insulin resistance, showed no significant improvement.\n\nKrittanawong described the signal as interesting, noting that glucose patterns improved even without a measurable change in insulin resistance. He also set out several limitations: the intervention lasted only four weeks, baseline pollution was already low, and food intake was not logged. He added that it is not yet known whether the changes would translate into lower diabetes or cardiovascular risk.\n\nKrittanawong wrote that air pollution \"isn't just a lung problem\" and may also be a metabolic risk factor, suggesting that air quality could deserve a place in cardiometabolic prevention discussions alongside diet, exercise, sleep and medications.",
@@ -44,5 +44,9 @@
       "author_id": "94711842"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-16T06:00:24+00:00",
+  "shared": {
+    "x": "2122208837155598529"
+  }
 }
