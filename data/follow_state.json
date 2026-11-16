@@ -395,6 +395,22 @@
     "SanraiMed_India": {
       "at": "2026-11-16T07:16:25+00:00",
       "why": "respiratory bio"
+    },
+    "AnnalsATS": {
+      "at": "2026-11-16T22:30:30+00:00",
+      "why": "respiratory bio"
+    },
+    "AmLungCSI": {
+      "at": "2026-11-16T22:30:30+00:00",
+      "why": "respiratory bio"
+    },
+    "_AllergySA": {
+      "at": "2026-11-16T22:30:30+00:00",
+      "why": "respiratory bio"
+    },
+    "MedwayAsthma": {
+      "at": "2026-11-16T22:30:31+00:00",
+      "why": "respiratory bio"
     }
   },
   "failed": {},
