@@ -58,6 +58,7 @@ assert any("thin article" in s for s in process.check({"triage": {"category": "a
 # the fixtures are deliberately short: lower the bar for the rest of the end-to-end test
 import yaml as _yq
 _cq = _yq.safe_load(open("config/settings.yaml")); _cq["publishing"]["min_source_words"] = {"rss": 5, "pubmed": 5, "x": 5, "linkedin": 5}
+_li_slots = _cq["amplify"].pop("linkedin_slots", None)   # slot timing tested separately below
 _yq.safe_dump(_cq, open("config/settings.yaml", "w"))
 stats = process.run()
 # weekly per-account cap (settings selection.max_per_author_per_week)
@@ -115,6 +116,19 @@ assert linkedin_share.post(rec, "https://lungdaily.org/news/x/", {}, ["COPD"]) =
 # post-deploy runner, direct API route
 assert linkedin_share.run_pending() >= 1
 assert _json.loads(first.read_text())["shared"].get("linkedin") == "urn:li:share:999"
+# LinkedIn slots: one post per due slot (11:00 CET -> 10:15 and 10:45 due), never two in one run
+import yaml as _ys
+_cs = _ys.safe_load(open("config/settings.yaml")); _cs["amplify"]["linkedin_slots"] = ["10:15", "10:45", "17:45"]
+_ys.safe_dump(_cs, open("config/settings.yaml", "w"))
+for _p in _POSTS.glob("*.json"):
+    _d = _json.loads(_p.read_text())
+    if _d.get("status") == "published":
+        _d.setdefault("shared", {}).pop("linkedin", None); _d["shared"].pop("linkedin_at", None)
+        _p.write_text(_json.dumps(_d))
+assert linkedin_share.run_pending() == 1
+assert linkedin_share.run_pending() == 1
+assert linkedin_share.run_pending() == 0          # 17:45 not due yet
+_cs["amplify"].pop("linkedin_slots"); _ys.safe_dump(_cs, open("config/settings.yaml", "w"))
 # LinkedIn-sourced article -> repost of the original
 li = dict(rec, source=dict(rec["source"], source="linkedin", extra={"urn": "urn:li:share:42"}))
 seen = []

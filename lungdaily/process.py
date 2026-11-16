@@ -18,6 +18,22 @@ HELD = DATA / "held.json"
 SUGGESTED = DATA / "suggested_voices.json"
 AMPLIFY_QUEUE = DATA / "amplify_queue.json"
 SLOTS_STATE = DATA / "slots.json"
+SKIPPED = DATA / "skipped.json"
+
+
+def note_skipped(item: dict, why: str, kind: str = "thin") -> None:
+    """Keep a 14-day list of items not written up (data/skipped.json) so the editor can review them."""
+    rows = read_json(SKIPPED, [])
+    cutoff = (now() - dt.timedelta(days=14)).isoformat()
+    rows = [r for r in rows if r.get("at", "") >= cutoff]
+    if any(r.get("id") == item.get("id") for r in rows):
+        return
+    rows.append({"at": now().isoformat(timespec="seconds"), "id": item.get("id"), "kind": kind,
+                 "score": (item.get("triage") or {}).get("score"), "source": item.get("source"),
+                 "author": item.get("author_name"), "title": (item.get("title") or item.get("text") or "")[:160],
+                 "url": item.get("url"), "why": why[:200]})
+    write_json(SKIPPED, rows)
+
 
 # ---------------------------------------------------------------- prompts
 
@@ -436,6 +452,7 @@ def run() -> dict:
             thin.append(item)
             log.info("Skipped (too thin to write up, %d words): %s", substance_words(item),
                      (item.get("title") or item.get("text") or "")[:90].replace("\n", " "))
+            note_skipped(item, f"source too thin ({substance_words(item)} words of text)")
     spare = [i for i in to_write if i not in thin][room:]
     to_write = [i for i in to_write if i not in thin][:room]
     leftover = spare + leftover
@@ -474,6 +491,7 @@ def produce(item: dict, held: list, stats: dict):
     if isinstance(art, dict) and art.get("skip"):
         log.info("Writer skipped (source too thin): %s — %s", (item.get("title") or item.get("text") or "")[:80],
                  art.get("reason", ""))
+        note_skipped(item, "writer: " + str(art.get("reason", "")), "writer")
         return "skip"
     if not isinstance(art, dict) or not art.get("headline"):
         log.error("Writer returned no usable article for %s", item["id"])

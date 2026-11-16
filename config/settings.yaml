@@ -106,7 +106,9 @@ amplify:
   x_max_mentions: 3               # at most this many @tags per post
   x_hashtags: 2                   # topic hashtags per post (#COPD, #Asthma...), 0 to switch off
   linkedin_post: true             # post new articles on the LungDaily LinkedIn page, after deploy (via Make: MAKE_LINKEDIN_WEBHOOK)
-  linkedin_max_per_day: 10        # ~3 Make operations each -> ~930/month, inside Make's free 1,000; order: focus voices, people, taggable orgs, best score
+  linkedin_max_per_day: 11        # safety cap over any 24 h (~3 Make credits each); order: focus voices, people, taggable orgs, best score
+  # One LinkedIn post at each of these local times (Slot clock starts a run then); missed slots catch up one per run.
+  linkedin_slots: ["10:15", "10:45", "11:15", "11:45", "14:45", "15:15", "15:45", "16:15", "16:45", "17:15", "17:45"]
   linkedin_window_hours: 36       # only articles published within this window are shared
   linkedin_org_id: "146950505"    # LungDaily LinkedIn page (linkedin.com/company/146950505)
   linkedin_reshare_source: true   # LinkedIn-sourced articles: repost the original (shows author photo + their visual)

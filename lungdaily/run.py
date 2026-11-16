@@ -16,6 +16,7 @@
   python -m lungdaily.run qa <content/qa/file.md>   publish an email Q&A (answers as given) at the next slot
   python -m lungdaily.run newsletter [force]  create this week's newsletter in Buttondown (+ language editions)
   python -m lungdaily.run congress-daily   during a congress: today's congress email as a Buttondown draft
+  python -m lungdaily.run skipped          list items skipped as too thin (14 days) and the latest held articles
   python -m lungdaily.run reshares         check X for shares of LungDaily now and print the sharing-loop report
   python -m lungdaily.run release <slug> publish a held article
   python -m lungdaily.run discard <slug> drop a held article
@@ -86,6 +87,13 @@ def main(argv: list[str]) -> int:
     elif cmd == "congress-daily":
         from . import newsletter
         newsletter.congress_daily(force=len(argv) > 1 and argv[1] == "force")
+    elif cmd == "skipped":
+        from .process import SKIPPED, HELD
+        from .util import read_json
+        for r in sorted(read_json(SKIPPED, []), key=lambda r: r["at"]):
+            print(f"{r['at'][:16]}  {r['kind']:6}  {r.get('score') or '':>4}  {r['title'][:90]}  — {r['why'][:80]}  {r.get('url') or ''}")
+        for h in read_json(HELD, [])[-20:]:
+            print(f"HELD {h['created_at'][:16]}  {h['headline'][:90]}  — {'; '.join(h['checker']['issues'])[:100]}")
     elif cmd == "reshares":
         from . import reshares
         reshares.check_x(force=True)

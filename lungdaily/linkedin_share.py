@@ -312,7 +312,26 @@ def run_pending() -> int:
     todo.sort(key=priority)
     posted = 0
     stamp = now().strftime("%Y%m%d%H%M")
+    # Fixed LinkedIn times (amplify.linkedin_slots, local time): one post per due slot, with catch-up
+    # if a run was missed, but never more than one per run, so posts are spread over the day.
+    li_slots = sorted(str(t) for t in (acfg.get("linkedin_slots") or []))
+    slot_state, slot_room = {}, None
+    if li_slots:
+        from zoneinfo import ZoneInfo
+        from .util import DATA, read_json as _rj
+        local = now().astimezone(ZoneInfo(cfg.get("publishing", {}).get("timezone", "Europe/Berlin")))
+        today, hhmm = local.date().isoformat(), local.strftime("%H:%M")
+        slot_state = _rj(DATA / "linkedin_slots.json", {})
+        used = slot_state.get("count", 0) if slot_state.get("date") == today else 0
+        due = sum(1 for t in li_slots if t <= hhmm)
+        slot_room = min(1, max(0, due - used))
+        if not slot_room:
+            log.info("LinkedIn: no slot due at %s (%d of %d used today)", hhmm, used, due)
+            return 0
+        slot_state = {"date": today, "count": used}
     for p, rec in todo:
+        if slot_room is not None and posted >= slot_room:
+            break
         if done_24h + posted >= cap:
             log.info("LinkedIn: daily cap of %d reached, rest wait for the next run", cap)
             break
@@ -331,6 +350,10 @@ def run_pending() -> int:
             shared["linkedin_at"] = now().isoformat(timespec="seconds")
             posted += 1
             log.info("LinkedIn: shared %s", rec["slug"])
+            if slot_room is not None:
+                from .util import DATA, write_json as _wj
+                slot_state["count"] = slot_state.get("count", 0) + 1
+                _wj(DATA / "linkedin_slots.json", slot_state)
         else:
             rec["linkedin_attempts"] = rec.get("linkedin_attempts", 0) + 1
         write_json(p, rec)

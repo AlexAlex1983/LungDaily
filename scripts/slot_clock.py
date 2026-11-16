@@ -1,6 +1,6 @@
 """Slot clock: starts Pipeline runs on time, because GitHub's own cron is often hours late or skipped.
 
-Runs inside the "Slot clock" workflow. It reads publishing.slots and publishing.write_times
+Runs inside the "Slot clock" workflow. It reads publishing.slots, amplify.linkedin_slots and publishing.write_times
 (local time, publishing.timezone) from config/settings.yaml, sleeps until each one and starts the
 Pipeline workflow (action publish-slot or write) with `gh workflow run`. After about 5h40m it
 starts a fresh copy of itself and exits, so the clock keeps going without relying on cron
@@ -27,9 +27,13 @@ WRITE_GRACE_MIN = 50   # on start, run a write if one was due within this many m
 
 
 def load():
-    pub = yaml.safe_load((ROOT / "config/settings.yaml").read_text())["publishing"]
+    cfg = yaml.safe_load((ROOT / "config/settings.yaml").read_text())
+    pub = cfg["publishing"]
     tz = ZoneInfo(pub.get("timezone", "Europe/Berlin"))
-    return tz, sorted(pub.get("slots") or []), sorted(pub.get("write_times") or [])
+    # LinkedIn times also need a run (its social step posts one LinkedIn item per due slot)
+    li = [str(t) for t in ((cfg.get("amplify") or {}).get("linkedin_slots") or [])]
+    slots = sorted(set(pub.get("slots") or []) | set(li))
+    return tz, slots, sorted(pub.get("write_times") or [])
 
 
 def events(tz, slots, writes, start, end):
