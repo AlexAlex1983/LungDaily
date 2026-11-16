@@ -47,6 +47,7 @@
   "status": "published",
   "published_at": "2026-11-16T06:00:24+00:00",
   "shared": {
-    "x": "2122208837155598529"
+    "x": "2122208837155598529",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2fuagg2pz2f"
   }
 }
