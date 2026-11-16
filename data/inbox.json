@@ -1,89 +1,5 @@
 [
   {
-    "id": "rss:8b981bbb7c9b2785",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQkhoWGJzaVRXdlNPTFpVVGszLWc0OWFiT1NNVmtyUDYwZWNzeGh6U184VHg3aHFpYXpEX0FEOHlJWEZLZENHN1g0NFFuUkNVVDdlVFZxb0d4amZ3MWdPX2NzajJuM1ZJQU13S0NIRUJHNXZDZU1QUHJ2VWl2dURwM01ITEhZWDBUYmY0RTlKeTY2Zk9lSDdpdHltVC01Zw?oc=5",
-    "title": "The Economic Burden of Bronchiectasis on Patients and the Health System",
-    "text": "The Economic Burden of Bronchiectasis on Patients and the Health System The American Journal of Managed Care",
-    "author_name": "The American Journal of Managed Care",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-13T13:15:05+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory approvals"
-    },
-    "collected_at": "2026-11-13T17:07:24+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Substantive economic burden study on bronchiectasis for patients and systems."
-    }
-  },
-  {
-    "id": "rss:3976ab7694e450b3",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNSmZkcjlEVi1kQ0JzQm9ZRy1EaDE1RUwyMzk5ZW9JU0NxZDBhMU9jTXlrX0tZWklpcnNDRnVJcURpaWRtd1ZjbnZVNVNGZ1JvdGl5RjVfbFZOMjZUc1FpMjQtemNINEM4MXFOMk5aTk5nZEhjM2xMQlliQmJJTkZON0wxUzlqOEtCSEY5UDl3VDFYYloxSE8zN041Z0VLV0NLck43Q09lY0ZVRGwwRklZREJfYzg4dWVwZTNyWmFGdUNaWmdfX3E4YnJhdmdCTjdzNDZmMDdhd25zWXd3RVJBMHJ6NmQwUQ?oc=5",
-    "title": "Air pollution linked to adverse health effects in 91.8 per cent of studies reviewed by CREA",
-    "text": "Air pollution linked to adverse health effects in 91.8 per cent of studies reviewed by CREA Mid-Day",
-    "author_name": "Mid-Day",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-14T02:27:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — air pollution health"
-    },
-    "collected_at": "2026-11-14T05:07:25+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "CREA review of air pollution health studies; substantive evidence synthesis"
-    }
-  },
-  {
-    "id": "rss:1f109216923d7e09",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLURtNGNVbW5vUGZIQ2o0YXJydFZtaTdIZUFGTENBbXZpaDNGcDg3RFlFUjdsaGstNnFQMWx0NFNaV2lOY0pZdEdsQlB5TWI0cFltQlZmaHRDS2R4RGp1Qm9pNnpPelN4WExrQ0JKR0pXSmQwcmxJRlM0c1dMdW1sNExmLUNTek5iZVlXZU9FQWcxOGNxUmdDNkpIcFNHNGVfSllGVFlQQktPMmxzdi1KeWFOd3dBMkQ1TTNKU0F30gHDAUFVX3lxTFBKTTJUOWtLUnFUaEZRV1k0MFBKekl0Y3dCZlJhdVpOZ1RXMEdXd0dlSUd6RE9jdHVwUmNCMTVrVG5xLXBXVlRUbllwT0UzWTNmejdmTEVROHpJU09UVVBrb0dHYnFmMlUzbnZ0eGZZYnU5T0k0MUJGTWdJaEI2NVRNd1lwbWI1OHBxRWtvN1BoaWZpdllubGU2cV9HMHM5VWhnaVZYOUU1N2QtcHoxTHZKUjdoM2NhWUFpaV96YmdVM0xuSQ?oc=5",
-    "title": "As Delhi Chokes, AIIMS Begins India’s First Study On Pollution, Lung Cancer",
-    "text": "As Delhi Chokes, AIIMS Begins India’s First Study On Pollution, Lung Cancer News18",
-    "author_name": "News18",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-13T11:02:47+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — air pollution health"
-    },
-    "collected_at": "2026-11-14T05:07:25+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "AIIMS launches India's first pollution and lung cancer study"
-    }
-  },
-  {
     "id": "rss:96080dd594bb4fa2",
     "source": "rss",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSERlNG1BLXpEOUp0T0FIZzhGcG9udGU2bHdYVFlvUDAxR1NzaG01NWNtZ3R4UUthbUhXRllUS2NMYW5RcFFTVmNCdVpEaEhSczhFejhsdWRVRk9lRUZDQS1CaEhBXzNRUmVHTkVHa3BDWUNFbmtSMmRveVpVeUNVSnFYQXFEQS1hdHU4ZHVNYXd5YkRVWDVJeG9FLTc?oc=5",
@@ -109,34 +25,6 @@
       "author_type": "media",
       "duplicate": false,
       "reason": "Study comparing nondrug cough therapies in lung cancer, pulmonary rehab leading"
-    }
-  },
-  {
-    "id": "rss:bbbeb2d7cc8c5279",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbHV5OXp3dWFUOTJmbHRGRVNXaEozZ2lhcWNJbkpuNU5rRVIyTHVUYkptY0JyMGdHejhBTGxNb3BvSEhkUjBkS2Qxbmk5X1QxOGo4aEYtU3c1UEFDMzZTVWl4TmtqaHd2UGhSTDVaUTVEeXpXMnRpTjdpaENZeVZ1amhVSjVkclZNV21uUk43N1hpeV96QXhPVklDRndhZXdpSWRHbmhISkhBdW43WGhKcU5NZWZydw?oc=5",
-    "title": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 November 2026",
-    "text": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 9-12 November 2026 European Medicines Agency (EMA)",
-    "author_name": "European Medicines Agency (EMA)",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-13T11:00:00+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — respiratory approvals"
-    },
-    "collected_at": "2026-11-14T08:07:31+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "EMA CHMP highlights; text is title only, respiratory relevance unclear"
     }
   },
   {
@@ -443,6 +331,41 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "USFDA approval for lung cancer drug, likely generic, limited detail"
+    }
+  },
+  {
+    "id": "x:2122235993566941503",
+    "source": "x",
+    "url": "https://x.com/cpgale3/status/2122235993566941503",
+    "title": "",
+    "text": "Our meta-analysis of 140 case-control studies including 30M people.\n\n#COPD was associated with higher risk of #heartfailure (RR 2.33, 95% CI 1.78 to 3.06), #heartattack (RR 1.47), chronic #kidney disease &amp; death.\n\n@eClinicalMed\n\nhttps://t.co/8pGkZHEAnV https://t.co/W3QGxOvEFd",
+    "author_name": "Prof Chris P Gale",
+    "author_handle": "cpgale3",
+    "author_url": "https://x.com/cpgale3",
+    "author_headline": "Professor of Cardiovascular Medicine, Honorary Consultant Cardiologist. Specialist adult cardiovascular care: putting research into practice to benefit patients",
+    "published_at": "2026-11-16T07:51:04+00:00",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2122235993566941503",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1016/j.eclinm.2026.104131",
+        "https://x.com/cpgale3/status/2122235993566941503/photo/1"
+      ],
+      "author_followers": 13537,
+      "author_id": "760436883734147073"
+    },
+    "collected_at": "2026-11-16T08:07:51+00:00",
+    "triage": {
+      "score": 8.0,
+      "category": "research",
+      "author_type": "person",
+      "duplicate": false,
+      "reason": "Meta-analysis of 140 studies on COPD and cardiovascular risk, eClinicalMedicine"
     }
   }
 ]
