@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-16-rein-therapeutics-reports-preliminary-blinded-phase-2-renew-data-in-id",
+  "headline": "Rein Therapeutics reports preliminary blinded Phase 2 RENEW data in idiopathic pulmonary fibrosis",
+  "dek": "Pooled, blinded data from 24 evaluable patients showed 33% improved in forced vital capacity at Week 12, though the results do not establish a treatment effect.",
+  "body": "Rein Therapeutics has announced preliminary blinded lung-function observations from its Phase 2 RENEW study in idiopathic pulmonary fibrosis (IPF), alongside its third-quarter 2026 financial results, according to a post on X summarising the company's announcement.\n\nAmong 24 evaluable patients, 33% improved in forced vital capacity (FVC), a measure of exhaled air volume, at Week 12. Individual changes ranged from a 338 ml improvement to a 349 ml decline. The results pool recipients of LTI-03 and placebo and do not establish a treatment effect. No serious adverse events assessed as treatment-related were reported, and 92% of patients remained on or completed the study.\n\nEnrolment has reached 90 of approximately 120 patients. Rein expects topline results in 2027. The company reported $36.5 million in cash, cash equivalents and marketable securities, which it expects to fund operations into the first quarter of 2028.\n\nThe third-quarter net loss narrowed to $5.537 million from $5.581 million a year earlier. Research spending rose, while administrative expenses fell.",
+  "key_quote": "Results pool LTI-03 and placebo recipients and do not establish a treatment effect.",
+  "tags": [
+    "ild",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-16T20:08:37+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2122373442070786160",
+    "url": "https://x.com/MarcJacksonLA/status/2122373442070786160"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2122373442070786160",
+    "source": "x",
+    "url": "https://x.com/MarcJacksonLA/status/2122373442070786160",
+    "title": "",
+    "author_name": "stock setter",
+    "author_handle": "MarcJacksonLA",
+    "author_url": "https://x.com/MarcJacksonLA",
+    "published_at": "2026-11-16T16:57:15+00:00",
+    "extra": {
+      "tweet_id": "2122373442070786160",
+      "query_kind": "keywords",
+      "links": [],
+      "author_followers": 8978,
+      "author_id": "4058194633"
+    }
+  },
+  "status": "ready"
+}

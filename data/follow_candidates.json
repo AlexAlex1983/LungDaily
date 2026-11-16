@@ -90,7 +90,7 @@
   "drbreatheeasy": {
     "id": "1028440041998241792",
     "username": "drbreatheeasy",
-    "seen": 2,
+    "seen": 3,
     "name": "Dr Adebayo Fasanya",
     "bio": "Dr. Fasanya, MD\nPulmonologist • Physician • Investor\nMedicine, health & building wealth beyond the white coat\nHelping physicians create financial freedom",
     "followers": 4614
@@ -274,10 +274,10 @@
   "atlantaallergy": {
     "id": "144965716",
     "username": "atlantaallergy",
-    "seen": 1,
+    "seen": 2,
     "name": "Atlanta Allergy & Asthma",
     "bio": "Providing quality allergy, asthma, and immunology care in the Atlanta metro area since 1972. Follow us for the daily #AtlantaAllergyPollenCount!",
-    "followers": 4210
+    "followers": 4211
   },
   "sidhaantnangia": {
     "id": "1020771446149271552",
@@ -418,7 +418,7 @@
   "aller_md": {
     "id": "23184067",
     "username": "Aller_MD",
-    "seen": 3,
+    "seen": 4,
     "name": "Juan C Ivancevich MD",
     "bio": "Allergist - Twittering on #allergy, #asthma & #immunology. Associate Professor of Immunology , del Salvador University, WAO website social media editor",
     "followers": 7513
@@ -734,5 +734,21 @@
     "name": "ALCSI",
     "bio": "The American Lung Cancer Screening Initiative: we aim to spread awareness about the importance of lung cancer screening for high-risk individuals.",
     "followers": 1313
+  },
+  "annalsats": {
+    "id": "3019960030",
+    "username": "AnnalsATS",
+    "seen": 1,
+    "name": "Annals of the ATS",
+    "bio": "Official Twitter account for Annals of the American Thoracic Society; follows, retweets, likes do not indicate endorsement. #MedEd #CriticalCare #AnnalsATS #ATS",
+    "followers": 12785
+  },
+  "_allergysa": {
+    "id": "4203595632",
+    "username": "_AllergySA",
+    "seen": 1,
+    "name": "AllergySA",
+    "bio": "AllergySA provides asthma, allergy, and immunology services for children and adults. Three convenient locations. Call now at 210-616-0882",
+    "followers": 385
   }
 }

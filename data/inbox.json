@@ -1,35 +1,24 @@
 [
   {
-    "id": "x:2122373442070786160",
-    "source": "x",
-    "url": "https://x.com/MarcJacksonLA/status/2122373442070786160",
-    "title": "",
-    "text": "$RNTX \nRein Therapeutics Announces Preliminary Blinded Phase 2 RENEW Data Showing Encouraging Lung Function Trends in Patients with Idiopathic Pulmonary Fibrosis and Reports Third Quarter 2026 Results\n\n- Rein reported preliminary blinded Phase 2 RENEW lung-function observations in idiopathic pulmonary fibrosis alongside third-quarter 2026 financial results. \n\n- Among 24 evaluable patients, 33% improved in forced vital capacity, a measure of exhaled air volume, at Week 12; changes ranged from a 338 ml improvement to a 349 ml decline. \n\n- Results pool LTI-03 and placebo recipients and do not establish a treatment effect. \n\n- No serious adverse events assessed as treatment-related were reported; 92% remained on or completed the study.\n\n- Enrollment reached 90 of approximately 120 patients. \n\n- Rein expects topline results in 2027 and its $36.5 million in cash, cash equivalents and marketable securities to fund operations into the first quarter of 2028. \n\n- -Third-quarter net loss narrowed to $5.537 million from $5.581 million a year earlier; research spending rose while administrative expenses fell.\nhttps://t.co/Srws23yjCj",
-    "author_name": "stock setter",
-    "author_handle": "MarcJacksonLA",
-    "author_url": "https://x.com/MarcJacksonLA",
-    "author_headline": "accredited investor\nstock news • analysis • analyst ratings | targets",
-    "published_at": "2026-11-16T16:57:15+00:00",
+    "id": "rss:6d528a6a411301bf",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUGFKTzkwUW5kdVo4Q1NYZVdQdG5ab0dvdW1wWDlfN0pkLUIzSTc1MW9kOVRQT05oQzYtNnV1OFdpZGVicTZhdGh5Z2hlRW5vWUMwN3lwbzVBVlllc0lMSWpqOWQyZXFMVkhiTU92QzVMT0JpWXBhTXNNR29kY1NXZ24xaUdiUUs0cFdOcGs5MFNsZEhuWHc?oc=5",
+    "title": "US FDA declines to approve Summit lung cancer drug after trial misses key survival goal",
+    "text": "US FDA declines to approve Summit lung cancer drug after trial misses key survival goal Yahoo Finance",
+    "author_name": "Yahoo Finance",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-15T12:59:47+00:00",
     "metrics": {
       "likes": 0,
       "reposts": 0,
       "comments": 0
     },
     "extra": {
-      "tweet_id": "2122373442070786160",
-      "query_kind": "keywords",
-      "links": [],
-      "author_followers": 8978,
-      "author_id": "4058194633"
+      "feed": "Google News — respiratory trial results"
     },
-    "collected_at": "2026-11-16T17:07:30+00:00",
-    "triage": {
-      "score": 6.0,
-      "category": "approvals",
-      "author_type": "media",
-      "duplicate": false,
-      "reason": "Preliminary blinded Phase 2 IPF data in a stock-news summary"
-    }
+    "collected_at": "2026-11-16T20:07:51+00:00"
   },
   {
     "id": "x:2122283737241002231",
@@ -61,34 +50,6 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
-    }
-  },
-  {
-    "id": "rss:2d87fd8936a922d6",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeHpQNkx1RFFLMFNQcVZIMm9QcEhHMlotN252Z2Z2V2s2ellpc3ZxU1IySUxQRUFlbDgyRHpvb1pNN19PQU43RlNDN2JxM2NGZVE2SHlBRjRaN2ZYdC0zTVo5d2QwVjRkM25FMWJWZmtSWUUzZGttM09tY3JramR3OFF5TDZfREFHWG12WUdCWEJXdjk3MFlJM2xQb2xqWnY2cEszc3l0RDItUWJ4NjJDRGZZX2U1UVdycEtHR3FVY2ZkaWtTcjlWSUt0TzlIckM0ZTJicdIB2gFBVV95cUxNRG1hSjl2M21aTXRhNmJuSnc4UFBfX05TeGRMRm1WZTFhVk9ka2dxX3JWZnQ5RVlTekxybllPQ2ZfVUV0U001STZERFQ4T0FRRndIWldBQ3RmdTZNdF9mcDZ3TmhFMkREZk9VZTh5R21fOWhLUjE2dU85LTdNQnZ1ZFlsSzRHemhtOEFtOHQxY0lhR2dCTElQcmI4bkpXMy1ZUmNrZWtQRk5fS1VjX3Y2LXVXVEdsT2ZLR1pfMFJvUU5pTHk5dGJPeXVZQ3pYVFRBMHdGMTFWZ0N5QQ?oc=5",
-    "title": "SEPAR highlights CASSANDRA, key to activating lung cancer screening in Catalonia and Castilla-La Mancha",
-    "text": "SEPAR highlights CASSANDRA, key to activating lung cancer screening in Catalonia and Castilla-La Mancha Demócrata",
-    "author_name": "Demócrata",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-16T10:11:18+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-16T14:07:56+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "SEPAR on CASSANDRA activating regional lung screening programmes"
     }
   }
 ]
