@@ -1,0 +1,60 @@
+{
+  "slug": "2026-11-17-clean-air-healthy-zones-project-launched-in-faridabad-expert-urges-lds",
+  "headline": "Clean Air Healthy Zones project launched in Faridabad; expert urges LDSA metric beyond PM2.5",
+  "dek": "CII Foundation and Sanofi Consumer Healthcare India launched the project in Faridabad and Ghaziabad, where TU Delft's Dr Ajit Ahlawat said mass-based metrics can miss ultrafine particles.",
+  "body": "CII Foundation said on X that it has launched the Clean Air Healthy Zones project with Sanofi Consumer Healthcare India Limited in Faridabad, Haryana, and Ghaziabad, Uttar Pradesh. According to the post, the project aims to address air pollution through a holistic approach, bringing together stakeholders to advance cleaner and healthier environments.\n\nThe launch event in Faridabad included a special interactive session on Health Impacts of Air Pollution, Actionable Interventions for a Dust-Free Delhi-NCR and Emerging Metrics of Urban Air Quality, held the day before the post.\n\nSpeaking at the session, Dr Ajit Ahlawat, a professor at Delft University of Technology (TU Delft) in the Netherlands, said conventional air quality metrics such as PM2.5 can overlook ultrafine particles and underestimate the exposure people actually experience. He said continued reliance on mass-based metrics risks missing highly toxic ultrafine particles. In his view, Lung Deposited Surface Area (LDSA) should be incorporated alongside PM2.5 and the Air Quality Index (AQI) to better understand particle exposure and its health implications.\n\nThe session also featured Dr Mitra Basu Chillar, a former DRDO scientist; Prof. N.C. Gupta of Guru Gobind Singh Indraprastha University, Delhi; Dr Prashant Chauhan, a professor at Amity University; and Shikhar Jain, Executive Director of CII-CESD.",
+  "key_quote": "We need to look beyond PM2.5 and AQI and incorporate Lung Deposited Surface Area (LDSA) to better understand particle exposure and its health implications",
+  "tags": [
+    "air-pollution",
+    "policy",
+    "ncds"
+  ],
+  "people": [
+    "Ajit Ahlawat",
+    "Mitra Basu Chillar",
+    "N.C. Gupta",
+    "Prashant Chauhan",
+    "Shikhar Jain"
+  ],
+  "category": "events",
+  "score": 7.0,
+  "created_at": "2026-11-17T14:11:18+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2122664801440592305",
+    "url": "https://x.com/CIIFoundation/status/2122664801440592305"
+  },
+  "mentions": [
+    "FollowCII",
+    "ciicesd",
+    "CAQM_Official",
+    "MoHFW_INDIA",
+    "moefcc",
+    "PradhanCK"
+  ],
+  "source": {
+    "id": "x:2122664801440592305",
+    "source": "x",
+    "url": "https://x.com/CIIFoundation/status/2122664801440592305",
+    "title": "",
+    "author_name": "CII Foundation",
+    "author_handle": "CIIFoundation",
+    "author_url": "https://x.com/CIIFoundation",
+    "published_at": "2026-11-17T12:15:00+00:00",
+    "extra": {
+      "tweet_id": "2122664801440592305",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/CIIFoundation/status/2122664801440592305/photo/1",
+        "https://x.com/CIIFoundation/status/2122664801440592305/photo/2"
+      ],
+      "author_followers": 1547,
+      "author_id": "943728627610411008"
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-17-machine-learning-tool-correct-in-92-of-group-2-pulmonary-hypertension",
+  "headline": "Machine learning tool correct in 92% of group 2 pulmonary hypertension calls but misses about a third of cases",
+  "dek": "Belgian investigators tested a model built on non-invasive data in the US PVDOMICS cohort, according to a pulmonologist's summary on X.",
+  "body": "A machine learning tool that uses non-invasive data to distinguish group 2 pulmonary hypertension (PH) from group 1 was right 92% of the time when it called group 2, according to a summary posted on X by Matt, a pulmonologist and intensivist. He attributed the work to Belgian investigators and named *ERJ Open Research*.\n\nThe tool draws on labs, ECG, echocardiography and spirometry. It was tested on the US PVDOMICS cohort. Matt wrote that it still missed about a third of group 2 patients.\n\nHe framed the question in older patients with PH and left-heart disease as group 1 versus group 2, which he said determines whether pulmonary arterial hypertension (PAH) therapy is an option. In his view, a confident group 2 call is a reason to consider treating the left heart first and to ask whether a right heart catheterisation is needed immediately, but not a reason to skip the workup.\n\nMatt noted several limitations. The tool was tested on an existing research cohort rather than in live care, and it performed slightly less well in the US cohort than in Belgium. A few true PAH patients were labelled group 2, which he described as the error that delays treatment. He wrote that a prospective study is under way and that the physician still decides.",
+  "key_quote": "A right heart cath should answer a question, not confirm a guess.",
+  "tags": [
+    "diagnostics",
+    "ai",
+    "trial"
+  ],
+  "people": [
+    "Matt"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-17T14:10:46+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2122688836849275013",
+    "url": "https://x.com/respirdoc/status/2122688836849275013"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2122688836849275013",
+    "source": "x",
+    "url": "https://x.com/respirdoc/status/2122688836849275013",
+    "title": "",
+    "author_name": "Matt",
+    "author_handle": "respirdoc",
+    "author_url": "https://x.com/respirdoc",
+    "published_at": "2026-11-17T13:50:31+00:00",
+    "extra": {
+      "tweet_id": "2122688836849275013",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/respirdoc/status/2122688836849275013/photo/1"
+      ],
+      "author_followers": 235,
+      "author_id": "533420425"
+    }
+  },
+  "status": "ready"
+}

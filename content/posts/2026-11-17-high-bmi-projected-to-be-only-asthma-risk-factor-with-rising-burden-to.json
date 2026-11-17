@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-17-high-bmi-projected-to-be-only-asthma-risk-factor-with-rising-burden-to",
+  "headline": "High BMI projected to be only asthma risk factor with rising burden to 2050",
+  "dek": "A Global Burden of Disease analysis in npj Primary Care found asthma burden linked to smoking, NO₂ and occupational exposure fell between 1990 and 2021, while high BMI is forecast to rise.",
+  "body": "Asthma burden attributable to most major risk factors declined worldwide between 1990 and 2021, but high body mass index (BMI) is projected to become a growing contributor by 2050, according to a study in npj Primary Care. The post on X was shared by the Respiratory Medicine Portfolio.\n\nThe researchers used Global Burden of Disease (GBD) 2021 data to estimate asthma disability-adjusted life-years (DALYs) and age-standardised DALY rates (ASDRs) attributable to high BMI, smoking, occupational exposure and nitrogen dioxide (NO₂) pollution. They examined links with the Socio-demographic Index (SDI) and used Bayesian age-period-cohort modelling to forecast to 2050. Data from 1990 to 2010 served as the training set to backtest trends for 2011 to 2021.\n\nSmoking-related burden fell most sharply. The ASDR dropped from 41.95 per 100,000 in 1990 to 16.19 in 2021, a fall of 61.41%. NO₂ pollution and occupational asthma burdens fell by 48.45% and 45.57% respectively. High BMI showed the smallest reduction, at 21.99%, and the burden increased in low-middle SDI regions.\n\nASDRs for high BMI, occupational risks and smoking correlated negatively with SDI. The NO₂ ASDR showed a significant positive correlation with SDI (ρ = 0.56, P < 0.001).\n\nThe model projects the high-BMI ASDR will rise from 39.42 per 100,000 in 2021 to 53.79 by 2050, an increase of 36.45%. The authors concluded that high BMI poses a growing threat with significant regional disparities, and that future strategies should be tailored by SDI region and high-risk population, prioritising surveillance and intervention for high BMI.",
+  "key_quote": "high BMI is projected to be the only risk factor with a continuously rising burden",
+  "tags": [
+    "asthma",
+    "global-health",
+    "equity",
+    "policy"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-17T14:11:28+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2122661036574556572",
+    "url": "https://x.com/RespiratoryBMC/status/2122661036574556572"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2122661036574556572",
+    "source": "x",
+    "url": "https://x.com/RespiratoryBMC/status/2122661036574556572",
+    "title": "",
+    "author_name": "Respiratory Medicine Portfolio",
+    "author_handle": "RespiratoryBMC",
+    "author_url": "https://x.com/RespiratoryBMC",
+    "published_at": "2026-11-17T12:00:02+00:00",
+    "extra": {
+      "tweet_id": "2122661036574556572",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.1038/s41533-026-00530-5",
+        "https://x.com/RespiratoryBMC/status/2122661036574556572/photo/1"
+      ],
+      "author_followers": 3543,
+      "author_id": "843772062468575232",
+      "page_fetched": true,
+      "linked_url": "https://www.nature.com/articles/s41533-026-00530-5"
+    }
+  },
+  "status": "ready"
+}
