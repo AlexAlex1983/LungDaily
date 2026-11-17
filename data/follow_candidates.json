@@ -26,10 +26,10 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 14,
+    "seen": 15,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
-    "followers": 21319
+    "followers": 21322
   },
   "europeanlung": {
     "id": "121759520",
@@ -42,10 +42,10 @@
   "lungassociation": {
     "id": "17049255",
     "username": "LungAssociation",
-    "seen": 3,
+    "seen": 4,
     "name": "American Lung Association",
     "bio": "American Lung Association is the leading organization working to save lives by improving #lunghealth and preventing lung disease. #breathe #breath #lungs",
-    "followers": 44417
+    "followers": 44412
   },
   "atscommunity": {
     "id": "50076632",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 10,
+    "seen": 11,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30881
+    "followers": 30892
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -554,10 +554,10 @@
   "gold_copd": {
     "id": "723254289708158976",
     "username": "GOLD_COPD",
-    "seen": 3,
+    "seen": 4,
     "name": "GOLD COPD",
     "bio": "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) works around the world to raise awareness of COPD & improve the lives of those living with it.",
-    "followers": 9077
+    "followers": 9079
   },
   "apsrapsr": {
     "id": "3177502867",
@@ -650,7 +650,7 @@
   "prwukee": {
     "id": "845622996349976576",
     "username": "prwukee",
-    "seen": 2,
+    "seen": 3,
     "name": "Pulmonary Rehab Awareness @pulmonaryrehab@bsky)",
     "bio": "Pulmonary Rehabilitation UK & All Ireland #PulmonaryRehab Exercise & Education for lung illness \nOfficial account Founded in 2016 by Paul Mills & Elaine Smith",
     "followers": 2631
@@ -750,5 +750,29 @@
     "name": "AllergySA",
     "bio": "AllergySA provides asthma, allergy, and immunology services for children and adults. Three convenient locations. Call now at 210-616-0882",
     "followers": 385
+  },
+  "togaanz": {
+    "id": "1308195867577335809",
+    "username": "TOGAANZ",
+    "seen": 1,
+    "name": "Thoracic Oncology Group of Australasia",
+    "bio": "Thoracic Oncology Group of Australasia (TOGA) is the leading thoracic cancer clinical trials group in Australia and New Zealand.",
+    "followers": 1412
+  },
+  "drjavaidkhan1": {
+    "id": "1021759838387359746",
+    "username": "DrJavaidKhan1",
+    "seen": 1,
+    "name": "Dr Javaid Khan",
+    "bio": "Professor of Medicine and Consultant Chest Physician, Views expressed are my personal do not represent the views of institution in which I work.",
+    "followers": 4794
+  },
+  "russwinn66": {
+    "id": "2291714040",
+    "username": "russwinn66",
+    "seen": 1,
+    "name": "COPD ATHLETE",
+    "bio": "Living Well with COPD 🫁 Ironman, World Marathon Majors finisher.Patient advocate. Activity is Life! My Case Study- https://t.co/h66AYYWig4",
+    "followers": 2952
   }
 }

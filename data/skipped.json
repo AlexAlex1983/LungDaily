@@ -1,0 +1,68 @@
+[
+  {
+    "at": "2026-11-17T05:08:46+00:00",
+    "id": "rss:297f8b46e9462bf7",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "BioPharma APAC",
+    "title": "Innovent’s Zybrivo Receives Positive CHMP Opinion for Advanced Lung Cancer",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDJ4STlSc3FYVlBCZEcxMjBBUERobUc4RDNGVkxQQXJRaHRSQ2lpYW1SLTMtcEptNk9fcnJCeEdtWlJWMm1hejJCMFdtSGpWUmdHWnBkLXMwWGpxTzNYS0pyZjY4QkhIRWVjbm1vS1UtazV4aWJIMV9oZTJpSUQzT2otUlFCMmdSTGFQalBiVVZPUzAtbFlTZUJITG5ObUxJNkswOVEwV24tOWlUbEs2NHRvRjNqeFJf?oc=5",
+    "why": "source too thin (13 words of text)"
+  },
+  {
+    "at": "2026-11-17T05:08:46+00:00",
+    "id": "rss:d3482277b6157a4b",
+    "kind": "thin",
+    "score": 6.0,
+    "source": "rss",
+    "author": "Stock Titan",
+    "title": "No new safety signals as Connect Biopharma (CNTB) reports preliminary asthma and COPD trial results.",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTFcyTlB0SmZtcllzNVNHRFZIcmVKQ2xJR2RzLW84UzNLdHVGLWtObmlPZ1VjNnhLXzFXNUJJZmxFdGNWd3REYmxQQ00wNUtYbjVDaHY3SHJHLTBjT2t6UmFST3ZZa01ETDJGRzZTeXZaNGpYUE1FZlhTaFVuNnFGZ2pMelIzMzZsQkVQX2ppQlNhMVczY0pnTUttNjJQbEM2bm1YQW5fa0VaRkxJWlVFMnlnRE83UzVJTE5n?oc=5",
+    "why": "source too thin (17 words of text)"
+  },
+  {
+    "at": "2026-11-17T05:08:46+00:00",
+    "id": "rss:d5b21157b61bbcad",
+    "kind": "thin",
+    "score": 6.0,
+    "source": "rss",
+    "author": "TradingView",
+    "title": "CNTB: Phase 2 efficacy signals advance rademikibart toward potential Phase 3 planning",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPS3FIZ0Z0U2tiSXc2T1RocWN4SERPenR6d0RINFNiMU50NjZVbTJ1eXkyUV9mczBMYVlZVlVBZU54ZktLb1ZzMlZwRGxQcW5fOXVkemZZMXNuMGM3SXgxeWtxWDVURjVBYUFwd01kZzNaZVV6Y2JQMW1FWUx3T3BnQUZ1WE9USFJkVzNOSnRVTU4yMV9QcFVpaUU5Z2RJZ3VXSUtLamhsQ1FmMk9YbWQtMmpjUkpZMjRnWVNDQmRqd2FxMlhoODgwQWE5UkVRWmdmallLdnRHa0RQWms0aVJCcTJoYWJXVGczU1FBbWdtRGVrbFNMVHVvb2prMA?oc=5",
+    "why": "source too thin (13 words of text)"
+  },
+  {
+    "at": "2026-11-17T05:08:49+00:00",
+    "id": "linkedin:7528248028340830208",
+    "kind": "writer",
+    "score": 9.0,
+    "source": "linkedin",
+    "author": "Global Initiative for Chronic Obstructive Lung Disease",
+    "title": "The GOLD 2027 Report, Pocket Guide, and Teaching Slides are now available online! \n\nTo access the 2027 documents, including the Summary of Key Changes, visit ht",
+    "url": "https://www.linkedin.com/posts/global-initiative-for-chronic-obstructive-lung-disease_the-gold-2027-report-pocket-guide-and-teaching-activity-7528248028340830208-ryf8",
+    "why": "writer: Only a link-based announcement; no substantive findings or changes stated."
+  },
+  {
+    "at": "2026-11-17T05:08:52+00:00",
+    "id": "x:2122482230027239468",
+    "kind": "writer",
+    "score": 9.0,
+    "source": "x",
+    "author": "GOLD COPD",
+    "title": "The GOLD 2027 Report, Pocket Guide, and Teaching Slides are now available online! \n\nTo access the 2027 documents, including the Summary of Key Changes, visit ht",
+    "url": "https://x.com/GOLD_COPD/status/2122482230027239468",
+    "why": "writer: Announcement only; no content of the GOLD 2027 changes stated"
+  },
+  {
+    "at": "2026-11-17T05:08:54+00:00",
+    "id": "linkedin:7528109809083047937",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "linkedin",
+    "author": "American College of Chest Physicians",
+    "title": "A CHEST Research Letter study presents the first population-based epidemiologic investigation of pulmonary alveolar proteinosis in Guangdong Province, China, es",
+    "url": "https://www.linkedin.com/posts/american-college-of-chest-physicians_meded-journalchest-activity-7528109809083047937-ff0g",
+    "why": "writer: Teaser post with no findings, figures or methods to report"
+  }
+]
