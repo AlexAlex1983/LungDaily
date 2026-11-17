@@ -1926,5 +1926,59 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-17-cochrane-review-pulmonary-rehabilitation-after-copd-exacerbation-likel",
+    "headline": "Cochrane review: pulmonary rehabilitation after COPD exacerbation likely reduces readmissions and improves quality of life",
+    "dek": "An updated Cochrane review of 40 randomised trials found moderate-certainty evidence of fewer hospital readmissions and high-certainty evidence of better quality of life and exercise capacity.",
+    "body": "Pulmonary rehabilitation after an exacerbation of chronic obstructive pulmonary disease (COPD) likely reduces hospital readmissions and produces large gains in quality of life and exercise capacity, according to an updated Cochrane review published in The Cochrane Database of Systematic Reviews. The review was led by Manuel Weber, Elena Gimeno-Santos, Marieke Wuyts and colleagues.\n\nThe update added 20 studies to reach a total of 40 randomised controlled trials with 2,825 participants. All compared pulmonary rehabilitation of any duration, including at least exercise training, with usual care without rehabilitation. Searches were current to 2 June 2026. The programmes varied widely in exercise type, intensity and supervision, in patient education, and in how they were organised.\n\nFor hospital readmissions, 13 studies (1,229 participants) gave moderate-certainty evidence of a likely reduction (pooled odds ratio 0.52, 95% confidence interval 0.32 to 0.84). For all-cause mortality, low-certainty evidence suggested rehabilitation may reduce deaths slightly (pooled OR 0.84, 95% CI 0.49 to 1.43), based on 11 trials in the pooled estimate.\n\nHigh-certainty evidence showed a large improvement in health-related quality of life. On the St George's Respiratory Questionnaire total score, the mean difference was -9.05 points (95% CI -12.60 to -5.50), beyond the minimal important difference of four points. Six-minute walk distance improved by a mean of 57.79 m (95% CI 41.68 to 73.91). Heterogeneity was substantial for both outcomes.\n\nThe authors noted that some recent studies found no benefit on readmissions and mortality. They suggested this may be explained partly by how extensive the programmes were and by study quality. Tests showed funnel plot asymmetry for readmissions and mortality, which the authors said was more consistent with small-study effects than with missing negative studies. The lack of participant blinding raised concerns for subjectively reported outcomes such as quality of life.\n\nThe authors wrote that further trials comparing rehabilitation with no rehabilitation seem questionable scientifically and ethically. They said future research should examine how programmes can be designed and implemented to be feasible, cost-effective and accessible, and how their organisation within healthcare systems affects readmissions and mortality. The review had no dedicated funding.",
+    "key_quote": "Moderate-certainty evidence indicates that pulmonary rehabilitation likely reduces hospital readmissions, while evidence for mortality is of low certainty.",
+    "tags": [
+      "copd",
+      "rehab",
+      "guidelines",
+      "trial"
+    ],
+    "people": [
+      "Manuel Weber",
+      "Elena Gimeno-Santos",
+      "Marieke Wuyts"
+    ],
+    "category": "research",
+    "score": 8.0,
+    "created_at": "2026-11-17T20:09:05+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 370 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042775/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "pubmed:43042775",
+      "source": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43042775/",
+      "title": "Pulmonary rehabilitation following exacerbations of chronic obstructive pulmonary disease.",
+      "author_name": "Manuel Weber, Elena Gimeno-Santos, Marieke Wuyts et al.",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-17T00:00:00+00:00",
+      "extra": {
+        "journal": "The Cochrane database of systematic reviews",
+        "doi": "10.1002/14651858.CD005305.pub5",
+        "pub_types": [
+          "Journal Article",
+          "Systematic Review",
+          "Meta-Analysis",
+          "Review"
+        ],
+        "first_author": "Manuel Weber"
+      }
+    },
+    "status": "held"
   }
 ]
