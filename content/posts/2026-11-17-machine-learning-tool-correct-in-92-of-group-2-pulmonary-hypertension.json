@@ -44,5 +44,9 @@
       "author_id": "533420425"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-17T14:17:02+00:00",
+  "shared": {
+    "x": "2122696264672510061"
+  }
 }

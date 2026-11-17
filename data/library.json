@@ -128,7 +128,8 @@
     "2026-11-16-rein-therapeutics-reports-preliminary-blinded-phase-2-renew-data-in-id": "pharma/pharma-06.jpg",
     "2026-11-17-fda-issues-complete-response-letter-for-summit-s-ivonescimab-in-egfr-m": "pharma/pharma-23.jpg",
     "2026-11-17-real-world-pfs-after-selective-ret-tki-in-ret-nsclc-was-5-9-months-wit": "pharma/pharma-09.jpg",
-    "2026-11-17-causal-machine-learning-detects-varied-effects-of-inhaled-corticostero": "airways/airways-19.jpg"
+    "2026-11-17-causal-machine-learning-detects-varied-effects-of-inhaled-corticostero": "airways/airways-19.jpg",
+    "2026-11-17-machine-learning-tool-correct-in-92-of-group-2-pulmonary-hypertension": "data/data-13.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -259,7 +260,8 @@
     "pharma/pharma-06.jpg": 126,
     "pharma/pharma-23.jpg": 127,
     "pharma/pharma-09.jpg": 128,
-    "airways/airways-19.jpg": 129
+    "airways/airways-19.jpg": 129,
+    "data/data-13.jpg": 130
   },
-  "counter": 129
+  "counter": 130
 }
