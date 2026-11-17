@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import time
 import html
 import re
 import xml.etree.ElementTree as ET
@@ -51,9 +52,21 @@ def collect() -> list[dict]:
     lim = settings()["limits"]["rss_max_per_feed"]
     items = []
     from ..awareness import rss_feeds as awareness_feeds
+    gap = float(settings()["limits"].get("google_news_gap_seconds", 6))
+    last_google = 0.0
     for feed in load_yaml("topics.yaml").get("rss_feeds", []) + awareness_feeds():
+        google = "news.google." in feed["url"]
         try:
+            if google:   # Google News rate-limits bursts from shared runner IPs: space requests, retry a 429 once
+                wait = last_google + gap - time.monotonic()
+                if wait > 0:
+                    time.sleep(wait)
             r = requests.get(feed["url"], timeout=30, headers={"User-Agent": "LungDaily/1.0 (+news aggregator)"})
+            if google and r.status_code == 429:
+                time.sleep(float(settings()["limits"].get("google_news_retry_seconds", 45)))
+                r = requests.get(feed["url"], timeout=30, headers={"User-Agent": "LungDaily/1.0 (+news aggregator)"})
+            if google:
+                last_google = time.monotonic()
             r.raise_for_status()
             got = parse_feed(r.text, feed["name"], lim)
             items += got

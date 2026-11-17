@@ -67,8 +67,10 @@ limits:
   linkedin_search_max_results: 25
   pubmed_max: 40
   rss_max_per_feed: 15
+  google_news_gap_seconds: 6       # space Google News requests (they returned 429 in bursts)
+  google_news_retry_seconds: 45    # one retry after a 429
   triage_batch_size: 15
-  min_score: 7                    # 0–10; items below this are dropped
+  min_score: 6.5                  # 0–10; items below this are dropped (was 7: too few articles)
   max_articles_per_run: 6         # articles WRITTEN per write run (they wait in the ready queue)
   max_articles_per_day: 20        # articles written per day (16 slots + a little spare)
   max_item_age_hours: 72
@@ -81,7 +83,9 @@ selection:                        # how the best items are chosen each run
   person_boost: 1.0               # individuals rank above organisations at equal score (feature more people)
   linkedin_boost: 0.5             # LinkedIn-sourced items rank a little higher (LinkedIn first: that's where the community is)
   focus_boost: 1.5                # voices.yaml focus: true (José Luis Castro, Tonya Winders) rank well above others
-  focus_min_score: 6              # ...and need only score 6 to be written (others 7)
+  focus_min_score: 6              # ...and need only score 6 to be written (others 6.5)
+  digest_boost: 1.5               # picks from the editor's 08:00/15:00 digest rank well up
+  digest_min_score: 5             # ...and need only score 5 (they were already hand-picked by topic)
   awareness_boost: 1.0            # items about an awareness day in its window (config/awareness.yaml)
   category_boost:                 # help under-served sections
     people: 1.0

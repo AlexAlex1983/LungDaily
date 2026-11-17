@@ -1,0 +1,17 @@
+{
+  "edition": "Health news digest – Tuesday, 17 November 2026 – Morning edition (LungDaily picks rebuilt 12:10 CET; the original file was not saved)",
+  "items": [
+    {"title": "FDA rejects Summit's ivonescimab in previously treated EGFR-mutated NSCLC",
+     "url": "https://www.fiercebiotech.com/pharma/fda-rejects-summit-therapeutics-pd-1-vegf-ivonescimab-nsclc",
+     "publisher": "Fierce Biotech", "published_date": "2026-11-15", "topic": "lung_cancer",
+     "summary": "The FDA issued a complete response letter for ivonescimab plus chemotherapy in EGFR-mutated NSCLC after TKI therapy, because the phase 3 HARMONi trial did not show a statistically significant overall survival benefit."},
+    {"title": "FDA won't approve Summit and Akeso's ivonescimab",
+     "url": "https://pharmaphorum.com/news/fda-wont-approve-summit-akesos-ivonescimab",
+     "publisher": "pharmaphorum", "published_date": "2026-11-15", "topic": "lung_cancer",
+     "summary": "Second report on the ivonescimab complete response letter; backup source in case the first page cannot be read."},
+    {"title": "Quantitative CT reveals air pollution-associated lung function changes (RSNA 2026 preview)",
+     "url": "https://www.auntminnie.com/resources/conference/rsna/2026/ct-preview/article/16541668/quantitative-ct-reveals-air-pollutionassociated-lung-function-changes",
+     "publisher": "AuntMinnie", "published_date": "2026-11-17", "topic": "air_pollution",
+     "summary": "A study to be presented at RSNA 2026 links sustained particulate-matter exposure to higher airway resistance and worse lung function on quantitative CT."}
+  ]
+}

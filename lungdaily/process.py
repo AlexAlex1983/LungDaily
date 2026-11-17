@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import re
 
 from .llm import LLMError, ask_json
 from .util import (DATA, POSTS, load_yaml, log, norm_text, now, parse_date, read_json,
@@ -342,6 +343,8 @@ def rank(item: dict, sel: dict) -> float:
         boost += float(sel.get("person_boost", 0))
     if item.get("source") == "linkedin":
         boost += float(sel.get("linkedin_boost", 0))
+    if (item.get("extra") or {}).get("feed") == "Editor digest":
+        boost += float(sel.get("digest_boost", 0))
     if sel.get("focus_boost"):
         from .util import is_focus
         if is_focus(item):           # owner's priority voices (voices.yaml focus: true)
@@ -397,11 +400,31 @@ def pick(candidates: list[dict], room: int, sel: dict) -> tuple[list[dict], list
     return chosen, rest
 
 
+SOCIAL_HOSTS = ("x.com", "twitter.com", "t.co", "linkedin.com", "lnkd.in", "bsky.app", "facebook.com",
+                "instagram.com", "youtube.com", "youtu.be")
+
+
 def enrich(item: dict) -> None:
-    """News-feed items are often just a headline: add the article page's text before writing."""
-    if item["source"] != "rss" or len(item.get("text") or "") >= 400 or item.get("extra", {}).get("page_fetched"):
+    """News-feed items are often just a headline, and many posts only announce a report with a link
+    (e.g. "The GOLD 2027 Report is out: <link>"): add the linked page's own text before writing."""
+    ex = item.get("extra", {})
+    if ex.get("page_fetched") or len(item.get("text") or "") >= 400:
         return
     from .sources.page import fetch_text
+    if item["source"] in ("x", "linkedin"):
+        links = [u for u in ex.get("links") or re.findall(r"https?://[^\s)\]>\"']+", item.get("text") or "")
+                 if not any(h in u.lower() for h in SOCIAL_HOSTS)]
+        if not links:
+            return
+        url, text = fetch_text(links[0])
+        item.setdefault("extra", {})["page_fetched"] = True
+        if word_count(text) >= 60:
+            item.setdefault("extra", {})["linked_url"] = url
+            item["text"] = f"{item.get('text', '')}\n\nLINKED PAGE ({url}):\n{text}"
+            log.info("Linked page text added (%d words): %s", word_count(text), url[:80])
+        return
+    if item["source"] != "rss":
+        return
     url, text = fetch_text(item.get("url", ""))
     item.setdefault("extra", {})["page_fetched"] = True
     if url and url != item.get("url") and "bing.com" in (item.get("url") or ""):
@@ -434,7 +457,9 @@ def run() -> dict:
         if t is None:  # triage failed — retry next run
             keep.append(i)
         elif not t["duplicate"] and (t["score"] >= float(min_by_cat.get(t["category"], lim["min_score"]))
-                                     or (is_focus(i) and t["score"] >= float(sel.get("focus_min_score", 99)))):
+                                     or (is_focus(i) and t["score"] >= float(sel.get("focus_min_score", 99)))
+                                     or ((i.get("extra") or {}).get("feed") == "Editor digest"
+                                         and t["score"] >= float(sel.get("digest_min_score", 99)))):
             candidates.append(i)
     candidates.sort(key=lambda i: (rank(i, sel), sum(i["metrics"].values())), reverse=True)
 

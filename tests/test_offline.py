@@ -418,6 +418,19 @@ assert _fg.grab(_it, "fig-nc", fetch=lambda u: (u, _html.replace("/by/4.0", "/by
 assert _fg.grab(_it, "fig-none", fetch=lambda u: (u, _html.split("</a>")[1]), download=lambda u: _b.getvalue()) is None
 print("OK source figures")
 
+# teaser posts: the linked report page's text is added before writing
+from lungdaily import process as _pr
+from lungdaily.sources import page as _pg
+_orig = _pg.fetch_text
+_pg.fetch_text = lambda u: (u, " ".join(["finding"] * 80))
+_tz = {"source": "x", "text": "The GOLD 2027 Report is out https://goldcopd.org/2027-report", "extra": {"links": ["https://goldcopd.org/2027-report"]}}
+_pr.enrich(_tz)
+assert "LINKED PAGE (https://goldcopd.org/2027-report)" in _tz["text"], _tz
+_tz2 = {"source": "x", "text": "see https://x.com/abc/status/1", "extra": {}}
+_pr.enrich(_tz2); assert "LINKED PAGE" not in _tz2["text"]
+_pg.fetch_text = _orig
+print("OK linked page for teaser posts")
+
 # takedown
 slug = arts[0].parent.name
 import yaml
