@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-17-biologic-prior-authorisation-approvals-for-children-with-atopic-condit",
+  "headline": "Biologic prior authorisation approvals for children with atopic conditions took a mean of 32.7 days",
+  "dek": "A retrospective review of 326 prescriptions found prior authorisation was needed for 93.9% and that 39.3% of those were denied, according to data presented at the ACAAI meeting.",
+  "body": "After biologics were prescribed to paediatric patients with atopic conditions, prior authorisation approval took a mean of 32.7 days, according to data presented at the American College of Allergy, Asthma & Immunology Annual Scientific Meeting in Phoenix.\n\nAarti P. Pandya, MD, and Matthew Holland, DO, of Children's Mercy, and colleagues carried out a retrospective chart review of 326 prescriptions from 2018 to 2026. The prescriptions covered five biologics given to children with conditions including asthma, atopic dermatitis, chronic urticaria and IgE-mediated food allergy. Median patient age was 12 years. Omalizumab was the most commonly prescribed (55.8%), followed by dupilumab (26.1%), mepolizumab (11.7%), benralizumab (4.9%) and tezepelumab (1.5%).\n\nPrior authorisation was needed for 93.9% of prescriptions. Of these, 60.7% were approved and 39.3% were denied. In the approved group, the median time to a decision was 13 days. Among denials, failing to meet insurance criteria was the most common reason (24.2%), followed by a required prerequisite therapy (23.4%). Further steps after submission were needed in 28.8% of all prescriptions.\n\n\"The burden of prior authorization denials is real, but some of this burden can be mitigated through careful planning,\" Pandya and Holland told Healio in a statement. They said an unexpected finding was the number of initial denials caused by requests for more information, adding that payers do not have universal criteria and requested information may be specific to an insurer.\n\nThe authors said they hope the data will support conversations with payers about reducing barriers to guideline-supported care for children. They are extending the work to other biologics and would like to study the relationship between denials and clinical outcomes, ideally across multiple centres.\n\nPandya reports a grant from Thermo Fisher and being a speaker for Sanofi. Holland reports no relevant financial disclosures.",
+  "key_quote": "Payers do not have universal criteria for their prior authorizations, and information that is requested may be specific to an insurance company.",
+  "tags": [
+    "asthma",
+    "paediatrics",
+    "policy",
+    "therapeutics"
+  ],
+  "people": [
+    "Aarti P. Pandya",
+    "Matthew Holland",
+    "Isabella Hornick"
+  ],
+  "category": "policy",
+  "score": 9.5,
+  "created_at": "2026-11-17T14:51:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.healio.com/news/allergy-asthma/20261114/prior-authorization-biologic-approvals-take-about-a-month-in-pediatric-atopic-conditions"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:submitted-0279a0c57e9178a4",
+    "source": "rss",
+    "url": "https://www.healio.com/news/allergy-asthma/20261114/prior-authorization-biologic-approvals-take-about-a-month-in-pediatric-atopic-conditions",
+    "title": "Prior authorization biologic approvals take about a month in pediatric atopic conditions",
+    "author_name": "healio.com",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-17T14:51:25.376542+00:00",
+    "extra": {
+      "feed": "Submitted",
+      "submitted": true,
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
