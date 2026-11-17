@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-17-causal-machine-learning-detects-varied-effects-of-inhaled-corticostero",
+  "headline": "Causal machine learning detects varied effects of inhaled corticosteroids on COPD exacerbations in IMPACT analysis",
+  "dek": "A secondary analysis of the IMPACT trial found significant heterogeneity in inhaled corticosteroid effect, with predictors beyond blood eosinophils contributing to response.",
+  "body": "Researchers have used causal machine learning to examine how the effect of inhaled corticosteroids (ICS) on exacerbations varies between patients with chronic obstructive pulmonary disease (COPD). The analysis, led by Helene Huts, Kenneth Verstraete, Thomas Strypsteen and colleagues, was published in Respiratory Research.\n\nThe team used baseline characteristics from patients in the fluticasone furoate/umeclidinium/vilanterol (FF/U/V) and umeclidinium/vilanterol (U/V) arms of the IMPACT trial (NCT02164513). They trained a causal survival forest to estimate the effect of fluticasone furoate, an ICS, on time to first exacerbation for each patient, and a causal forest for exacerbation rate. Results were averaged over 100 train and validation sets using Monte-Carlo cross-validation. The analysis was repeated for a comparison of the FF/V and U/V arms.\n\nThe analysis included 4048 patients in the FF/U/V arm, 4034 in the FF/V arm and 2025 in the U/V arm. Significant p-values for the AUTOC (area under the targeting operator characteristic) curve indicated that all models ranked patients well according to individualised treatment, and that significant heterogeneity was detected in the effect of ICS on both exacerbation outcomes.\n\nRespiratory symptoms, reversibility of airflow limitation and lung function were identified as important predictors by all models, in addition to eosinophils. The contribution of these additional predictors was most apparent for patients at the lower end of the eosinophil spectrum.\n\nThe authors describe the work as a hypothesis-generating secondary analysis. They concluded that the approach can identify predictors of treatment effect and patterns of response, and may improve understanding of COPD phenotypes and heterogeneous treatment effects. Earlier work had shown that high blood eosinophil counts can predict an enhanced response to ICS, according to the abstract.",
+  "key_quote": "other clinical patient characteristics also contribute to the prediction of ICS response on both time to first exacerbation and exacerbation rate",
+  "tags": [
+    "copd",
+    "ai",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Helene Huts",
+    "Kenneth Verstraete",
+    "Thomas Strypsteen"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-17T11:09:37+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43040297/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43040297",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43040297/",
+    "title": "Uncovering the heterogeneous effect of inhaled corticosteroids on COPD exacerbations with causal machine learning.",
+    "author_name": "Helene Huts, Kenneth Verstraete, Thomas Strypsteen et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-07-22T00:00:00+00:00",
+    "extra": {
+      "journal": "Respiratory research",
+      "doi": "10.1186/s12931-026-03799-9",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "first_author": "Helene Huts"
+    }
+  },
+  "status": "ready"
+}

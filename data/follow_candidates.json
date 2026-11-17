@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 18,
+    "seen": 19,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33479
+    "followers": 33488
   },
   "iaslc": {
     "id": "61241883",
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 17,
+    "seen": 19,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13826
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 18,
+    "seen": 19,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31658
+    "followers": 31657
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -106,10 +106,10 @@
   "aldrinau": {
     "id": "42855210",
     "username": "AldrinAU",
-    "seen": 1,
+    "seen": 2,
     "name": "A.𝙰𝚍𝚎𝚗𝚒🫁🧢",
-    "bio": "Thoracic medicine & asthma physician. Loves family, 🍫,🍦,🍣, ☕️, and @ChelseaFC supporter since 95’ #CFC. Views are my own. 💬🦋https://t.co/VdNciJaNLj",
-    "followers": 1183
+    "bio": "Thoracic medicine & asthma physician\n@ChelseaFC supporter since 95’ #CFC. Views are my own. 💬🦋https://t.co/VdNciJaNLj",
+    "followers": 1181
   },
   "eaaci_jm": {
     "id": "2239844702",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 11,
+    "seen": 12,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30892
+    "followers": 30891
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -154,7 +154,7 @@
   "copddoc": {
     "id": "356203202",
     "username": "COPDdoc",
-    "seen": 10,
+    "seen": 11,
     "name": "Nick Hopkinson",
     "bio": "Professor of Respiratory Medicine FRCP #COPD Tobacco control, social justice, lung health 🫁 🚭 #NHS \nBorn at 323ppm.",
     "followers": 8688
@@ -338,7 +338,7 @@
   "lena_group4resp": {
     "id": "1497171361730605058",
     "username": "Lena_Group4Resp",
-    "seen": 3,
+    "seen": 4,
     "name": "Lena Group Respiratory Hub 🫁",
     "bio": "🫁 Welcome to the account of #Respiratory Projects & Events of Lena Group. We support research & education in #RespiratoryDiseases #Bronchiectasis #NTM & others",
     "followers": 1043
@@ -386,7 +386,7 @@
   "asthmalungscot": {
     "id": "788359667613401088",
     "username": "asthmalungscot",
-    "seen": 1,
+    "seen": 2,
     "name": "Asthma + Lung UK Scotland",
     "bio": "Scotland branch of @asthmalunguk. We’re here to fight for your right to breathe. Need support? Call our Helpline: 0300 222 5800",
     "followers": 1851
@@ -394,18 +394,18 @@
   "asthmalungcymru": {
     "id": "221724070",
     "username": "asthmalungcymru",
-    "seen": 1,
+    "seen": 2,
     "name": "Asthma + Lung UK Cymru",
     "bio": "We’re here to fight for your right to breathe | Rydym ni yma i ymladd dros eich hawl i anadlu. Call our Helpline for support: 0300 222 5800",
-    "followers": 2593
+    "followers": 2595
   },
   "asthmalungni": {
     "id": "1243553076423909382",
     "username": "asthmalungni",
-    "seen": 1,
+    "seen": 2,
     "name": "Asthma + Lung UK Northern Ireland",
     "bio": "Northern Ireland branch of @asthmalunguk. We’re here to fight for your right to breathe. Need support? Call our Helpline: 0300 222 5800",
-    "followers": 982
+    "followers": 983
   },
   "saleemhamilah": {
     "id": "3251459396",
@@ -490,7 +490,7 @@
   "asthmaedu_sa": {
     "id": "702792284803371008",
     "username": "AsthmaEdu_SA",
-    "seen": 3,
+    "seen": 5,
     "name": "#AsthmaAwareness",
     "bio": "The National Asthma Education Programme (NAEP) is a non-profit organization that aims to educate South Africans asthma diagnosis and treatment",
     "followers": 340
@@ -714,10 +714,10 @@
   "sanraimed_india": {
     "id": "1144849294773456896",
     "username": "SanraiMed_India",
-    "seen": 1,
+    "seen": 3,
     "name": "Sanrai Med India Pvt. Ltd.",
     "bio": "Leading respiratory healthcare equipment & service provider since 2008. Guaranteed innovation, quality, efficiency, and care with Sanrai Med India",
-    "followers": 304
+    "followers": 305
   },
   "medwayasthma": {
     "id": "3618549029",
@@ -774,5 +774,21 @@
     "name": "COPD ATHLETE",
     "bio": "Living Well with COPD 🫁 Ironman, World Marathon Majors finisher.Patient advocate. Activity is Life! My Case Study- https://t.co/h66AYYWig4",
     "followers": 2952
+  },
+  "exercisecopd": {
+    "id": "2244986698",
+    "username": "exerciseCOPD",
+    "seen": 2,
+    "name": "exerciseCOPD 🫁",
+    "bio": "Exercise & Activity 4 chronic #breathlessness Nurse ,physiotherapy or Doctor can refer #pulmonaryrehab  Education & Exercise #ILD @prwukee\nMy own views",
+    "followers": 3653
+  },
+  "pedpulmonol": {
+    "id": "1354775179604459524",
+    "username": "PedPulmonol",
+    "seen": 1,
+    "name": "Pediatric Pulmonology",
+    "bio": "Official account for #PediatricPulmonology, the foremost medical journal dedicated to the specialty. Basic, translational, clinical research & reviews.",
+    "followers": 1221
   }
 }
