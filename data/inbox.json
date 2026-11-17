@@ -30,33 +30,5 @@
       "duplicate": false,
       "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
     }
-  },
-  {
-    "id": "rss:e8a96805c86b1164",
-    "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Pa1hCV1FHZkRxNk9hR3kzV0ZCTUNqSWRJRkM5Z2JhOGhiMllzVXJSVkhJRkJfbG5sR1ZzNDNPRWdfdVYxa25GUi1ic0U0d1lNX1loTUxLUjBvak9KVzRfWW1JeWZWcUpCbE9mOFZfTVY?oc=5",
-    "title": "Lung Cancer Survival Improves in Mississippi, but Treatment Gaps Raise Concerns",
-    "text": "Lung Cancer Survival Improves in Mississippi, but Treatment Gaps Raise Concerns American Lung Association",
-    "author_name": "American Lung Association",
-    "author_handle": "",
-    "author_url": "",
-    "author_headline": "",
-    "published_at": "2026-11-17T13:33:14+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "feed": "Google News — lung cancer screening"
-    },
-    "collected_at": "2026-11-17T15:37:43+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ALA data on Mississippi lung cancer survival and treatment gaps"
-    }
   }
 ]
