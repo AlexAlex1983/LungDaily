@@ -11,6 +11,8 @@ SEEN = DATA / "digest_seen.json"
 
 
 def collect(fetch=None) -> list[dict]:
+    from .gmail_digest import fetch as fetch_mail
+    fetch_mail()                       # digest emails -> content/digest/*.json
     topics = set((settings().get("web_search") or {}).get("topics") or [])
     seen = read_json(SEEN, [])
     found, new_files = [], []

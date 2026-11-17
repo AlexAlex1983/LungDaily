@@ -432,6 +432,13 @@ _pr.enrich(_tz2); assert "LINKED PAGE" not in _tz2["text"]
 _pg.fetch_text = _orig
 print("OK linked page for teaser posts")
 
+# digest picks by email: JSON pulled out of a plain or HTML body
+from lungdaily.sources.gmail_digest import parse_picks as _pp
+assert _pp('Picks below\n{"edition": "x", "items": [{"title": "t", "url": "https://a.org"}]}\nthanks')["items"][0]["url"] == "https://a.org"
+assert _pp("<p>{&quot;items&quot;: []}</p>") == {"items": []}
+assert _pp("no json here") is None
+print("OK gmail digest parsing")
+
 # takedown
 slug = arts[0].parent.name
 import yaml
