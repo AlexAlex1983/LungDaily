@@ -394,6 +394,7 @@ print("OK web search scout")
 import json as _json
 from lungdaily.sources import digest as _dg
 _dg.DIGEST.mkdir(parents=True, exist_ok=True)
+for _old in _dg.DIGEST.glob("*.json"): _old.unlink()
 (_dg.DIGEST / "2026-11-07-0800.json").write_text(_json.dumps({"items": [
     {"title": "GINA update", "url": "https://example.org/gina", "publisher": "ERJ", "topic": "asthma", "summary": "s"},
     {"title": "AI chatbot", "url": "https://example.org/ai", "publisher": "X", "topic": "ai", "summary": "s"}]}))
