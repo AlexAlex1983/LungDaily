@@ -132,7 +132,8 @@
     "2026-11-17-machine-learning-tool-correct-in-92-of-group-2-pulmonary-hypertension": "data/data-13.jpg",
     "2026-11-17-hossam-abdalla-lists-new-updates-in-copd-2027-gold-on-x": "airways/airways-18.jpg",
     "2026-11-17-biologic-prior-authorisation-for-children-with-atopic-conditions-took": "pharma/pharma-20.jpg",
-    "2026-11-17-clean-air-healthy-zones-project-launched-in-faridabad-expert-urges-lds": "pollution/pollution-08.jpg"
+    "2026-11-17-clean-air-healthy-zones-project-launched-in-faridabad-expert-urges-lds": "pollution/pollution-08.jpg",
+    "2026-11-17-biologic-prior-authorisation-approvals-for-children-with-atopic-condit": "pharma/pharma-04.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -267,7 +268,8 @@
     "data/data-13.jpg": 130,
     "airways/airways-18.jpg": 131,
     "pharma/pharma-20.jpg": 132,
-    "pollution/pollution-08.jpg": 133
+    "pollution/pollution-08.jpg": 133,
+    "pharma/pharma-04.jpg": 134
   },
-  "counter": 133
+  "counter": 134
 }
