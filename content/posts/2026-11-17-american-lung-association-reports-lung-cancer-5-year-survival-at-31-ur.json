@@ -47,5 +47,8 @@
       "linked_url": "https://www.lung.org/research/state-of-lung-cancer"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-17T15:45:18+00:00",
+  "shared": {},
+  "x_attempts": 1
 }

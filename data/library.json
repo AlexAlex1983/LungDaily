@@ -134,7 +134,8 @@
     "2026-11-17-biologic-prior-authorisation-for-children-with-atopic-conditions-took": "pharma/pharma-20.jpg",
     "2026-11-17-clean-air-healthy-zones-project-launched-in-faridabad-expert-urges-lds": "pollution/pollution-08.jpg",
     "2026-11-17-biologic-prior-authorisation-approvals-for-children-with-atopic-condit": "pharma/pharma-04.jpg",
-    "2026-11-17-high-bmi-projected-to-be-only-asthma-risk-factor-with-rising-burden-to": "data/data-08.jpg"
+    "2026-11-17-high-bmi-projected-to-be-only-asthma-risk-factor-with-rising-burden-to": "data/data-08.jpg",
+    "2026-11-17-american-lung-association-reports-lung-cancer-5-year-survival-at-31-ur": "ctscan/ctscan-15.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -271,7 +272,8 @@
     "pharma/pharma-20.jpg": 132,
     "pollution/pollution-08.jpg": 133,
     "pharma/pharma-04.jpg": 134,
-    "data/data-08.jpg": 135
+    "data/data-08.jpg": 135,
+    "ctscan/ctscan-15.jpg": 136
   },
-  "counter": 135
+  "counter": 136
 }
