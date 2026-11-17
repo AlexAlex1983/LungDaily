@@ -46,5 +46,9 @@
       "linked_url": "https://www.nature.com/articles/s41533-026-00530-5"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-17T15:30:15+00:00",
+  "shared": {
+    "x": "2122714582376398887"
+  }
 }
