@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-17-fda-issues-complete-response-letter-for-summit-s-ivonescimab-in-egfr-m",
+  "headline": "FDA issues complete response letter for Summit's ivonescimab in EGFR-mutated NSCLC",
+  "dek": "The US regulator has declined to approve the PD-1xVEGF inhibitor from Summit Therapeutics and Akeso in previously treated EGFR-mutated non-small cell lung cancer, after the HARMONi trial missed its overall survival goal.",
+  "body": "The US Food and Drug Administration (FDA) has sent a complete response letter to Summit Therapeutics, saying it cannot approve ivonescimab, the PD-1xVEGF inhibitor developed with Akeso. Summit holds rights to the drug in the US and other markets outside China. The letter concerns its lead indication, previously treated EGFR-mutated non-small cell lung cancer (NSCLC).\n\nIn the pivotal phase 3 HARMONi trial, ivonescimab did not show a statistically significant improvement in overall survival (OS), which the FDA saw as a prerequisite for approval. It did significantly extend the time to disease progression or death for ivonescimab plus chemotherapy compared with chemotherapy alone. Summit filed regardless, saying OS data in the trial's international cohort were moving closer to statistical significance.\n\nDr Maky Zanganeh, Summit's president and chief executive, said: \"As a cancer survivor, I understand firsthand how important it is for patients to have access to multiple treatment options, particularly when they are facing diseases with significant unmet medical needs.\"\n\nAttention now turns to HARMONi-3, which compares ivonescimab plus chemotherapy with Keytruda (pembrolizumab) plus chemotherapy in first-line NSCLC. It could report OS and progression-free survival results in squamous NSCLC by the end of the year, with non-squamous data due in the first half of 2027.\n\nAkeso has secured approval for ivonescimab in three NSCLC indications in China. Market watchers view the rejection as a temporary setback, according to pharmaphorum. In September, AstraZeneca paid $2 billion for a 10% stake in Summit.",
+  "key_quote": "As a cancer survivor, I understand firsthand how important it is for patients to have access to multiple treatment options",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "trial",
+    "policy"
+  ],
+  "people": [
+    "Maky Zanganeh"
+  ],
+  "category": "approvals",
+  "score": 9.5,
+  "created_at": "2026-11-17T11:39:59+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pharmaphorum.com/news/fda-wont-approve-summit-akesos-ivonescimab"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:submitted-e74e64e6ebeaa75c",
+    "source": "rss",
+    "url": "https://pharmaphorum.com/news/fda-wont-approve-summit-akesos-ivonescimab",
+    "title": "FDA won't approve Summit, Akeso's ivonescimab",
+    "author_name": "pharmaphorum",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-17T11:39:44.710755+00:00",
+    "extra": {
+      "feed": "Submitted",
+      "submitted": true,
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
