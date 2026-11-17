@@ -47,5 +47,9 @@
       "first_author": "Helene Huts"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-17T14:00:23+00:00",
+  "shared": {
+    "x": "2122692069365785011"
+  }
 }
