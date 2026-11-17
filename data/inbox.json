@@ -1,65 +1,5 @@
 [
   {
-    "id": "x:2122691817900503356",
-    "source": "x",
-    "url": "https://x.com/WHO/status/2122691817900503356",
-    "title": "",
-    "text": "\"Now to #Gaza, where the onset of winter poses a severe threat to people who are already so vulnerable.\n\nThis is Gaza's fourth winter of war. Just a few days of rain have already flooded camps, destroyed tents and left families exposed to the cold.\n\nA few days ago, an eight-month-old child died of hypothermia.\n\nNo child should die from the cold. And winter has barely begun.\n\nAn estimated 950,000 displaced people are living in flood-prone areas, including 400,000 at extremely high risk.\n\nFor families who have already lost so much, a tent is often their only protection.\n\nWhen it is gone, they are left exposed to the cold, to contaminated water and to disease.\n\nThere are already 33,000 cases of acute respiratory infection – higher than at this time last year.\n\nFlooding is increasing the risk of waterborne diseases.\n\nAt the same time, attacks on health care continue, as we saw last week with the attack on the Nasser medical complex.\n\nDamaged health facilities and disrupted transport are making it even harder for people to get care.\n\nWe need unobstructed and expedited entry at scale for shelter materials, clean water and sanitation supplies, medicines, vaccines and equipment to prevent hypothermia.\n\nWe also need unhindered entry of laboratory supplies that have been denied multiple times, so that disease outbreaks can be detected and responded to early\"-@DrTedros",
-    "author_name": "World Health Organization (WHO)",
-    "author_handle": "WHO",
-    "author_url": "https://x.com/WHO",
-    "author_headline": "We are the @UN’s health agency working for #HealthForAll\nAlways check our latest tweets for updated advice/information.",
-    "published_at": "2026-11-17T14:02:21+00:00",
-    "metrics": {
-      "likes": 1,
-      "reposts": 0,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2122691817900503356",
-      "query_kind": "voices",
-      "links": [],
-      "author_followers": 12663741,
-      "author_id": "14499829"
-    },
-    "collected_at": "2026-11-17T14:09:20+00:00"
-  },
-  {
-    "id": "x:2122661034754470246",
-    "source": "x",
-    "url": "https://x.com/jacionline/status/2122661034754470246",
-    "title": "",
-    "text": "How might CC 16 impart protection during viral infections? A study’s findings show how CC 16 mediates host defense mechanisms during rhinovirus infection, a mechanism that may be defective in asthma patients with low CC 16 levels. Here’s more. https://t.co/jS6jQrt6lg",
-    "author_name": "Journal of Allergy and Clinical Immunology",
-    "author_handle": "jacionline",
-    "author_url": "https://x.com/jacionline",
-    "author_headline": "The Journal of Allergy and Clinical Immunology is an official publication of the American Academy of Allergy, Asthma, and Immunology.",
-    "published_at": "2026-11-17T12:00:02+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2122661034754470246",
-      "query_kind": "keywords",
-      "links": [
-        "https://bit.ly/3WpXmK1"
-      ],
-      "author_followers": 12669,
-      "author_id": "133749511",
-      "page_fetched": true
-    },
-    "collected_at": "2026-11-17T14:09:20+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "Journal post on new study: CC16 mechanism in rhinovirus infection and asthma"
-    }
-  },
-  {
     "id": "x:2122283737241002231",
     "source": "x",
     "url": "https://x.com/KulikovUNIATF/status/2122283737241002231",
@@ -89,6 +29,34 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
+    }
+  },
+  {
+    "id": "rss:e8a96805c86b1164",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Pa1hCV1FHZkRxNk9hR3kzV0ZCTUNqSWRJRkM5Z2JhOGhiMllzVXJSVkhJRkJfbG5sR1ZzNDNPRWdfdVYxa25GUi1ic0U0d1lNX1loTUxLUjBvak9KVzRfWW1JeWZWcUpCbE9mOFZfTVY?oc=5",
+    "title": "Lung Cancer Survival Improves in Mississippi, but Treatment Gaps Raise Concerns",
+    "text": "Lung Cancer Survival Improves in Mississippi, but Treatment Gaps Raise Concerns American Lung Association",
+    "author_name": "American Lung Association",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-17T13:33:14+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — lung cancer screening"
+    },
+    "collected_at": "2026-11-17T15:37:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ALA data on Mississippi lung cancer survival and treatment gaps"
     }
   }
 ]
