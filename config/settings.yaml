@@ -58,11 +58,11 @@ figures:                          # one data figure (chart/graph/map) from openl
   public_domain_domains: [cdc.gov, epa.gov, cancer.gov, fda.gov]   # not nih.gov: PubMed/PMC host publishers' figures
 
 limits:
-  x_max_results_per_query: 50     # X pay-per-use: each tweet read costs credits
+  x_max_results_per_query: 25     # X pay-per-use: each tweet read costs credits (halved 18 Nov 2026: was 50)
   x_max_queries_per_run: 6
   x_max_results_by_kind:          # per query kind (voices / keywords / people); others use the line above
-    people: 20                    # People search: ~20 reads x 6 runs a day
-    awareness: 20                 # awareness-day hashtag search (only in the days around each day)
+    people: 10                    # People search: ~10 reads x 6 runs a day (was 20)
+    awareness: 10                 # awareness-day hashtag search (was 20) (only in the days around each day)
   linkedin_max_posts_per_profile: 3   # last 24 h only; Apify charges per post
   linkedin_search_max_results: 25
   pubmed_max: 40
