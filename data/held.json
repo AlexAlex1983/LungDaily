@@ -1980,5 +1980,54 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-18-chmp-recommends-sintilimab-plus-chemotherapy-for-first-line-nonsquamou",
+    "headline": "CHMP recommends sintilimab plus chemotherapy for first-line nonsquamous NSCLC",
+    "dek": "The EMA committee backed the PD-1 inhibitor with pemetrexed and platinum-based chemotherapy; a European Commission decision is expected in the coming months.",
+    "body": "The Committee for Medicinal Products for Human Use (CHMP) of the European Medicines Agency has issued a positive opinion recommending marketing authorisation of sintilimab (Zybrivo), a PD-1 inhibitor, in combination with pemetrexed and platinum-based chemotherapy. The proposed indication is first-line treatment of adult patients with nonsquamous non-small cell lung cancer (NSCLC), including locally advanced disease that cannot be managed with curative-intent surgery or chemoradiation, and metastatic disease. The European Commission is expected to issue a final decision in the coming months, according to OnLive's report.\n\nThe recommendation was based on the randomised, double-blind phase 3 ORIENT-11 trial (NCT03607539), which enrolled 397 adults with locally advanced, metastatic or recurrent nonsquamous NSCLC with no detectable EGFR or ALK aberrations, irrespective of PD-L1 expression. Patients were randomised 2:1 to sintilimab or placebo, each with pemetrexed and platinum-based chemotherapy. The primary end point was progression-free survival (PFS) assessed by a blinded independent radiological review committee.\n\nSintilimab plus chemotherapy was associated with a 52% lower risk of disease progression or death. Median PFS was 8.9 months versus 5.0 months. Median overall survival (OS) was 24.2 months versus 16.8 months (HR, 0.65; 95% CI, 0.50-0.85), and estimated 2-year OS rates were 50% versus 32%. After adjustment for crossover, the OS hazard ratio was 0.52 (95% CI, 0.38-0.69). The safety profile was in line with those of PD-1 inhibitors and the chemotherapy agents used, with no new safety signals.\n\nDr Hui Zhou, chief R&D officer of Oncology at Innovent, said in a news release that the opinion \"marks an important regulatory milestone in our international development\".\n\nIn the United States, the FDA issued a complete response letter on 24 March 2022 for the sintilimab application, after a 10 February 2022 meeting of its Oncologic Drugs Advisory Committee. The committee voted 14 to 1 that a new trial representative of the US population was needed, noting that the ORIENT-11 population was younger, predominantly male and included more smokers than typical US patients.",
+    "key_quote": "The positive CHMP opinion for [sintilimab] marks an important regulatory milestone in our international development and brings us a step closer to serving patients in Europe",
+    "tags": [
+      "lung-cancer",
+      "therapeutics",
+      "trial",
+      "policy"
+    ],
+    "people": [
+      "Hui Zhou"
+    ],
+    "category": "approvals",
+    "score": 8.0,
+    "created_at": "2026-11-18T17:10:17+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 352 words outside limits",
+        "The body attributes the report to \"OnLive's report\". The source is from OncLive, so the outlet name is wrong and is not supported by the source."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://www.onclive.com/view/sintilimab-receives-positive-chmp-opinion-for-first-line-nonsquamous-nsclc"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:43578f82a92558a9",
+      "source": "rss",
+      "url": "https://www.onclive.com/view/sintilimab-receives-positive-chmp-opinion-for-first-line-nonsquamous-nsclc",
+      "title": "Sintilimab Receives Positive CHMP Opinion for First-Line Nonsquamous NSCLC",
+      "author_name": "OncLive",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-18T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "lung_cancer",
+        "scout_summary": "The EMA's CHMP recommended approval of sintilimab for first-line treatment of nonsquamous NSCLC without EGFR/ALK alterations, based on the ORIENT-11 trial. In the US the drug previously received an FDA complete response letter.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

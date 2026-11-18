@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-18-infant-chest-infection-linked-to-nearly-fourfold-higher-odds-of-wheeze",
+  "headline": "Infant chest infection linked to nearly fourfold higher odds of wheeze or asthma at 12 months",
+  "dek": "A study found that infants with a chest infection in their first year had markedly higher odds of a parent-reported wheeze or asthma diagnosis at 12-month follow-up.",
+  "body": "Infants who had a chest infection in their first year of life faced nearly fourfold higher odds of a parent-reported clinician diagnosis of wheeze or asthma at the 12-month follow-up, according to a new study.\n\nThe researchers also found that several maternal and household factors were independently linked to wheeze or asthma. These were maternal asthma, smoking during pregnancy, maternal education ending at secondary school or trade level, and having older siblings in the household.\n\nThe study was published online on 13 November in *The Journal of Allergy and Clinical Immunology: In Practice*. Deanne H. Hryciw, PhD, of the University of the Sunshine Coast, Queensland, Australia, was the corresponding author.\n\n\"These findings contribute to the growing body of evidence demonstrating that respiratory health begins before birth and may inform future strategies aimed at improving maternal health and the childhood home environment, reducing preventable prenatal exposures and identifying children who may benefit from earlier monitoring and intervention,\" the authors wrote.\n\nThe authors noted several limitations. The outcome relied on parent report of a clinician's diagnosis and was not confirmed by objective tests, so transient wheeze could not be separated from persistent asthma, nor allergic wheeze from nonallergic wheeze. The analysis did not examine outcomes beyond 12 months. Loss to follow-up was not random, and the sample tended to include more advantaged families.\n\nThe study was funded by Griffith University, and the authors reported no conflicts of interest.",
+  "key_quote": "These findings contribute to the growing body of evidence demonstrating that respiratory health begins before birth",
+  "tags": [
+    "asthma",
+    "paediatrics",
+    "air-pollution",
+    "tobacco"
+  ],
+  "people": [
+    "Deanne H. Hryciw"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-18T17:10:29+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.medscape.com/viewarticle/infant-chest-infection-tied-higher-odds-wheeze-asthma-2026a10018x5"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:979e9d28a85c779a",
+    "source": "rss",
+    "url": "https://www.medscape.com/viewarticle/infant-chest-infection-tied-higher-odds-wheeze-asthma-2026a10018x5",
+    "title": "Infant Chest Infection Tied to Higher Odds of Wheeze, Asthma",
+    "author_name": "Medscape",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "asthma",
+      "scout_summary": "Infants with a chest infection in their first year had nearly fourfold higher odds of a parent-reported clinician diagnosis of wheeze or asthma at 12 months. Maternal asthma, smoking in pregnancy and older siblings were also independently associated.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,61 @@
+{
+  "edition": "Health news digest – Wednesday, 18 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "World COPD Day 2026 Focuses on Early Diagnosis and Management",
+      "url": "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/",
+      "publisher": "Respiratory Therapy",
+      "published_date": "2026-11-17",
+      "topic": "copd",
+      "summary": "GOLD has set 'Early Diagnosis and Management for a Better Life' as the theme of World COPD Day on 18 November 2026. The campaign targets underdiagnosis and calls for wider access to spirometry, clinician training and policies on air quality and smoking."
+    },
+    {
+      "title": "2027 GOLD Report and Pocket Guide",
+      "url": "https://goldcopd.org/2027-gold-report-and-pocket-guide/",
+      "publisher": "Global Initiative for Chronic Obstructive Lung Disease (GOLD)",
+      "published_date": "2026-11-15",
+      "topic": "copd",
+      "summary": "GOLD has posted its 2027 COPD strategy report and pocket guide. Changes include a LAMA as initial therapy for group A, revised definitions of early, mild, young-onset and pre-COPD, CT guidance on mucus plugging and a stronger emphasis on pulmonary rehabilitation."
+    },
+    {
+      "title": "More Kids Face Insurance Denials For Asthma And Allergy Medications",
+      "url": "https://usnews.com/news/health-news/articles/2026-11-16/more-kids-face-insurance-denials-for-asthma-and-allergy-medications",
+      "publisher": "HealthDay / U.S. News & World Report",
+      "published_date": "2026-11-16",
+      "topic": "asthma",
+      "summary": "A review of 326 paediatric biologic prescriptions written by allergists found more than 90% needed prior authorisation and about 4 in 10 were denied. Approvals took over a month on average. Findings were presented at the ACAAI annual meeting."
+    },
+    {
+      "title": "Infant Chest Infection Tied to Higher Odds of Wheeze, Asthma",
+      "url": "https://www.medscape.com/viewarticle/infant-chest-infection-tied-higher-odds-wheeze-asthma-2026a10018x5",
+      "publisher": "Medscape",
+      "published_date": "2026-11-18",
+      "topic": "asthma",
+      "summary": "Infants with a chest infection in their first year had nearly fourfold higher odds of a parent-reported clinician diagnosis of wheeze or asthma at 12 months. Maternal asthma, smoking in pregnancy and older siblings were also independently associated."
+    },
+    {
+      "title": "169 Of 184 Indian Studies Find Adverse Health Effects of Air Pollution",
+      "url": "https://m.thewire.in/article/environment/169-of-184-indian-studies-find-adverse-health-effects-of-air-pollution",
+      "publisher": "The Wire",
+      "published_date": "2026-11-13",
+      "topic": "air_pollution",
+      "summary": "A CREA review of five decades of Indian research found that 169 of 184 epidemiological studies reported at least one adverse health association with air pollution. Of 40 studies in rural populations, 38 found adverse associations."
+    },
+    {
+      "title": "FDA Approves Neladalkib for Locally Advanced or Metastatic ALK+ NSCLC",
+      "url": "https://www.onclive.com/view/fda-approves-neladalkib-for-locally-advanced-or-metastatic-alk-nsclc",
+      "publisher": "OncLive",
+      "published_date": "2026-11-17",
+      "topic": "lung_cancer",
+      "summary": "The FDA granted accelerated approval to neladalkib for previously treated locally advanced or metastatic ALK-positive non-small cell lung cancer, based on the phase 1/2 ALKOVE-1 trial. The decision came ahead of the 27 November target date."
+    },
+    {
+      "title": "Sintilimab Receives Positive CHMP Opinion for First-Line Nonsquamous NSCLC",
+      "url": "https://www.onclive.com/view/sintilimab-receives-positive-chmp-opinion-for-first-line-nonsquamous-nsclc",
+      "publisher": "OncLive",
+      "published_date": "2026-11-18",
+      "topic": "lung_cancer",
+      "summary": "The EMA's CHMP recommended approval of sintilimab for first-line treatment of nonsquamous NSCLC without EGFR/ALK alterations, based on the ORIENT-11 trial. In the US the drug previously received an FDA complete response letter."
+    }
+  ]
+}
