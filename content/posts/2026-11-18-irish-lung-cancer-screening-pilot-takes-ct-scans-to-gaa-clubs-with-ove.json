@@ -1,51 +1,50 @@
 {
-  "slug": "2026-11-18-irish-lung-cancer-screening-pilot-takes-ct-scans-to-gaa-clubs-with-ove",
-  "headline": "Irish lung cancer screening pilot takes CT scans to GAA clubs, with over 70% participation",
-  "dek": "The Lung Health Check pilot, run by Beaumont Hospital and RCSI, offers low-dose CT scans to high-risk adults in community settings, the Irish Times reports.",
-  "body": "Ireland does not yet have a national lung cancer screening programme, but it has launched a pilot study, according to the Irish Times. Lung Health Check is run by Beaumont Hospital and the RCSI University of Medicine and Health Sciences. It is funded by the Irish Cancer Society and the EU4Health Solace programme.\n\nThe pilot invites people at high risk, defined as adults aged 55–74 with a smoking history and identified through selected GP practices. They are asked to attend a mobile unit for a respiratory assessment and a low-dose CT scan. The units are sited in community settings, most notably local GAA clubs. The Irish Times reports that this brings screening closer to where people live and reduces a key barrier to uptake. The pilot has already achieved participation rates above 70 per cent.\n\nThe article sets the pilot against the wider evidence. A working group of the International Agency for Research on Cancer's Handbooks of Cancer Prevention programme concluded that low-dose CT screening of high-risk individuals, based on age and smoking history, reduced mortality and the incidence of late-stage lung cancer. Lung cancer was included in updated Council of the EU recommendations on cancer screening in 2022.\n\nThe piece also notes harms. Research published in the Journal of the American Medical Association found that more than 10 per cent of people screened experience a false-positive result. Biopsy complications can include pneumothorax and bleeding into the chest cavity, and screening can lead to overdiagnosis.\n\nLung cancer accounts for about 1,900 deaths a year in Ireland, according to the article. It gives five-year survival as 57 per cent for stage one disease and 4 per cent for stage four.",
-  "key_quote": "bringing screening closer to where people live, and reducing a key barrier to uptake",
-  "tags": [
-    "lung-cancer",
-    "screening",
-    "policy",
-    "diagnostics"
-  ],
-  "people": [],
-  "category": "policy",
-  "score": 6.0,
-  "created_at": "2026-11-18T08:29:03+00:00",
-  "checker": {
-    "pass": true,
-    "issues": []
-  },
-  "embed": {
-    "type": "link",
-    "url": "https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/"
-  },
-  "mentions": [],
-  "source": {
-    "id": "rss:8e0366d1208272b6",
-    "source": "rss",
-    "url": "https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/",
-    "title": "Lung cancer screening pilot in GAA clubs should help improve outcomes",
-    "author_name": "The Irish Times",
-    "author_handle": "",
-    "author_url": "",
-    "published_at": "2026-11-16T00:00:00+00:00",
-    "extra": {
-      "feed": "Editor digest",
-      "web_search": true,
-      "topic": "lung_cancer",
-      "scout_summary": "A commentary on an Irish pilot that brings lung cancer screening to community settings such as GAA clubs to reduce barriers to uptake. Ireland does not yet have a national lung cancer screening programme.",
-      "page_fetched": true
-    }
-  },
-  "status": "published",
-  "published_at": "2026-11-18T09:15:12+00:00",
-  "shared": {
-    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2la2tooui25",
-    "linkedin": "make",
-    "linkedin_at": "2026-11-18T15:49:49+00:00"
-  },
-  "x_attempts": 4
+ "slug": "2026-11-18-irish-lung-cancer-screening-pilot-takes-ct-scans-to-gaa-clubs-with-ove",
+ "headline": "Irish lung cancer screening pilot takes CT scans to GAA clubs, with over 70% participation",
+ "dek": "The Lung Health Check pilot, run by Beaumont Hospital and RCSI, offers low-dose CT scans to high-risk adults in community settings, the Irish Times reports.",
+ "body": "Ireland does not yet have a national lung cancer screening programme, but it has launched a pilot study, according to the Irish Times. Lung Health Check is run by Beaumont Hospital and the RCSI University of Medicine and Health Sciences. It is funded by the Irish Cancer Society and the EU4Health Solace programme.\n\nThe pilot invites people at high risk, defined as adults aged 55–74 with a smoking history and identified through selected GP practices. They are asked to attend a mobile unit for a respiratory assessment and a low-dose CT scan. The units are sited in community settings, most notably local GAA clubs. The Irish Times reports that this brings screening closer to where people live and reduces a key barrier to uptake. The pilot has already achieved participation rates above 70 per cent.\n\nThe article sets the pilot against the wider evidence. A working group of the International Agency for Research on Cancer's Handbooks of Cancer Prevention programme concluded that low-dose CT screening of high-risk individuals, based on age and smoking history, reduced mortality and the incidence of late-stage lung cancer. Lung cancer was included in updated Council of the EU recommendations on cancer screening in 2022.\n\nThe piece also notes harms. Research published in the Journal of the American Medical Association found that more than 10 per cent of people screened experience a false-positive result. Biopsy complications can include pneumothorax and bleeding into the chest cavity, and screening can lead to overdiagnosis.\n\nLung cancer accounts for about 1,900 deaths a year in Ireland, according to the article. It gives five-year survival as 57 per cent for stage one disease and 4 per cent for stage four.",
+ "key_quote": "bringing screening closer to where people live, and reducing a key barrier to uptake",
+ "tags": [
+  "lung-cancer",
+  "screening",
+  "policy",
+  "diagnostics"
+ ],
+ "people": [],
+ "category": "policy",
+ "score": 6.0,
+ "created_at": "2026-11-18T08:29:03+00:00",
+ "checker": {
+  "pass": true,
+  "issues": []
+ },
+ "embed": {
+  "type": "link",
+  "url": "https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/"
+ },
+ "mentions": [],
+ "source": {
+  "id": "rss:8e0366d1208272b6",
+  "source": "rss",
+  "url": "https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/",
+  "title": "Lung cancer screening pilot in GAA clubs should help improve outcomes",
+  "author_name": "The Irish Times",
+  "author_handle": "",
+  "author_url": "",
+  "published_at": "2026-11-16T00:00:00+00:00",
+  "extra": {
+   "feed": "Editor digest",
+   "web_search": true,
+   "topic": "lung_cancer",
+   "scout_summary": "A commentary on an Irish pilot that brings lung cancer screening to community settings such as GAA clubs to reduce barriers to uptake. Ireland does not yet have a national lung cancer screening programme.",
+   "page_fetched": true
+  }
+ },
+ "status": "published",
+ "published_at": "2026-11-18T09:15:12+00:00",
+ "shared": {
+  "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2la2tooui25",
+  "linkedin": "make",
+  "linkedin_at": "2026-11-18T15:49:49+00:00"
+ }
 }
