@@ -2,26 +2,26 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 14,
+    "seen": 17,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
-    "followers": 1835
+    "followers": 1836
   },
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 27,
+    "seen": 28,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47416
+    "followers": 47417
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 21,
+    "seen": 22,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33487
+    "followers": 33491
   },
   "iaslc": {
     "id": "61241883",
@@ -34,7 +34,7 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 20,
+    "seen": 21,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
     "followers": 13826
@@ -42,26 +42,26 @@
   "lungassociation": {
     "id": "17049255",
     "username": "LungAssociation",
-    "seen": 5,
+    "seen": 6,
     "name": "American Lung Association",
     "bio": "American Lung Association is the leading organization working to save lives by improving #lunghealth and preventing lung disease. #breathe #breath #lungs",
-    "followers": 44411
+    "followers": 44409
   },
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 18,
+    "seen": 21,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42216
+    "followers": 42214
   },
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 21,
+    "seen": 22,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31656
+    "followers": 31658
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 12,
+    "seen": 13,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30891
+    "followers": 30892
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -642,7 +642,7 @@
   "ats_assemblies": {
     "id": "2876663831",
     "username": "ATS_Assemblies",
-    "seen": 1,
+    "seen": 2,
     "name": "ATS_Assemblies",
     "bio": "Follow @ATS_Assemblies for news and updates on the American Thoracic Society’s 14 Assemblies and Sections! 🫁",
     "followers": 5061
@@ -806,5 +806,21 @@
     "name": "Titcoin Whale | Producer",
     "bio": "Lung transplant waitlister at Penn and President of https://t.co/oCWGJnxg2t memecoin enthusiasts. Coldest Whale Breathing",
     "followers": 1991
+  },
+  "golfingal15": {
+    "id": "862014660",
+    "username": "golfingal15",
+    "seen": 1,
+    "name": "Teresa Burgoyne",
+    "bio": "#HelloMNis Teresa Retd respiratory nurse Sec Breathe Easy Notts West #blf Passionate about making diff to people with  lung disease or in my community",
+    "followers": 562
+  },
+  "rtmagazine": {
+    "id": "46185753",
+    "username": "RTmagazine",
+    "seen": 1,
+    "name": "RT Magazine",
+    "bio": "For nearly 40 years, RT Magazine has been the respiratory therapy and critical care industry's leading source of news, research, and product information.",
+    "followers": 5208
   }
 }

@@ -438,5 +438,49 @@
     "title": "New American Lung Association Report on Lung Cancer Reveals South Dakota Among Worst in Nation for Ensuring Those at Highest Risk for Lung Cancer are Screened",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1NzY3dkszZ2FCb0UxOXJjMWZfVi1IV1dxdjFLaVVOcDlKSTAyN1ZIeXFrck8zclFNNWRVNGpsaFlGSVR2OEJ1Y2dnTGF0TUFWNlFqTWZEcUNXQzRrWG5GUnhZOHpDV01JY3BrdkZKcndJUQ?oc=5",
     "why": "source too thin (29 words of text)"
+  },
+  {
+    "at": "2026-11-18T20:09:21+00:00",
+    "id": "rss:d55b749977ee57be",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "Yahoo Finance",
+    "title": "GSK Wins FDA Approval for Nuvalent-Acquired Nelkarmi in Lung Cancer",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZG5hTC11TV9DT25QTmhFRVN3eTg2SGFzUlEwRUw4ei1sNkFmM21fT2VNbVdOLUoyUW04NVp6R29sXzM1Y0xjWnh0SkRuZjVSaHNCTDVsVmlDeUZSdWFzU2NSQW0tOThiNVFoUU9KMkZOMWFCMVpTcWNjU3MzM21ibEd3VzFhdVVuUlZESW14cnJWeXJiU1E?oc=5",
+    "why": "source too thin (13 words of text)"
+  },
+  {
+    "at": "2026-11-18T20:09:22+00:00",
+    "id": "rss:fa777d3ae65925c0",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "respiratory-therapy.com",
+    "title": "Allergy and Asthma Patient Protection Act Introduced in Congress",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMlRtaVNhU21IcERaMExocE5PWWxMdGRleEpVSWxSaE5aWXBkcXhaZU8zZy02MU4tRmpzcXFnZTdBZi12ZlBrN1dxbzF3S2F6MXhOeUExdnBVYU9UWTA4ZE5lLXBwVWJYSHFJempqMlB5RVIxU05IX1NMaXZVNk9PUlVXRjhDQXI1RVRXcm9fN3hkbUVvQm9EQ0xPR0Q2NkR5djlSUnRYTk5aLUp1cmpXUnlEcm9JSENRNmZsR1hCS1F6YW1iMDZIUnE2RGdwNkttbExJbzdTY294aE0wVS0wRmE1SVB3UmxqN3c?oc=5",
+    "why": "source too thin (12 words of text)"
+  },
+  {
+    "at": "2026-11-18T20:10:04+00:00",
+    "id": "x:2123068888111796514",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "ERS publications",
+    "title": "Breathe: Adult-onset pulmonary Langerhans cell histiocytosis (LCH) in never-smokers is rare, and usually seen as a part of multi-systemic LCH, thus underscoring",
+    "url": "https://x.com/ERSpublications/status/2123068888111796514",
+    "why": "writer: Single-sentence teaser with no study details; too thin for an article"
+  },
+  {
+    "at": "2026-11-18T20:10:05+00:00",
+    "id": "x:2123068865806475687",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "CHEST",
+    "title": "How common are respiratory and red flag symptoms in lung cancer screening participants, and how do these symptoms impact screening outcomes?\n\nRead the original ",
+    "url": "https://x.com/accpchest/status/2123068865806475687",
+    "why": "writer: Teaser post with only a research question and link, no findings."
   }
 ]

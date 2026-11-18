@@ -2029,5 +2029,58 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-18-imforte-patient-reported-outcomes-adding-lurbinectedin-did-not-harm-qu",
+    "headline": "IMforte patient-reported outcomes: adding lurbinectedin did not harm quality of life in ES-SCLC",
+    "dek": "Stephen V Liu said patient-reported outcomes from the phase III IMforte study, now published in Lung Cancer, showed no negative effect on functioning or health-related quality of life.",
+    "body": "Patient-reported outcomes from the phase III IMforte study have been published in the journal Lung Cancer, according to a post on X by thoracic oncologist Stephen V Liu.\n\nLiu wrote that adding lurbinectedin to maintenance atezolizumab in extensive-stage small cell lung cancer (ES-SCLC) improved progression-free survival (PFS) and overall survival (OS).\n\nAccording to Liu's summary of the publication, the combination achieved these survival gains without negatively affecting patients' functioning or health-related quality of life (HRQoL). He stated that HRQoL was assessed using the QLQ-C30.\n\nLiu's post links to the published paper, which reports the patient-reported outcomes from the trial.",
+    "key_quote": "improved PFS and OS without negatively impacting functioning and HRQoL",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [
+      "Stephen V Liu"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-18T20:09:53+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a single short X post, and the article only restates it in several paragraphs. A reader learns nothing beyond the headline: no effect sizes, no PRO methodology beyond the QLQ-C30 name, no trial context, and no details from the paper itself.",
+        "The last sentence, 'which reports the patient-reported outcomes from the trial', is filler. It only describes the link and adds no information.",
+        "The headline's 'did not harm quality of life' is slightly stronger than the source. The source says there was no negative impact on functioning and HRQoL as measured by QLQ-C30. This is a minor point next to the thinness problem."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123075865428865513",
+      "url": "https://x.com/StephenVLiu/status/2123075865428865513"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2123075865428865513",
+      "source": "x",
+      "url": "https://x.com/StephenVLiu/status/2123075865428865513",
+      "title": "",
+      "author_name": "Stephen V Liu, MD",
+      "author_handle": "StephenVLiu",
+      "author_url": "https://x.com/StephenVLiu",
+      "published_at": "2026-11-18T15:28:25+00:00",
+      "extra": {
+        "tweet_id": "2123075865428865513",
+        "query_kind": "voices",
+        "links": [
+          "https://www.lungcancerjournal.info/article/S0169-5002(26)00756-7/abstract"
+        ],
+        "author_followers": 30892,
+        "author_id": "377425889",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

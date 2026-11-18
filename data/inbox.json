@@ -1,5 +1,35 @@
 [
   {
+    "id": "linkedin:7528884681010782208",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/jose-luis-castro_worldcopdday-copd-lunghealth-activity-7528884681010782208-1iIn",
+    "title": "",
+    "text": "On World COPD Day, I’m sharing a message about turning global commitments into action. Early diagnosis, affordable inhaled treatment and prevention can help more people breathe easier and live with dignity. Every breath counts.\n\n#WorldCOPDDay #COPD #LungHealth\nPace Center for Global Health",
+    "author_name": "José Luis Castro",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/in/jose-luis-castro",
+    "author_headline": "WHO Director-General Special Envoy for Chronic Respiratory Diseases. Founder and Ex-CEO of Vital Strategies",
+    "published_at": "2026-11-18T18:19:47+00:00",
+    "metrics": {
+      "likes": 17,
+      "reposts": 2,
+      "comments": 1
+    },
+    "extra": {
+      "urn": "urn:li:ugcPost:7528884504145612803",
+      "embed_url": "",
+      "via": "profiles"
+    },
+    "collected_at": "2026-11-18T20:08:35+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "person",
+      "duplicate": false,
+      "reason": "WHO envoy's World COPD Day policy view on affordable inhaled treatment"
+    }
+  },
+  {
     "id": "linkedin:7528861574254452737",
     "source": "linkedin",
     "url": "https://www.linkedin.com/posts/jose-luis-castro_jos%C3%A9-luis-castro-experto-de-la-oms-m%C3%A1s-activity-7528861574254452737-gHOQ",
@@ -59,6 +89,76 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
+    }
+  },
+  {
+    "id": "x:2123053792451019145",
+    "source": "x",
+    "url": "https://x.com/ERSpublications/status/2123053792451019145",
+    "title": "",
+    "text": "ERJ Open Research: This study has characterised the SSP population and current practice in the UK, and identified associations between frailty and poor outcomes, and predictors of PAL. Conservative management was commonly used, successfully in most cases. https://t.co/C9DexSDPIY https://t.co/EeGBhUOpNY",
+    "author_name": "ERS publications",
+    "author_handle": "ERSpublications",
+    "author_url": "https://x.com/ERSpublications",
+    "author_headline": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
+    "published_at": "2026-11-18T14:00:43+00:00",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2123053792451019145",
+      "query_kind": "voices",
+      "links": [
+        "https://bit.ly/4oQAJIA",
+        "https://x.com/ERSpublications/status/2123053792451019145/photo/1"
+      ],
+      "author_followers": 33491,
+      "author_id": "424241621"
+    },
+    "collected_at": "2026-11-18T20:08:35+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERJ Open Research UK study on SSP frailty and outcomes"
+    }
+  },
+  {
+    "id": "x:2123084000851890214",
+    "source": "x",
+    "url": "https://x.com/accpchest/status/2123084000851890214",
+    "title": "",
+    "text": "A new checklist will help clinicians identify the essential structural components of a high-functioning lung nodule program, including defined leadership roles and program scope. Access the checklist: https://t.co/F3f5nwQENz https://t.co/cyFraHJsq2",
+    "author_name": "CHEST",
+    "author_handle": "accpchest",
+    "author_url": "https://x.com/accpchest",
+    "author_headline": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
+    "published_at": "2026-11-18T16:00:45+00:00",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "comments": 3
+    },
+    "extra": {
+      "tweet_id": "2123084000851890214",
+      "query_kind": "voices",
+      "links": [
+        "https://hubs.ly/Q04FnJ5F0",
+        "https://x.com/accpchest/status/2123084000851890214/photo/1"
+      ],
+      "author_followers": 47417,
+      "author_id": "34827666"
+    },
+    "collected_at": "2026-11-18T20:08:35+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "New CHEST checklist for lung nodule program structure"
     }
   }
 ]
