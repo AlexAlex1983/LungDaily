@@ -437,6 +437,7 @@ from lungdaily.sources.gmail_digest import parse_picks as _pp
 assert _pp('Picks below\n{"edition": "x", "items": [{"title": "t", "url": "https://a.org"}]}\nthanks')["items"][0]["url"] == "https://a.org"
 assert _pp("<p>{&quot;items&quot;: []}</p>") == {"items": []}
 assert _pp("no json here") is None
+assert _pp('{"items": [{"url": "https://www.google.com/url?q=https://www.healio.com/a&source=gmail&sa=E"}]}')["items"][0]["url"] == "https://www.healio.com/a"
 print("OK gmail digest parsing")
 
 # takedown

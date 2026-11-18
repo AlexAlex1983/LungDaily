@@ -1,45 +1,45 @@
 {
-  "edition": "Health news digest – Wednesday, 18 November 2026 – Morning edition",
-  "items": [
-    {
-      "title": "World COPD Day 2026 Focuses on Early Diagnosis and Management",
-      "url": "https://www.google.com/url?q=https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/&source=gmail&ust=1795072389992000&sa=E",
-      "publisher": "Respiratory Therapy",
-      "published_date": "2026-11-17",
-      "topic": "copd",
-      "summary": "GOLD has set 'Early Diagnosis and Management for a Better Life' as the theme of World COPD Day on 18 November 2026, aimed at underdiagnosis and misdiagnosis of COPD. GOLD says activities are organized in more than 50 countries."
-    },
-    {
-      "title": "Connect Biopharma Reports Third Quarter 2026 Financial Results and Provides Business Update",
-      "url": "https://www.google.com/url?q=https://globenewswire.com/news-release/2026/11/16/3404101/0/en/connect-biopharma-reports-third-quarter-2026-financial-results-and-provides-business-update.html&source=gmail&ust=1795072389992000&sa=E",
-      "publisher": "Connect Biopharma (GlobeNewswire)",
-      "published_date": "2026-11-16",
-      "topic": "asthma",
-      "summary": "Connect Biopharma plans to meet the FDA in December 2026 to align on a Phase 3 program of rademikibart for acute asthma exacerbations, and in Q1 2027 for COPD. The plans follow positive preliminary Phase 2 Seabreeze STAT data reported in September 2026."
-    },
-    {
-      "title": "More Kids Face Insurance Denials For Asthma And Allergy Medications",
-      "url": "https://www.google.com/url?q=https://usnews.com/news/health-news/articles/2026-11-16/more-kids-face-insurance-denials-for-asthma-and-allergy-medications&source=gmail&ust=1795072389992000&sa=E",
-      "publisher": "HealthDay / U.S. News",
-      "published_date": "2026-11-16",
-      "topic": "asthma",
-      "summary": "Researchers reviewed 326 biologic prescriptions written by allergists for children from 2018 to 2026. More than 90% required prior authorization from insurers. The study was presented at the ACAAI 2026 meeting in Phoenix."
-    },
-    {
-      "title": "FDA rejects ivonescimab for EGFR-mutated, locally advanced or metastatic NSCLC",
-      "url": "https://www.google.com/url?q=https://www.healio.com/news/hematology-oncology/20261116/fda-rejects-ivonescimab-for-egfrmutated-locally-advanced-or-metastatic-nsclc&source=gmail&ust=1795072389992000&sa=E",
-      "publisher": "Healio",
-      "published_date": "2026-11-16",
-      "topic": "lung_cancer",
-      "summary": "The FDA issued a complete response letter for Summit Therapeutics' ivonescimab plus chemotherapy in EGFR-mutated NSCLC after TKI therapy, citing no statistically significant overall survival improvement. In the HARMONi trial, median PFS was 6.8 vs 4.4 months (HR 0.52)."
-    },
-    {
-      "title": "Lung cancer screening pilot in GAA clubs should help improve outcomes",
-      "url": "https://www.google.com/url?q=https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/&source=gmail&ust=1795072389992000&sa=E",
-      "publisher": "The Irish Times",
-      "published_date": "2026-11-16",
-      "topic": "lung_cancer",
-      "summary": "A commentary on an Irish pilot that brings lung cancer screening to community settings such as GAA clubs to reduce barriers to uptake. Ireland does not yet have a national lung cancer screening programme."
-    }
-  ]
+ "edition": "Health news digest – Wednesday, 18 November 2026 – Morning edition",
+ "items": [
+  {
+   "title": "World COPD Day 2026 Focuses on Early Diagnosis and Management",
+   "url": "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/",
+   "publisher": "Respiratory Therapy",
+   "published_date": "2026-11-17",
+   "topic": "copd",
+   "summary": "GOLD has set 'Early Diagnosis and Management for a Better Life' as the theme of World COPD Day on 18 November 2026, aimed at underdiagnosis and misdiagnosis of COPD. GOLD says activities are organized in more than 50 countries."
+  },
+  {
+   "title": "Connect Biopharma Reports Third Quarter 2026 Financial Results and Provides Business Update",
+   "url": "https://globenewswire.com/news-release/2026/11/16/3404101/0/en/connect-biopharma-reports-third-quarter-2026-financial-results-and-provides-business-update.html",
+   "publisher": "Connect Biopharma (GlobeNewswire)",
+   "published_date": "2026-11-16",
+   "topic": "asthma",
+   "summary": "Connect Biopharma plans to meet the FDA in December 2026 to align on a Phase 3 program of rademikibart for acute asthma exacerbations, and in Q1 2027 for COPD. The plans follow positive preliminary Phase 2 Seabreeze STAT data reported in September 2026."
+  },
+  {
+   "title": "More Kids Face Insurance Denials For Asthma And Allergy Medications",
+   "url": "https://usnews.com/news/health-news/articles/2026-11-16/more-kids-face-insurance-denials-for-asthma-and-allergy-medications",
+   "publisher": "HealthDay / U.S. News",
+   "published_date": "2026-11-16",
+   "topic": "asthma",
+   "summary": "Researchers reviewed 326 biologic prescriptions written by allergists for children from 2018 to 2026. More than 90% required prior authorization from insurers. The study was presented at the ACAAI 2026 meeting in Phoenix."
+  },
+  {
+   "title": "FDA rejects ivonescimab for EGFR-mutated, locally advanced or metastatic NSCLC",
+   "url": "https://www.healio.com/news/hematology-oncology/20261116/fda-rejects-ivonescimab-for-egfrmutated-locally-advanced-or-metastatic-nsclc",
+   "publisher": "Healio",
+   "published_date": "2026-11-16",
+   "topic": "lung_cancer",
+   "summary": "The FDA issued a complete response letter for Summit Therapeutics' ivonescimab plus chemotherapy in EGFR-mutated NSCLC after TKI therapy, citing no statistically significant overall survival improvement. In the HARMONi trial, median PFS was 6.8 vs 4.4 months (HR 0.52)."
+  },
+  {
+   "title": "Lung cancer screening pilot in GAA clubs should help improve outcomes",
+   "url": "https://www.irishtimes.com/health/your-wellness/2026/11/16/lung-cancer-screening-pilot-in-gaa-clubs-should-help-improve-outcomes/",
+   "publisher": "The Irish Times",
+   "published_date": "2026-11-16",
+   "topic": "lung_cancer",
+   "summary": "A commentary on an Irish pilot that brings lung cancer screening to community settings such as GAA clubs to reduce barriers to uptake. Ireland does not yet have a national lung cancer screening programme."
+  }
+ ]
 }

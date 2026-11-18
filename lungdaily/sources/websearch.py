@@ -98,7 +98,8 @@ def to_items(found: list[dict], fetch=None) -> list[dict]:
     for f in found:
         if topics and f.get("topic") not in topics:
             continue
-        url, title = (f.get("url") or "").strip(), (f.get("title") or "").strip()
+        from .page import real_url
+        url, title = real_url((f.get("url") or "").strip()), (f.get("title") or "").strip()
         if not url.startswith("http") or not title or any(b in url for b in blocked):
             continue
         final, page = fetch(url)

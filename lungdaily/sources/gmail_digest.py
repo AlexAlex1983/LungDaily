@@ -63,7 +63,13 @@ def parse_picks(text: str) -> dict | None:
         data = json.loads(text[start:end + 1])
     except json.JSONDecodeError:
         return None
-    return data if isinstance(data, dict) and isinstance(data.get("items"), list) else None
+    if not (isinstance(data, dict) and isinstance(data.get("items"), list)):
+        return None
+    from .page import real_url
+    for it in data["items"]:
+        if isinstance(it, dict) and it.get("url"):
+            it["url"] = real_url(it["url"])        # Gmail wraps links in google.com/url?q=...
+    return data
 
 
 def fetch() -> int:

@@ -20,8 +20,13 @@ MAX_CHARS = 4000
 
 
 def real_url(url: str) -> str:
-    """Unwrap news-aggregator redirect links (Bing apiclick.aspx?url=...)."""
+    """Unwrap redirect links (Bing apiclick.aspx?url=..., Gmail google.com/url?q=...)."""
     p = urlparse(url or "")
+    if p.netloc.endswith("google.com") and p.path == "/url":   # Gmail/Google link wrapper
+        q = parse_qs(p.query)
+        u = q.get("q") or q.get("url")
+        if u and u[0].startswith("http"):
+            return u[0]
     if "bing.com" in p.netloc:
         u = parse_qs(p.query).get("url")
         if u:
