@@ -138,7 +138,8 @@
     "2026-11-17-american-lung-association-reports-lung-cancer-5-year-survival-at-31-ur": "ctscan/ctscan-15.jpg",
     "2026-11-18-blessina-kumar-receives-first-union-community-champion-award-for-tb": "xray/xray-06.jpg",
     "2026-11-18-jose-luis-castro-innovation-means-narrowing-the-gap-between-knowledge": "lungs/lungs-18.jpg",
-    "2026-11-18-irish-lung-cancer-screening-pilot-takes-ct-scans-to-gaa-clubs-with-ove": "ctscan/ctscan-10.jpg"
+    "2026-11-18-irish-lung-cancer-screening-pilot-takes-ct-scans-to-gaa-clubs-with-ove": "ctscan/ctscan-10.jpg",
+    "2026-11-18-british-thoracic-society-seeks-feedback-on-draft-pulmonary-nodules-gui": "globe/globe-07.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -278,7 +279,8 @@
     "data/data-08.jpg": 135,
     "ctscan/ctscan-15.jpg": 136,
     "xray/xray-06.jpg": 137,
-    "lungs/lungs-18.jpg": 138
+    "lungs/lungs-18.jpg": 138,
+    "globe/globe-07.jpg": 140
   },
-  "counter": 139
+  "counter": 140
 }
