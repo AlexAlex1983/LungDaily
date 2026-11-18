@@ -40,5 +40,8 @@
       "page_fetched": true
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-18T09:15:12+00:00",
+  "shared": {},
+  "x_attempts": 1
 }

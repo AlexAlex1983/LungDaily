@@ -137,7 +137,8 @@
     "2026-11-17-high-bmi-projected-to-be-only-asthma-risk-factor-with-rising-burden-to": "data/data-08.jpg",
     "2026-11-17-american-lung-association-reports-lung-cancer-5-year-survival-at-31-ur": "ctscan/ctscan-15.jpg",
     "2026-11-18-blessina-kumar-receives-first-union-community-champion-award-for-tb": "xray/xray-06.jpg",
-    "2026-11-18-jose-luis-castro-innovation-means-narrowing-the-gap-between-knowledge": "lungs/lungs-18.jpg"
+    "2026-11-18-jose-luis-castro-innovation-means-narrowing-the-gap-between-knowledge": "lungs/lungs-18.jpg",
+    "2026-11-18-irish-lung-cancer-screening-pilot-takes-ct-scans-to-gaa-clubs-with-ove": "ctscan/ctscan-10.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -161,7 +162,7 @@
     "city/city-12.jpg": 19,
     "research/research-11.jpg": 20,
     "airways/airways-04.jpg": 21,
-    "ctscan/ctscan-10.jpg": 22,
+    "ctscan/ctscan-10.jpg": 139,
     "ctscan/ctscan-05.jpg": 23,
     "asthma/asthma-04.jpg": 24,
     "research/research-12.jpg": 25,
@@ -279,5 +280,5 @@
     "xray/xray-06.jpg": 137,
     "lungs/lungs-18.jpg": 138
   },
-  "counter": 138
+  "counter": 139
 }
