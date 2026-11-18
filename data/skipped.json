@@ -273,5 +273,38 @@
     "title": "Neladalkib (Nelkarmi): FDA Approval and Uses",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYWo3MWtYNmE4UzZZNnVQRWJEUFc3Vy04OVE3Zi00dlpteHg5RWFscTNJUUdJTl9Eb3VYbm9hWVF3UnFjeWdNR1Y4YTdIXzdXQ2k4VVZDOTdkUDluYlBPWjEwWElvX0lDMmtXam50ZTMwNWl2VlNvbXhWeUJXZEJUNVpsazMwLVdpRVNNMVoyQjRSTmxNc0pUbU1uNWs0WjZDQ0poU19Ia2U2dXVFWGJYbDFXS0k?oc=5",
     "why": "source too thin (9 words of text)"
+  },
+  {
+    "at": "2026-11-18T05:09:53+00:00",
+    "id": "rss:9bdd41635a0b96e7",
+    "kind": "thin",
+    "score": 9.0,
+    "source": "rss",
+    "author": "Investing.com",
+    "title": "FDA approves GSK’s Nelkarmi for pretreated ALK-positive lung cancer",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWFmNlp4M3VnLUpXdktGSEM3MUxERko4X1VjRFN2QzZ3andUUlVfeWxERmpUb1JxSmRqWE9UQmJneXpLdXBTUGM0ZnB3OEp1Y1pXTncyVk9FYzVpMzBuUW42blB2VnNvQVNkYmUtbW4tTVFHR0dORFNuc2NhOU1FRWwtUkF1QTVJcFk4V0RwTWhoYURCS3hRT3pKa3FBQUNldDFmQ3d0bk5OdUk1bDk0UXlpZlZpdGlPMHFSdUU1UQ?oc=5",
+    "why": "source too thin (13 words of text)"
+  },
+  {
+    "at": "2026-11-18T05:09:54+00:00",
+    "id": "rss:8102f40695b3b1af",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "MedPage Today",
+    "title": "FDA Adds Another Player in ALK-Positive Lung Cancer",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVmdQOUU5SGhJZW0zRXNwQUZWS29qOG9LbUY0YVdIcWJvQTNMcE9vQXd3NGFhXzZfWkZWcURaUkdTOWxVUEVPcjU5V0RoUXAzTGxGMjhlV2JDc1pmQ1dJSmZQekFCLWduRlMteVBWSUx3NDA?oc=5",
+    "why": "source too thin (11 words of text)"
+  },
+  {
+    "at": "2026-11-18T05:09:56+00:00",
+    "id": "linkedin:7528468745334190080",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "linkedin",
+    "author": "International Association for the Study of Lung Cancer",
+    "title": "What do the latest #ESMO26 findings mean for lung cancer care?\n\nIn Part 2 of our ESMO 2026 Highlights series, Drs. Stephen Liu and Narjust Florez M.D. FASCO wel",
+    "url": "https://www.linkedin.com/posts/iaslc_esmo26-lungcancerconsidered-lungcancer-activity-7528468745334190080-meGV",
+    "why": "writer: Podcast promo naming trials and speakers, with no findings stated"
   }
 ]
