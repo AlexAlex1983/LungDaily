@@ -36,6 +36,7 @@ models:
 
 sources:
   x: true
+  x_hours: [6, 12, 18]           # read X only at these write runs (local) — halves X credits again (18 Nov 2026)
   linkedin_profiles: true         # Apify (harvestapi~linkedin-profile-posts), no LinkedIn login needed
   linkedin_all_hours: [6, 15]     # read ALL voices' LinkedIn at these local hours; focus voices at every write run
   linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
