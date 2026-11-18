@@ -1,49 +1,50 @@
 {
- "slug": "2026-11-18-british-thoracic-society-seeks-feedback-on-draft-pulmonary-nodules-gui",
- "headline": "British Thoracic Society seeks feedback on draft pulmonary nodules guideline",
- "dek": "The BTS is inviting individuals and organisations in the respiratory community to comment on its draft guideline, which updates the previous version published in 2015.",
- "body": "The British Thoracic Society (BTS) is asking individuals and organisations within the respiratory community to give feedback on its draft Pulmonary Nodules Guideline, according to a post on LinkedIn.\n\nThe BTS said the previous guideline on pulmonary nodules was published in 2015 and that there have been several important developments in the landscape since then. It described the latest guideline as representing a new process.\n\nAccording to the society, the draft focuses on accurately diagnosing cancerous and non-cancerous pulmonary nodules in adults aged 18 or over.\n\nThe deadline for feedback is Tuesday 1 December. The BTS included a link in its post for those wishing to respond.",
- "key_quote": "The previous guideline on pulmonary nodules was published in 2015; since then, there have been several important developments in the landscape.",
- "tags": [
-  "guidelines",
-  "lung-cancer",
-  "diagnostics",
-  "policy"
- ],
- "people": [],
- "category": "policy",
- "score": 7.0,
- "created_at": "2026-11-18T14:09:56+00:00",
- "checker": {
-  "pass": true,
-  "issues": []
- },
- "embed": {
-  "type": "linkedin",
-  "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7528820100020391936",
-  "url": "https://www.linkedin.com/posts/british-thoracic-society_we-are-looking-for-feedback-from-individuals-activity-7528820101014265857-wKed"
- },
- "mentions": [],
- "source": {
-  "id": "linkedin:7528820101014265857",
-  "source": "linkedin",
-  "url": "https://www.linkedin.com/posts/british-thoracic-society_we-are-looking-for-feedback-from-individuals-activity-7528820101014265857-wKed",
-  "title": "",
-  "author_name": "British Thoracic Society (BTS)",
-  "author_handle": "",
-  "author_url": "https://www.linkedin.com/company/british-thoracic-society/posts",
-  "published_at": "2026-11-18T14:03:10+00:00",
-  "extra": {
-   "urn": "urn:li:share:7528820100020391936",
-   "embed_url": "",
-   "via": "profiles"
+  "slug": "2026-11-18-british-thoracic-society-seeks-feedback-on-draft-pulmonary-nodules-gui",
+  "headline": "British Thoracic Society seeks feedback on draft pulmonary nodules guideline",
+  "dek": "The BTS is inviting individuals and organisations in the respiratory community to comment on its draft guideline, which updates the previous version published in 2015.",
+  "body": "The British Thoracic Society (BTS) is asking individuals and organisations within the respiratory community to give feedback on its draft Pulmonary Nodules Guideline, according to a post on LinkedIn.\n\nThe BTS said the previous guideline on pulmonary nodules was published in 2015 and that there have been several important developments in the landscape since then. It described the latest guideline as representing a new process.\n\nAccording to the society, the draft focuses on accurately diagnosing cancerous and non-cancerous pulmonary nodules in adults aged 18 or over.\n\nThe deadline for feedback is Tuesday 1 December. The BTS included a link in its post for those wishing to respond.",
+  "key_quote": "The previous guideline on pulmonary nodules was published in 2015; since then, there have been several important developments in the landscape.",
+  "tags": [
+    "guidelines",
+    "lung-cancer",
+    "diagnostics",
+    "policy"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-18T14:09:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "linkedin",
+    "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7528820100020391936",
+    "url": "https://www.linkedin.com/posts/british-thoracic-society_we-are-looking-for-feedback-from-individuals-activity-7528820101014265857-wKed"
+  },
+  "mentions": [],
+  "source": {
+    "id": "linkedin:7528820101014265857",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/british-thoracic-society_we-are-looking-for-feedback-from-individuals-activity-7528820101014265857-wKed",
+    "title": "",
+    "author_name": "British Thoracic Society (BTS)",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/company/british-thoracic-society/posts",
+    "published_at": "2026-11-18T14:03:10+00:00",
+    "extra": {
+      "urn": "urn:li:share:7528820100020391936",
+      "embed_url": "",
+      "via": "profiles"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-18T14:16:00+00:00",
+  "shared": {
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2lqvfqsze2n",
+    "linkedin": "make",
+    "linkedin_at": "2026-11-18T14:50:40+00:00",
+    "x": "2123151824391954725"
   }
- },
- "status": "published",
- "published_at": "2026-11-18T14:16:00+00:00",
- "shared": {
-  "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2lqvfqsze2n",
-  "linkedin": "make",
-  "linkedin_at": "2026-11-18T14:50:40+00:00"
- }
 }

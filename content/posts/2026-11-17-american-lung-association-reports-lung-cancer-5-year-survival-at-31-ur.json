@@ -1,57 +1,58 @@
 {
- "slug": "2026-11-17-american-lung-association-reports-lung-cancer-5-year-survival-at-31-ur",
- "headline": "American Lung Association reports lung cancer 5-year survival at 31%, urges Congress to widen trial access",
- "dek": "The association's \"State of Lung Cancer\" report points to improved survival, while the charity calls on Congress to make clinical trials more accessible and advance research.",
- "body": "The American Lung Association said in a post on X that its \"State of Lung Cancer\" report found the five-year survival rate for lung cancer has increased to 31%.\n\nThe association said everyone needs access to early detection and treatments. It asked Congress to make critical clinical trials accessible, advance research and improve care for all.\n\nAccording to the report's webpage, it sets out the toll lung cancer takes in each US state. It examines rates of new cases, survival, early diagnosis, surgical treatment, lack of treatment and screening. The association said the findings indicate that states must do more to protect their residents from lung cancer. The report also explores the burden among different racial and ethnic groups at national and state levels.\n\nThe association said all new lung cancer discoveries approved and recommended today, including screening and treatment advances, have been studied in clinical trials. It urged Congress to support the bipartisan Clinical Trial Modernization Act (H.R. 3521/S. 4440), which it said would make clinical trials more accessible, including for people with lung cancer.",
- "key_quote": "the lung cancer 5-year survival rate has increased to 31%",
- "tags": [
-  "lung-cancer",
-  "policy",
-  "trial",
-  "screening",
-  "equity"
- ],
- "people": [],
- "category": "policy",
- "score": 7.0,
- "created_at": "2026-11-17T15:38:28+00:00",
- "checker": {
-  "pass": true,
-  "issues": []
- },
- "embed": {
-  "type": "x",
-  "tweet_id": "2122711617754271831",
-  "url": "https://x.com/LungAssociation/status/2122711617754271831"
- },
- "mentions": [],
- "source": {
-  "id": "x:2122711617754271831",
-  "source": "x",
-  "url": "https://x.com/LungAssociation/status/2122711617754271831",
-  "title": "",
-  "author_name": "American Lung Association",
-  "author_handle": "LungAssociation",
-  "author_url": "https://x.com/LungAssociation",
-  "published_at": "2026-11-17T15:21:02+00:00",
-  "extra": {
-   "tweet_id": "2122711617754271831",
-   "query_kind": "voices",
-   "links": [
-    "https://Lung.org/SOLC",
-    "https://x.com/LungAssociation/status/2122711617754271831/photo/1"
-   ],
-   "author_followers": 44411,
-   "author_id": "17049255",
-   "page_fetched": true,
-   "linked_url": "https://www.lung.org/research/state-of-lung-cancer"
+  "slug": "2026-11-17-american-lung-association-reports-lung-cancer-5-year-survival-at-31-ur",
+  "headline": "American Lung Association reports lung cancer 5-year survival at 31%, urges Congress to widen trial access",
+  "dek": "The association's \"State of Lung Cancer\" report points to improved survival, while the charity calls on Congress to make clinical trials more accessible and advance research.",
+  "body": "The American Lung Association said in a post on X that its \"State of Lung Cancer\" report found the five-year survival rate for lung cancer has increased to 31%.\n\nThe association said everyone needs access to early detection and treatments. It asked Congress to make critical clinical trials accessible, advance research and improve care for all.\n\nAccording to the report's webpage, it sets out the toll lung cancer takes in each US state. It examines rates of new cases, survival, early diagnosis, surgical treatment, lack of treatment and screening. The association said the findings indicate that states must do more to protect their residents from lung cancer. The report also explores the burden among different racial and ethnic groups at national and state levels.\n\nThe association said all new lung cancer discoveries approved and recommended today, including screening and treatment advances, have been studied in clinical trials. It urged Congress to support the bipartisan Clinical Trial Modernization Act (H.R. 3521/S. 4440), which it said would make clinical trials more accessible, including for people with lung cancer.",
+  "key_quote": "the lung cancer 5-year survival rate has increased to 31%",
+  "tags": [
+    "lung-cancer",
+    "policy",
+    "trial",
+    "screening",
+    "equity"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-17T15:38:28+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2122711617754271831",
+    "url": "https://x.com/LungAssociation/status/2122711617754271831"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2122711617754271831",
+    "source": "x",
+    "url": "https://x.com/LungAssociation/status/2122711617754271831",
+    "title": "",
+    "author_name": "American Lung Association",
+    "author_handle": "LungAssociation",
+    "author_url": "https://x.com/LungAssociation",
+    "published_at": "2026-11-17T15:21:02+00:00",
+    "extra": {
+      "tweet_id": "2122711617754271831",
+      "query_kind": "voices",
+      "links": [
+        "https://Lung.org/SOLC",
+        "https://x.com/LungAssociation/status/2122711617754271831/photo/1"
+      ],
+      "author_followers": 44411,
+      "author_id": "17049255",
+      "page_fetched": true,
+      "linked_url": "https://www.lung.org/research/state-of-lung-cancer"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-17T15:45:18+00:00",
+  "shared": {
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2jfhcisvg2d",
+    "linkedin": "make",
+    "linkedin_at": "2026-11-17T20:04:03+00:00",
+    "x": "2123151819463594431"
   }
- },
- "status": "published",
- "published_at": "2026-11-17T15:45:18+00:00",
- "shared": {
-  "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2jfhcisvg2d",
-  "linkedin": "make",
-  "linkedin_at": "2026-11-17T20:04:03+00:00"
- }
 }
