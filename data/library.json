@@ -149,7 +149,8 @@
     "2026-11-19-cardiovascular-risk-score-performs-less-well-in-people-with-impaired-s": "data/data-09.jpg",
     "2026-11-19-omalizumab-had-highest-anaphylaxis-reporting-proportion-among-respirat": "pharma/pharma-18.jpg",
     "2026-11-19-dr-kavindhran-velen-integrated-tb-and-lung-health-care-must-deliver-be": "xray/xray-11.jpg",
-    "2026-11-19-asthma-lung-uk-welcomes-tobacco-and-vapes-act-as-it-nears-entry-into-f": "tobacco/tobacco-04.jpg"
+    "2026-11-19-asthma-lung-uk-welcomes-tobacco-and-vapes-act-as-it-nears-entry-into-f": "tobacco/tobacco-04.jpg",
+    "2026-11-19-sglt-2-inhibitors-linked-to-lower-chronic-lower-respiratory-disease-ri": "pharma/pharma-17.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -300,7 +301,8 @@
     "data/data-09.jpg": 147,
     "pharma/pharma-18.jpg": 148,
     "xray/xray-11.jpg": 149,
-    "tobacco/tobacco-04.jpg": 150
+    "tobacco/tobacco-04.jpg": 150,
+    "pharma/pharma-17.jpg": 151
   },
-  "counter": 150
+  "counter": 151
 }

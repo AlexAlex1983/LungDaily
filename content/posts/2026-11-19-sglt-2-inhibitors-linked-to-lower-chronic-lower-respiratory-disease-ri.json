@@ -46,5 +46,9 @@
       "first_author": "Yuhao Li"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-19T14:30:14+00:00",
+  "shared": {
+    "x": "2123424695869452743"
+  }
 }
