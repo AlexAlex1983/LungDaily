@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-19-cardiovascular-risk-score-performs-less-well-in-people-with-impaired-s",
+  "headline": "Cardiovascular risk score performs less well in people with impaired spirometry, Chest study finds",
+  "dek": "Pooled cohort equations predicted major cardiovascular events less accurately in people with impaired spirometry, and adding spirometry and dyspnoea gave only small gains in a US analysis of seven cohorts.",
+  "body": "The pooled cohort equations (PCE), a widely used cardiovascular risk score, performed less well in people with impaired spirometry than in those with normal spirometry, according to a study published in Chest.\n\nResearchers led by Suurya Krishnan, Elizabeth Oelsner and Benjamin Smith analysed ten-year incidence of major cardiovascular events (MACE), defined as myocardial infarction, stroke or death from coronary heart disease. They used data from seven US population-based cohorts covering 26,523 participants. Impaired spirometry included airflow obstruction and preserved ratio impaired spirometry (PRISm).\n\nMACE was more common among participants with impaired spirometry (n=7,547) than among those with normal spirometry (n=18,932), at 14% versus 7%. The hazard ratio, adjusted for PCE variables, was 1.25 (95% CI 1.17 to 1.34). Discrimination of the PCE, measured by area under the receiver operating characteristic curve (AUC), was 0.792 in the normal spirometry group and 0.740 in the impaired spirometry group.\n\nThe team then tested whether adding spirometry measures and dyspnoea to the PCE variables improved prediction. Across the whole cohort, AUC rose slightly from 0.790 with PCE variables alone to between 0.792 and 0.793 with the additions, differences of 0.002 to 0.003. Among participants with impaired spirometry, only the model adding FEV1% predicted, continuous FEV1/FVC and dyspnoea showed an improvement, with an AUC of 0.750 versus 0.746 for the PCE variables alone. The authors reported no differences between models in calibration, sensitivity, specificity or overall performance, including after bootstrapping with 1,000 samples.\n\nThe authors concluded that the PCE performed better in people with normal than impaired spirometry, despite the latter group carrying an excess burden of MACE. They described the improvement from adding spirometry and dyspnoea as small, statistically significant but possibly not clinically meaningful, and said other risk factors should be considered.",
+  "key_quote": "Adding spirometry and dyspnea to PCE variables showed a small statistically significant improvement in MACE prediction, which may not be meaningful clinically, so other risk factors should be considered.",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "primary-care"
+  ],
+  "people": [
+    "Suurya Krishnan",
+    "Elizabeth Oelsner",
+    "Benjamin Smith"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-19T05:10:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43051450/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43051450",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43051450/",
+    "title": "Atherosclerotic cardiovascular disease risk prediction in individuals with and without impaired spirometry.",
+    "author_name": "Suurya Krishnan, Elizabeth Oelsner, Benjamin Smith et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.03.049",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Suurya Krishnan"
+    }
+  },
+  "status": "ready"
+}

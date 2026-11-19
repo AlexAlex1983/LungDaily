@@ -1,32 +1,32 @@
 [
   {
-    "id": "linkedin:7528884681010782208",
+    "id": "linkedin:7528914265202876416",
     "source": "linkedin",
-    "url": "https://www.linkedin.com/posts/jose-luis-castro_worldcopdday-copd-lunghealth-activity-7528884681010782208-1iIn",
+    "url": "https://www.linkedin.com/posts/global-initiative-for-chronic-obstructive-lung-disease_worldcopdday-activity-7528914265202876416-kwvk",
     "title": "",
-    "text": "On World COPD Day, I’m sharing a message about turning global commitments into action. Early diagnosis, affordable inhaled treatment and prevention can help more people breathe easier and live with dignity. Every breath counts.\n\n#WorldCOPDDay #COPD #LungHealth\nPace Center for Global Health",
-    "author_name": "José Luis Castro",
+    "text": "In a blog marking 25 years of #WorldCOPDDay, Dr Obianuju Ozoh (University of Lagos) and David MG Halpin (University of Exeter, GOLD) explore how increased awareness must translate into year-round action. \n\nDiscover why early diagnosis, access to testing, better training and government accountability are essential to improving the lives of people living with chronic obstructive pulmonary disease (COPD).\n\nRead the blog here: https://bit.ly/4kY2XkL",
+    "author_name": "Global Initiative for Chronic Obstructive Lung Disease",
     "author_handle": "",
-    "author_url": "https://www.linkedin.com/in/jose-luis-castro",
-    "author_headline": "WHO Director-General Special Envoy for Chronic Respiratory Diseases. Founder and Ex-CEO of Vital Strategies",
-    "published_at": "2026-11-18T18:19:47+00:00",
+    "author_url": "https://www.linkedin.com/company/global-initiative-for-chronic-obstructive-lung-disease/posts",
+    "author_headline": "5,511 followers",
+    "published_at": "2026-11-18T20:17:21+00:00",
     "metrics": {
-      "likes": 17,
-      "reposts": 2,
+      "likes": 8,
+      "reposts": 0,
       "comments": 1
     },
     "extra": {
-      "urn": "urn:li:ugcPost:7528884504145612803",
+      "urn": "urn:li:share:7528914264242233344",
       "embed_url": "",
       "via": "profiles"
     },
-    "collected_at": "2026-11-18T20:08:35+00:00",
+    "collected_at": "2026-11-19T05:08:43+00:00",
     "triage": {
       "score": 7.0,
       "category": "voices",
-      "author_type": "person",
+      "author_type": "organisation",
       "duplicate": false,
-      "reason": "WHO envoy's World COPD Day policy view on affordable inhaled treatment"
+      "reason": "GOLD expert blog on World COPD Day priorities and accountability"
     }
   },
   {
@@ -89,6 +89,158 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "WHO official sharing new BMJ Open Respiratory study on early-life air pollution."
+    }
+  },
+  {
+    "id": "x:2123147322267746682",
+    "source": "x",
+    "url": "https://x.com/GOLD_COPD/status/2123147322267746682",
+    "title": "",
+    "text": "In a blog marking 25 years of #WorldCOPDDay, Dr Obianuju Ozoh (University of Lagos) and David MG Halpin (University of Exeter, GOLD) explore how increased awareness must translate into year-round action. \n\nDiscover why early diagnosis, access to testing, better training and government accountability are essential to improving the lives of people living with chronic obstructive pulmonary disease (COPD).\n\nRead the blog here: https://t.co/Zi52MF8IZD",
+    "author_name": "GOLD COPD",
+    "author_handle": "GOLD_COPD",
+    "author_url": "https://x.com/GOLD_COPD",
+    "author_headline": "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) works around the world to raise awareness of COPD & improve the lives of those living with it.",
+    "published_at": "2026-11-18T20:12:22+00:00",
+    "metrics": {
+      "likes": 8,
+      "reposts": 5,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2123147322267746682",
+      "query_kind": "voices",
+      "links": [
+        "https://x.com/GOLD_COPD/status/2123147322267746682/photo/1"
+      ],
+      "author_followers": 9115,
+      "author_id": "723254289708158976"
+    },
+    "collected_at": "2026-11-19T05:08:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "GOLD blog by named experts on World COPD Day progress"
+    }
+  },
+  {
+    "id": "rss:064b69a0545d95c2",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWGhaWldkTmN2MHdyZFVQdUl5UExjZU5MZkE3MGpuSklJWWRTMElPYW1oNlBkeGIwMG85U0tOWEd4T1Jkbmx1WGNtVVEwT2lYci1ubFItUHpESVNxdG40dENwSWhUX0dzYkIzMUR4S3dCMDVacGZzTV9OQ0h5aWZaeF9GTGhYNzZGbzkxa0t0Z0h6RjVIRlVoZnlVQko4QjhFSk1KUm8zV0RxVm0ySGNPdzZQUmpYX2tlTk51S0JHb0x4cWIxMTJpVzg0eUtqSnhoRXJ5NUZ1emVYMDJLS2JoNzh1LXVrUQ?oc=5",
+    "title": "Summit Therapeutics starts a sixth Phase III trial of ivonescimab, testing it against AstraZeneca's Imfinzi in stage III lung cancer",
+    "text": "Summit Therapeutics starts a sixth Phase III trial of ivonescimab, testing it against AstraZeneca's Imfinzi in stage III lung cancer MLQ.ai",
+    "author_name": "MLQ.ai",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-18T16:08:56+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory trial results"
+    },
+    "collected_at": "2026-11-19T05:08:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "approvals",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Phase III ivonescimab trial start in stage III lung cancer"
+    }
+  },
+  {
+    "id": "linkedin:7528834798417530881",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/theunion-tblh_unionconf2026-unionconf2026-activity-7528834798417530881-nkJN",
+    "title": "",
+    "text": "Dr Kavindhran Velen, Chief Scientific Officer, The Union, delivers the opening statement during the Spotlight Session on From TB to Lung Health: Building Integrated Primary Care Models for Earlier Detection at the #UnionConf2026 in Rio de Janeiro.\n\n“Integration must go beyond expanding services - it must deliver better outcomes for people without compromising the strengths of the TB programme. This requires three essentials: protecting TB programme performance through timely diagnosis and treatment, adequately resourcing primary healthcare to deliver integrated services, and demonstrating tangible benefits for patients.\n\nUltimately, success must be measured not only by sustained TB outcomes, but also by improved health, better access to care, fewer repeat visits and reduced costs for patients.”\n\n#UnionConf2026",
+    "author_name": "International Union Against Tuberculosis and Lung Disease (The Union)",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/company/theunion-tblh/posts",
+    "author_headline": "29,469 followers",
+    "published_at": "2026-11-18T15:01:34+00:00",
+    "metrics": {
+      "likes": 55,
+      "reposts": 4,
+      "comments": 1
+    },
+    "extra": {
+      "urn": "urn:li:share:7528834795175452672",
+      "embed_url": "",
+      "via": "profiles"
+    },
+    "collected_at": "2026-11-19T05:08:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "voices",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Union CSO statement on integrating TB and lung health care"
+    }
+  },
+  {
+    "id": "linkedin:7528879913295142912",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/iaslc_lungcancerresearch-jto-activity-7528879913295142912-RbbL",
+    "title": "",
+    "text": "LDCT lung cancer screening has been an approved covered benefit for adults aged 55-77 years by the Centers for Medicare and Medicaid Services since 2015. Miller et al. sought to compare the cancer detection rates in a general population lung cancer screening registry to the NLST, which they found were comparable.\n\nRead the article here: https://bit.ly/4sObSaB\n\n#LungCancerResearch #JTO",
+    "author_name": "International Association for the Study of Lung Cancer",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/company/iaslc/posts",
+    "author_headline": "16,729 followers",
+    "published_at": "2026-11-18T18:00:51+00:00",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "comments": 0
+    },
+    "extra": {
+      "urn": "urn:li:share:7528879912263401473",
+      "embed_url": "",
+      "via": "profiles"
+    },
+    "collected_at": "2026-11-19T05:08:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "IASLC highlights JTO study comparing registry and NLST detection rates"
+    }
+  },
+  {
+    "id": "linkedin:7528862881182842881",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/european-respiratory-society_cop31-activity-7528862881182842881-IxF3",
+    "title": "",
+    "text": "🚨 Place healthcare workers at the centre of any new climate and health initiative \n\nThat’s the message from a coalition of 18 leading health professional organisations – including ERS – who have called on the #COP31 Presidency to place healthcare workers at the centre of its new climate and health initiative.\n\nAlongside its partners in the coalition, ERS urges the creation of a dedicated health workforce pillar within the Antalya Initiative for Resilient Health Systems (AIR) – a new drive to strengthen countries’ ability to prepare for, respond to, and adapt to climate-related health threats under the COP31 Türkiye Action Agenda.\n\nRead more about the initiative: https://lnkd.in/eTfs3vzR",
+    "author_name": "European Respiratory Society",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/company/european-respiratory-society/posts",
+    "author_headline": "40,291 followers",
+    "published_at": "2026-11-18T16:53:10+00:00",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "urn": "urn:li:share:7528862856121872384",
+      "embed_url": "",
+      "via": "profiles"
+    },
+    "collected_at": "2026-11-19T05:08:43+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ERS coalition advocacy on health workforce in COP31 initiative"
     }
   },
   {

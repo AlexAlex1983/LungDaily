@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-19-lower-limb-aerobic-exercise-and-activity-tracking-raise-daily-steps-in",
+  "headline": "Lower limb aerobic exercise and activity tracking raise daily steps in COPD, network meta-analysis finds",
+  "dek": "A component network meta-analysis in European Respiratory Review links several pulmonary rehabilitation elements to higher step counts, while supervised programmes showed smaller gains than unsupervised ones.",
+  "body": "A systematic review and component network meta-analysis has examined which elements of pulmonary rehabilitation (PR) improve physical activity in people with COPD. The work, led by Mark W Orme, James Manifield, Lorna Latimer and colleagues, is published in European Respiratory Review.\n\nThe authors searched Medline, Embase, Cinahl and Cochrane databases with no date or language restrictions. They included randomised controlled trials of exercise-based interventions in COPD that measured physical activity or sleep behaviour. Fifty studies (n=4,136) reported a physical activity outcome, and 34 studies measuring steps per day (n=3,039) were included in the network meta-analysis. Certainty of evidence was graded using GRADE.\n\nAccording to the study, physical activity increased following lower limb aerobic exercise by 695 steps per day (95% credible interval 510-898; high certainty). Strength training was associated with an increase of 390 steps per day (95% CrI 63-811; low certainty), and physical activity tracking, such as pedometers, with 938 steps per day (95% CrI 688-1,480; low certainty).\n\nIn-person supervised programmes (-669 steps per day; very low certainty) and remotely supervised programmes (-685 steps per day; low certainty) produced smaller changes in step count than unsupervised programmes.\n\nFour studies (n=638) reported a sleep outcome. The authors wrote that a meta-analysis of sleep outcomes was not possible because of the low number of studies and heterogeneity in the outcome measures used.",
+  "key_quote": "PA increased following lower limb aerobic exercise (695 steps·day-1, 95% credible interval (CrI) 510-898; high certainty)",
+  "tags": [
+    "copd",
+    "rehab",
+    "trial"
+  ],
+  "people": [
+    "Mark W Orme",
+    "James Manifield",
+    "Lorna Latimer"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-19T05:10:27+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43051663/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43051663",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43051663/",
+    "title": "Which elements of pulmonary rehabilitation improve physical activity and sleep in COPD? A systematic review and component network meta-analysis.",
+    "author_name": "Mark W Orme, James Manifield, Lorna Latimer et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-10-18T00:00:00+00:00",
+    "extra": {
+      "journal": "European respiratory review : an official journal of the European Respiratory Society",
+      "doi": "10.1183/16000617.0088-2026",
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Network Meta-Analysis",
+        "Review"
+      ],
+      "first_author": "Mark W Orme"
+    }
+  },
+  "status": "ready"
+}

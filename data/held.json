@@ -2082,5 +2082,109 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-19-jose-luis-castro-world-copd-day-message-urges-turning-global-commitmen",
+    "headline": "José Luis Castro: World COPD Day message urges turning global commitments into action",
+    "dek": "The WHO Special Envoy for Chronic Respiratory Diseases said early diagnosis, affordable inhaled treatment and prevention can help more people breathe easier.",
+    "body": "José Luis Castro, the WHO Director-General's Special Envoy for Chronic Respiratory Diseases, marked World COPD Day with a LinkedIn post on 18 November 2026.\n\nCastro said he was sharing a message about turning global commitments into action. He wrote that early diagnosis, affordable inhaled treatment and prevention can help more people \"breathe easier and live with dignity\".\n\nCastro is also the founder and former chief executive of Vital Strategies. He closed the post with the line \"Every breath counts.\"",
+    "key_quote": "Early diagnosis, affordable inhaled treatment and prevention can help more people breathe easier and live with dignity.",
+    "tags": [
+      "copd",
+      "who",
+      "policy",
+      "diagnostics",
+      "therapeutics"
+    ],
+    "people": [
+      "José Luis Castro"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-19T05:09:56+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 81 words outside limits",
+        "The article is thin. The source is a three-sentence LinkedIn post with no specifics, such as which commitments, which targets, or what the attached message says. The article only paraphrases the post and adds the author's bio, so a reader learns almost nothing beyond the headline.",
+        "The headline and dek say the message 'urges' action, but the actual content of the message is not in the source. The article never says this, and it presents a generic social-media post as if it were news."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7528884504145612803",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_worldcopdday-copd-lunghealth-activity-7528884681010782208-1iIn"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7528884681010782208",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_worldcopdday-copd-lunghealth-activity-7528884681010782208-1iIn",
+      "title": "",
+      "author_name": "José Luis Castro",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/in/jose-luis-castro",
+      "published_at": "2026-11-18T18:19:47+00:00",
+      "extra": {
+        "urn": "urn:li:ugcPost:7528884504145612803",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-19-gold-2027-copd-report-pocket-guide-and-teaching-slides-published",
+    "headline": "GOLD 2027 COPD Report, Pocket Guide and teaching slides published",
+    "dek": "GAAPP said the new GOLD materials were released on World COPD Day, and that its Chronic Airways Assessment Test remains recommended for initial assessments and symptom tracking.",
+    "body": "The Global Allergy & Airways Patient Platform (GAAPP) said on X that the GOLD 2027 Report, Pocket Guide, Summary of Changes and Teaching Slides are now available, timed with World COPD Day.\n\nAccording to the GOLD page linked in the post, the report is an evidence-based strategy document for COPD diagnosis, management and prevention, with citations from the scientific literature. The pocket guide is a quick-reference guide for physicians and nurses, with key information about patient management and education.\n\nThe page also lists a PowerPoint slide set summarising GOLD's objectives, documents and management recommendations, with background information about COPD and the burden of the disease. Use of the slide set is limited to non-commercial educational activities. Readers with bulk order requests are asked to contact GOLD through a form on the page.\n\nGAAPP added that the Chronic Airways Assessment Test (CAAT), which it hosts, remains recommended for initial assessments and symptom tracking.",
+    "key_quote": "The GAAPP-hosted Chronic Airways Assessment Test (CAAT) remains recommended for initial assessments and symptom tracking.",
+    "tags": [
+      "copd",
+      "guidelines",
+      "diagnostics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 8.0,
+    "created_at": "2026-11-19T05:10:13+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It restates the post's headline (GOLD 2027 Report, Pocket Guide, Summary of Changes and slides are out; CAAT remains recommended). The rest is generic descriptions of what a guideline report, pocket guide and slide deck are, plus slide-use terms and a bulk-order form. It says nothing about what changed in the 2027 report, what the Summary of Changes contains, or why the CAAT recommendation matters. A reader learns almost nothing beyond the headline.",
+        "The linked page describes the slide set as summarising 'the 2026 update of the GOLD Report', which conflicts with the '2027' framing. The article repeats the slide description without noting this, so it passes over an inconsistency in its own source.",
+        "The article does not say who recommends the CAAT, and the source does not say either. The 'remains recommended' claim is only GAAPP's own statement about a test it hosts, and the article gives no context for that."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123159427129708715",
+      "url": "https://x.com/gaapporg/status/2123159427129708715"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2123159427129708715",
+      "source": "x",
+      "url": "https://x.com/gaapporg/status/2123159427129708715",
+      "title": "",
+      "author_name": "Global Allergy & Airways Patient Platform",
+      "author_handle": "gaapporg",
+      "author_url": "https://x.com/gaapporg",
+      "published_at": "2026-11-18T21:00:28+00:00",
+      "extra": {
+        "tweet_id": "2123159427129708715",
+        "query_kind": "voices",
+        "links": [
+          "https://goldcopd.org/2027-gold-report-and-pocket-guide",
+          "https://caat.gaapp.org",
+          "https://x.com/gaapporg/status/2123159427129708715/photo/1"
+        ],
+        "author_followers": 1836,
+        "author_id": "1593280809007566849",
+        "page_fetched": true,
+        "linked_url": "https://goldcopd.org/2027-gold-report-and-pocket-guide/"
+      }
+    },
+    "status": "held"
   }
 ]
