@@ -48,5 +48,9 @@
       "linked_url": "https://medicine.yale.edu/internal-medicine/news-article/hypertension-drug-may-treat-scar-tissue-in-the-lungs/"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-19T20:00:14+00:00",
+  "shared": {
+    "x": "2123507767851864561"
+  }
 }
