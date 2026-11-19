@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-19-charcot-leyden-crystals-in-mucus-plugs-drive-localised-inflammation-in",
+  "headline": "Charcot-Leyden crystals in mucus plugs drive localised inflammation in acute ABPA, study finds",
+  "dek": "A study in patients and mice links crystals formed from Galectin-10 to persistent airway obstruction and focal type 2 inflammation in acute allergic bronchopulmonary aspergillosis.",
+  "body": "Charcot-Leyden crystals (CLCs) in mucus plugs create a localised inflammatory niche in acute allergic bronchopulmonary aspergillosis (ABPA), according to a study published in the American Journal of Respiratory and Critical Care Medicine. The crystals form from Galectin-10, a protein derived from eosinophils.\n\nThe researchers, led by Helena Aegerter, Iris Janssens and Kenneth Verstraete, analysed airway samples from 19 patients with acute ABPA and 61 disease controls. They also compared paired biopsies of plugged and unplugged bronchial mucosa to establish where inflammation occurred in relation to the crystals.\n\nAccording to the study, airway CLCs were a sensitive and specific marker of acute ABPA. Mucus plugs containing CLCs were surrounded by a localised type 2 inflammatory niche, together with eosinophils, neutrophils and extracellular traps. Inflammation was minimal in unplugged airways from the same patients, and in plugs that lacked CLCs.\n\nThe team also developed a new mouse model. In mice, plugs containing CLCs induced persistent airway obstruction and local inflammation. Both effects were reduced by an anti-Galectin-10 antibody that dissolves the crystals.\n\nGalectin-10 concentrations served as a quantitative biomarker of acute ABPA, the authors report, and a CLC-targeted positron emission tomography tracer allowed non-invasive visualisation of crystal-rich plugs.\n\nThe authors conclude that experimental CLC deposition is sufficient to promote persistent airway obstruction and inflammation. They propose CLCs as a biomarker, an imaging target and a tractable therapeutic target in eosinophilic muco-obstructive airway disease.",
+  "key_quote": "CLC-containing mucus plugs form focal inflammatory niches in acute ABPA, and experimental CLC deposition is sufficient to promote persistent airway obstruction and inflammation.",
+  "tags": [
+    "diagnostics",
+    "therapeutics",
+    "asthma"
+  ],
+  "people": [
+    "Helena Aegerter",
+    "Iris Janssens",
+    "Kenneth Verstraete"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-19T17:09:48+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43055350/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43055350",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43055350/",
+    "title": "Charcot-Leyden crystals drive a localized inflammatory niche around mucus plugs in Allergic Bronchopulmonary Aspergillosis.",
+    "author_name": "Helena Aegerter, Iris Janssens, Kenneth Verstraete et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "journal": "American journal of respiratory and critical care medicine",
+      "doi": "10.1093/ajrccm/aamag589",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Helena Aegerter"
+    }
+  },
+  "status": "ready"
+}

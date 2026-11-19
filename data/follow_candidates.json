@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 19,
+    "seen": 20,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1836
@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 28,
+    "seen": 29,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47417
+    "followers": 47407
   },
   "erspublications": {
     "id": "424241621",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 21,
+    "seen": 22,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13826
+    "followers": 13825
   },
   "lungassociation": {
     "id": "17049255",
@@ -50,7 +50,7 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 21,
+    "seen": 22,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
     "followers": 42214
@@ -58,10 +58,10 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 23,
+    "seen": 24,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
-    "followers": 31658
+    "followers": 31657
   },
   "theunion_tblh": {
     "id": "214814928",
@@ -138,10 +138,10 @@
   "narjustflorezmd": {
     "id": "855372288455311360",
     "username": "NarjustFlorezMD",
-    "seen": 5,
+    "seen": 6,
     "name": "Narjust Florez, MD, FASCO",
     "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
-    "followers": 25578
+    "followers": 25577
   },
   "pulmcrit": {
     "id": "873314053",
@@ -266,7 +266,7 @@
   "healiopulm": {
     "id": "3043251863",
     "username": "HealioPulm",
-    "seen": 4,
+    "seen": 5,
     "name": "Healio Pulmonology",
     "bio": "The content you need, when you need it.",
     "followers": 1202
@@ -530,10 +530,10 @@
   "respiratorybmc": {
     "id": "843772062468575232",
     "username": "RespiratoryBMC",
-    "seen": 2,
+    "seen": 3,
     "name": "Respiratory Medicine Portfolio",
     "bio": "@BioMedCentral's portfolio of respiratory medicine journals. \nRespiratory Research, Pneumonia.",
-    "followers": 3543
+    "followers": 3545
   },
   "pulmapp": {
     "id": "966862676361007105",

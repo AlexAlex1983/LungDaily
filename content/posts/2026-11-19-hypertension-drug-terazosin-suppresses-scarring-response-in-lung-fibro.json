@@ -1,0 +1,52 @@
+{
+  "slug": "2026-11-19-hypertension-drug-terazosin-suppresses-scarring-response-in-lung-fibro",
+  "headline": "Hypertension drug terazosin suppresses scarring response in lung fibroblasts from patients with pulmonary fibrosis",
+  "dek": "A Yale study reports that sympathetic nerves grow into fibrotic lung tissue in mice, and that the alpha-blocker terazosin suppressed scarring responses in patient-derived fibroblasts.",
+  "body": "A Yale School of Medicine study published on 18 November in Science Translational Medicine reports that terazosin, an FDA-approved hypertension drug, suppressed the scarring response in fibroblasts taken from patients with pulmonary fibrosis. Yale Internal Medicine highlighted the work on X.\n\nThe researchers simulated pulmonary fibrosis in mice and used whole-lung tissue imaging to observe scar formation. They saw sympathetic nerves, part of the fight-or-flight response, grow into the fibrotic areas. Knocking out a gene involved in the development and vitality of sympathetic nerves prevented the progression of fibrosis. In healthy lungs, these nerves are found mainly in the large, central regions of the airway, whereas fibrotic lungs had nerves in small, peripheral regions. \"It appears that during fibrosis, the lung becomes rewired,\" said Erica Herzog, MD, PhD, John Slade Ely Professor of Medicine (Pulmonary) at Yale School of Medicine.\n\nIn both healthy and fibrotic lungs, the sympathetic nerves accumulated where the protein alpha-smooth muscle actin (α-SMA) was abundant. Terazosin, an alpha-blocker approved by the FDA in 1987 for hypertension, decreases α-SMA production. When the team treated patient fibroblasts with terazosin, the scarring response was suppressed.\n\nHerzog said the findings raise the possibility that alpha-blockers could reduce progression of the disease, and that they provide a rationale for clinical trials. She noted that current antifibrotic treatments slow progression but are not curative, and said they are expensive, have many side effects, only slow progression in some patients and do not help people live longer.",
+  "key_quote": "This provides a rationale for clinical trials to assess the repurposing of FDA-approved alpha-blockers for the treatment of lung fibrosis",
+  "tags": [
+    "ild",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Erica Herzog"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-19T17:10:06+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2123450965869154630",
+    "url": "https://x.com/YaleIMed/status/2123450965869154630"
+  },
+  "mentions": [
+    "YalePCCSM"
+  ],
+  "source": {
+    "id": "x:2123450965869154630",
+    "source": "x",
+    "url": "https://x.com/YaleIMed/status/2123450965869154630",
+    "title": "",
+    "author_name": "Yale Internal Medicine",
+    "author_handle": "YaleIMed",
+    "author_url": "https://x.com/YaleIMed",
+    "published_at": "2026-11-19T16:18:56+00:00",
+    "extra": {
+      "tweet_id": "2123450965869154630",
+      "query_kind": "keywords",
+      "links": [
+        "https://medicine.yale.edu/internal-medicine/news-article/hypertension-drug-may-treat-scar-tissue-in-the-lungs/"
+      ],
+      "author_followers": 13390,
+      "author_id": "1047155810810384385",
+      "page_fetched": true,
+      "linked_url": "https://medicine.yale.edu/internal-medicine/news-article/hypertension-drug-may-treat-scar-tissue-in-the-lungs/"
+    }
+  },
+  "status": "ready"
+}

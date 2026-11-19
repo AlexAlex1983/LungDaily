@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Thursday, 19 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "GOLD 2027 Report and Pocket Guide released",
+      "url": "https://goldcopd.org/2027-gold-report-and-pocket-guide/",
+      "publisher": "Global Initiative for Chronic Obstructive Lung Disease (GOLD)",
+      "published_date": "2026-11-18",
+      "topic": "copd",
+      "summary": "GOLD published its 2027 COPD strategy report and pocket guide on World COPD Day. The update places pulmonary rehabilitation and non-drug care at the core of management, recommends a LAMA as initial therapy for group A, and revises definitions of early, mild, young-onset and pre-COPD."
+    },
+    {
+      "title": "Anaphylaxis Reporting Varies Across Respiratory Biologics In FAERS",
+      "url": "https://hcplive.com/view/anaphylaxis-reporting-varies-respiratory-biologics-faers",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-18",
+      "topic": "asthma",
+      "summary": "A retrospective FAERS analysis presented at ACAAI 2026 compared anaphylaxis reporting for 7 respiratory biologics from October 2020 to March 2026. Omalizumab had the highest anaphylaxis reporting proportion and dupilumab the lowest among established agents."
+    },
+    {
+      "title": "Regional perspectives on air quality and health: WHO Western Pacific Region – technical brief",
+      "url": "https://www.who.int/publications/i/item/388098",
+      "publisher": "World Health Organization",
+      "published_date": "2026-11-18",
+      "topic": "air_pollution",
+      "summary": "WHO released regional technical briefs on air pollution and health, including one for the Western Pacific, where exposure contributes to more than 2 million deaths. The brief notes gaps between national standards and WHO guideline levels and calls for stronger monitoring, clean household energy and cross-border cooperation."
+    },
+    {
+      "title": "Lung Cancer Survival Rate Climbs to 31%, Although Screening Gaps Persist",
+      "url": "https://www.cancernetwork.com/view/lung-cancer-survival-rate-climbs-to-31-although-screening-gaps-persist",
+      "publisher": "CancerNetwork",
+      "published_date": "2026-11-17",
+      "topic": "lung_cancer",
+      "summary": "The American Lung Association's latest report says US lung cancer survival has risen to 31% but screening uptake remains low. The ALA is urging Congress to pass the Clinical Trial Modernization Act to widen trial access."
+    }
+  ]
+}
