@@ -145,7 +145,8 @@
     "2026-11-18-wisconsin-act-76-ratifies-respiratory-care-interstate-compact-says-rep": "airways/airways-21.jpg",
     "2026-11-19-international-federation-on-ageing-joins-speak-up-for-copd-and-backs-t": "airways/airways-25.jpg",
     "2026-11-19-ers-joins-coalition-urging-cop31-to-put-healthcare-workers-at-centre-o": "city/city-11.jpg",
-    "2026-11-19-lower-limb-aerobic-exercise-and-activity-tracking-raise-daily-steps-in": "airways/airways-24.jpg"
+    "2026-11-19-lower-limb-aerobic-exercise-and-activity-tracking-raise-daily-steps-in": "airways/airways-24.jpg",
+    "2026-11-19-cardiovascular-risk-score-performs-less-well-in-people-with-impaired-s": "data/data-09.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -292,7 +293,8 @@
     "airways/airways-21.jpg": 143,
     "airways/airways-25.jpg": 144,
     "city/city-11.jpg": 145,
-    "airways/airways-24.jpg": 146
+    "airways/airways-24.jpg": 146,
+    "data/data-09.jpg": 147
   },
-  "counter": 146
+  "counter": 147
 }
