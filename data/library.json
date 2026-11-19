@@ -147,7 +147,8 @@
     "2026-11-19-ers-joins-coalition-urging-cop31-to-put-healthcare-workers-at-centre-o": "city/city-11.jpg",
     "2026-11-19-lower-limb-aerobic-exercise-and-activity-tracking-raise-daily-steps-in": "airways/airways-24.jpg",
     "2026-11-19-cardiovascular-risk-score-performs-less-well-in-people-with-impaired-s": "data/data-09.jpg",
-    "2026-11-19-omalizumab-had-highest-anaphylaxis-reporting-proportion-among-respirat": "pharma/pharma-18.jpg"
+    "2026-11-19-omalizumab-had-highest-anaphylaxis-reporting-proportion-among-respirat": "pharma/pharma-18.jpg",
+    "2026-11-19-dr-kavindhran-velen-integrated-tb-and-lung-health-care-must-deliver-be": "xray/xray-11.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -296,7 +297,8 @@
     "city/city-11.jpg": 145,
     "airways/airways-24.jpg": 146,
     "data/data-09.jpg": 147,
-    "pharma/pharma-18.jpg": 148
+    "pharma/pharma-18.jpg": 148,
+    "xray/xray-11.jpg": 149
   },
-  "counter": 148
+  "counter": 149
 }
