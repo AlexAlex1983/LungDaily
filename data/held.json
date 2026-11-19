@@ -2186,5 +2186,158 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-19-jose-luis-castro-more-than-70-of-people-with-copd-remain-undiagnosed",
+    "headline": "José Luis Castro: More than 70% of people with COPD remain undiagnosed",
+    "dek": "The WHO Special Envoy for Chronic Respiratory Diseases marked World COPD Day by sharing an interview with LA NACIÓN on the disease's low visibility.",
+    "body": "José Luis Castro, WHO Director-General Special Envoy for Chronic Respiratory Diseases, marked World COPD Day with a LinkedIn post sharing an interview he gave to the Argentine newspaper LA NACIÓN.\n\nCastro described COPD as a disease that \"remains far too invisible\" and said that more than 70% of people with the condition have not been diagnosed. He wrote that early diagnosis can change lives and that breathing is \"a right, not a privilege\".\n\nHe thanked Gabriela Navarra Camerucci and LA NACIÓN for helping bring lung health into the public conversation. The post was published in Spanish and English and included a link to the interview.\n\nCastro is also the founder and former chief executive of Vital Strategies.",
+    "key_quote": "more than 70% of people with COPD have not been diagnosed",
+    "tags": [
+      "copd",
+      "who",
+      "diagnostics",
+      "global-health"
+    ],
+    "people": [
+      "José Luis Castro",
+      "Gabriela Navarra Camerucci"
+    ],
+    "category": "voices",
+    "score": 6.0,
+    "created_at": "2026-11-19T08:08:35+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article calls LA NACIÓN \"the Argentine newspaper\", but the source never gives its nationality, so this detail is unsupported.",
+        "The article is thin. It restates the LinkedIn post (the 70% undiagnosed figure, 'early diagnosis can change lives', 'breathing is a right', the thank-yous, the bilingual post and the link) and adds only the author's bio. It reports nothing from the interview itself and gives no context for the statistic, so a reader learns almost nothing beyond the headline."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7528861573294026752",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_jos%C3%A9-luis-castro-experto-de-la-oms-m%C3%A1s-activity-7528861574254452737-gHOQ"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7528861574254452737",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_jos%C3%A9-luis-castro-experto-de-la-oms-m%C3%A1s-activity-7528861574254452737-gHOQ",
+      "title": "",
+      "author_name": "José Luis Castro",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/in/jose-luis-castro",
+      "published_at": "2026-11-18T16:47:58+00:00",
+      "extra": {
+        "urn": "urn:li:share:7528861573294026752",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-19-obianuju-ozoh-and-david-mg-halpin-world-copd-day-awareness-must-become",
+    "headline": "Obianuju Ozoh and David MG Halpin: World COPD Day awareness must become year-round action",
+    "dek": "In a blog marking 25 years of World COPD Day, the two authors examine how greater awareness of COPD can be turned into sustained action, according to GOLD.",
+    "body": "Dr Obianuju Ozoh (University of Lagos) and David MG Halpin (University of Exeter, GOLD) have written a blog marking 25 years of World COPD Day, the Global Initiative for Chronic Obstructive Lung Disease (GOLD) said in a LinkedIn post.\n\nAccording to GOLD, the authors explore how increased awareness must translate into year-round action.\n\nThe post describes early diagnosis, access to testing, better training and government accountability as essential to improving the lives of people living with chronic obstructive pulmonary disease (COPD). The full blog is linked from the GOLD post.",
+    "key_quote": "explore how increased awareness must translate into year-round action",
+    "tags": [
+      "copd",
+      "diagnostics",
+      "policy",
+      "global-health"
+    ],
+    "people": [
+      "Obianuju Ozoh",
+      "David MG Halpin"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-19T08:08:44+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a short LinkedIn teaser, and the article only restates it. It gives no details from the blog itself, such as arguments, data or recommendations. Beyond the headline and dek, a reader learns only that early diagnosis, testing access, training and government accountability are 'essential'.",
+        "The dek says the authors 'examine how greater awareness of COPD can be turned into sustained action'. This only paraphrases the post and adds nothing.",
+        "The key_quote is presented as a quote, but it is GOLD's own description of the blog ('explore how increased awareness must translate into year-round action'), not words from the authors. Labelling it a key quote risks implying the authors said it.",
+        "The headline puts 'awareness must become year-round action' after the authors' names, as if it were their statement. The source only says the authors 'explore' this. It slightly overstates what the source supports about their position."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7528914264242233344",
+      "url": "https://www.linkedin.com/posts/global-initiative-for-chronic-obstructive-lung-disease_worldcopdday-activity-7528914265202876416-kwvk"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7528914265202876416",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/global-initiative-for-chronic-obstructive-lung-disease_worldcopdday-activity-7528914265202876416-kwvk",
+      "title": "",
+      "author_name": "Global Initiative for Chronic Obstructive Lung Disease",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/company/global-initiative-for-chronic-obstructive-lung-disease/posts",
+      "published_at": "2026-11-18T20:17:21+00:00",
+      "extra": {
+        "urn": "urn:li:share:7528914264242233344",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-19-obianuju-ozoh-and-david-mg-halpin-world-copd-day-awareness-must-lead-t",
+    "headline": "Obianuju Ozoh and David MG Halpin: World COPD Day awareness must lead to year-round action",
+    "dek": "In a blog marking 25 years of World COPD Day, the two authors discuss early diagnosis, testing access, training and government accountability, according to GOLD.",
+    "body": "Dr Obianuju Ozoh of the University of Lagos and David MG Halpin of the University of Exeter, who is affiliated with GOLD, have written a blog marking 25 years of #WorldCOPDDay, the Global Initiative for Chronic Obstructive Lung Disease (GOLD) said in a post on X.\n\nAccording to GOLD, the authors explore how increased awareness must translate into year-round action.\n\nThe organisation said the blog sets out why early diagnosis, access to testing, better training and government accountability are essential to improving the lives of people living with chronic obstructive pulmonary disease (COPD).\n\nGOLD posted the announcement on 18 November 2026 and linked to the full blog.",
+    "key_quote": "increased awareness must translate into year-round action",
+    "tags": [
+      "copd",
+      "diagnostics",
+      "policy",
+      "global-health"
+    ],
+    "people": [
+      "Obianuju Ozoh",
+      "David MG Halpin"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-19T08:09:09+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a short promotional X post, and the article only rephrases it. It gives no findings, arguments, data or recommendations from the blog, so a reader learns nothing beyond the headline.",
+        "The headline and key_quote present 'awareness must lead to/translate into year-round action' as the authors' position. In the source this is GOLD's own summary of what the blog 'explores', not a quote from Ozoh or Halpin. The quote's attribution is therefore misleading."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123147322267746682",
+      "url": "https://x.com/GOLD_COPD/status/2123147322267746682"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2123147322267746682",
+      "source": "x",
+      "url": "https://x.com/GOLD_COPD/status/2123147322267746682",
+      "title": "",
+      "author_name": "GOLD COPD",
+      "author_handle": "GOLD_COPD",
+      "author_url": "https://x.com/GOLD_COPD",
+      "published_at": "2026-11-18T20:12:22+00:00",
+      "extra": {
+        "tweet_id": "2123147322267746682",
+        "query_kind": "voices",
+        "links": [
+          "https://x.com/GOLD_COPD/status/2123147322267746682/photo/1"
+        ],
+        "author_followers": 9115,
+        "author_id": "723254289708158976"
+      }
+    },
+    "status": "held"
   }
 ]

@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-19-omalizumab-had-highest-anaphylaxis-reporting-proportion-among-respirat",
+  "headline": "Omalizumab had highest anaphylaxis reporting proportion among respiratory biologics in FAERS analysis",
+  "dek": "A retrospective pharmacovigilance analysis presented at ACAAI 2026 found omalizumab had the highest share of anaphylaxis reports and dupilumab the lowest among six established agents.",
+  "body": "Omalizumab had the highest anaphylaxis reporting proportion among seven respiratory biologics in an analysis of FDA Adverse Event Reporting System (FAERS) data, according to results presented at the American College of Allergy, Asthma and Immunology (ACAAI) 2026 Annual Scientific Meeting in Phoenix.\n\nThe retrospective pharmacovigilance analysis covered FAERS reports from 1 October 2020 to 31 March 2026. Omalizumab had the highest proportion across all indications and among reports with respiratory indications, followed by reslizumab and tezepelumab. Dupilumab had the lowest proportions among the six established agents.\n\nJennifer K. Priessnitz, MD, a resident at Macon & Joan Brock Virginia Health Sciences at Old Dominion University, presented the oral abstract. She said anaphylaxis accounted for 5.95% of omalizumab reports across all clinical indications and 4.45% of those with respiratory indications. For dupilumab, the figures were 0.15% and 0.31%, respectively. Omalizumab had more than 40,000 reports and dupilumab more than 360,000, which Priessnitz said gave relatively precise estimates, as reflected by narrow 95% confidence intervals.\n\nBecause FAERS lacks exposure denominators, the figures reflect the share of adverse-event reports involving anaphylaxis, not incidence among treated patients. Priessnitz said differences in prescribing patterns, patient populations, time on the market and reporting behaviour may all influence the findings, and that reporting volume does not necessarily translate into greater certainty about clinical risk.\n\nA 2021 FAERS disproportionality analysis, covering 2004 to 2021, had identified a positive anaphylaxis signal for omalizumab and a negative signal for dupilumab.",
+  "key_quote": "These findings should be viewed as hypothesis-generating rather than evidence that 1 biologic carries a greater or lesser clinical risk of anaphylaxis.",
+  "tags": [
+    "asthma",
+    "therapeutics",
+    "diagnostics"
+  ],
+  "people": [
+    "Jennifer K. Priessnitz"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-19T08:08:59+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.hcplive.com/view/anaphylaxis-reporting-varies-respiratory-biologics-faers"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:a27e9e1cfeb6cbd2",
+    "source": "rss",
+    "url": "https://www.hcplive.com/view/anaphylaxis-reporting-varies-respiratory-biologics-faers",
+    "title": "Anaphylaxis Reporting Varies Across Respiratory Biologics In FAERS",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "asthma",
+      "scout_summary": "A retrospective FAERS analysis presented at ACAAI 2026 compared anaphylaxis reporting across seven respiratory biologics from October 2020 to March 2026. Omalizumab had the highest anaphylaxis reporting proportion and dupilumab the lowest among established agents.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

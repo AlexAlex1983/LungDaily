@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Thursday, 19 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "2027 GOLD Report and Pocket Guide released",
+      "url": "https://goldcopd.org/2027-gold-report-and-pocket-guide/",
+      "publisher": "Global Initiative for Chronic Obstructive Lung Disease (GOLD)",
+      "published_date": "2026-11-18",
+      "topic": "copd",
+      "summary": "GOLD released its 2027 COPD strategy report on World COPD Day. Pulmonary rehabilitation and non-drug care are placed at the core of management, a LAMA becomes the initial treatment for group A, and definitions of early, mild, young-person and pre-COPD are revised."
+    },
+    {
+      "title": "Anaphylaxis Reporting Varies Across Respiratory Biologics In FAERS",
+      "url": "https://hcplive.com/view/anaphylaxis-reporting-varies-respiratory-biologics-faers",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-18",
+      "topic": "asthma",
+      "summary": "A retrospective FAERS analysis presented at ACAAI 2026 compared anaphylaxis reporting across seven respiratory biologics from October 2020 to March 2026. Omalizumab had the highest anaphylaxis reporting proportion and dupilumab the lowest among established agents."
+    },
+    {
+      "title": "37% of Delhi-NCR residents surveyed plan to move out due to air pollution",
+      "url": "https://www.business-standard.com/amp/india-news/delhi-ncr-residents-plan-to-move-out-air-pollution-survey-126111900427_1.html",
+      "publisher": "Business Standard",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "A LocalCircles survey found 37% of Delhi-NCR respondents plan to leave the region because of air pollution, up from 8% in December 2025. 72% said someone in their close network had developed a severe health condition they attributed to prolonged exposure to polluted air."
+    },
+    {
+      "title": "Health Minute: New 2026 Lung Cancer Report Released",
+      "url": "https://www.knoe.com/2026/11/18/health-minute-new-2026-lung-cancer-report-released/",
+      "publisher": "KNOE",
+      "published_date": "2026-11-18",
+      "topic": "lung_cancer",
+      "summary": "The American Lung Association's annual State of Lung Cancer report says US five-year lung cancer survival rose from 18% to 31% over nine years as screening rates increased. Lung cancer remains the leading cause of cancer death in the US."
+    }
+  ]
+}
