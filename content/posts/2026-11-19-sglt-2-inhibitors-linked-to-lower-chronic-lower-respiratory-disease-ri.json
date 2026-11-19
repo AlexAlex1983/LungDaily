@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-19-sglt-2-inhibitors-linked-to-lower-chronic-lower-respiratory-disease-ri",
+  "headline": "SGLT-2 inhibitors linked to lower chronic lower respiratory disease risk in type 2 diabetes",
+  "dek": "Two target trial emulations using Shenzhen health data found SGLT-2 inhibitor users had a lower incidence of chronic lower respiratory disease than users of GLP-1 receptor agonists or DPP-4 inhibitors.",
+  "body": "Adults with type 2 diabetes who used sodium-glucose cotransporter 2 inhibitors (SGLT-2i) had a lower incidence of chronic lower respiratory disease (CLRD) than users of two other drug classes, according to a study in Respiratory Research.\n\nThe researchers, led by Yuhao Li, Yiqiao Lv and Yongqi Dai, used the Shenzhen Public Health Data Platform. They ran two independent target trial emulations with a new-user active comparator design, comparing SGLT-2i with glucagon-like peptide-1 receptor agonists (GLP-1RA) and with dipeptidyl peptidase-4 inhibitors (DPP-4i). The primary outcome was incident CLRD. Secondary outcomes were bronchitis, bronchiectasis, asthma, chronic obstructive pulmonary disease and emphysema. Hazard ratios were estimated with overlap-weighted Cox models.\n\nOver a median follow-up of 1.76 years, new CLRD cases occurred in 349 SGLT-2i users (7.95%) and 397 GLP-1RA users (9.04%). Against GLP-1RA, SGLT-2i use was associated with lower CLRD incidence (HR 0.87, 95% CI 0.79-0.96). The authors said this was driven mainly by bronchitis (HR 0.89, 95% CI 0.79-1.00) and asthma (HR 0.77, 95% CI 0.58-1.01). No significant associations were found for the other subtypes.\n\nAgainst DPP-4i, SGLT-2i use showed a trend toward lower CLRD risk (HR 0.95, 95% CI 0.91-0.99). Reductions were reported for bronchitis (HR 0.95, 95% CI 0.91-1.00), bronchiectasis (HR 0.86, 95% CI 0.75-1.00) and asthma (HR 0.87, 95% CI 0.77-0.98).\n\nSubgroup analyses showed a significant interaction by sex for bronchiectasis (P interaction = 0.001). Relative to DPP-4i, the association between SGLT-2i use and lower bronchiectasis risk was more pronounced in women than in men.",
+  "key_quote": "Compared with GLP-1 RA, SGLT-2i were associated with a significantly lower risk of CLRDs, driven predominantly by bronchitis",
+  "tags": [
+    "asthma",
+    "bronchiectasis",
+    "copd",
+    "therapeutics"
+  ],
+  "people": [
+    "Yuhao Li",
+    "Yiqiao Lv",
+    "Yongqi Dai"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-19T14:09:20+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43053103/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43053103",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43053103/",
+    "title": "Association between sodium-glucose cotransporter 2 inhibitors and the risk of chronic lower respiratory disease in type 2 diabetes mellitus: findings from two target trial emulations.",
+    "author_name": "Yuhao Li, Yiqiao Lv, Yongqi Dai et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-08-24T00:00:00+00:00",
+    "extra": {
+      "journal": "Respiratory research",
+      "doi": "10.1186/s12931-026-03861-6",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "first_author": "Yuhao Li"
+    }
+  },
+  "status": "ready"
+}
