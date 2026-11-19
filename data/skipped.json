@@ -515,5 +515,38 @@
     "title": "Summit Therapeutics starts a sixth Phase III trial of ivonescimab, testing it against AstraZeneca's Imfinzi in stage III lung cancer",
     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWGhaWldkTmN2MHdyZFVQdUl5UExjZU5MZkE3MGpuSklJWWRTMElPYW1oNlBkeGIwMG85U0tOWEd4T1Jkbmx1WGNtVVEwT2lYci1ubFItUHpESVNxdG40dENwSWhUX0dzYkIzMUR4S3dCMDVacGZzTV9OQ0h5aWZaeF9GTGhYNzZGbzkxa0t0Z0h6RjVIRlVoZnlVQko4QjhFSk1KUm8zV0RxVm0ySGNPdzZQUmpYX2tlTk51S0JHb0x4cWIxMTJpVzg0eUtqSnhoRXJ5NUZ1emVYMDJLS2JoNzh1LXVrUQ?oc=5",
     "why": "source too thin (23 words of text)"
+  },
+  {
+    "at": "2026-11-19T11:09:43+00:00",
+    "id": "rss:a747c32e30367157",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "AllSci",
+    "title": "GSK wins US FDA approval for second Nuvalent lung cancer drug following USD 10.6b acquisition",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPam1weEFxc1NLeUQzZmNzNHNJellPSUZjal9CRFF4M3F3MTZJVGdCTVF2QURJZjc2d3ItbUdZQlItYTlaTkhoMmlOMWU5WmRqcXdSR0cwUWhOS0tRTGFES0EtYy1DRUJmY3Y2MGR0YlFITEdxYlZiNjNTX2puRW1zSmNVX1dvSkVXcHc?oc=5",
+    "why": "source too thin (17 words of text)"
+  },
+  {
+    "at": "2026-11-19T11:11:34+00:00",
+    "id": "linkedin:7528879913295142912",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "linkedin",
+    "author": "International Association for the Study of Lung Cancer",
+    "title": "LDCT lung cancer screening has been an approved covered benefit for adults aged 55-77 years by the Centers for Medicare and Medicaid Services since 2015. Miller",
+    "url": "https://www.linkedin.com/posts/iaslc_lungcancerresearch-jto-activity-7528879913295142912-RbbL",
+    "why": "writer: Teaser post with no figures or methods; too thin for article"
+  },
+  {
+    "at": "2026-11-19T11:11:45+00:00",
+    "id": "x:2123053792451019145",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "ERS publications",
+    "title": "ERJ Open Research: This study has characterised the SSP population and current practice in the UK, and identified associations between frailty and poor outcomes",
+    "url": "https://x.com/ERSpublications/status/2123053792451019145",
+    "why": "writer: Teaser post lacks data and defines no key terms; too thin for article"
   }
 ]

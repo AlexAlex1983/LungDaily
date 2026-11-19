@@ -2339,5 +2339,112 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-19-stephen-v-liu-iaslc-podcast-covers-persee-saffron-and-sanovo-in-esmo-2",
+    "headline": "Stephen V Liu: IASLC podcast covers PERSEE, SAFFRON and SANOVO in ESMO 2026 highlights",
+    "dek": "Liu announced the second ESMO 2026 highlights episode of the IASLC podcast Lung Cancer Considered, featuring three clinical trials and their lead discussants.",
+    "body": "Stephen V Liu, chief of hematology and oncology at Georgetown and MedStar Georgetown University Hospital, announced on X the second episode in the ESMO 2026 highlights series for the IASLC podcast Lung Cancer Considered.\n\nAccording to Liu's post, the episode discusses PERSEE with Dr Chantal Decroisette, SAFFRON with Dr Xiao-Rong Dong, and SANOVO with Dr Yi-Long Wu.\n\nThe episode page on the IASLC website describes Part 2 as a conversation hosted by Liu and Dr Narjust Florez about three clinical trials. It says the discussions explore emerging strategies for targeting MET in EGFR-mutated non-small cell lung cancer, advances in first-line immunotherapy, and the potential implications of the findings for clinical practice.",
+    "key_quote": "we discuss PERSEE with Dr. @decroisette, SAFFRON with Dr. Xiao-Rong Dong, and SANOVO with Dr. Yi-Long Wu",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [
+      "Stephen V Liu",
+      "Narjust Florez",
+      "Xiao-Rong Dong",
+      "Yi-Long Wu",
+      "Chantal Decroisette"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-19T11:09:57+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It restates the tweet (the episode, the three trials and their guests) and the IASLC blurb. It gives no findings, no trial design, and no indication of which trial relates to which theme (MET in EGFR-mutated NSCLC versus first-line immunotherapy). A reader learns almost nothing beyond the headline.",
+        "The dek calls the guests 'lead discussants'. The source calls them guests, and nothing says they led the trials. This is a minor wording issue."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123351575871869054",
+      "url": "https://x.com/StephenVLiu/status/2123351575871869054"
+    },
+    "mentions": [
+      "IASLC",
+      "decroisette",
+      "ThomasW35874311"
+    ],
+    "source": {
+      "id": "x:2123351575871869054",
+      "source": "x",
+      "url": "https://x.com/StephenVLiu/status/2123351575871869054",
+      "title": "",
+      "author_name": "Stephen V Liu, MD",
+      "author_handle": "StephenVLiu",
+      "author_url": "https://x.com/StephenVLiu",
+      "published_at": "2026-11-19T09:44:00+00:00",
+      "extra": {
+        "tweet_id": "2123351575871869054",
+        "query_kind": "voices",
+        "links": [
+          "https://www.iaslc.org/iaslc-news/lung-cancer-considered/esmo-2026-highlights-part-2"
+        ],
+        "author_followers": 30887,
+        "author_id": "377425889",
+        "page_fetched": true,
+        "linked_url": "https://www.iaslc.org/iaslc-news/lung-cancer-considered/esmo-2026-highlights-part-2"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-19-ers-joins-18-health-organisations-urging-cop31-to-put-healthcare-worke",
+    "headline": "ERS joins 18 health organisations urging COP31 to put healthcare workers at centre of climate and health initiative",
+    "dek": "The European Respiratory Society and a coalition of 18 health professional organisations have asked the COP31 Presidency to create a dedicated health workforce pillar within its new climate and health initiative.",
+    "body": "The European Respiratory Society (ERS) said on LinkedIn that a coalition of 18 leading health professional organisations, including ERS, has called on the COP31 Presidency to place healthcare workers at the centre of its new climate and health initiative.\n\nAccording to the post, ERS and its coalition partners urge the creation of a dedicated health workforce pillar within the Antalya Initiative for Resilient Health Systems (AIR). ERS described AIR as a new drive to strengthen countries' ability to prepare for, respond to, and adapt to climate-related health threats.\n\nThe initiative sits under the COP31 Türkiye Action Agenda, the post said. The message from the coalition, as summarised by ERS, is that healthcare workers should be central to any new climate and health initiative.\n\nThe ERS post links to further information about the initiative.",
+    "key_quote": "Place healthcare workers at the centre of any new climate and health initiative",
+    "tags": [
+      "policy",
+      "air-pollution",
+      "global-health"
+    ],
+    "people": [],
+    "category": "policy",
+    "score": 7.0,
+    "created_at": "2026-11-19T11:11:42+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "Headline and dek say ERS joins, or is joined with, a coalition of 18 organisations. The source says the coalition of 18 includes ERS, so this implies 19 organisations in total.",
+        "The article is thin. It restates the headline in three different ways: the coalition's call, the AIR health workforce pillar, and 'the message ... is that healthcare workers should be central'. It also pads with 'The ERS post links to further information'. A reader learns nothing beyond the headline, such as who the other coalition members are or what the pillar would involve.",
+        "The 'air-pollution' tag is not supported by the source, which does not mention air pollution."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7528862856121872384",
+      "url": "https://www.linkedin.com/posts/european-respiratory-society_cop31-activity-7528862881182842881-IxF3"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7528862881182842881",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/european-respiratory-society_cop31-activity-7528862881182842881-IxF3",
+      "title": "",
+      "author_name": "European Respiratory Society",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/company/european-respiratory-society/posts",
+      "published_at": "2026-11-18T16:53:10+00:00",
+      "extra": {
+        "urn": "urn:li:share:7528862856121872384",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
   }
 ]
