@@ -41,6 +41,13 @@
   "status": "published",
   "published_at": "2026-11-19T14:15:38+00:00",
   "shared": {
-    "x": "2123421016147824700"
+    "x": "2123421016147824700",
+    "linkedin": "make",
+    "linkedin_at": "2026-11-19T14:21:15+00:00",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2obfncygp2x",
+    "featured_email": {
+      "to": "press@asthmaandlung.org.uk",
+      "at": "2026-11-19T14:21:18+00:00"
+    }
   }
 }
