@@ -50,5 +50,9 @@
       "author_id": "1686750882984312832"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-19T15:00:14+00:00",
+  "shared": {
+    "x": "2123431910139457582"
+  }
 }
