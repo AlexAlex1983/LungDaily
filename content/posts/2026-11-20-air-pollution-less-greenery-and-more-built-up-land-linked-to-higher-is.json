@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-20-air-pollution-less-greenery-and-more-built-up-land-linked-to-higher-is",
+  "headline": "Air pollution, less greenery and more built-up land linked to higher ischaemic heart disease risk in European study",
+  "dek": "A study of more than 29 million people in 11 European countries found that combined environmental exposures were associated with a higher incidence of ischaemic heart disease.",
+  "body": "Air pollution, limited access to green spaces and densely built environments may jointly contribute to a higher risk of ischaemic heart disease, according to a European study of more than 29 million participants. The findings were published in The Lancet Regional Health—Europe. Researchers from the Institute of Environmental Medicine at Karolinska Institutet are among the authors.\n\nThe analysis drew on 14 cohorts across 11 European countries. During follow-up, approximately 464,000 participants developed ischaemic heart disease. The researchers assessed long-term exposure to air pollutants, including particulate matter and nitrogen dioxide, access to green spaces, and the proportion of residential land covered by buildings, asphalt and other impervious surfaces.\n\nHigher air pollution, less surrounding greenery and a greater share of impervious surfaces were each associated with higher incidence of the disease. The associations were most evident in the large register-based cohorts. When the factors were examined together, an association with increased risk was also found.\n\nJeroen de Bont, a shared last author, said the links appeared even where air pollution met EU limits, such as in Sweden and Estonia, and where half of residents had green space nearby as recommended by the WHO.\n\nHuyen Nguyen Thi Khanh, first and corresponding author, said the aim was to recognise that people are continuously exposed to multiple potential hazards in their communities and to see how these are interlinked, in order to support better environmental public policy.\n\nAccording to the researchers, the findings support urban planning approaches that address several environmental factors at once. Petter Ljungman, also a shared last author, said the results support continued efforts to reduce air pollution in line with the EU's zero-pollution ambition and to improve access to green spaces in line with WHO recommendations.",
+  "key_quote": "The links appeared even where air pollution met EU limits, such as in Sweden and Estonia",
+  "tags": [
+    "air-pollution",
+    "policy",
+    "who",
+    "ncds"
+  ],
+  "people": [
+    "Huyen Nguyen Thi Khanh",
+    "Jeroen de Bont",
+    "Petter Ljungman"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-20T08:09:19+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://medicalxpress.com/news/2026-11-air-pollution-lack-green-spaces.html"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:c80ef89dcb8f509f",
+    "source": "rss",
+    "url": "https://medicalxpress.com/news/2026-11-air-pollution-lack-green-spaces.html",
+    "title": "Air pollution and lack of green spaces linked to increased risk of heart disease",
+    "author_name": "Medical Xpress",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "A meta-analysis of 14 cohorts in 11 European countries with more than 29 million participants linked higher air pollution, less surrounding greenery and more impervious surfaces to higher incidence of ischemic heart disease. The study, with Karolinska Institutet authors, is published in The Lancet Regional Health – Europe.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

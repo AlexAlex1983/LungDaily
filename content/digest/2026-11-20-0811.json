@@ -1,0 +1,45 @@
+{
+  "edition": "Health news digest – Friday, 20 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "World COPD Day 2026 Focuses on Early Diagnosis and Management",
+      "url": "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/",
+      "publisher": "Respiratory Therapy",
+      "published_date": "2026-11-17",
+      "topic": "copd",
+      "summary": "GOLD set 'Early Diagnosis and Management for a Better Life' as the theme for World COPD Day on 18 November 2026, aiming to address widespread underdiagnosis and misdiagnosis. The campaign highlights recognising precursor conditions and non-tobacco risk factors so treatment and smoking-cessation support can start earlier."
+    },
+    {
+      "title": "Anaphylaxis Reporting Varies Across Respiratory Biologics In FAERS",
+      "url": "https://hcplive.com/view/anaphylaxis-reporting-varies-respiratory-biologics-faers",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-18",
+      "topic": "asthma",
+      "summary": "A postmarketing analysis presented at ACAAI 2026 found omalizumab had the highest anaphylaxis reporting proportion among seven respiratory biologics in the FDA Adverse Event Reporting System. The presenter cautioned that FAERS reporting proportions should not by themselves guide biologic selection."
+    },
+    {
+      "title": "Air pollution and lack of green spaces linked to increased risk of heart disease",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-lack-green-spaces.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "A meta-analysis of 14 cohorts in 11 European countries with more than 29 million participants linked higher air pollution, less surrounding greenery and more impervious surfaces to higher incidence of ischemic heart disease. The study, with Karolinska Institutet authors, is published in The Lancet Regional Health – Europe."
+    },
+    {
+      "title": "Regional perspectives on air quality and health: WHO Western Pacific Region: technical brief",
+      "url": "https://www.who.int/publications/i/item/388098",
+      "publisher": "World Health Organization",
+      "published_date": "2026-11-18",
+      "topic": "air_pollution",
+      "summary": "A WHO technical brief, one of a set of regional briefs published on 18 November 2026, reports that air pollution exposure contributes to more than 2 million deaths a year in the Western Pacific Region, mostly from noncommunicable diseases. It notes substantial gaps between national air quality standards and WHO recommendations and sets out priority actions."
+    },
+    {
+      "title": "FDA Approves Nelkarmi for Previously Treated ALK+ Lung Cancer",
+      "url": "https://www.curetoday.com/view/fda-approves-neladalkib-for-previously-treated-alk-lung-cancer",
+      "publisher": "CURE",
+      "published_date": "2026-11-17",
+      "topic": "lung_cancer",
+      "summary": "The FDA granted accelerated approval to neladalkib (Nelkarmi) for adults with locally advanced or metastatic ALK-positive non-small cell lung cancer previously treated with ALK-targeted drugs. The approval is based on the single-arm Phase 1/2 ALKOVE-1 trial, and continued approval may depend on a confirmatory trial."
+    }
+  ]
+}
