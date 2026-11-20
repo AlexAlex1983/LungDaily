@@ -1,0 +1,55 @@
+{
+  "slug": "2026-11-20-updated-ers-guideline-recommends-add-on-sotatercept-in-pah-at-intermed",
+  "headline": "Updated ERS guideline recommends add-on sotatercept in PAH at intermediate or high risk of death",
+  "dek": "The European Respiratory Society has published an update to its pulmonary arterial hypertension treatment guideline, focusing on sotatercept and the role of right heart catheterisation during follow-up.",
+  "body": "The European Respiratory Society (ERS) announced on X that it has published an update of its clinical practice guideline for the treatment of pulmonary arterial hypertension (PAH). The post coincided with PH Awareness Month.\n\nAccording to the guideline abstract, the update focuses on the latest evidence on sotatercept, an activin signalling inhibitor that targets a novel pathway in PAH, and on the role of right heart catheterisation (RHC) in managing patients during follow-up. An ERS Task Force of global experts, methodologists and a patient representative developed it using ERS methodology and the GRADE approach. It addressed four PICO questions and one narrative question. The authors listed include Gabor Kovacs, Katarina Zeder and Marc Humbert.\n\nThe Task Force recommends add-on sotatercept for PAH patients who already receive PAH drugs and are at intermediate-low, intermediate-high or high risk of death during follow-up. It said this is based on high-certainty evidence from randomised controlled trials. For patients at low risk of death, it makes no recommendation, citing low certainty of evidence and the limited number of such patients in the trials.\n\nThe guideline states that patients receiving sotatercept should be treated in pulmonary hypertension centres, with regular follow-up and appropriate examinations to monitor safety and efficacy.\n\nOn RHC, the Task Force suggests performing it during follow-up in patients on PAH drugs at intermediate-low, intermediate-high or high risk of death, when therapeutic consequences are expected. It makes no recommendation for low-risk patients because the certainty of evidence is very low.",
+  "key_quote": "The ERS guidelines on the treatment of PAH provide an updated evidence-based framework for the optimal management of patients with PAH.",
+  "tags": [
+    "guidelines",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Gabor Kovacs",
+    "Katarina Zeder",
+    "Marc Humbert"
+  ],
+  "category": "research",
+  "score": 9.0,
+  "created_at": "2026-11-20T11:09:48+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2123693836828320006",
+    "url": "https://x.com/EuroRespSoc/status/2123693836828320006"
+  },
+  "mentions": [
+    "ERSpublications"
+  ],
+  "source": {
+    "id": "x:2123693836828320006",
+    "source": "x",
+    "url": "https://x.com/EuroRespSoc/status/2123693836828320006",
+    "title": "",
+    "author_name": "ERS",
+    "author_handle": "EuroRespSoc",
+    "author_url": "https://x.com/EuroRespSoc",
+    "published_at": "2026-11-20T08:24:01+00:00",
+    "extra": {
+      "tweet_id": "2123693836828320006",
+      "query_kind": "voices",
+      "links": [
+        "https://channel.ersnet.org/media-122530-ers-clinical-practice-guidelines-update-for-the-treatment-of-pulmonary-arterial-hypertension",
+        "https://x.com/EuroRespSoc/status/2123693836828320006/photo/1"
+      ],
+      "author_followers": 31657,
+      "author_id": "121685027",
+      "page_fetched": true,
+      "linked_url": "https://channel.ersnet.org/media-122530-ers-clinical-practice-guidelines-update-for-the-treatment-of-pulmonary-arterial-hypertension"
+    }
+  },
+  "status": "ready"
+}

@@ -26,7 +26,7 @@
   "iaslc": {
     "id": "61241883",
     "username": "IASLC",
-    "seen": 16,
+    "seen": 17,
     "name": "IASLC",
     "bio": "The International Association for the Study of Lung Cancer is the only global organization dedicated solely to the study of lung cancer. #LCSM",
     "followers": 21323
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 22,
+    "seen": 23,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13825
+    "followers": 13824
   },
   "lungassociation": {
     "id": "17049255",
@@ -58,7 +58,7 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 24,
+    "seen": 25,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
     "followers": 31657
@@ -394,10 +394,10 @@
   "asthmalungcymru": {
     "id": "221724070",
     "username": "asthmalungcymru",
-    "seen": 2,
+    "seen": 3,
     "name": "Asthma + Lung UK Cymru",
     "bio": "We’re here to fight for your right to breathe | Rydym ni yma i ymladd dros eich hawl i anadlu. Call our Helpline for support: 0300 222 5800",
-    "followers": 2595
+    "followers": 2594
   },
   "asthmalungni": {
     "id": "1243553076423909382",
@@ -822,5 +822,13 @@
     "name": "RT Magazine",
     "bio": "For nearly 40 years, RT Magazine has been the respiratory therapy and critical care industry's leading source of news, research, and product information.",
     "followers": 5208
+  },
+  "ildipfdoc_ni": {
+    "id": "3081496711",
+    "username": "ILDIPFDoc_NI",
+    "seen": 1,
+    "name": "ILD IPF Doc: Nazia Chaudhuri",
+    "bio": "Diagnose, manage and treat patients with IPF, Sarcoidosis; CTD-ILD, NSIP and other fibrotic lung diseases in NI UK.",
+    "followers": 1341
   }
 }

@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-20-tirzepatide-linked-to-fewer-severe-asthma-exacerbations-than-tezepelum",
+  "headline": "Tirzepatide linked to fewer severe asthma exacerbations than tezepelumab in obesity-associated asthma",
+  "dek": "A retrospective cohort study found tirzepatide initiators had a lower hazard of severe exacerbation than tezepelumab initiators, while semaglutide showed a similar hazard.",
+  "body": "Patients with obesity-associated asthma who started tirzepatide had a lower hazard of severe exacerbation than those who started the biologic tezepelumab, according to a retrospective cohort study published in the American Journal of Respiratory and Critical Care Medicine.\n\nThe team, led by Kristen A Staggers, Charles Minard and Meredith C McCormack, used a multi-institutional electronic health record database. They identified patients without diabetes who had specialist-treated, obesity-associated, moderate-to-severe asthma and at least one severe exacerbation in the prior year. All had started liraglutide, semaglutide, tirzepatide or tezepelumab between 1 January 2022 and 31 December 2025. Overlap weighting was used to account for imbalances in baseline asthma and obesity characteristics.\n\nOf 2,779 patients, 133 started liraglutide, 1,770 semaglutide, 472 tirzepatide and 404 tezepelumab. In weighted estimates, tirzepatide was associated with a lower hazard of severe exacerbation than tezepelumab (weighted hazard ratio 0.41; 95% CI 0.24-0.70). Semaglutide showed a similar hazard (weighted hazard ratio 0.99; 95% CI 0.70-1.39).\n\nTirzepatide and semaglutide initiators also reached a greater than 10% reduction in body mass index sooner, needed fewer rescue inhalers and had fewer subsequent respiratory-related encounters than tezepelumab initiators.\n\nThe authors concluded that GLP-1-based medications, particularly dual GLP-1/GIP receptor agonists, may have comparable effectiveness to biologic therapy in patients with obesity-associated asthma without diabetes. They noted that clinical trials are needed to validate the findings of this observational study.",
+  "key_quote": "Clinical trials are necessary to validate findings in this observational study.",
+  "tags": [
+    "asthma",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Kristen A Staggers",
+    "Charles Minard",
+    "Meredith C McCormack"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-20T11:09:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43059008/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43059008",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43059008/",
+    "title": "Glucagon-Like Peptide-1 Agonists or Tezepelumab for Obesity-Associated Asthma: A Cohort Study.",
+    "author_name": "Kristen A Staggers, Charles Minard, Meredith C McCormack et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "journal": "American journal of respiratory and critical care medicine",
+      "doi": "10.1093/ajrccm/aamag613",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Kristen A Staggers"
+    }
+  },
+  "status": "ready"
+}
