@@ -2446,5 +2446,101 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-20-ers-issues-first-guideline-on-managing-idiopathic-pulmonary-fibrosis-w",
+    "headline": "ERS issues first guideline on managing idiopathic pulmonary fibrosis with concomitant lung cancer",
+    "dek": "A European Respiratory Society Task Force made 11 conditional recommendations, weighing oncological benefit against treatment toxicity in patients with both conditions.",
+    "body": "A European Respiratory Society (ERS) task force has produced a clinical practice guideline for patients with idiopathic pulmonary fibrosis (IPF) and lung cancer, published in The European Respiratory Journal. The authors say managing the two conditions together is a major clinical challenge because of increased incidence and a negative effect on quality of life and mortality, and that evidence-based recommendations have been lacking.\n\nThe multidisciplinary Task Force included experts and patient representatives. It produced 11 conditional recommendations across seven PICO questions and two narrative questions; no recommendation was issued for one PICO question. Systematic reviews were carried out for each question, evidence certainty was assessed using GRADE, and recommendations were formulated using the Evidence-to-Decision framework.\n\nFor early-stage lung cancer, the Task Force suggests surgical resection in medically fit patients. It says postoperative risk requires systematic preoperative evaluation, discussion of perioperative antifibrotic therapy and protective perioperative strategies. For stereotactic radiotherapy, it issued a conditional recommendation for either the intervention or the comparison, balancing potential oncological benefit against radiation pneumonitis.\n\nIn locally advanced disease, the Task Force suggests not giving concurrent radio-chemotherapy because of very high acute exacerbation rates. For advanced lung cancer, chemotherapy is suggested in medically fit patients, where survival benefits outweigh increased toxicity risks. For stage IV disease, evidence for immunotherapy was limited, so a conditional recommendation for either the intervention or the comparison was issued. Evidence on targeted therapy was insufficient to support a recommendation.\n\nThe authors conclude that, given the poor prognosis of both conditions and the risks of treatment, management requires multidisciplinary assessment of competing risks and patient preferences in experienced interstitial lung disease and oncology centres.",
+    "key_quote": "For advanced lung cancer, chemotherapy is suggested in medically fit patients, where survival benefits outweigh increased toxicity risks.",
+    "tags": [
+      "ild",
+      "lung-cancer",
+      "guidelines",
+      "therapeutics"
+    ],
+    "people": [
+      "Argyris Tzouvelekis",
+      "Merel E Hellemons",
+      "Charlotte Billiet"
+    ],
+    "category": "research",
+    "score": 9.0,
+    "created_at": "2026-11-20T05:18:12+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The headline calls this the \"first guideline\" on IPF with concomitant lung cancer. The source never says it is the first. It says only that evidence-based recommendations are lacking, so \"first\" is unsupported and overstates the source."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057869/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "pubmed:43057869",
+      "source": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43057869/",
+      "title": "ERS clinical practice guidelines for the management of patients with idiopathic pulmonary fibrosis and lung cancer.",
+      "author_name": "Argyris Tzouvelekis, Merel E Hellemons, Charlotte Billiet et al.",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-19T00:00:00+00:00",
+      "extra": {
+        "journal": "The European respiratory journal",
+        "doi": "10.1183/13993003.01271-2026",
+        "pub_types": [
+          "Journal Article"
+        ],
+        "first_author": "Argyris Tzouvelekis"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-20-aihw-data-show-lung-cancer-survival-in-australia-has-improved-but-ineq",
+    "headline": "AIHW data show lung cancer survival in Australia has improved but inequities persist",
+    "dek": "Lung Foundation Australia said new Australian Institute of Health and Welfare data show lung cancer remains the country's leading cause of cancer death.",
+    "body": "Lung Foundation Australia has highlighted new data from the Australian Institute of Health and Welfare (AIHW) on the impact of lung cancer in Australia. The organisation shared the findings on LinkedIn during Lung Cancer Awareness Month, observed in November.\n\nAccording to the foundation's summary of the data, survival rates have improved. However, lung cancer remains the leading cause of cancer death in Australia.\n\nThe foundation said significant inequities persist for First Nations peoples, people living in disadvantaged areas, and people in regional and remote communities.\n\nThe post directs readers to a series of key findings and an online overview of the AIHW data. Lung Foundation Australia also said that specialist lung cancer nurses are available through its Lung Health Helpline and website chat function, with translation offered in several languages.",
+    "key_quote": "significant inequities persist for First Nations peoples, people living in disadvantaged areas, and regional and remote communities",
+    "tags": [
+      "lung-cancer",
+      "equity",
+      "policy"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-20T05:18:47+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source post gives no figures, survival rates, dates or findings from the AIHW data, and the article adds nothing beyond the headline. Its body restates the headline and dek, then says the post 'directs readers to a series of key findings and an online overview', which amounts to saying the source gives no details. The helpline and nurse paragraph is promotional filler, not news. A reader learns almost nothing beyond the headline.",
+        "The headline says 'AIHW data show...', but the source is only a Lung Foundation Australia social post summarising the data. The article never saw the AIHW data itself, so the headline is presented more firmly than the source supports, though the body does attribute the claim to the foundation's summary."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7529332812135505921",
+      "url": "https://www.linkedin.com/posts/lung-foundation-australia_lungcancerawarenessmonth-lungcancerawarenessmonth-activity-7529332813196640256-RPXL"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7529332813196640256",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/lung-foundation-australia_lungcancerawarenessmonth-lungcancerawarenessmonth-activity-7529332813196640256-RPXL",
+      "title": "",
+      "author_name": "Lung Foundation Australia",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/company/lung-foundation-australia/posts",
+      "published_at": "2026-11-20T00:00:30+00:00",
+      "extra": {
+        "urn": "urn:li:ugcPost:7529332812135505921",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
   }
 ]

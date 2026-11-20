@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-20-copd-review-coexisting-chronic-conditions-worsen-exacerbations-and-out",
+  "headline": "COPD review: coexisting chronic conditions worsen exacerbations and outcomes",
+  "dek": "A review in The European Respiratory Journal sets out the mechanisms behind multimorbidity in COPD and discusses how it should be managed.",
+  "body": "A review published in The European Respiratory Journal examines multimorbidity, defined as the presence of two or more chronic conditions, in people with COPD. The authors, Claus F Vogelmeier, Fuqiang Wen, Stephanie A Christenson and colleagues, describe it as a significant challenge in managing a complex and highly prevalent disease.\n\nAccording to the review, coexisting conditions such as cardiovascular or metabolic diseases increase the frequency and severity of COPD exacerbations, complicate treatment decisions and worsen patient outcomes. The authors write that these diseases may share underlying mechanisms, including systemic inflammation, oxidative stress and risk factors such as smoking, which accelerate disease progression.\n\nThe review discusses the prevalence and clinical significance of multimorbidity in COPD, focusing on shared risk factors, pathophysiological mechanisms and the impact on outcomes. It also examines current strategies for managing COPD alongside coexisting conditions, highlighting the need for a multidisciplinary, personalised approach. The authors also discuss the role of biomarkers in coexisting conditions.",
+  "key_quote": "highlighting the need for a multidisciplinary, personalised approach",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "therapeutics",
+    "tobacco"
+  ],
+  "people": [
+    "Claus F Vogelmeier",
+    "Fuqiang Wen",
+    "Stephanie A Christenson"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-20T05:18:35+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43057872/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43057872",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43057872/",
+    "title": "Mechanisms and management of multimorbidity in patients with COPD.",
+    "author_name": "Claus F Vogelmeier, Fuqiang Wen, Stephanie A Christenson et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "journal": "The European respiratory journal",
+      "doi": "10.1183/13993003.02435-2025",
+      "pub_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "first_author": "Claus F Vogelmeier"
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-20-early-home-based-pulmonary-rehabilitation-after-copd-admission-does-no",
+  "headline": "Early home-based pulmonary rehabilitation after COPD admission does not reduce readmissions in randomised trial",
+  "dek": "A multi-centre trial found no difference in 12-month hospital readmission between early home-based rehabilitation and usual care, though anxiety scores improved and most participants completed the programme.",
+  "body": "A home-based pulmonary rehabilitation programme started within two weeks of hospital discharge did not reduce readmissions among people with COPD, according to a randomised controlled trial published in The European Respiratory Journal. The authors, led by Narelle S Cox, Anthony K May and Angela T Burge, noted that post-hospitalisation pulmonary rehabilitation can reduce readmission risk but that very few people attend after an exacerbation.\n\nThe assessor-blinded, multi-centre trial randomised 157 participants between January 2020 and June 2024 to early rehabilitation (ePR, n=77) or usual care (n=80). The eight-week ePR programme consisted of one physiotherapy home visit plus seven weekly phone calls. The intention-to-treat analysis included 151 participants; six were excluded (five deceased, one transplant).\n\nThe primary outcome was all-cause, non-elective hospitalisation 12 months after rehabilitation completion. It occurred in 60.3% of the ePR group and 64.1% of the usual care group (RR 0.94, 95% CI 0.73 to 1.21). Quality of life and breathlessness improvements did not differ between groups at either time point. Anxiety fell more in the ePR group, with a mean difference of -2.1 (95% CI -3.4 to -0.8) at 10 weeks post-discharge and -1.6 (95% CI -3.0 to -0.2) at 12 months. The authors described this as clinically and statistically significant.\n\nProgramme completion, defined as at least 70% of sessions, was high at 74% (n=57). In a per-protocol comparison with no rehabilitation, ePR completers showed significant improvements in breathlessness, quality of life, anxiety and depression, and self-efficacy. There was one intervention-related adverse event.\n\nThe authors concluded that ePR delivered in patients' homes within two weeks of discharge did not reduce readmissions over 12 months compared with usual care, but did support high programme completion.",
+  "key_quote": "ePR delivered directly to patients in their homes, commenced within 2 weeks of hospital discharge, did not reduce hospital readmissions over 12 months compared to usual care but did support high program completion.",
+  "tags": [
+    "copd",
+    "rehab",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Narelle S Cox",
+    "Anthony K May",
+    "Angela T Burge"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-20T05:18:21+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43057871/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43057871",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43057871/",
+    "title": "Home-based pulmonary rehabilitation early after hospitalisation in COPD: A randomised controlled trial.",
+    "author_name": "Narelle S Cox, Anthony K May, Angela T Burge et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "journal": "The European respiratory journal",
+      "doi": "10.1183/13993003.00985-2026",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Narelle S Cox"
+    }
+  },
+  "status": "ready"
+}
