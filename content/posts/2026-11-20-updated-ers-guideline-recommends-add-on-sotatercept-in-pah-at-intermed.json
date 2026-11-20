@@ -51,5 +51,9 @@
       "linked_url": "https://channel.ersnet.org/media-122530-ers-clinical-practice-guidelines-update-for-the-treatment-of-pulmonary-arterial-hypertension"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-20T13:00:14+00:00",
+  "shared": {
+    "x": "2123764523429404929"
+  }
 }
