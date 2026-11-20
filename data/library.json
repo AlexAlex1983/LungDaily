@@ -162,7 +162,8 @@
     "2026-11-20-updated-ers-guideline-recommends-add-on-sotatercept-in-pah-at-intermed": "globe/globe-19.jpg",
     "2026-11-20-tirzepatide-linked-to-fewer-severe-asthma-exacerbations-than-tezepelum": "asthma/asthma-01.jpg",
     "2026-11-20-ats-asthma-guideline-recommends-inhaled-steroid-containing-relievers-o": "asthma/asthma-18.jpg",
-    "2026-11-20-downpatrick-roadside-monitor-breaches-northern-ireland-no2-limit-for-f": "pollution/pollution-09.jpg"
+    "2026-11-20-downpatrick-roadside-monitor-breaches-northern-ireland-no2-limit-for-f": "pollution/pollution-09.jpg",
+    "2026-11-20-fewer-than-half-of-older-patients-with-metastatic-lung-cancer-received": "ctscan/ctscan-05.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -187,7 +188,7 @@
     "research/research-11.jpg": 20,
     "airways/airways-04.jpg": 21,
     "ctscan/ctscan-10.jpg": 139,
-    "ctscan/ctscan-05.jpg": 23,
+    "ctscan/ctscan-05.jpg": 164,
     "asthma/asthma-04.jpg": 24,
     "research/research-12.jpg": 25,
     "airways/airways-02.jpg": 26,
@@ -328,5 +329,5 @@
     "asthma/asthma-18.jpg": 162,
     "pollution/pollution-09.jpg": 163
   },
-  "counter": 163
+  "counter": 164
 }
