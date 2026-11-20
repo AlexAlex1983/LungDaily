@@ -46,5 +46,9 @@
       "first_author": "Claus F Vogelmeier"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-20T08:00:12+00:00",
+  "shared": {
+    "x": "2123688813679530284"
+  }
 }
