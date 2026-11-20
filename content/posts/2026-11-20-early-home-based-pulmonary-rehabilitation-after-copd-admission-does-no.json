@@ -45,5 +45,9 @@
       "first_author": "Narelle S Cox"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-20T06:00:13+00:00",
+  "shared": {
+    "x": "2123658435036115053"
+  }
 }
