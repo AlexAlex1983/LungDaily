@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 23,
+    "seen": 24,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1837
@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 30,
+    "seen": 31,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47405
+    "followers": 47406
   },
   "erspublications": {
     "id": "424241621",
@@ -34,10 +34,10 @@
   "europeanlung": {
     "id": "121759520",
     "username": "EuropeanLung",
-    "seen": 23,
+    "seen": 24,
     "name": "European Lung Foundation",
     "bio": "ELF is dedicated to lung health throughout Europe, providing patient information and raising awareness about lung conditions. Instagram: @european_lung",
-    "followers": 13824
+    "followers": 13825
   },
   "lungassociation": {
     "id": "17049255",
@@ -50,15 +50,15 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 23,
+    "seen": 24,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42214
+    "followers": 42213
   },
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 25,
+    "seen": 26,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
     "followers": 31657
@@ -130,15 +130,15 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 14,
+    "seen": 15,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30887
+    "followers": 30892
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
     "username": "NarjustFlorezMD",
-    "seen": 7,
+    "seen": 8,
     "name": "Narjust Florez, MD, FASCO",
     "bio": "Thoracic Medical Oncologist @DanaFarberNews & @Harvardmed | Young Lung Cancer | Editor @Jamaonc | Co-founder @LatinasInMed | Personal views only.",
     "followers": 25576
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 10,
+    "seen": 11,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65502
+    "followers": 65504
   },
   "copddoc": {
     "id": "356203202",
@@ -830,5 +830,21 @@
     "name": "ILD IPF Doc: Nazia Chaudhuri",
     "bio": "Diagnose, manage and treat patients with IPF, Sarcoidosis; CTD-ILD, NSIP and other fibrotic lung diseases in NI UK.",
     "followers": 1341
+  },
+  "naglaakarimmd": {
+    "id": "240860629",
+    "username": "NaglaAKarimMD",
+    "seen": 1,
+    "name": "Dr. Nagla Abdel Karim",
+    "bio": "A Board Certified medical Oncologist with focuses on Lung Cancer Clinical, Translational Research & Phase I Clinical Trials.",
+    "followers": 2678
+  },
+  "eddiesantosmd": {
+    "id": "1878130926175309824",
+    "username": "EddieSantosMD",
+    "seen": 1,
+    "name": "Edgardo Santos, MD, FACP, FASCO",
+    "bio": "Medical Director-Broward, Florida; The Oncology Institute of Hope & Innovation; Thoracic Oncology; Clinical Associate Professor, Florida Atlantic University",
+    "followers": 335
   }
 }

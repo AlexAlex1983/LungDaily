@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-20-downpatrick-roadside-monitor-breaches-northern-ireland-no2-limit-for-f",
+  "headline": "Downpatrick roadside monitor breaches Northern Ireland NO2 limit for first time since 2019",
+  "dek": "DAERA's Air Pollution in Northern Ireland 2025 report shows one breach of the domestic nitrogen dioxide limit, while nearly all sites exceeded the stricter WHO guideline.",
+  "body": "A roadside air quality monitor in Downpatrick recorded an annual mean nitrogen dioxide (NO2) level of 41 micrograms per cubic metre last year, according to the Air Pollution in Northern Ireland 2025 report published this week by the Department for Agriculture, Environment and Rural Affairs (DAERA). The figure exceeds the 40 micrograms limit set under 2010 Stormont legislation and is the first breach of that limit since 2019, according to The Irish News.\n\nIt was the only instance of NO2 exceeding the domestic target across the region's 16 monitoring sites. However, all sites except Derry's Rosemount exceeded the World Health Organisation (WHO) recommended level of 10 micrograms per cubic metre. DAERA's limits are significantly higher than the WHO's.\n\nNO2 is produced by burning fossil fuels, with road traffic one of its main sources. Long-term exposure is linked to respiratory illnesses including asthma, and studies also show a link between chronic exposure and lung cancer, the report coverage states.\n\nThe report also found that 11 of 12 sites monitoring PM2.5 breached the WHO limit last year, though all were well below the Stormont limit. For PM10, two of 15 sites exceeded the WHO limit: Stockman's Lane in Belfast and Canal Street in Newry. All sites were less than halfway to the Stormont limit. Stricter limits for particulate matter are set to come into force following a public consultation earlier this year.\n\nSDLP councillor Conor Galbraith said the Downpatrick reading should be a \"wake up call\". He said research from Queen's University estimates air pollution contributes to 137 lung cancer cases each year in Northern Ireland, and called for \"a clear plan to improve air quality and protect public health for the long term\".",
+  "key_quote": "The first breach in six years should be a catalyst for action.",
+  "tags": [
+    "air-pollution",
+    "policy",
+    "who",
+    "lung-cancer",
+    "asthma"
+  ],
+  "people": [
+    "Conor Galbraith"
+  ],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-20T17:09:12+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.irishnews.com/news/northern-ireland/northern-ireland-air-quality-monitor-detects-levels-of-dangerous-pollutant-four-times-higher-than-who-guidelines-TWBKO46HHFF4ZG27AQUTFD6S4Q/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:a12c1df40fdf5856",
+    "source": "rss",
+    "url": "https://www.irishnews.com/news/northern-ireland/northern-ireland-air-quality-monitor-detects-levels-of-dangerous-pollutant-four-times-higher-than-who-guidelines-TWBKO46HHFF4ZG27AQUTFD6S4Q/",
+    "title": "Northern Ireland air quality monitor detects levels of dangerous pollutant four times higher than WHO guidelines",
+    "author_name": "The Irish News",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "DAERA's annual Air Pollution in Northern Ireland 2025 report found one site with nitrogen dioxide four times the WHO guideline. Eleven of twelve PM2.5 monitoring sites exceeded the WHO limit, although all stayed below the local legal limit.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

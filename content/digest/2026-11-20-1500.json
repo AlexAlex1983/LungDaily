@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Friday, 20 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "World COPD Day 2026 focuses on early diagnosis and management",
+      "url": "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/",
+      "publisher": "Respiratory Therapy",
+      "published_date": "2026-11-17",
+      "topic": "copd",
+      "summary": "GOLD set 'Early Diagnosis and Management for a Better Life' as the theme of World COPD Day on 18 November 2026. The campaign targets widespread underdiagnosis and misdiagnosis and calls for wider access to diagnostic testing."
+    },
+    {
+      "title": "Scientists may have discovered the hidden cause of allergies",
+      "url": "https://news.griffith.edu.au/2026/11/20/scientists-may-have-discovered-the-hidden-cause-of-allergies",
+      "publisher": "Griffith University",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "A Griffith-led multi-omic analysis suggests allergic disease may begin with an energy failure in barrier cells lining the skin, gut and airways rather than in the immune system. The signal was strongest in eosinophilic oesophagitis and absent in established asthma; the authors describe it as a hypothesis still to be tested."
+    },
+    {
+      "title": "Northern Ireland air quality monitor detects levels of dangerous pollutant four times higher than WHO guidelines",
+      "url": "https://www.irishnews.com/news/northern-ireland/northern-ireland-air-quality-monitor-detects-levels-of-dangerous-pollutant-four-times-higher-than-who-guidelines-TWBKO46HHFF4ZG27AQUTFD6S4Q/",
+      "publisher": "The Irish News",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "DAERA's annual Air Pollution in Northern Ireland 2025 report found one site with nitrogen dioxide four times the WHO guideline. Eleven of twelve PM2.5 monitoring sites exceeded the WHO limit, although all stayed below the local legal limit."
+    },
+    {
+      "title": "Scripps Enrolls 2,000th Patient in Lung Cancer Screening Program",
+      "url": "https://www.globenewswire.com/news-release/2026/11/19/3407117/0/en/scripps-enrolls-2-000th-patient-in-lung-cancer-screening-program.html",
+      "publisher": "GlobeNewswire (Scripps Health)",
+      "published_date": "2026-11-19",
+      "topic": "lung_cancer",
+      "summary": "Scripps Cancer Center in San Diego has enrolled its 2,000th patient in the low-dose CT lung cancer screening programme it launched four years ago, detecting several early-stage cancers. The centre notes fewer than 20% of eligible Americans are up to date with screening and only 29% of US lung cancers are found at an early stage."
+    }
+  ]
+}

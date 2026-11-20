@@ -2542,5 +2542,159 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-20-allergy-may-begin-with-barrier-cell-energy-failure-rather-than-the-imm",
+    "headline": "Allergy may begin with barrier-cell energy failure rather than the immune system, Griffith-led study proposes",
+    "dek": "A Griffith University-led analysis of multi-omic data suggests mitochondrial dysfunction in epithelial barrier cells may precede allergic disease, though the authors describe it as a hypothesis to be tested.",
+    "body": "Allergies may originate in a power failure inside the cells that line the body's barriers, rather than in the immune system, according to a study led by Griffith University. The cells in question line the skin, gut, nose, lungs and oesophagus.\n\nThe team analysed what study lead Professor Peter Smith, a clinical immunologist at Griffith's School of Medicine and Dentistry, described as the largest multi-omic collection of allergy data it was aware of. It covered 116 case-control cohorts, 3,776 patients and 2,164 cohorts. \"For 60 years, we've taught that allergies start with the immune system and the barrier breaks as a consequence, but our work suggests it may be the other way around,\" he said.\n\nThe researchers propose that mitochondria in epithelial cells fail to meet the energy and stress demands of the modern environment, so the barrier cell \"raises the alarm too easily\" and the immune events recognised as allergy follow. The evidence was strongest in eosinophilic oesophagitis, where the programme cells use to clear damaged mitochondria was reduced in all 13 independent patient cohorts. In eczema, changes to the skin's barrier and antioxidant defences were found even in non-inflamed skin.\n\nThe signal was not present in every condition. It was absent in established asthma and nasal polyps, and only partly present in hay fever. The paper also argued that many triggers, including processed diets, pollution, microplastics, detergents, loss of dietary fibre and early antibiotics, act on one shared target: the energy capacity of the barrier cell.\n\nCo-author Associate Professor Nic West, a molecular immunologist at Griffith's School of Pharmacy and Medical Sciences, said current drugs act downstream, so disease often returns when treatment stops. Professor Smith said the team was clear this was a hypothesis, not a settled mechanism, and that the next step is to measure these cells directly in infants before allergy develops.\n\nThe paper, \"The origins of allergy: An outside-in, bioenergetic hypothesis\", is published in Allergy. Co-authors were from Mount Sinai, Leuven, Cork, Southampton, Zurich, Miami, Singapore and Aberdeen.",
+    "key_quote": "This is not a cure but is something we have never had before – a logical starting point.",
+    "tags": [
+      "asthma",
+      "diagnostics",
+      "therapeutics"
+    ],
+    "people": [
+      "Peter Smith",
+      "Nic West"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-20T17:09:02+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 347 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.griffith.edu.au/2026/11/20/scientists-may-have-discovered-the-hidden-cause-of-allergies/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:5f25a7dff01a8f7f",
+      "source": "rss",
+      "url": "https://news.griffith.edu.au/2026/11/20/scientists-may-have-discovered-the-hidden-cause-of-allergies/",
+      "title": "Scientists may have discovered the hidden cause of allergies",
+      "author_name": "Griffith University",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "asthma",
+        "scout_summary": "A Griffith-led multi-omic analysis suggests allergic disease may begin with an energy failure in barrier cells lining the skin, gut and airways rather than in the immune system. The signal was strongest in eosinophilic oesophagitis and absent in established asthma; the authors describe it as a hypothesis still to be tested.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-20-negative-low-dose-ct-result-linked-to-long-term-lung-cancer-risks-comp",
+    "headline": "Negative low-dose CT result linked to long-term lung cancer risks comparable with low-risk population",
+    "dek": "Original research in CHEST indicates that people with negative low-dose CT screening results had long-term outcomes similar to the low-risk population, according to the journal's announcement.",
+    "body": "Individuals with negative low-dose CT screening results generally had long-term risks of lung cancer incidence, lung cancer mortality and all-cause mortality comparable with those of the low-risk population, according to original research published in the November issue of the journal CHEST.\n\nThe American College of Chest Physicians (CHEST) highlighted the findings in a post on X on 20 November 2026. The post said the results support risk-stratified follow-up rather than uniform annual rescreening.\n\nThe three outcomes compared were lung cancer incidence, lung cancer mortality and death from any cause. According to the post, the similarity to the low-risk population applied to people with negative screening results generally, rather than in every case.\n\nThe full paper is available in the November issue of CHEST.",
+    "key_quote": "supporting risk-stratified follow-up rather than uniform annual rescreening",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "diagnostics"
+    ],
+    "people": [],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-20T17:09:39+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a single short promotional post, and the article only restates its headline claim. It gives no study design, population, follow-up length, numbers, authors or paper title, so a reader learns nothing beyond the headline.",
+        "Several sentences pad rather than inform. These are the sentence listing the three outcomes already named in the lede, the line 'The full paper is available in the November issue of CHEST', and the sentence about the post's own attribution.",
+        "The sentence 'applied to people with negative screening results generally, rather than in every case' goes beyond the source. The post says only 'generally', and the article builds a separate point on that one word.",
+        "The dek says 'according to the journal's announcement', but the post came from the American College of Chest Physicians' account, not the journal's. This is a minor attribution blur."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123793656763089186",
+      "url": "https://x.com/accpchest/status/2123793656763089186"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2123793656763089186",
+      "source": "x",
+      "url": "https://x.com/accpchest/status/2123793656763089186",
+      "title": "",
+      "author_name": "CHEST",
+      "author_handle": "accpchest",
+      "author_url": "https://x.com/accpchest",
+      "published_at": "2026-11-20T15:00:40+00:00",
+      "extra": {
+        "tweet_id": "2123793656763089186",
+        "query_kind": "voices",
+        "links": [
+          "https://x.com/accpchest/status/2123793656763089186/photo/1"
+        ],
+        "author_followers": 47406,
+        "author_id": "34827666"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-20-cash-incentives-nearly-double-quit-rates-among-underserved-adults-in-l",
+    "headline": "Cash incentives nearly double quit rates among underserved adults in lung screening trial",
+    "dek": "A JAMA randomised trial of more than 3,200 people referred for lung cancer screening found payments of up to $600 improved smoking cessation compared with usual care.",
+    "body": "Offering financial incentives of up to $600 nearly doubled smoking cessation rates among medically underserved adults undergoing lung cancer screening, according to a randomised clinical trial published in JAMA. Penn Medicine Cancer highlighted the findings on X.\n\nThe study was led by researchers from the Perelman School of Medicine at the University of Pennsylvania and collaborators nationwide. It enrolled more than 3,200 patients who were referred for low-dose CT lung cancer screening and still smoked, across Penn Medicine, Geisinger, Henry Ford Health and Kaiser Permanente Southern California. Participants were predominantly from groups that often face barriers to high-quality care, including people with lower incomes, those in rural communities, and Black and Hispanic adults.\n\nThe researchers tested four approaches: standard ask-advise-refer care; standard care plus free cessation medication; standard care plus free medication and financial incentives; and the same package plus FutureMe, a text-based behavioural tool that prompted participants to imagine their smoke-free future selves. Abstinence at six months was confirmed by blood or urine tests. Incentives produced higher quit rates than usual care and free medication alone. Payments were contingent on a verifying sample: $100 at two weeks, $200 at three months and $300 at six months.\n\n\"These participants had smoked for decades and likely made multiple unsuccessful quit attempts in the past,\" said senior author Scott D. Halpern, MD, PhD, director of the Palliative and Advanced Illness Research Center at Penn. He said adding incentives increased quit rates in a population that can be especially hard to reach with traditional approaches.\n\nJoanna L. Hart, MD, the study's lead author and an assistant professor in Pulmonary, Allergy and Critical Care, said new approaches that help people stop smoking can have a large impact on health and quality of life. The study is believed to be the largest trial of financial incentives for smoking cessation among patients referred for lung cancer screening. The investigators are now examining how to implement incentive-based programmes more widely and studying public perceptions of paying people to quit. The work was funded by a PCORI award.",
+    "key_quote": "These participants had smoked for decades and likely made multiple unsuccessful quit attempts in the past.",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "tobacco",
+      "trial",
+      "equity"
+    ],
+    "people": [
+      "Joanna L. Hart",
+      "Scott D. Halpern"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-20T17:09:52+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 349 words outside limits"
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2123810097860071580",
+      "url": "https://x.com/PennCancer/status/2123810097860071580"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2123810097860071580",
+      "source": "x",
+      "url": "https://x.com/PennCancer/status/2123810097860071580",
+      "title": "",
+      "author_name": "Penn Medicine Cancer",
+      "author_handle": "PennCancer",
+      "author_url": "https://x.com/PennCancer",
+      "published_at": "2026-11-20T16:06:00+00:00",
+      "extra": {
+        "tweet_id": "2123810097860071580",
+        "query_kind": "keywords",
+        "links": [
+          "https://spr.ly/6010By6pLA"
+        ],
+        "author_followers": 5879,
+        "author_id": "1449698779",
+        "page_fetched": true,
+        "linked_url": "https://www.pennmedicine.org/news/cash-rewards-help-underserved-adults-quit-smoking"
+      }
+    },
+    "status": "held"
   }
 ]
