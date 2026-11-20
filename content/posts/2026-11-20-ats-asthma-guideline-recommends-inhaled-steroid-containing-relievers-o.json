@@ -1,0 +1,49 @@
+{
+  "slug": "2026-11-20-ats-asthma-guideline-recommends-inhaled-steroid-containing-relievers-o",
+  "headline": "ATS asthma guideline recommends inhaled steroid-containing relievers over SABA alone for ages 12 and over",
+  "dek": "The American Thoracic Society's new guideline strongly recommends as-needed ICS-containing relievers rather than SABA alone, based on moderate-certainty evidence.",
+  "body": "New clinical practice guidelines from the American Thoracic Society (ATS) recommend inhaled corticosteroid (ICS)-containing reliever therapy for adolescents and adults with asthma across the severity spectrum. The guidance, published in the American Journal of Respiratory and Critical Care Medicine, covers short-acting β₂-agonists (SABAs), ICS-containing relievers and maintenance-and-reliever therapy (MART). Jindal Chest Clinics Chandigarh highlighted the guideline in a post on X.\n\nThe task force included 16 asthma clinicians and researchers, 5 methodologists and a patient representative. It addressed 6 clinical questions, used systematic literature reviews and formulated recommendations with the GRADE framework.\n\nFor patients aged 12 and older at NAEPP treatment Steps 1 and 2, the panel strongly recommends as-needed ICS-SABA over SABA alone. It drew on the BEST and BATURA randomised trials, covering 2,664 participants. Compared with SABA alone, ICS-SABA lowered the risk of severe exacerbations (RR 0.55; 95% CI 0.41-0.74) and emergency department visits (rate ratio 0.43; 95% CI 0.28-0.65), and reduced systemic corticosteroid exposure. Overall adverse event rates were comparable.\n\nThe panel also strongly recommends as-needed ICS-formoterol instead of SABA alone. Across 3 trials (N=3,052), it reduced severe exacerbation risk (RR 0.46; 95% CI 0.35-0.59). The average improvement in Asthma Control Questionnaire scores stayed below the clinically meaningful threshold.\n\nTwo further recommendations are conditional and rest on low-certainty evidence. They favour as-needed ICS plus SABA, or as-needed ICS-formoterol, over scheduled ICS plus as-needed SABA. Severe exacerbation risk did not differ significantly in either comparison. For Steps 3 to 5, the panel strongly recommends ICS-formoterol as MART over maintenance ICS-LABA plus as-needed SABA.",
+  "key_quote": "the panel strongly recommends as-needed ICS-SABA over SABA alone, based on moderate-certainty evidence.",
+  "tags": [
+    "asthma",
+    "guidelines",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-20T14:10:52+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2123643193975505362",
+    "url": "https://x.com/jindalchestchd/status/2123643193975505362"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2123643193975505362",
+    "source": "x",
+    "url": "https://x.com/jindalchestchd/status/2123643193975505362",
+    "title": "",
+    "author_name": "Jindal Chest Clinics Chandigarh",
+    "author_handle": "jindalchestchd",
+    "author_url": "https://x.com/jindalchestchd",
+    "published_at": "2026-11-20T05:02:47+00:00",
+    "extra": {
+      "tweet_id": "2123643193975505362",
+      "query_kind": "keywords",
+      "links": [
+        "https://www.pulmonologyadvisor.com/features/ics-asthma-relievers-ats-guidelines/"
+      ],
+      "author_followers": 166,
+      "author_id": "2904838992",
+      "page_fetched": true,
+      "linked_url": "https://www.pulmonologyadvisor.com/features/ics-asthma-relievers-ats-guidelines/"
+    }
+  },
+  "status": "ready"
+}
