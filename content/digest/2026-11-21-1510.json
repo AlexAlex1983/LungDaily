@@ -1,0 +1,61 @@
+{
+  "edition": "Health news digest – Saturday, 21 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "Silent Mucus Plugs in COPD and Exacerbation Risk, With Emily Wan, MD, MPH",
+      "url": "https://www.hcplive.com/view/silent-mucus-plugs-in-copd-and-exacerbation-risk-with-emily-wan-md-mph",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-20",
+      "topic": "copd",
+      "summary": "At the GOLD 2026 conference, Emily Wan discussed CT-detected mucus plugs, which are common in COPD and linked to worse lung function, exacerbations and mortality even without symptoms. Plugs in three or more segments were associated with an adjusted hazard ratio of 1.24. The 2027 GOLD Report addresses mucus plugging."
+    },
+    {
+      "title": "One COPD Exacerbation Is Too Many: Vickram Tejwani, MD",
+      "url": "https://www.hcplive.com/view/one-copd-exacerbation-too-many-vickram-tejwani-md",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-19",
+      "topic": "copd",
+      "summary": "For World COPD Day, Vickram Tejwani said a single exacerbation warrants urgency and highlighted gaps in spirometry use. A US claims analysis he coauthored found 48.3% of patients starting maintenance therapy began a LABA/ICS combination, whereas he recommends LABA and/or LAMA bronchodilation first."
+    },
+    {
+      "title": "Allergy & Asthma Network Highlights Patient-Centered Research Addressing Critical Gaps in Asthma Care at ACAAI 2026",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "publisher": "Allergy & Asthma Network",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "Four studies presented at ACAAI 2026 examined asthma education, barriers to starting biologics in uncontrolled or severe asthma, and risks of long-term systemic corticosteroids. A global patient survey found uncontrolled symptomatic asthma remains poorly recognised and undertreated."
+    },
+    {
+      "title": "With Flu and Asthma Emergencies Surging, AAFA Releases Flu Vaccine Decision Aid",
+      "url": "https://www.globenewswire.com/news-release/2026/11/20/3407789/0/en/with-flu-and-asthma-emergencies-surging-aafa-releases-flu-vaccine-decision-aid.html",
+      "publisher": "Asthma and Allergy Foundation of America (GlobeNewswire)",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "AAFA released a Flu Vaccine Decision Aid for people with chronic allergic, immunologic and respiratory diseases. Its 2026 Asthma Capitals data show asthma-related ED visits correlate with flu-related ED visits, spiking from December."
+    },
+    {
+      "title": "Air pollution and lack of green spaces linked to increased risk of heart disease",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-lack-green-spaces.html",
+      "publisher": "Medical Xpress (Karolinska Institutet)",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "A European study across 14 cohorts with more than 29 million participants, published in The Lancet Regional Health – Europe, found air pollution, less greenery and more impervious surfaces were associated with higher ischaemic heart disease risk, including when assessed jointly."
+    },
+    {
+      "title": "Computed Tomography Screening and Small Cell Lung Cancer Stage Shift and Survival",
+      "url": "https://jamanetwork.com/journals/jamaoncology/article-abstract/2856651",
+      "publisher": "JAMA Oncology",
+      "published_date": "2026-11-19",
+      "topic": "lung_cancer",
+      "summary": "In a cohort of 17,099 Medicare beneficiaries with small cell lung cancer, those who had low-dose CT screening in the year before diagnosis were more likely to be diagnosed at an earlier stage and had longer overall survival. Medscape reported 3-year overall survival of 28% vs 11% for unscreened patients."
+    },
+    {
+      "title": "CONNECT: Smoking Cessation Among Individuals Receiving Lung Cancer Screening: A Pilot Study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053675",
+      "publisher": "Cancer Prevention Research (PubMed)",
+      "published_date": "2026-11-19",
+      "topic": "lung_cancer",
+      "summary": "A UCSF pilot randomized trial tested CONNECT, a smoking cessation intervention combining a tailored interactive Video Doctor with phone and text outreach, among people undergoing lung cancer screening. Retention was 84% and the intervention was judged feasible and acceptable."
+    }
+  ]
+}

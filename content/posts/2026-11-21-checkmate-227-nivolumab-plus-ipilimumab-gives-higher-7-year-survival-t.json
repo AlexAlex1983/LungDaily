@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-21-checkmate-227-nivolumab-plus-ipilimumab-gives-higher-7-year-survival-t",
+  "headline": "CheckMate 227: nivolumab plus ipilimumab gives higher 7-year survival than chemotherapy in NSCLC",
+  "dek": "Final 7.5-year results show 7-year overall survival of 19% versus 10% in PD-L1-positive disease, and 14% versus 4% in PD-L1-negative disease, Stephen V Liu reported.",
+  "body": "Final 7.5-year outcomes from the CheckMate 227 trial of first-line nivolumab plus ipilimumab in non-small cell lung cancer (NSCLC) have been published in JTO, according to a post on X by thoracic oncologist Stephen V Liu.\n\nIn patients with PD-L1-positive disease, Liu wrote, 7-year overall survival (OS) was 19% with nivolumab and ipilimumab, compared with 10% with chemotherapy. Rates of ongoing response were 25% with the immunotherapy combination versus 3% with chemotherapy.\n\nIn PD-L1-negative disease, 7-year OS was 14% with nivolumab and ipilimumab versus 4% with chemotherapy. Ongoing responses were reported in 20% of patients on the combination versus 3% on chemotherapy.\n\nLiu is Chief of Hematology and Oncology at Georgetown and MedStar Georgetown University Hospital, according to his profile.",
+  "key_quote": "In PD-L1+, 7y OS 19% with nivo/ipi vs 10% with chemo with rates of ongoing response 25% vs 3%.",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-21T16:13:31+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2124165705704878427",
+    "url": "https://x.com/StephenVLiu/status/2124165705704878427"
+  },
+  "mentions": [
+    "JTOonline"
+  ],
+  "source": {
+    "id": "x:2124165705704878427",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2124165705704878427",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-21T15:39:03+00:00",
+    "extra": {
+      "tweet_id": "2124165705704878427",
+      "query_kind": "voices",
+      "links": [
+        "https://www.jto.org/article/S1556-0864(26)02711-5/abstract"
+      ],
+      "author_followers": 30894,
+      "author_id": "377425889",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

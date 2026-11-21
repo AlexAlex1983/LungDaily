@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-21-emily-wan-silent-mucus-plugs-on-ct-may-flag-higher-copd-exacerbation-r",
+  "headline": "Emily Wan: Silent mucus plugs on CT may flag higher COPD exacerbation risk",
+  "dek": "Speaking to HCPLive after a GOLD 2026 session, Emily Wan said mucus plugs on chest CT are common in COPD and are linked to exacerbations and mortality.",
+  "body": "Emily Wan, MD, MPH, of VA Boston Healthcare System and Brigham and Women’s Hospital, presented a session on the burden of mucus plugging in moderate to severe COPD at the GOLD 2026 COPD International Conference in Philadelphia. She later discussed the topic in an interview with HCPLive.\n\nWan said mucus plugs are present in an estimated 25% to almost 80% of people with COPD. Mucus plugs on chest CT are associated with a greater risk of moderate to severe and severe exacerbations, and with greater all-cause mortality. In her session, she reported that over 2 to 8 years of follow-up, each 1-point increase in plug score was linked to a 3% to 8% greater risk of moderate to severe exacerbations.\n\nMortality data come largely from COPDGene. Among 4,363 participants with COPD, adjusted hazard ratios for death were 1.15 (95% CI, 1.02 to 1.29) for plugs in 1 to 2 lung segments and 1.24 (95% CI, 1.10 to 1.41) for plugs in 3 or more segments, compared with no plugs.\n\nWan said about 30% of plugs seen on CT are not accompanied by chronic cough and phlegm, so patients may be unaware of them. She said that because most research on mucus plugs is observational, she would not target the plug itself.",
+  "key_quote": "We don’t quite know what to do with those silent mucus plugs yet",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "guidelines"
+  ],
+  "people": [
+    "Emily Wan"
+  ],
+  "category": "voices",
+  "score": 8.0,
+  "created_at": "2026-11-21T16:13:19+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.hcplive.com/view/silent-mucus-plugs-in-copd-and-exacerbation-risk-with-emily-wan-md-mph"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:fb4df375e66e59a3",
+    "source": "rss",
+    "url": "https://www.hcplive.com/view/silent-mucus-plugs-in-copd-and-exacerbation-risk-with-emily-wan-md-mph",
+    "title": "Silent Mucus Plugs in COPD and Exacerbation Risk, With Emily Wan, MD, MPH",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "At the GOLD 2026 conference, Emily Wan discussed CT-detected mucus plugs, which are common in COPD and linked to worse lung function, exacerbations and mortality even without symptoms. Plugs in three or more segments were associated with an adjusted hazard ratio of 1.24. The 2027 GOLD Report addresses mucus plugging.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
