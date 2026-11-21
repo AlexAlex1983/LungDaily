@@ -169,7 +169,8 @@
     "2026-11-21-fda-grants-accelerated-approval-to-neladalkib-for-advanced-alk-positiv": "pharma/pharma-22.jpg",
     "2026-11-21-data-centres-electricity-demand-linked-to-air-pollution-deaths-far-fro": "pollution/pollution-13.jpg",
     "2026-11-21-mmamapudi-kubjane-wins-2026-stephen-lawn-tb-hiv-research-leadership-pr": "xray/xray-08.jpg",
-    "2026-11-21-global-allergy-airways-patient-platform-alpha-1-care-must-assess-lung": "airways/airways-01.jpg"
+    "2026-11-21-global-allergy-airways-patient-platform-alpha-1-care-must-assess-lung": "airways/airways-01.jpg",
+    "2026-11-21-emily-wan-silent-mucus-plugs-on-ct-may-flag-higher-copd-exacerbation-r": "airways/airways-32.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -339,7 +340,8 @@
     "pharma/pharma-22.jpg": 167,
     "pollution/pollution-13.jpg": 168,
     "xray/xray-08.jpg": 169,
-    "airways/airways-01.jpg": 170
+    "airways/airways-01.jpg": 170,
+    "airways/airways-32.jpg": 171
   },
-  "counter": 170
+  "counter": 171
 }
