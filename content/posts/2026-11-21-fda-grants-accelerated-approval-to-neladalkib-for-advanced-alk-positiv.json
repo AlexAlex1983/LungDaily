@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-21-fda-grants-accelerated-approval-to-neladalkib-for-advanced-alk-positiv",
+  "headline": "FDA grants accelerated approval to neladalkib for advanced ALK-positive non-small cell lung cancer",
+  "dek": "The once-daily pill, made by Nuvalent, was approved on the basis of the ALKOVE-1 trial led at Memorial Sloan Kettering by Alexander Drilon.",
+  "body": "The US Food and Drug Administration (FDA) has granted accelerated approval to the targeted therapy neladalkib (brand name Nelkarmi) for advanced non-small cell lung cancer (NSCLC) driven by the ALK mutation, Memorial Sloan Kettering Cancer Center (MSK) reported on 19 November 2026. The drug is made by Nuvalent.\n\nAccording to MSK, research to develop the drug, and the clinical trial that led to the approval, were led at the centre by thoracic medical oncologist Alexander Drilon, MD. The approval is based on the ALKOVE-1 trial, which involved more than 220 patients at over 70 hospitals. Neladalkib is a pill taken once daily. Accelerated approval means further studies are required to confirm the expected benefits. The drug is also being explored in another trial in which patients may receive neladalkib or a comparator drug as their first targeted therapy for advanced ALK-positive lung cancer.\n\nMSK said ALK fusions occur in up to 5% of NSCLC patients and that six tyrosine kinase inhibitors (TKIs) are already approved for ALK-driven lung cancer, though cancer cells can become resistant over time. Some of these therapies can also affect the brain, causing dizziness, imbalance and changes to mood and thinking. Neladalkib was designed to target ALK more precisely, to act against ALK mutations that have proved resistant to other treatments, and to penetrate the blood-brain barrier.\n\n\"Patients with advanced ALK-positive lung cancer now have another treatment option when other ALK inhibitors, including lorlatinib, have stopped working,\" Dr Drilon said.\n\nMSK listed the most serious side effects as kidney problems, eye toxicity and risks to unborn babies. The most common include liver problems, muscle and bone pain, constipation, altered taste, nerve pain, swelling and fatigue.\n\nALKOVE-1 is funded by Nuvalent. Dr Drilon is a paid consultant to, and a member of the scientific advisory board of, Nuvalent, according to MSK.",
+  "key_quote": "Patients with advanced ALK-positive lung cancer now have another treatment option when other ALK inhibitors, including lorlatinib, have stopped working",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Alexander Drilon",
+    "Bill Piersol"
+  ],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-21T08:08:37+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.mskcc.org/news/fda-approves-neladalkib-for-alk-positive-lung"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:e1c955d880c85fb9",
+    "source": "rss",
+    "url": "https://www.mskcc.org/news/fda-approves-neladalkib-for-alk-positive-lung",
+    "title": "FDA Approves Neladalkib for ALK-Positive Lung Cancer",
+    "author_name": "Memorial Sloan Kettering Cancer Center",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "lung_cancer",
+      "scout_summary": "The FDA granted accelerated approval to neladalkib (Nelkarmi, GSK) on 17 November 2026 for advanced ALK-positive non-small cell lung cancer previously treated with alectinib, or with two or more ALK inhibitors plus platinum chemotherapy. The approval rests on the single-arm Phase 1/2 ALKOVE-1 trial; continued approval depends on a confirmatory trial.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

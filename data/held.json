@@ -2696,5 +2696,60 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-21-four-abstracts-at-acaai-2026-examine-gaps-in-asthma-education-biologic",
+    "headline": "Four abstracts at ACAAI 2026 examine gaps in asthma education, biologic access and steroid use",
+    "dek": "Allergy & Asthma Network says it led and contributed to four abstracts presented at the ACAAI annual meeting in Phoenix, covering education, biologics, systemic corticosteroids and uncontrolled asthma.",
+    "body": "Allergy & Asthma Network said it led and contributed to four research abstracts presented at the American College of Allergy, Asthma and Immunology (ACAAI) 2026 Annual Scientific Meeting, held 12–16 November at the Phoenix Convention Center in Arizona. The findings were presented as conference abstracts rather than in a journal.\n\nOne abstract, \"Beyond Pharmacotherapy: Providing Comprehensive Asthma Education Is Essential For Achieving Optimal Asthma Control\", was authored by Leandra Tonweber, Mitu Patel and De De Gardner. According to the network, it examined why education is an essential part of asthma management and argued that comprehensive education should accompany prescribed treatment. A second, by Patel and Gardner, is titled \"Barriers to Biologic Medication Adoption for Patients with Uncontrolled and Severe Asthma\". It looked at why some patients may face challenges accessing or starting biologic medicines.\n\nGardner also contributed to a systematic review and meta-analysis of randomised controlled trials, \"Maintenance Systemic Corticosteroids for the Management of Asthma\". It examined the benefits and risks of long-term systemic corticosteroid use. The network said patient partners Amanda Flowers, Hilarry Orr and Angel Melendez were coauthors.\n\nThe fourth abstract is titled \"Uncontrolled Symptomatic Asthma Remains Poorly Recognized and Undertreated: Evidence from a Global Patient Survey\". The network said it was produced in collaboration with Sanofi and involved Patel.\n\nThe network said the studies together underline the importance of understanding patients' experiences and improving access to care.",
+    "key_quote": "Medication is important for controlling asthma, but patients also need reliable information and practical tools to manage their condition.",
+    "tags": [
+      "asthma",
+      "therapeutics",
+      "equity",
+      "trial"
+    ],
+    "people": [
+      "Leandra Tonweber",
+      "Mitu Patel",
+      "De De Gardner",
+      "Amanda Flowers",
+      "Hilarry Orr",
+      "Angel Melendez"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-21T08:08:53+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It lists four abstract titles, authors and a one-line topic for each, but reports no findings, data or conclusions. A reader learns little beyond the headline and the titles.",
+        "\"The findings were presented as conference abstracts rather than in a journal\" is not supported. The source says the abstracts were presented at ACAAI but does not say whether they were published in a journal. The article also calls them \"findings\" when the source reports none.",
+        "The key quote is a press-release sentence presented as a standalone quote with no attribution. It could be read as coming from a named person, when it is the organisation's own text."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:307240b92395f64f",
+      "source": "rss",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "title": "Allergy & Asthma Network highlights research on gaps in asthma care at ACAAI 2026",
+      "author_name": "Allergy & Asthma Network",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-20T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "asthma",
+        "scout_summary": "The network led or contributed to four abstracts at the ACAAI 2026 meeting (12–16 November, Phoenix). The studies address the role of asthma education beyond medication, barriers to biologic uptake in severe uncontrolled asthma, risks of long-term steroid use, and under-recognition of uncontrolled asthma.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

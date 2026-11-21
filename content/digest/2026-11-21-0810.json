@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Saturday, 21 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "World COPD Day 2026 Focuses on Early Diagnosis and Management",
+      "url": "https://respiratory-therapy.com/disorders-diseases/chronic-pulmonary-disorders/copd/world-copd-day-2026/",
+      "publisher": "Respiratory Therapy",
+      "published_date": "2026-11-17",
+      "topic": "copd",
+      "summary": "GOLD set 'Early Diagnosis and Management for a Better Life' as the theme of World COPD Day on 18 November 2026, targeting widespread underdiagnosis and misdiagnosis. The campaign stresses recognising precursor conditions and non-tobacco risk factors so treatment and risk reduction can start earlier."
+    },
+    {
+      "title": "Allergy & Asthma Network highlights research on gaps in asthma care at ACAAI 2026",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "publisher": "Allergy & Asthma Network",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "The network led or contributed to four abstracts at the ACAAI 2026 meeting (12–16 November, Phoenix). The studies address the role of asthma education beyond medication, barriers to biologic uptake in severe uncontrolled asthma, risks of long-term steroid use, and under-recognition of uncontrolled asthma."
+    },
+    {
+      "title": "Data centers damage air quality long-distance, study reveals",
+      "url": "https://phys.org/news/2026-11-centers-air-quality-distance-reveals.html",
+      "publisher": "Phys.org",
+      "published_date": "2026-11-20",
+      "topic": "air_pollution",
+      "summary": "An MIT-led modelling study in Environmental Research Letters estimates how electricity demand from US data centres changes surface PM2.5 and ozone and associated health impacts. The authors find the air-quality effects are spread across large regions, not only near the facilities themselves."
+    },
+    {
+      "title": "FDA Approves Neladalkib for ALK-Positive Lung Cancer",
+      "url": "https://www.mskcc.org/news/fda-approves-neladalkib-for-alk-positive-lung",
+      "publisher": "Memorial Sloan Kettering Cancer Center",
+      "published_date": "2026-11-19",
+      "topic": "lung_cancer",
+      "summary": "The FDA granted accelerated approval to neladalkib (Nelkarmi, GSK) on 17 November 2026 for advanced ALK-positive non-small cell lung cancer previously treated with alectinib, or with two or more ALK inhibitors plus platinum chemotherapy. The approval rests on the single-arm Phase 1/2 ALKOVE-1 trial; continued approval depends on a confirmatory trial."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-21-data-centres-electricity-demand-linked-to-air-pollution-deaths-far-fro",
+  "headline": "Data centres' electricity demand linked to air pollution deaths far from the facilities, MIT study estimates",
+  "dek": "MIT researchers estimate that extra air pollution from data centres' power use in 2023 caused about 650 premature deaths across the US, with some Midwestern states heavily affected.",
+  "body": "The rapid expansion of data centres for artificial intelligence harms health and air quality in regions far from where the facilities are located, according to a study by MIT researchers published in Environmental Research Letters.\n\nThe team estimates that additional air pollution from data centres' electricity demand in 2023 resulted in about 650 premature deaths across the United States. Some Midwestern states had among the highest estimated rates of premature deaths per capita attributable to data centres, even though much of the demand was concentrated in Virginia and Texas.\n\nThe researchers built a modelling framework that traces how data centre electricity demand propagates through the interconnected national power grid. It identifies the power plants whose emissions rise in response, hour by hour, and also accounts for how atmospheric conditions affect pollution formation in different regions. In parts of the Midwest, these emissions combine with conditions that favour the formation of fine particulate matter, a pollutant that can cause heart attacks, stroke and lung disease.\n\nYuang (Albert) Chen, an MIT graduate student, said generators that respond to additional demand are often natural gas plants, although this varies by place and hour. Like many earlier studies, the team assumes data centres draw power for computing tasks around the clock.\n\n\"When people think about the negative impacts of data centers, they usually focus on the neighbors,\" said Noelle Selin, the study's senior author and a professor at MIT. She said the study indicates the impacts are widespread across a large region.\n\nThe researchers said the findings underscore the need to consider unintended regional health impacts, and how the location and operation of data centres affect public health more broadly. Co-authors are at MIT, the University of California at Irvine and Yale University.",
+  "key_quote": "Even if you don't think you are affected because there is not a data center near you, think again",
+  "tags": [
+    "air-pollution",
+    "policy"
+  ],
+  "people": [
+    "Noelle Selin",
+    "Yuang (Albert) Chen"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-21T08:09:04+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://phys.org/news/2026-11-centers-air-quality-distance-reveals.html"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:03e2fb8fdc2a10a8",
+    "source": "rss",
+    "url": "https://phys.org/news/2026-11-centers-air-quality-distance-reveals.html",
+    "title": "Data centers damage air quality long-distance, study reveals",
+    "author_name": "Phys.org",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "An MIT-led modelling study in Environmental Research Letters estimates how electricity demand from US data centres changes surface PM2.5 and ozone and associated health impacts. The authors find the air-quality effects are spread across large regions, not only near the facilities themselves.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
