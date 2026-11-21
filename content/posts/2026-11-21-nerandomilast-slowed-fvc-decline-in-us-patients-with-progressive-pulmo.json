@@ -46,5 +46,9 @@
       "first_author": "Steven D Nathan"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-21T06:00:13+00:00",
+  "shared": {
+    "x": "2124020862126813433"
+  }
 }
