@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 25,
+    "seen": 27,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33486
+    "followers": 33488
   },
   "iaslc": {
     "id": "61241883",
@@ -514,10 +514,10 @@
   "my_lungs": {
     "id": "1053369007179468800",
     "username": "my_lungs",
-    "seen": 1,
+    "seen": 2,
     "name": "my_lungs",
     "bio": "The Zephyr Endobronchial Valve is a minimally invasive treatment for emphysema, a form of COPD. The broncoscopic procedure aims to help patients breathe easier.",
-    "followers": 10821
+    "followers": 10820
   },
   "lung_institute": {
     "id": "785387368945741824",
@@ -854,5 +854,13 @@
     "name": "Dr. Estela Rodriguez",
     "bio": "Associate Director Community Outreach- 🫁Thoracic Oncology, University of Miami @SylvesterCancer , 🇵🇷Boricua, Co-founder @KidsHelpingKidsSucceed",
     "followers": 8519
+  },
+  "respiratoryzone": {
+    "id": "3279936032",
+    "username": "RespiratoryZone",
+    "seen": 1,
+    "name": "Respiratory Therapy Zone",
+    "bio": "Top #RespiratoryTherapy Education Platform | Lung Health 🫁 | Lung Diseases 🦠 | Respiratory System | Medical Education ⚕️",
+    "followers": 13677
   }
 }
