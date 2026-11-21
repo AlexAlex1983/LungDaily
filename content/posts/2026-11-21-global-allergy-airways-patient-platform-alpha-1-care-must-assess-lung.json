@@ -40,5 +40,9 @@
       "via": "profiles"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-21T14:15:13+00:00",
+  "shared": {
+    "x": "2124145665064272182"
+  }
 }
