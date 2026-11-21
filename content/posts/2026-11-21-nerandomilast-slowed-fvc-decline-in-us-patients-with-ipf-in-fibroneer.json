@@ -46,5 +46,9 @@
       "first_author": "Justin M Oldham"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-21T08:00:13+00:00",
+  "shared": {
+    "x": "2124051063556698411"
+  }
 }

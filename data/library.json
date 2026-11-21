@@ -164,7 +164,8 @@
     "2026-11-20-ats-asthma-guideline-recommends-inhaled-steroid-containing-relievers-o": "asthma/asthma-18.jpg",
     "2026-11-20-downpatrick-roadside-monitor-breaches-northern-ireland-no2-limit-for-f": "pollution/pollution-09.jpg",
     "2026-11-20-fewer-than-half-of-older-patients-with-metastatic-lung-cancer-received": "ctscan/ctscan-05.jpg",
-    "2026-11-21-nerandomilast-slowed-fvc-decline-in-us-patients-with-progressive-pulmo": "research/research-05.jpg"
+    "2026-11-21-nerandomilast-slowed-fvc-decline-in-us-patients-with-progressive-pulmo": "research/research-05.jpg",
+    "2026-11-21-nerandomilast-slowed-fvc-decline-in-us-patients-with-ipf-in-fibroneer": "research/research-18.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -329,7 +330,8 @@
     "asthma/asthma-01.jpg": 161,
     "asthma/asthma-18.jpg": 162,
     "pollution/pollution-09.jpg": 163,
-    "research/research-05.jpg": 165
+    "research/research-05.jpg": 165,
+    "research/research-18.jpg": 166
   },
-  "counter": 165
+  "counter": 166
 }
