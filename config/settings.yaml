@@ -112,7 +112,7 @@ publishing:
   slots: ["07:00", "09:00", "10:00", "10:30", "11:00", "11:30", "11:45", "14:00",
           "15:00", "15:30", "16:00", "16:30", "16:45", "17:30", "18:00", "21:00"]
   # Write runs (collect + write into the ready queue), local time. Started by slot-clock.yml.
-  write_times: ["06:07", "09:07", "12:07", "15:07", "18:07", "21:07"]
+  write_times: ["06:07", "09:07", "12:07", "15:27", "18:07", "21:07"]   # 15:27: the afternoon digest email arrives ~15:10–15:16
   ready_buffer: 6                 # write runs top the ready queue up to this many articles
   ready_max_age_hours: 36         # ready articles older than this are dropped (status "expired")
 
