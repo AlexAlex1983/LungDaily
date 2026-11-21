@@ -2751,5 +2751,60 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-21-narjust-florez-sexual-health-in-lung-cancer-is-an-overlooked-conversat",
+    "headline": "Narjust Florez: Sexual health in lung cancer is an overlooked conversation",
+    "dek": "The thoracic oncologist said a discussion with Dr Shruti Patel at the Young Lung Cancer Forum addressed sexual health, intimacy and quality of life.",
+    "body": "Narjust Florez, a thoracic medical oncologist at Dana-Farber and Harvard Medical School, wrote on X that sex and lung cancer is \"an important and often overlooked conversation\".\n\nFlorez said the topic was discussed at the #YoungLungCancerForum with Dr Shruti Patel from Stanford. She tagged Patel in the post.\n\nFlorez wrote that sexual health, intimacy and quality of life matter. In her view, patients deserve answers, support and a safe space to ask questions.\n\nFlorez's X profile also lists her as an editor at JAMA Oncology and a co-founder of Latinas in Med.",
+    "key_quote": "Sexual health, intimacy, and quality of life matter.",
+    "tags": [
+      "lung-cancer",
+      "equity"
+    ],
+    "people": [
+      "Narjust Florez",
+      "Shruti Patel"
+    ],
+    "category": "voices",
+    "score": 6.0,
+    "created_at": "2026-11-21T20:08:28+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a short promotional post with no findings, data, or details of what Dr Patel said. The body restates the headline and the post's sentiments, then pads with profile details (JAMA Oncology editor, Latinas in Med co-founder) that have nothing to do with the topic. A reader learns almost nothing beyond the headline.",
+        "The article never acknowledges that the post gives no content from the discussion, so the dek's claim that the discussion 'addressed' sexual health, intimacy and quality of life only repeats the post's slogan-level framing."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2124189847120195617",
+      "url": "https://x.com/NarjustFlorezMD/status/2124189847120195617"
+    },
+    "mentions": [
+      "ShrutiPatelMD"
+    ],
+    "source": {
+      "id": "x:2124189847120195617",
+      "source": "x",
+      "url": "https://x.com/NarjustFlorezMD/status/2124189847120195617",
+      "title": "",
+      "author_name": "Narjust Florez, MD, FASCO",
+      "author_handle": "NarjustFlorezMD",
+      "author_url": "https://x.com/NarjustFlorezMD",
+      "published_at": "2026-11-21T17:14:59+00:00",
+      "extra": {
+        "tweet_id": "2124189847120195617",
+        "query_kind": "voices",
+        "links": [
+          "https://x.com/NarjustFlorezMD/status/2124189847120195617/photo/1",
+          "https://x.com/NarjustFlorezMD/status/2124189847120195617/photo/2",
+          "https://x.com/NarjustFlorezMD/status/2124189847120195617/photo/3"
+        ],
+        "author_followers": 25574,
+        "author_id": "855372288455311360"
+      }
+    },
+    "status": "held"
   }
 ]
