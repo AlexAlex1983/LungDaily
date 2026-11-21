@@ -57,6 +57,10 @@
     "x": "2123764523429404929",
     "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2qnofvdk52p",
     "linkedin": "make",
-    "linkedin_at": "2026-11-20T13:49:35+00:00"
+    "linkedin_at": "2026-11-20T13:49:35+00:00",
+    "featured_email": {
+      "to": "press@ersnet.org",
+      "at": "2026-11-21T20:54:19+00:00"
+    }
   }
 }
