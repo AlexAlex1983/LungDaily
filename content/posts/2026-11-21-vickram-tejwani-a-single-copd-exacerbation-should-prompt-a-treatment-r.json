@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-21-vickram-tejwani-a-single-copd-exacerbation-should-prompt-a-treatment-r",
+  "headline": "Vickram Tejwani: A single COPD exacerbation should prompt a treatment review",
+  "dek": "Speaking to HCPLive for World COPD Day, the Cleveland Clinic pulmonologist said exacerbations should not be seen as an expected part of the disease, and pointed to gaps in spirometry use and initial therapy.",
+  "body": "Clinicians should treat even a single COPD exacerbation as a serious event that warrants a treatment review, according to Vickram Tejwani, MD, assistant professor of medicine at the Cleveland Clinic Lerner College of Medicine and a pulmonologist in the Cleveland Clinic Respiratory Institute. He discussed gaps in diagnosis, initial therapy and exacerbation prevention in an interview with HCPLive for World COPD Day, which the Global Initiative for Chronic Obstructive Lung Disease (GOLD) marks on 18 November 2026.\n\nTejwani said many patients remain undiagnosed because diagnosis relies on effort-dependent, high-quality spirometry. He recommended the test for anyone with dyspnoea, cough or sputum production without an obvious nonpulmonary explanation, noting that it involves no blood draw or radiation. He also said stigma linked to tobacco smoke has limited attention to COPD in the US, although much of the global burden stems from biomass exposure such as wood-stove cooking.\n\nHe coauthored a claims analysis of patients in the Optum Clinformatics Data Mart database who were newly starting inhaled maintenance therapy; 48.3% began a LABA/ICS combination. Tejwani said initial treatment should instead be LABA and/or LAMA bronchodilation, with an inhaled corticosteroid added for patients with high eosinophil counts or continued exacerbations, followed by specialist referral for advanced therapies.\n\nTejwani said mortality after a COPD hospitalisation is comparable to that after a hospitalisation for myocardial infarction. He said terms such as \"exacerbation\" or \"flare\" do not convey the same urgency, which has prompted talk in the field of calling them \"lung attacks\". In his view, exacerbations harm lung function, quality of life and survival, can aggravate comorbid cardiovascular disease, and even short prednisone bursts carry significant long-term consequences.\n\nPatients were historically counselled to expect flares despite optimal inhaled therapy, Tejwani said. Azithromycin, roflumilast and newer anti-inflammatory therapies, including biologics, have since widened the options for reducing exacerbation risk.",
+  "key_quote": "The number of patients I have where they tell me that their COPD is well controlled, and then when I ask them, say, 'Oh yeah, I just take a couple of bursts of prednisone a year,'",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "therapeutics",
+    "guidelines"
+  ],
+  "people": [
+    "Vickram Tejwani"
+  ],
+  "category": "voices",
+  "score": 7.0,
+  "created_at": "2026-11-21T17:09:16+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.hcplive.com/view/one-copd-exacerbation-too-many-vickram-tejwani-md"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:c11a527ab2e5b636",
+    "source": "rss",
+    "url": "https://www.hcplive.com/view/one-copd-exacerbation-too-many-vickram-tejwani-md",
+    "title": "One COPD Exacerbation Is Too Many: Vickram Tejwani, MD",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-19T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "For World COPD Day, Vickram Tejwani said a single exacerbation warrants urgency and highlighted gaps in spirometry use. A US claims analysis he coauthored found 48.3% of patients starting maintenance therapy began a LABA/ICS combination, whereas he recommends LABA and/or LAMA bronchodilation first.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
