@@ -36,7 +36,7 @@ models:
 
 sources:
   x: true
-  x_hours: [6, 12, 18]           # read X only at these write runs (local) — halves X credits again (18 Nov 2026)
+  x_hours: [6, 12, 18]           # keyword/People X searches only at these write runs (local); voices are read every write run (21 Nov 2026)
   linkedin_profiles: true         # Apify (harvestapi~linkedin-profile-posts), no LinkedIn login needed
   linkedin_all_hours: [6, 15]     # read ALL voices' LinkedIn at these local hours; focus voices at every write run
   linkedin_search: false          # Apify keyword search — needs a LinkedIn li_at cookie (use a separate account)
@@ -85,6 +85,7 @@ selection:                        # how the best items are chosen each run
   linkedin_boost: 0.5             # LinkedIn-sourced items rank a little higher (LinkedIn first: that's where the community is)
   focus_boost: 1.5                # voices.yaml focus: true (José Luis Castro, Tonya Winders) rank well above others
   focus_min_score: 6              # ...and need only score 6 to be written (others 6.5)
+  voice_min_score: 6              # X posts from any voices.yaml account need only score 6 (21 Nov 2026: X items had dried up)
   digest_boost: 1.5               # picks from the editor's 08:00/15:00 digest rank well up
   digest_min_score: 5             # ...and need only score 5 (they were already hand-picked by topic)
   awareness_boost: 1.0            # items about an awareness day in its window (config/awareness.yaml)

@@ -452,12 +452,21 @@ def run() -> dict:
                   or any(w in (ex.get("feed") or "") for w in ("appointments", "awards"))):
             log.info("People item: %.1f %s | %s | %s", t["score"], t["category"],
                      (i.get("title") or i.get("text") or "")[:100].replace("\n", " "), t.get("reason", ""))
+    voice_handles = {(v.get("x") or "").lower() for v in load_yaml("voices.yaml").get("voices", []) if v.get("x")}
+    voice_min = float(sel.get("voice_min_score", 99))
+    for i in inbox:   # visibility for X: every X post this run and how it scored
+        t = i.get("triage")
+        if t and i.get("source") == "x":
+            log.info("X item: %.1f %s | @%s | %s | %s", t["score"], t["category"], i.get("author_handle", ""),
+                     (i.get("text") or "")[:90].replace("\n", " "), t.get("reason", ""))
     for i in inbox:
         t = i.get("triage")
         if t is None:  # triage failed — retry next run
             keep.append(i)
         elif not t["duplicate"] and (t["score"] >= float(min_by_cat.get(t["category"], lim["min_score"]))
                                      or (is_focus(i) and t["score"] >= float(sel.get("focus_min_score", 99)))
+                                     or (i.get("source") == "x" and (i.get("author_handle") or "").lower() in voice_handles
+                                         and t["score"] >= voice_min)
                                      or ((i.get("extra") or {}).get("feed") == "Editor digest"
                                          and t["score"] >= float(sel.get("digest_min_score", 99)))):
             candidates.append(i)

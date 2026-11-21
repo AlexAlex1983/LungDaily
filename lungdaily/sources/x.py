@@ -46,7 +46,8 @@ def build_queries() -> list[tuple[str, str]]:
     return out
 
 
-def collect() -> list[dict]:
+def collect(kinds: set[str] | None = None) -> list[dict]:
+    """kinds: only run these query kinds (e.g. {"voices"}); None = all."""
     token = (os.environ.get("X_BEARER_TOKEN") or "").strip()
     if not token:
         log.info("X: no X_BEARER_TOKEN, skipping")
@@ -55,7 +56,8 @@ def collect() -> list[dict]:
     state = read_json(STATE, {})
     items: list[dict] = []
     headers = {"Authorization": f"Bearer {token}"}
-    for kind, q in build_queries()[: lim["x_max_queries_per_run"]]:
+    queries = [(k, q) for k, q in build_queries() if kinds is None or k in kinds]
+    for kind, q in queries[: lim["x_max_queries_per_run"]]:
         params = {
             "query": q,
             "max_results": max(10, min(100, int((lim.get("x_max_results_by_kind") or {}).get(

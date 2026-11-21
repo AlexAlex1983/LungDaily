@@ -61,15 +61,18 @@ def _x_due(src: dict) -> bool:
         hour = now().hour
     if hour in [int(h) for h in hours]:
         return True
-    log.info("X: skipped this run (reads only at %s local)", hours)
+    log.info("X: voices only this run (keyword/People searches only at %s local)", hours)
     return False
 
 
 def run() -> int:
     enabled = settings()["sources"]
     collected: list[dict] = []
-    if enabled.get("x") and _x_due(enabled):
-        collected += x.collect()
+    if enabled.get("x"):
+        # Voices are read at every write run: since_id means each new post is paid for once,
+        # so this costs about the same per day and keeps voices' posts fresh. Keyword / People /
+        # awareness searches (always a full page of results) stay limited to sources.x_hours.
+        collected += x.collect() if _x_due(enabled) else x.collect(kinds={"voices"})
     if enabled.get("linkedin_profiles") or enabled.get("linkedin_search"):
         collected += linkedin.collect()
     if enabled.get("pubmed"):
