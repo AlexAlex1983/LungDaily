@@ -2,7 +2,7 @@
   "gaapporg": {
     "id": "1593280809007566849",
     "username": "gaapporg",
-    "seen": 24,
+    "seen": 25,
     "name": "Global Allergy & Airways Patient Platform",
     "bio": "GAAPP represents more than 150 organizations working to improve the quality of life of people who have #allergies, #airways, or #atopic diseases world-wide.",
     "followers": 1837
@@ -10,18 +10,18 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 31,
+    "seen": 32,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47406
+    "followers": 47401
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 24,
+    "seen": 25,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33492
+    "followers": 33486
   },
   "iaslc": {
     "id": "61241883",
@@ -50,10 +50,10 @@
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 24,
+    "seen": 25,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42213
+    "followers": 42210
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -130,10 +130,10 @@
   "stephenvliu": {
     "id": "377425889",
     "username": "StephenVLiu",
-    "seen": 15,
+    "seen": 16,
     "name": "Stephen V Liu, MD",
     "bio": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "followers": 30892
+    "followers": 30893
   },
   "narjustflorezmd": {
     "id": "855372288455311360",
@@ -846,5 +846,13 @@
     "name": "Edgardo Santos, MD, FACP, FASCO",
     "bio": "Medical Director-Broward, Florida; The Oncology Institute of Hope & Innovation; Thoracic Oncology; Clinical Associate Professor, Florida Atlantic University",
     "followers": 335
+  },
+  "latinamd": {
+    "id": "597647783",
+    "username": "Latinamd",
+    "seen": 1,
+    "name": "Dr. Estela Rodriguez",
+    "bio": "Associate Director Community Outreach- 🫁Thoracic Oncology, University of Miami @SylvesterCancer , 🇵🇷Boricua, Co-founder @KidsHelpingKidsSucceed",
+    "followers": 8519
   }
 }

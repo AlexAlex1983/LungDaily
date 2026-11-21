@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-21-nerandomilast-slowed-fvc-decline-in-us-patients-with-progressive-pulmo",
+  "headline": "Nerandomilast slowed FVC decline in US patients with progressive pulmonary fibrosis, subgroup analysis finds",
+  "dek": "A US subgroup analysis of the FIBRONEER-ILD trial found results consistent with the overall population, with the clearest FVC benefit at the 18 mg twice-daily dose.",
+  "body": "A subgroup analysis of the FIBRONEER-ILD trial has reported that nerandomilast reduced decline in forced vital capacity (FVC) in US patients with progressive pulmonary fibrosis (PPF). The findings were published in the journal Lung.\n\nIn the main trial, patients were randomised to nerandomilast 9 mg twice daily, nerandomilast 18 mg twice daily, or placebo, stratified by nintedanib use and HRCT pattern. Of 1,176 patients, 139 (11.8%) were from the US. The analysis assessed change in FVC at week 52, time-to-event endpoints over the whole trial, and adverse events over the whole trial.\n\nAt week 52, adjusted mean changes in FVC among US patients were -160.4 mL with placebo, -115.2 mL with the 9 mg dose and -53.4 mL with the 18 mg dose. The difference versus placebo was 45.2 mL (95% CI: -57.8 to 148.2) for 9 mg and 107.0 mL (95% CI: 6.2 to 207.9) for 18 mg.\n\nThe hazard ratios for time to first acute exacerbation of interstitial lung disease, hospitalisation for respiratory cause, or death were 0.88 (95% CI: 0.42 to 1.81) for the 9 mg dose and 0.52 (95% CI: 0.23 to 1.18) for the 18 mg dose, each versus placebo. Adverse events led to treatment discontinuation in 14.0% of the placebo group, 11.4% of the 9 mg group and 8.9% of the 18 mg group.\n\nThe authors concluded that the effects in US patients were consistent with the overall population, with reduced FVC decline, a numerically reduced risk of adverse clinical outcomes, and favourable safety and tolerability.",
+  "key_quote": "the effects of nerandomilast in US patients were consistent with the overall population",
+  "tags": [
+    "ild",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Steven D Nathan",
+    "Toby M Maher",
+    "Shervin Assassi"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-21T05:09:27+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43062743/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43062743",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43062743/",
+    "title": "Effect of Nerandomilast in US Patients with Progressive Pulmonary Fibrosis: A Subgroup Analysis of the FIBRONEER-ILD Trial.",
+    "author_name": "Steven D Nathan, Toby M Maher, Shervin Assassi et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "extra": {
+      "journal": "Lung",
+      "doi": "10.1007/s00408-026-00966-z",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "first_author": "Steven D Nathan"
+    }
+  },
+  "status": "ready"
+}

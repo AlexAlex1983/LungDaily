@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-21-nerandomilast-slowed-fvc-decline-in-us-patients-with-ipf-in-fibroneer",
+  "headline": "Nerandomilast slowed FVC decline in US patients with IPF in FIBRONEER-IPF subgroup analysis",
+  "dek": "In the US subgroup of the FIBRONEER-IPF trial, both nerandomilast doses reduced forced vital capacity decline versus placebo, with results for the 18 mg dose consistent with the overall population.",
+  "body": "A subgroup analysis of the placebo-controlled FIBRONEER-IPF trial has examined the effects of nerandomilast in patients with idiopathic pulmonary fibrosis (IPF) in the United States. The findings were published in the journal Lung by Justin M Oldham, Toby M Maher, Amy L Olson and colleagues.\n\nIn the main trial, nerandomilast reduced decline in forced vital capacity (FVC), with benefits on clinical outcomes and favourable safety and tolerability, according to the abstract. Patients were randomised to nerandomilast 9 mg twice daily, nerandomilast 18 mg twice daily, or placebo, stratified by antifibrotic therapy (nintedanib or pirfenidone versus neither). Of 1,177 patients, 196 (16.7%) were from the US.\n\nIn the US subgroup, adjusted mean changes in FVC at week 52 were -257.9 mL with placebo, -152.7 mL with the 9 mg dose and -126.2 mL with the 18 mg dose. The differences versus placebo were 105.2 mL (95% CI 13.0 to 197.4) for 9 mg and 131.7 mL (95% CI 33.8 to 229.6) for 18 mg.\n\nFor the composite of time to first acute exacerbation of IPF, hospitalisation for respiratory cause, or death, the hazard ratios versus placebo were 0.91 (95% CI 0.49 to 1.67) for the 9 mg dose and 0.60 (95% CI 0.30 to 1.22) for the 18 mg dose. Adverse events led to treatment discontinuation in 17.1% of the placebo group, 12.9% of the 9 mg group and 10.7% of the 18 mg group.\n\nThe authors concluded that the effects of the 18 mg dose in US patients were consistent with the overall population, slowing FVC decline with numerical reductions in the risk of clinical outcomes, and with favourable safety and tolerability.",
+  "key_quote": "The effects of nerandomilast 18 mg bid in US patients in the FIBRONEER-IPF trial were consistent with the overall population.",
+  "tags": [
+    "ild",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Justin M Oldham",
+    "Toby M Maher",
+    "Amy L Olson"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-21T05:09:34+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43062734/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43062734",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43062734/",
+    "title": "Effect of Nerandomilast in US Patients with Idiopathic Pulmonary Fibrosis: a Subgroup Analysis of the FIBRONEER-IPF Trial.",
+    "author_name": "Justin M Oldham, Toby M Maher, Amy L Olson et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-20T00:00:00+00:00",
+    "extra": {
+      "journal": "Lung",
+      "doi": "10.1007/s00408-026-00965-0",
+      "pub_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "first_author": "Justin M Oldham"
+    }
+  },
+  "status": "ready"
+}
