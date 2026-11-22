@@ -1,0 +1,43 @@
+{
+  "slug": "2026-11-22-new-hampshire-ranks-fourth-in-us-for-lung-cancer-screening-says-americ",
+  "headline": "New Hampshire ranks fourth in US for lung cancer screening, says American Lung Association report",
+  "dek": "The association's annual \"State of Lung Cancer\" report places New Hampshire above average for survival and surgery, but flags new cases and biomarker testing access as concerns.",
+  "body": "The American Lung Association in New Hampshire has released its annual \"State of Lung Cancer\" report, which examines the toll the disease takes in each US state. Lung cancer remains the leading cause of cancer deaths in New Hampshire and nationally. The report says more than 229,000 people in the US will be diagnosed with it this year.\n\nFor New Hampshire, the report ranks the state fourth best in the nation for lung cancer screening among people at high risk. It also finds the state above average for five-year survival, for surgery as the first course of treatment, and for having a lower rate of people receiving no treatment. The areas it identifies as needing more work include reducing new lung cancer cases and ensuring access to biomarker testing.\n\nThe report also looks at insurance coverage of comprehensive biomarker testing, which can help identify personalised treatment options, including targeted therapies and immunotherapy. It found that 24 states and Washington, D.C., do not require any coverage, and that New Hampshire is among the states that do not require insurance coverage of the testing.\n\nLance Boucher, assistant vice president of state public policy for the association, said the report contained positive news: \"more people in the U.S. are living longer after a lung cancer diagnosis than ever before, and more people are getting screened for the disease.\" He said more must be done, including increasing screening among those at high risk, expanding comprehensive biomarker testing, and improving access to clinical trials and lung cancer care.\n\nThe association is also urging Congress to pass the Clinical Trial Modernization Act, which it says includes steps to make clinical trials accessible to more people.",
+  "key_quote": "more people in the U.S. are living longer after a lung cancer diagnosis than ever before, and more people are getting screened for the disease",
+  "tags": [
+    "lung-cancer",
+    "screening",
+    "policy",
+    "diagnostics"
+  ],
+  "people": [
+    "Lance Boucher"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-22T20:08:59+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.lung.org/media/press-releases/fy27-solc-new-hampshire"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:fe4b3f34ab3c14a2",
+    "source": "rss",
+    "url": "https://www.lung.org/media/press-releases/fy27-solc-new-hampshire",
+    "title": "New American Lung Association Report Finds New Hampshire 4th Best in Nation for Lung Cancer Screening, Among Nation’s Leaders for Survival, Early Diagnosis and Treatment",
+    "author_name": "American Lung Association",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-22T16:49:49+00:00",
+    "extra": {
+      "feed": "Google News — lung cancer screening",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
