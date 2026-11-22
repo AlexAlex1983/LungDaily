@@ -180,7 +180,8 @@
     "2026-11-22-un-inter-agency-task-force-on-ncds-holds-27th-meeting-at-who-in-geneva": "globe/globe-18.jpg",
     "2026-11-22-phase-i-trial-of-trispecific-t-cell-engager-clesitamig-reports-20-8-re": "research/research-11.jpg",
     "2026-11-22-rep-bob-onder-introduces-bill-requiring-insurers-to-cover-allergy-and": "asthma/asthma-06.jpg",
-    "2026-11-22-voice-recordings-combined-with-clinical-data-detect-asthma-with-auroc": "data/data-04.jpg"
+    "2026-11-22-voice-recordings-combined-with-clinical-data-detect-asthma-with-auroc": "data/data-04.jpg",
+    "2026-11-22-higher-triglyceride-glucose-index-linked-to-more-severe-airflow-limita": "airways/airways-31.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -357,7 +358,8 @@
     "asthma/asthma-09.jpg": 176,
     "globe/globe-18.jpg": 178,
     "asthma/asthma-06.jpg": 180,
-    "data/data-04.jpg": 181
+    "data/data-04.jpg": 181,
+    "airways/airways-31.jpg": 182
   },
-  "counter": 181
+  "counter": 182
 }
