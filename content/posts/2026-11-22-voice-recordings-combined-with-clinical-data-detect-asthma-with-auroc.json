@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-22-voice-recordings-combined-with-clinical-data-detect-asthma-with-auroc",
+  "headline": "Voice recordings combined with clinical data detect asthma with AUROC of 0.85, study finds",
+  "dek": "Luxembourg Institute of Health researchers report that a multimodal model fusing smartphone voice recordings with clinical and demographic variables outperformed voice-only or clinical-only models.",
+  "body": "A machine-learning model that combines smartphone voice recordings with clinical and demographic data achieved an area under the receiver operating characteristic curve (AUROC) of 0.85 in distinguishing people with asthma from healthy controls, according to a study published in npj Digital Medicine.\n\nThe team from the Luxembourg Institute of Health, including Vladimir Despotovic, Milena Despotovic, Abir Elbeji, Petr V. Nazarov and Guy Fagherazzi, tested a hierarchical Mixture-of-Experts architecture using data from the Colive Voice digital health initiative. The cohort comprised 1,218 adults, matched 1:1 into 609 self-reported asthma cases and 609 healthy controls by sex, age and recording language.\n\nParticipants recorded a sustained /a/ vowel held for at least five seconds and a standardised reading passage, asynchronously through smartphone web interfaces. The audio was converted into log-Mel spectrograms, and acoustic representations were extracted using BYOL-A. Clinical inputs included age, sex, BMI category, smoking frequency, alcohol consumption, antihistamine use, self-reported stress, respiratory quality of life and fatigue severity.\n\nIn an ablation study using repeated 10 × 10 stratified cross-validation, clinical and demographic variables alone reached an AUROC of 0.75. Sustained vowel phonation alone reached 0.69 and the reading passage alone 0.65. Combining both audio tasks raised the AUROC to 0.75. The full model, which combined both voice tasks with clinical and demographic variables, performed best, with an AUROC of 0.85 (95% CI 0.83–0.86) and accuracy of 0.77 (95% CI 0.77–0.78).",
+  "key_quote": "A multimodal Mixture-of-Experts model combining voice audio and clinical factors achieved an AUROC of 0.85 in detecting asthma, researchers reported.",
+  "tags": [
+    "asthma",
+    "ai",
+    "diagnostics",
+    "screening"
+  ],
+  "people": [
+    "Vladimir Despotovic",
+    "Milena Despotovic",
+    "Abir Elbeji",
+    "Petr V. Nazarov",
+    "Guy Fagherazzi"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-22T14:29:38+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://casrai.org/news/npj-digital-medicine-multimodal-voice-biomarker-asthma-detection-2026"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:ca2bc784e10609ec",
+    "source": "rss",
+    "url": "https://casrai.org/news/npj-digital-medicine-multimodal-voice-biomarker-asthma-detection-2026",
+    "title": "Multimodal Voice and Clinical Biomarker Model Detects Asthma in npj Digital Medicine Study",
+    "author_name": "CASRAI",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-22T11:42:15+00:00",
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

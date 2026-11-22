@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-22-rep-bob-onder-introduces-bill-requiring-insurers-to-cover-allergy-and",
+  "headline": "Rep. Bob Onder introduces bill requiring insurers to cover allergy and asthma diagnostic testing",
+  "dek": "The Allergy & Asthma Patient Protection Act would also require plans that cover allergy shots to pay for every medically necessary phase of treatment, according to a press release.",
+  "body": "U.S. Congressman Bob Onder, M.D. (R-MO), an allergist, has introduced the Allergy & Asthma Patient Protection Act, according to a release reported by the Park Hills Daily Journal. The bill would amend the Public Health Service Act.\n\nIt would require group health plans, and health insurance issuers offering group or individual coverage, to cover allergy and asthma diagnostic testing. Plans that cover allergy shots would also have to pay for every medically necessary phase of treatment, consistent with recognised clinical standards.\n\n\"Patients shouldn't have to fight their insurance company to get medically necessary allergy and asthma care,\" Onder said. He said that, as an allergist, he had witnessed insurers deny the buildup phase of allergy shots, cap the number of allergens that can be tested, and impose paperwork unrelated to good medicine.\n\nRep. Bacon, who is working with Onder, described the legislation as bipartisan and said unnecessary insurance restrictions can delay care and increase costs.\n\nThe American College of Allergy, Asthma and Immunology (ACAAI) endorsed the bill. Its president, Dr Cherie Zachary, and president-elect, Dr David Stukus, said commercial insurers are increasingly restricting access to essential allergy and asthma treatments, including allergy immunotherapy, which they said benefits more than 2.6 million patients annually. They described Onder as the only allergist in Congress.\n\nLynda Mitchell, chief executive of Allergy & Asthma Network, said the bill would guarantee that private health plans cover medically necessary diagnostic testing and every stage of immunotherapy. Casey McPherson, executive director for Patient Access, said it would keep decisions on testing and treatment between patients and their physicians.",
+  "key_quote": "Coverage decisions should follow the clinical standards physicians use, not arbitrary rules set by insurance companies",
+  "tags": [
+    "asthma",
+    "policy",
+    "diagnostics",
+    "therapeutics"
+  ],
+  "people": [
+    "Bob Onder",
+    "Bacon",
+    "Cherie Zachary",
+    "David Stukus",
+    "Lynda Mitchell",
+    "Casey McPherson"
+  ],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-22T14:29:25+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.dailyjournalonline.com/missouri-news/rep-onder-introduces-the-allergy-asthma-patient-protection-act-2a1701cb"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:a41c4743ae953af0",
+    "source": "rss",
+    "url": "https://www.dailyjournalonline.com/missouri-news/rep-onder-introduces-the-allergy-asthma-patient-protection-act-2a1701cb",
+    "title": "Rep. Onder Introduces the Allergy & Asthma Patient Protectio...",
+    "author_name": "Park Hills Daily Journal",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-22T11:58:43+00:00",
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
