@@ -467,6 +467,10 @@
     "RespiratoryZone": {
       "at": "2026-11-21T19:47:05+00:00",
       "why": "respiratory bio"
+    },
+    "BMJOpen_Resp": {
+      "at": "2026-11-22T19:57:49+00:00",
+      "why": "respiratory bio"
     }
   },
   "failed": {},
