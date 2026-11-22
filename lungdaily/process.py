@@ -427,7 +427,7 @@ def enrich(item: dict) -> None:
         return
     url, text = fetch_text(item.get("url", ""))
     item.setdefault("extra", {})["page_fetched"] = True
-    if url and url != item.get("url") and "bing.com" in (item.get("url") or ""):
+    if url and url != item.get("url") and any(h in (item.get("url") or "") for h in ("bing.com", "news.google.")):
         item["url"] = url          # link the original article, not the aggregator redirect
     if word_count(text) >= 60:
         item["text"] = f"{item.get('text', '')}\n\nARTICLE PAGE TEXT:\n{text}"

@@ -105,7 +105,7 @@ publishing:
   min_source_words: {rss: 60, pubmed: 60, x: 12, linkedin: 15}
   min_body_words_by_category:     # People items (appointments, awards) are short briefs
     people: 50
-  max_body_words: 320
+  max_body_words: 380             # writer aims for 110-280; small overruns are fine
   # Scheduled publishing: one article per slot (local time below). Write runs (6x/day) fill a
   # ready queue; publish runs put out ONE article each. Remove `slots` to publish straight away.
   timezone: "Europe/Berlin"       # CET/CEST

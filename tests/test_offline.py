@@ -23,6 +23,10 @@ from lungdaily.sources import make_item
 from lungdaily.util import POSTS, DATA, read_json
 
 fx = Path("tests/fixtures")
+from lungdaily.sources.page import real_url, _gnews_id
+# Google News links: old-style ids decode offline to the publisher URL; ids are found in /rss/articles/ links
+assert real_url("https://news.google.com/rss/articles/CBMiK2h0dHBzOi8vd3d3LmV4YW1wbGUuY29tL25ld3MvY29wZC1zdHVkeS0yMDI20gEA?oc=5") == "https://www.example.com/news/copd-study-2026", "google news decode"
+assert _gnews_id("https://news.google.com/rss/articles/AbC123?oc=5") == "AbC123"
 items = [
     make_item("x", "1850000000000000001", url="https://x.com/ERSpublications/status/1850000000000000001",
               text="New ERS statement on COPD case-finding in primary care: spirometry for symptomatic adults over 40 should be routine, say the authors.",

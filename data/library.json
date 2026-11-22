@@ -174,7 +174,8 @@
     "2026-11-21-checkmate-227-nivolumab-plus-ipilimumab-gives-higher-7-year-survival-t": "pharma/pharma-07.jpg",
     "2026-11-21-vickram-tejwani-a-single-copd-exacerbation-should-prompt-a-treatment-r": "airways/airways-17.jpg",
     "2026-11-21-narjust-florez-cancer-care-for-young-adults-must-go-beyond-survival": "ctscan/ctscan-06.jpg",
-    "2026-11-22-stephen-v-liu-no-clear-standard-for-nsclc-transformed-to-sclc-despite": "ctscan/ctscan-11.jpg"
+    "2026-11-22-stephen-v-liu-no-clear-standard-for-nsclc-transformed-to-sclc-despite": "ctscan/ctscan-11.jpg",
+    "2026-11-22-preschool-children-given-ics-laba-had-higher-asthma-morbidity-than-tho": "asthma/asthma-09.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -347,7 +348,8 @@
     "airways/airways-01.jpg": 170,
     "airways/airways-32.jpg": 171,
     "pharma/pharma-07.jpg": 172,
-    "airways/airways-17.jpg": 173
+    "airways/airways-17.jpg": 173,
+    "asthma/asthma-09.jpg": 176
   },
-  "counter": 175
+  "counter": 176
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "2026-11-22-preschool-children-given-ics-laba-had-higher-asthma-morbidity-than-tho",
+  "headline": "Preschool children given ICS+LABA had higher asthma morbidity than those on ICS alone, but the gap narrowed after LABA start",
+  "dek": "A retrospective TriNetX study of about 12,100 children per cohort found excess morbidity with ICS+LABA was greatest before LABA initiation and attenuated afterwards.",
+  "body": "Preschool children with asthma who were escalated to inhaled corticosteroids plus a long-acting beta-agonist (ICS+LABA) had higher rates of several morbidity outcomes than propensity-matched children on ICS alone, according to a multicentre retrospective study published in Chest. The excess was smaller once measured from the time LABA was started.\n\nThe team, led by Guy Hazan, Shoham Jellinek and Keren Armoni-Domany, used the TriNetX research network, a multicentre electronic health record database. They compared children aged 6 years or younger with asthma treated with ICS+LABA against matched children treated with ICS alone, with about 12,100 children in each cohort. Two index definitions were used to account for treatment timing and age-related effects on asthma severity and incidence: asthma diagnosis with LABA initiation within 12 months, and the time of LABA initiation itself. Outcomes included systemic corticosteroid exposure, bronchodilator use, emergency department visits or hospitalisations, pneumonia, fractures and gastroenteritis.\n\nWhen indexed at asthma diagnosis, ICS+LABA was associated with higher hazards of systemic corticosteroid exposure (HR 1.37; 95% CI 1.32-1.43), bronchodilator use (HR 1.41; 95% CI 1.36-1.46) and pneumonia (HR 1.39; 95% CI 1.28-1.52). When reindexed to LABA initiation, the associations were attenuated but not eliminated: HR 1.14 (1.09-1.18) for systemic corticosteroids, 1.17 (1.13-1.21) for bronchodilator use and 1.11 (1.02-1.22) for pneumonia.\n\nComparing the ICS+LABA cohort across the two index definitions showed lower rates of asthma-related outcomes after LABA initiation. Results were similar in unmatched analyses and in sensitivity analyses by younger age, later follow-up, Bayesian analysis and LABA type.\n\nThe authors concluded that, in young children selected for escalation, excess morbidity relative to ICS alone was greatest before LABA initiation and attenuated afterwards. They said the findings may offer real-world evidence for ICS+LABA effectiveness in a selected group of preschool children with uncontrolled asthma, and a basis for future prospective studies.",
+  "key_quote": "excess morbidity was greatest compared to ICS alone before LABA initiation and attenuated after LABA initiation",
+  "tags": [
+    "asthma",
+    "paediatrics",
+    "therapeutics"
+  ],
+  "people": [
+    "Guy Hazan",
+    "Shoham Jellinek",
+    "Keren Armoni-Domany"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-22T08:08:48+00:00",
+  "checker": {
+    "pass": false,
+    "issues": [
+      "body length 337 words outside limits"
+    ]
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067379/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43067379",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43067379/",
+    "title": "Real-World Outcomes of Long-Acting Beta-Agonist Add-On Therapy to Inhaled Corticosteroids in Preschool Children with Asthma: A Multicenter Retrospective Study.",
+    "author_name": "Guy Hazan, Shoham Jellinek, Keren Armoni-Domany et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-21T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.014",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Guy Hazan"
+    }
+  },
+  "status": "published",
+  "published_at": "2026-11-22T11:56:18+00:00",
+  "shared": {}
+}
