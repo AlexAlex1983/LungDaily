@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-22-higher-triglyceride-glucose-index-linked-to-more-severe-airflow-limita",
+  "headline": "Higher triglyceride-glucose index linked to more severe airflow limitation in older COPD inpatients",
+  "dek": "A single-centre retrospective study found the triglyceride-glucose index was independently associated with airflow limitation severity in older nondiabetic, normoxemic COPD inpatients, though the authors stress the findings are correlational.",
+  "body": "An elevated triglyceride-glucose (TyG) index was independently associated with more severe airflow limitation in older adults with chronic obstructive pulmonary disease (COPD) who were hospitalised, did not have diabetes and were normoxemic, according to a study published in Medical Science Monitor. The work was highlighted by GALA Health on X.\n\nThe TyG index is described by the authors as a reliable biomarker of insulin resistance that has been linked with impaired lung function. They noted that earlier studies enrolled patients with diabetes or hypoxemia, which confounded the relationship between TyG and airflow limitation in COPD.\n\nThis single-centre, retrospective, cross-sectional study included 116 COPD inpatients aged 55 years or older and 87 age- and sex-matched healthy controls. Airflow limitation severity was graded using the 2023 GOLD criteria, and the association was analysed with ordinal logistic regression.\n\nAfter adjustment for age, BMI, smoking status and COPD Assessment Test score, a higher TyG index was independently associated with more severe airflow limitation (OR = 3.16, 95% CI 1.04-9.62, P = 0.042). Results were consistent for continuous TyG values (OR = 2.74, P = 0.045) and in a tertile trend analysis (P for trend = 0.043). The crude difference in TyG between groups disappeared after adjusting for smoking. Sensitivity analyses were directionally consistent, although statistical significance was not uniform across all specifications.\n\nThe authors concluded that TyG provides hypothesis-generating correlational evidence for stratifying airflow limitation severity. They said prospective predictive studies with clinical cutoff validation are mandatory before any routine screening use can be recommended.",
+  "key_quote": "prospective predictive studies with clinical cutoff validation are mandatory before any routine screening use can be recommended",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "primary-care"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-22T17:08:49+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2124537941686997087",
+    "url": "https://x.com/GALA_Health/status/2124537941686997087"
+  },
+  "mentions": [],
+  "source": {
+    "id": "x:2124537941686997087",
+    "source": "x",
+    "url": "https://x.com/GALA_Health/status/2124537941686997087",
+    "title": "",
+    "author_name": "GALA Health",
+    "author_handle": "GALA_Health",
+    "author_url": "https://x.com/GALA_Health",
+    "published_at": "2026-11-22T16:18:11+00:00",
+    "extra": {
+      "tweet_id": "2124537941686997087",
+      "query_kind": "keywords",
+      "links": [
+        "https://doi.org/10.12659/MSM.954698"
+      ],
+      "author_followers": 56,
+      "author_id": "2017275908537655296",
+      "page_fetched": true,
+      "linked_url": "https://medscimonit.com/abstract/index/idArt/954698"
+    }
+  },
+  "status": "ready"
+}

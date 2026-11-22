@@ -955,5 +955,38 @@
     "title": "Socioeconomic Disadvantage Linked to Lung Cancer Screening Inequities Across European Union",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPaU50WWlWUDItUE5WV1ltQV81VDV2WHYtMlkwUGcxMEl5a2E4SFZZU0doamFKeHBNb25pOXY4aEdEZ3dfb1NmR0VsV3pKdnI2M19yU1RlTnVUSVl0bGN5ZFV5UVFJSXFnMzhMT3hMOXhhd0xvZVQtVlp6Sk9LVHh6QnlCNHpINms4UkFtMGlHbGFDaEpOZFBLMUZybXlZQW9Gbmg3RG1MWVk5cTNtUU9zNjEwQzl3RVk?oc=5",
     "why": "source too thin (13 words of text)"
+  },
+  {
+    "at": "2026-11-22T17:08:38+00:00",
+    "id": "rss:36241dac1a435ca9",
+    "kind": "thin",
+    "score": 6.0,
+    "source": "rss",
+    "author": "Traders Union",
+    "title": "Summit Therapeutics stock drops about 5.5% after FDA issues Complete Response Letter on ivonescimab",
+    "url": "https://tradersunion.com/news/stocks/show/4349876-summit-therapeutics-slides-5-49percent-today/",
+    "why": "source too thin (17 words of text)"
+  },
+  {
+    "at": "2026-11-22T17:08:41+00:00",
+    "id": "x:2124548547798241385",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "ERS publications",
+    "title": "M. avium and M. intracellulare show similar clinical relevance, radiological manifestations and treatment outcomes in MAC pulmonary disease, while M. chimaera a",
+    "url": "https://x.com/ERSpublications/status/2124548547798241385",
+    "why": "writer: Single-sentence teaser with no study details, journal or data"
+  },
+  {
+    "at": "2026-11-22T17:08:42+00:00",
+    "id": "x:2124549993105170557",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "BMJ Open Respiratory",
+    "title": "Effectiveness of Home-Based Pulmonary Rehabilitation in Patients with Interstitial Lung Disease: A Systematic Review and Meta-Analysis. https://t.co/HcfD9vy9Ux ",
+    "url": "https://x.com/BMJOpen_Resp/status/2124549993105170557",
+    "why": "writer: Only a paper title and links; no findings or data stated."
   }
 ]

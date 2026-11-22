@@ -18,10 +18,10 @@
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 27,
+    "seen": 28,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33488
+    "followers": 33492
   },
   "iaslc": {
     "id": "61241883",
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 15,
+    "seen": 16,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65504
+    "followers": 65509
   },
   "copddoc": {
     "id": "356203202",
@@ -862,5 +862,13 @@
     "name": "Respiratory Therapy Zone",
     "bio": "Top #RespiratoryTherapy Education Platform | Lung Health 🫁 | Lung Diseases 🦠 | Respiratory System | Medical Education ⚕️",
     "followers": 13677
+  },
+  "bmjopen_resp": {
+    "id": "1620561504",
+    "username": "BMJOpen_Resp",
+    "seen": 1,
+    "name": "BMJ Open Respiratory",
+    "bio": "#OpenAccess journal supporting the #respiratory #criticalcare and #sleepmedicine community. Companion to @ThoraxBMJ. Published with @BTSrespiratory",
+    "followers": 8752
   }
 }
