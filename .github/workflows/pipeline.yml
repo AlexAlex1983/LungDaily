@@ -123,8 +123,23 @@ jobs:
         with:
           path: site
 
-      - id: deploy
+      # GitHub sometimes can't find the just-uploaded artifact ("No artifacts named github-pages"):
+      # wait and try again instead of failing the run and skipping the social step.
+      - id: deploy_first
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retrying deploy
+        if: ${{ steps.deploy_first.outcome == 'failure' }}
+        run: sleep 45
+
+      - id: deploy_retry
+        if: ${{ steps.deploy_first.outcome == 'failure' }}
+        uses: actions/deploy-pages@v4
+
+      - id: deploy
+        name: Deploy result
+        run: echo "page_url=${{ steps.deploy_first.outputs.page_url || steps.deploy_retry.outputs.page_url }}" >> "$GITHUB_OUTPUT"
 
       - name: Share on LinkedIn + Bluesky, featured emails (after deploy, so images are online)
         if: ${{ github.event.inputs.action != 'discard' }}

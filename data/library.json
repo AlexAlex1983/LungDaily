@@ -175,11 +175,12 @@
     "2026-11-21-vickram-tejwani-a-single-copd-exacerbation-should-prompt-a-treatment-r": "airways/airways-17.jpg",
     "2026-11-21-narjust-florez-cancer-care-for-young-adults-must-go-beyond-survival": "ctscan/ctscan-06.jpg",
     "2026-11-22-stephen-v-liu-no-clear-standard-for-nsclc-transformed-to-sclc-despite": "ctscan/ctscan-11.jpg",
-    "2026-11-22-preschool-children-given-ics-laba-had-higher-asthma-morbidity-than-tho": "asthma/asthma-09.jpg"
+    "2026-11-22-preschool-children-given-ics-laba-had-higher-asthma-morbidity-than-tho": "asthma/asthma-09.jpg",
+    "2026-11-22-study-maps-senescence-associated-signals-in-human-lung-development-and": "research/research-08.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
-    "research/research-08.jpg": 2,
+    "research/research-08.jpg": 177,
     "globe/globe-06.jpg": 3,
     "cells/cells-08.jpg": 4,
     "globe/globe-13.jpg": 5,
@@ -351,5 +352,5 @@
     "airways/airways-17.jpg": 173,
     "asthma/asthma-09.jpg": 176
   },
-  "counter": 176
+  "counter": 177
 }

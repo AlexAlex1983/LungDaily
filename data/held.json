@@ -2808,60 +2808,6 @@
     "status": "held"
   },
   {
-    "slug": "2026-11-22-study-maps-senescence-associated-signals-in-human-lung-development-and",
-    "headline": "Study maps senescence-associated signals in human lung development and links persistent niches to BPD",
-    "dek": "A Communications Biology study of 32 donor lungs reports spatially restricted p21, GLB1 and GDF15 niches in bronchopulmonary dysplasia, often missed by single-nucleus transcriptomics.",
-    "body": "A study in Communications Biology maps cellular senescence, epithelial plasticity and spatial niche remodelling across human lung development, and reports a potential link between persistent senescence-associated programmes and bronchopulmonary dysplasia (BPD). The study was summarised on X by Changmyung Oh of the Gwangju Institute of Science and Technology. The paper is by Shaikh SB, Colon L, Purkerson JM and colleagues, with institutions including the University of Rochester Medical Center, University of Pittsburgh, Ohio State University and Carnegie Mellon University.\n\nThe developmental atlas included 32 human lung donor samples, from premature newborns to young adults, including BPD-affected lungs. Older adult samples, with and without COPD, served as comparators. Methods included single-nucleus RNA sequencing, Phenocycler-Fusion/CODEX protein imaging, Visium HD spatial transcriptomics, histology, and pediatric lung cell culture and precision-cut lung slices. Single-nucleus analysis identified 32 lung cell populations.\n\nIn BPD lungs, the researchers identified persistent transitional epithelial programmes with markers including KRT7, KRT8, CDKN1A/p21, GDF15 and COL1A1, consistent with disrupted progression from AT2 to AT1 cells. Spatial protein imaging showed localised enrichment of p21, GLB1 and GDF15, although canonical senescence transcripts were minimally detected by single-nucleus sequencing. The authors interpret this as a non-canonical, protein-dominant senescence-associated state. Visium HD analysis showed reduced AT1 populations and lower expression of surfactant genes SFTPC, SFTPA1 and SFTPB in BPD regions. Alveolar fibroblasts showed reduced expression of growth factor genes including PDGFA, PDGFB, VEGFB and EGFR.\n\nIn cells from a 2-year-old donor, irradiation at 10 Gy increased senescence-associated β-galactosidase activity and inflammatory mediators including IL-6 and IL-8. Treatment with the p21-targeting compound UC2288 at 10 μM reduced several of these signals.\n\nThe summary lists limitations. The principal Visium HD comparison used one donor per group, and the lung-slice and cell-culture experiments each used a single donor. The key GLB1-positive, CD68-negative comparison showed a trend (P = 0.0869) rather than conventional significance. Trajectories were inferred from cross-sectional data, and the study did not show that senescence-associated signalling causes alveolar simplification. No senescence-targeted therapy has been shown to improve outcomes in infants with BPD.",
-    "key_quote": "Senescence-associated proteins can reveal developmental cell states that are not adequately captured by canonical transcriptional signatures.",
-    "tags": [
-      "ild",
-      "paediatrics",
-      "diagnostics",
-      "therapeutics"
-    ],
-    "people": [
-      "Changmyung Oh",
-      "Shaikh SB",
-      "Colon L",
-      "Purkerson JM"
-    ],
-    "category": "research",
-    "score": 7.0,
-    "created_at": "2026-11-22T05:09:40+00:00",
-    "checker": {
-      "pass": false,
-      "issues": [
-        "body length 362 words outside limits"
-      ]
-    },
-    "embed": {
-      "type": "x",
-      "tweet_id": "2124360903143633195",
-      "url": "https://x.com/changmyung1981/status/2124360903143633195"
-    },
-    "mentions": [],
-    "source": {
-      "id": "x:2124360903143633195",
-      "source": "x",
-      "url": "https://x.com/changmyung1981/status/2124360903143633195",
-      "title": "",
-      "author_name": "오창명",
-      "author_handle": "changmyung1981",
-      "author_url": "https://x.com/changmyung1981",
-      "published_at": "2026-11-22T04:34:42+00:00",
-      "extra": {
-        "tweet_id": "2124360903143633195",
-        "query_kind": "keywords",
-        "links": [
-          "https://x.com/changmyung1981/status/2124360903143633195/photo/1"
-        ],
-        "author_followers": 1273,
-        "author_id": "1801247810001743872"
-      }
-    },
-    "status": "held"
-  },
-  {
     "slug": "2026-11-22-stephen-v-liu-peters-keynote-at-matoslung-looks-beyond-checkpoint-inhi",
     "headline": "Stephen V Liu: Peters keynote at #MaTOSLung looks beyond checkpoint inhibition in NSCLC",
     "dek": "Thoracic oncologist Stephen V Liu praised a keynote by Solange Peters on immunotherapy beyond checkpoint inhibitors in non-small cell lung cancer.",
