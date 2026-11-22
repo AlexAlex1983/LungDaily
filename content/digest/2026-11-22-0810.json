@@ -1,0 +1,45 @@
+{
+  "edition": "Health news digest – Sunday, 22 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "Silent Mucus Plugs in COPD and Exacerbation Risk, With Emily Wan, MD, MPH",
+      "url": "https://www.hcplive.com/view/silent-mucus-plugs-in-copd-and-exacerbation-risk-with-emily-wan-md-mph",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-20",
+      "topic": "copd",
+      "summary": "CT-detected mucus plugs are found in an estimated 25% to almost 80% of people with COPD, and about 30% occur without chronic cough or phlegm. Plugs are associated with more moderate-to-severe exacerbations and higher all-cause mortality, but how to manage silent plugs remains unclear; the 2027 GOLD report gives mucus plugging more attention."
+    },
+    {
+      "title": "More Kids Face Insurance Denials For Asthma And Allergy Medications",
+      "url": "https://www.usnews.com/news/health-news/articles/2026-11-16/more-kids-face-insurance-denials-for-asthma-and-allergy-medications",
+      "publisher": "U.S. News & World Report (HealthDay)",
+      "published_date": "2026-11-16",
+      "topic": "asthma",
+      "summary": "A study presented at the ACAAI meeting reviewed 326 biologic prescriptions for children with severe asthma or allergies written from 2018 to 2026. More than 90% required prior authorization and about 4 in 10 requests were denied, most often for not meeting insurer criteria or being told to try other drugs first."
+    },
+    {
+      "title": "Study reveals data centers' long-distance damage to air quality",
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "publisher": "MIT News",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "An MIT-led study estimates that air pollution from electricity generation for US data centers caused about 650 premature deaths in 2023. The health burden fell disproportionately on the Midwest and on rural populations, far from where most data center demand is located."
+    },
+    {
+      "title": "FDA Approves Neladalkib for ALK-Positive Lung Cancer",
+      "url": "https://www.mskcc.org/news/fda-approves-neladalkib-for-alk-positive-lung",
+      "publisher": "Memorial Sloan Kettering Cancer Center",
+      "published_date": "2026-11-19",
+      "topic": "lung_cancer",
+      "summary": "The FDA granted accelerated approval to neladalkib (Nelkarmi) for previously treated advanced ALK-positive non-small cell lung cancer. The approval is based on the phase I/II ALKOVE-1 trial; confirmatory studies are required."
+    },
+    {
+      "title": "Health Minute: New 2026 Lung Cancer Report Released",
+      "url": "https://www.knoe.com/2026/11/18/health-minute-new-2026-lung-cancer-report-released/",
+      "publisher": "KNOE (CNN Health Minute)",
+      "published_date": "2026-11-17",
+      "topic": "lung_cancer",
+      "summary": "The American Lung Association's annual State of Lung Cancer report says US five-year lung cancer survival rose from 18% to 31% over nine years as screening rates increased. Progress is uneven across communities and lung cancer remains the leading cause of US cancer death."
+    }
+  ]
+}
