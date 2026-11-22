@@ -173,7 +173,8 @@
     "2026-11-21-emily-wan-silent-mucus-plugs-on-ct-may-flag-higher-copd-exacerbation-r": "airways/airways-32.jpg",
     "2026-11-21-checkmate-227-nivolumab-plus-ipilimumab-gives-higher-7-year-survival-t": "pharma/pharma-07.jpg",
     "2026-11-21-vickram-tejwani-a-single-copd-exacerbation-should-prompt-a-treatment-r": "airways/airways-17.jpg",
-    "2026-11-21-narjust-florez-cancer-care-for-young-adults-must-go-beyond-survival": "ctscan/ctscan-06.jpg"
+    "2026-11-21-narjust-florez-cancer-care-for-young-adults-must-go-beyond-survival": "ctscan/ctscan-06.jpg",
+    "2026-11-22-stephen-v-liu-no-clear-standard-for-nsclc-transformed-to-sclc-despite": "ctscan/ctscan-11.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -216,7 +217,7 @@
     "pharma/pharma-05.jpg": 38,
     "pharma/pharma-14.jpg": 39,
     "airways/airways-06.jpg": 40,
-    "ctscan/ctscan-11.jpg": 41,
+    "ctscan/ctscan-11.jpg": 175,
     "airways/airways-09.jpg": 42,
     "ctscan/ctscan-02.jpg": 43,
     "asthma/asthma-10.jpg": 44,
@@ -348,5 +349,5 @@
     "pharma/pharma-07.jpg": 172,
     "airways/airways-17.jpg": 173
   },
-  "counter": 174
+  "counter": 175
 }
