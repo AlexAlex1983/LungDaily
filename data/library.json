@@ -177,7 +177,8 @@
     "2026-11-22-stephen-v-liu-no-clear-standard-for-nsclc-transformed-to-sclc-despite": "ctscan/ctscan-11.jpg",
     "2026-11-22-preschool-children-given-ics-laba-had-higher-asthma-morbidity-than-tho": "asthma/asthma-09.jpg",
     "2026-11-22-study-maps-senescence-associated-signals-in-human-lung-development-and": "research/research-08.jpg",
-    "2026-11-22-un-inter-agency-task-force-on-ncds-holds-27th-meeting-at-who-in-geneva": "globe/globe-18.jpg"
+    "2026-11-22-un-inter-agency-task-force-on-ncds-holds-27th-meeting-at-who-in-geneva": "globe/globe-18.jpg",
+    "2026-11-22-phase-i-trial-of-trispecific-t-cell-engager-clesitamig-reports-20-8-re": "research/research-11.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -199,7 +200,7 @@
     "tobacco/tobacco-12.jpg": 17,
     "pharma/pharma-15.jpg": 18,
     "city/city-12.jpg": 19,
-    "research/research-11.jpg": 20,
+    "research/research-11.jpg": 179,
     "airways/airways-04.jpg": 21,
     "ctscan/ctscan-10.jpg": 139,
     "ctscan/ctscan-05.jpg": 164,
@@ -354,5 +355,5 @@
     "asthma/asthma-09.jpg": 176,
     "globe/globe-18.jpg": 178
   },
-  "counter": 178
+  "counter": 179
 }
