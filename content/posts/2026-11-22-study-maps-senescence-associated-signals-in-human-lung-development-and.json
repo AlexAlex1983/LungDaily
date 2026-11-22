@@ -53,6 +53,7 @@
   "status": "published",
   "published_at": "2026-11-22T12:03:45+00:00",
   "shared": {
-    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2vlmkg2bw2k"
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2vlmkg2bw2k",
+    "x": "2124489365858447806"
   }
 }
