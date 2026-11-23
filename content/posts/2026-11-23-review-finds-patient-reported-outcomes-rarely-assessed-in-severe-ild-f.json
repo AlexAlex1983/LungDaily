@@ -47,5 +47,9 @@
       "linked_url": "https://europeanlung.org/en/news-and-blog/considering-the-patient-experience-in-flare-ups-of-interstitial-lung-disease/"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-23T14:00:13+00:00",
+  "shared": {
+    "x": "2124866500947255767"
+  }
 }
