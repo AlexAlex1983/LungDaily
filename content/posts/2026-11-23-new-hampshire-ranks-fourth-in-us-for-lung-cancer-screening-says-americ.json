@@ -42,6 +42,11 @@
   "status": "published",
   "published_at": "2026-11-23T09:00:24+00:00",
   "shared": {
-    "x": "2124791191418060902"
+    "x": "2124791191418060902",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2xrnt4zzt2t",
+    "featured_email": {
+      "to": "media@lung.org",
+      "at": "2026-11-23T09:06:10+00:00"
+    }
   }
 }
