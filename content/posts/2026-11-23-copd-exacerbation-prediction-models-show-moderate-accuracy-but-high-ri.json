@@ -47,5 +47,9 @@
       "first_author": "Xinqi Liao"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-23T13:00:29+00:00",
+  "shared": {
+    "x": "2124851638179594531"
+  }
 }
