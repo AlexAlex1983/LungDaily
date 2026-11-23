@@ -187,7 +187,8 @@
     "2026-11-23-new-hampshire-ranks-fourth-in-us-for-lung-cancer-screening-says-americ": "ctscan/ctscan-02.jpg",
     "2026-11-23-fda-rejects-ivonescimab-for-egfr-mutant-lung-cancer-citing-93-of-trial": "pharma/pharma-01.jpg",
     "2026-11-23-nucala-approved-in-korea-for-copd-patients-with-persistent-exacerbatio": "pharma/pharma-13.jpg",
-    "2026-11-23-christopher-tufton-tobacco-control-bill-should-not-face-endless-delay": "tobacco/tobacco-15.jpg"
+    "2026-11-23-christopher-tufton-tobacco-control-bill-should-not-face-endless-delay": "tobacco/tobacco-15.jpg",
+    "2026-11-23-amico-phase-iii-trial-to-test-metformin-against-accelerated-lung-agein": "research/research-14.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -216,7 +217,7 @@
     "asthma/asthma-04.jpg": 24,
     "research/research-12.jpg": 184,
     "airways/airways-02.jpg": 26,
-    "research/research-14.jpg": 27,
+    "research/research-14.jpg": 189,
     "research/research-07.jpg": 28,
     "airways/airways-14.jpg": 29,
     "airways/airways-08.jpg": 30,
@@ -369,5 +370,5 @@
     "pharma/pharma-03.jpg": 183,
     "tobacco/tobacco-15.jpg": 188
   },
-  "counter": 188
+  "counter": 189
 }
