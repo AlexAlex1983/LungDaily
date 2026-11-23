@@ -190,7 +190,8 @@
     "2026-11-23-christopher-tufton-tobacco-control-bill-should-not-face-endless-delay": "tobacco/tobacco-15.jpg",
     "2026-11-23-amico-phase-iii-trial-to-test-metformin-against-accelerated-lung-agein": "research/research-14.jpg",
     "2026-11-23-copd-exacerbation-prediction-models-show-moderate-accuracy-but-high-ri": "data/data-01.jpg",
-    "2026-11-23-review-finds-patient-reported-outcomes-rarely-assessed-in-severe-ild-f": "cells/cells-01.jpg"
+    "2026-11-23-review-finds-patient-reported-outcomes-rarely-assessed-in-severe-ild-f": "cells/cells-01.jpg",
+    "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e": "ctscan/ctscan-08.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -239,7 +240,7 @@
     "asthma/asthma-10.jpg": 44,
     "lungs/lungs-04.jpg": 45,
     "cells/cells-05.jpg": 46,
-    "ctscan/ctscan-08.jpg": 47,
+    "ctscan/ctscan-08.jpg": 192,
     "globe/globe-05.jpg": 48,
     "globe/globe-01.jpg": 49,
     "research/research-09.jpg": 50,
@@ -374,5 +375,5 @@
     "data/data-01.jpg": 190,
     "cells/cells-01.jpg": 191
   },
-  "counter": 191
+  "counter": 192
 }
