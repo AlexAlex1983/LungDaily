@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-23-review-finds-patient-reported-outcomes-rarely-assessed-in-severe-ild-f",
+  "headline": "Review finds patient-reported outcomes rarely assessed in severe ILD flare-ups",
+  "dek": "A review of 20 studies found no agreement on which patient-reported measures to use in acute exacerbations of interstitial lung disease, according to a summary from the European Lung Foundation.",
+  "body": "A new review has found little consensus on how patient-reported outcome measures (PROMs) are used during serious flare-ups of interstitial lung disease (ILD), according to a summary published by the European Lung Foundation (ELF) of research in ERJ Open Research.\n\nPROMs allow patients to describe their experience of their health or treatment. The summary says they are regarded as particularly important in ILD, and are widely used when symptoms are stable. The review set out to examine how they are used during flare-ups (exacerbations), including which measures are chosen, which aspects of health they cover and when assessments usually take place.\n\nThe review analysed 20 existing studies and trials in ILD that used PROMs. It found no general agreement about which PROMs are helpful in acute exacerbations of ILD, or how to use them. Only seven of the studies confirmed direct patient reporting, and among these only two issues were examined: breathlessness and health-related quality of life.\n\nNone of the studies measured symptoms such as cough or chest tightness, overall health, difficulties with day-to-day activities, fatigue or sleep disturbance, or psychological symptoms such as anxiety or depression. None directly assessed patients' experiences of oxygen therapy or breathing support, including discomfort, communication problems, anxiety, claustrophobia or feelings of loss of control.\n\nThe authors state that the information currently available does not adequately reflect the many co-existing burdens on patients, or how they might interact. They conclude that the patient perspective remains poorly represented in this area of research. To make care more patient-centred, they suggest future studies should examine symptoms, functioning, emotional well-being and health-related quality of life throughout hospitalisation and recovery, using measures relevant to serious ILD flare-ups.",
+  "key_quote": "The review found that there is no general agreement about which PROMS are helpful in serious flare-ups",
+  "tags": [
+    "ild",
+    "diagnostics",
+    "guidelines"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 6.0,
+  "created_at": "2026-11-23T11:09:06+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2124812478831894643",
+    "url": "https://x.com/EuropeanLung/status/2124812478831894643"
+  },
+  "mentions": [
+    "EuroRespSoc"
+  ],
+  "source": {
+    "id": "x:2124812478831894643",
+    "source": "x",
+    "url": "https://x.com/EuropeanLung/status/2124812478831894643",
+    "title": "",
+    "author_name": "European Lung Foundation",
+    "author_handle": "EuropeanLung",
+    "author_url": "https://x.com/EuropeanLung",
+    "published_at": "2026-11-23T10:29:06+00:00",
+    "extra": {
+      "tweet_id": "2124812478831894643",
+      "query_kind": "voices",
+      "links": [
+        "https://europeanlung.org/en/news-and-blog/considering-the-patient-experience-in-flare-ups-of-interstitial-lung-disease/",
+        "https://x.com/EuropeanLung/status/2124812478831894643/photo/1"
+      ],
+      "author_followers": 13824,
+      "author_id": "121759520",
+      "page_fetched": true,
+      "linked_url": "https://europeanlung.org/en/news-and-blog/considering-the-patient-experience-in-flare-ups-of-interstitial-lung-disease/"
+    }
+  },
+  "status": "ready"
+}

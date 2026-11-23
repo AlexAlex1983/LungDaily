@@ -2908,5 +2908,52 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-23-northern-ireland-lung-screening-has-no-start-date-as-71-of-cases-are-d",
+    "headline": "Northern Ireland lung screening has no start date as 71% of cases are diagnosed late",
+    "dek": "Health Minister Robbie Butler said planning for targeted lung cancer screening is funded but he cannot give a timeframe for full implementation, as Cancer Research UK reports most cases are diagnosed late.",
+    "body": "More than seven in ten lung cancer cases in Northern Ireland are diagnosed at an advanced stage, according to Cancer Research UK. The charity's analysis found that 71% of cases with a known stage were diagnosed at stage three or four between 2018 and 2022. Around 1,300 people are diagnosed with lung cancer in Northern Ireland each year, according to the Public Health Agency (PHA).\n\nHealth Minister Robbie Butler told the Northern Ireland Assembly on 10 November that his department had given the PHA funding to establish a project team and begin planning targeted screening. The work is expected to take about 12 months, with planning due to begin in December 2026. He said full implementation would probably need substantial additional investment. He acknowledged that Northern Ireland has no targeted lung cancer screening programme and expressed regret that one was not already available. The PHA will develop a regional plan covering screening, additional diagnostic services, follow-up investigations and treatment pathways.\n\nThe estimated annual cost of a fully implemented programme is approximately £9 million, though Mr Butler warned that development and implementation costs could be significantly higher because Northern Ireland is starting from a different position than England. The position differs from the December 2024 health and social care plan, which had envisaged introducing targeted lung screening by April 2027, subject to additional funding.\n\nThe UK National Screening Committee recommended in 2022 that targeted screening be introduced across all four UK nations for higher-risk people aged 55 to 74, including current and former smokers, using low-dose CT scans. England has begun rolling out screening, Scotland is planning phased implementation, and Wales expects its first invitations under a wider programme in 2028.\n\nCancer Research UK said 52% of people in Northern Ireland diagnosed at stage one survive at least five years, compared with 2% of those diagnosed at stage four. It cites about 980 lung cancer deaths a year. The charity estimates a fully implemented programme could save around 70 lives annually if 60% of eligible people accepted an invitation, with economic benefits of about £45 million a year. These are estimates rather than achieved outcomes.\n\nLiz Morrison, the charity's public affairs manager in Northern Ireland, said too many people are diagnosed at a late stage when there are fewer treatment options.",
+    "key_quote": "At this stage, I am unable to outline a specific time frame for the full implementation of a lung cancer screening programme in Northern Ireland.",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "policy",
+      "diagnostics"
+    ],
+    "people": [
+      "Robbie Butler",
+      "Liz Morrison"
+    ],
+    "category": "policy",
+    "score": 7.0,
+    "created_at": "2026-11-23T11:08:57+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "body length 386 words outside limits",
+        "The article says of Robbie Butler, \"He said full implementation would probably need substantial additional investment.\" The source gives this as a general statement: \"The work is expected to take approximately 12 months, with full implementation likely to require substantial additional investment.\" It does not attribute the claim to the Minister. The article therefore puts words in his mouth that the source does not give him."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://www.loveballymena.online/post/seven-in-ten-lung-cancers-diagnosed-late-as-ni-screening-rollout-remains-uncertain"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:d729e6eb4c74db4b",
+      "source": "rss",
+      "url": "https://www.loveballymena.online/post/seven-in-ten-lung-cancers-diagnosed-late-as-ni-screening-rollout-remains-uncertain",
+      "title": "More than seven in ten lung cancers diagnosed late as Northern Ireland screening plans face uncertain timetable",
+      "author_name": "Love Ballymena",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-22T20:16:29+00:00",
+      "extra": {
+        "feed": "Google News — lung cancer screening",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-23-copd-exacerbation-prediction-models-show-moderate-accuracy-but-high-ri",
+  "headline": "COPD exacerbation prediction models show moderate accuracy but high risk of bias, review finds",
+  "dek": "A meta-analysis of 29 studies found a pooled C-statistic of 0.75 for models predicting future COPD exacerbations, with substantial heterogeneity and 26 studies at high risk of bias.",
+  "body": "A systematic review and meta-analysis has found that models designed to predict future acute exacerbations in people with chronic obstructive pulmonary disease (COPD) perform with variable accuracy, and that methodological weaknesses limit confidence in the results. The study, led by Xinqi Liao, Zhifei Wen, Yang Yang and colleagues, was published in the International Journal of Chronic Obstructive Pulmonary Disease.\n\nThe researchers searched six electronic databases from inception to 20 May 2026 for studies that developed or validated multivariable models predicting future exacerbations. Twenty-nine studies involving more than 1.08 million patients with COPD were included in the systematic review, and 17 of these contributed to the meta-analysis. C-statistics were pooled using a random-effects meta-analysis after logit transformation, and risk of bias was assessed with the Prediction Model Risk of Bias Assessment Tool.\n\nThe pooled C-statistic was 0.75 (95% confidence interval 0.70-0.79), with substantial between-study heterogeneity (I² = 97%). Exploratory subgroup analyses identified a statistically significant difference in discrimination according to exacerbation severity (P = 0.040). Substantial heterogeneity persisted in an exploratory restricted analysis of three studies predicting severe exacerbation-related events over approximately 12 months.\n\nOverall, 26 studies were judged to be at high risk of bias, primarily in the Analysis domain. The authors concluded that this heterogeneity and the widespread risk of bias limit confidence in the pooled estimate and its clinical applicability. They said further research should prioritise standardised prediction tasks, rigorous model development, transparent reporting of calibration and model specifications, independent external validation, and evaluation of clinical utility.",
+  "key_quote": "Prediction models for future acute exacerbations of chronic obstructive pulmonary disease showed variable discriminative performance",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "ai"
+  ],
+  "people": [
+    "Xinqi Liao",
+    "Zhifei Wen",
+    "Yang Yang"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-23T11:08:46+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43069857/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43069857",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43069857/",
+    "title": "Development and Validation of Risk Prediction Models for Future Acute Exacerbations in Patients with Chronic Obstructive Pulmonary Disease: A Systematic Review and Meta-Analysis.",
+    "author_name": "Xinqi Liao, Zhifei Wen, Yang Yang et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-18T00:00:00+00:00",
+    "extra": {
+      "journal": "International journal of chronic obstructive pulmonary disease",
+      "doi": "10.2147/COPD.S638165",
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "first_author": "Xinqi Liao"
+    }
+  },
+  "status": "ready"
+}
