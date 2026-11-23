@@ -50,6 +50,11 @@
   "status": "published",
   "published_at": "2026-11-23T14:00:13+00:00",
   "shared": {
-    "x": "2124866500947255767"
+    "x": "2124866500947255767",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n2yceg6hi32a",
+    "featured_email": {
+      "to": "info@europeanlung.org",
+      "at": "2026-11-23T14:05:08+00:00"
+    }
   }
 }
