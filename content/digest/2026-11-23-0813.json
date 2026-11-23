@@ -1,0 +1,45 @@
+{
+  "edition": "Health news digest – Monday, 23 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "Silent Mucus Plugs in COPD and Exacerbation Risk, With Emily Wan, MD, MPH",
+      "url": "https://www.hcplive.com/view/silent-mucus-plugs-in-copd-and-exacerbation-risk-with-emily-wan-md-mph",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-20",
+      "topic": "copd",
+      "summary": "Data discussed at the GOLD 2026 COPD International Conference show that mucus plugs on CT, including in patients without cough or phlegm, are associated with more exacerbations and higher mortality. Plugs in three or more lung segments carried an adjusted hazard ratio of 1.24. Optimal management of plugs remains unclear."
+    },
+    {
+      "title": "Allergy & Asthma Network Highlights Patient-Centered Research Addressing Critical Gaps in Asthma Care at ACAAI 2026",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "publisher": "Allergy & Asthma Network",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "Four abstracts presented at the ACAAI 2026 Annual Scientific Meeting (Phoenix, 12-16 November) examined asthma education, barriers to biologic adoption in uncontrolled and severe asthma, risks of long-term steroid use, and under-recognition of uncontrolled asthma."
+    },
+    {
+      "title": "Air pollution and lack of green spaces linked to increased risk of heart disease",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-lack-green-spaces.html",
+      "publisher": "Medical Xpress (Karolinska Institutet)",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "A European study pooling 14 cohorts with more than 29 million participants found that air pollution, less greenery and more impervious surfaces were associated with higher ischemic heart disease risk, including when assessed jointly."
+    },
+    {
+      "title": "Early test results for U.S. drug 'one of the biggest breakthroughs' for cancer, says Canadian oncologist",
+      "url": "https://cp24.com/news/canada/2026/11/22/early-test-results-for-us-drug-one-of-the-biggest-breakthroughs-for-cancer-says-canadian-oncologist",
+      "publisher": "CP24 / CTV News",
+      "published_date": "2026-11-22",
+      "topic": "lung_cancer",
+      "summary": "A US drugmaker reported that its oral drug ERAS-0015 shrank tumours in nearly half of patients with advanced pancreatic and lung cancers in an early-stage trial. In lung cancer, tumours shrank in three of five previously treated patients; numbers are small and results are preliminary."
+    },
+    {
+      "title": "Science & Medicine: Low-dose CT scans and robotic biopsies help catch lung cancer earlier",
+      "url": "https://tpr.org/podcast/petrie-dish/2026-11-22/science-medicine-low-dose-ct-scans-and-robotic-biopsies-help-catch-lung-cancer-earlier",
+      "publisher": "Texas Public Radio",
+      "published_date": "2026-11-22",
+      "topic": "lung_cancer",
+      "summary": "A UT San Antonio pulmonologist describes how low-dose CT screening and robotic bronchoscopy biopsies are helping shift lung cancer diagnosis to earlier, potentially curable stages, with fewer complications than traditional biopsy approaches."
+    }
+  ]
+}

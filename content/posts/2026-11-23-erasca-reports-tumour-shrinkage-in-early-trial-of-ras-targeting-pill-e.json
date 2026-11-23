@@ -1,0 +1,47 @@
+{
+  "slug": "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e",
+  "headline": "Erasca reports tumour shrinkage in early trial of RAS-targeting pill ERAS-0015",
+  "dek": "The US drugmaker said the experimental pill shrank tumours in pancreatic and lung cancer patients in an early-stage trial, with late-stage testing planned for 2027.",
+  "body": "Erasca, a San Diego-based drugmaker, reported on Friday that its experimental pill ERAS-0015 reduced tumours in patients with advanced pancreatic and lung cancers in an early-stage clinical trial. The company said 44 per cent of 25 pancreatic cancer patients saw tumours shrink substantially after taking a 32 mg daily dose. Among patients with the two most common genetic variations of pancreatic cancer, the figure was 69 per cent. In lung cancer, tumours diminished in three of five patients (60 per cent) who had previously received immunotherapy and chemotherapy.\n\nErasca said it would begin late-stage trials in 2027 to test the drug and another experimental treatment, ERAS-4001. Dr Jennifer Knox, a staff medical oncologist at the University Health Network's Princess Margaret Cancer Centre in Toronto, will supervise patients when the trial comes to Canada next year. She told CTVNews.ca the drug is \"one of the biggest breakthroughs for cancer in general in recent years\". She noted that the early-phase trial involved a small number of patients, which she called \"typical\" at that stage.\n\nKnox said Erasca's drug is similar to daraxonrasib, from Revolution Medicines, which she said is now licensed in the US. A US-led study in The New England Journal of Medicine in May reported that daraxonrasib doubled survival time in a clinical trial, according to the report.\n\nErasca chief executive Dr Jonathan Lim said in a press release that the treatment was \"generally well tolerated\". The company had previously reported that one patient taking a 24 mg dose died from lung inflammation.\n\nDr Sam Godfrey of Cancer Research UK said longer trials are needed because microscopic cells can remain and return.",
+  "key_quote": "It looks incredibly promising ... So, it’s very exciting",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Jennifer Knox",
+    "Jonathan Lim",
+    "Sam Godfrey"
+  ],
+  "category": "approvals",
+  "score": 5.0,
+  "created_at": "2026-11-23T08:09:01+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.cp24.com:443/news/canada/2026/11/22/early-test-results-for-us-drug-one-of-the-biggest-breakthroughs-for-cancer-says-canadian-oncologist/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:c15cdff9c66314de",
+    "source": "rss",
+    "url": "https://www.cp24.com:443/news/canada/2026/11/22/early-test-results-for-us-drug-one-of-the-biggest-breakthroughs-for-cancer-says-canadian-oncologist/",
+    "title": "Early test results for U.S. drug 'one of the biggest breakthroughs' for cancer, says Canadian oncologist",
+    "author_name": "CP24 / CTV News",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-22T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "lung_cancer",
+      "scout_summary": "A US drugmaker reported that its oral drug ERAS-0015 shrank tumours in nearly half of patients with advanced pancreatic and lung cancers in an early-stage trial. In lung cancer, tumours shrank in three of five previously treated patients; numbers are small and results are preliminary.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

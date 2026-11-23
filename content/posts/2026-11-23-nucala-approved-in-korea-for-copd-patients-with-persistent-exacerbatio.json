@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-23-nucala-approved-in-korea-for-copd-patients-with-persistent-exacerbatio",
+  "headline": "Nucala approved in Korea for COPD patients with persistent exacerbations on triple therapy",
+  "dek": "Mepolizumab is the second biologic approved for COPD in Korea, but a leading pulmonologist said cost could limit patient access.",
+  "body": "Nucala (mepolizumab) was approved in Korea last month for adults with chronic obstructive pulmonary disease (COPD) driven by eosinophilic inflammation, Korea Biomedical Review reported. It is indicated for patients whose disease remains inadequately controlled despite triple therapy with an inhaled corticosteroid, a long-acting beta2 agonist and a long-acting muscarinic antagonist. It follows the approval of dupilumab last year.\n\nThe report cited the phase 3 MATINEE trial, which enrolled 804 patients receiving triple therapy with blood eosinophil counts of at least 300 cells per microliter. The annual rate of moderate or severe exacerbations was 0.80 with Nucala versus 1.01 with placebo, a 21 percent reduction. Median time to a first exacerbation was 419 days versus 321 days. Adverse event rates were similar between groups.\n\nThe outlet spoke with Professor Kim Woo-jin, a pulmonologist at Kangwon National University Hospital and chair of the Korean Academy of Tuberculosis and Respiratory Diseases' COPD study group, at the academy's KATRDIC 2026 congress in Seoul. Kim welcomed the new option but stressed that preventing exacerbations, improving diagnosis and securing reimbursement remain central to COPD care.\n\nKim said exacerbations are associated with higher mortality and faster lung function decline. He said blood eosinophil counts influence treatment selection and the likelihood of response, but can fluctuate, and that the academy is discussing repeated measurement.\n\nThe report said COPD affects 10.4 percent of Koreans aged 40 or older, while awareness stands at 2 percent. Korea added lung function testing to its national health screening programme this year for people aged 56 and 66.",
+  "key_quote": "Biologics now give us a chance to tailor treatment to the underlying disease mechanism.",
+  "tags": [
+    "copd",
+    "therapeutics",
+    "trial",
+    "policy",
+    "screening"
+  ],
+  "people": [
+    "Kim Woo-jin"
+  ],
+  "category": "approvals",
+  "score": 7.0,
+  "created_at": "2026-11-23T08:08:47+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.koreabiomed.com/news/articleViewAmp.html?idxno=33943"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:376a54763b10b68d",
+    "source": "rss",
+    "url": "https://www.koreabiomed.com/news/articleViewAmp.html?idxno=33943",
+    "title": "Nucala expands COPD treatment options, but reimbursement remains a hurdle",
+    "author_name": "Korea Biomedical Review",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T06:26:36+00:00",
+    "extra": {
+      "feed": "Google News — COPD",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
