@@ -215,6 +215,23 @@ _ids = [i["id"] for i in _ch]
 assert _ids.count("1") + _ids.count("2") + _ids.count("3") == 1, _ids
 assert "4" in _ids and "5" in _ids, _ids
 
+# duplicate guard: the recent-headline window reaches back far enough to catch a story we
+# covered a week ago, and triage is told to drop repeats inside the same batch too.
+import datetime as _dt
+from lungdaily.util import now as _now
+_dupslug = "zz-dup-window-probe"
+_dupfile = POSTS / f"{_dupslug}.json"
+_dupfile.write_text(json.dumps({
+    "slug": _dupslug, "headline": "FDA issues complete response letter for ivonescimab",
+    "status": "published", "published_at": (_now() - _dt.timedelta(days=7)).isoformat()}))
+try:
+    _heads = process.recent_headlines()
+    assert any("ivonescimab" in h for h in _heads), _heads
+    assert not any("ivonescimab" in h for h in process.recent_headlines(days=3))
+    assert "EARLIER item in the ITEMS list" in process.TRIAGE_SYSTEM
+finally:
+    _dupfile.unlink()
+
 # People section: page text extraction, Bing redirect unwrap, Bing <News:Source>, short-brief length
 from lungdaily.sources import page as _pg
 assert _pg.real_url("http://www.bing.com/news/apiclick.aspx?ref=FexRss&url=https%3a%2f%2fexample.org%2fa&c=1") == "https://example.org/a"

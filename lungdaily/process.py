@@ -61,7 +61,10 @@ Use "people" for appointments, elections (society presidents, editors, chairs), 
 retirements and obituaries of people in the respiratory field.
 Also give author_type: "person" (an individual clinician, researcher, advocate or patient),
 "organisation" (society, journal, agency, company, charity) or "media" (news outlet).
-If an item repeats a story already in RECENT HEADLINES, set duplicate=true.
+If an item repeats a story already in RECENT HEADLINES, set duplicate=true. Also set duplicate=true
+if an EARLIER item in the ITEMS list reports the same underlying story - the same regulatory
+decision, approval, trial readout, guideline, appointment or event - even when the outlet, wording,
+angle or quoted figures differ; keep only the first and fullest item and mark the rest duplicates.
 
 Return ONLY JSON: [{"id": "...", "score": 0-10, "category": "...", "author_type": "person|organisation|media", "duplicate": false, "reason": "<12 words"}]"""
 
@@ -143,7 +146,7 @@ def _all_posts() -> list[dict]:
     return [read_json(p, {}) for p in sorted(POSTS.glob("*.json"))]
 
 
-def recent_headlines(days: int = 4) -> list[str]:
+def recent_headlines(days: int = 10) -> list[str]:
     cutoff = now() - dt.timedelta(days=days)
     out = []
     for p in _all_posts() + read_json(HELD, []):
@@ -209,7 +212,7 @@ def triage(items: list[dict]) -> None:
     size = settings()["limits"]["triage_batch_size"]
     for start in range(0, len(todo), size):
         batch = todo[start : start + size]
-        user = ("RECENT HEADLINES:\n" + "\n".join(f"- {h}" for h in heads[-60:]) + "\n\nITEMS:\n"
+        user = ("RECENT HEADLINES:\n" + "\n".join(f"- {h}" for h in heads[-180:]) + "\n\nITEMS:\n"
                 + json.dumps([_brief(i, tiers) for i in batch], ensure_ascii=False))
 
         def fake(batch=batch):
