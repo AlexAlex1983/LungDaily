@@ -2955,5 +2955,58 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-23-neoadjuvant-alectinib-achieved-42-major-pathological-response-in-alk-s",
+    "headline": "Neoadjuvant alectinib achieved 42% major pathological response in ALK+ stage III NSCLC",
+    "dek": "Phase II ALNEO results, shared by thoracic oncologist Stephen V Liu, report a 67% response rate and a 12% pathological complete response rate.",
+    "body": "Results from the phase II ALNEO study of neoadjuvant alectinib in ALK-positive non-small cell lung cancer (NSCLC) have been highlighted by Stephen V Liu, MD, in a post on X that tagged the JCO account.\n\nAccording to Liu, patients with stage III, potentially resectable disease received eight weeks of alectinib, followed by surgery and then adjuvant alectinib.\n\nLiu reported a response rate of 67%. Of the patients in the study, 85% underwent surgery, with an R0 rate of 86%. The major pathological response (MPR) rate was 42%, and the pathological complete response (pCR) rate was 12%.\n\nLiu is chief of Hematology & Oncology at Georgetown and MedStar Georgetown University Hospital, and a thoracic oncologist. His post linked to the full publication.",
+    "key_quote": "8 wks of alectinib followed by surgery and adjuvant alectinib for pts with stage III potentially resectable NSCLC.",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "therapeutics"
+    ],
+    "people": [
+      "Stephen V Liu"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-23T17:08:57+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article says \"His post linked to the full publication.\" The source only has a shortened t.co link and a tag of @JCO_ASCO. It does not say where the link goes or that it leads to the full publication, so this claim is unsupported."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2124910856471269493",
+      "url": "https://x.com/StephenVLiu/status/2124910856471269493"
+    },
+    "mentions": [
+      "JCO_ASCO"
+    ],
+    "source": {
+      "id": "x:2124910856471269493",
+      "source": "x",
+      "url": "https://x.com/StephenVLiu/status/2124910856471269493",
+      "title": "",
+      "author_name": "Stephen V Liu, MD",
+      "author_handle": "StephenVLiu",
+      "author_url": "https://x.com/StephenVLiu",
+      "published_at": "2026-11-23T17:00:01+00:00",
+      "extra": {
+        "tweet_id": "2124910856471269493",
+        "query_kind": "voices",
+        "links": [
+          "https://ascopubs.org/doi/10.1200/JCO-26-00854"
+        ],
+        "author_followers": 30888,
+        "author_id": "377425889",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
