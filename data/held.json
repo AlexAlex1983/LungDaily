@@ -2863,5 +2863,50 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-23-yasir-yousif-elamin-northstar-trial-cited-in-new-nccn-nsclc-guidelines",
+    "headline": "Yasir Yousif Elamin: NorthStar trial cited in new NCCN NSCLC guidelines",
+    "dek": "The MD Anderson oncologist said on LinkedIn that the randomised phase 2 trial of osimertinib with local consolidation therapy in EGFR-mutant lung cancer now appears in the guidelines.",
+    "body": "Yasir Yousif Elamin, Associate Professor of Thoracic Medical Oncology at MD Anderson Cancer Center, wrote on LinkedIn that he was glad to see the NorthStar trial cited in the new NCCN guidelines for non-small cell lung cancer (NSCLC).\n\nElamin described NorthStar as a randomised phase 2 trial. According to his post, it showed improved progression-free survival (PFS) with osimertinib and local consolidation therapy in EGFR-mutant lung cancer.\n\nHe closed the post by thanking patients, their families and the research team.\n\nOncodaily, which reported the post, also linked to its earlier coverage of a NorthStar trial analysis presented at ELCC 2026 on local consolidative therapy in EGFR-mutant NSCLC.",
+    "key_quote": "Glad to see NorthStar trial cited in the new NCCN NSCLC guidelines",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "guidelines",
+      "therapeutics"
+    ],
+    "people": [
+      "Yasir Yousif Elamin"
+    ],
+    "category": "voices",
+    "score": 7.0,
+    "created_at": "2026-11-23T05:10:01+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It restates a short LinkedIn post (glad to see NorthStar cited, randomised phase 2, improved PFS with osimertinib plus local consolidation, thanks to patients) and gives no detail beyond the headline. It has no PFS figures, no information on which NCCN guideline recommendation cites the trial, and no context for why the citation matters. The closing line about Oncodaily's earlier ELCC 2026 coverage and the line about thanking patients are filler. A reader learns almost nothing beyond the headline."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://oncodaily.com/science/yasir-yousif-elamin-lung-cancer-638675"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:e794178105a8c2de",
+      "source": "rss",
+      "url": "https://oncodaily.com/science/yasir-yousif-elamin-lung-cancer-638675",
+      "title": "Yasir Yousif Elamin: Glad to See Phase 2 NorthStar Trial Cited in The New NCCN Guidelines",
+      "author_name": "Oncodaily",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-22T21:44:22+00:00",
+      "extra": {
+        "feed": "Google News — respiratory trial results",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

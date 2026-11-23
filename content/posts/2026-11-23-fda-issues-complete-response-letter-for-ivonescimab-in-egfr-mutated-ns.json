@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-23-fda-issues-complete-response-letter-for-ivonescimab-in-egfr-mutated-ns",
+  "headline": "FDA issues complete response letter for ivonescimab in EGFR-mutated NSCLC",
+  "dek": "The agency said a progression-free survival benefit without a statistically significant overall survival improvement did not support a positive benefit-risk profile, according to Summit Therapeutics.",
+  "body": "The US Food and Drug Administration (FDA) has issued a complete response letter for the biologics license application seeking approval of ivonescimab, a PD-1 x VEGF bispecific antibody. The proposed use was in combination with platinum-based chemotherapy for patients with EGFR-mutated locally advanced or metastatic non-small cell lung cancer (NSCLC) whose disease progressed after EGFR tyrosine kinase inhibitor therapy.\n\nAccording to Summit Therapeutics, the FDA determined that substantial evidence of effectiveness was not established without a statistically significant improvement in overall survival (OS). The agency indicated that the progression-free survival (PFS) benefit alone did not support a positive benefit-risk profile.\n\nThe application was based on the global phase 3 HARMONi trial (NCT06396065). Median PFS by independent review was 6.8 months with ivonescimab plus carboplatin and pemetrexed, versus 4.4 months with placebo plus chemotherapy (HR, 0.52; 95% CI, 0.41-0.66; P < .0001). The OS difference at the primary analysis did not reach statistical significance.\n\nThe letter outlined four clinical and statistical issues. These included that 93% of PFS events (257 of 275) occurred in patients enrolled in China, while patients in the US and Europe were enrolled later and had immature PFS data. The FDA also cited the lack of a statistically significant OS benefit and objective response rate difference. It said the toxicities associated with PD-1 and VEGF inhibition were not outweighed by what it called a \"modest\" PFS improvement.\n\nRobert W. Duggan, chairman and co-chief executive officer of Summit, said in the press release: \"We are disappointed for patients and their families awaiting additional treatment options in this setting.\" Summit noted that ivonescimab remains investigational in the United States and Europe.",
+  "key_quote": "We are disappointed for patients and their families awaiting additional treatment options in this setting",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics",
+    "policy"
+  ],
+  "people": [
+    "Robert W. Duggan",
+    "Jonathan Goldman"
+  ],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-23T05:09:33+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.targetedonc.com/view/fda-does-not-approve-ivonescimab-for-egfr-mutant-nsclc-harmoni"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:69adfd088e2d0aaf",
+    "source": "rss",
+    "url": "https://www.targetedonc.com/view/fda-does-not-approve-ivonescimab-for-egfr-mutant-nsclc-harmoni",
+    "title": "FDA Does Not Approve Ivonescimab for EGFR-Mutant NSCLC",
+    "author_name": "Targeted Onc",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-20T08:00:00+00:00",
+    "extra": {
+      "feed": "Google News — respiratory approvals",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "2026-11-23-amico-phase-iii-trial-to-test-metformin-against-accelerated-lung-agein",
+  "headline": "AMICO phase III trial to test metformin against accelerated lung ageing in emphysema",
+  "dek": "A Spanish multicentre, placebo-controlled trial will assess whether three years of oral metformin can slow functional decline and tissue destruction in COPD patients with markers of accelerated pulmonary decline.",
+  "body": "A protocol for the AMICO study, a randomised trial of metformin in chronic obstructive pulmonary disease (COPD), has been described by Bioengineer.org. The trial will test whether the anti-ageing properties of metformin can act as a disease-modifying intervention in patients with demonstrable markers of accelerated pulmonary decline.\n\nAccording to the protocol, AMICO is an investigator-initiated, multicentre, randomised, double-blind, placebo-controlled phase III trial across seventeen tertiary care centres in Spain. The lead investigator is Juan P. de-Torres. The protocol follows the SPIRIT guidelines, and final outcomes will be reported in line with CONSORT requirements. The Ethics Committee of Navarra granted authorisation under EU Clinical Trial Regulation 536/2014, and the trial is registered as EU CT: 2025-520972-24.\n\nResearchers will assess whether oral metformin given over three years can attenuate long-term decline in respiratory function. Participants will continue to receive standard guideline-directed COPD care.\n\nThe rationale draws on geroscience research. Experimental studies suggest metformin influences pathways linked to chronic tissue degradation, including mitochondrial dysfunction, cellular senescence, inflammation, impaired autophagy and reactive oxygen species production. It acts mainly by activating AMP-activated protein kinase and inhibiting mammalian target of rapamycin signalling. In animal models of cigarette smoke-induced emphysema, metformin reduced airspace enlargement and airway remodelling. Observational cohorts of people with chronic respiratory disease have suggested that metformin exposure is associated with slower emphysema progression, better functional outcomes and fewer acute exacerbations.\n\nThe investigators set eligibility criteria built around precision phenotyping, intended to improve the chance of detecting biological disease modification.",
+  "key_quote": "designed to test whether the anti-aging properties of metformin can serve as a disease-modifying intervention",
+  "tags": [
+    "copd",
+    "trial",
+    "therapeutics",
+    "guidelines"
+  ],
+  "people": [
+    "Juan P. de-Torres"
+  ],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-23T05:10:14+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://bioengineer.org/clinical-trial-tests-metformin-to-slow-accelerated-aging-in-emphysema/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:ee6c4fc40cea94ed",
+    "source": "rss",
+    "url": "https://bioengineer.org/clinical-trial-tests-metformin-to-slow-accelerated-aging-in-emphysema/",
+    "title": "Clinical Trial Tests Metformin to Slow Accelerated Aging in Emphysema",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-22T23:11:00+00:00",
+    "extra": {
+      "feed": "Google News — COPD",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
