@@ -182,7 +182,8 @@
     "2026-11-22-rep-bob-onder-introduces-bill-requiring-insurers-to-cover-allergy-and": "asthma/asthma-06.jpg",
     "2026-11-22-voice-recordings-combined-with-clinical-data-detect-asthma-with-auroc": "data/data-04.jpg",
     "2026-11-22-higher-triglyceride-glucose-index-linked-to-more-severe-airflow-limita": "airways/airways-31.jpg",
-    "2026-11-23-fda-issues-complete-response-letter-for-ivonescimab-in-egfr-mutated-ns": "pharma/pharma-03.jpg"
+    "2026-11-23-fda-issues-complete-response-letter-for-ivonescimab-in-egfr-mutated-ns": "pharma/pharma-03.jpg",
+    "2026-11-23-genetic-analysis-links-air-pollutants-to-lung-disease-and-higher-alzhe": "research/research-12.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -209,7 +210,7 @@
     "ctscan/ctscan-10.jpg": 139,
     "ctscan/ctscan-05.jpg": 164,
     "asthma/asthma-04.jpg": 24,
-    "research/research-12.jpg": 25,
+    "research/research-12.jpg": 184,
     "airways/airways-02.jpg": 26,
     "research/research-14.jpg": 27,
     "research/research-07.jpg": 28,
@@ -363,5 +364,5 @@
     "airways/airways-31.jpg": 182,
     "pharma/pharma-03.jpg": 183
   },
-  "counter": 183
+  "counter": 184
 }
