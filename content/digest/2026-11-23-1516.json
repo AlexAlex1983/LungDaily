@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Monday, 23 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "With Flu and Asthma Emergencies Surging, AAFA Releases Flu Vaccine Decision Aid",
+      "url": "https://www.globenewswire.com/news-release/2026/11/20/3407789/0/en/with-flu-and-asthma-emergencies-surging-aafa-releases-flu-vaccine-decision-aid.html",
+      "publisher": "Asthma and Allergy Foundation of America (via GlobeNewswire)",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "AAFA reports that asthma-related emergency department visits rise during peak flu season, with a spike beginning in December. It released a Flu Vaccine Decision Aid for people with asthma."
+    },
+    {
+      "title": "Allergy & Asthma Network Highlights Patient-Centered Research Addressing Critical Gaps in Asthma Care at ACAAI 2026",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "publisher": "Allergy & Asthma Network",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "Four abstracts presented at the ACAAI 2026 Annual Scientific Meeting (Phoenix, 12-16 November) examined asthma education, barriers to biologic treatment, risks of long-term steroid use, and under-recognition of uncontrolled asthma."
+    },
+    {
+      "title": "Study reveals data centers' long-distance damage to air quality",
+      "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+      "publisher": "MIT News",
+      "published_date": "2026-11-19",
+      "topic": "air_pollution",
+      "summary": "An MIT-led study in Environmental Research Letters estimates that air pollution from power generation for US data centers caused about 650 premature deaths in 2023 (513 from PM2.5, 137 from ozone). Some Midwestern states far from the facilities had among the highest per-capita impacts."
+    },
+    {
+      "title": "Scripps Enrolls 2,000th Patient in Lung Cancer Screening Program",
+      "url": "https://www.scripps.org/news_items/8262-scripps-enrolls-2-000th-patient-in-lung-cancer-screening-program",
+      "publisher": "Scripps Health",
+      "published_date": "2026-11-20",
+      "topic": "lung_cancer",
+      "summary": "Scripps Cancer Center's lung cancer screening program, launched in 2022, has enrolled its 2,000th patient and detected 32 cancers, several of them at an early stage and successfully treated."
+    }
+  ]
+}
