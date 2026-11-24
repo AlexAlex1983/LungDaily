@@ -197,7 +197,8 @@
     "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high": "tobacco/tobacco-11.jpg",
     "2026-11-24-most-airway-mucus-plugs-in-ex-smokers-resolve-over-time-but-new-ones-f": "research/research-07.jpg",
     "2026-11-24-sanofi-to-buy-insmed-for-41bn-in-cash-according-to-post": "pharma/pharma-15.jpg",
-    "2026-11-24-only-13-of-lung-cancer-patients-in-southern-california-study-met-2021": "ctscan/ctscan-13.jpg"
+    "2026-11-24-only-13-of-lung-cancer-patients-in-southern-california-study-met-2021": "ctscan/ctscan-13.jpg",
+    "2026-11-24-eea-links-fine-particle-pollution-to-about-222-000-premature-deaths-in": "pollution/pollution-15.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -381,7 +382,8 @@
     "data/data-01.jpg": 190,
     "cells/cells-01.jpg": 191,
     "globe/globe-10.jpg": 194,
-    "tobacco/tobacco-11.jpg": 195
+    "tobacco/tobacco-11.jpg": 195,
+    "pollution/pollution-15.jpg": 199
   },
-  "counter": 198
+  "counter": 199
 }
