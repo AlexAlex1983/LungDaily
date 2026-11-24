@@ -3008,5 +3008,60 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-24-gold-holds-2026-international-copd-conference-previewing-2027-report",
+    "headline": "GOLD holds 2026 International COPD Conference, previewing 2027 report",
+    "dek": "The Global Initiative for Chronic Obstructive Lung Disease said attendees saw the 2027 GOLD Report first at a two-day conference, with the next meeting planned for November 2027.",
+    "body": "The Global Initiative for Chronic Obstructive Lung Disease (GOLD) said in a post on X that its 2026 International COPD Conference brought together clinicians, researchers and industry experts from around the world earlier this month.\n\nAccording to GOLD, the conference ran over two days. Attendees got a first look at the 2027 GOLD Report, explored the latest research shaping COPD care and exchanged ideas with colleagues across the field.\n\nGOLD thanked its speakers, moderators, sponsors and everyone who joined from around the globe. The organisation said it was an honour to help bring the community together, and described the event as especially meaningful during COPD Awareness Month, as participants carry the work back to the patients they care for.\n\nGOLD said it would share more information on on-demand sessions from this year's conference, along with announcements about next year's event. It said it would see attendees next November for GOLD 2027.",
+    "key_quote": "attendees got a first look at the 2027 GOLD Report, explored the latest research shaping COPD care",
+    "tags": [
+      "copd",
+      "guidelines",
+      "global-health"
+    ],
+    "people": [],
+    "category": "events",
+    "score": 6.0,
+    "created_at": "2026-11-24T05:10:05+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It restates a conference thank-you post and tells readers nothing beyond the headline. It gives no content from the 2027 GOLD Report, no research findings, no dates or location, and no session details. The body mostly paraphrases the gratitude and 'stay tuned' lines.",
+        "The headline and dek say the conference 'previewed' the 2027 report, but the article never says what was previewed. The claim is supported only as a bare statement, with no substance for the reader."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2125013346160152738",
+      "url": "https://x.com/GOLD_COPD/status/2125013346160152738"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2125013346160152738",
+      "source": "x",
+      "url": "https://x.com/GOLD_COPD/status/2125013346160152738",
+      "title": "",
+      "author_name": "GOLD COPD",
+      "author_handle": "GOLD_COPD",
+      "author_url": "https://x.com/GOLD_COPD",
+      "published_at": "2026-11-23T23:47:17+00:00",
+      "extra": {
+        "tweet_id": "2125013346160152738",
+        "query_kind": "voices",
+        "links": [
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/1",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/2",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/3",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/4",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/5",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/6",
+          "https://x.com/GOLD_COPD/status/2125013346160152738/photo/7"
+        ],
+        "author_followers": 9117,
+        "author_id": "723254289708158976"
+      }
+    },
+    "status": "held"
   }
 ]

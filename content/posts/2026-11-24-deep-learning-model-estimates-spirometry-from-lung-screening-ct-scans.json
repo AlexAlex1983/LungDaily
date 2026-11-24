@@ -1,0 +1,50 @@
+{
+  "slug": "2026-11-24-deep-learning-model-estimates-spirometry-from-lung-screening-ct-scans",
+  "headline": "Deep learning model estimates spirometry from lung screening CT scans in external cohorts without retraining",
+  "dek": "A model combining CT images with quantitative features detected abnormal spirometry with AUROCs of 0.898 and 0.913 in two independent cohorts, though performance varied by population.",
+  "body": "A deep learning model that combines volumetric chest CT with quantitative CT-derived features can estimate spirometric parameters and detect abnormal spirometry in independent cohorts without retraining, according to a study published in Chest.\n\nThe researchers noted that spirometry is underused and that most airflow obstruction remains undiagnosed. They examined whether CT scans acquired for lung cancer screening, which contain anatomical and densitometric information, could serve as a proxy for lung function.\n\nA three-dimensional convolutional neural network was trained on 10,371 low-dose CT reconstructions from 5,975 National Lung Screening Trial participants. It was fused with 20 lung densitometry and tracheal geometry features to predict FEV1, FVC and FEV1/FVC. The frozen model was then applied to an External Lung Cancer Screening Cohort (n = 268) and to COPDGene (10,302 scans). Abnormal spirometry was defined as FEV1/FVC below 0.70, or FEV1 or FVC below 80% predicted.\n\nIn the external screening cohort, the model detected abnormal spirometry with an AUROC of 0.898, sensitivity of 89.9% and specificity of 66.1%. In COPDGene, the AUROC was 0.913, with sensitivity of 66.9% and specificity of 96.3%. Concordance correlation coefficients (CCCs) for FEV1, FVC and FEV1/FVC ranged from 0.80 to 0.88.\n\nIn held-out development data, the full model achieved CCCs of 0.86, 0.85 and 0.71 for the three measures. An image-only model scored 0.83, 0.82 and 0.50, and a feature-only model 0.55, 0.65 and 0.35.\n\nAgreement was lower, with systematic overestimation, in a COPD subgroup (FEV1/FVC below 0.70; CCC 0.62) and in a pattern of low FVC with a preserved ratio (CCC 0.70 to 0.78). Reference spirometry was pre-bronchodilator in NLST and post-bronchodilator in COPDGene.\n\nThe authors concluded that the approach shows promise for opportunistic assessment of existing CT scans, but that referral performance varies by population and prospective utility is unproven.",
+  "key_quote": "It shows promise for opportunistic assessment of existing CT scans, but referral performance varies by population and prospective utility is unproven.",
+  "tags": [
+    "ai",
+    "copd",
+    "screening",
+    "diagnostics",
+    "lung-cancer"
+  ],
+  "people": [
+    "Alysson R S Carvalho",
+    "Alan R Guimarães",
+    "Shaira L Kee"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-24T05:09:30+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43072576/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43072576",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43072576/",
+    "title": "Pulmonary Function Estimation from Opportunistic Chest CT Using a Hybrid Image-plus-Quantitative-Feature Deep Learning Model.",
+    "author_name": "Alysson R S Carvalho, Alan R Guimarães, Shaira L Kee et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.021",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Alysson R S Carvalho"
+    }
+  },
+  "status": "ready"
+}

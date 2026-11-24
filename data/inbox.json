@@ -32,5 +32,61 @@
       "duplicate": false,
       "reason": "Vietnam national assembly passes major e-cigarette and tobacco law"
     }
+  },
+  {
+    "id": "rss:017a638944e83e18",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOTFfc3NZMGNBVDRoVlZMTFJRVVJ0ZGxPSzVpR3NEVEhheENBZlZuNjRfbTBhdHIyZ0F2RVNfU3Radk92Z2VJSWRiV1pVYnBFQURwbHpINUhJSW4zc1R6V3FLa1NERF82bkNuSldIcjNjdDVycGR3RHQ5X0RzOXQ4X0IwZ25wZjBwMWhZWldVT185cW8xc1BCbHRqTjRCSWxPVEE?oc=5",
+    "title": "Airway Mucus Plugs Continuously Clear and Form Anew in Chronic Lung Disease",
+    "text": "Airway Mucus Plugs Continuously Clear and Form Anew in Chronic Lung Disease Bioengineer.org",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-24T01:56:58+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — COPD"
+    },
+    "collected_at": "2026-11-24T05:08:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "New study on continuous mucus plug turnover in chronic lung disease"
+    }
+  },
+  {
+    "id": "rss:9c962803c018c680",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNmd0X0x1TTMybnhoeWRlejBDTzFFNXJjcHl2SjV2N3NFdDFJbldLaXpScnJTbWJlLXM5Y2VsdkRfTG9VV2l1eDNWdlNCeWVBVjV0Y0Q3a0VMb3FJVFBuR0VZUC1nWE0xTDAxbWNISHBVOVdsc2wyLVQ3TzF2ZXZxOTZycGc3Q21yYkZMV3ZQc2hMeVoyTXpfQXQ2cXFUb0R0ZnJkOHMxMUxneERyR1BYeWJxLTM?oc=5",
+    "title": "Triple Inhaler Therapy Reduces Severe Asthma Exacerbations by Seventeen Percent in Review",
+    "text": "Triple Inhaler Therapy Reduces Severe Asthma Exacerbations by Seventeen Percent in Review Bioengineer.org",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-24T03:07:01+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma"
+    },
+    "collected_at": "2026-11-24T05:08:22+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Review finds triple inhaler cuts severe asthma exacerbations"
+    }
   }
 ]

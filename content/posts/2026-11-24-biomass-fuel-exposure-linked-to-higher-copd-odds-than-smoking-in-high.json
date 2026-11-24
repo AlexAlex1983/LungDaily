@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high",
+  "headline": "Biomass fuel exposure linked to higher COPD odds than smoking in high-altitude Gansu",
+  "dek": "A case-control study in BMC Public Health found biomass fuel smoke and cigarette smoking each independently raised the odds of COPD, with biomass exposure showing the stronger association.",
+  "body": "Biomass fuel smoke and cigarette smoking independently increase the risk of chronic obstructive pulmonary disease (COPD) in high-altitude areas of Gansu Province, China, according to a multicentre case-control study published in BMC Public Health.\n\nThe unmatched study ran from January 2025 to December 2025 across five hospitals in Lanzhou, Dingxi and the Gannan Tibetan Autonomous Prefecture. It included 576 patients with COPD and 883 controls, who were non-respiratory patients and people attending routine health check-ups. Questionnaires captured smoking history, biomass fuel exposure and other variables. The investigators used multivariable logistic regression and stratified analyses by age, sex and ethnicity.\n\nSmokers had an adjusted odds ratio of 1.73 (95% confidence interval 1.27 to 2.36) compared with non-smokers. Among heavy smokers with at least 20 pack-years, the odds ratio was 2.01 (1.45 to 2.80). Biomass fuel exposure showed a stronger association, with an adjusted odds ratio of 3.60 (2.63 to 4.96). By cumulative exposure, the odds ratio was 3.72 for 1 to 20 years, 2.62 for 21 to 40 years and 4.63 for more than 40 years.\n\nFor more than 40 years of exposure, the odds ratio was 3.44 for cooking-related biomass fuel use and 6.16 (3.25 to 11.81) for heating-related use. Compared with people reporting neither exposure, the odds ratio was 2.06 for smoking alone, 3.46 for biomass fuel alone and 4.81 (3.04 to 7.65) for both combined.\n\nThe researchers also built and internally validated a nomogram to predict COPD risk in high-altitude populations. It had a C-statistic of 0.688 and a Nagelkerke R-squared of 0.140, and showed good calibration and net clinical benefit on decision curve analysis. The authors concluded that women and older adults should be prioritised in prevention efforts.",
+  "key_quote": "biomass fuel smoke and cigarette smoking independently increase the risk of chronic obstructive pulmonary disease",
+  "tags": [
+    "copd",
+    "air-pollution",
+    "tobacco",
+    "global-health"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-24T05:09:50+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://bioengineer.org/biomass-fuel-linked-to-higher-copd-risk-than-smoking-in-gansu/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:2581cff07e7e71bf",
+    "source": "rss",
+    "url": "https://bioengineer.org/biomass-fuel-linked-to-higher-copd-risk-than-smoking-in-gansu/",
+    "title": "Biomass Fuel Linked to Higher COPD Risk Than Smoking in Gansu",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T20:36:35+00:00",
+    "extra": {
+      "feed": "Google News — COPD",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
