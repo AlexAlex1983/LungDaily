@@ -1043,5 +1043,27 @@
     "title": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal...",
     "url": "https://www.quantisnow.com/insight/maia-biotechnology-begins-dosing-patients-in-spain-for-pivotal-phase-6805184",
     "why": "source too thin (10 words of text)"
+  },
+  {
+    "at": "2026-11-24T17:09:02+00:00",
+    "id": "rss:97052fd2cfbc52d7",
+    "kind": "thin",
+    "score": 6.0,
+    "source": "rss",
+    "author": "Quantisnow",
+    "title": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal...",
+    "url": "https://quantisnow.com/insight/maia-biotechnology-begins-dosing-patients-in-spain-for-pivotal-phase-6805184",
+    "why": "source too thin (10 words of text)"
+  },
+  {
+    "at": "2026-11-24T17:09:17+00:00",
+    "id": "x:2125243211392151803",
+    "kind": "writer",
+    "score": 6.0,
+    "source": "x",
+    "author": "CHEST",
+    "title": "A CHEST Review describes pulmonary and related aspects that accompany Eisenmenger syndrome and their contribution to symptoms, prognosis, and management.\n\nRead ",
+    "url": "https://x.com/accpchest/status/2125243211392151803",
+    "why": "writer: Teaser post with no findings, only a link to review"
   }
 ]

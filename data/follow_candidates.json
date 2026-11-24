@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 36,
+    "seen": 37,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47405
+    "followers": 47406
   },
   "erspublications": {
     "id": "424241621",
@@ -146,10 +146,10 @@
   "pulmcrit": {
     "id": "873314053",
     "username": "PulmCrit",
-    "seen": 17,
+    "seen": 18,
     "name": "Josh Farkas MD 💊",
     "bio": "Author of the Internet Book of Critical Care (100% free, link below) 🖋️ Board certified in critical care, pulmonology, and neurocritical care 🤓 No COI💰",
-    "followers": 65499
+    "followers": 65503
   },
   "copddoc": {
     "id": "356203202",
@@ -178,10 +178,10 @@
   "msrc_texasstate": {
     "id": "1258054340129873921",
     "username": "MSRC_TexasState",
-    "seen": 5,
+    "seen": 6,
     "name": "MS in Respiratory Care at Texas State University",
     "bio": "Post-professional online graduate degree in Respiratory Care. Providing advanced education to respiratory therapists to further their career goals. https://t.co/gn1rhpqmZE",
-    "followers": 806
+    "followers": 808
   },
   "allergyasthmahq": {
     "id": "23939188",
@@ -354,7 +354,7 @@
   "healioallergy": {
     "id": "1409602508750721033",
     "username": "HealioAllergy",
-    "seen": 4,
+    "seen": 5,
     "name": "Healio Allergy and Asthma",
     "bio": "The content you need, when you need it.",
     "followers": 637
@@ -870,5 +870,13 @@
     "name": "BMJ Open Respiratory",
     "bio": "#OpenAccess journal supporting the #respiratory #criticalcare and #sleepmedicine community. Companion to @ThoraxBMJ. Published with @BTSrespiratory",
     "followers": 8752
+  },
+  "tamesidegroup": {
+    "id": "1053218828858073088",
+    "username": "TamesideGroup",
+    "seen": 1,
+    "name": "Tameside Pulmonary Fibrosis Support Group",
+    "bio": "The group aims to provide support and information for patients, their families and friends.\n\nSue and the late Clive Green\nCo-Founders \n\nemail: tpfsg1@gmail.com",
+    "followers": 632
   }
 }

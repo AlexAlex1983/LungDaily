@@ -3159,5 +3159,60 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-24-sophia-liu-ragon-institute-faculty-member-receives-niaid-new-innovator",
+    "headline": "Sophia Liu: Ragon Institute faculty member receives NIAID New Innovator Award",
+    "dek": "The five-year award will fund Liu's study of how the immune response may contribute to lasting lung damage after tuberculosis and in idiopathic pulmonary fibrosis.",
+    "body": "Sophia Liu, PhD, a Core Member and Early Independence Fellow at the Ragon Institute, has received a New Innovator Award from the National Institute of Allergy and Infectious Diseases (NIAID), part of the National Institutes of Health. The Ragon Institute announced the award on X and on its website.\n\nAccording to the institute, the award supports early-stage investigators pursuing creative, high-impact research, and NIAID established the programme in 2019. The five-year award will fund Liu's project, \"Pathogenic B-cell programs in lung TLSs as drivers of post-tuberculosis lung disease.\"\n\nThe research will examine how the immune response may contribute to lasting lung damage after tuberculosis (TB) infection, as well as in idiopathic pulmonary fibrosis, a chronic disease in which lung tissue becomes scarred for reasons that are not known. The institute noted that TB can be cured with antibiotics, but many people who complete treatment are left with lung damage that can affect their breathing for years, and that why this damage persists after the infection has cleared is not well understood.\n\nThe project focuses on tertiary lymphoid structures (TLSs), organised clusters of immune cells that form in tissues during long-lasting infection or inflammation. TLSs contain B cells, the immune cells best known for making antibodies. The work will investigate whether B-cell activity within these structures in the lung contributes to tissue damage and loss of lung function.\n\nLiu joined the Ragon Institute faculty in 2023. Her lab develops tools to study how immune cells interact within tissues over space and time, and applies them to healthy and diseased tissue to understand how immune responses can lead to tissue damage and to identify potential therapeutic targets.",
+    "key_quote": "The five-year award supports her lab’s study of how the immune response may contribute to lasting lung damage after tuberculosis and in idiopathic pulmonary fibrosis.",
+    "tags": [
+      "tb",
+      "ild",
+      "lung-cancer",
+      "therapeutics"
+    ],
+    "people": [
+      "Sophia Liu"
+    ],
+    "category": "people",
+    "score": 7.0,
+    "created_at": "2026-11-24T17:09:15+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The tag \"lung-cancer\" is not supported by the source. Neither the post nor the linked page mentions lung cancer. The project concerns post-tuberculosis lung disease and idiopathic pulmonary fibrosis, so the tag miscategorises the article.",
+        "The body text and key quote are otherwise supported and verbatim. Removing or correcting the tag would fix the article."
+      ]
+    },
+    "embed": {
+      "type": "x",
+      "tweet_id": "2125269529781501995",
+      "url": "https://x.com/ragoninstitute/status/2125269529781501995"
+    },
+    "mentions": [],
+    "source": {
+      "id": "x:2125269529781501995",
+      "source": "x",
+      "url": "https://x.com/ragoninstitute/status/2125269529781501995",
+      "title": "",
+      "author_name": "Ragon Institute",
+      "author_handle": "ragoninstitute",
+      "author_url": "https://x.com/ragoninstitute",
+      "published_at": "2026-11-24T16:45:16+00:00",
+      "extra": {
+        "tweet_id": "2125269529781501995",
+        "query_kind": "keywords",
+        "links": [
+          "https://ragoninstitute.org/2026/11/ragon-faculty-member-sophia-liu-receives-niaid-new-innovator-award-to-study-lung-damage-after-infection/",
+          "https://x.com/ragoninstitute/status/2125269529781501995/photo/1"
+        ],
+        "author_followers": 4416,
+        "author_id": "557230914",
+        "page_fetched": true,
+        "linked_url": "https://ragoninstitute.org/2026/11/ragon-faculty-member-sophia-liu-receives-niaid-new-innovator-award-to-study-lung-damage-after-infection/"
+      }
+    },
+    "status": "held"
   }
 ]
