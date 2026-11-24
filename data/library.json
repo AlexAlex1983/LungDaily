@@ -195,7 +195,8 @@
     "2026-11-24-deep-learning-model-estimates-spirometry-from-lung-screening-ct-scans": "ctscan/ctscan-03.jpg",
     "2026-11-24-american-lung-association-senate-funding-bills-are-a-step-in-the-right": "globe/globe-10.jpg",
     "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high": "tobacco/tobacco-11.jpg",
-    "2026-11-24-most-airway-mucus-plugs-in-ex-smokers-resolve-over-time-but-new-ones-f": "research/research-07.jpg"
+    "2026-11-24-most-airway-mucus-plugs-in-ex-smokers-resolve-over-time-but-new-ones-f": "research/research-07.jpg",
+    "2026-11-24-sanofi-to-buy-insmed-for-41bn-in-cash-according-to-post": "pharma/pharma-15.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -215,7 +216,7 @@
     "pharma/pharma-13.jpg": 187,
     "pollution/pollution-11.jpg": 16,
     "tobacco/tobacco-12.jpg": 17,
-    "pharma/pharma-15.jpg": 18,
+    "pharma/pharma-15.jpg": 197,
     "city/city-12.jpg": 19,
     "research/research-11.jpg": 179,
     "airways/airways-04.jpg": 21,
@@ -381,5 +382,5 @@
     "globe/globe-10.jpg": 194,
     "tobacco/tobacco-11.jpg": 195
   },
-  "counter": 196
+  "counter": 197
 }
