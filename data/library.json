@@ -199,10 +199,11 @@
     "2026-11-24-sanofi-to-buy-insmed-for-41bn-in-cash-according-to-post": "pharma/pharma-15.jpg",
     "2026-11-24-only-13-of-lung-cancer-patients-in-southern-california-study-met-2021": "ctscan/ctscan-13.jpg",
     "2026-11-24-eea-links-fine-particle-pollution-to-about-222-000-premature-deaths-in": "pollution/pollution-15.jpg",
-    "2026-11-24-brian-bizik-copd-escalation-therapies-are-not-only-for-end-stage-disea": "airways/airways-29.jpg"
+    "2026-11-24-brian-bizik-copd-escalation-therapies-are-not-only-for-end-stage-disea": "airways/airways-29.jpg",
+    "2026-11-24-updated-asthma-guidance-changes-how-children-under-five-are-diagnosed": "asthma/asthma-02.jpg"
   },
   "last_used": {
-    "asthma/asthma-02.jpg": 1,
+    "asthma/asthma-02.jpg": 201,
     "research/research-08.jpg": 177,
     "globe/globe-06.jpg": 3,
     "cells/cells-08.jpg": 4,
@@ -387,5 +388,5 @@
     "pollution/pollution-15.jpg": 199,
     "airways/airways-29.jpg": 200
   },
-  "counter": 200
+  "counter": 201
 }
