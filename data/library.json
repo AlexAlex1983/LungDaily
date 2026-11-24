@@ -194,7 +194,8 @@
     "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e": "ctscan/ctscan-08.jpg",
     "2026-11-24-deep-learning-model-estimates-spirometry-from-lung-screening-ct-scans": "ctscan/ctscan-03.jpg",
     "2026-11-24-american-lung-association-senate-funding-bills-are-a-step-in-the-right": "globe/globe-10.jpg",
-    "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high": "tobacco/tobacco-11.jpg"
+    "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high": "tobacco/tobacco-11.jpg",
+    "2026-11-24-most-airway-mucus-plugs-in-ex-smokers-resolve-over-time-but-new-ones-f": "research/research-07.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -224,7 +225,7 @@
     "research/research-12.jpg": 184,
     "airways/airways-02.jpg": 26,
     "research/research-14.jpg": 189,
-    "research/research-07.jpg": 28,
+    "research/research-07.jpg": 196,
     "airways/airways-14.jpg": 29,
     "airways/airways-08.jpg": 30,
     "pollution/pollution-12.jpg": 31,
@@ -380,5 +381,5 @@
     "globe/globe-10.jpg": 194,
     "tobacco/tobacco-11.jpg": 195
   },
-  "counter": 195
+  "counter": 196
 }
