@@ -10,18 +10,18 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 37,
+    "seen": 38,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47406
+    "followers": 47405
   },
   "erspublications": {
     "id": "424241621",
     "username": "ERSpublications",
-    "seen": 29,
+    "seen": 30,
     "name": "ERS publications",
     "bio": "European Respiratory Journal, European Respiratory Review, ERJ Open Research, Breathe, the ERS Monograph and ERS Handbooks, and European Lung White Book",
-    "followers": 33496
+    "followers": 33507
   },
   "iaslc": {
     "id": "61241883",
@@ -42,18 +42,18 @@
   "lungassociation": {
     "id": "17049255",
     "username": "LungAssociation",
-    "seen": 6,
+    "seen": 7,
     "name": "American Lung Association",
     "bio": "American Lung Association is the leading organization working to save lives by improving #lunghealth and preventing lung disease. #breathe #breath #lungs",
-    "followers": 44409
+    "followers": 44394
   },
   "atscommunity": {
     "id": "50076632",
     "username": "atscommunity",
-    "seen": 27,
+    "seen": 28,
     "name": "American Thoracic Society (ATS)",
     "bio": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "followers": 42203
+    "followers": 42209
   },
   "eurorespsoc": {
     "id": "121685027",
@@ -878,5 +878,13 @@
     "name": "Tameside Pulmonary Fibrosis Support Group",
     "bio": "The group aims to provide support and information for patients, their families and friends.\n\nSue and the late Clive Green\nCo-Founders \n\nemail: tpfsg1@gmail.com",
     "followers": 632
+  },
+  "jlcastrogarcia": {
+    "id": "733604897757630464",
+    "username": "JLCastroGarcia",
+    "seen": 1,
+    "name": "José Luis Castro",
+    "bio": "@WHO Director-General Special Envoy for Chronic Respiratory Diseases. \nFounder and former CEO of @VitalStrat",
+    "followers": 1943
   }
 }

@@ -3214,5 +3214,55 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-24-jose-luis-castro-cop31-outcome-leaves-respiratory-health-at-risk",
+    "headline": "José Luis Castro: COP31 outcome leaves respiratory health at risk",
+    "dek": "The WHO Special Envoy for Chronic Respiratory Diseases said on LinkedIn that cleaner air is one of climate action's most immediate dividends and that the COP31 outcome leaves urgent questions unanswered.",
+    "body": "José Luis Castro, WHO Director-General Special Envoy for Chronic Respiratory Diseases, wrote on LinkedIn that the outcome of COP31 in Antalya leaves urgent questions unanswered about the pace of climate action and the financing needed to protect vulnerable populations.\n\nCastro noted that WHO Director-General Dr Tedros Adhanom Ghebreyesus has described the failure to reach an agreement that protects people's lives and health as a grave setback. Castro said that for millions of people living with asthma, COPD and other chronic respiratory diseases, the consequences of delayed climate action are already part of everyday life.\n\nThe post introduces the latest edition of his Clear the Air series. In it, he said, he examines what the COP31 outcome means for respiratory health, why cleaner air is among the most immediate dividends of climate action, and what governments can do between now and COP32 in Addis Ababa.\n\nCastro wrote that the scientific evidence, proven interventions and international commitments already exist, including the World Health Assembly resolution on integrated lung health. In his view, the challenge is to turn them into investment, implementation and measurable improvements in people's lives.",
+    "key_quote": "Ultimately, the success of climate diplomacy must also be measured in the air our children breathe.",
+    "tags": [
+      "air-pollution",
+      "policy",
+      "who",
+      "copd",
+      "asthma"
+    ],
+    "people": [
+      "José Luis Castro",
+      "Tedros Adhanom Ghebreyesus"
+    ],
+    "category": "voices",
+    "score": 8.0,
+    "created_at": "2026-11-24T20:08:51+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. The source is a short promotional LinkedIn teaser for a newsletter edition, and the article only paraphrases it. It gives no details of what the COP31 outcome was, what Castro actually argues about respiratory health, or what governments should do before COP32. A reader learns almost nothing beyond the headline.",
+        "The headline says the COP31 outcome 'leaves respiratory health at risk'. The post only says the outcome leaves 'urgent questions unanswered' and that delayed climate action already affects people with chronic respiratory disease. The headline is a slightly stronger claim than the source makes."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7531047888575959040",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_cleartheair-cop31-cop32-activity-7531047889544998912-K14Q"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7531047889544998912",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/jose-luis-castro_cleartheair-cop31-cop32-activity-7531047889544998912-K14Q",
+      "title": "",
+      "author_name": "José Luis Castro",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/in/jose-luis-castro",
+      "published_at": "2026-11-24T17:35:36+00:00",
+      "extra": {
+        "urn": "urn:li:ugcPost:7531047888575959040",
+        "embed_url": "",
+        "via": "profiles"
+      }
+    },
+    "status": "held"
   }
 ]

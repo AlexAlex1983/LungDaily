@@ -1065,5 +1065,38 @@
     "title": "A CHEST Review describes pulmonary and related aspects that accompany Eisenmenger syndrome and their contribution to symptoms, prognosis, and management.\n\nRead ",
     "url": "https://x.com/accpchest/status/2125243211392151803",
     "why": "writer: Teaser post with no findings, only a link to review"
+  },
+  {
+    "at": "2026-11-24T20:08:41+00:00",
+    "id": "rss:00b9bd89b80a4829",
+    "kind": "thin",
+    "score": 7.0,
+    "source": "rss",
+    "author": "WTHR",
+    "title": "Florida doctor, 3 research center employees convicted of falsifying asthma clinical trial data",
+    "url": "https://www.wthr.com/article/news/nation-world/florida-doctor-research-center-staffers-convicted-falsifying-asthma-trial-data/507-33d8cf6b-4309-4b05-9fd7-a738cabbd2d2",
+    "why": "source too thin (14 words of text)"
+  },
+  {
+    "at": "2026-11-24T20:08:54+00:00",
+    "id": "x:2125288386378297515",
+    "kind": "writer",
+    "score": 8.0,
+    "source": "x",
+    "author": "CHEST",
+    "title": "A new CHEST guideline includes eight evidence-based recommendations for tobacco treatment in the inpatient setting.\nRead the full guideline: https://t.co/6zBmxD",
+    "url": "https://x.com/accpchest/status/2125288386378297515",
+    "why": "writer: Teaser post with a link; only states eight recommendations, no content."
+  },
+  {
+    "at": "2026-11-24T20:09:08+00:00",
+    "id": "x:2125288542620340622",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "x",
+    "author": "ERS publications",
+    "title": "ERJ Open Research: The @EuroRespSoc position is that cigarette filters and electronic nicotine delivery systems pose health and environmental risk; therefore, t",
+    "url": "https://x.com/ERSpublications/status/2125288542620340622",
+    "why": "writer: Single-sentence teaser with no detail beyond the headline position statement."
   }
 ]
