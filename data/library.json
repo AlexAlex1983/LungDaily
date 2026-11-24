@@ -191,7 +191,8 @@
     "2026-11-23-amico-phase-iii-trial-to-test-metformin-against-accelerated-lung-agein": "research/research-14.jpg",
     "2026-11-23-copd-exacerbation-prediction-models-show-moderate-accuracy-but-high-ri": "data/data-01.jpg",
     "2026-11-23-review-finds-patient-reported-outcomes-rarely-assessed-in-severe-ild-f": "cells/cells-01.jpg",
-    "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e": "ctscan/ctscan-08.jpg"
+    "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e": "ctscan/ctscan-08.jpg",
+    "2026-11-24-deep-learning-model-estimates-spirometry-from-lung-screening-ct-scans": "ctscan/ctscan-03.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -251,7 +252,7 @@
     "pharma/pharma-16.jpg": 55,
     "xray/xray-01.jpg": 56,
     "cells/cells-06.jpg": 57,
-    "ctscan/ctscan-03.jpg": 58,
+    "ctscan/ctscan-03.jpg": 193,
     "asthma/asthma-11.jpg": 59,
     "globe/globe-02.jpg": 60,
     "pharma/pharma-12.jpg": 61,
@@ -375,5 +376,5 @@
     "data/data-01.jpg": 190,
     "cells/cells-01.jpg": 191
   },
-  "counter": 192
+  "counter": 193
 }

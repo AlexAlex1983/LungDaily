@@ -46,5 +46,9 @@
       "first_author": "Alysson R S Carvalho"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-24T06:00:19+00:00",
+  "shared": {
+    "x": "2125108524334330127"
+  }
 }
