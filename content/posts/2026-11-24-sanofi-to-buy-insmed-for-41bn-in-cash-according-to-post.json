@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-24-sanofi-to-buy-insmed-for-41bn-in-cash-according-to-post",
+  "headline": "Sanofi to buy Insmed for $41bn in cash, according to post",
+  "dek": "Media outlet blocmates. reported on X that the French drugmaker is acquiring the US biotech, with closing expected in the first half of 2027.",
+  "body": "Sanofi is buying Insmed in a $41bn all-cash deal, according to a post on X by the media outlet blocmates. on 24 November 2026. The post describes Sanofi as a French pharmaceutical company and Insmed as a US biotech that makes drugs for rare lung diseases.\n\nThe post states that closing is expected in the first half of 2027.\n\nblocmates. said Sanofi's interest centres on one medicine, Brinsupri, which it described as the first and only approved treatment for non-cystic fibrosis (non-CF) bronchiectasis.\n\nAccording to the post, Brinsupri was launched in August 2025 and has already generated $1.09bn in sales.\n\nThe information comes from the social media post alone.",
+  "key_quote": "Sanofi is interested in one drug, Brinsupri, the first and only approved treatment for non-CF bronchiectasis.",
+  "tags": [
+    "bronchiectasis",
+    "therapeutics"
+  ],
+  "people": [],
+  "category": "events",
+  "score": 8.0,
+  "created_at": "2026-11-24T11:08:57+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2125160967612821973",
+    "url": "https://x.com/blocmates/status/2125160967612821973"
+  },
+  "mentions": [
+    "sanofi",
+    "Insmed"
+  ],
+  "source": {
+    "id": "x:2125160967612821973",
+    "source": "x",
+    "url": "https://x.com/blocmates/status/2125160967612821973",
+    "title": "",
+    "author_name": "blocmates.",
+    "author_handle": "blocmates",
+    "author_url": "https://x.com/blocmates",
+    "published_at": "2026-11-24T09:33:52+00:00",
+    "extra": {
+      "tweet_id": "2125160967612821973",
+      "query_kind": "keywords",
+      "links": [
+        "https://x.com/blocmates/status/2125160967612821973/photo/1"
+      ],
+      "author_followers": 85713,
+      "author_id": "1425645020262977540"
+    }
+  },
+  "status": "ready"
+}
