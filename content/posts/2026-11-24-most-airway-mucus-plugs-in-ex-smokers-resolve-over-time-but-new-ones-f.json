@@ -1,0 +1,40 @@
+{
+  "slug": "2026-11-24-most-airway-mucus-plugs-in-ex-smokers-resolve-over-time-but-new-ones-f",
+  "headline": "Most airway mucus plugs in ex-smokers resolve over time, but new ones form elsewhere",
+  "dek": "A Canadian imaging study of 93 ex-smokers found about two-thirds of baseline mucus plugs had cleared at follow-up, while an equivalent number appeared in previously clear segments.",
+  "body": "A longitudinal imaging study led by researchers at the Robarts Research Institute at Western University in London, Canada, reports that bronchial mucus plugs in ex-smokers show substantial turnover over time, even though each participant's overall mucus burden stayed unchanged. The findings are published in COPD: Journal of Chronic Obstructive Pulmonary Disease.\n\nThe team retrospectively examined 93 ex-smokers enrolled in the Thoracic Imaging Network of Canada study (ClinicalTrials.gov NCT02279329). Of these, 54 had chronic obstructive pulmonary disease (COPD) at GOLD stages 1 to 3. The other 39 had no airflow obstruction: 35 were classed as pre-COPD and four as preserved ratio impaired spirometry. Participants were aged 50 to 85 years with a smoking history of at least ten pack-years. They were followed for an average of 31 ± 7 months using paired multidetector chest CT and hyperpolarized xenon-129 magnetic resonance imaging.\n\nApproximately two-thirds of baseline mucus plugs had completely resolved by follow-up, while an equivalent number of new occlusions developed in segments that had previously been clear. According to the report, this indicates that mucus plugging is a persistent phenotype in ex-smokers, but that individual plugs are \"predominantly transient and migratory structures rather than permanent blockages\".\n\nThe report notes that earlier multicentre studies found CT mucus plugs in 41 to 67 per cent of people with COPD. Higher plug burden in those studies was linked to faster decline in forced expiratory volume, more frequent exacerbations and higher all-cause mortality. Whether plugs actively drive airway remodelling, breathlessness and tissue destruction, or merely mark underlying disease severity, has remained unresolved. Earlier longitudinal work had also tracked plug persistence at participant level rather than following individual plugs.",
+  "key_quote": "the individual plugs themselves are predominantly transient and migratory structures rather than permanent blockages",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "trial"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-24T05:31:14+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://bioengineer.org/airway-mucus-plugs-continuously-clear-and-form-anew-in-chronic-lung-disease/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:017a638944e83e18",
+    "source": "rss",
+    "url": "https://bioengineer.org/airway-mucus-plugs-continuously-clear-and-form-anew-in-chronic-lung-disease/",
+    "title": "Airway Mucus Plugs Continuously Clear and Form Anew in Chronic Lung Disease",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-24T01:56:58+00:00",
+    "extra": {
+      "feed": "Google News — COPD",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
