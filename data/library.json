@@ -193,7 +193,8 @@
     "2026-11-23-review-finds-patient-reported-outcomes-rarely-assessed-in-severe-ild-f": "cells/cells-01.jpg",
     "2026-11-23-erasca-reports-tumour-shrinkage-in-early-trial-of-ras-targeting-pill-e": "ctscan/ctscan-08.jpg",
     "2026-11-24-deep-learning-model-estimates-spirometry-from-lung-screening-ct-scans": "ctscan/ctscan-03.jpg",
-    "2026-11-24-american-lung-association-senate-funding-bills-are-a-step-in-the-right": "globe/globe-10.jpg"
+    "2026-11-24-american-lung-association-senate-funding-bills-are-a-step-in-the-right": "globe/globe-10.jpg",
+    "2026-11-24-biomass-fuel-exposure-linked-to-higher-copd-odds-than-smoking-in-high": "tobacco/tobacco-11.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 1,
@@ -376,7 +377,8 @@
     "tobacco/tobacco-15.jpg": 188,
     "data/data-01.jpg": 190,
     "cells/cells-01.jpg": 191,
-    "globe/globe-10.jpg": 194
+    "globe/globe-10.jpg": 194,
+    "tobacco/tobacco-11.jpg": 195
   },
-  "counter": 194
+  "counter": 195
 }
