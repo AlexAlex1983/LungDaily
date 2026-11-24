@@ -3115,5 +3115,49 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-24-metropolitan-hospital-marks-six-years-of-its-lung-cancer-screening-pro",
+    "headline": "Metropolitan Hospital marks six years of its lung cancer screening programme",
+    "dek": "Helena Linardou said the programme, which she described as Greece's first organised lung cancer screening initiative, has run for six years, alongside a four-year-old Lung Tumor Board.",
+    "body": "Helena Linardou, Director of the 4th Oncology Department and Clinical Trials Center at Metropolitan Hospital, marked two anniversaries at the hospital in a post on X.\n\nShe said the hospital was celebrating six years of its Lung Cancer Screening programme, which she described as the first organised programme of its kind in Greece. She added that the hospital's dedicated Lung Tumor Board has now been running for four years.\n\nLinardou credited the teams behind both initiatives. \"Behind every milestone, there are people. Behind every decision, a team,\" she wrote.\n\nShe said she was proud of what had been built together at Metropolitan Hospital, adding that \"the best cancer care is always a team effort.\"",
+    "key_quote": "Behind every milestone, there are people. Behind every decision, a team.",
+    "tags": [
+      "lung-cancer",
+      "screening"
+    ],
+    "people": [
+      "Helena Linardou"
+    ],
+    "category": "events",
+    "score": 7.0,
+    "created_at": "2026-11-24T14:29:33+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. It restates the headline (six years of the screening programme) and adds only the four-year Tumor Board and a generic team-effort quote. It gives no detail on the programme: no screening criteria, no numbers screened, no outcomes, no hospital context. A reader learns almost nothing beyond the headline.",
+        "Minor: \"credited the teams behind both initiatives\" slightly over-reads the source. Linardou's post speaks generally of people and a team behind every milestone and decision, and does not name the two programmes."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://oncodaily.com/voices/helena-linardou-lung-cancer-639912"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:072f21ec94139ff3",
+      "source": "rss",
+      "url": "https://oncodaily.com/voices/helena-linardou-lung-cancer-639912",
+      "title": "Helena Linardou: Celebrating 6 Years of Greece’s First Organized Lung Cancer Screening Program",
+      "author_name": "Oncodaily",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-24T12:15:26+00:00",
+      "extra": {
+        "feed": "Google News — lung cancer screening",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

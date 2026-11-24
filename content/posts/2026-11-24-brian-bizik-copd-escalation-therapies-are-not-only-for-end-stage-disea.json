@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-24-brian-bizik-copd-escalation-therapies-are-not-only-for-end-stage-disea",
+  "headline": "Brian Bizik: COPD escalation therapies are not only for end-stage disease",
+  "dek": "Speaking to HCPLive, the Idaho physician assistant said treatments later in the GOLD exacerbation pathway are intended for appropriate patients, not only the sickest.",
+  "body": "Brian Bizik, MS, PA-C, DFAAPA, discussed COPD treatment escalation at the 2026 GOLD International COPD Conference in Philadelphia, Pennsylvania, and in an interview with HCPLive. He is clinical supervisor and asthma, allergy and COPD care coordinator at Terry Reilly Health Centers in Boise, Idaho.\n\nBizik's presentation focused on patients whose COPD management is driven by recurrent exacerbations rather than persistent dyspnoea alone. He said clinicians may sometimes view therapies listed later in the algorithm as reserved for the most advanced disease. \"The big point I made at the beginning and at the end is that it's not the end stage. It's not for the sickest patients. It's for the appropriate patients,\" he said.\n\nAccording to HCPLive's summary of the 2026 GOLD report, options for selected patients who continue to have exacerbations despite optimised inhaled treatment include long-term azithromycin, roflumilast, dupilumab and mepolizumab. For patients on triple inhaler therapy who still have exacerbations, Bizik said both biologics are \"reasonable options, at least to be considered\".",
+  "key_quote": "The big point I made at the beginning and at the end is that it's not the end stage. It's not for the sickest patients.",
+  "tags": [
+    "copd",
+    "guidelines",
+    "therapeutics",
+    "primary-care"
+  ],
+  "people": [
+    "Brian Bizik"
+  ],
+  "category": "voices",
+  "score": 6.0,
+  "created_at": "2026-11-24T14:29:44+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.hcplive.com/view/copd-treatment-escalation-beyond-inhalers-with-brian-bizik-pa-c"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:108a773193fecac3",
+    "source": "rss",
+    "url": "https://www.hcplive.com/view/copd-treatment-escalation-beyond-inhalers-with-brian-bizik-pa-c",
+    "title": "COPD Treatment Escalation Beyond Inhalers, With Brian Bizik, PA-C",
+    "author_name": "HCPLive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "Following his talk at the 2026 GOLD International COPD Conference, PA Brian Bizik discusses when clinicians should consider escalating COPD therapy beyond maximized inhaler treatment, before patients reach end-stage disease.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

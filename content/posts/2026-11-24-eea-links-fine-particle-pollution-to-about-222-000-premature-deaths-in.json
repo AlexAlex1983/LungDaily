@@ -1,0 +1,40 @@
+{
+  "slug": "2026-11-24-eea-links-fine-particle-pollution-to-about-222-000-premature-deaths-in",
+  "headline": "EEA links fine particle pollution to about 222,000 premature deaths in the EU in 2024",
+  "dek": "The European Environment Agency says attributable deaths fell 57.2% between 2005 and 2024, but residential heating and farm ammonia remain major sources of particle pollution.",
+  "body": "Fine particle air pollution was responsible for about 222,000 premature deaths in the European Union in 2024, according to new estimates from the European Environment Agency (EEA), published on 23 November 2026. The figure counts deaths attributable to long-term exposure to PM2.5 above the World Health Organization's guideline of 5 micrograms per cubic metre of air, as an annual average. The EEA said the number of such deaths fell by 57.2% between 2005 and 2024.\n\nThe figure is a modelled estimate rather than a count of death certificates, Nature World News reported. Scientists combine pollution levels across Europe with population data and research on how risk of death rises with exposure. Air pollution raises the risk of heart attacks, strokes, lung cancer and lung disease, the report said.\n\nThe EEA said direct PM2.5 emissions in the EU fell by 42.5% between 2005 and 2024. Residential heating, the largest single source, fell by 35.1%, while transport emissions fell by 61.5% and industrial emissions by 47.3%. Among gases that help form particles, sulphur dioxide dropped by 85.7% and nitrogen oxides by 54.3%. Ammonia, which comes mainly from farming, fell by only 18.0%.\n\nThe EEA said eastern and south-eastern European countries bear the largest health impacts because pollution levels there are higher. Nature World News noted that older people, young children and people with heart or lung disease face higher risks.",
+  "key_quote": "Fine particle air pollution was responsible for about 222,000 premature deaths in the European Union in 2024",
+  "tags": [
+    "air-pollution",
+    "policy",
+    "who"
+  ],
+  "people": [],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-24T14:29:57+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.natureworldnews.com/articles/74027/20261124/eu-air-pollution-tied-about-222000-early-deaths-2024-eea-says.htm"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:e7ae7b5b4507f5fc",
+    "source": "rss",
+    "url": "https://www.natureworldnews.com/articles/74027/20261124/eu-air-pollution-tied-about-222000-early-deaths-2024-eea-says.htm",
+    "title": "EU Air Pollution Linked to 222,000 Early Deaths, EEA Says",
+    "author_name": "Nature World News",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-24T13:43:35+00:00",
+    "extra": {
+      "feed": "Google News — air pollution health",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-24-only-13-of-lung-cancer-patients-in-southern-california-study-met-2021",
+  "headline": "Only 13% of lung cancer patients in Southern California study met 2021 screening criteria",
+  "dek": "A Journal of the American College of Radiology analysis found women, Asian and Hispanic patients were significantly less likely to qualify, and few eligible patients had prior LDCT scans.",
+  "body": "Only 13.2% of lung cancer patients whose smoking history could be assessed would have qualified for screening under the 2021 U.S. Preventive Services Task Force criteria, according to a new analysis in the Journal of the American College of Radiology, published by Elsevier.\n\nThe study included 1,119 patients aged 50 to 80 who were diagnosed with lung cancer between 2018 and 2024 and received care at a tertiary health system in Southern California. Eligibility was assessed from structured smoking histories, which were missing for approximately 40% of patients. Among those with assessable data, 148 would have met the criteria. The 2021 guidelines lowered the starting age from 55 to 50 and the smoking requirement from 30 to 20 pack-years.\n\nWomen had lower odds of qualifying than men. Asian patients and those of other or mixed race had lower odds than White patients, and Hispanic patients had lower odds than non-Hispanic patients. Nearly one-third of patients with documented race were Asian and 11% were Hispanic. Lead investigator Gelareh Sadigh, MD, of University of California Irvine, said these populations have historically been underrepresented in studies of screening before diagnosis.\n\nThe investigators were surprised that 46.3% of patients had never smoked, which Dr Sadigh said gives context to the low eligibility rate. She also said it was striking how often the question of whether a patient would have qualified could not be answered from the structured smoking history in the medical record.\n\nThe researchers also examined prior low-dose computed tomography (LDCT) scans, including those done at outside facilities. Applying the guidelines in effect at the time of each diagnosis, only 9.5% of eligible patients (13 of 137) had a documented LDCT in the preceding two years.",
+  "key_quote": "We see an opportunity to document smoking history more accurately to enable earlier diagnosis and help eligible patients complete screening.",
+  "tags": [
+    "lung-cancer",
+    "screening",
+    "equity",
+    "guidelines"
+  ],
+  "people": [
+    "Gelareh Sadigh"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-24T14:29:21+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.elsevier.com/about/press-releases/only-13-of-lung-cancer-patients-would-have-qualified-for-advance-screening-based-on-eligibility-guidelines"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:3f5ef1b048c795d8",
+    "source": "rss",
+    "url": "https://www.elsevier.com/about/press-releases/only-13-of-lung-cancer-patients-would-have-qualified-for-advance-screening-based-on-eligibility-guidelines",
+    "title": "Only 13% of Lung Cancer Patients Would Have Qualified for Advance Screening Based on Eligibility Guidelines",
+    "author_name": "Elsevier (Journal of the American College of Radiology)",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "lung_cancer",
+      "scout_summary": "An analysis of 1,119 patients aged 50-80 diagnosed with lung cancer in a Southern California health system found only 13% would have qualified for screening under eligibility guidelines. Authors also found smoking history in medical records was often too incomplete to determine eligibility.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

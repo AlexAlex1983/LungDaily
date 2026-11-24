@@ -1,0 +1,45 @@
+{
+  "edition": "Health news digest – Tuesday, 24 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "COPD Treatment Escalation Beyond Inhalers, With Brian Bizik, PA-C",
+      "url": "https://www.hcplive.com/view/copd-treatment-escalation-beyond-inhalers-with-brian-bizik-pa-c",
+      "publisher": "HCPLive",
+      "published_date": "2026-11-23",
+      "topic": "copd",
+      "summary": "Following his talk at the 2026 GOLD International COPD Conference, PA Brian Bizik discusses when clinicians should consider escalating COPD therapy beyond maximized inhaler treatment, before patients reach end-stage disease."
+    },
+    {
+      "title": "Upstream Bio to Participate in Upcoming Investor Conferences (verekitug update)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/24/3409119/0/en/upstream-bio-to-participate-in-upcoming-investor-conferences.html",
+      "publisher": "Upstream Bio via GlobeNewswire",
+      "published_date": "2026-11-24",
+      "topic": "asthma",
+      "summary": "Upstream Bio says verekitug, which has been given to more than 500 participants and showed positive Phase 2 results in severe asthma and CRSwNP, has a body of evidence supporting advancement into Phase 3 in both diseases. In the Phase 2 VALIANT trial, 100 mg every 12 weeks reduced the annualized asthma exacerbation rate by 56% vs placebo."
+    },
+    {
+      "title": "Air Pollution Reprograms Brain Immune Cells, Raises Dementia Risk by 25%",
+      "url": "https://neurosciencenews.com/air-pollution-neuroinflammation-dementia-32433",
+      "publisher": "Neuroscience News",
+      "published_date": "2026-11-23",
+      "topic": "air_pollution",
+      "summary": "A translational study in the Journal of Neuroinflammation by Case Western Reserve University and partners reports that fine particulate (PM2.5) exposure is associated with a 25% higher dementia risk and reshapes microglial programs. Higher pollution raised dementia risk regardless of inherited Alzheimer's genetic risk."
+    },
+    {
+      "title": "Only 13% of Lung Cancer Patients Would Have Qualified for Advance Screening Based on Eligibility Guidelines",
+      "url": "https://www.elsevier.com/about/press-releases/only-13-of-lung-cancer-patients-would-have-qualified-for-advance-screening-based-on-eligibility-guidelines",
+      "publisher": "Elsevier (Journal of the American College of Radiology)",
+      "published_date": "2026-11-23",
+      "topic": "lung_cancer",
+      "summary": "An analysis of 1,119 patients aged 50-80 diagnosed with lung cancer in a Southern California health system found only 13% would have qualified for screening under eligibility guidelines. Authors also found smoking history in medical records was often too incomplete to determine eligibility."
+    },
+    {
+      "title": "Who Gets Screened for Lung Cancer? Northwestern Medicine Researchers Say it's Time to Rethink the Answer",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/",
+      "publisher": "Northwestern Medicine",
+      "published_date": "2026-11-23",
+      "topic": "lung_cancer",
+      "summary": "Northwestern Medicine is studying universal, age-based lung cancer screening, noting earlier research found only 35% of its lung cancer patients would have met USPSTF criteria. In its screening study, 40% of participants with smoking history were ineligible under current criteria and six early-stage cancers were detected and treated, including two stage 1 cancers in never-smokers."
+    }
+  ]
+}
