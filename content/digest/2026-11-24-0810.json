@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Tuesday, 24 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "Allergy & Asthma Network Highlights Patient-Centered Research Addressing Critical Gaps in Asthma Care at ACAAI 2026",
+      "url": "https://allergyasthmanetwork.org/press-page/critical-gaps-in-asthma-care-2026/",
+      "publisher": "Allergy & Asthma Network",
+      "published_date": "2026-11-20",
+      "topic": "asthma",
+      "summary": "Allergy & Asthma Network led or contributed to four abstracts at the ACAAI 2026 Annual Scientific Meeting (12-16 November, Phoenix). The studies address asthma education beyond medication, barriers to biologic adoption in severe asthma, risks of long-term steroid use, and under-recognition of uncontrolled asthma."
+    },
+    {
+      "title": "Repeated Exposure to Near-Ambient PM2.5 Decreases Pulmonary Function: Controlled Human Exposure Study",
+      "url": "https://doi.org/10.1021/ehp.6c00055",
+      "publisher": "American Chemical Society",
+      "published_date": "2026-10-19",
+      "topic": "air_pollution",
+      "summary": "A double-blind controlled study exposed healthy volunteers to PM2.5 at 35 µg/m³ on three consecutive days. Lung function fell after days 2 and 3, and effects persisted at least 20 hours after exposure ended. Published online 19 October, in issue 3 November 2026."
+    },
+    {
+      "title": "Who Gets Screened for Lung Cancer? Northwestern Medicine Researchers Say it's Time to Rethink the Answer",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/",
+      "publisher": "Northwestern Medicine",
+      "published_date": "2026-11-23",
+      "topic": "lung_cancer",
+      "summary": "Northwestern Medicine reported early findings from its universal age-based lung cancer screening approach. 40% of patients had a smoking history but were ineligible under USPSTF criteria, 54% had nodules or other findings warranting surveillance, and six early-stage cancers were diagnosed, including two stage 1 cancers in people who never smoked."
+    },
+    {
+      "title": "FDA Approves Nelkarmi for ALK-Positive Non-Small Cell Lung Cancer",
+      "url": "https://www.healthday.com/healthpro-news/cancer/fda-approves-nelkarmi-for-alk-positive-non-small-cell-lung-cancer",
+      "publisher": "HealthDay",
+      "published_date": "2026-11-23",
+      "topic": "lung_cancer",
+      "summary": "The FDA approved neladalkib (Nelkarmi), a kinase inhibitor, for adults with previously treated locally advanced or metastatic ALK-positive NSCLC. The approval was based on the phase 1/2 ALKOVE-1 trial, whose primary efficacy analysis included 222 patients."
+    }
+  ]
+}

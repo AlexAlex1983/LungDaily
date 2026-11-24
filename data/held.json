@@ -3063,5 +3063,57 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-24-northwestern-lung-screening-beyond-us-criteria-finds-six-early-stage-c",
+    "headline": "Northwestern lung screening beyond US criteria finds six early-stage cancers in first year",
+    "dek": "Northwestern Medicine's Lung Health Center screened nearly 1,000 people regardless of eligibility, as researchers study universal age-based lung cancer screening.",
+    "body": "Researchers at Northwestern Medicine are studying whether universal, age-based lung cancer screening, similar to programmes for breast and colorectal cancer, could improve early detection. The work is based at the Lung Health Center at the Northwestern Medicine Canning Thoracic Institute.\n\nThe project followed a Northwestern Medicine study published in JAMA in November 2025. That study found that only 35% of patients treated for lung cancer would have qualified for screening under current U.S. Preventive Services Task Force (USPSTF) criteria. Two-thirds of those who would not have qualified were women and never-smokers. In response, the centre began a research project aiming to screen 10,000 people over five years, regardless of whether they qualify for a traditional screening CT scan.\n\nIn the first year, nearly 1,000 participants were screened, with an average age of 56. Forty per cent had a smoking history but were not eligible under current USPSTF criteria. More than half (54%) had lung nodules or other findings that raised their risk of lung cancer and warranted ongoing surveillance. Six patients were diagnosed with early-stage cancers and successfully treated, including two with stage 1 lung cancer and no smoking history. Northwestern Medicine said the detection rate is comparable to established screening programmes, citing Breast Cancer Surveillance Consortium data of 5.4 cancers detected per 800 routine mammograms on average.\n\nOne of the patients, Cathy Hartmann, a 62-year-old never-smoker from Maple Park, Illinois, was diagnosed with stage 1 lung cancer after enrolling. She had robotic surgery in July and went home two days later.\n\nAnkit Bharat, chief of thoracic surgery and executive director of the Canning Thoracic Institute, said lung cancer is the deadliest cancer in America for smokers and non-smokers alike.",
+    "key_quote": "Early detection is critical and a simple low-dose CT scan has the potential to save thousands of lives every year.",
+    "tags": [
+      "lung-cancer",
+      "screening",
+      "diagnostics",
+      "equity"
+    ],
+    "people": [
+      "Ankit Bharat",
+      "Cathy Hartmann",
+      "Benjamin Seides",
+      "Andrew Arndt"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-24T08:08:27+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article reveals details about an identifiable patient. It names Cathy Hartmann and gives her age, hometown, smoking status, stage 1 diagnosis, and surgery timing and recovery. The source is a press release, but the fact-check rule for identifiable patient details still applies. The patient detail adds little the reader needs, and the anonymized \"two never-smokers with stage 1 cancer\" finding already covers the point.",
+        "The \"people\" field lists Benjamin Seides and Andrew Arndt, but neither appears in the article body. This is minor."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:4b888cb25a40236f",
+      "source": "rss",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/",
+      "title": "Who Gets Screened for Lung Cancer? Northwestern Medicine Researchers Say it's Time to Rethink the Answer",
+      "author_name": "Northwestern Medicine",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-23T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "lung_cancer",
+        "scout_summary": "Northwestern Medicine reported early findings from its universal age-based lung cancer screening approach. 40% of patients had a smoking history but were ineligible under USPSTF criteria, 54% had nodules or other findings warranting surveillance, and six early-stage cancers were diagnosed, including two stage 1 cancers in people who never smoked.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
