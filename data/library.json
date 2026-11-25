@@ -210,7 +210,8 @@
     "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as": "pollution/pollution-05.jpg",
     "2026-11-25-florida-doctor-and-three-research-coordinators-convicted-of-faking-ast": "research/research-09.jpg",
     "2026-11-25-network-meta-analysis-ranks-azithromycin-and-dpp-1-inhibitor-hsk31858": "research/research-03.jpg",
-    "2026-11-25-air-pollution-linked-to-25-higher-alzheimer-s-and-dementia-risk-with-a": "pollution/pollution-11.jpg"
+    "2026-11-25-air-pollution-linked-to-25-higher-alzheimer-s-and-dementia-risk-with-a": "pollution/pollution-11.jpg",
+    "2026-11-25-maia-biotechnology-begins-dosing-patients-in-spain-in-phase-3-thio-104": "ctscan/ctscan-12.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -291,7 +292,7 @@
     "city/city-03.jpg": 76,
     "asthma/asthma-03.jpg": 77,
     "globe/globe-04.jpg": 78,
-    "ctscan/ctscan-12.jpg": 79,
+    "ctscan/ctscan-12.jpg": 212,
     "ctscan/ctscan-09.jpg": 80,
     "airways/airways-20.jpg": 81,
     "research/research-03.jpg": 210,
@@ -400,5 +401,5 @@
     "tobacco/tobacco-08.jpg": 204,
     "pollution/pollution-05.jpg": 208
   },
-  "counter": 211
+  "counter": 212
 }
