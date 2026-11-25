@@ -214,7 +214,8 @@
     "2026-11-25-maia-biotechnology-begins-dosing-patients-in-spain-in-phase-3-thio-104": "ctscan/ctscan-12.jpg",
     "2026-11-25-higher-recent-nitrogen-dioxide-exposure-linked-to-slightly-faster-spin": "pollution/pollution-12.jpg",
     "2026-11-25-experts-at-ajmc-roundtable-say-copd-care-should-start-with-confirming": "airways/airways-22.jpg",
-    "2026-11-25-hull-respiratory-team-secures-funding-for-proactive-copd-treatment": "globe/globe-12.jpg"
+    "2026-11-25-hull-respiratory-team-secures-funding-for-proactive-copd-treatment": "globe/globe-12.jpg",
+    "2026-11-25-phase-3-verducatib-bronchiectasis-trial-now-recruiting-in-22-countries": "research/research-15.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -320,7 +321,7 @@
     "ctscan/ctscan-04.jpg": 101,
     "globe/globe-09.jpg": 102,
     "globe/globe-15.jpg": 103,
-    "research/research-15.jpg": 104,
+    "research/research-15.jpg": 216,
     "tobacco/tobacco-06.jpg": 105,
     "airways/airways-26.jpg": 106,
     "asthma/asthma-15.jpg": 107,
@@ -406,5 +407,5 @@
     "airways/airways-22.jpg": 214,
     "globe/globe-12.jpg": 215
   },
-  "counter": 215
+  "counter": 216
 }
