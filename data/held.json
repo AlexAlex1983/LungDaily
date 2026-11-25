@@ -3264,5 +3264,54 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-25-pembrolizumab-before-surgery-improves-five-year-outcomes-in-operable-n",
+    "headline": "Pembrolizumab before surgery improves five-year outcomes in operable NSCLC, KEYNOTE-671 analysis finds",
+    "dek": "A five-year analysis of KEYNOTE-671 and a separate AI study of TROP2 in biopsy slides, both coauthored by Marina Garassino, point towards more personalised lung cancer treatment.",
+    "body": "A five-year analysis of the international KEYNOTE-671 trial, published in Annals of Oncology, found that some patients with early-stage, operable non-small cell lung cancer (NSCLC) may have better outcomes if they receive chemotherapy and immunotherapy before surgery rather than chemotherapy alone.\n\nThe trial enrolled nearly 800 patients with resectable stage II or III NSCLC. Half received chemotherapy plus pembrolizumab before surgery and continued pembrolizumab afterwards. The other half received chemotherapy plus a placebo. At five years, 49.9% of patients in the pembrolizumab group were alive without their cancer returning or progressing, compared with 26.5% in the placebo group. Overall survival was 64.6% versus 53.6%.\n\nAdding pembrolizumab did not worsen patients' reported quality of life, and side effects were consistent with expectations for the treatments. The approach is now approved by the U.S. Food and Drug Administration and has become the standard of care. Marina Garassino, a thoracic oncologist at the University of Chicago Medicine, a member of the trial's steering committee and senior author of the paper, said future studies will expand the patient population beyond those with clearly resectable tumours.\n\nGarassino was also first author of a second study, published in Nature Medicine, which explores how artificial intelligence could help identify which NSCLC patients are most likely to benefit from datopotamab deruxtecan (Dato-DXd). The drug targets TROP2, a protein found on about 90% of NSCLC tumours, so its presence or quantity alone is not a reliable predictor of efficacy. The researchers trained AI models to analyse digitised biopsy slides and calculate how TROP2 is distributed on the surface and inside thousands of cells.",
+    "key_quote": "We want to give the right drug to the right patients and spare anyone who is unlikely to benefit from possible side effects.",
+    "tags": [
+      "lung-cancer",
+      "trial",
+      "ai",
+      "therapeutics"
+    ],
+    "people": [
+      "Marina Garassino"
+    ],
+    "category": "research",
+    "score": 6.0,
+    "created_at": "2026-11-25T08:10:13+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "key_quote is not verbatim from source",
+        "The article says Garassino \"said future studies will expand the patient population beyond those with clearly resectable tumours.\" In the source this is an unattributed statement by the news item: \"Future studies will expand the patient population beyond those with clearly resectable tumors.\" Garassino is not quoted or credited with it, so words are attributed to the wrong person."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://medicalxpress.com/news/2026-11-advances-personalized-lung-cancer-treatment.html"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:d61b0871505c1f32",
+      "source": "rss",
+      "url": "https://medicalxpress.com/news/2026-11-advances-personalized-lung-cancer-treatment.html",
+      "title": "Two new studies point to advances in personalized lung cancer treatment",
+      "author_name": "Medical Xpress",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-24T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "lung_cancer",
+        "scout_summary": "A five-year analysis of KEYNOTE-671 in Annals of Oncology supports chemotherapy plus pembrolizumab before surgery for resectable stage II-III NSCLC. A separate Nature Medicine study reports an AI-derived TROP2 normalized membrane ratio that predicts outcomes with datopotamab deruxtecan in NSCLC.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

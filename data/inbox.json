@@ -1,37 +1,5 @@
 [
   {
-    "id": "x:2125353975121867158",
-    "source": "x",
-    "url": "https://x.com/atscommunity/status/2125353975121867158",
-    "title": "",
-    "text": "\"...the fact that the court granted the initial relief and that the U.S. Supreme Court chose to continue to block the Trump Administration’s efforts, implies that the Administration is on very weak legal footing. I hope the court continues to support researchers.” (4/4)",
-    "author_name": "American Thoracic Society (ATS)",
-    "author_handle": "atscommunity",
-    "author_url": "https://x.com/atscommunity",
-    "author_headline": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
-    "published_at": "2026-11-24T22:20:49+00:00",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2125353975121867158",
-      "query_kind": "voices",
-      "links": [],
-      "author_followers": 42210,
-      "author_id": "50076632"
-    },
-    "collected_at": "2026-11-25T05:09:09+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "policy",
-      "author_type": "organisation",
-      "duplicate": false,
-      "reason": "ATS advocacy on court rulings protecting federal respiratory research funding."
-    }
-  },
-  {
     "id": "rss:0bc115047beb3df7",
     "source": "rss",
     "url": "https://casrai.org/news/florida-doctor-staff-convicted-faking-asthma-drug-trial-data-2026",
@@ -58,6 +26,64 @@
       "author_type": "organisation",
       "duplicate": false,
       "reason": "Fraud conviction over asthma drug trial data; notable research integrity case."
+    }
+  },
+  {
+    "id": "rss:7c7a6125b292c5da",
+    "source": "rss",
+    "url": "https://bioengineer.org/real-world-severe-asthma-study-finds-no-increased-malignancy-risk-with-benralizumab/",
+    "title": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab",
+    "text": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab Bioengineer.org\n\nARTICLE PAGE TEXT:\nReal-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab\nA comprehensive international observational cohort study evaluating twelve thousand four hundred and ninety-three adult patients with severe asthma has found that treatment with the eosinophil-depleting biologic benralizumab does not increase the risk of developing new-onset malignancies compared with other biologic or non-biologic regimens over up to six years of clinical follow-up. Published in Pulmonary Therapy, the multi-country post-authorization safety study analyzed real-world evidence from forty-three thousand four hundred and thirty-four point eight person-years of prospective observation gathered between November 2017 and December 2023. Across the entire pooled registry population, seventy-five patients developed a newly diagnosed cancer during follow-up, representing zero point seven percent of benralizumab-treated individuals, zero point six percent of those receiving alternative biologics, and zero point five percent of patients maintained on non-biologic standard therapies. After extensive statistical adjustment using inverse probability of treatment weighting and multivariable Poisson regression models, researchers determined that adjusted incidence rate ratios for benralizumab showed no statistically meaningful difference when compared against either alternative biologic therapies or non-biologic treatment arms, providing vital real-world confirmation of the long-term oncologic safety profile observed in earlier controlled clinical development trials.\nSevere asthma affects between five and ten percent of all asthma patients, representing a distinct clinical subpopulation whose persistent airway inflammation and frequent exacerbations remain poorly controlled despite adherence to high-dose inhaled corticosteroids combined with long-acting beta agonists. Up to eighty-four percent of these difficult-to-treat patients exhibit an eosinophilic inflammatory phenotype, a condition characterized by prominent systemic and tissue eosinophil recruitment driven primarily by the cytokine interleukin-5. By binding directly to this receptor subunit, benralizumab recruits host natural killer cells to trigger antibody-dependent cellular cytotoxicity, thereby directing rapid, near-complete depletion of circulating and tissue-resident eosinophils. While randomized clinical trials supported regulatory approvals in the United States in November 2017 and Europe in January 2018, questions regarding long-term oncologic safety persisted because clinical trials rely on restrictive inclusion criteria, exclude medically complex cohorts, and generally conclude within durations too brief to track rare outcomes with extended latency periods.\nThe underlying scientific rationale for rigorously evaluating malignancy risks stems from complex and historically conflicting scientific findings regarding the precise role played by eosinophils within human tumor immunology. Experimental literature indicates that eosinophils frequently infiltrate neoplastic tissues, yet whether their localized recruitment exerts protumorigenic or antitumorigenic actions remains controversial across distinct anatomical locations and malignant cell types. Elevated blood eosinophil levels have been identified as an unfavorable prognostic biomarker in hematologic conditions such as adult T-cell leukemia and lymphoma, whereas prominent eosinophil infiltration has conversely correlated with improved survival outcomes in certain solid tumors. Because patients with severe chronic asthma already exhibit baseline elevations in specific cancer risks, including primary lung malignancies, researchers recognized that therapeutic agents driving comprehensive eosinophil ablation required dedicated post-authorization safety surveillance.\nTo construct a sufficiently powered study cohort, investigators aggregated standardized patient-level records from two extensive prospective registries tracking severe",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-25T03:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    },
+    "collected_at": "2026-11-25T05:09:09+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "media",
+      "duplicate": false,
+      "reason": "Real-world severe asthma study on benralizumab malignancy risk."
+    }
+  },
+  {
+    "id": "rss:f69e15ec29d2f80f",
+    "source": "rss",
+    "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/globenewswire/maia-biotechnology-begins-dosing-patients-in-spain-for-pivotal-phase-3-thio-104-clinical-trial-in-non-small-cell-lung-cancer/2477235",
+    "title": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal Phase 3 THIO-104 Clinical Trial in Non-Small Cell Lung Cancer",
+    "text": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal Phase 3 THIO-104 Clinical Trial in Non-Small Cell Lung Cancer The Manila Times\n\nARTICLE PAGE TEXT:\nMomentum continues in Phase 3 trial enrollment and dosing\nCHICAGO, Nov. 24, 2026 (GLOBE NEWSWIRE) -- MAIA Biotechnology, Inc. (NYSE American: MAIA) (\"MAIA”, the \"Company”), a clinical-stage biopharmaceutical company focused on developing targeted immunotherapies for cancer, today announced that it has begun dosing patients in Spain for its ongoing pivotal THIO-104 trial evaluating its novel telomere-targeting therapy as a third line (3L) treatment for advanced non-small cell lung cancer (NSCLC).\n\"Expanding THIO-104 into Spain represents another important step in the execution of our pivotal Phase 3 program,” said Vlad Vitoc, M.D., Chairman and Chief Executive Officer of MAIA. \"Clinical trial participation can provide patients with access to investigational therapies in markets where access to newly approved lung cancer treatments has historically lagged. By establishing THIO-104 sites in Spain, we are broadening access to a potentially important new treatment option for patients with advanced NSCLC who have progressed following standard of care treatments.”\n\"Telomere targeting is the breakthrough as we see it, and our late-stage trials with ateganosine are designed to confirm that,” Dr. Vitoc added. \"With every step we are closer to bringing a potential new standard of care to a profoundly underserved global market for NSCLC treatment.”\nAs a potential breakthrough therapy, ateganosine, if approved, could become the new standard of care in a projected $70 billion global NSCLC treatment market by 2030.1\nTHIO-104 is a multicenter, open-label, randomized Phase 3 clinical trial, designed to evaluate ateganosine’s telomere-targeting anti-tumor activity when followed by PD-(L)1 inhibition in patients with advanced third-line NSCLC who previously did not respond or developed resistance to treatment regimens containing checkpoint inhibitor and/or chemotherapy and have progressed. The trial has two primary objectives: (1) to assess the clinical efficacy of ateganosine compared to investigator’s choice of chemotherapy, using median Overall Survival (OS) as the primary clinical endpoint (2) to evaluate the safety and tolerability of ateganosine in sequential combination with a checkpoint inhibitor. For more information on this Phase 3 trial, please visit ClinicalTrials.gov using the identifier NCT06908304.\nAteganosine (THIO, 6-thio-dG or 6-thio-2’-deoxyguanosine) is a first-in-class investigational telomere-targeting agent currently in clinical development to evaluate its activity in non-small cell lung cancer (NSCLC). Telomeres, along with the enzyme telomerase, play a fundamental role in the survival of cancer cells and their resistance to current therapies. The modified nucleotide 6-thio-2’-deoxyguanosine induces telomerase-dependent telomeric DNA modification, DNA damage responses, and selective cancer cell death. Ateganosine-damaged telomeric fragments accumulate in cytosolic micronuclei and activates both innate (cGAS/STING) and adaptive (T-cell) immune responses. The sequential treatment of ateganosine followed by PD-(L)1 inhibitors resulted in profound and persistent tumor regression in advanced, in vivo cancer models by induction of cancer type-specific immune memory. Ateganosine is presently developed as a second or later line of treatment for NSCLC for patients that have progressed beyond the standard-of-care regimen of existing checkpoint inhibitors.\nMAIA is a targeted therapy, immuno-oncology company focused on the development and commercialization of potential first-in-class drugs with novel mechanisms of action that are intended to meaningfully improve and extend the lives of people with cancer. Our lead program is ateganosine (THIO), a potential first-in-class cancer telomere targeting agent in clinical development for the treatment of NSCLC patients with telomerase-positive cancer cells. For more information, please visit www.maiabiotech.com .\nMAIA cautions that all statements, other than statements of historical facts",
+    "author_name": "The Manila Times",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-24T14:04:28+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory trial results",
+      "page_fetched": true
+    },
+    "collected_at": "2026-11-25T08:08:56+00:00",
+    "triage": {
+      "score": 6.0,
+      "category": "approvals",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Phase 3 NSCLC trial start, though sourced from a company release."
     }
   },
   {
@@ -95,40 +121,6 @@
     }
   },
   {
-    "id": "x:2125383401566097650",
-    "source": "x",
-    "url": "https://x.com/StephenVLiu/status/2125383401566097650",
-    "title": "",
-    "text": "NRG-LU002 now @JCO_ASCO: Randomized phase II of maintenance systemic therapy +/- local consolidation for pts with ≤ 3 residual extracranial sites. LCT (radiation or surgery) did not improve PFS (HR 0.93) and had more toxicity (G3+ pneumonitis 10% vs 1%).\nhttps://t.co/FoE8vaWpH3",
-    "author_name": "Stephen V Liu, MD",
-    "author_handle": "StephenVLiu",
-    "author_url": "https://x.com/StephenVLiu",
-    "author_headline": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "published_at": "2026-11-25T00:17:45+00:00",
-    "metrics": {
-      "likes": 3,
-      "reposts": 1,
-      "comments": 0
-    },
-    "extra": {
-      "tweet_id": "2125383401566097650",
-      "query_kind": "voices",
-      "links": [
-        "https://ascopubs.org/doi/10.1200/JCO-25-02395"
-      ],
-      "author_followers": 30900,
-      "author_id": "377425889"
-    },
-    "collected_at": "2026-11-25T05:09:09+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "person",
-      "duplicate": false,
-      "reason": "NRG-LU002 phase II lung cancer trial in JCO; notable negative result."
-    }
-  },
-  {
     "id": "x:2125249550428393483",
     "source": "x",
     "url": "https://x.com/KulikovUNIATF/status/2125249550428393483",
@@ -163,31 +155,67 @@
     }
   },
   {
-    "id": "rss:7c7a6125b292c5da",
+    "id": "rss:593e5c6bf2aac864",
     "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNXV1NE9fcWJodEJDR0ZnWW9iejFJX3VpSS0xei1ZeTVVUkxzVi1iLWxPSEVLVk5zWmVrWDQzMkhEU2hqMUxUamVESUhXUjlSTTJ3NWVERTBUYWlWLVJmY1dTZS1RU3o1UEhqekttbmtidnlRRm8tYkd0MlBJV3h5NElqbGwwYWtVcWxlUkhxdjhFSF81aEFLbkVVVVdKLTdjbVV1dGoyRHhvSkVP?oc=5",
-    "title": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab",
-    "text": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab Bioengineer.org",
-    "author_name": "Bioengineer.org",
+    "url": "https://www.ajmc.com/view/copd-care-starts-with-confirming-diagnosis-finding-high-risk-patients",
+    "title": "COPD Care Starts With Confirming Diagnosis, Finding High-Risk Patients",
+    "text": "ARTICLE PAGE TEXT:\nFaculty say COPD care starts with confirming diagnoses and targeting high-risk patients and describe fixes for follow-up, cost, and coverage gaps.\nConfirming the diagnosis and finding the small group of patients who drive most admissions are the first priorities for improving chronic obstructive pulmonary disease (COPD) care, explained a group of experts. Participants at The American Journal of Managed Care ®’s Population Health Roundtable in New York City described practical fixes, from rebuilt electronic health record (EHR) registries to early outreach calls and social work support.\nKatherine DiPalo, PharmD, MBA, MS, senior director of transitional care excellence at Montefiore Medical Center, moderated the discussion among clinicians and health system leaders from Montefiore, Mount Sinai Health System, Northwell Health, and Weill Cornell Medicine. Some participants asked that their comments not be attributed directly to them, so their comments are attributed generally.\nThe 30-day readmissions after COPD hospitalization average 18%, and 5-year mortality after hospitalization approaches 50%, 1,2 DiPalo explained. Yet several participants said their first task is making sure patients actually have COPD. In one system, nearly 60% of patients with a primary care COPD diagnosis had never had spirometry, and about 35% of specialty clinic patients on triple inhaler therapy did not have the disease on formal testing.\n“It’s much easier to get an echo, probably even a stress test, anything, but spirometry,” said a health system leader.\nRobert Kaner, MD, of Weill Cornell Medicine, said most patients with COPD at his institution are never seen by a pulmonologist and are managed in primary care. A physician at Mount Sinai Health System said the system’s Epic dashboard identifies roughly 50,000 to 60,000 patients with a COPD International Classification of Diseases, 10th Revision code, but only about 7000 are managed by pulmonology.\nData quality compounds the problem, and DiPalo said her team rebuilt its COPD registry because the out-of-the-box version flagged patients based on a code attached to a chest X-ray years earlier.\n“Once you start the train of ‘This is being called COPD,’ it’s so hard to remove those words and to undiagnose,” she said.\nThe Mount Sinai physician said the system is piloting an inpatient natural language processing tool that reviews admission notes and testing in the first 24 hours, though spirometry stored as PDFs cannot be queried. Kaner said Epic recently began reading pulmonary function tests as discrete data points, which has already improved efficiency.\nA small proportion of the patients with COPD use a large share of the resources, the participants explained. In one system’s review of 279 COPD admissions over 3 years, about 60 patients accounted for 80% of admissions and roughly 30 accounted for 60%. Precise risk stratification is therefore a priority, so intensive outreach reaches the highest-risk patients while lighter support goes to others.\nOutreach works best when it is early and personal, participants said. Programs that reach patients by telehealth or phone within 24 to 48 hours of discharge report fewer readmissions.\n“There’s a face to the name, and we put our phone number in their phone and call them and say, ‘Hey, this is me; I’m calling you right now,’” said one physician, describing visits with patients before discharge.\nThe physician added that patients who answer such calls attend follow-up visits about 95% of the time, versus about 25% of those who do not, making unanswered calls a flag for home-based support.\nNorthwell Health’s home program sends hospitalized COPD patients to a telehealth visit within 24 to 48 hours of discharge, then arranges a pulmonologist appointment, usually within a month, and assigns a pulmonologist to those without one.\n“Just having the follow-up appointment isn’t enough,” said the Mount Sinai physician, who noted that patients also need transportation and an",
+    "author_name": "AJMC",
     "author_handle": "",
     "author_url": "",
     "author_headline": "",
-    "published_at": "2026-11-25T03:00:00+00:00",
+    "published_at": "2026-11-24T00:00:00+00:00",
     "metrics": {
       "likes": 0,
       "reposts": 0,
       "comments": 0
     },
     "extra": {
-      "feed": "Google News — asthma"
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "Clinicians interviewed by AJMC emphasise confirming COPD diagnosis with spirometry and identifying high-risk patients. After a COPD hospitalisation, 30-day readmissions average about 18% and 5-year mortality approaches 50%.",
+      "page_fetched": true
     },
-    "collected_at": "2026-11-25T05:09:09+00:00",
+    "collected_at": "2026-11-25T08:08:56+00:00",
     "triage": {
-      "score": 7.0,
-      "category": "research",
+      "score": 5.0,
+      "category": "events",
       "author_type": "media",
       "duplicate": false,
-      "reason": "Real-world severe asthma study on benralizumab malignancy risk."
+      "reason": "Roundtable coverage on COPD diagnosis and care gaps; mostly generic."
+    }
+  },
+  {
+    "id": "rss:5a3c0b746f013b3d",
+    "source": "rss",
+    "url": "https://www.hey.nhs.uk/news/2026/11/23/hull-patients-with-copd-could-benefit-from-advances-in-treatment/",
+    "title": "Hull patients with COPD could benefit from advances in treatment",
+    "text": "ARTICLE PAGE TEXT:\nHundreds of patients with Chronic Obstructive Pulmonary Disease (COPD) are set to benefit from advanced drug treatments to prevent unnecessary hospital admissions.\nThe award-winning Respiratory Innovation Team, based at Castle Hill Hospital, has secured funding to offer preventative treatment to people with COPD in Hull and the East Riding.\nProfessor Mike Crooks, leading the hospital team, said: “Most people with COPD have annual reviews with their GP, usually around their birthdays. However, when their conditions worsen outside of these once-a-year check-ups, they’re often treated with short courses of oral steroids or antibiotics as a reactive measure.\n“This work aims to identify people who may benefit from proactive treatment before they get ill or helping those already unwell to prevent their conditions becoming more serious.”\nHull and the East Riding has one of the highest rates of COPD in England. Around three per cent of the population has COPD compared to a national average of under two per cent. Hull also has one of the highest numbers of premature deaths linked to COPD in England.\nNow, the hospital respiratory specialists will work with GPs and practice nurses to identify and support patients who could benefit from biologic therapies. The hospital specialists will also support staff in GP practices to develop skills and knowledge around advanced in therapies to offer tailored treatment.\nAs a first step, the hospital team will set up collaborative partnerships with GP practices in areas of Hull and the East Riding with high levels of COPD on their patient lists.\nSpecialist digital software will then be used to identify patients whose conditions are deteriorating who may benefit from proactive care closer to home in their own communities.\nProfessor Crooks said: “Once again, our area is at the forefront of research and healthcare innovation and development to benefit people living with what can be an extremely debilitating and potentially life-limiting condition.\n“We’re at the early stages but we expect to be contacting the patients who could benefit from advances in treatment over the coming months.”",
+    "author_name": "Hull University Teaching Hospitals NHS Trust",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "The trust's Respiratory Innovation Team secured funding to offer proactive, preventive treatment to people with COPD in Hull and the East Riding to avoid hospital admissions. COPD prevalence there is about 3%, above the English average of under 2%.",
+      "page_fetched": true
+    },
+    "collected_at": "2026-11-25T08:08:56+00:00",
+    "triage": {
+      "score": 5.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Local hospital funding for COPD preventive treatment; modest service news."
     }
   }
 ]

@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l",
+  "headline": "Local consolidation did not improve progression-free survival in NRG-LU002 phase II trial",
+  "dek": "Results of NRG-LU002, now in JCO, show no progression-free survival benefit from adding radiation or surgery to maintenance systemic therapy, with higher rates of severe pneumonitis.",
+  "body": "Results from the randomised phase II trial NRG-LU002 have been published in JCO, according to a post on X by thoracic oncologist Stephen V Liu.\n\nThe trial compared maintenance systemic therapy alone with maintenance systemic therapy plus local consolidation. It enrolled patients with three or fewer residual extracranial sites of disease. Local consolidation (LCT) consisted of either radiation or surgery.\n\nAccording to Liu's summary, LCT did not improve progression-free survival (PFS), with a hazard ratio of 0.93. The post also reported that the local consolidation approach was associated with more toxicity. Grade 3 or higher pneumonitis occurred in 10% of patients who received LCT, compared with 1% in the comparison group.\n\nLiu, who is chief of haematology and oncology at Georgetown and MedStar Georgetown University Hospital, linked to the full publication in his post.",
+  "key_quote": "LCT (radiation or surgery) did not improve PFS (HR 0.93) and had more toxicity (G3+ pneumonitis 10% vs 1%).",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T08:09:58+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2125383401566097650",
+    "url": "https://x.com/StephenVLiu/status/2125383401566097650"
+  },
+  "mentions": [
+    "JCO_ASCO"
+  ],
+  "source": {
+    "id": "x:2125383401566097650",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2125383401566097650",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-25T00:17:45+00:00",
+    "extra": {
+      "tweet_id": "2125383401566097650",
+      "query_kind": "voices",
+      "links": [
+        "https://ascopubs.org/doi/10.1200/JCO-25-02395"
+      ],
+      "author_followers": 30900,
+      "author_id": "377425889",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

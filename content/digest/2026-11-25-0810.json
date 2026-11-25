@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Wednesday, 25 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "COPD Care Starts With Confirming Diagnosis, Finding High-Risk Patients",
+      "url": "https://ajmc.com/view/copd-care-starts-with-confirming-diagnosis-finding-high-risk-patients",
+      "publisher": "AJMC",
+      "published_date": "2026-11-24",
+      "topic": "copd",
+      "summary": "Clinicians interviewed by AJMC emphasise confirming COPD diagnosis with spirometry and identifying high-risk patients. After a COPD hospitalisation, 30-day readmissions average about 18% and 5-year mortality approaches 50%."
+    },
+    {
+      "title": "Hull patients with COPD could benefit from advances in treatment",
+      "url": "https://hey.nhs.uk/news/2026/11/23/hull-patients-with-copd-could-benefit-from-advances-in-treatment",
+      "publisher": "Hull University Teaching Hospitals NHS Trust",
+      "published_date": "2026-11-23",
+      "topic": "copd",
+      "summary": "The trust's Respiratory Innovation Team secured funding to offer proactive, preventive treatment to people with COPD in Hull and the East Riding to avoid hospital admissions. COPD prevalence there is about 3%, above the English average of under 2%."
+    },
+    {
+      "title": "Air pollution reprograms brain's immune cells, harms healthy brains and accelerates Alzheimer's disease, new study finds",
+      "url": "https://www.eurekalert.org/news-releases/1152859",
+      "publisher": "Case Western Reserve University (EurekAlert)",
+      "published_date": "2026-11-23",
+      "topic": "air_pollution",
+      "summary": "A study in the Journal of Neuroinflammation combining UK Biobank records of nearly 500,000 people with mouse experiments linked fine particulate (PM2.5) exposure to about 25% higher risk of Alzheimer's and related dementias in the most polluted areas. In mice, polluted air altered gene activity in brain microglia and accelerated amyloid accumulation in susceptible animals."
+    },
+    {
+      "title": "Two new studies point to advances in personalized lung cancer treatment",
+      "url": "https://medicalxpress.com/news/2026-11-advances-personalized-lung-cancer-treatment.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-24",
+      "topic": "lung_cancer",
+      "summary": "A five-year analysis of KEYNOTE-671 in Annals of Oncology supports chemotherapy plus pembrolizumab before surgery for resectable stage II-III NSCLC. A separate Nature Medicine study reports an AI-derived TROP2 normalized membrane ratio that predicts outcomes with datopotamab deruxtecan in NSCLC."
+    }
+  ]
+}
