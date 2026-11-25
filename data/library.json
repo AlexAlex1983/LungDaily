@@ -200,7 +200,8 @@
     "2026-11-24-only-13-of-lung-cancer-patients-in-southern-california-study-met-2021": "ctscan/ctscan-13.jpg",
     "2026-11-24-eea-links-fine-particle-pollution-to-about-222-000-premature-deaths-in": "pollution/pollution-15.jpg",
     "2026-11-24-brian-bizik-copd-escalation-therapies-are-not-only-for-end-stage-disea": "airways/airways-29.jpg",
-    "2026-11-24-updated-asthma-guidance-changes-how-children-under-five-are-diagnosed": "asthma/asthma-02.jpg"
+    "2026-11-24-updated-asthma-guidance-changes-how-children-under-five-are-diagnosed": "asthma/asthma-02.jpg",
+    "2026-11-25-us-fda-clears-first-generic-flovent-hfa-asthma-inhaler-made-by-cipla-a": "asthma/asthma-08.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -212,7 +213,7 @@
     "cells/cells-07.jpg": 7,
     "airways/airways-05.jpg": 8,
     "airways/airways-12.jpg": 9,
-    "asthma/asthma-08.jpg": 10,
+    "asthma/asthma-08.jpg": 202,
     "airways/airways-11.jpg": 11,
     "airways/airways-07.jpg": 12,
     "airways/airways-10.jpg": 13,
@@ -388,5 +389,5 @@
     "pollution/pollution-15.jpg": 199,
     "airways/airways-29.jpg": 200
   },
-  "counter": 201
+  "counter": 202
 }
