@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-25-higher-recent-nitrogen-dioxide-exposure-linked-to-slightly-faster-spin",
+  "headline": "Higher recent nitrogen dioxide exposure linked to slightly faster spinal bone loss in older adults",
+  "dek": "A study of 1,245 US adults found modestly faster loss of vertebral bone density with higher recent nitrogen dioxide exposure, but no consistent overall link with PM2.5.",
+  "body": "Higher recent exposure to air pollution from traffic and other sources is associated with slightly faster bone loss in the spine among older adults living in metropolitan areas, according to a study due to be presented at the annual meeting of the Radiological Society of North America (RSNA).\n\nThe researchers, from Johns Hopkins University School of Medicine, used an open-source AI tool to assess vertebral bone mineral density in 1,245 participants (median age 66). The tool automatically outlined individual vertebrae on two noncontrast chest CT scans per participant, taken about six years apart. Participants came from the Multi-Ethnic Study of Atherosclerosis (MESA) and lived in New York, Chicago, Los Angeles, Baltimore, St. Paul and Forsyth County, North Carolina. Pollution at each home address was estimated from air-quality monitoring data, traffic patterns and local land-use information.\n\nPeople with higher recent exposure to nitrogen dioxide (NO2) lost bone density in the middle of the spine at a slightly faster rate. The difference between the 25th and 75th percentile exposure groups was approximately 1.5 mg/cm³ over six years, less than 1% of typical starting bone density. The clearest link was with exposure in the year before the first scan, and it was less consistent for exposure averaged over the preceding decade.\n\nThere were no consistent associations between PM2.5 and vertebral bone loss overall. In an exploratory subgroup analysis, however, PM2.5 was linked to faster bone loss in non-Hispanic Black participants, at 0.66 mg/cm³ per year for each 1.8 µg/m³ increase.\n\nSenior author Shadpour Demehri said pollutants cannot be fully separated, so the study cannot definitively establish whether NO2 itself accounted for the association. He said further research is needed.",
+  "key_quote": "Air pollution may affect bone as well as the heart and lungs",
+  "tags": [
+    "air-pollution",
+    "ai",
+    "diagnostics"
+  ],
+  "people": [
+    "Sara Momtazmanesh",
+    "Shadpour Demehri"
+  ],
+  "category": "research",
+  "score": 6.0,
+  "created_at": "2026-11-25T14:32:06+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.prnewswire.com/news-releases/air-pollution-exposure-linked-to-faster-spinal-bone-loss-302946477.html"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:638522836cc28bb6",
+    "source": "rss",
+    "url": "https://www.prnewswire.com/news-releases/air-pollution-exposure-linked-to-faster-spinal-bone-loss-302946477.html",
+    "title": "Air Pollution Exposure Linked to Faster Spinal Bone Loss",
+    "author_name": "Radiological Society of North America (via PR Newswire)",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "A Johns Hopkins study to be presented at RSNA 2026 links higher recent exposure to nitrogen dioxide with modestly faster loss of vertebral bone mineral density in older adults in metropolitan areas.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "2026-11-25-air-pollution-linked-to-25-higher-alzheimer-s-and-dementia-risk-with-a",
+  "headline": "Air pollution linked to 25% higher Alzheimer's and dementia risk, with altered brain immune cells in mice",
+  "dek": "A Case Western Reserve-led study combining UK Biobank data with mouse experiments suggests fine particulate pollution may harm the brain by changing the behaviour of microglia.",
+  "body": "Fine particles of air pollution may damage the brain by changing how its immune cells behave, according to a study by researchers at Case Western Reserve University, University Hospitals and the Louis Stokes Cleveland VA Medical Center. It was published in the Journal of Neuroinflammation.\n\nThe team analysed data from about 500,000 adults in the UK Biobank, who had been tracked for up to 14 years. People living in the most polluted third of areas were 25% more likely to develop Alzheimer's disease or a related dementia than those in the least polluted third. The finding held after accounting for age, smoking, diabetes and other factors, and pollution raised risk regardless of inherited genetic risk for Alzheimer's, the study reported.\n\nTo test whether pollution was a cause rather than simply an association, the researchers exposed mouse models to outdoor Cleveland air for five months. The fine particles (PM2.5) were concentrated to levels similar to those in the world's most polluted cities. Otherwise healthy mice developed memory problems, a leaky blood-brain barrier and brain inflammation. They also had a lower NAD+/NADH ratio, which reflects the brain's energy status, and increased death of newborn neurons in the hippocampus.\n\nPollution also changed which genes were active in microglia, the brain's immune cells, in ways that disrupt their normal function. These Alzheimer's-like changes appeared in mice without amyloid plaques. In mice genetically prone to Alzheimer's, pollution caused the same harm and accelerated amyloid plaque build-up.\n\nSanjay Rajagopalan, co-senior author and professor of medicine at Case Western Reserve School of Medicine, said the findings help explain how pollution harms the brain \"and it points us toward a way to treat it\". Co-senior author Andrew Pieper said the work \"opens the door to studying other environmental stresses on the brain\".",
+  "key_quote": "we found that pollution causes major changes in which genes are active in the brain’s immune cells",
+  "tags": [
+    "air-pollution",
+    "diagnostics"
+  ],
+  "people": [
+    "Sanjay Rajagopalan",
+    "Andrew Pieper"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T14:31:08+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.etvbharat.com/en/health/air-pollution-accelerates-alzheimer-disease-enn26112405121"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:b681dbc14178eeef",
+    "source": "rss",
+    "url": "https://www.etvbharat.com/en/health/air-pollution-accelerates-alzheimer-disease-enn26112405121",
+    "title": "Air Pollution Reprograms Brain's Immune Cells, Harms Healthy Brains And Accelerates Alzheimer's Disease, New Study Finds",
+    "author_name": "ETV Bharat",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-24T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "A Case Western Reserve University study in the Journal of Neuroinflammation combined health records from nearly half a million people with mouse experiments. People in the most polluted third of UK areas were about 25% more likely to develop Alzheimer's disease, and particulate pollution altered gene activity in microglia.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

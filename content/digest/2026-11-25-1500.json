@@ -1,0 +1,53 @@
+{
+  "edition": "Health news digest – Wednesday, 25 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "COPD Care Starts With Confirming Diagnosis, Finding High-Risk Patients",
+      "url": "https://ajmc.com/view/copd-care-starts-with-confirming-diagnosis-finding-high-risk-patients",
+      "publisher": "AJMC",
+      "published_date": "2026-11-24",
+      "topic": "copd",
+      "summary": "Expert faculty emphasise confirming COPD diagnosis and identifying high-risk patients as the starting point of care. 30-day readmissions after COPD hospitalisation average about 18%, and 5-year mortality after hospitalisation approaches 50%. The piece references the GOLD 2026 report."
+    },
+    {
+      "title": "Dupilumab beats omalizumab in comorbid CRSwNP with asthma across eosinophil, FeNO levels",
+      "url": "https://www.healio.com/news/allergy-asthma/20261124/dupilumab-beats-omalizumab-in-comorbid-crswnp-with-asthma-across-eosinophil-feno-levels",
+      "publisher": "Healio",
+      "published_date": "2026-11-24",
+      "topic": "asthma",
+      "summary": "The phase 4 EVEREST study, the first head-to-head comparison of the two biologics, found dupilumab outperformed omalizumab in patients with chronic rhinosinusitis with nasal polyps and coexisting moderate-to-severe asthma. Results held across eosinophil and FeNO levels and were presented at the ACAAI 2026 meeting in Phoenix."
+    },
+    {
+      "title": "Air Pollution Reprograms Brain's Immune Cells, Harms Healthy Brains And Accelerates Alzheimer's Disease, New Study Finds",
+      "url": "https://etvbharat.com/en/health/air-pollution-accelerates-alzheimer-disease-enn26112405121",
+      "publisher": "ETV Bharat",
+      "published_date": "2026-11-24",
+      "topic": "air_pollution",
+      "summary": "A Case Western Reserve University study in the Journal of Neuroinflammation combined health records from nearly half a million people with mouse experiments. People in the most polluted third of UK areas were about 25% more likely to develop Alzheimer's disease, and particulate pollution altered gene activity in microglia."
+    },
+    {
+      "title": "Air Pollution Exposure Linked to Faster Spinal Bone Loss",
+      "url": "https://www.prnewswire.com/news-releases/air-pollution-exposure-linked-to-faster-spinal-bone-loss-302946477.html",
+      "publisher": "Radiological Society of North America (via PR Newswire)",
+      "published_date": "2026-11-23",
+      "topic": "air_pollution",
+      "summary": "A Johns Hopkins study to be presented at RSNA 2026 links higher recent exposure to nitrogen dioxide with modestly faster loss of vertebral bone mineral density in older adults in metropolitan areas."
+    },
+    {
+      "title": "Who Gets Screened for Lung Cancer? Northwestern Medicine Researchers Say it's Time to Rethink the Answer",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/",
+      "publisher": "Northwestern Medicine",
+      "published_date": "2026-11-23",
+      "topic": "lung_cancer",
+      "summary": "Northwestern Medicine is studying universal age-based lung cancer screening similar to breast and colorectal programmes. In its Lung Health Center cohort, 40% had a smoking history but were ineligible under current US criteria, and six early-stage cancers were found and treated, including two stage 1 cancers in never-smokers."
+    },
+    {
+      "title": "FDA Approves Neladalkib in Advanced ALK+ Non-Small Cell Lung Cancer",
+      "url": "https://www.cancernetwork.com/view/fda-approves-neladalkib-in-advanced-alk-non-small-cell-lung-cancer",
+      "publisher": "CancerNetwork",
+      "published_date": "2026-11-17",
+      "topic": "lung_cancer",
+      "summary": "The FDA granted accelerated approval to neladalkib (Nelkarmi; Nuvalent/GSK) for previously treated locally advanced or metastatic ALK-positive NSCLC, based on the phase 1/2 ALKOVE-1 trial. Patients previously treated with alectinib as their only prior ALK TKI had a confirmed overall response rate of 49%."
+    }
+  ]
+}
