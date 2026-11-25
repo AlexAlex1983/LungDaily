@@ -205,7 +205,8 @@
     "2026-11-25-brigatinib-in-ros1-positive-nsclc-median-overall-survival-43-9-months": "ctscan/ctscan-16.jpg",
     "2026-11-25-us-supreme-court-declines-to-hear-appeal-over-order-blocking-federal-r": "tobacco/tobacco-08.jpg",
     "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts": "pharma/pharma-05.jpg",
-    "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg"
+    "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg",
+    "2026-11-25-cipla-and-teva-win-usfda-approval-for-first-generic-flovent-hfa-in-110": "pharma/pharma-14.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -246,7 +247,7 @@
     "pollution/pollution-02.jpg": 36,
     "pollution/pollution-03.jpg": 37,
     "pharma/pharma-05.jpg": 205,
-    "pharma/pharma-14.jpg": 39,
+    "pharma/pharma-14.jpg": 207,
     "airways/airways-06.jpg": 40,
     "ctscan/ctscan-11.jpg": 175,
     "airways/airways-09.jpg": 42,
@@ -394,5 +395,5 @@
     "airways/airways-29.jpg": 200,
     "tobacco/tobacco-08.jpg": 204
   },
-  "counter": 206
+  "counter": 207
 }
