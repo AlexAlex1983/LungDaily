@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-25-brigatinib-in-ros1-positive-nsclc-median-overall-survival-43-9-months",
+  "headline": "Brigatinib in ROS1-positive NSCLC: median overall survival 43.9 months in TKI-naive patients",
+  "dek": "Updated Barossa study data show median overall survival of 43.9 months in TKI-naive patients and 12.2 months after crizotinib, according to oncologist Stephen V Liu.",
+  "body": "Updated survival results from the Barossa study of brigatinib in ROS1-positive tumours have been reported, according to a post on X by Stephen V Liu, MD, which tagged the JTO journal account.\n\nIn 47 patients with TKI-naive ROS1-positive non-small cell lung cancer (NSCLC), Liu wrote, median overall survival was 43.9 months. Overall survival was 50% at three years and 36% at five years.\n\nFor patients treated after crizotinib, median overall survival was 12.2 months, with overall survival of 37% at three years and 11% at five years.\n\nLiu also wrote that 71% to 74% of patients went on to receive subsequent therapies.",
+  "key_quote": "In 47 pts with TKI naive ROS1+ NSCLC, mOS 43.9m, 3y OS 50%, 5y OS 36%.",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T05:10:53+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2125348758196277598",
+    "url": "https://x.com/StephenVLiu/status/2125348758196277598"
+  },
+  "mentions": [
+    "JTOonline"
+  ],
+  "source": {
+    "id": "x:2125348758196277598",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2125348758196277598",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-24T22:00:05+00:00",
+    "extra": {
+      "tweet_id": "2125348758196277598",
+      "query_kind": "voices",
+      "links": [
+        "https://www.jtocrr.org/article/S2666-3643(26)00171-2/fulltext"
+      ],
+      "author_followers": 30900,
+      "author_id": "377425889",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

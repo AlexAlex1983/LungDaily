@@ -1,0 +1,40 @@
+{
+  "slug": "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts",
+  "headline": "Adding a long-acting muscarinic antagonist to dual asthma therapy cuts severe exacerbations by up to 17%",
+  "dek": "A clinical commentary in Pulmonary Therapy reports that triple inhaled therapy reduced severe exacerbations by up to 17% and improved lung function compared with dual regimens.",
+  "body": "Adding a long-acting muscarinic antagonist (LAMA) to inhaled corticosteroid (ICS) and long-acting beta-agonist (LABA) regimens reduces severe asthma exacerbations by up to 17% and improves lung function, according to a clinical commentary published in Pulmonary Therapy.\n\nThe commentary addresses patients whose symptoms are not fully controlled on dual therapy. It cites data from an observational claims-linked survey using the Optum Research Database, in which 35% to 55% of people receiving fixed-dose dual therapy continued to report inadequately controlled symptoms on validated assessment tools.\n\nThe authors set out the rationale for combining three drug classes in terms of asthma pathophysiology, which includes airway inflammation, variable airflow obstruction and bronchial hyperresponsiveness. Inhaled corticosteroids act as the core controller by reducing pro-inflammatory cytokine expression, eosinophilic infiltration and mucus hypersecretion. Long-acting beta-agonists relax bronchial smooth muscle for 12 to 24 hours and enhance mucociliary clearance. Long-acting muscarinic antagonists such as tiotropium, glycopyrronium and umeclidinium block muscarinic M3 receptors, inhibiting acetylcholine-mediated bronchoconstriction, and also suppress mucus secretion from submucosal glands.\n\nThe commentary adds that preclinical and animal studies suggest tiotropium may attenuate airway remodelling and regulate apoptosis, but this is still being investigated in human trials.\n\nIt also notes the position of the Global Initiative for Asthma. For patients aged 12 years and older at Step 4, the guidelines state that the available evidence is insufficient to justify adding a muscarinic antagonist to low-dose inhaled corticosteroids.",
+  "key_quote": "thirty-five to fifty-five percent of individuals receiving fixed-dose dual therapy continued to report inadequately controlled symptoms on validated assessment tools",
+  "tags": [
+    "asthma",
+    "therapeutics",
+    "guidelines"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T05:11:32+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://bioengineer.org/triple-inhaler-therapy-reduces-severe-asthma-exacerbations-by-seventeen-percent-in-review/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:9c962803c018c680",
+    "source": "rss",
+    "url": "https://bioengineer.org/triple-inhaler-therapy-reduces-severe-asthma-exacerbations-by-seventeen-percent-in-review/",
+    "title": "Triple Inhaler Therapy Reduces Severe Asthma Exacerbations by Seventeen Percent in Review",
+    "author_name": "Bioengineer.org",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-24T03:07:01+00:00",
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

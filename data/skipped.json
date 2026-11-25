@@ -1098,5 +1098,27 @@
     "title": "ERJ Open Research: The @EuroRespSoc position is that cigarette filters and electronic nicotine delivery systems pose health and environmental risk; therefore, t",
     "url": "https://x.com/ERSpublications/status/2125288542620340622",
     "why": "writer: Single-sentence teaser with no detail beyond the headline position statement."
+  },
+  {
+    "at": "2026-11-25T05:10:05+00:00",
+    "id": "rss:dcc248d9c9d9fc6b",
+    "kind": "thin",
+    "score": 6.0,
+    "source": "rss",
+    "author": "Business Standard",
+    "title": "Cipla gets US FDA nod for first generic version of Flovent asthma drug",
+    "url": "https://www.business-standard.com/companies/news/cipla-gets-us-fda-nod-for-first-generic-version-of-flovent-asthma-drug-126112500160_1.html",
+    "why": "source too thin (15 words of text)"
+  },
+  {
+    "at": "2026-11-25T05:10:22+00:00",
+    "id": "linkedin:7531054043574476800",
+    "kind": "writer",
+    "score": 8.0,
+    "source": "linkedin",
+    "author": "American College of Chest Physicians",
+    "title": "A new CHEST guideline includes eight evidence-based recommendations for tobacco treatment in the inpatient setting.\nRead the full guideline: https://hubs.la/Q04",
+    "url": "https://www.linkedin.com/posts/american-college-of-chest-physicians_smokingcessation-tobaccotreatment-activity-7531054043574476800-gs-h",
+    "why": "writer: Teaser post with a link and no guideline content beyond the recommendation count"
   }
 ]

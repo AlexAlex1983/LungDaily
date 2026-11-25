@@ -1,5 +1,66 @@
 [
   {
+    "id": "x:2125353975121867158",
+    "source": "x",
+    "url": "https://x.com/atscommunity/status/2125353975121867158",
+    "title": "",
+    "text": "\"...the fact that the court granted the initial relief and that the U.S. Supreme Court chose to continue to block the Trump Administration’s efforts, implies that the Administration is on very weak legal footing. I hope the court continues to support researchers.” (4/4)",
+    "author_name": "American Thoracic Society (ATS)",
+    "author_handle": "atscommunity",
+    "author_url": "https://x.com/atscommunity",
+    "author_headline": "The ATS is a leading medical association dedicated to advancing pulmonary, critical care and sleep medicine globally, with more than 22,000 members.",
+    "published_at": "2026-11-24T22:20:49+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2125353975121867158",
+      "query_kind": "voices",
+      "links": [],
+      "author_followers": 42210,
+      "author_id": "50076632"
+    },
+    "collected_at": "2026-11-25T05:09:09+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "policy",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "ATS advocacy on court rulings protecting federal respiratory research funding."
+    }
+  },
+  {
+    "id": "rss:0bc115047beb3df7",
+    "source": "rss",
+    "url": "https://casrai.org/news/florida-doctor-staff-convicted-faking-asthma-drug-trial-data-2026",
+    "title": "Federal jury convicts Florida doctor and research staff of faking asthma drug trial data",
+    "text": "Federal jury convicts Florida doctor and research staff of faking asthma drug trial data CASRAI\n\nARTICLE PAGE TEXT:\nEditorial · CASRAI · Clinical research and clinical trials\nA Florida federal jury convicted a doctor and three coordinators of faking asthma drug trial data using identity documents and paid stand-ins.\nOn 23 November 2026 the US Department of Justice announced that a federal jury in the Southern District of Florida had convicted a doctor and three clinical research coordinators of falsifying data in clinical trials of prospective asthma treatments run at Pines Care Research Center in Pembroke Pines. For sponsors, contract research organisations, institutions and research offices, the case is a reminder that every subject record in a trial must trace to a real, identified person.\nThe jury convicted Jaynier Moya, M.D., 50, of Southwest Ranches, who co-owned Pines Care Research Center LLC and was the principal investigator for its studies, and two clinical research coordinators, Luis Montano, 56, of Hialeah, and Yuniarka Garcia, 41, of Plantation, of wire fraud and conspiracy to commit wire fraud. A third coordinator, Luis Cuza, 42, of Cape Coral, was convicted of conspiracy to commit wire fraud. A fourth coordinator, Alexandra Olivera, 38, of Hialeah, had pleaded guilty to conspiracy to commit wire fraud in August 2026.\nAccording to the Justice Department, which cites court documents and evidence presented at trial, the conduct began no later than 2019. Pines Care had been chosen to gather safety and efficacy data for prospective new asthma treatments for a pharmaceutical sponsor. The defendants used identification documents belonging to people who never took part in the studies and built records that made it appear those people had taken study medication and completed the tests the protocol required. They also paid other individuals to undergo the tests and attributed the results to the fake subjects. The fabricated data was then submitted to the sponsor so that Pines Care would be paid for research that had not been carried out. The Justice Department does not name the sponsor or the drugs.\nLocal reporting by CBS12 and the Tampa Free Press describes the same verdict and the same allegations as the Justice Department release.\nThe Justice Department states that a federal district court judge will determine the actual sentences, taking into account the US Sentencing Guidelines and other statutory factors. The maximums are statutory ceilings, not predictions.\nThe FDA Office of Criminal Investigations, Miami Field Office, investigated. Trial attorneys Andrew Crawford, Brianna Gardner and Rowan Reid of the Criminal Division’s Health and Safety Unit, part of its White Collar and Corporate Enforcement Section, prosecuted the case. The Justice Department’s Office of International Affairs helped obtain a witness’s testimony for trial, and the US Marshals Service helped secure the arrests.\nThe case first became public on 10 June 2026, when the Justice Department announced an indictment against Moya, Montano and Garcia, and a separate criminal information against Olivera. At that stage each was charged with conspiracy to commit wire fraud, and Moya, Montano and Garcia with three counts of substantive wire fraud each. The June release described the charges as allegations and noted that the defendants were presumed innocent; the November verdict is the first outcome at trial.\nThe charges are fraud offences. The money at stake, according to the Justice Department, was the sponsor’s payment for research that was not completed. In research-integrity terms the conduct is a textbook combination of fabrication (inventing subjects and results) and falsification (altering records to show doses taken and tests completed); the difference between the two is set out in falsification vs fabrication .\nAssistant Attorney General A. Tysen Duva of the Justice Department’s Criminal Division said: “Accurate human testing data is critical to the U.S. Food and Drug Administration’s evaluation of whether to approve new drug treatments for Americans.” He added",
+    "author_name": "CASRAI",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-25T03:14:52+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    },
+    "collected_at": "2026-11-25T05:09:09+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "organisation",
+      "duplicate": false,
+      "reason": "Fraud conviction over asthma drug trial data; notable research integrity case."
+    }
+  },
+  {
     "id": "x:2124805570200752334",
     "source": "x",
     "url": "https://x.com/KulikovUNIATF/status/2124805570200752334",
@@ -31,6 +92,40 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "Vietnam national assembly passes major e-cigarette and tobacco law"
+    }
+  },
+  {
+    "id": "x:2125383401566097650",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2125383401566097650",
+    "title": "",
+    "text": "NRG-LU002 now @JCO_ASCO: Randomized phase II of maintenance systemic therapy +/- local consolidation for pts with ≤ 3 residual extracranial sites. LCT (radiation or surgery) did not improve PFS (HR 0.93) and had more toxicity (G3+ pneumonitis 10% vs 1%).\nhttps://t.co/FoE8vaWpH3",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "author_headline": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
+    "published_at": "2026-11-25T00:17:45+00:00",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "comments": 0
+    },
+    "extra": {
+      "tweet_id": "2125383401566097650",
+      "query_kind": "voices",
+      "links": [
+        "https://ascopubs.org/doi/10.1200/JCO-25-02395"
+      ],
+      "author_followers": 30900,
+      "author_id": "377425889"
+    },
+    "collected_at": "2026-11-25T05:09:09+00:00",
+    "triage": {
+      "score": 7.0,
+      "category": "research",
+      "author_type": "person",
+      "duplicate": false,
+      "reason": "NRG-LU002 phase II lung cancer trial in JCO; notable negative result."
     }
   },
   {
@@ -68,16 +163,16 @@
     }
   },
   {
-    "id": "rss:9c962803c018c680",
+    "id": "rss:7c7a6125b292c5da",
     "source": "rss",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNmd0X0x1TTMybnhoeWRlejBDTzFFNXJjcHl2SjV2N3NFdDFJbldLaXpScnJTbWJlLXM5Y2VsdkRfTG9VV2l1eDNWdlNCeWVBVjV0Y0Q3a0VMb3FJVFBuR0VZUC1nWE0xTDAxbWNISHBVOVdsc2wyLVQ3TzF2ZXZxOTZycGc3Q21yYkZMV3ZQc2hMeVoyTXpfQXQ2cXFUb0R0ZnJkOHMxMUxneERyR1BYeWJxLTM?oc=5",
-    "title": "Triple Inhaler Therapy Reduces Severe Asthma Exacerbations by Seventeen Percent in Review",
-    "text": "Triple Inhaler Therapy Reduces Severe Asthma Exacerbations by Seventeen Percent in Review Bioengineer.org",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNXV1NE9fcWJodEJDR0ZnWW9iejFJX3VpSS0xei1ZeTVVUkxzVi1iLWxPSEVLVk5zWmVrWDQzMkhEU2hqMUxUamVESUhXUjlSTTJ3NWVERTBUYWlWLVJmY1dTZS1RU3o1UEhqekttbmtidnlRRm8tYkd0MlBJV3h5NElqbGwwYWtVcWxlUkhxdjhFSF81aEFLbkVVVVdKLTdjbVV1dGoyRHhvSkVP?oc=5",
+    "title": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab",
+    "text": "Real-World Severe Asthma Study Finds No Increased Malignancy Risk With Benralizumab Bioengineer.org",
     "author_name": "Bioengineer.org",
     "author_handle": "",
     "author_url": "",
     "author_headline": "",
-    "published_at": "2026-11-24T03:07:01+00:00",
+    "published_at": "2026-11-25T03:00:00+00:00",
     "metrics": {
       "likes": 0,
       "reposts": 0,
@@ -86,13 +181,13 @@
     "extra": {
       "feed": "Google News — asthma"
     },
-    "collected_at": "2026-11-24T05:08:22+00:00",
+    "collected_at": "2026-11-25T05:09:09+00:00",
     "triage": {
       "score": 7.0,
       "category": "research",
-      "author_type": "organisation",
+      "author_type": "media",
       "duplicate": false,
-      "reason": "Review finds triple inhaler cuts severe asthma exacerbations"
+      "reason": "Real-world severe asthma study on benralizumab malignancy risk."
     }
   }
 ]
