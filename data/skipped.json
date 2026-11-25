@@ -1131,5 +1131,27 @@
     "title": "\"...the fact that the court granted the initial relief and that the U.S. Supreme Court chose to continue to block the Trump Administration’s efforts, implies th",
     "url": "https://x.com/atscommunity/status/2125353975121867158",
     "why": "writer: Fragment of a thread; speaker and subject of the legal case unstated"
+  },
+  {
+    "at": "2026-11-25T11:09:28+00:00",
+    "id": "rss:066bd2714487e93a",
+    "kind": "thin",
+    "score": 8.0,
+    "source": "rss",
+    "author": "TradingView",
+    "title": "GSK says asthma drug comparable to its own approved treatment for rare immune disorder",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N4760CC:0-gsk-says-asthma-drug-comparable-to-its-own-approved-treatment-for-rare-immune-disorder/",
+    "why": "source too thin (15 words of text)"
+  },
+  {
+    "at": "2026-11-25T11:09:29+00:00",
+    "id": "rss:159fdecb64075062",
+    "kind": "thin",
+    "score": 7.0,
+    "source": "rss",
+    "author": "Reuters",
+    "title": "GSK says asthma drug comparable to its own approved treatment for rare immune disorder",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/gsk-says-asthma-drug-comparable-its-own-approved-treatment-rare-immune-disorder-2026-11-25/",
+    "why": "source too thin (15 words of text)"
   }
 ]

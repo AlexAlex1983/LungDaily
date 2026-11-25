@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as",
+  "headline": "Metal particles in air pollution activate airway receptor linked to asthma inflammation, study finds",
+  "dek": "Researchers led by King's College London and Cardiff University identified the calcium-sensing receptor as a potential drug target for pollution-related asthma, with existing blocking drugs effective in laboratory studies.",
+  "body": "Metal particles in air pollution can trigger changes in the airways that cause inflammation and contribute to asthma attacks and chronic bronchitis, according to a study led by King's College London and Cardiff University. The research, published in The Lancet eBioMedicine, is described by the team as the first to identify the biological processes linking pollution exposure to lung disease.\n\nUsing laboratory models and population health data, the researchers examined the calcium-sensing receptor (CaSR), a sensor found in the airways. Working with human lung tissue and cells, they found that particles in air pollution activate the CaSR, triggering inflammation and making the airways more sensitive and prone to narrowing. Existing drugs that block the CaSR prevented these effects in laboratory studies.\n\nIn collaboration with Imperial College London and Queen Mary University of London, the team also analysed health and environmental data from a large population over time. They found a link between exposure to metals in air pollution and severe asthma attacks. The researchers suggest that monitoring the metal content of air pollution could help identify periods of increased risk for people with asthma, sometimes called \"bad asthma days\".\n\nProfessor Chris Corrigan of King's College London, who co-led the study, said the findings suggest that inflammation in the airway lining of some people with asthma is triggered, at least in part, by metals in particulate pollution activating this receptor. He said regular inhaled therapy targeting the sensors may inhibit, halt or prevent this process.\n\nThe researchers note that clinical trials are under way for drugs targeting this sensor in other conditions, and they believe these could be repurposed for people whose asthma is worsened by air pollution. Dr Bethan Mansfield of Cardiff University's School of Biosciences, who also co-led the study, said such drugs could potentially be delivered directly to the lungs using inhalers.",
+  "key_quote": "Our findings suggest that regular, inhaled therapy targeting these sensors may inhibit, halt or prevent this process.",
+  "tags": [
+    "asthma",
+    "air-pollution",
+    "therapeutics",
+    "copd"
+  ],
+  "people": [
+    "Chris Corrigan",
+    "Bethan Mansfield"
+  ],
+  "category": "research",
+  "score": 8.0,
+  "created_at": "2026-11-25T11:09:36+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.kcl.ac.uk/news/air-pollution-mechanism-that-triggers-asthma-discovered"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:1b4610668755ec76",
+    "source": "rss",
+    "url": "https://www.kcl.ac.uk/news/air-pollution-mechanism-that-triggers-asthma-discovered",
+    "title": "Air pollution mechanism that triggers asthma discovered",
+    "author_name": "King's College London",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-25T05:47:21+00:00",
+    "extra": {
+      "feed": "Google News — air pollution health",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

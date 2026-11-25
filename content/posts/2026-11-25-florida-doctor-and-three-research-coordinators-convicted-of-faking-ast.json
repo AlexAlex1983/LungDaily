@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-25-florida-doctor-and-three-research-coordinators-convicted-of-faking-ast",
+  "headline": "Florida doctor and three research coordinators convicted of faking asthma drug trial data",
+  "dek": "A federal jury in the Southern District of Florida convicted four people over fabricated subject records in trials of prospective asthma treatments, the US Department of Justice said.",
+  "body": "A federal jury in the Southern District of Florida has convicted a doctor and three clinical research coordinators of falsifying data in clinical trials of prospective asthma treatments, the US Department of Justice announced on 23 November 2026. The trials were run at Pines Care Research Center in Pembroke Pines.\n\nThe jury convicted Jaynier Moya, M.D., 50, who co-owned Pines Care Research Center LLC and was principal investigator for its studies, along with coordinators Luis Montano, 56, and Yuniarka Garcia, 41, of wire fraud and conspiracy to commit wire fraud. Coordinator Luis Cuza, 42, was convicted of conspiracy to commit wire fraud. A fourth coordinator, Alexandra Olivera, 38, pleaded guilty to conspiracy to commit wire fraud in August 2026.\n\nAccording to the Justice Department, citing court documents and trial evidence, the conduct began no later than 2019. Pines Care had been chosen to gather safety and efficacy data on prospective asthma treatments for a pharmaceutical sponsor. The defendants used identification documents belonging to people who never took part in the studies and created records suggesting those people had taken study medication and completed required tests. They also paid other individuals to undergo the tests and attributed the results to the fake subjects. The data was submitted to the sponsor so that Pines Care would be paid for research that had not been carried out. The Justice Department does not name the sponsor or the drugs.\n\nAssistant Attorney General A. Tysen Duva of the Criminal Division said: “Accurate human testing data is critical to the U.S. Food and Drug Administration’s evaluation of whether to approve new drug treatments for Americans.”\n\nA federal district court judge will determine the sentences, taking into account the US Sentencing Guidelines and other statutory factors. The FDA Office of Criminal Investigations, Miami Field Office, investigated the case. The charges were first announced on 10 June 2026.",
+  "key_quote": "Accurate human testing data is critical to the U.S. Food and Drug Administration’s evaluation of whether to approve new drug treatments for Americans.",
+  "tags": [
+    "asthma",
+    "trial",
+    "therapeutics",
+    "policy"
+  ],
+  "people": [
+    "Jaynier Moya",
+    "Luis Montano",
+    "Yuniarka Garcia",
+    "Luis Cuza",
+    "Alexandra Olivera",
+    "A. Tysen Duva"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T11:09:49+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://casrai.org/news/florida-doctor-staff-convicted-faking-asthma-drug-trial-data-2026"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:0bc115047beb3df7",
+    "source": "rss",
+    "url": "https://casrai.org/news/florida-doctor-staff-convicted-faking-asthma-drug-trial-data-2026",
+    "title": "Federal jury convicts Florida doctor and research staff of faking asthma drug trial data",
+    "author_name": "CASRAI",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-25T03:14:52+00:00",
+    "extra": {
+      "feed": "Google News — asthma",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

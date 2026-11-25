@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-25-network-meta-analysis-ranks-azithromycin-and-dpp-1-inhibitor-hsk31858",
+  "headline": "Network meta-analysis ranks azithromycin and DPP-1 inhibitor HSK31858 highest for preventing bronchiectasis exacerbations",
+  "dek": "A network meta-analysis of 15 randomised trials found azithromycin and HSK31858 ranked highest, but indirect comparisons between them were not statistically significant.",
+  "body": "A network meta-analysis published in BMC Pulmonary Medicine has compared DPP-1 inhibitors, long-term macrolides and inhaled antibiotics for preventing exacerbations in adults with non-cystic fibrosis bronchiectasis (NCFB). The authors, led by Yang Xue, Xiuming Zhang and Duoli Sun, noted the lack of head-to-head comparisons between established antimicrobial therapies and newer anti-inflammatory agents.\n\nThe team searched PubMed, Embase, Cochrane CENTRAL, Web of Science and ClinicalTrials.gov from inception to April 2026. They included randomised controlled trials comparing the treatments with placebo or with each other. The protocol was registered in PROSPERO (CRD420261350340). In total, 15 trials with 24 active treatment arms were included, with 3,726 participants randomised to active treatment. The network was star-shaped, with placebo as the common comparator.\n\nFor annualised exacerbation rate, azithromycin had the highest P-score (0.91), followed by HSK31858 40 mg (0.87) and HSK31858 20 mg (0.73). Between-study heterogeneity was moderate (I² = 55.0%). For time to first exacerbation, azithromycin (0.94) and HSK31858 40 mg (0.91) again ranked highest. The authors stressed, however, that the indirect comparisons of azithromycin against HSK31858 were not statistically significant for either outcome, and that P-scores were descriptive rankings rather than evidence of superiority.\n\nDescriptive safety data indicated a favourable serious-adverse-event profile for DPP-1 inhibitors, while inhaled aztreonam and inhaled ciprofloxacin were associated with higher discontinuation.\n\nThe authors concluded that DPP-1 inhibitors, particularly HSK31858, showed favourable estimates and may represent non-antibiotic alternatives to long-term macrolides. They added that inhaled antibiotics may have a targeted role in patients with chronic Pseudomonas aeruginosa infection and frequent exacerbations, and that the findings support individualised, risk-based treatment selection.",
+  "key_quote": "treatment rankings were based predominantly on indirect comparisons and should not be interpreted as evidence of statistical superiority between active treatments",
+  "tags": [
+    "bronchiectasis",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Yang Xue",
+    "Xiuming Zhang",
+    "Duoli Sun"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-25T11:10:26+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43079386/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43079386",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43079386/",
+    "title": "Comparative efficacy and durability of DPP-1 Inhibitors, macrolides, and inhaled antibiotics for exacerbation prevention in bronchiectasis: a network meta-analysis.",
+    "author_name": "Yang Xue, Xiuming Zhang, Duoli Sun et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-10-06T00:00:00+00:00",
+    "extra": {
+      "journal": "BMC pulmonary medicine",
+      "doi": "10.1186/s12890-026-04766-2",
+      "pub_types": [
+        "Journal Article",
+        "Network Meta-Analysis",
+        "Comparative Study",
+        "Systematic Review"
+      ],
+      "first_author": "Yang Xue"
+    }
+  },
+  "status": "ready"
+}

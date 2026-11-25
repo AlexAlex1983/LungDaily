@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-25-maia-biotechnology-begins-dosing-patients-in-spain-in-phase-3-thio-104",
+  "headline": "MAIA Biotechnology begins dosing patients in Spain in Phase 3 THIO-104 lung cancer trial",
+  "dek": "The company said the pivotal trial is testing ateganosine, a telomere-targeting agent, as a third-line treatment for advanced non-small cell lung cancer.",
+  "body": "MAIA Biotechnology (NYSE American: MAIA) announced on 24 November that it has begun dosing patients in Spain in its ongoing pivotal THIO-104 trial. The trial is evaluating the company's investigational telomere-targeting therapy, ateganosine, as a third-line treatment for advanced non-small cell lung cancer (NSCLC).\n\nAccording to the company, THIO-104 is a multicentre, open-label, randomised Phase 3 trial. It is assessing ateganosine followed by PD-(L)1 inhibition in patients with advanced third-line NSCLC who did not respond to, or developed resistance to, regimens containing a checkpoint inhibitor and/or chemotherapy, and whose disease has progressed. The trial has two primary objectives: to compare the clinical efficacy of ateganosine with investigator's choice of chemotherapy, using median overall survival as the primary endpoint, and to evaluate the safety and tolerability of ateganosine given sequentially with a checkpoint inhibitor. The trial is listed on ClinicalTrials.gov as NCT06908304.\n\nVlad Vitoc, MAIA's Chairman and Chief Executive Officer, said that trial participation can give patients access to investigational therapies in markets where access to newly approved lung cancer treatments has historically lagged. He said that establishing sites in Spain broadens access for patients with advanced NSCLC who have progressed after standard-of-care treatments.\n\nMAIA describes ateganosine as a first-in-class investigational agent. The company says it induces telomerase-dependent modification of telomeric DNA, leading to DNA damage responses and selective cancer cell death, and that it activates innate and adaptive immune responses. The company reports that, in advanced in vivo cancer models, sequential treatment with ateganosine and PD-(L)1 inhibitors led to tumour regression. Ateganosine has not been approved.",
+  "key_quote": "Expanding THIO-104 into Spain represents another important step in the execution of our pivotal Phase 3 program",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Vlad Vitoc"
+  ],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-25T11:10:18+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/globenewswire/maia-biotechnology-begins-dosing-patients-in-spain-for-pivotal-phase-3-thio-104-clinical-trial-in-non-small-cell-lung-cancer/2477235"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:f69e15ec29d2f80f",
+    "source": "rss",
+    "url": "https://www.manilatimes.net/2026/11/24/tmt-newswire/globenewswire/maia-biotechnology-begins-dosing-patients-in-spain-for-pivotal-phase-3-thio-104-clinical-trial-in-non-small-cell-lung-cancer/2477235",
+    "title": "MAIA Biotechnology Begins Dosing Patients in Spain for Pivotal Phase 3 THIO-104 Clinical Trial in Non-Small Cell Lung Cancer",
+    "author_name": "The Manila Times",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-24T14:04:28+00:00",
+    "extra": {
+      "feed": "Google News — respiratory trial results",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
