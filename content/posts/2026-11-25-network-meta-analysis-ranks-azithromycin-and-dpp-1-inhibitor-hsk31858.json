@@ -47,5 +47,9 @@
       "first_author": "Yang Xue"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-25T14:00:18+00:00",
+  "shared": {
+    "x": "2125591776178184412"
+  }
 }

@@ -208,7 +208,8 @@
     "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg",
     "2026-11-25-cipla-and-teva-win-usfda-approval-for-first-generic-flovent-hfa-in-110": "pharma/pharma-14.jpg",
     "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as": "pollution/pollution-05.jpg",
-    "2026-11-25-florida-doctor-and-three-research-coordinators-convicted-of-faking-ast": "research/research-09.jpg"
+    "2026-11-25-florida-doctor-and-three-research-coordinators-convicted-of-faking-ast": "research/research-09.jpg",
+    "2026-11-25-network-meta-analysis-ranks-azithromycin-and-dpp-1-inhibitor-hsk31858": "research/research-03.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -292,7 +293,7 @@
     "ctscan/ctscan-12.jpg": 79,
     "ctscan/ctscan-09.jpg": 80,
     "airways/airways-20.jpg": 81,
-    "research/research-03.jpg": 82,
+    "research/research-03.jpg": 210,
     "asthma/asthma-05.jpg": 83,
     "asthma/asthma-13.jpg": 84,
     "pharma/pharma-11.jpg": 85,
@@ -398,5 +399,5 @@
     "tobacco/tobacco-08.jpg": 204,
     "pollution/pollution-05.jpg": 208
   },
-  "counter": 209
+  "counter": 210
 }
