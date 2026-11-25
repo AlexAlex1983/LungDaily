@@ -44,6 +44,11 @@
   "status": "published",
   "published_at": "2026-11-25T09:00:17+00:00",
   "shared": {
-    "x": "2125516395727184282"
+    "x": "2125516395727184282",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n34sobi72w23",
+    "featured_email": {
+      "to": "communications@thoracic.org",
+      "at": "2026-11-25T09:07:38+00:00"
+    }
   }
 }
