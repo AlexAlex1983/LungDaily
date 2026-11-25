@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-25-hull-respiratory-team-secures-funding-for-proactive-copd-treatment",
+  "headline": "Hull respiratory team secures funding for proactive COPD treatment",
+  "dek": "The Respiratory Innovation Team at Castle Hill Hospital will work with GP practices in Hull and the East Riding to identify patients who could benefit from biologic therapies.",
+  "body": "The Respiratory Innovation Team at Castle Hill Hospital has secured funding to offer preventative treatment to people with chronic obstructive pulmonary disease (COPD) in Hull and the East Riding, according to Hull University Teaching Hospitals NHS Trust. The aim is to prevent unnecessary hospital admissions.\n\nProfessor Mike Crooks, who leads the hospital team, said most people with COPD have annual reviews with their GP. When their condition worsens between check-ups, he said, they are often given short courses of oral steroids or antibiotics as a reactive measure. \"This work aims to identify people who may benefit from proactive treatment before they get ill or helping those already unwell to prevent their conditions becoming more serious,\" he said.\n\nThe trust said Hull and the East Riding has one of the highest rates of COPD in England, with around 3% of the population affected compared with a national average of under 2%. Hull also has one of the highest numbers of premature deaths linked to COPD in the country, it said.\n\nHospital respiratory specialists will work with GPs and practice nurses to identify and support patients who could benefit from biologic therapies. They will also help GP practice staff develop skills and knowledge in advanced therapies so that treatment can be tailored.\n\nAs a first step, the hospital team will set up collaborative partnerships with GP practices in areas of Hull and the East Riding with high levels of COPD. Specialist digital software will then be used to identify patients whose conditions are deteriorating and who may benefit from proactive care closer to home.\n\nProfessor Crooks said the work is at an early stage, and the team expects to contact patients who could benefit over the coming months.",
+  "key_quote": "This work aims to identify people who may benefit from proactive treatment before they get ill or helping those already unwell to prevent their conditions becoming more serious.",
+  "tags": [
+    "copd",
+    "primary-care",
+    "therapeutics",
+    "policy"
+  ],
+  "people": [
+    "Mike Crooks"
+  ],
+  "category": "policy",
+  "score": 5.0,
+  "created_at": "2026-11-25T17:09:06+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.hey.nhs.uk/news/2026/11/23/hull-patients-with-copd-could-benefit-from-advances-in-treatment/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:5a3c0b746f013b3d",
+    "source": "rss",
+    "url": "https://www.hey.nhs.uk/news/2026/11/23/hull-patients-with-copd-could-benefit-from-advances-in-treatment/",
+    "title": "Hull patients with COPD could benefit from advances in treatment",
+    "author_name": "Hull University Teaching Hospitals NHS Trust",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-23T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "The trust's Respiratory Innovation Team secured funding to offer proactive, preventive treatment to people with COPD in Hull and the East Riding to avoid hospital admissions. COPD prevalence there is about 3%, above the English average of under 2%.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

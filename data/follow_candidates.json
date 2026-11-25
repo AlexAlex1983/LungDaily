@@ -10,10 +10,10 @@
   "accpchest": {
     "id": "34827666",
     "username": "accpchest",
-    "seen": 39,
+    "seen": 40,
     "name": "CHEST",
     "bio": "Official account of the American College of Chest Physicians®\nAdvancing lung health through education, advocacy & research since 1935. @journal_CHEST",
-    "followers": 47406
+    "followers": 47405
   },
   "erspublications": {
     "id": "424241621",
@@ -58,7 +58,7 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 32,
+    "seen": 33,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
     "followers": 31655
@@ -82,10 +82,10 @@
   "profjdchalmers": {
     "id": "1155952820966703105",
     "username": "ProfJDChalmers",
-    "seen": 2,
+    "seen": 3,
     "name": "James D Chalmers",
     "bio": "Rhodes Chair of Experimental Therapeutics, University of Oxford. Chief Editor of the European Respiratory Journal. Tweets in a personal capacity",
-    "followers": 9300
+    "followers": 9297
   },
   "drbreatheeasy": {
     "id": "1028440041998241792",
@@ -886,5 +886,13 @@
     "name": "José Luis Castro",
     "bio": "@WHO Director-General Special Envoy for Chronic Respiratory Diseases. \nFounder and former CEO of @VitalStrat",
     "followers": 1943
+  },
+  "nm_lung": {
+    "id": "748504578056982528",
+    "username": "NM_Lung",
+    "seen": 1,
+    "name": "NM Pulmonary and Thoracic Surgery",
+    "bio": "@NorthwesternMed Canning Thoracic Institute. Northwestern Memorial Hospital ranked No. 4 in the Nation: Pulmonology and Lung Surgery by @USNews, 2026 – 2027.",
+    "followers": 2392
   }
 }
