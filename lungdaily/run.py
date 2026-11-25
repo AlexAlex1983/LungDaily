@@ -15,6 +15,7 @@
   python -m lungdaily.run from-url <url> [category]  write an article from a press release / announcement link
   python -m lungdaily.run qa <content/qa/file.md>   publish an email Q&A (answers as given) at the next slot
   python -m lungdaily.run newsletter [force]  create this week's newsletter in Buttondown (+ language editions)
+  python -m lungdaily.run linkedin-digest [force]  email the twice-weekly LinkedIn round-up draft to the editor
   python -m lungdaily.run congress-daily   during a congress: today's congress email as a Buttondown draft
   python -m lungdaily.run skipped          list items skipped as too thin (14 days) and the latest held articles
   python -m lungdaily.run reshares         check X for shares of LungDaily now and print the sharing-loop report
@@ -99,6 +100,9 @@ def main(argv: list[str]) -> int:
         reshares.check_x(force=True)
         print("\n".join(reshares.summary_lines()))
         reshares.write_summary()
+    elif cmd == "linkedin-digest":
+        from . import linkedin_digest
+        linkedin_digest.run(force=len(argv) > 1 and argv[1] == "force")
     elif cmd == "newsletter":
         from . import newsletter
         newsletter.run(force=len(argv) > 1 and argv[1] == "force")

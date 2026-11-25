@@ -169,6 +169,16 @@ newsletter:
   languages: [es, fr, pt, ru]     # translated editions, created as drafts for subscribers tagged lang-xx ([] = off)
   congress_daily: true            # during ATS/ERS (awareness.yaml congresses): a daily congress email draft
 
+# Twice-weekly LinkedIn round-up ("The Week So Far" Tue / "The Week in Review" Fri), EMAILED as a draft
+# to the editor inbox; you tag the pages and post it yourself (.github/workflows/linkedin-digest.yml)
+linkedin_digest:
+  enabled: true
+  days: [tue, fri]                # round-up days (Europe/Berlin); the workflow runs on these mornings
+  to: "editor@lungdaily.org"
+  max_items: 8
+  min_score: 7                    # falls back to lower scores if fewer than 5 qualify
+  max_days: 5                     # look back at most this far (normally: since the previous round-up)
+
 follow:
   enabled: true
   per_run: 10                     # accounts followed per run (runs every 6 hours)

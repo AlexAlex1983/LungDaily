@@ -361,6 +361,25 @@ assert "/newsletter/" in _body                 # forward-to-a-colleague line
 _ts, _tb = _nl.translate(_s2, _body, "es")     # fake LLM: returns the text; real run translates
 assert _ts.startswith("[ES]") and "Traducido del inglés" in _tb
 assert _nl._filters([("contains", "lang-es")])["filters"][0] == {"operator": "contains", "field": "subscriber.tags", "value": "lang-es"}
+# LinkedIn round-up draft: pick, bullets checked against the story, compose (no SMTP -> composed only)
+from lungdaily import linkedin_digest as _ld
+_lr = _ld.pick(_now() - _dt.timedelta(days=30), set())
+assert len(_lr) >= 3
+_li, _lb = _ld.bullets(_lr)
+_lp = _ld.compose(_lr, _li, _lb, "https://lungdaily.org", friday=False)
+assert _lp.startswith("Respiratory Health: The Week So Far") and _lp.count("🔹") == len(_lr) and "#RespiratoryHealth" in _lp
+assert "Week in Review" in _ld.compose(_lr, _li, _lb, "https://lungdaily.org", friday=True)
+_r0 = dict(_lr[0], headline="Drug cuts flare-ups", dek="A trial reports fewer flare-ups.")
+import lungdaily.llm as _llm
+_orig = _llm.ask_json
+_llm.ask_json = lambda *a, **k: {"intro": "x", "bullets": [{"slug": _r0["slug"], "label": "COPD", "text": "Drug cuts flare-ups by 40%, the biggest drop ever.", "orgs": ["Made Up Pharma"]}]}
+assert _ld.bullets([_r0])[1][0]["text"] == "Drug cuts flare-ups."    # invented figure -> plain headline
+_llm.ask_json = lambda *a, **k: {"intro": "x", "bullets": [{"slug": _r0["slug"], "label": "COPD", "text": "A drug cuts flare-ups.", "orgs": ["Made Up Pharma"]}]}
+assert _ld.bullets([_r0])[1][0]["orgs"] == []                        # org not named in the story -> not tagged
+_llm.ask_json = _orig
+_o.environ["LUNGDAILY_NOW"] = "2026-11-10T07:00:00+00:00"            # a Tuesday
+assert _ld.run() is False and not (DATA / "linkedin_digest.json").exists()   # no SMTP: composed only, state untouched
+_o.environ["LUNGDAILY_NOW"] = "2026-11-07T10:00:00+00:00"
 # monthly report (needs >= 10 articles in a finished month)
 from lungdaily.reports import build_reports as _br
 import datetime as _dt
