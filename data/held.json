@@ -3360,55 +3360,6 @@
     "status": "held"
   },
   {
-    "slug": "2026-11-25-experts-at-ajmc-roundtable-say-copd-care-should-start-with-confirming",
-    "headline": "Experts at AJMC roundtable say COPD care should start with confirming diagnosis and finding high-risk patients",
-    "dek": "Clinicians and health system leaders from four New York institutions described registry rebuilds, early outreach and spirometry gaps as priorities for improving COPD care.",
-    "body": "Confirming the diagnosis and identifying the small group of patients who drive most admissions are the first priorities for improving chronic obstructive pulmonary disease (COPD) care, according to participants at The American Journal of Managed Care's Population Health Roundtable in New York City.\n\nKatherine DiPalo, PharmD, MBA, MS, senior director of transitional care excellence at Montefiore Medical Center, moderated the discussion among clinicians and health system leaders from Montefiore, Mount Sinai Health System, Northwell Health and Weill Cornell Medicine. DiPalo said 30-day readmissions after COPD hospitalisation average 18%, and 5-year mortality after hospitalisation approaches 50%. Some participants asked not to be named.\n\nSeveral participants said their first task is ensuring patients actually have COPD. In one system, nearly 60% of patients with a primary care COPD diagnosis had never had spirometry, and about 35% of specialty clinic patients on triple inhaler therapy did not have the disease on formal testing. Robert Kaner, MD, of Weill Cornell Medicine, said most of its patients with COPD are never seen by a pulmonologist and are managed in primary care. A Mount Sinai physician said the system's Epic dashboard identifies roughly 50,000 to 60,000 patients with a COPD ICD-10 code, but only about 7000 are managed by pulmonology.\n\nDiPalo said her team rebuilt its COPD registry because the standard version flagged patients based on a code attached to a chest X-ray years earlier. Mount Sinai is piloting an inpatient natural language processing tool that reviews admission notes and testing in the first 24 hours, though spirometry stored as PDFs cannot be queried. Kaner said Epic recently began reading pulmonary function tests as discrete data points.\n\nParticipants said a small proportion of patients use a large share of resources. In one system's review of 279 COPD admissions over three years, about 60 patients accounted for 80% of admissions. They said precise risk stratification should direct intensive outreach to the highest-risk patients.\n\nOutreach works best when early and personal, they said. Programmes that reach patients by telehealth or phone within 24 to 48 hours of discharge report fewer readmissions. One physician said patients who answer such calls attend follow-up visits about 95% of the time, versus about 25% of those who do not. Northwell Health's home programme arranges a telehealth visit within 24 to 48 hours of discharge, followed by a pulmonologist appointment, usually within a month.",
-    "key_quote": "Once you start the train of ‘This is being called COPD,’ it’s so hard to remove those words and to undiagnose,",
-    "tags": [
-      "copd",
-      "diagnostics",
-      "primary-care",
-      "ai"
-    ],
-    "people": [
-      "Katherine DiPalo",
-      "Robert Kaner"
-    ],
-    "category": "events",
-    "score": 5.0,
-    "created_at": "2026-11-25T11:10:37+00:00",
-    "checker": {
-      "pass": false,
-      "issues": [
-        "body length 403 words outside limits"
-      ]
-    },
-    "embed": {
-      "type": "link",
-      "url": "https://www.ajmc.com/view/copd-care-starts-with-confirming-diagnosis-finding-high-risk-patients"
-    },
-    "mentions": [],
-    "source": {
-      "id": "rss:593e5c6bf2aac864",
-      "source": "rss",
-      "url": "https://www.ajmc.com/view/copd-care-starts-with-confirming-diagnosis-finding-high-risk-patients",
-      "title": "COPD Care Starts With Confirming Diagnosis, Finding High-Risk Patients",
-      "author_name": "AJMC",
-      "author_handle": "",
-      "author_url": "",
-      "published_at": "2026-11-24T00:00:00+00:00",
-      "extra": {
-        "feed": "Editor digest",
-        "web_search": true,
-        "topic": "copd",
-        "scout_summary": "Clinicians interviewed by AJMC emphasise confirming COPD diagnosis with spirometry and identifying high-risk patients. After a COPD hospitalisation, 30-day readmissions average about 18% and 5-year mortality approaches 50%.",
-        "page_fetched": true
-      }
-    },
-    "status": "held"
-  },
-  {
     "slug": "2026-11-25-dupilumab-outperformed-omalizumab-in-crswnp-with-asthma-across-biomark",
     "headline": "Dupilumab outperformed omalizumab in CRSwNP with asthma across biomarker subgroups",
     "dek": "A post hoc analysis of the phase 4 EVEREST trial found dupilumab outperformed omalizumab on lung function, asthma control and nasal polyp outcomes, including in patients with higher type 2 biomarker levels.",
