@@ -207,7 +207,8 @@
     "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts": "pharma/pharma-05.jpg",
     "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg",
     "2026-11-25-cipla-and-teva-win-usfda-approval-for-first-generic-flovent-hfa-in-110": "pharma/pharma-14.jpg",
-    "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as": "pollution/pollution-05.jpg"
+    "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as": "pollution/pollution-05.jpg",
+    "2026-11-25-florida-doctor-and-three-research-coordinators-convicted-of-faking-ast": "research/research-09.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -259,7 +260,7 @@
     "ctscan/ctscan-08.jpg": 192,
     "globe/globe-05.jpg": 48,
     "globe/globe-01.jpg": 49,
-    "research/research-09.jpg": 50,
+    "research/research-09.jpg": 209,
     "airways/airways-13.jpg": 51,
     "globe/globe-14.jpg": 52,
     "events/events-07.jpg": 53,
@@ -397,5 +398,5 @@
     "tobacco/tobacco-08.jpg": 204,
     "pollution/pollution-05.jpg": 208
   },
-  "counter": 208
+  "counter": 209
 }
