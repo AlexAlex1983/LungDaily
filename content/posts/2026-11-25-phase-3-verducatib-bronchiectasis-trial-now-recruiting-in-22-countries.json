@@ -1,0 +1,41 @@
+{
+  "slug": "2026-11-25-phase-3-verducatib-bronchiectasis-trial-now-recruiting-in-22-countries",
+  "headline": "Phase 3 verducatib bronchiectasis trial now recruiting in 22 countries",
+  "dek": "Boehringer Ingelheim's AIRTIVITY trial is testing verducatib in patients aged 12 and over with bronchiectasis, including those with cystic fibrosis, with primary completion anticipated in June 2027.",
+  "body": "Boehringer Ingelheim is recruiting for the phase 3 AIRTIVITY trial (NCT06872892), which will evaluate the safety, efficacy and tolerability of verducatib (BI 1291583) in patients with bronchiectasis aged 12 years and older, according to The American Journal of Managed Care. The latest ClinicalTrials.gov update lists 46 countries across six continents, with 22 having at least one actively recruiting site, including China, Japan, Germany, the United Kingdom and Spain.\n\nVerducatib is a dipeptidyl peptidase 1 inhibitor. In the phase 2 AIRLEAF trial (NCT05238675), it reduced the risk of pulmonary exacerbations in patients with bronchiectasis and showed a safety profile similar to placebo. AIRTIVITY began in June 2025, with primary completion anticipated for June 2027.\n\nThe company expects to enrol about 1,680 adults, around 240 of whom have cystic fibrosis, and 75 adolescents aged 12 to under 18. Participants will be randomised 2:1 to oral verducatib 2.5 mg or placebo once daily, for at least 52 and up to 76 weeks. Eligible patients must have CT-confirmed bronchiectasis and a recent history of exacerbations requiring antibiotics.\n\nThe primary endpoint is the annualised rate of adjudicated pulmonary exacerbations up to week 76. The study is designed with about 90% power to detect a 25% reduction. Secondary endpoints include change in post-bronchodilator FEV1 and forced vital capacity at week 52, change in the Quality of Life Questionnaire-Bronchiectasis respiratory symptoms domain, time to first adjudicated exacerbation, and the rate of severe exacerbations.\n\nUnlike previous bronchiectasis studies, AIRTIVITY also includes patients with CF bronchiectasis and those with a primary diagnosis of asthma or COPD. The study design authors noted this approach reflects the real-world bronchiectasis population.",
+  "key_quote": "reflects the real-world bronchiectasis population",
+  "tags": [
+    "bronchiectasis",
+    "trial",
+    "therapeutics",
+    "paediatrics"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-25T20:08:48+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.ajmc.com/view/verducatib-phase-3-bronchiectasis-trial-recruits-in-22-countries"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:0b991baa7dd2342e",
+    "source": "rss",
+    "url": "https://www.ajmc.com/view/verducatib-phase-3-bronchiectasis-trial-recruits-in-22-countries",
+    "title": "Verducatib Phase 3 Bronchiectasis Trial Recruits in 22 Countries",
+    "author_name": "The American Journal of Managed Care",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-25T18:30:43+00:00",
+    "extra": {
+      "feed": "Google News — respiratory trial results",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
