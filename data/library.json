@@ -204,7 +204,8 @@
     "2026-11-25-us-fda-clears-first-generic-flovent-hfa-asthma-inhaler-made-by-cipla-a": "asthma/asthma-08.jpg",
     "2026-11-25-brigatinib-in-ros1-positive-nsclc-median-overall-survival-43-9-months": "ctscan/ctscan-16.jpg",
     "2026-11-25-us-supreme-court-declines-to-hear-appeal-over-order-blocking-federal-r": "tobacco/tobacco-08.jpg",
-    "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts": "pharma/pharma-05.jpg"
+    "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts": "pharma/pharma-05.jpg",
+    "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -241,7 +242,7 @@
     "events/events-01.jpg": 32,
     "ctscan/ctscan-06.jpg": 174,
     "tobacco/tobacco-09.jpg": 34,
-    "research/research-06.jpg": 35,
+    "research/research-06.jpg": 206,
     "pollution/pollution-02.jpg": 36,
     "pollution/pollution-03.jpg": 37,
     "pharma/pharma-05.jpg": 205,
@@ -393,5 +394,5 @@
     "airways/airways-29.jpg": 200,
     "tobacco/tobacco-08.jpg": 204
   },
-  "counter": 205
+  "counter": 206
 }
