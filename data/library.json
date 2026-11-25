@@ -206,7 +206,8 @@
     "2026-11-25-us-supreme-court-declines-to-hear-appeal-over-order-blocking-federal-r": "tobacco/tobacco-08.jpg",
     "2026-11-25-adding-a-long-acting-muscarinic-antagonist-to-dual-asthma-therapy-cuts": "pharma/pharma-05.jpg",
     "2026-11-25-local-consolidation-did-not-improve-progression-free-survival-in-nrg-l": "research/research-06.jpg",
-    "2026-11-25-cipla-and-teva-win-usfda-approval-for-first-generic-flovent-hfa-in-110": "pharma/pharma-14.jpg"
+    "2026-11-25-cipla-and-teva-win-usfda-approval-for-first-generic-flovent-hfa-in-110": "pharma/pharma-14.jpg",
+    "2026-11-25-metal-particles-in-air-pollution-activate-airway-receptor-linked-to-as": "pollution/pollution-05.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -393,7 +394,8 @@
     "tobacco/tobacco-11.jpg": 195,
     "pollution/pollution-15.jpg": 199,
     "airways/airways-29.jpg": 200,
-    "tobacco/tobacco-08.jpg": 204
+    "tobacco/tobacco-08.jpg": 204,
+    "pollution/pollution-05.jpg": 208
   },
-  "counter": 207
+  "counter": 208
 }
