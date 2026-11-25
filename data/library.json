@@ -201,7 +201,8 @@
     "2026-11-24-eea-links-fine-particle-pollution-to-about-222-000-premature-deaths-in": "pollution/pollution-15.jpg",
     "2026-11-24-brian-bizik-copd-escalation-therapies-are-not-only-for-end-stage-disea": "airways/airways-29.jpg",
     "2026-11-24-updated-asthma-guidance-changes-how-children-under-five-are-diagnosed": "asthma/asthma-02.jpg",
-    "2026-11-25-us-fda-clears-first-generic-flovent-hfa-asthma-inhaler-made-by-cipla-a": "asthma/asthma-08.jpg"
+    "2026-11-25-us-fda-clears-first-generic-flovent-hfa-asthma-inhaler-made-by-cipla-a": "asthma/asthma-08.jpg",
+    "2026-11-25-brigatinib-in-ros1-positive-nsclc-median-overall-survival-43-9-months": "ctscan/ctscan-16.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -277,7 +278,7 @@
     "asthma/asthma-16.jpg": 71,
     "events/events-09.jpg": 72,
     "pharma/pharma-19.jpg": 73,
-    "ctscan/ctscan-16.jpg": 74,
+    "ctscan/ctscan-16.jpg": 203,
     "globe/globe-23.jpg": 75,
     "city/city-03.jpg": 76,
     "asthma/asthma-03.jpg": 77,
@@ -389,5 +390,5 @@
     "pollution/pollution-15.jpg": 199,
     "airways/airways-29.jpg": 200
   },
-  "counter": 202
+  "counter": 203
 }
