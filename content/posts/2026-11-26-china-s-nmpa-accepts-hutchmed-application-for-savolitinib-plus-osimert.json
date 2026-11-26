@@ -1,0 +1,42 @@
+{
+  "slug": "2026-11-26-china-s-nmpa-accepts-hutchmed-application-for-savolitinib-plus-osimert",
+  "headline": "China's NMPA accepts HUTCHMED application for savolitinib plus osimertinib as first-line NSCLC treatment",
+  "dek": "HUTCHMED said the new drug application is supported by Phase III SANOVO data in previously untreated EGFR-mutated NSCLC with MET overexpression.",
+  "body": "HUTCHMED announced on 26 November 2026 that the China National Medical Products Administration (NMPA) has accepted for review its new drug application (NDA) for ORPATHYS (savolitinib) combined with osimertinib. The application covers previously untreated, locally advanced or metastatic non-small cell lung cancer (NSCLC) with EGFR-sensitising mutations and MET overexpression.\n\nThe NDA is supported by SANOVO, a blinded, randomised, controlled Phase III trial in China in previously untreated patients with EGFR-mutated NSCLC and MET overexpression. Results were presented at the European Society for Medical Oncology (ESMO) Congress 2026 (abstract LBA69).\n\nIn the intention-to-treat population, the combination produced a median progression-free survival of 24.9 months, against 13.8 months for osimertinib alone (hazard ratio 0.56; 95% confidence interval 0.43-0.74; p<0.0001). The company described a clinically meaningful overall survival benefit (hazard ratio 0.48; 95% confidence interval 0.33-0.68), with median overall survival of 44.5 months versus 34.9 months, a difference of 9.6 months.\n\nAccording to HUTCHMED, the safety profile was consistent with the known profiles of each medicine, and there were no new safety concerns.\n\nThe combination is already approved in China for a separate indication, after progression on an EGFR inhibitor. Johnny Cheng, Acting Chief Executive Officer and Chief Financial Officer of HUTCHMED, said the acceptance marks an important step towards bringing simultaneous EGFR and MET inhibition to patients early in their treatment.",
+  "key_quote": "This NDA acceptance marks an important step towards bringing the benefits of simultaneous EGFR and MET inhibition to patients early in their treatment journey.",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Johnny Cheng"
+  ],
+  "category": "approvals",
+  "score": 6.0,
+  "created_at": "2026-11-26T17:09:11+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.stocktitan.net/news/HCM/hutchmed-announces-nda-acceptance-in-china-for-orpathys-plus-la4nr7clhxdz.html"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:3e55ff4732e280b3",
+    "source": "rss",
+    "url": "https://www.stocktitan.net/news/HCM/hutchmed-announces-nda-acceptance-in-china-for-orpathys-plus-la4nr7clhxdz.html",
+    "title": "HUTCHMED: China accepts ORPATHYS combo NDA for review | HCM Stock News",
+    "author_name": "Stock Titan",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T11:00:00+00:00",
+    "extra": {
+      "feed": "Google News — respiratory trial results",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
