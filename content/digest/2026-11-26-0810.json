@@ -1,0 +1,29 @@
+{
+  "edition": "Health news digest – Thursday, 26 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "Healthcare professionals' perceptions, practices and barriers in managing malnutrition in COPD in Saudi Arabia",
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.2011865/full",
+      "publisher": "Frontiers in Medicine",
+      "published_date": "2026-11-26",
+      "topic": "copd",
+      "summary": "A national survey of 1,017 health professionals in Saudi Arabia assessed how malnutrition is identified and managed in COPD. Many respondents lacked formal training in malnutrition management, and the authors call for structured, system-wide nutritional care in COPD."
+    },
+    {
+      "title": "Air pollution mechanism that triggers asthma attacks discovered",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-mechanism-triggers-asthma.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-25",
+      "topic": "asthma",
+      "summary": "A proof-of-concept study co-led by King's College London, published in eBioMedicine, suggests metals in particulate pollution activate the calcium-sensing receptor (CaSR) lining the airways, triggering inflammation in some people with asthma. It is the first study to identify this sensor as a potential target for preventing pollution-related asthma symptoms."
+    },
+    {
+      "title": "Study of 500,000 finds troubling link between air pollution and Alzheimer's",
+      "url": "https://www.newsweek.com/air-pollution-may-raise-alzheimers-risk-study-finds-12767552",
+      "publisher": "Newsweek",
+      "published_date": "2026-11-25",
+      "topic": "air_pollution",
+      "summary": "A study in the Journal of Neuroinflammation combined UK Biobank data on nearly half a million people with mouse experiments exposing animals to outdoor air for five months. Researchers report that particulate pollution stresses the brain and depletes its energy reserves, supporting a possible causal role in Alzheimer's disease."
+    }
+  ]
+}

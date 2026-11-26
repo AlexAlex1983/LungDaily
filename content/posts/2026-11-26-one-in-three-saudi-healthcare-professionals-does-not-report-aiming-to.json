@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-26-one-in-three-saudi-healthcare-professionals-does-not-report-aiming-to",
+  "headline": "One in three Saudi healthcare professionals does not report aiming to identify malnutrition in COPD",
+  "dek": "A survey of 1,017 clinicians in Saudi Arabia found that a third did not report aiming to identify malnutrition during COPD patient encounters, and that insufficient knowledge was the most common barrier.",
+  "body": "A cross-sectional online survey of healthcare professionals in Saudi Arabia has found a gap in the intention to identify malnutrition in people with chronic obstructive pulmonary disease (COPD). The study, from researchers at King Faisal University and Jazan University, was published in Frontiers in Medicine.\n\nThe survey was distributed to physicians, nurses, dietitians and pharmacists between January and June 2024. In total, 1,017 participants completed it. Half had received formal training in managing malnutrition, and 33% did not report aiming to identify malnutrition during COPD patient encounters. When asked to choose one assessment approach, 59.0% selected involuntary weight loss, 27.5% BMI and 13.5% dietary intake.\n\nUsing modified Poisson regression, the authors found that male professionals were more likely than female professionals to report an intention to identify malnutrition (aPR = 1.37; 95% CI: 1.25–1.49). Respondents who saw 10 or fewer COPD patients per month were less likely to report this intention than those seeing 11–20 patients (aPR = 0.83; 95% CI: 0.73–0.96). Each one-point increase in the mean perception score was associated with a higher prevalence of reporting the intention (aPR = 1.15; 95% CI: 1.09–1.21).\n\nThe most frequently identified barriers were insufficient knowledge (53%), lack of training (45%) and workforce shortages (42%). The authors named structured screening within clinical pathways, targeted professional training and multidisciplinary collaboration as priorities, and said future research should determine whether these measures improve patient outcomes in the Saudi context.",
+  "key_quote": "Approximately one-third of healthcare professionals did not report aiming to identify malnutrition during COPD patient encounters",
+  "tags": [
+    "copd",
+    "primary-care",
+    "global-health",
+    "guidelines"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 6.0,
+  "created_at": "2026-11-26T08:08:50+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.2011865/full"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:feffe07caaae38cf",
+    "source": "rss",
+    "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2026.2011865/full",
+    "title": "Healthcare professionals' perceptions, practices and barriers in managing malnutrition in COPD in Saudi Arabia",
+    "author_name": "Frontiers in Medicine",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "copd",
+      "scout_summary": "A national survey of 1,017 health professionals in Saudi Arabia assessed how malnutrition is identified and managed in COPD. Many respondents lacked formal training in malnutrition management, and the authors call for structured, system-wide nutritional care in COPD.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
