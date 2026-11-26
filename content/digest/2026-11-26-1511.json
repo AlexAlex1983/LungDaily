@@ -1,0 +1,45 @@
+{
+  "edition": "Health news digest – Thursday, 26 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "COPD patients urged to recognise warning signs as Cape Town study highlights disease burden",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/",
+      "publisher": "TimesLIVE",
+      "published_date": "2026-11-26",
+      "topic": "copd",
+      "summary": "A Cape Town study highlights the burden of COPD and the difficulty of diagnosing and treating it in South Africa. Clinicians urge patients to seek care when breathlessness, cough or sputum suddenly worsen, signalling an exacerbation."
+    },
+    {
+      "title": "Common cold virus triggers asthma attacks through G-CSF protein",
+      "url": "https://news-medical.net/news/20261125/Common-cold-virus-triggers-asthma-attacks-through-G-CSF-protein.aspx",
+      "publisher": "News-Medical",
+      "published_date": "2026-11-25",
+      "topic": "asthma",
+      "summary": "A human rhinovirus challenge study in 28 people with mild or moderate asthma and 11 healthy volunteers found infection raised airway G-CSF levels in asthma, increasing neutrophil activity and inflammation. Published in Science Translational Medicine, it suggests G-CSF as a potential target to relieve asthma attacks."
+    },
+    {
+      "title": "Air pollution mechanism that triggers asthma attacks discovered",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-mechanism-triggers-asthma.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-25",
+      "topic": "air_pollution",
+      "summary": "Researchers at King's College London and Cardiff University found that metal particles in air pollution activate the calcium-sensing receptor (CaSR) lining the airways, triggering inflammation in some people with asthma. Published in eBioMedicine, it is the first study to identify CaSR as a potential target for preventing pollution-related asthma symptoms."
+    },
+    {
+      "title": "Air pollution reprograms brain's immune cells, harms healthy brains and accelerates Alzheimer's disease, new study finds",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-reprograms-brain-immune.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-23",
+      "topic": "air_pollution",
+      "summary": "Using health records from nearly half a million people plus mouse experiments, Case Western Reserve researchers report that people in the most polluted third of areas were about 25% more likely to develop Alzheimer's or related dementia. Pollution altered microglial gene programmes and sped amyloid plaque build-up in susceptible mice (Journal of Neuroinflammation)."
+    },
+    {
+      "title": "Who Gets Screened for Lung Cancer? Northwestern Medicine Researchers Say it's Time to Rethink the Answer",
+      "url": "https://news.nm.org/who-gets-screened-for-lung-cancer-northwestern-medicine-researchers-say-its-time-to-rethink-the-answer/",
+      "publisher": "Northwestern Medicine",
+      "published_date": "2026-11-24",
+      "topic": "lung_cancer",
+      "summary": "Northwestern Medicine is studying universal, age-based lung cancer screening, aiming to screen 10,000 people over five years regardless of smoking-based eligibility. Its earlier study found only 35% of patients treated for lung cancer would have qualified under current US criteria, and in the first year 54% of those screened had nodules or other findings warranting surveillance."
+    }
+  ]
+}

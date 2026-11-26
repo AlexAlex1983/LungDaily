@@ -3503,5 +3503,53 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-26-cape-town-study-finds-inhaled-corticosteroids-often-lacked-a-clear-ind",
+    "headline": "Cape Town study finds inhaled corticosteroids often lacked a clear indication in chronic respiratory disease",
+    "dek": "A cross-sectional study of adults admitted with exacerbations in two Cape Town hospitals found post-TB lung disease and COPD the most common diagnoses, and raised concerns about inhaled corticosteroid use.",
+    "body": "A 2025 cross-sectional study of chronic respiratory disease in Cape Town has highlighted the difficulty of diagnosing and treating these conditions in South Africa, according to a TimesLIVE report. The study, titled \"Chronic Respiratory Disease Prevalence, Burden, and Treatment in Cape Town\", was published in PubMed Central.\n\nResearchers examined adults attending two Cape Town hospitals with exacerbations of chronic respiratory disease. Between 2021 and 2023, 224 participants were recruited, but only 101 attended follow-up investigations. Forty participants died before they could undergo the investigations.\n\nMost participants were current or former smokers, and 46 had a history of pulmonary tuberculosis. Post-tuberculosis lung disease combined with COPD (28 participants) and COPD alone (27) were the most common diagnoses. Ten participants had asthma, and 19 had serum eosinophilia.\n\nThe researchers raised concerns about inhaled corticosteroids (ICS). They found no clear indication for their use in five of the seven participants taking ICS alone and 22 of the 30 taking an ICS and long-acting beta-agonist combination. The study stressed the importance of establishing an accurate underlying diagnosis before prescribing, particularly given the potential risks for people with a history of TB or living with HIV.\n\nKhomotso Mashilane, medical director of AstraZeneca's African Cluster, said earlier diagnosis depends on a connected pathway from first presentation to assessment, diagnosis and ongoing care.",
+    "key_quote": "Healthcare professionals across public and private settings can help by considering COPD when appropriate, assessing persistent or changing symptoms and coordinating follow-up",
+    "tags": [
+      "copd",
+      "tb",
+      "therapeutics",
+      "diagnostics"
+    ],
+    "people": [
+      "Khomotso Mashilane"
+    ],
+    "category": "research",
+    "score": 5.0,
+    "created_at": "2026-11-26T14:29:13+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The dek says the study covered adults \"admitted with exacerbations\". The source says only that adults were \"attending two Cape Town hospitals with exacerbations\", and never says they were admitted. This is an unsupported detail, and it is also inconsistent with the article body, which says \"attending\"."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:4fb3b6d1c7971d98",
+      "source": "rss",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/",
+      "title": "COPD patients urged to recognise warning signs as Cape Town study highlights disease burden",
+      "author_name": "TimesLIVE",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "copd",
+        "scout_summary": "A Cape Town study highlights the burden of COPD and the difficulty of diagnosing and treating it in South Africa. Clinicians urge patients to seek care when breathlessness, cough or sputum suddenly worsen, signalling an exacerbation.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]
