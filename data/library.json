@@ -219,7 +219,8 @@
     "2026-11-26-european-commission-approves-six-weekly-libtayo-dosing-including-in-fi": "pharma/pharma-02.jpg",
     "2026-11-26-real-world-correlate-study-reports-15-2-month-overall-survival-with-fi": "research/research-16.jpg",
     "2026-11-26-francesca-polverino-elected-european-respiratory-society-national-dele": "events/events-11.jpg",
-    "2026-11-26-mark-brooke-lung-foundation-australia-ceo-receives-bob-elphick-award-f": "tobacco/tobacco-07.jpg"
+    "2026-11-26-mark-brooke-lung-foundation-australia-ceo-receives-bob-elphick-award-f": "tobacco/tobacco-07.jpg",
+    "2026-11-26-one-in-three-saudi-healthcare-professionals-does-not-report-aiming-to": "airways/airways-05.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -229,7 +230,7 @@
     "globe/globe-13.jpg": 5,
     "globe/globe-08.jpg": 6,
     "cells/cells-07.jpg": 7,
-    "airways/airways-05.jpg": 8,
+    "airways/airways-05.jpg": 221,
     "airways/airways-12.jpg": 9,
     "asthma/asthma-08.jpg": 202,
     "airways/airways-11.jpg": 11,
@@ -413,5 +414,5 @@
     "events/events-11.jpg": 219,
     "tobacco/tobacco-07.jpg": 220
   },
-  "counter": 220
+  "counter": 221
 }
