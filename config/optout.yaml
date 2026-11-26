@@ -8,5 +8,9 @@ names: []
 # The next build removes the page, and it is never re-published.
 takedown:
   - 2026-11-17-biologic-prior-authorisation-approvals-for-children-with-atopic-condit   # duplicate of the 15:47 article (18 Nov)
+# Old article URLs that should send readers (and Google) to a live article instead of a 404:
+# old slug: live slug. Use for taken-down duplicates that were already shared.
+redirects:
+  2026-11-17-biologic-prior-authorisation-approvals-for-children-with-atopic-condit: 2026-11-17-biologic-prior-authorisation-for-children-with-atopic-conditions-took
 # Addresses that asked not to receive "you've been featured" notes
 emails: []

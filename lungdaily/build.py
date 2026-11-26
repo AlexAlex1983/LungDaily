@@ -172,6 +172,13 @@ def build() -> int:
     _write(OUT / "reports" / "index.html", env.get_template("reports.html").render(
         **ctx, root="../", reports=reps, title=f"Monthly reports — {site['name']}"))
 
+    live = {p["slug"] for p in posts}
+    for old, new in (load_yaml("optout.yaml").get("redirects") or {}).items():
+        if new in live and old not in live:   # taken-down duplicates / renamed slugs -> the live article
+            _write(OUT / "news" / old / "index.html", redirect_page(f"{base}/news/{new}/"))
+        else:
+            log.warning("Redirect %s -> %s skipped (target not live, or old slug still live)", old, new)
+
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
     _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs, [r["key"] for r in reps]))
     _write(OUT / "news-sitemap.xml", news_sitemap(posts, site, base))
@@ -182,6 +189,15 @@ def build() -> int:
         "icons": [{"src": f"/static/icons/icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png"} for s in (192, 512)]}, indent=1))
     log.info("Built site: %d articles -> %s", len(posts), OUT)
     return len(posts)
+
+
+def redirect_page(url: str) -> str:
+    """GitHub Pages can't send 301s; an instant meta refresh + canonical is treated by Google as a permanent redirect."""
+    u = html.escape(url)
+    return (f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Moved</title>'
+            f'<link rel="canonical" href="{u}">'
+            f'<meta http-equiv="refresh" content="0; url={u}"></head>'
+            f'<body><p>This article has moved: <a href="{u}">{u}</a></p></body></html>\n')
 
 
 def front_page(posts: list[dict]) -> dict:
