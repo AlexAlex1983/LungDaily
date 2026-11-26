@@ -58,7 +58,7 @@
   "eurorespsoc": {
     "id": "121685027",
     "username": "EuroRespSoc",
-    "seen": 34,
+    "seen": 35,
     "name": "ERS",
     "bio": "The European Respiratory Society is dedicated to sharing scientific knowledge, fighting lung disease and promoting lung health.",
     "followers": 31654
@@ -370,10 +370,10 @@
   "allergyeaaci": {
     "id": "1006875688903888896",
     "username": "AllergyEaaci",
-    "seen": 5,
+    "seen": 6,
     "name": "Allergy EAACI",
     "bio": "Allergy is a monthly scientific journal covering #allergy #immunology #asthma #atopicdermatitis #urticaria #rhinitis #biologicals #foodallergy #drugallergy",
-    "followers": 6073
+    "followers": 6074
   },
   "drewmoghanaki": {
     "id": "1322269645",
@@ -858,10 +858,10 @@
   "respiratoryzone": {
     "id": "3279936032",
     "username": "RespiratoryZone",
-    "seen": 1,
+    "seen": 2,
     "name": "Respiratory Therapy Zone",
     "bio": "Top #RespiratoryTherapy Education Platform | Lung Health 🫁 | Lung Diseases 🦠 | Respiratory System | Medical Education ⚕️",
-    "followers": 13677
+    "followers": 13707
   },
   "bmjopen_resp": {
     "id": "1620561504",
@@ -894,5 +894,21 @@
     "name": "NM Pulmonary and Thoracic Surgery",
     "bio": "@NorthwesternMed Canning Thoracic Institute. Northwestern Memorial Hospital ranked No. 4 in the Nation: Pulmonology and Lung Surgery by @USNews, 2026 – 2027.",
     "followers": 2392
+  },
+  "archbronconeumo": {
+    "id": "938881669",
+    "username": "ArchBronconeumo",
+    "seen": 1,
+    "name": "Archivos de Bronconeumología (FI 9,2 D1)",
+    "bio": "Respiratory diseases, epidemiology, pathophysiology, clinics, surgery, and basic investigation. \nFI 9,2 D1 de @SeparRespira, @ALATorax y AIATC",
+    "followers": 5501
+  },
+  "draw_e87": {
+    "id": "222742793",
+    "username": "draw_e87",
+    "seen": 1,
+    "name": "Emily Ward",
+    "bio": "Respiratory and general medicine consultant NHS Scotland | Happiest on Horseback | @sclf_ alumni | #zerowaste | #bekind | All views my own",
+    "followers": 519
   }
 }
