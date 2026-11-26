@@ -1,5 +1,26 @@
 [
   {
+    "id": "rss:0721bc16d59e90b9",
+    "source": "rss",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORHFhbnpPbHJMUTRsZjlGdm91NXVENkVDLVE1cUtwMlp0N0x1d2pNREFGM085QTVoZjFERk44aEJaZlNTQTFmcHVTTF9INy1nZ2pUTzl0QW9KbXdwVWtlVDJERmF0R0J4SW14SktYSDE5WmhEUzA5N2VPY01FVTVTZUpn?oc=5",
+    "title": "Marcia Ann Gillespie, top Essence editor and first Black editor in chief of Ms., dies at 82",
+    "text": "Marcia Ann Gillespie, top Essence editor and first Black editor in chief of Ms., dies at 82 AOL.com",
+    "author_name": "AOL.com",
+    "author_handle": "",
+    "author_url": "",
+    "author_headline": "",
+    "published_at": "2026-11-25T01:00:00+00:00",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "comments": 0
+    },
+    "extra": {
+      "feed": "Google News — respiratory appointments"
+    },
+    "collected_at": "2026-11-26T05:08:25+00:00"
+  },
+  {
     "id": "x:2124805570200752334",
     "source": "x",
     "url": "https://x.com/KulikovUNIATF/status/2124805570200752334",
@@ -31,40 +52,6 @@
       "author_type": "person",
       "duplicate": false,
       "reason": "Vietnam national assembly passes major e-cigarette and tobacco law"
-    }
-  },
-  {
-    "id": "x:2125520114531406223",
-    "source": "x",
-    "url": "https://x.com/StephenVLiu/status/2125520114531406223",
-    "title": "",
-    "text": "Real world CORRELATE study @ClinicalLung: outcomes with 1L PD(L)1 therapy. OS 15.2m, PFS 6m, increased mortality seen w/ males, poor PS, lower PD-L1, STK11 mt, and KRAS mt. Much higher risk of death with STK11, KEAP1, KRAS co-mutations.\n\nhttps://t.co/N9Xgoh008d",
-    "author_name": "Stephen V Liu, MD",
-    "author_handle": "StephenVLiu",
-    "author_url": "https://x.com/StephenVLiu",
-    "author_headline": "Chief of Hematology & Oncology @Georgetown @MedStarGUH, Head of Developmental Therapeutics @LombardiCancer, Thoracic Oncologist #TexasLung27 #DCLung27 #HereWeGo",
-    "published_at": "2026-11-25T09:21:00+00:00",
-    "metrics": {
-      "likes": 4,
-      "reposts": 1,
-      "comments": 1
-    },
-    "extra": {
-      "tweet_id": "2125520114531406223",
-      "query_kind": "voices",
-      "links": [
-        "https://www.clinical-lung-cancer.com/article/S1525-7304(26)00155-5/abstract"
-      ],
-      "author_followers": 30900,
-      "author_id": "377425889"
-    },
-    "collected_at": "2026-11-25T11:08:54+00:00",
-    "triage": {
-      "score": 7.0,
-      "category": "research",
-      "author_type": "person",
-      "duplicate": false,
-      "reason": "Recognised oncologist shares real-world NSCLC outcomes study data"
     }
   },
   {

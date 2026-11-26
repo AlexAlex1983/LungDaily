@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-26-real-world-correlate-study-reports-15-2-month-overall-survival-with-fi",
+  "headline": "Real-world CORRELATE study reports 15.2-month overall survival with first-line PD(L)1 therapy",
+  "dek": "Stephen V Liu said the CORRELATE analysis linked higher mortality to male sex, poor performance status, lower PD-L1 expression and STK11 or KRAS mutations.",
+  "body": "Stephen V Liu, MD, wrote on X about the real-world CORRELATE study, tagging the account @ClinicalLung. The study looked at outcomes with first-line PD(L)1 therapy.\n\nAccording to Liu's summary, overall survival was 15.2 months and progression-free survival was 6 months.\n\nHe said increased mortality was seen in male patients, those with poor performance status, those with lower PD-L1 expression, and those with STK11 or KRAS mutations.\n\nLiu added that the risk of death was much higher in patients with STK11, KEAP1 and KRAS co-mutations.\n\nLiu is chief of Hematology & Oncology at Georgetown and MedStar Georgetown University Hospital, and head of Developmental Therapeutics at the Lombardi Cancer Center.",
+  "key_quote": "Much higher risk of death with STK11, KEAP1, KRAS co-mutations.",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "diagnostics"
+  ],
+  "people": [
+    "Stephen V Liu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-26T05:09:35+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "x",
+    "tweet_id": "2125520114531406223",
+    "url": "https://x.com/StephenVLiu/status/2125520114531406223"
+  },
+  "mentions": [
+    "ClinicalLung"
+  ],
+  "source": {
+    "id": "x:2125520114531406223",
+    "source": "x",
+    "url": "https://x.com/StephenVLiu/status/2125520114531406223",
+    "title": "",
+    "author_name": "Stephen V Liu, MD",
+    "author_handle": "StephenVLiu",
+    "author_url": "https://x.com/StephenVLiu",
+    "published_at": "2026-11-25T09:21:00+00:00",
+    "extra": {
+      "tweet_id": "2125520114531406223",
+      "query_kind": "voices",
+      "links": [
+        "https://www.clinical-lung-cancer.com/article/S1525-7304(26)00155-5/abstract"
+      ],
+      "author_followers": 30900,
+      "author_id": "377425889",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

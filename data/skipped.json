@@ -1175,5 +1175,38 @@
     "title": "Sichuan Biokin's Iza-Bren Meets Survival Endpoint in Phase III Small Cell Lung Cancer Trial",
     "url": "https://www.marketscreener.com/news/sichuan-biokin-s-iza-bren-meets-survival-endpoint-in-phase-iii-small-cell-lung-cancer-trial-ce7851dbdf8bf227",
     "why": "source too thin (19 words of text)"
+  },
+  {
+    "at": "2026-11-26T05:09:04+00:00",
+    "id": "rss:a7a7f50a36ca9c8e",
+    "kind": "thin",
+    "score": 7.0,
+    "source": "rss",
+    "author": "News-Medical",
+    "title": "Common cold virus triggers asthma attacks through G-CSF protein",
+    "url": "https://www.news-medical.net/news/20261125/Common-cold-virus-triggers-asthma-attacks-through-G-CSF-protein.aspx",
+    "why": "source too thin (12 words of text)"
+  },
+  {
+    "at": "2026-11-26T05:09:05+00:00",
+    "id": "linkedin:7531383100342329345",
+    "kind": "writer",
+    "score": 9.0,
+    "source": "linkedin",
+    "author": "American Thoracic Society",
+    "title": "2026 Global Initiative for Asthma (GINA) Strategy Report: Executive Summary and Key Changes\n\nhttps://lnkd.in/dGmsZ3Kj",
+    "url": "https://www.linkedin.com/posts/american-thoracic-society_2_2026-global-initiative-for-asthma-gina-activity-7531383100342329345-Pg1S",
+    "why": "writer: Only a report title and link; no facts or findings stated."
+  },
+  {
+    "at": "2026-11-26T05:09:36+00:00",
+    "id": "linkedin:7531386304698454017",
+    "kind": "writer",
+    "score": 7.0,
+    "source": "linkedin",
+    "author": "American College of Chest Physicians",
+    "title": "How will CHEST’s latest clinical practice guideline on tobacco treatment in the inpatient setting impact your practice?\nLet us know your thoughts in the comment",
+    "url": "https://www.linkedin.com/posts/american-college-of-chest-physicians_how-will-chests-latest-clinical-practice-activity-7531386304698454017-erJn",
+    "why": "writer: Only a teaser question and link; no guideline findings stated."
   }
 ]

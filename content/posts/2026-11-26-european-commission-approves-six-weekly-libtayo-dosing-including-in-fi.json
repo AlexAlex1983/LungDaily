@@ -1,0 +1,40 @@
+{
+  "slug": "2026-11-26-european-commission-approves-six-weekly-libtayo-dosing-including-in-fi",
+  "headline": "European Commission approves six-weekly Libtayo dosing, including in first-line NSCLC",
+  "dek": "Regeneron said patients in the EU can switch to 700 mg every six weeks after 12 weeks of treatment, with an FDA decision on the same schedule expected in March 2027.",
+  "body": "The European Commission has approved an every-six-week dosing schedule for Libtayo (cemiplimab), including in first-line non-small cell lung cancer (NSCLC), Regeneron said in a news release, as reported by Managed Healthcare Executive.\n\nUnder the schedule, patients start on 350 mg intravenously every three weeks for 12 weeks. They can then move to 700 mg intravenously every six weeks. Both doses are infused over 30 minutes. The approval also allows later 350 mg infusions to be shortened to as little as 15 minutes if the first 30-minute infusion is tolerated, which Regeneron said can cut infusion time by up to half. According to Managed Healthcare Executive, this works out at about 11 infusions in the first year instead of 18 on a straight three-weekly schedule.\n\nThe approval applies to all six of Libtayo's EU indications, including skin and cervical cancer. In lung cancer, these are monotherapy for adults whose tumours express PD-L1 in at least 50% of tumour cells, and combination therapy with platinum-based chemotherapy for adults with PD-L1 expression in at least 1% of tumour cells. In both settings, patients must have no EGFR, ALK or ROS1 aberrations. They must also have metastatic disease or locally advanced disease that cannot be treated with definitive chemoradiation.\n\nRegeneron said the approval was based on clinical safety and efficacy data from the Libtayo development programme, combined with pharmacokinetic and pharmacodynamic modelling and simulation. Managed Healthcare Executive noted that the release does not point to a new trial comparing the six-weekly regimen head-to-head with standard dosing.\n\nIn the US, Regeneron has filed a supplemental Biologics License Application for the same alternative regimen, and expects an FDA decision in March 2027. US prescribing information currently specifies 350 mg every three weeks as a 30-minute infusion.\n\nManaged Healthcare Executive noted that several competing checkpoint inhibitors in lung cancer already have subcutaneous formulations, including Tecentriq Hybreza, Opdivo Qvantig and Keytruda Qlex. Libtayo remains an intravenous infusion.",
+  "key_quote": "",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "policy"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 8.0,
+  "created_at": "2026-11-26T05:09:16+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.managedhealthcareexecutive.com/view/libtayo-s-every-6-week-dosing-wins-eu-approval-in-lung-cancer-with-an-fda-decision-due-in-march"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:d721e2af82433bfa",
+    "source": "rss",
+    "url": "https://www.managedhealthcareexecutive.com/view/libtayo-s-every-6-week-dosing-wins-eu-approval-in-lung-cancer-with-an-fda-decision-due-in-march",
+    "title": "Libtayo's every-6-week dosing wins EU approval in lung cancer, with an FDA decision due in March",
+    "author_name": "Managed Healthcare Executive",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-25T20:15:10+00:00",
+    "extra": {
+      "feed": "Google News — respiratory approvals",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
