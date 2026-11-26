@@ -44,6 +44,13 @@
   "status": "published",
   "published_at": "2026-11-26T10:00:15+00:00",
   "shared": {
-    "x": "2125893774232387995"
+    "x": "2125893774232387995",
+    "linkedin": "make",
+    "linkedin_at": "2026-11-26T10:07:04+00:00",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n37ghl5rhk2r",
+    "featured_email": {
+      "to": "media@lungfoundation.com.au",
+      "at": "2026-11-26T10:07:07+00:00"
+    }
   }
 }
