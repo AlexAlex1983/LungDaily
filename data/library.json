@@ -228,7 +228,8 @@
     "2026-11-27-slow-oxygen-saturation-recovery-after-6-minute-walk-test-linked-to-hig": "airways/airways-12.jpg",
     "2026-11-27-serum-protein-risk-score-predicts-one-year-progression-in-idiopathic-p": "cells/cells-04.jpg",
     "2026-11-27-canadian-cancer-society-urges-all-provinces-and-territories-to-fully-i": "ctscan/ctscan-01.jpg",
-    "2026-11-27-saffron-osimertinib-plus-savolitinib-improves-pfs-and-os-in-egfr-mutan": "ctscan/ctscan-04.jpg"
+    "2026-11-27-saffron-osimertinib-plus-savolitinib-improves-pfs-and-os-in-egfr-mutan": "ctscan/ctscan-04.jpg",
+    "2026-11-27-lisa-carter-bawa-oncology-nurses-should-lead-with-empathy-not-smoking": "ctscan/ctscan-07.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -345,7 +346,7 @@
     "pharma/pharma-21.jpg": 112,
     "tobacco/tobacco-02.jpg": 113,
     "tobacco/tobacco-01.jpg": 114,
-    "ctscan/ctscan-07.jpg": 115,
+    "ctscan/ctscan-07.jpg": 230,
     "airways/airways-16.jpg": 116,
     "pollution/pollution-01.jpg": 117,
     "research/research-01.jpg": 118,
@@ -425,5 +426,5 @@
     "city/city-04.jpg": 223,
     "cells/cells-04.jpg": 227
   },
-  "counter": 229
+  "counter": 230
 }
