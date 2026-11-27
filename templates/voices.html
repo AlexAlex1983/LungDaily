@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Directory</h1>
+<p class="section-intro">The organisations and people whose work we cover most, each with a page of their LungDaily coverage. Featured here? Share your page, or <a href="{{ root }}opt-out/">ask us to remove it</a>.</p></header>
+{% for kind, label in [("organisation", "Organisations"), ("person", "People")] %}
+{% set items = voices|selectattr("kind", "equalto", kind)|list %}
+{% if items %}
+<section class="sect"><header class="sect-head"><h2>{{ label }}</h2></header>
+<div class="hub-grid">
+{% for v in items %}
+  <a class="hub-tile" href="{{ root }}directory/{{ v.slug }}/"><strong>{{ v.name }}</strong>
+    <em>{{ v.count }} article{{ '' if v.count == 1 else 's' }} · latest {{ v.latest|shortdate }}</em></a>
+{% endfor %}
+</div></section>
+{% endif %}
+{% endfor %}
+{% endblock %}

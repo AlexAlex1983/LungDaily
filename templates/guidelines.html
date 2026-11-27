@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block head %}<link rel="canonical" href="{{ base }}/trackers/guidelines/">{% endblock %}
+{% block content %}
+<header class="section-head">
+  <p class="crumbs"><a href="{{ root }}trackers/">Trackers</a></p>
+  <h1 class="section-title">Guidelines &amp; statements tracker</h1>
+  <p class="section-intro">New and updated guidelines, strategy reports, consensus statements and recommendations covered by {{ site.name }}, newest first.</p>
+</header>
+<div class="filters" data-filter-table="gl">
+  <label>Topic <select data-col="1"><option value="">All</option>{% for t in topics %}<option>{{ t }}</option>{% endfor %}</select></label>
+</div>
+<div class="table-wrap"><table class="tracker" id="gl">
+<thead><tr><th>Date</th><th>Topic</th><th>Story</th><th>Source</th></tr></thead>
+<tbody>
+{% for r in rows %}<tr><td class="nowrap">{{ r.post.date.strftime('%Y-%m-%d') }}</td><td>{{ r.topics|join(", ") or "—" }}</td>
+<td><a href="{{ root }}news/{{ r.post.slug }}/">{{ r.post.headline }}</a></td><td>{{ r.post.source.author_name or "—" }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+{% include "_filter.js.html" %}
+{% endblock %}

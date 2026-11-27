@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card %}
+{% block head %}<link rel="canonical" href="{{ base }}/today/">{% endblock %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Today's top 5</h1>
+<p class="section-intro">The five most important lung health stories of the last {{ hours }} hours, ranked by our editorial score. Short on time? Start here — or get the <a href="{{ root }}newsletter/">weekly newsletter</a>.</p></header>
+{% if not posts %}<p class="empty">No stories in the last few days.</p>{% endif %}
+<ol class="top5">
+{% for p in posts %}
+  <li class="cat-{{ p.category }}"><span class="n">{{ loop.index }}</span>
+    <div><a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+    <h2><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h2>
+    <p class="dek">{{ p.dek }}</p>
+    <p class="meta"><time datetime="{{ p.date|isodate }}" data-rel>{{ p.date|shortdate }}</time> · {{ p.source_type.label }}</p></div></li>
+{% endfor %}
+</ol>
+{% endblock %}

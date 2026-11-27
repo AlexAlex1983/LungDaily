@@ -1,0 +1,17 @@
+{% macro card(p, root, build_id, compact=false, dek=true) -%}
+<article class="card{% if compact %} compact{% endif %} cat-{{ p.category }}">
+  <a class="thumb" href="{{ root }}news/{{ p.slug }}/" tabindex="-1" aria-hidden="true"><img src="{{ root }}thumbs/{{ p.slug }}.png?v={{ build_id }}" alt="" loading="lazy" width="1200" height="630"></a>
+  <a class="kicker" href="{{ root }}{{ p.category }}/">{{ p.category_label }}</a>
+  <h3><a href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a></h3>
+  {% if dek and not compact %}<p class="dek">{{ p.dek }}</p>{% endif %}
+  <p class="meta"><time datetime="{{ p.date|isodate }}" data-rel>{{ p.date|shortdate }}</time>{% if p.source_type %} · <span class="stype stype-{{ p.source_type.key }}">{{ p.source_type.label }}</span>{% endif %}</p>
+</article>
+{%- endmacro %}
+{% macro headlines(items, root) -%}
+<ul class="hl-list">
+{% for p in items %}
+  <li class="cat-{{ p.category }}"><a class="hl" href="{{ root }}news/{{ p.slug }}/">{{ p.headline }}</a>
+    <span class="meta"><time datetime="{{ p.date|isodate }}">{{ p.date|shortdate }}</time>{% if p.source_type %} · {{ p.source_type.label }}{% endif %}</span></li>
+{% endfor %}
+</ul>
+{%- endmacro %}

@@ -1,0 +1,11 @@
+<script>
+document.querySelectorAll('[data-filter-table]').forEach(function(box){
+  var t=document.getElementById(box.getAttribute('data-filter-table')); if(!t) return;
+  var sels=box.querySelectorAll('select');
+  function run(){ t.querySelectorAll('tbody tr').forEach(function(tr){
+    var ok=true; sels.forEach(function(s){ var v=s.value, c=+s.getAttribute('data-col');
+      if(v && tr.children[c].textContent.indexOf(v)<0) ok=false; });
+    tr.style.display=ok?'':'none'; }); }
+  sels.forEach(function(s){ s.addEventListener('change',run); });
+});
+</script>

@@ -29,10 +29,12 @@
     <div class="wrap topline-in">
       <span class="today" data-today>{{ today }}</span>
       <span class="topline-links">
-        {% if site.x_handle %}<a href="https://x.com/{{ site.x_handle }}" rel="noopener">X</a>{% endif %}
-        {% if site.linkedin_url %}<a href="{{ site.linkedin_url }}" rel="noopener">LinkedIn</a>{% endif %}
-        {% if site.bluesky_handle %}<a href="https://bsky.app/profile/{{ site.bluesky_handle }}" rel="noopener">Bluesky</a>{% endif %}
-        <a href="{{ root }}rss.xml">RSS</a>
+        <a href="{{ root }}today/">Today's top 5</a>
+        <a href="{{ root }}search/">Search</a>
+        {% if site.x_handle %}<a class="tl-social" href="https://x.com/{{ site.x_handle }}" rel="noopener">X</a>{% endif %}
+        {% if site.linkedin_url %}<a class="tl-social" href="{{ site.linkedin_url }}" rel="noopener">LinkedIn</a>{% endif %}
+        {% if site.bluesky_handle %}<a class="tl-social" href="https://bsky.app/profile/{{ site.bluesky_handle }}" rel="noopener">Bluesky</a>{% endif %}
+        <a class="tl-social" href="{{ root }}rss.xml">RSS</a>
         <a href="{{ root }}submit-news/">Send us news</a>
       </span>
     </div>
@@ -47,6 +49,11 @@
     {% for key, label in categories.items() %}
     <a href="{{ root }}{{ key }}/" {% if active == key %}class="on"{% endif %}>{{ label }}</a>
     {% endfor %}
+    <span class="cats-sep" aria-hidden="true"></span>
+    <a href="{{ root }}topics/" {% if active == "topics" %}class="on"{% endif %}>Topics</a>
+    <a href="{{ root }}trackers/" {% if active == "trackers" %}class="on"{% endif %}>Trackers</a>
+    <a href="{{ root }}directory/" {% if active == "directory" %}class="on"{% endif %}>Directory</a>
+    <a href="{{ root }}caregivers/" {% if active == "caregivers" %}class="on"{% endif %}>For caregivers</a>
     </div>
   </nav>
 </header>
@@ -67,14 +74,18 @@
     </div>
     <div>
       <h2>Sections</h2>
-      <ul>{% for key, label in categories.items() %}<li><a href="{{ root }}{{ key }}/">{{ label }}</a></li>{% endfor %}</ul>
+      <ul>{% for key, label in categories.items() %}<li><a href="{{ root }}{{ key }}/">{{ label }}</a></li>{% endfor %}
+        <li><a href="{{ root }}topics/">Topics</a></li><li><a href="{{ root }}trackers/">Trackers</a></li>
+        <li><a href="{{ root }}directory/">Directory</a></li><li><a href="{{ root }}caregivers/">For caregivers</a></li></ul>
     </div>
     <div>
       <h2>About</h2>
       <ul>
         <li><a href="{{ root }}about/">About {{ site.name }}</a></li>
         <li><a href="{{ root }}editorial-policy/">Editorial standards</a></li>
-        <li><a href="{{ root }}opt-out/">Corrections &amp; opt-out</a></li>
+        <li><a href="{{ root }}corrections/">Corrections</a></li>
+        <li><a href="{{ root }}opt-out/">Request a correction or opt-out</a></li>
+        <li><a href="{{ root }}widget/">Headlines widget for your site</a></li>
         <li><a href="{{ root }}submit-news/">Send us your news</a></li>
         <li><a href="{{ root }}reports/">Monthly reports</a></li>
         <li><a href="{{ root }}days/">Awareness days &amp; congresses</a></li>

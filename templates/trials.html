@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block head %}<link rel="canonical" href="{{ base }}/trials/">{% endblock %}
+{% block content %}
+<header class="section-head cat-approvals">
+  <p class="crumbs"><a href="{{ root }}trackers/">Trackers</a></p>
+  <h1 class="section-title">Recruiting trials</h1>
+  <p class="section-intro">The newest studies registered on ClinicalTrials.gov that are recruiting now, by condition{% if fetched %} (checked {{ fetched|shortdate }}){% endif %}. Registry data shown as published; {{ site.name }} has not reviewed these studies. Patients: talk to your doctor before contacting a trial.</p>
+  <p class="chips">{% for g in groups %}<a href="#{{ g.slug }}">{{ g.label }} <span>{{ g.rows|length }}</span></a>{% endfor %}</p>
+</header>
+{% if not groups %}<p class="empty">The trial list appears after the next daily update.</p>{% endif %}
+{% for g in groups %}
+<section class="sect" id="{{ g.slug }}"><header class="sect-head"><h2>{{ g.label }}</h2><a class="more" href="{{ root }}topics/{{ g.slug }}/">{{ g.label }} news →</a></header>
+<div class="table-wrap"><table class="tracker">
+<thead><tr><th>First posted</th><th>Study</th><th>Phase</th><th>Sponsor</th><th>Countries</th></tr></thead><tbody>
+{% for t in g.rows %}<tr><td class="nowrap">{{ t.first_posted }}</td><td><a href="{{ t.url }}" rel="noopener">{{ t.title }}</a> <span class="meta">{{ t.nct }}</span></td><td class="nowrap">{{ t.phase }}</td><td>{{ t.sponsor }}</td>
+<td>{{ t.countries|join(", ") }}{% if t.n_countries > t.countries|length %} +{{ t.n_countries - t.countries|length }}{% endif %}</td></tr>{% endfor %}
+</tbody></table></div></section>
+{% endfor %}
+<p class="howmade">Source: <a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a>, U.S. National Library of Medicine. Listing a study is not a recommendation.</p>
+{% endblock %}

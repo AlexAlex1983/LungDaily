@@ -91,6 +91,38 @@ arts = list((site / "news").glob("*/index.html"))
 assert len(arts) == n and n >= 3
 html = arts[0].read_text()
 assert "Original source" in html and "application/ld+json" in html
+# portal pages: topic hubs (+ RSS), directory, trackers, trials, top 5, search, caregivers, widget, corrections
+for p in ["topics/index.html", "topics/copd/index.html", "topics/copd/rss.xml", "directory/index.html",
+          "trackers/index.html", "trackers/approvals/index.html", "trackers/guidelines/index.html",
+          "trials/index.html", "today/index.html", "search/index.html", "search.json", "caregivers/index.html",
+          "corrections/index.html", "widget/index.html", "embed/latest/index.html", "embed/copd/index.html"]:
+    assert (site / p).exists(), p
+assert "Voices" in (site / "voices" / "index.html").read_text(), "Voices news section must not be overwritten"
+assert len(json.loads((site / "search.json").read_text())) == n
+assert "Kulikov" not in (site / "directory" / "index.html").read_text(), "owner never gets a directory page"
+assert "emergency" in (site / "caregivers" / "index.html").read_text()
+from lungdaily import portal, trials
+assert portal.source_type({"source": {"source": "pubmed", "url": "https://pubmed.ncbi.nlm.nih.gov/1/"}})["key"] == "paper"
+assert portal.source_type({"source": {"source": "rss", "url": "https://www.medrxiv.org/x"}})["key"] == "preprint"
+assert portal.source_type({"source": {"source": "rss", "url": "https://www.prnewswire.com/x"}})["key"] == "press"
+assert portal.source_type({"source": {"source": "x", "url": "https://x.com/a/status/1"}})["key"] == "social"
+_ap = {"headline": "European Commission approves drug X for COPD", "dek": "The FDA approved it last year.", "category": "approvals", "tags": []}
+assert portal.regulator(_ap) == "EMA / EC" and portal.stage(_ap) == "Approval"
+assert portal.stage({"headline": "FDA issues complete response letter for drug Y", "dek": ""}) == "Rejection"
+assert portal.stage({"headline": "Phase 3 trial of Z now recruiting", "dek": ""}) == "Trial start"
+assert portal.regulator({"headline": "Cipla wins USFDA approval", "dek": ""}) == "FDA"
+_h = {"tags": ["asthma"], "keywords": ["COPD"]}
+assert portal.hub_matches(_h, {"tags": [], "headline": "New COPD data", "dek": ""})
+assert not portal.hub_matches(_h, {"tags": [], "headline": "Copdx unrelated", "dek": ""})
+_tr = trials.parse({"studies": [{"protocolSection": {
+    "identificationModule": {"nctId": "NCT01234567", "briefTitle": "A COPD study"},
+    "statusModule": {"overallStatus": "RECRUITING", "studyFirstPostDateStruct": {"date": "2026-11-20"}},
+    "designModule": {"phases": ["PHASE3"], "enrollmentInfo": {"count": 300}},
+    "sponsorCollaboratorsModule": {"leadSponsor": {"name": "Sponsor Inc"}},
+    "contactsLocationsModule": {"locations": [{"country": "Spain"}, {"country": "Brazil"}, {"country": "Spain"}]}}}]})
+assert _tr[0]["nct"] == "NCT01234567" and _tr[0]["phase"] == "Phase 3" and _tr[0]["countries"] == ["Brazil", "Spain"], _tr
+assert _tr[0]["url"] == "https://clinicaltrials.gov/study/NCT01234567"
+print("OK portal pages")
 # LinkedIn page posting (mocked API, nothing leaves the machine)
 from lungdaily import linkedin_share
 assert linkedin_share.escape("COPD (GOLD) #1 @x") == "COPD \\(GOLD\\) \\#1 \\@x"

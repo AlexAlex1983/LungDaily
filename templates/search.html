@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block head %}<meta name="robots" content="noindex">{% endblock %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Search</h1>
+<p class="section-intro">Search all {{ n }} {{ site.name }} articles by word, topic, person or organisation.</p></header>
+<form class="searchbox" role="search" onsubmit="return false"><input id="q" type="search" placeholder="e.g. dupilumab, GOLD 2026, air pollution, Chalmers" autofocus aria-label="Search articles"></form>
+<p class="meta" id="count"></p>
+<ul class="hl-list" id="results"></ul>
+<script>
+(function(){
+  var root={{ root|tojson }}, idx=[], q=document.getElementById('q'), out=document.getElementById('results'), cnt=document.getElementById('count');
+  function esc(s){return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function run(){
+    var terms=q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    try{history.replaceState(null,'',terms.length?'?q='+encodeURIComponent(q.value):location.pathname);}catch(_){}
+    if(!terms.length){out.innerHTML='';cnt.textContent='';return;}
+    var hits=[];
+    idx.forEach(function(r){
+      var h=r.h.toLowerCase(), all=(r.h+' '+r.d+' '+r.t+' '+r.p+' '+r.a+' '+r.c).toLowerCase(), s=0;
+      for(var i=0;i<terms.length;i++){ if(all.indexOf(terms[i])<0) return; s+= h.indexOf(terms[i])>=0?3:1; }
+      hits.push([s,r]);
+    });
+    hits.sort(function(a,b){return b[0]-a[0]||(a[1].dt<b[1].dt?1:-1);});
+    cnt.textContent=hits.length+' result'+(hits.length==1?'':'s');
+    out.innerHTML=hits.slice(0,80).map(function(x){var r=x[1];
+      return '<li><a class="hl" href="'+root+'news/'+r.s+'/">'+esc(r.h)+'</a><span class="meta">'+r.dt+' · '+esc(r.c)+'</span></li>';}).join('');
+  }
+  fetch(root+'search.json').then(function(r){return r.json();}).then(function(d){idx=d;
+    var m=location.search.match(/[?&]q=([^&]*)/); if(m){q.value=decodeURIComponent(m[1].replace(/\+/g,' '));} run();});
+  q.addEventListener('input',run);
+})();
+</script>
+{% endblock %}

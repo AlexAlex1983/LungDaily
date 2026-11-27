@@ -1,0 +1,87 @@
+# Topic hubs: /topics/<slug>/ — latest news, papers, approvals and guidelines for one disease or theme.
+# An article belongs to a hub when it has one of `tags` (writer tags) or one of `keywords`
+# (case-insensitive, in headline/dek). `days`: awareness.yaml slugs shown on the hub — their sourced
+# facts appear in the "Key facts" box. `resources`: reference pages (URLs checked 27 Nov 2026).
+# No unsourced facts here: intro text describes what the hub covers, nothing more.
+
+hubs:
+  - slug: copd
+    name: "COPD"
+    intro: "Chronic obstructive pulmonary disease: diagnosis, treatment, guidelines, policy and the people working on it."
+    tags: [copd]
+    keywords: ["COPD", "chronic obstructive", "emphysema"]
+    days: [world-copd-day]
+    resources:
+      - {title: "WHO fact sheet: COPD", url: "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)", org: "WHO"}
+      - {title: "GOLD reports", url: "https://goldcopd.org/", org: "GOLD"}
+  - slug: asthma
+    name: "Asthma"
+    intro: "Asthma in adults and children: new treatments, biologics, guidelines, access to inhalers and care."
+    tags: [asthma]
+    keywords: ["asthma"]
+    days: [world-asthma-day]
+    resources:
+      - {title: "WHO fact sheet: Asthma", url: "https://www.who.int/news-room/fact-sheets/detail/asthma", org: "WHO"}
+      - {title: "GINA reports", url: "https://ginasthma.org/", org: "GINA"}
+  - slug: lung-cancer
+    name: "Lung cancer"
+    intro: "Lung cancer screening, diagnosis and treatment: trials, approvals and screening policy."
+    tags: [lung-cancer]
+    keywords: ["lung cancer", "NSCLC", "SCLC", "mesothelioma"]
+    days: [world-lung-cancer-day]
+    resources:
+      - {title: "WHO fact sheet: Lung cancer", url: "https://www.who.int/news-room/fact-sheets/detail/lung-cancer", org: "WHO"}
+  - slug: ild
+    name: "ILD & pulmonary fibrosis"
+    intro: "Interstitial lung disease and pulmonary fibrosis: research, antifibrotic treatments and care."
+    tags: [ild]
+    keywords: ["interstitial lung", "pulmonary fibrosis", "IPF", "sarcoidosis"]
+    resources:
+      - {title: "Pulmonary fibrosis (patient information)", url: "https://europeanlung.org/en/information-hub/lung-conditions/pulmonary-fibrosis", org: "European Lung Foundation"}
+  - slug: bronchiectasis
+    name: "Bronchiectasis"
+    intro: "Bronchiectasis: new therapies, trials and guidelines."
+    tags: [bronchiectasis]
+    keywords: ["bronchiectasis"]
+    days: [world-bronchiectasis-day]
+    resources:
+      - {title: "Managing bronchiectasis in adults 2025 (lay guideline summary)", url: "https://europeanlung.org/en/information-hub/guidelines/managing-bronchiectasis-in-adults-2025/", org: "European Lung Foundation"}
+  - slug: tb
+    name: "Tuberculosis"
+    intro: "Tuberculosis: diagnosis, treatment, funding and the global response."
+    tags: [tb]
+    keywords: ["tuberculosis", " TB "]
+    days: [world-tb-day]
+    resources:
+      - {title: "WHO fact sheet: Tuberculosis", url: "https://www.who.int/news-room/fact-sheets/detail/tuberculosis", org: "WHO"}
+  - slug: air-pollution
+    name: "Air pollution & climate"
+    intro: "Air quality, climate and lung health: the evidence and the policy debate."
+    tags: [air-pollution, climate]
+    keywords: ["air pollution", "air quality", "PM2.5", "wildfire smoke", "nitrogen dioxide", "climate"]
+    resources:
+      - {title: "WHO fact sheet: Ambient (outdoor) air pollution", url: "https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health", org: "WHO"}
+      - {title: "WHO fact sheet: Household air pollution", url: "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health", org: "WHO"}
+  - slug: tobacco
+    name: "Tobacco & vaping"
+    intro: "Tobacco control, vaping and nicotine: research, regulation and policy."
+    tags: [tobacco, vaping]
+    keywords: ["tobacco", "smoking", "vaping", "e-cigarette", "nicotine"]
+    days: [world-no-tobacco-day]
+    resources:
+      - {title: "WHO fact sheet: Tobacco and nicotine", url: "https://www.who.int/news-room/fact-sheets/detail/tobacco", org: "WHO"}
+  - slug: children
+    name: "Children's lung health"
+    intro: "Lung health in childhood: asthma, infections, air quality and early-life exposures."
+    tags: [paediatrics]
+    keywords: ["children", "paediatric", "pediatric", "infant", "child "]
+  - slug: global-health
+    name: "Global health & equity"
+    intro: "Lung health in global health and NCD policy: WHO, the UN, low- and middle-income countries and equity."
+    tags: [global-health, equity, ncds, who]
+    keywords: ["low- and middle-income", "LMIC", "noncommunicable", "NCD"]
+  - slug: ai
+    name: "AI & digital health"
+    intro: "Artificial intelligence and digital tools in respiratory care and research."
+    tags: [ai]
+    keywords: ["artificial intelligence", " AI ", "machine learning", "deep learning"]

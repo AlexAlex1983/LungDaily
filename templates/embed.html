@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.name }} — {{ label }}</title><meta name="robots" content="noindex">
+<style>
+body{margin:0;font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#10242b;background:#fff}
+.box{border:1px solid #e3e9eb;border-top:3px solid #0b6e73;border-radius:4px;padding:12px 14px}
+.hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.hd a{font-weight:700;color:#0b6e73;text-decoration:none;font-size:15px}.hd span{color:#5d7178;font-size:12px}
+ul{list-style:none;margin:0;padding:0}li{padding:8px 0;border-bottom:1px solid #e3e9eb}li:last-child{border-bottom:0}
+li a{color:#10242b;text-decoration:none;font-weight:600}li a:hover{text-decoration:underline}
+small{display:block;color:#5d7178;font-size:12px;margin-top:2px}
+.ft{margin-top:8px;font-size:12px}.ft a{color:#0b6e73}
+</style></head><body>
+<div class="box">
+<div class="hd"><a href="{{ base }}/?utm_source=widget&utm_medium=embed" target="_blank" rel="noopener">{{ site.name }}</a><span>{{ label }}</span></div>
+<ul>{% for p in posts %}<li><a href="{{ base }}/news/{{ p.slug }}/?utm_source=widget&utm_medium=embed" target="_blank" rel="noopener">{{ p.headline }}</a><small>{{ p.date|shortdate }} · {{ p.category_label }}</small></li>{% endfor %}</ul>
+<div class="ft"><a href="{{ base }}/{% if slug != 'latest' %}topics/{{ slug }}/{% endif %}?utm_source=widget&utm_medium=embed" target="_blank" rel="noopener">More on {{ site.name }} →</a></div>
+</div></body></html>

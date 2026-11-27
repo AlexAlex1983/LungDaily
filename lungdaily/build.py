@@ -9,7 +9,7 @@ from xml.sax.saxutils import escape
 import markdown
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from . import awareness, images
+from . import awareness, images, portal
 from .util import POSTS, ROOT, iso, load_yaml, log, now, parse_date, read_json, settings, write_json
 
 OUT = ROOT / "site"
@@ -35,6 +35,7 @@ def load_posts() -> list[dict]:
         emb = rec.get("embed") or {}
         rec["x_embed_url"] = emb.get("url") if emb.get("type") == "x" else None
         rec["read_min"] = max(1, round(len(rec["body"].split()) / 200))
+        rec["source_type"] = portal.source_type(rec)
         posts.append(rec)
     posts.sort(key=lambda r: r["date"], reverse=True)
     return posts
@@ -164,6 +165,8 @@ def build() -> int:
     _write(OUT / "days" / "index.html", env.get_template("days.html").render(
         **ctx, root="../", days=day_list, title=f"Awareness days & congresses — {site['name']}", active="days"))
 
+    portal_slugs = build_portal(env, ctx, posts, site, base, {d["slug"]: d for d in day_list})
+
     from .reports import build_reports
     reps = build_reports(posts)
     for r in reps:
@@ -180,7 +183,7 @@ def build() -> int:
             log.warning("Redirect %s -> %s skipped (target not live, or old slug still live)", old, new)
 
     _write(OUT / "rss.xml", rss(posts[:50], site, base))
-    _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs, [r["key"] for r in reps]))
+    _write(OUT / "sitemap.xml", sitemap(posts, base, day_slugs, [r["key"] for r in reps], portal_slugs))
     _write(OUT / "news-sitemap.xml", news_sitemap(posts, site, base))
     _write(OUT / "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\nSitemap: {base}/news-sitemap.xml\n")
     _write(OUT / "site.webmanifest", json.dumps({
@@ -189,6 +192,73 @@ def build() -> int:
         "icons": [{"src": f"/static/icons/icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png"} for s in (192, 512)]}, indent=1))
     log.info("Built site: %d articles -> %s", len(posts), OUT)
     return len(posts)
+
+
+def build_portal(env, ctx, posts, site, base, days_by_slug) -> list[str]:
+    """Topic hubs, voices, trackers, trials, today's top 5, search, caregivers, widget, corrections.
+    Returns site paths (relative, with trailing slash) for the sitemap."""
+    from . import trials
+    name = site["name"]
+    paths = []
+
+    def page(path: str, tpl: str, title: str, depth: int, **kw):
+        _write(OUT / path / "index.html", env.get_template(tpl).render(
+            **ctx, root="../" * depth, title=f"{title} — {name}", **kw))
+        paths.append(f"{path}/")
+
+    trial_data = {}
+    try:
+        trial_data = trials.refresh()
+    except Exception as e:
+        log.warning("Trials refresh failed: %s", e)
+    groups = [g for g in trial_data.get("groups") or [] if g.get("rows")]
+    trials_by_hub = {g["slug"]: g["rows"] for g in groups}
+
+    hub_list = portal.hub_pages(posts, days_by_slug)
+    for h in hub_list:
+        h["trials"] = trials_by_hub.get(h["slug"], [])
+        page(f"topics/{h['slug']}", "topic.html", h["name"], 2, hub=h, active="topics")
+        _write(OUT / "topics" / h["slug"] / "rss.xml", rss(h["posts"][:30], dict(site, name=f"{name} — {h['name']}"), base))
+    page("topics", "topics.html", "Topics", 1, hubs=hub_list, active="topics")
+
+    voices = portal.voice_pages(posts)
+    for v in voices:
+        page(f"directory/{v['slug']}", "voice.html", f"{v['name']} in {name}", 2, v=v, active="directory")
+    page("directory", "voices.html", "Directory", 1, voices=voices, active="directory")
+
+    appr = portal.approvals_rows(posts)
+    page("trackers/approvals", "approvals.html", "Approvals & pipeline tracker", 2, rows=appr, active="trackers",
+         regulators=sorted({r["regulator"] for r in appr if r["regulator"] != "—"}),
+         stages=[s for s, _ in portal.STAGES if any(r["stage"] == s for r in appr)] + ["Update"],
+         topics=[h["name"] for h in hub_list if any(h["name"] in r["topics"] for r in appr)])
+    gl = [{"post": p, "topics": [h["name"] for h in hub_list if p in h["posts"]][:2]} for p in posts if portal.is_guideline(p)]
+    page("trackers/guidelines", "guidelines.html", "Guidelines & statements tracker", 2, rows=gl, active="trackers",
+         topics=[h["name"] for h in hub_list if any(h["name"] in r["topics"] for r in gl)])
+    page("trials", "trials.html", "Recruiting trials", 1, groups=groups, active="trackers",
+         fetched=parse_date(trial_data["fetched_at"]) if trial_data.get("fetched_at") else None)
+    page("trackers", "trackers.html", "Trackers", 1, active="trackers", n_approvals=len(appr), n_guidelines=len(gl),
+         n_trials=sum(len(g["rows"]) for g in groups))
+
+    top, hours = portal.top_today(posts)
+    page("today", "today.html", "Today's top 5", 1, posts=top, hours=hours, active="today")
+
+    _write(OUT / "search.json", json.dumps(portal.search_index(posts, hub_list), ensure_ascii=False, separators=(",", ":")))
+    page("search", "search.html", "Search", 1, n=len(posts), active="search")
+    paths.remove("search/")   # noindex page
+
+    cg = portal.caregivers()
+    if cg.get("sections"):
+        page("caregivers", "caregivers.html", "For caregivers", 1, cg=cg, news=portal.caregiver_posts(posts, cg),
+             checked="27 November 2026", active="caregivers")
+
+    page("corrections", "corrections.html", "Corrections", 1,
+         items=load_yaml("corrections.yaml").get("corrections") or [])
+    page("widget", "widget.html", "Headlines widget", 1, hubs=hub_list)
+    feeds = [("latest", "Latest", posts)] + [(h["slug"], h["name"], h["posts"]) for h in hub_list]
+    for slug, label, sel in feeds:
+        _write(OUT / "embed" / slug / "index.html", env.get_template("embed.html").render(
+            **ctx, posts=sel[:6], label=label, slug=slug))
+    return paths
 
 
 def redirect_page(url: str) -> str:
@@ -268,8 +338,9 @@ def awareness_pages(posts: list[dict]) -> list[tuple[dict, list[dict]]]:
     return [(d, sel) for _, d, sel in sorted(best.values(), key=lambda t: t[0])]
 
 
-def sitemap(posts, base, day_slugs=(), report_keys=()) -> str:
+def sitemap(posts, base, day_slugs=(), report_keys=(), extra=()) -> str:
     pages = [(f"{base}/", None)] + [(f"{base}/{c}/", None) for c in CATEGORY_LABELS]
+    pages += [(f"{base}/{u}", None) for u in extra]
     pages += [(f"{base}/days/{s}/", None) for s in day_slugs]
     pages += [(f"{base}/days/", None), (f"{base}/reports/", None)] + [(f"{base}/reports/{k}/", None) for k in report_keys]
     pages += [(f"{base}/{pg}/", None) for pg in ("about", "editorial-policy", "opt-out", "submit-news", "newsletter", "featured")]

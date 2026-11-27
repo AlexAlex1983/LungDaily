@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card %}
+{% block description %}Guides, tips and support for people caring for someone with a lung condition — from trusted lung health organisations.{% endblock %}
+{% block head %}<link rel="canonical" href="{{ base }}/caregivers/">
+<meta property="og:title" content="For caregivers — {{ site.name }}">
+<meta property="og:description" content="Guides, tips and support for people caring for someone with a lung condition.">
+<meta property="og:url" content="{{ base }}/caregivers/">
+<meta property="og:image" content="{{ base }}/static/icons/logo-512.png">{% endblock %}
+{% block content %}
+<header class="section-head cat-people">
+  <h1 class="section-title">For caregivers</h1>
+  <p class="section-intro">{{ cg.intro }}</p>
+</header>
+<p class="safety">{{ cg.safety }}</p>
+<nav class="chips" aria-label="Guide sections">{% for s in cg.sections %}<a href="#g{{ loop.index }}">{{ s.title }}</a>{% endfor %}{% if news %}<a href="#news">News for carers</a>{% endif %}</nav>
+<div class="guide-grid">
+{% for s in cg.sections %}
+  <section class="guide" id="g{{ loop.index }}"><h2>{{ s.title }}</h2>
+  <ul>{% for g in s.guides %}<li><a href="{{ g.url }}" rel="noopener" target="_blank">{{ g.title }}</a><span class="src">{{ g.org }}</span></li>{% endfor %}</ul></section>
+{% endfor %}
+</div>
+{% if news %}
+<section class="sect" id="news"><header class="sect-head"><h2>News for families and carers</h2></header>
+<div class="row three">{% for p in news[:6] %}{{ card(p, root, build_id) }}{% endfor %}</div></section>
+{% endif %}
+<section class="sect"><header class="sect-head"><h2>Know a good guide?</h2></header>
+<p>We list practical guides from patient organisations, societies and health agencies. Suggest one at <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.</p></section>
+<p class="howmade">{{ site.name }} does not write medical advice on this page. Every guide links to the organisation that published it, which is responsible for its content. Links checked {{ checked }}.</p>
+{% endblock %}

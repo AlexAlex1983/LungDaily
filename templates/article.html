@@ -34,7 +34,7 @@
     <p class="dek">{{ post.dek }}</p>
     <div class="byline">
       <p class="meta"><span class="by">By {{ site.name }}</span> · <time datetime="{{ post.date|isodate }}">{{ post.date|datefmt }}</time> · {{ post.read_min }} min read<br>
-        Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a></p>
+        Source: <a href="{{ post.source.url }}" rel="nofollow noopener" target="_blank">{{ post.source.author_name or "original" }}</a>{% if post.source_type %} · <span class="stype stype-{{ post.source_type.key }}" title="What this article is based on">{{ post.source_type.label }}</span>{% endif %}</p>
       <p class="share" aria-label="Share">
         <a href="https://x.com/intent/post?text={{ post.headline|urlencode }}&url={{ url|urlencode }}{% if site.x_handle %}&via={{ site.x_handle }}{% endif %}" target="_blank" rel="noopener">Share on X</a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ url|urlencode }}" target="_blank" rel="noopener">LinkedIn</a>

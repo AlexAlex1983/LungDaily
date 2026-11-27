@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card, headlines %}
+{% block description %}{{ v.name }} in {{ site.name }}: {{ v.count }} articles on respiratory health.{% endblock %}
+{% block head %}<link rel="canonical" href="{{ base }}/directory/{{ v.slug }}/">
+<meta property="og:title" content="{{ v.name }} in {{ site.name }}">
+<meta property="og:url" content="{{ base }}/directory/{{ v.slug }}/">
+<meta property="og:image" content="{{ base }}/static/icons/logo-512.png">{% endblock %}
+{% block content %}
+<header class="section-head">
+  <p class="crumbs"><a href="{{ root }}directory/">Directory</a></p>
+  <h1 class="section-title">{{ v.name }}</h1>
+  <p class="section-intro">{{ v.count }} {{ site.name }} article{{ '' if v.count == 1 else 's' }} based on or naming {{ v.name }}.
+  {% if v.x %}<a href="https://x.com/{{ v.x }}" rel="noopener">@{{ v.x }} on X</a>{% endif %}{% if v.x and v.linkedin %} · {% endif %}{% if v.linkedin %}<a href="{{ v.linkedin }}" rel="noopener">LinkedIn</a>{% endif %}</p>
+  <p class="hub-actions">Share this page: <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ (base ~ '/directory/' ~ v.slug ~ '/?utm_source=linkedin&utm_campaign=directory')|urlencode }}" rel="noopener" target="_blank">LinkedIn</a> · <a href="https://x.com/intent/post?text={{ (v.name ~ ' in ' ~ site.name)|urlencode }}&url={{ (base ~ '/directory/' ~ v.slug ~ '/')|urlencode }}{% if site.x_handle %}&via={{ site.x_handle }}{% endif %}" rel="noopener" target="_blank">X</a> · <a href="{{ root }}featured/">Get the “Featured in {{ site.name }}” badge</a></p>
+</header>
+<div class="row three">{% for p in v.posts[:6] %}{{ card(p, root, build_id) }}{% endfor %}</div>
+{% if v.posts|length > 6 %}<section class="sect"><header class="sect-head"><h2>Earlier coverage</h2></header>{{ headlines(v.posts[6:], root) }}</section>{% endif %}
+<p class="howmade">This page lists {{ site.name }} articles based on public posts, papers or news from or about {{ v.name }}. It is not an endorsement. <a href="{{ root }}opt-out/">Request a correction or removal</a>.</p>
+{% endblock %}

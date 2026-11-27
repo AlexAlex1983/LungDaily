@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Topics</h1>
+<p class="section-intro">Every disease and theme we cover in one place: latest news, new papers, approvals, guidelines, key facts, the voices in the coverage and a feed you can follow.</p></header>
+<div class="hub-grid">
+{% for h in hubs %}
+  <a class="hub-tile" href="{{ root }}topics/{{ h.slug }}/">
+    <strong>{{ h.name }}</strong>
+    <span>{{ h.intro }}</span>
+    <em>{{ h.count }} article{{ '' if h.count == 1 else 's' }}{% if h.posts %} · latest {{ h.posts[0].date|shortdate }}{% endif %}</em>
+  </a>
+{% endfor %}
+</div>
+{% endblock %}

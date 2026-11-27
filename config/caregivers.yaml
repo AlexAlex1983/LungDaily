@@ -1,0 +1,67 @@
+# Caregivers space: /caregivers/ — practical guides from trusted lung-health organisations for people
+# who look after someone with a lung condition, plus LungDaily news that matters to families.
+# LungDaily does not write its own medical advice here: every guide links to the organisation's own page.
+# URLs checked 27 Nov 2026. Add only pages from established patient organisations, societies or WHO.
+
+intro: >-
+  Looking after someone with a lung condition — a parent with COPD, a partner with pulmonary fibrosis,
+  a child with asthma — is demanding. This page brings together practical guides from trusted lung
+  health organisations, and the news that matters to families and carers.
+safety: >-
+  This page links to information; it is not medical advice. If someone's breathing suddenly gets much
+  worse, their lips or face turn blue or grey, or they are too breathless to speak, call your local
+  emergency number. For everything else, talk to their doctor, nurse or pharmacist.
+
+sections:
+  - title: "Getting started as a carer"
+    guides:
+      - {title: "How to support someone with a lung condition", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/living-with/caring/how-care-someone-lung-condition"}
+      - {title: "Caring for a loved one", org: "Lung Foundation Australia", url: "https://lungfoundation.com.au/support-and-resources/caring-for-a-loved-one/"}
+      - {title: "Patient & Caregiver Network", org: "American Lung Association", url: "https://www.lung.org/help-support/patient-caregiver-network"}
+  - title: "Looking after yourself"
+    guides:
+      - {title: "Looking after yourself as a carer", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/living-with/caring/looking-after-yourself-carer"}
+      - {title: "Support for the carer's wellbeing", org: "Lung Foundation Australia", url: "https://lungfoundation.com.au/support-resources/resource-hub/support-for-the-carers-wellbeing/"}
+      - {title: "Mental wellbeing and lung health", org: "European Lung Foundation", url: "https://europeanlung.org/en/information-hub/living-with-a-lung-condition/mental-wellbeing-and-lung-health/"}
+  - title: "Inhalers and action plans"
+    guides:
+      - {title: "Inhaler technique videos", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/living-with/inhaler-videos/turbohaler"}
+      - {title: "Your asthma action plan", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/conditions/asthma/manage/your-asthma-action-plan"}
+      - {title: "Your child's asthma action plan", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/conditions/asthma/child/manage/action-plan"}
+      - {title: "Caregivers' guide to severe asthma (PDF)", org: "GAAPP", url: "https://gaapp.org/wp-content/uploads/2022/09/Define_Your_Asthma_DYA_Caregivers_Guide_2022_FINAL_English-1.pdf"}
+  - title: "COPD at home"
+    guides:
+      - {title: "COPD self-care guide", org: "European Lung Foundation", url: "https://europeanlung.org/en/information-hub/living-with-a-lung-condition/copd-self-care-guide/"}
+      - {title: "Conserving energy and managing daily activities", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-disease-lookup/copd/living-with-copd/daily-activities"}
+      - {title: "Breathing exercises", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/wellness/breathing-exercises"}
+  - title: "Oxygen and pulmonary rehabilitation"
+    guides:
+      - {title: "Using oxygen at home", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-procedures-and-tests/oxygen-therapy/using-oxygen-at-home"}
+      - {title: "Using oxygen safely", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-procedures-and-tests/oxygen-therapy/using-oxygen-safely"}
+      - {title: "Pulmonary rehabilitation", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/living-with/keeping-active/pulmonary-rehabilitation"}
+      - {title: "Pulmonary rehabilitation in adults", org: "European Lung Foundation", url: "https://europeanlung.org/en/information-hub/living-with-a-lung-condition/pulmonary-rehabilitation-in-adults/"}
+  - title: "Pulmonary fibrosis"
+    guides:
+      - {title: "For the caregiver", org: "Pulmonary Fibrosis Foundation", url: "https://www.pulmonaryfibrosis.org/patients-caregivers/medical-and-support-resources/for-the-caregiver"}
+      - {title: "How to support your loved one with pulmonary fibrosis", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-disease-lookup/pulmonary-fibrosis/family-and-friends/how-to-support-your-loved-one"}
+      - {title: "Pulmonary fibrosis: a supportive guide (PDF)", org: "European Lung Foundation", url: "https://europeanlung.org/wp-content/uploads/2024/01/ELF-Guide-Pulmonary-fibrosis-a-supportive-guide.pdf"}
+  - title: "Lung cancer"
+    guides:
+      - {title: "How to support your loved one with lung cancer", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-disease-lookup/lung-cancer/family-and-friends/taking-care-of-your-loved-one/how-to-support"}
+      - {title: "Self-care tips for lung cancer caregivers", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/lung-disease-lookup/lung-cancer/family-and-friends/taking-care-of-yourself/self-care"}
+  - title: "Advanced lung disease and palliative care"
+    guides:
+      - {title: "Palliative care", org: "European Lung Foundation", url: "https://europeanlung.org/en/information-hub/living-with-a-lung-condition/palliative-care/"}
+      - {title: "Managing symptoms in serious, long-term lung conditions (lay guideline summary)", org: "European Lung Foundation", url: "https://europeanlung.org/en/information-hub/guidelines/management-of-symptoms-in-adults-with-serious-long-term-lung-conditions/"}
+      - {title: "Managing advanced lung disease", org: "American Lung Association", url: "https://www.lung.org/lung-health-diseases/wellness/managing-advanced-lung-disease"}
+  - title: "Support groups and helplines"
+    guides:
+      - {title: "Helpline (UK)", org: "Asthma + Lung UK", url: "https://www.asthmaandlung.org.uk/helpline"}
+      - {title: "Better Breathers Club (US)", org: "American Lung Association", url: "https://www.lung.org/help-support/better-breathers-club"}
+      - {title: "We Belung Together: carers' support group (Australia)", org: "Lung Foundation Australia", url: "https://lungfoundation.com.au/find-support-service/we-belung-together-carers-support-group/"}
+      - {title: "Patient organisation tools", org: "GAAPP", url: "https://gaapp.org/tools"}
+
+# LungDaily articles shown under "News for families and carers" (headline/dek/body, case-insensitive)
+news_keywords: ["caregiver", "carer", "family members", "families", "self-management", "inhaler technique",
+                "action plan", "rehabilitation", "inhaler technique", "inhaler education", "home-based", "living with", "patient-reported", "oxygen therapy", "palliative", "end-of-life",
+                "patient organisation", "patient advocate", "patients and families", "quality of life"]

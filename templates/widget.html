@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="article page">
+<p class="kicker">{{ site.name }}</p>
+<h1>Lung health headlines for your site</h1>
+<p class="dek">Free for societies, patient organisations, hospitals and blogs: paste one line of code and your visitors see the latest {{ site.name }} headlines, updated automatically.</p>
+<p>Choose a feed, then copy the code into your web page.</p>
+<p><select id="feed" aria-label="Feed"><option value="latest">All topics</option>{% for h in hubs %}<option value="{{ h.slug }}">{{ h.name }}</option>{% endfor %}</select></p>
+<pre class="code" id="code"></pre>
+<p><button type="button" class="btn" id="copy">Copy code</button></p>
+<h2>Preview</h2>
+<iframe id="prev" src="{{ base }}/embed/latest/" width="100%" height="420" style="border:0;max-width:420px" title="{{ site.name }} headlines"></iframe>
+<p>Prefer a feed reader? Every topic has an RSS feed — see <a href="{{ root }}topics/">Topics</a>.</p>
+</article>
+<script>
+(function(){
+  var base={{ base|tojson }}, sel=document.getElementById('feed'), code=document.getElementById('code'), prev=document.getElementById('prev');
+  function upd(){ var u=base+'/embed/'+sel.value+'/';
+    code.textContent='<iframe src="'+u+'" width="100%" height="420" style="border:0;max-width:420px" title="LungDaily headlines" loading="lazy"></iframe>';
+    prev.src=u; }
+  var h=location.hash.slice(1); if(h){ for(var i=0;i<sel.options.length;i++){ if(sel.options[i].value==h) sel.value=h; } }
+  sel.addEventListener('change',upd); upd();
+  document.getElementById('copy').addEventListener('click',function(){ try{navigator.clipboard.writeText(code.textContent);this.textContent='Copied';}catch(_){} });
+})();
+</script>
+{% endblock %}

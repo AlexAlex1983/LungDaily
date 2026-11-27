@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="section-head"><h1 class="section-title">Trackers</h1>
+<p class="section-intro">Reference lists, updated with every article: what regulators decided, which guidelines changed and which trials are recruiting.</p></header>
+<div class="hub-grid">
+  <a class="hub-tile" href="{{ root }}trackers/approvals/"><strong>Approvals &amp; pipeline</strong><span>Regulatory decisions, filings and trial readouts in respiratory medicine, by regulator and stage.</span><em>{{ n_approvals }} entries</em></a>
+  <a class="hub-tile" href="{{ root }}trackers/guidelines/"><strong>Guidelines &amp; statements</strong><span>New and updated guidelines, strategy reports, consensus statements and recommendations.</span><em>{{ n_guidelines }} entries</em></a>
+  <a class="hub-tile" href="{{ root }}trials/"><strong>Recruiting trials</strong><span>The newest recruiting studies on ClinicalTrials.gov for COPD, asthma, lung cancer, ILD, bronchiectasis and TB.</span><em>{{ n_trials }} trials</em></a>
+  <a class="hub-tile" href="{{ root }}today/"><strong>Today's top 5</strong><span>The five most important stories of the last 24 hours.</span><em>Updated every slot</em></a>
+</div>
+{% endblock %}

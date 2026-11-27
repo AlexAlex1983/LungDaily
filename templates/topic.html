@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% from "_macros.html" import card, headlines %}
+{% block description %}{{ hub.name }} — {{ hub.intro }}{% endblock %}
+{% block head %}
+<link rel="canonical" href="{{ base }}/topics/{{ hub.slug }}/">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} — {{ hub.name }}" href="{{ base }}/topics/{{ hub.slug }}/rss.xml">
+<meta property="og:title" content="{{ hub.name }} — {{ site.name }}">
+<meta property="og:description" content="{{ hub.intro }}">
+<meta property="og:url" content="{{ base }}/topics/{{ hub.slug }}/">
+<meta property="og:image" content="{{ base }}/static/icons/logo-512.png">
+{% endblock %}
+{% block content %}
+<header class="section-head">
+  <p class="crumbs"><a href="{{ root }}topics/">Topics</a></p>
+  <h1 class="section-title">{{ hub.name }}</h1>
+  <p class="section-intro">{{ hub.intro }}</p>
+  <p class="hub-actions"><a href="{{ base }}/topics/{{ hub.slug }}/rss.xml">RSS feed for {{ hub.name }}</a> · <a href="{{ root }}widget/#{{ hub.slug }}">Put these headlines on your site</a></p>
+</header>
+
+{% if hub.facts or hub.resources or hub.days %}
+<section class="hub-box">
+  {% if hub.facts %}
+  <div>
+    <h2>Key facts</h2>
+    <ul class="facts">{% for f in hub.facts %}<li><b>{{ f.figure }}</b> {{ f.text }} <span class="src">— {% if f.url %}<a href="{{ f.url }}" rel="noopener">{{ f.source }}</a>{% else %}{{ f.source }}{% endif %}</span></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+  {% if hub.resources %}
+  <div>
+    <h2>Reference</h2>
+    <ul class="links">{% for r in hub.resources %}<li><a href="{{ r.url }}" rel="noopener">{{ r.title }}</a> <span class="src">{{ r.org }}</span></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+  {% if hub.days %}
+  <div>
+    <h2>On the calendar</h2>
+    <ul class="links">{% for d in hub.days %}<li><a href="{{ root }}days/{{ d.slug }}/">{{ d.name }}</a> <span class="src">{{ d.when_label }}</span></li>{% endfor %}</ul>
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+{% if not hub.posts %}<p class="empty">No articles on this topic yet.</p>{% else %}
+<div class="row three">
+{% for p in hub.posts[:6] %}{{ card(p, root, build_id) }}{% endfor %}
+</div>
+{% endif %}
+
+<div class="hub-cols">
+  {% if hub.papers %}<section><h2 class="rail-title">New papers</h2>{{ headlines(hub.papers, root) }}</section>{% endif %}
+  {% if hub.approvals %}<section><h2 class="rail-title">Approvals &amp; trials</h2>{{ headlines(hub.approvals, root) }}<p><a class="more" href="{{ root }}trackers/approvals/">Approvals tracker →</a></p></section>{% endif %}
+  {% if hub.guidelines %}<section><h2 class="rail-title">Guidelines &amp; statements</h2>{{ headlines(hub.guidelines, root) }}<p><a class="more" href="{{ root }}trackers/guidelines/">Guidelines tracker →</a></p></section>{% endif %}
+  {% if hub.trials %}<section><h2 class="rail-title">Now recruiting</h2>
+    <ul class="hl-list">{% for t in hub.trials[:5] %}<li><a class="hl" href="{{ t.url }}" rel="noopener">{{ t.title }}</a><span class="meta">{{ t.phase }} · {{ t.sponsor }}</span></li>{% endfor %}</ul>
+    <p><a class="more" href="{{ root }}trials/#{{ hub.slug }}">All recruiting trials →</a></p></section>{% endif %}
+</div>
+
+{% if hub.voices %}
+<section class="sect"><header class="sect-head"><h2>Voices in this coverage</h2><a class="more" href="{{ root }}directory/">Full directory →</a></header>
+<p class="chips">{% for v in hub.voices %}<a href="{{ root }}directory/{{ v.slug }}/">{{ v.name }} <span>{{ v.count }}</span></a>{% endfor %}</p></section>
+{% endif %}
+
+{% if hub.posts|length > 6 %}
+<section class="sect"><header class="sect-head"><h2>More on {{ hub.name }}</h2></header>
+{{ headlines(hub.posts[6:36], root) }}</section>
+{% endif %}
+{% endblock %}

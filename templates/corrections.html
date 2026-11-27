@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="article page">
+<p class="kicker">{{ site.name }}</p>
+<h1>Corrections</h1>
+<p class="dek">When we get something wrong, we fix it and say so here.</p>
+{% if items %}
+<ul>{% for c in items %}<li><b>{{ c.date }}</b> — {% if c.slug %}<a href="{{ root }}news/{{ c.slug }}/">{{ c.headline or c.slug }}</a>{% else %}{{ c.headline }}{% endif %}: {{ c.note }}</li>{% endfor %}</ul>
+{% else %}
+<p>No corrections have been published yet.</p>
+{% endif %}
+<p>Spotted an error? <a href="{{ root }}opt-out/">Request a correction</a> or write to <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>. See our <a href="{{ root }}editorial-policy/">editorial standards</a>.</p>
+</article>
+{% endblock %}
