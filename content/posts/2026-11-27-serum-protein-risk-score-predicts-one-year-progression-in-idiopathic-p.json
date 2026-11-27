@@ -47,7 +47,9 @@
   "status": "published",
   "published_at": "2026-11-27T09:00:18+00:00",
   "shared": {
-    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n3btlmnkub2i"
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n3btlmnkub2i",
+    "linkedin": "make",
+    "linkedin_at": "2026-11-27T09:53:31+00:00"
   },
   "x_attempts": 4
 }
