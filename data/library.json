@@ -224,7 +224,8 @@
     "2026-11-26-jose-luis-castro-no-country-can-treat-its-way-out-of-chronic-respirato": "lungs/lungs-02.jpg",
     "2026-11-26-zorana-jovanovic-andersen-ers-leaves-cop31-calling-for-urgent-fossil-f": "city/city-04.jpg",
     "2026-11-26-china-s-nmpa-accepts-hutchmed-application-for-savolitinib-plus-osimert": "ctscan/ctscan-09.jpg",
-    "2026-11-27-solace-lung-cancer-screening-consortium-launches-in-vienna-with-46-par": "ctscan/ctscan-14.jpg"
+    "2026-11-27-solace-lung-cancer-screening-consortium-launches-in-vienna-with-46-par": "ctscan/ctscan-14.jpg",
+    "2026-11-27-slow-oxygen-saturation-recovery-after-6-minute-walk-test-linked-to-hig": "airways/airways-12.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -235,7 +236,7 @@
     "globe/globe-08.jpg": 6,
     "cells/cells-07.jpg": 7,
     "airways/airways-05.jpg": 221,
-    "airways/airways-12.jpg": 9,
+    "airways/airways-12.jpg": 226,
     "asthma/asthma-08.jpg": 202,
     "airways/airways-11.jpg": 11,
     "airways/airways-07.jpg": 12,
@@ -420,5 +421,5 @@
     "lungs/lungs-02.jpg": 222,
     "city/city-04.jpg": 223
   },
-  "counter": 225
+  "counter": 226
 }
