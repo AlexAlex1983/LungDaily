@@ -223,7 +223,8 @@
     "2026-11-26-one-in-three-saudi-healthcare-professionals-does-not-report-aiming-to": "airways/airways-05.jpg",
     "2026-11-26-jose-luis-castro-no-country-can-treat-its-way-out-of-chronic-respirato": "lungs/lungs-02.jpg",
     "2026-11-26-zorana-jovanovic-andersen-ers-leaves-cop31-calling-for-urgent-fossil-f": "city/city-04.jpg",
-    "2026-11-26-china-s-nmpa-accepts-hutchmed-application-for-savolitinib-plus-osimert": "ctscan/ctscan-09.jpg"
+    "2026-11-26-china-s-nmpa-accepts-hutchmed-application-for-savolitinib-plus-osimert": "ctscan/ctscan-09.jpg",
+    "2026-11-27-solace-lung-cancer-screening-consortium-launches-in-vienna-with-46-par": "ctscan/ctscan-14.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -311,7 +312,7 @@
     "asthma/asthma-05.jpg": 83,
     "asthma/asthma-13.jpg": 84,
     "pharma/pharma-11.jpg": 85,
-    "ctscan/ctscan-14.jpg": 86,
+    "ctscan/ctscan-14.jpg": 225,
     "pharma/pharma-24.jpg": 87,
     "cells/cells-02.jpg": 88,
     "events/events-05.jpg": 89,
@@ -419,5 +420,5 @@
     "lungs/lungs-02.jpg": 222,
     "city/city-04.jpg": 223
   },
-  "counter": 224
+  "counter": 225
 }
