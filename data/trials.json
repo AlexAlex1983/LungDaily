@@ -1,0 +1,1053 @@
+{
+  "fetched_at": "2026-11-27T09:13:22+00:00",
+  "groups": [
+    {
+      "slug": "copd",
+      "label": "COPD",
+      "rows": [
+        {
+          "nct": "NCT07957716",
+          "title": "Effects of Pulmonary Rehabilitation in Primary Care for Patients With COPD",
+          "phase": "N/A",
+          "sponsor": "Universidade Federal de Sao Carlos",
+          "countries": [
+            "Brazil"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 40,
+          "url": "https://clinicaltrials.gov/study/NCT07957716"
+        },
+        {
+          "nct": "NCT07953855",
+          "title": "Study to Evaluate Efficacy and Safety of Bronpass Tab. in Patients With Symptoms of Chronic Obstructive Pulmonary Disease",
+          "phase": "Phase 3",
+          "sponsor": "Hanlim Pharm. Co., Ltd.",
+          "countries": [
+            "South Korea"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-23",
+          "status": "RECRUITING",
+          "enrollment": 146,
+          "url": "https://clinicaltrials.gov/study/NCT07953855"
+        },
+        {
+          "nct": "NCT07938086",
+          "title": "Automated Oxygen Titration With the EMILY.AI Device During the Six-Minute Walk Test",
+          "phase": "N/A",
+          "sponsor": "Aether Tech S.L.",
+          "countries": [
+            "Spain"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-16",
+          "status": "RECRUITING",
+          "enrollment": 24,
+          "url": "https://clinicaltrials.gov/study/NCT07938086"
+        },
+        {
+          "nct": "NCT07935187",
+          "title": "Cardiopulmonary Exercise Active Health Cohort Study",
+          "phase": "—",
+          "sponsor": "Peking University Third Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-13",
+          "status": "RECRUITING",
+          "enrollment": 10000,
+          "url": "https://clinicaltrials.gov/study/NCT07935187"
+        },
+        {
+          "nct": "NCT07924462",
+          "title": "Chronic Respiratory Disease Participant Engagement Study",
+          "phase": "—",
+          "sponsor": "Richmond Research Institute",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-09",
+          "status": "RECRUITING",
+          "enrollment": 500,
+          "url": "https://clinicaltrials.gov/study/NCT07924462"
+        },
+        {
+          "nct": "NCT07915791",
+          "title": "A Study to Assess the Efficacy and Safety of Co-administration of GSK3862995B With GSK5784283 in Adult Participants With Moderate to Severe Chronic Obstructive Pulmonary Disease (COPD)",
+          "phase": "Phase 2",
+          "sponsor": "GlaxoSmithKline",
+          "countries": [
+            "United Kingdom",
+            "United States"
+          ],
+          "n_countries": 2,
+          "first_posted": "2026-11-04",
+          "status": "RECRUITING",
+          "enrollment": 279,
+          "url": "https://clinicaltrials.gov/study/NCT07915791"
+        },
+        {
+          "nct": "NCT07914010",
+          "title": "Reducing Exposure With Air Cleaners and Technology",
+          "phase": "N/A",
+          "sponsor": "University of California, Berkeley",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-03",
+          "status": "RECRUITING",
+          "enrollment": 100,
+          "url": "https://clinicaltrials.gov/study/NCT07914010"
+        },
+        {
+          "nct": "NCT07908381",
+          "title": "A Study to Investigate the Efficacy and Safety of Zelicapavir Compared With Placebo in Adults With RSV Who Are at High Risk for Severe Disease",
+          "phase": "Phase 2 / Phase 3",
+          "sponsor": "Enanta Pharmaceuticals, Inc",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-02",
+          "status": "RECRUITING",
+          "enrollment": 860,
+          "url": "https://clinicaltrials.gov/study/NCT07908381"
+        },
+        {
+          "nct": "NCT07910006",
+          "title": "Multimodal Assessment of Neuromuscular Electrical Stimulation (NMES) Effects on Respiratory and Peripheral Muscles in Chronic Obstructive Pulmonary Disease (COPD)",
+          "phase": "N/A",
+          "sponsor": "Universitas Padjadjaran",
+          "countries": [
+            "Indonesia"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-02",
+          "status": "RECRUITING",
+          "enrollment": 45,
+          "url": "https://clinicaltrials.gov/study/NCT07910006"
+        },
+        {
+          "nct": "NCT07910409",
+          "title": "Construction and Validation of an Impulse Oscillometry (IOS)-Based Platform for Screening, Diagnosis, and Management of Chronic Airway Diseases",
+          "phase": "—",
+          "sponsor": "Beijing Chao Yang Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-02",
+          "status": "RECRUITING",
+          "enrollment": 2800,
+          "url": "https://clinicaltrials.gov/study/NCT07910409"
+        },
+        {
+          "nct": "NCT07896252",
+          "title": "Phase 2b Efficacy and Safety Study of AERO-007, an Inhaled LABA+LAMA Combination for Nebulization Delivery in COPD Patients",
+          "phase": "Phase 2",
+          "sponsor": "AeroRx Therapeutics Inc.",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-26",
+          "status": "RECRUITING",
+          "enrollment": 64,
+          "url": "https://clinicaltrials.gov/study/NCT07896252"
+        },
+        {
+          "nct": "NCT07878884",
+          "title": "PBMT Associated With a Pulmonary Rehabilitation Program on the Functional Capacity of Patients With COPD",
+          "phase": "N/A",
+          "sponsor": "Federal University of Health Science of Porto Alegre",
+          "countries": [
+            "Brazil"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-16",
+          "status": "RECRUITING",
+          "enrollment": 20,
+          "url": "https://clinicaltrials.gov/study/NCT07878884"
+        }
+      ]
+    },
+    {
+      "slug": "asthma",
+      "label": "Asthma",
+      "rows": [
+        {
+          "nct": "NCT07955168",
+          "title": "Compartive Effects of Butekyo Breathing and Papworth Technique",
+          "phase": "N/A",
+          "sponsor": "Riphah International University",
+          "countries": [
+            "Pakistan"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 48,
+          "url": "https://clinicaltrials.gov/study/NCT07955168"
+        },
+        {
+          "nct": "NCT07934654",
+          "title": "The LITTLE OWLS Study (in German: \"Kleine Eulen OWL\"): Exploring the Early-life Microbiome Development and Physical and Mental Health Outcomes During Childhood.",
+          "phase": "—",
+          "sponsor": "Bielefeld University",
+          "countries": [
+            "Germany"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-13",
+          "status": "RECRUITING",
+          "enrollment": 1200,
+          "url": "https://clinicaltrials.gov/study/NCT07934654"
+        },
+        {
+          "nct": "NCT07924462",
+          "title": "Chronic Respiratory Disease Participant Engagement Study",
+          "phase": "—",
+          "sponsor": "Richmond Research Institute",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-09",
+          "status": "RECRUITING",
+          "enrollment": 500,
+          "url": "https://clinicaltrials.gov/study/NCT07924462"
+        },
+        {
+          "nct": "NCT07914010",
+          "title": "Reducing Exposure With Air Cleaners and Technology",
+          "phase": "N/A",
+          "sponsor": "University of California, Berkeley",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-03",
+          "status": "RECRUITING",
+          "enrollment": 100,
+          "url": "https://clinicaltrials.gov/study/NCT07914010"
+        },
+        {
+          "nct": "NCT07910409",
+          "title": "Construction and Validation of an Impulse Oscillometry (IOS)-Based Platform for Screening, Diagnosis, and Management of Chronic Airway Diseases",
+          "phase": "—",
+          "sponsor": "Beijing Chao Yang Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-02",
+          "status": "RECRUITING",
+          "enrollment": 2800,
+          "url": "https://clinicaltrials.gov/study/NCT07910409"
+        },
+        {
+          "nct": "NCT07904052",
+          "title": "Specific Immunotherapy With Mannan-Conjugated Allergoids for HDM-Allergic Rhinitis/Rhinoconjunctivitis. MM09-SIT-063.",
+          "phase": "Phase 3",
+          "sponsor": "Inmunotek S.L.",
+          "countries": [
+            "Portugal",
+            "Spain"
+          ],
+          "n_countries": 2,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 250,
+          "url": "https://clinicaltrials.gov/study/NCT07904052"
+        },
+        {
+          "nct": "NCT07903805",
+          "title": "Asthma and Primary Arterial Hypertension: an Inflammatory Link?",
+          "phase": "—",
+          "sponsor": "Istituti Clinici Scientifici Maugeri SpA",
+          "countries": [
+            "Italy"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 74,
+          "url": "https://clinicaltrials.gov/study/NCT07903805"
+        },
+        {
+          "nct": "NCT07904195",
+          "title": "Specific Immunotherapy With Mannan-Conjugated Allergoids for HDM-Allergic Rhinitis/Rhinoconjunctivitis_MM09-SIT-069.",
+          "phase": "Phase 3",
+          "sponsor": "Inmunotek S.L.",
+          "countries": [
+            "Portugal",
+            "Spain"
+          ],
+          "n_countries": 2,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 250,
+          "url": "https://clinicaltrials.gov/study/NCT07904195"
+        },
+        {
+          "nct": "NCT07899996",
+          "title": "A Study of HB0056 in Adult Participants With Moderate to Severe Asthma",
+          "phase": "Phase 1 / Phase 2",
+          "sponsor": "Shanghai Huaota Biopharmaceutical Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-28",
+          "status": "RECRUITING",
+          "enrollment": 160,
+          "url": "https://clinicaltrials.gov/study/NCT07899996"
+        },
+        {
+          "nct": "NCT07883967",
+          "title": "Effects of Tele-rehabilitation-Guided Qigong on Children and Adolescents With Asthma",
+          "phase": "N/A",
+          "sponsor": "Antalya Health Sciences University",
+          "countries": [
+            "Turkey (Türkiye)"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-20",
+          "status": "RECRUITING",
+          "enrollment": 40,
+          "url": "https://clinicaltrials.gov/study/NCT07883967"
+        },
+        {
+          "nct": "NCT07869043",
+          "title": "A Study to Learn About the Study Medicine Called Tilrekimig ( PF-07275315) in People With Severe Asthma",
+          "phase": "Phase 3",
+          "sponsor": "Pfizer",
+          "countries": [
+            "Puerto Rico",
+            "United States"
+          ],
+          "n_countries": 2,
+          "first_posted": "2026-10-09",
+          "status": "RECRUITING",
+          "enrollment": 1100,
+          "url": "https://clinicaltrials.gov/study/NCT07869043"
+        },
+        {
+          "nct": "NCT07851623",
+          "title": "Evaluation of Safety, Side Effects, and How the Drug, Inhaled CHF10136, Is Absorbed, Modified and Removed From the Body in Healthy Adults and Adults With Asthma",
+          "phase": "Phase 1",
+          "sponsor": "Chiesi Farmaceutici S.p.A.",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-01",
+          "status": "RECRUITING",
+          "enrollment": 120,
+          "url": "https://clinicaltrials.gov/study/NCT07851623"
+        }
+      ]
+    },
+    {
+      "slug": "lung-cancer",
+      "label": "Lung cancer",
+      "rows": [
+        {
+          "nct": "NCT07955051",
+          "title": "A Trial of KJ-103 in Solid Cancers",
+          "phase": "Phase 1 / Phase 2",
+          "sponsor": "Cancer Research UK",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 133,
+          "url": "https://clinicaltrials.gov/study/NCT07955051"
+        },
+        {
+          "nct": "NCT07957820",
+          "title": "A Study of ZW209 in Participants With Advanced Solid Tumors",
+          "phase": "Phase 1",
+          "sponsor": "Zymeworks BC Inc.",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 140,
+          "url": "https://clinicaltrials.gov/study/NCT07957820"
+        },
+        {
+          "nct": "NCT07956065",
+          "title": "Structured and Adapted Exercise Prehabilitation Before Pulmonary Resection in Patients With Multiple Comorbidities",
+          "phase": "—",
+          "sponsor": "University of Foggia",
+          "countries": [
+            "Italy"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 150,
+          "url": "https://clinicaltrials.gov/study/NCT07956065"
+        },
+        {
+          "nct": "NCT07953881",
+          "title": "Postoperative Outcomes Without Adjuvant Therapy in NSCLC Patients With MPR and Negative ctDNA After Neoadjuvant Immunotherapy",
+          "phase": "N/A",
+          "sponsor": "Chang Chen",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-23",
+          "status": "RECRUITING",
+          "enrollment": 88,
+          "url": "https://clinicaltrials.gov/study/NCT07953881"
+        },
+        {
+          "nct": "NCT07952347",
+          "title": "A Study of IBR854 Combined With Pemetrexed Plus Platinum Versus Pemetrexed Plus Platinum in PD-L1-Negative Non-Squamous Non-Small Cell Lung Cancer",
+          "phase": "Phase 2",
+          "sponsor": "Imbioray (Hangzhou) Biomedicine Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-23",
+          "status": "RECRUITING",
+          "enrollment": 60,
+          "url": "https://clinicaltrials.gov/study/NCT07952347"
+        },
+        {
+          "nct": "NCT07953699",
+          "title": "Prospective Multi-omics Study in Advanced Lung Cancer",
+          "phase": "—",
+          "sponsor": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-23",
+          "status": "RECRUITING",
+          "enrollment": 50,
+          "url": "https://clinicaltrials.gov/study/NCT07953699"
+        },
+        {
+          "nct": "NCT07946848",
+          "title": "Phase 2 Study to Evaluate Dose Optimization and Anti-tumor Activity of Atebimetinib in Participants With Advanced or Metastatic NSCLC.",
+          "phase": "Phase 2",
+          "sponsor": "Immuneering Corporation",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-18",
+          "status": "RECRUITING",
+          "enrollment": 100,
+          "url": "https://clinicaltrials.gov/study/NCT07946848"
+        },
+        {
+          "nct": "NCT07947043",
+          "title": "Exploratory Clinical Study of Autologous Tumor-Infiltrating Lymphocytes (TIL) Injection",
+          "phase": "Phase 1",
+          "sponsor": "Tongji Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-18",
+          "status": "RECRUITING",
+          "enrollment": 18,
+          "url": "https://clinicaltrials.gov/study/NCT07947043"
+        },
+        {
+          "nct": "NCT07940881",
+          "title": "SI-B037-ST-101 in Adult Patients With Advanced/Metastatic Solid Tumors",
+          "phase": "Phase 1",
+          "sponsor": "SystImmune Inc.",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-17",
+          "status": "RECRUITING",
+          "enrollment": 400,
+          "url": "https://clinicaltrials.gov/study/NCT07940881"
+        },
+        {
+          "nct": "NCT07941128",
+          "title": "Pragmatic AI-Assisted Lung Cancer Translational Study",
+          "phase": "N/A",
+          "sponsor": "Sir Run Run Shaw Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-17",
+          "status": "RECRUITING",
+          "enrollment": 150,
+          "url": "https://clinicaltrials.gov/study/NCT07941128"
+        },
+        {
+          "nct": "NCT07938385",
+          "title": "Characterisation of Immunological and Molecular Changes Evolving in Patients Undergoing Radiotherapy (CHIMERA)",
+          "phase": "—",
+          "sponsor": "Royal Marsden NHS Foundation Trust",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-16",
+          "status": "RECRUITING",
+          "enrollment": 94,
+          "url": "https://clinicaltrials.gov/study/NCT07938385"
+        },
+        {
+          "nct": "NCT07933055",
+          "title": "Phase 1b/2 to Evaluate the Safety, Tolerability, and Efficacy of TXN10128 in Combination With TOPO-I Inhibitor-based Therapies (Irinotecan or TROP2 ADC) in Advanced or Metastatic EGFR Mutated NSCLC",
+          "phase": "Phase 1 / Phase 2",
+          "sponsor": "Txinno Bioscience Inc.",
+          "countries": [
+            "South Korea"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-12",
+          "status": "RECRUITING",
+          "enrollment": 104,
+          "url": "https://clinicaltrials.gov/study/NCT07933055"
+        }
+      ]
+    },
+    {
+      "slug": "ild",
+      "label": "ILD & pulmonary fibrosis",
+      "rows": [
+        {
+          "nct": "NCT07955350",
+          "title": "Clinical Characteristics and Prognostic Analysis of Patients With Acute Exacerbation of Interstitial Lung Disease",
+          "phase": "—",
+          "sponsor": "Xiangya Hospital of Central South University",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 1390,
+          "url": "https://clinicaltrials.gov/study/NCT07955350"
+        },
+        {
+          "nct": "NCT07944183",
+          "title": "The PRECISION Partners Platform (P3) Study",
+          "phase": "—",
+          "sponsor": "Imperial College London",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-18",
+          "status": "RECRUITING",
+          "enrollment": 850,
+          "url": "https://clinicaltrials.gov/study/NCT07944183"
+        },
+        {
+          "nct": "NCT07938086",
+          "title": "Automated Oxygen Titration With the EMILY.AI Device During the Six-Minute Walk Test",
+          "phase": "N/A",
+          "sponsor": "Aether Tech S.L.",
+          "countries": [
+            "Spain"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-16",
+          "status": "RECRUITING",
+          "enrollment": 24,
+          "url": "https://clinicaltrials.gov/study/NCT07938086"
+        },
+        {
+          "nct": "NCT07930221",
+          "title": "The Effects of Yoga Practice on Exercise Capacity, Arterial Stiffness, Respiratory Function, Peripheral Muscle Strength, Posture and Quality of Life in Children With Cystic Fibrosis",
+          "phase": "N/A",
+          "sponsor": "Hacettepe University",
+          "countries": [
+            "Turkey (Türkiye)"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-12",
+          "status": "RECRUITING",
+          "enrollment": 36,
+          "url": "https://clinicaltrials.gov/study/NCT07930221"
+        },
+        {
+          "nct": "NCT07924462",
+          "title": "Chronic Respiratory Disease Participant Engagement Study",
+          "phase": "—",
+          "sponsor": "Richmond Research Institute",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-09",
+          "status": "RECRUITING",
+          "enrollment": 500,
+          "url": "https://clinicaltrials.gov/study/NCT07924462"
+        },
+        {
+          "nct": "NCT07919015",
+          "title": "Real-world Study of Nerandomilast in Patients With Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis",
+          "phase": "—",
+          "sponsor": "Avraham Unterman",
+          "countries": [
+            "Israel"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-05",
+          "status": "RECRUITING",
+          "enrollment": 70,
+          "url": "https://clinicaltrials.gov/study/NCT07919015"
+        },
+        {
+          "nct": "NCT07903792",
+          "title": "Diagnostic Value of Oropharyngeal Suction and Effect of Respiratory Physiotherapy on the Detection of Microorganisms in the Pediatric Patient",
+          "phase": "N/A",
+          "sponsor": "Corporacion Parc Tauli",
+          "countries": [
+            "Spain"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 196,
+          "url": "https://clinicaltrials.gov/study/NCT07903792"
+        },
+        {
+          "nct": "NCT07889973",
+          "title": "A Precision Medicine Approach to Assess Protein Function Loss and the Potential for CFTR Function Restoration in Cystic Fibrosis and Related Disorders",
+          "phase": "—",
+          "sponsor": "Istituto Giannina Gaslini",
+          "countries": [
+            "Italy"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-22",
+          "status": "RECRUITING",
+          "enrollment": 165,
+          "url": "https://clinicaltrials.gov/study/NCT07889973"
+        },
+        {
+          "nct": "NCT07885410",
+          "title": "PERCE-MUCO: Perceptions and Expectations of People With Cystic Fibrosis Regarding a Change in Treatment",
+          "phase": "—",
+          "sponsor": "Fondation Ildys",
+          "countries": [
+            "France"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-21",
+          "status": "RECRUITING",
+          "enrollment": 343,
+          "url": "https://clinicaltrials.gov/study/NCT07885410"
+        },
+        {
+          "nct": "NCT07869147",
+          "title": "Study of ORJ-001 for the Treatment of IPF",
+          "phase": "Phase 2",
+          "sponsor": "Oorja Bio, Inc.",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-09",
+          "status": "RECRUITING",
+          "enrollment": 95,
+          "url": "https://clinicaltrials.gov/study/NCT07869147"
+        },
+        {
+          "nct": "NCT07868419",
+          "title": "Idiopathic Pulmonary Fibrosis (IPF)-Related Chronic Cough Reduction With Nalbuphine (NAL) Extended-Release (ER) Tablets",
+          "phase": "Phase 3",
+          "sponsor": "Trevi Therapeutics",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-09",
+          "status": "RECRUITING",
+          "enrollment": 201,
+          "url": "https://clinicaltrials.gov/study/NCT07868419"
+        },
+        {
+          "nct": "NCT07867938",
+          "title": "A Clinical Trial of Tulisokibart (MK-7240) in Participants With Pulmonary Sarcoidosis (MK-7240-016)",
+          "phase": "Phase 2",
+          "sponsor": "Merck Sharp & Dohme LLC",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-09",
+          "status": "RECRUITING",
+          "enrollment": 158,
+          "url": "https://clinicaltrials.gov/study/NCT07867938"
+        }
+      ]
+    },
+    {
+      "slug": "bronchiectasis",
+      "label": "Bronchiectasis",
+      "rows": [
+        {
+          "nct": "NCT07944183",
+          "title": "The PRECISION Partners Platform (P3) Study",
+          "phase": "—",
+          "sponsor": "Imperial College London",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-18",
+          "status": "RECRUITING",
+          "enrollment": 850,
+          "url": "https://clinicaltrials.gov/study/NCT07944183"
+        },
+        {
+          "nct": "NCT07924462",
+          "title": "Chronic Respiratory Disease Participant Engagement Study",
+          "phase": "—",
+          "sponsor": "Richmond Research Institute",
+          "countries": [
+            "United Kingdom"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-09",
+          "status": "RECRUITING",
+          "enrollment": 500,
+          "url": "https://clinicaltrials.gov/study/NCT07924462"
+        },
+        {
+          "nct": "NCT07915011",
+          "title": "Investigation of Pharmacokinetics, Safety of HSK31858 in Subjects With Renal Impairment",
+          "phase": "Phase 1",
+          "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-04",
+          "status": "RECRUITING",
+          "enrollment": 24,
+          "url": "https://clinicaltrials.gov/study/NCT07915011"
+        },
+        {
+          "nct": "NCT07915024",
+          "title": "Phase 1 Study to Assess the Effects of HSK31858 on the QT/QTc Interval in Healthy Chinese Participants",
+          "phase": "Phase 1",
+          "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-04",
+          "status": "RECRUITING",
+          "enrollment": 47,
+          "url": "https://clinicaltrials.gov/study/NCT07915024"
+        },
+        {
+          "nct": "NCT07913009",
+          "title": "Investigation of Pharmacokinetics, Safety of HSK31858 in Subjects With Hepatic Impairment",
+          "phase": "Phase 1",
+          "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-03",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "url": "https://clinicaltrials.gov/study/NCT07913009"
+        },
+        {
+          "nct": "NCT07903792",
+          "title": "Diagnostic Value of Oropharyngeal Suction and Effect of Respiratory Physiotherapy on the Detection of Microorganisms in the Pediatric Patient",
+          "phase": "N/A",
+          "sponsor": "Corporacion Parc Tauli",
+          "countries": [
+            "Spain"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 196,
+          "url": "https://clinicaltrials.gov/study/NCT07903792"
+        },
+        {
+          "nct": "NCT07823842",
+          "title": "T2AIR: Real-World Efficacy and Safety of Biologics Targeting Type 2 Inflammation in Asthma and COPD",
+          "phase": "—",
+          "sponsor": "Shanghai Pulmonary Hospital, Shanghai, China",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-09-16",
+          "status": "RECRUITING",
+          "enrollment": 538,
+          "url": "https://clinicaltrials.gov/study/NCT07823842"
+        },
+        {
+          "nct": "NCT07813299",
+          "title": "Efficacy and Safety of Bronchoscopic Local Amikacin Instillation for Acute Exacerbations of Bronchiectasis in Adults: A Multicenter, Blinded, Randomized Controlled Trial",
+          "phase": "N/A",
+          "sponsor": "First Affiliated Hospital of Ningbo University",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-09-10",
+          "status": "RECRUITING",
+          "enrollment": 186,
+          "url": "https://clinicaltrials.gov/study/NCT07813299"
+        },
+        {
+          "nct": "NCT07805174",
+          "title": "High-Intensity Interval Exercise in Bronchiectasis Patients",
+          "phase": "N/A",
+          "sponsor": "Saglik Bilimleri Universitesi",
+          "countries": [
+            "Turkey (Türkiye)"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-09-04",
+          "status": "RECRUITING",
+          "enrollment": 42,
+          "url": "https://clinicaltrials.gov/study/NCT07805174"
+        },
+        {
+          "nct": "NCT07774403",
+          "title": "A Study of AZD0292 in Chinese Participants With Bronchiectasis and Chronic Pseudomonas Aeruginosa Colonization",
+          "phase": "Phase 2",
+          "sponsor": "AstraZeneca",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-08-19",
+          "status": "RECRUITING",
+          "enrollment": 84,
+          "url": "https://clinicaltrials.gov/study/NCT07774403"
+        },
+        {
+          "nct": "NCT07720375",
+          "title": "A Study of 24 to 52 Weeks Treatment to Evaluate The Efficacy And Safety of Galvokimig in Adult Study Participants With Non-Cystic Fibrosis Bronchiectasis",
+          "phase": "Phase 2",
+          "sponsor": "UCB Biopharma SRL",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-07-22",
+          "status": "RECRUITING",
+          "enrollment": 300,
+          "url": "https://clinicaltrials.gov/study/NCT07720375"
+        },
+        {
+          "nct": "NCT07708116",
+          "title": "First in Human Trial of CTX-187 in Healthy Volunteers and Chronically Infected Patients",
+          "phase": "Phase 1",
+          "sponsor": "Centauri Therapeutics Limited",
+          "countries": [
+            "Netherlands"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-07-16",
+          "status": "RECRUITING",
+          "enrollment": 104,
+          "url": "https://clinicaltrials.gov/study/NCT07708116"
+        }
+      ]
+    },
+    {
+      "slug": "tb",
+      "label": "Tuberculosis",
+      "rows": [
+        {
+          "nct": "NCT07947056",
+          "title": "A Clinical Trial to Improve Treatment Outcomes Among Persons With Drug Sensitive Pulmonary TB Treated With 4 or 6 Months of High Dose Rifampicin Containing Regimens With or Without Levofloxacin",
+          "phase": "Phase 3",
+          "sponsor": "Tuberculosis Research Centre, India",
+          "countries": [
+            "India"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-18",
+          "status": "RECRUITING",
+          "enrollment": 2500,
+          "url": "https://clinicaltrials.gov/study/NCT07947056"
+        },
+        {
+          "nct": "NCT07940413",
+          "title": "Bronchial Artery Embolization and Bronchoscopy in The Management of Hemoptysis in Cavitary Tuberculosis Lung Lesions",
+          "phase": "N/A",
+          "sponsor": "Al-Azhar University",
+          "countries": [
+            "Egypt"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-16",
+          "status": "RECRUITING",
+          "enrollment": 30,
+          "url": "https://clinicaltrials.gov/study/NCT07940413"
+        },
+        {
+          "nct": "NCT07929519",
+          "title": "Clinical Characteristics, Treatment, Diagnostic Findings, and Outcomes of Tuberculous Meningitis in Indonesia, 2022-2025",
+          "phase": "—",
+          "sponsor": "Ina-Respond",
+          "countries": [
+            "Indonesia"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-10",
+          "status": "RECRUITING",
+          "enrollment": 300,
+          "url": "https://clinicaltrials.gov/study/NCT07929519"
+        },
+        {
+          "nct": "NCT07901387",
+          "title": "Biomarker Analysis for Diagnosing and Treatment Monitoring in Extrapulmonary Tuberculosis Patients in Nairobi, Kenya",
+          "phase": "—",
+          "sponsor": "Nagasaki University",
+          "countries": [
+            "Kenya"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-28",
+          "status": "RECRUITING",
+          "enrollment": 700,
+          "url": "https://clinicaltrials.gov/study/NCT07901387"
+        },
+        {
+          "nct": "NCT07893444",
+          "title": "BRIGHT-Child TB: Short-Course Treatment for Non-Severe Pulmonary Tuberculosis in Children",
+          "phase": "Phase 2",
+          "sponsor": "Huashan Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-26",
+          "status": "RECRUITING",
+          "enrollment": 90,
+          "url": "https://clinicaltrials.gov/study/NCT07893444"
+        },
+        {
+          "nct": "NCT07887724",
+          "title": "Channa Striata and Curcuma Domestica Supplementation in Patients With Active Pulmonary Tuberculosis",
+          "phase": "N/A",
+          "sponsor": "DINA KEUMALA SARI",
+          "countries": [
+            "Indonesia"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-21",
+          "status": "RECRUITING",
+          "enrollment": 80,
+          "url": "https://clinicaltrials.gov/study/NCT07887724"
+        },
+        {
+          "nct": "NCT07883226",
+          "title": "A Phase 1 Multiple Dose Trial in Healthy Adult Participants to Evaluate the Safety, Tolerability, Drug-Drug Interactions, and Pharmacokinetics of TBD11",
+          "phase": "Phase 1",
+          "sponsor": "Gates Medical Research Institute",
+          "countries": [
+            "South Africa"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-20",
+          "status": "RECRUITING",
+          "enrollment": 66,
+          "url": "https://clinicaltrials.gov/study/NCT07883226"
+        },
+        {
+          "nct": "NCT07830771",
+          "title": "Fibroblast Activating Protein (FAP) PET/CT in Adults With Tuberculosis",
+          "phase": "Early Phase 1",
+          "sponsor": "University of Pennsylvania",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-09-21",
+          "status": "RECRUITING",
+          "enrollment": 10,
+          "url": "https://clinicaltrials.gov/study/NCT07830771"
+        },
+        {
+          "nct": "NCT07811518",
+          "title": "Latent Infection Freshmen Tracking for Tuberculosis",
+          "phase": "Phase 4",
+          "sponsor": "Affiliated Hospital of Nantong University",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-09-10",
+          "status": "RECRUITING",
+          "enrollment": 3000,
+          "url": "https://clinicaltrials.gov/study/NCT07811518"
+        },
+        {
+          "nct": "NCT07784894",
+          "title": "A Study to Investigate the Repeat-dose Pharmacokinetics of a Combined Oral Contraceptive When Given Alone and in Combination With Ganfeborole in Female Participants of Non-childbearing Potential",
+          "phase": "Phase 1",
+          "sponsor": "GlaxoSmithKline",
+          "countries": [
+            "Spain"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-08-25",
+          "status": "RECRUITING",
+          "enrollment": 28,
+          "url": "https://clinicaltrials.gov/study/NCT07784894"
+        },
+        {
+          "nct": "NCT07762014",
+          "title": "rBCG-N-RSV Vaccine in Adults Aged 60 Years and Older",
+          "phase": "Phase 2",
+          "sponsor": "Biothervax SpA",
+          "countries": [
+            "Greece"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-08-13",
+          "status": "RECRUITING",
+          "enrollment": 200,
+          "url": "https://clinicaltrials.gov/study/NCT07762014"
+        },
+        {
+          "nct": "NCT07737275",
+          "title": "Screening With Portable X-rays for Rapid Recognition of TB",
+          "phase": "N/A",
+          "sponsor": "Columbia University",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-07-30",
+          "status": "RECRUITING",
+          "enrollment": 1000,
+          "url": "https://clinicaltrials.gov/study/NCT07737275"
+        }
+      ]
+    }
+  ]
+}
