@@ -42,6 +42,10 @@
   },
   "status": "published",
   "published_at": "2026-11-27T15:00:14+00:00",
-  "shared": {},
+  "shared": {
+    "linkedin": "make",
+    "linkedin_at": "2026-11-27T15:06:37+00:00",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n3cho4tf2u2l"
+  },
   "x_attempts": 1
 }
