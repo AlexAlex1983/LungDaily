@@ -227,7 +227,8 @@
     "2026-11-27-solace-lung-cancer-screening-consortium-launches-in-vienna-with-46-par": "ctscan/ctscan-14.jpg",
     "2026-11-27-slow-oxygen-saturation-recovery-after-6-minute-walk-test-linked-to-hig": "airways/airways-12.jpg",
     "2026-11-27-serum-protein-risk-score-predicts-one-year-progression-in-idiopathic-p": "cells/cells-04.jpg",
-    "2026-11-27-canadian-cancer-society-urges-all-provinces-and-territories-to-fully-i": "ctscan/ctscan-01.jpg"
+    "2026-11-27-canadian-cancer-society-urges-all-provinces-and-territories-to-fully-i": "ctscan/ctscan-01.jpg",
+    "2026-11-27-saffron-osimertinib-plus-savolitinib-improves-pfs-and-os-in-egfr-mutan": "ctscan/ctscan-04.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -330,7 +331,7 @@
     "pollution/pollution-10.jpg": 98,
     "asthma/asthma-14.jpg": 99,
     "tobacco/tobacco-14.jpg": 100,
-    "ctscan/ctscan-04.jpg": 101,
+    "ctscan/ctscan-04.jpg": 229,
     "globe/globe-09.jpg": 102,
     "globe/globe-15.jpg": 103,
     "research/research-15.jpg": 216,
@@ -424,5 +425,5 @@
     "city/city-04.jpg": 223,
     "cells/cells-04.jpg": 227
   },
-  "counter": 228
+  "counter": 229
 }
