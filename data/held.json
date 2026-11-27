@@ -3551,5 +3551,100 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-27-most-asthma-patients-with-obesity-show-type-2-inflammation-but-severe",
+    "headline": "Most asthma patients with obesity show type 2 inflammation, but severe obesity raises attack risk",
+    "dek": "An analysis of 6,513 trial participants found that 82% of people with asthma and obesity had some type 2 inflammation, while a BMI of 40 or above was linked to more severe attacks.",
+    "body": "Most people with asthma and obesity have evidence of type 2 inflammation, despite a modest shift towards type 2-low disease, according to a study published in The Lancet Respiratory Medicine. The authors, led by Sebastian Riemann, Fleur L Meulmeester and Samuel Mailhot-Larouche, said obesity-related asthma is often described as a type 2-low phenotype, but data on biomarker distributions across BMI categories are scarce.\n\nThe team analysed the ORACLE2 patient-level meta-analysis, which pools control groups from 22 randomised placebo-controlled asthma trials identified through a systematic review of MEDLINE from 1 January 1993 to 1 April 2021. Among 6,513 participants aged from adolescence upwards, 2,393 (37%) had overweight and 2,723 (42%) had obesity. Participants with obesity had the highest symptom burden and the lowest baseline percent predicted FEV1, and were most often on Global Initiative for Asthma step 5 treatment.\n\nDual type 2-high biomarkers (blood eosinophil count of at least 0.3 × 10⁹ cells per L and FeNO of at least 35 parts per billion) were less common in the obesity group than in the normal BMI group (15% versus 26%; p<0.0001). Type 2-low asthma (eosinophils below 0.15 × 10⁹ cells per L and FeNO below 20 ppb) was more common (18% versus 13%; p<0.0001). The authors said this indicates 82% of patients with asthma and obesity still have some degree of type 2 inflammation.\n\nSevere obesity (BMI of 40 kg/m² or above) was associated with a significantly higher risk of asthma attacks than normal BMI, with an adjusted rate ratio of 1.57 (95% CI 1.06–2.33). The models were adjusted for factors including sex, age, eosinophil count, FeNO, lung function, treatment step, previous severe attacks and trial.\n\nThe authors said the findings support a multidimensional view of obesity-associated asthma, in which type 2 inflammation often coexists with obesity-related mechanisms that independently contribute to disease burden and attack risk. Funding came from the National Institute for Health and Care Research, Oxford Biomedical Research Centre, Association Pulmonaire du Québec, Fonds de Recherche du Québec-Santé, the Academy of Medical Sciences and the Ghent University Special Research Fund.",
+    "key_quote": "Most patients with obesity-related asthma have evidence of type 2 inflammation despite a modest shift towards type 2-low disease.",
+    "tags": [
+      "asthma",
+      "trial",
+      "diagnostics",
+      "ncds"
+    ],
+    "people": [
+      "Sebastian Riemann",
+      "Fleur L Meulmeester",
+      "Samuel Mailhot-Larouche"
+    ],
+    "category": "research",
+    "score": 7.0,
+    "created_at": "2026-11-27T05:08:59+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The headline says severe obesity \"raises attack risk\", which is causal. The source only reports an association from an observational analysis of trial control groups (\"associated with a significantly higher asthma attack risk\"). The dek's \"linked to\" is accurate, but the headline overstates the finding."
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43098163/"
+    },
+    "mentions": [],
+    "source": {
+      "id": "pubmed:43098163",
+      "source": "pubmed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43098163/",
+      "title": "Association of BMI with type 2 biomarkers, asthma burden, and severe asthma attack risk: an analysis of control groups of the ORACLE2 patient-level meta-analysis.",
+      "author_name": "Sebastian Riemann, Fleur L Meulmeester, Samuel Mailhot-Larouche et al.",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-26T00:00:00+00:00",
+      "extra": {
+        "journal": "The Lancet. Respiratory medicine",
+        "doi": "10.1016/S2213-2600(26)00290-0",
+        "pub_types": [
+          "Journal Article"
+        ],
+        "first_author": "Sebastian Riemann"
+      }
+    },
+    "status": "held"
+  },
+  {
+    "slug": "2026-11-27-european-respiratory-society-announces-results-of-its-2027-elections",
+    "headline": "European Respiratory Society announces results of its 2027 elections",
+    "dek": "The ERS said successful candidates for national delegate, assembly head, secretary and group chair positions have been elected and are starting their roles immediately.",
+    "body": "The European Respiratory Society (ERS) has announced the results of its ERS Elections 2027, congratulating all successful candidates in a LinkedIn post.\n\nAccording to the society, members voted for their preferred candidates for a number of official positions, including national delegates, assembly heads, secretaries and group chairs. The ERS said the elected candidates will begin their roles with immediate effect.\n\nThe society thanked members who voted, saying that as a member-driven society, their choices about its leaders will guide how it develops. It also thanked those who nominated themselves or others to take on an active role, saying members' enthusiasm \"keeps ERS moving forward\".\n\nThe ERS directed members to its elections and open positions page for information on new opportunities and announcements. A full list of successful candidates is available on the ERS website, which also provides information on the society's 14 Assemblies.",
+    "key_quote": "The results of the ERS Elections 2027 are in – congratulations to all the successful candidates!",
+    "tags": [
+      "policy"
+    ],
+    "people": [],
+    "category": "people",
+    "score": 6.0,
+    "created_at": "2026-11-27T05:09:24+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "The article is thin. Beyond the headline, it says only that elections took place and candidates were elected. It names no winners, gives no vote or turnout figures, and says nothing about who holds which position. The remaining content is thank-yous, a pointer to the ERS website, and the fact that there are 14 Assemblies, none of which adds news value. A reader would learn almost nothing beyond the headline."
+      ]
+    },
+    "embed": {
+      "type": "linkedin",
+      "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7531733784535150593",
+      "url": "https://www.linkedin.com/posts/european-respiratory-society_congratulations-to-your-newly-elected-ers-activity-7531733888990093313-LXLi"
+    },
+    "mentions": [],
+    "source": {
+      "id": "linkedin:7531733888990093313",
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/posts/european-respiratory-society_congratulations-to-your-newly-elected-ers-activity-7531733888990093313-LXLi",
+      "title": "",
+      "author_name": "European Respiratory Society",
+      "author_handle": "",
+      "author_url": "https://www.linkedin.com/company/european-respiratory-society/posts",
+      "published_at": "2026-11-26T15:01:31+00:00",
+      "extra": {
+        "urn": "urn:li:share:7531733784535150593",
+        "embed_url": "",
+        "via": "profiles",
+        "page_fetched": true,
+        "linked_url": "https://www.ersnet.org/news-and-features/news/ers-elections-2027-congratulations-to-our-newly-elected-leaders/"
+      }
+    },
+    "status": "held"
   }
 ]

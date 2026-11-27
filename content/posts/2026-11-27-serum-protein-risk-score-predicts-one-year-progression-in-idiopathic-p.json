@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-27-serum-protein-risk-score-predicts-one-year-progression-in-idiopathic-p",
+  "headline": "Serum protein risk score predicts one-year progression in idiopathic pulmonary fibrosis",
+  "dek": "The PROLIFIC risk score, built from blood biomarkers, showed an AUC of 0.809 in derivation and 0.711 in validation for predicting death, transplant or FVC decline.",
+  "body": "A multi-marker risk score based on serum proteins can help predict one-year disease progression in idiopathic pulmonary fibrosis (IPF), according to a development and validation study published in The Lancet Respiratory Medicine by the Prognostic Lung Fibrosis Consortium (PROLIFIC).\n\nThe researchers developed assays for 12 blood biomarkers covering epithelial damage, fibrosis, inflammation and thrombosis. They measured baseline serum levels in a derivation cohort of 657 patients from the Pulmonary Fibrosis Foundation Patient Registry in the USA, and in a validation cohort of 229 patients from the placebo groups of the ISABELA 1 and 2 studies. Penalised logistic regression (LASSO) was used to select biomarkers and derive the score, which was adjusted for factors including age, sex, BMI, antifibrotic medication, smoking pack-years and lung function measures.\n\nIn the derivation cohort, the final score for the composite outcome of death, lung transplant, or an absolute decline in percent predicted FVC of at least 10% at one year included SP-D, CXCL13, sICAM-1, TNC and CA-125. It had an AUC of 0.809 (95% CI 0.763-0.855), with sensitivity of 0.643 and specificity of 0.847. In the validation cohort, the AUC was 0.711 (95% CI 0.614-0.808), with sensitivity of 0.820 and specificity of 0.430.\n\nIn the derivation cohort, 62 patients (9%) died and 37 (6%) had a lung transplant within a year, while 20 (3%) had a ppFVC decline of 10% or more. In the validation cohort, 31 patients (14%) had such a decline, six (3%) died and none had a transplant.\n\nThe authors said the PROLIFIC risk score has been accepted into the US Food and Drug Administration Biomarker Qualification Program as a prognostic biomarker in IPF. They said it is intended to identify patients more likely to have clinical events or disease progression within one year, and to be used as a stratification factor or eligibility criterion in clinical trials. The study was funded by the Prognostic Lung Fibrosis Consortium.",
+  "key_quote": "The PROLIFIC risk score has been accepted into the US Food and Drug Administration Biomarker Qualification Program as a prognostic biomarker in patients with IPF",
+  "tags": [
+    "ild",
+    "diagnostics",
+    "trial"
+  ],
+  "people": [
+    "Peter H Schafer",
+    "John Rassa",
+    "Agnes Seyda"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-27T05:09:13+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43098160/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43098160",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43098160/",
+    "title": "Multi-biomarker risk score for idiopathic pulmonary fibrosis based on serum proteins by the Prognostic Lung Fibrosis Consortium (PROLIFIC): a risk score development and validation study.",
+    "author_name": "Peter H Schafer, John Rassa, Agnes Seyda et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T00:00:00+00:00",
+    "extra": {
+      "journal": "The Lancet. Respiratory medicine",
+      "doi": "10.1016/S2213-2600(26)00297-3",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Peter H Schafer"
+    }
+  },
+  "status": "ready"
+}

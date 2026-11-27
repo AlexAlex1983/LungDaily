@@ -1,0 +1,48 @@
+{
+  "slug": "2026-11-27-slow-oxygen-saturation-recovery-after-6-minute-walk-test-linked-to-hig",
+  "headline": "Slow oxygen saturation recovery after 6-minute walk test linked to higher risk of death and hospitalisation in COPD",
+  "dek": "A prospective cohort of 512 COPD patients found that a recovery time of 80 seconds or more was associated with roughly twice the adjusted risk of hospitalisation and mortality.",
+  "body": "A prolonged recovery of oxygen saturation (SpO2) after the 6-minute walk test (6MWT) is associated with worse long-term outcomes in people with COPD, according to a study published in Chest.\n\nThe researchers, led by Cristóbal Esteban, Nere Larrea-Aguirre and Amaia Aramburu, recruited 512 consecutive patients through the Galdakao University Hospital Respiratory Service. Participants underwent pulmonary function and quadriceps strength assessments, multisensor accelerometry and a 6MWT. Desaturation was defined as a drop in SpO2 of at least 3% from baseline during the test. The recovery time (SpO2-RT) was the time from the end of the test until SpO2 returned to baseline. Of the patients enrolled, 25% were female.\n\nPatients who desaturated during the 6MWT had significantly worse pulmonary function, higher fibrinogen levels, lower quadriceps strength, reduced physical activity and a shorter walking distance. Within this desaturation group, the authors compared patients using an SpO2-RT cut-off of 80 seconds or more. Those with prolonged recovery had more severe pulmonary function impairment, lower physical activity and shorter walking distance.\n\nOver three years of follow-up, longer SpO2-RT was associated with higher mortality (p = .03) and more hospitalisations (p = .0003). In adjusted analyses, prolonged SpO2-RT was associated with an approximately twofold higher risk of both hospitalisation (p = .02) and mortality (p = .04).\n\nThe authors concluded that an SpO2-RT of 80 seconds or more identifies a COPD phenotype with diminished respiratory reserve and a higher risk of later exacerbation-related hospitalisation and all-cause mortality. They described SpO2-RT as a simple, accessible metric that enhances the prognostic utility of the standard 6MWT.",
+  "key_quote": "SpO2-RT is a simple, accessible metric that enhances the prognostic utility of the standard 6MWT.",
+  "tags": [
+    "copd",
+    "diagnostics",
+    "rehab"
+  ],
+  "people": [
+    "Cristóbal Esteban",
+    "Nere Larrea-Aguirre",
+    "Amaia Aramburu"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-27T05:08:49+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43098350/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43098350",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43098350/",
+    "title": "Delayed oxygen saturation recovery after the 6-minute walk test: Prognostic implications for COPD patients.",
+    "author_name": "Cristóbal Esteban, Nere Larrea-Aguirre, Amaia Aramburu et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T00:00:00+00:00",
+    "extra": {
+      "journal": "Chest",
+      "doi": "10.1016/j.chest.2026.11.028",
+      "pub_types": [
+        "Journal Article"
+      ],
+      "first_author": "Cristóbal Esteban"
+    }
+  },
+  "status": "ready"
+}

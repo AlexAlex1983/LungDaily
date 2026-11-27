@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-27-canadian-cancer-society-urges-all-provinces-and-territories-to-fully-i",
+  "headline": "Canadian Cancer Society urges all provinces and territories to fully implement lung cancer screening",
+  "dek": "The society says only Ontario and British Columbia have fully operational programmes, citing early data that about 60% of cancers found through organised screening were stage I.",
+  "body": "The Canadian Cancer Society (CCS) has called on all provinces and territories to fully implement lung cancer screening programmes for people at high risk, saying earlier detection improves the chance of successful treatment. The call was issued in Ottawa on 26 November 2026.\n\nAccording to CCS, lung cancer is the most commonly diagnosed cancer and the leading cause of cancer-related death in Canada. It estimates that 32,900 people in Canada will be diagnosed with the disease in 2026 and 19,300 will die from it.\n\nCCS pointed to an update on screening implementation released earlier this month by the Canadian Partnership Against Cancer. In early data from Ontario and British Columbia, about 60% of lung cancers detected through organised programmes were at stage I. CCS said the five-year survival rate is 62% for stage I lung cancer, compared with 3% for stage IV.\n\nSeven jurisdictions have some form of screening for higher-risk people, CCS said, but only Ontario and British Columbia have fully operational programmes. Alberta and Newfoundland and Labrador run pilot programmes, Saskatchewan and Nova Scotia have partially implemented organised screening, and Quebec is moving towards a province-wide programme.\n\nSarah Viehbeck, Chief Mission Officer at CCS, said about half of lung cancer cases are diagnosed at stage IV, when treatment options are limited. She said every province and territory should move quickly to fully implement and adequately fund screening.\n\nCCS said fully implemented programmes should integrate smoking cessation interventions, and that adequate funding is needed to deliver timely, equitable access, particularly for underserved communities. It said the call aligns with the 2026-2035 Pan-Canadian Lung Cancer Action Plan, which it leads with the support of more than 40 organisations and which aims to reduce lung cancer deaths by 30% by 2035.",
+  "key_quote": "Now is the time for every province and territory to move quickly to fully implement and adequately fund their screening programs.",
+  "tags": [
+    "lung-cancer",
+    "screening",
+    "policy",
+    "equity",
+    "tobacco"
+  ],
+  "people": [
+    "Sarah Viehbeck"
+  ],
+  "category": "policy",
+  "score": 7.0,
+  "created_at": "2026-11-27T05:09:35+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://cancer.ca/en/about-us/media-releases/canadian-cancer-society-urges-provinces-and-territories-to-fully-implement-lung-cancer-screening"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:bc95e666b8254a7e",
+    "source": "rss",
+    "url": "https://cancer.ca/en/about-us/media-releases/canadian-cancer-society-urges-provinces-and-territories-to-fully-implement-lung-cancer-screening",
+    "title": "Canadian Cancer Society urges remaining provinces and territories to join Ontario and BC in fully implementing lung cancer screening",
+    "author_name": "Canadian Cancer Society",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T20:00:14+00:00",
+    "extra": {
+      "feed": "Google News — lung cancer screening",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
