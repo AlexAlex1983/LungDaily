@@ -44,5 +44,8 @@
       "first_author": "Peter H Schafer"
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-27T09:00:18+00:00",
+  "shared": {},
+  "x_attempts": 1
 }
