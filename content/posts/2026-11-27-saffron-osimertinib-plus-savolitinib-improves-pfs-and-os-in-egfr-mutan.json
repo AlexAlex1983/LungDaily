@@ -1,0 +1,46 @@
+{
+  "slug": "2026-11-27-saffron-osimertinib-plus-savolitinib-improves-pfs-and-os-in-egfr-mutan",
+  "headline": "SAFFRON: osimertinib plus savolitinib improves PFS and OS in EGFR-mutant NSCLC with MET changes",
+  "dek": "Shun Lu presented phase III data at ESMO 2026 showing longer progression-free and overall survival than platinum-pemetrexed after progression on osimertinib.",
+  "body": "Dr Shun Lu presented results from the global phase III SAFFRON trial at the 2026 European Society for Medical Oncology Congress, according to the International Association for the Study of Lung Cancer (IASLC). The trial tested osimertinib plus savolitinib in EGFR-mutant advanced non-small cell lung cancer (NSCLC) with MET overexpression and/or amplification after progression on osimertinib.\n\nThe study enrolled 338 patients, who were randomly assigned to osimertinib 80 mg once daily plus savolitinib 300 mg twice daily (n = 171) or to platinum-pemetrexed (n = 167). The chemotherapy was given every three weeks for four cycles, followed by maintenance pemetrexed. The primary endpoint was progression-free survival (PFS) assessed by blinded independent central review.\n\nMedian PFS was 7.6 months with osimertinib plus savolitinib versus 5.4 months with chemotherapy. Lu said this was a statistically significant 45% reduction in the risk of disease progression or death. Median PFS was 8.5 versus 5.6 months in patients with MET overexpression, and 7.6 versus 4.2 months in those with MET amplification.\n\nAt the first interim analysis, median overall survival (OS) was 17.8 months with the combination versus 12.9 months with chemotherapy. Lu described this as a statistically significant 32% reduction in the risk of death.\n\nLu said the data support the combination as an effective oral targeted option for this population. He described SAFFRON as the first global phase III study to show statistically significant and clinically meaningful PFS and OS improvements with the combination after progression on osimertinib.",
+  "key_quote": "Osimertinib plus savolitinib provided a statistically significant 32% reduction in the risk of death, with a 4.9-month improvement in median OS compared with platinum-pemetrexed",
+  "tags": [
+    "lung-cancer",
+    "trial",
+    "therapeutics"
+  ],
+  "people": [
+    "Shun Lu"
+  ],
+  "category": "approvals",
+  "score": 7.0,
+  "created_at": "2026-11-27T14:29:40+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "linkedin",
+    "embed_url": "https://www.linkedin.com/embed/feed/update/urn:li:share:7531961371995914240",
+    "url": "https://www.linkedin.com/posts/iaslc_saffron-trial-results-show-significant-improvements-activity-7531961372713082880-R5HZ"
+  },
+  "mentions": [],
+  "source": {
+    "id": "linkedin:7531961372713082880",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/posts/iaslc_saffron-trial-results-show-significant-improvements-activity-7531961372713082880-R5HZ",
+    "title": "",
+    "author_name": "International Association for the Study of Lung Cancer",
+    "author_handle": "",
+    "author_url": "https://www.linkedin.com/company/iaslc/posts",
+    "published_at": "2026-11-27T06:05:28+00:00",
+    "extra": {
+      "urn": "urn:li:share:7531961371995914240",
+      "embed_url": "",
+      "via": "profiles",
+      "page_fetched": true,
+      "linked_url": "https://www.ilcn.org/saffron-trial-results-show-significant-improvements-in-pfs-and-os/?utm_source=linkedin&utm_medium=social&utm_campaign=IASLC-ILCN-2026-Bi-weekly-assoc-linkedin-share&utm_content=link-share"
+    }
+  },
+  "status": "ready"
+}

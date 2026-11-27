@@ -1,0 +1,21 @@
+{
+  "edition": "Health news digest – Friday, 27 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "Air pollution mechanism that triggers asthma discovered",
+      "url": "https://www.clinicalservicesjournal.com/story/53263/air-pollution-mechanism-that-triggers-asthma-discovered",
+      "publisher": "Clinical Services Journal",
+      "published_date": "2026-11-27",
+      "topic": "asthma",
+      "summary": "A King's College London and Cardiff University study in eBioMedicine found that metal particles in air pollution activate the calcium-sensing receptor on airway cells, triggering inflammation linked to asthma attacks and possibly COPD exacerbations. The work combined laboratory models with population health data and identified the receptor as a potential drug target."
+    },
+    {
+      "title": "Don't Lead With 'Did You Smoke?': Lung Cancer Advice for Oncology Nurses",
+      "url": "https://www.oncnursingnews.com/view/dont-lead-with-did-you-smoke-lung-cancer-advice-for-oncology-nurses",
+      "publisher": "Oncology Nursing News",
+      "published_date": "2026-11-27",
+      "topic": "lung_cancer",
+      "summary": "Lung screening researcher Lisa Carter-Bawa discusses how AI could flag patients eligible for low-dose CT lung cancer screening while nurses remain the human in the loop. The article also covers non-stigmatising ways to ask about smoking history and cost barriers to follow-up after screening."
+    }
+  ]
+}
