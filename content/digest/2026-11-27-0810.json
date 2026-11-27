@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Friday, 27 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "COPD patients urged to recognise warning signs as Cape Town study highlights disease burden",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/",
+      "publisher": "TimesLIVE",
+      "published_date": "2026-11-26",
+      "topic": "copd",
+      "summary": "A Cape Town study highlights the burden of chronic respiratory disease and the difficulty of diagnosing and treating COPD patients in South Africa. Clinicians urge people with COPD to seek medical care when breathlessness, cough or sputum suddenly worsen, as exacerbations can seriously affect health."
+    },
+    {
+      "title": "Air pollution mechanism that triggers asthma attacks discovered",
+      "url": "https://medicalxpress.com/news/2026-11-air-pollution-mechanism-triggers-asthma.html",
+      "publisher": "Medical Xpress",
+      "published_date": "2026-11-25",
+      "topic": "asthma",
+      "summary": "Researchers co-led by King's College London report that metals in particulate pollution activate the calcium-sensing receptor (CaSR) lining the airways, triggering inflammation in some people with asthma. The proof-of-concept study in eBioMedicine is the first to identify this receptor as a potential target for preventing pollution-related asthma symptoms."
+    },
+    {
+      "title": "Air pollution may weaken one of the brain's natural defenses against dementia",
+      "url": "https://www.earth.com/environment/air-pollution-may-weaken-one-of-the-brains-natural-defenses-against-dementia/",
+      "publisher": "Earth.com",
+      "published_date": "2026-11-25",
+      "topic": "air_pollution",
+      "summary": "A study in the Journal of Neuroinflammation led by Case Western Reserve University combined UK Biobank data on about 500,000 adults with mouse experiments to examine how fine particulate pollution may contribute to Alzheimer's disease. Pollution-exposed mice showed changes in brain immune-cell gene activity and weakened brain barrier function, with genetically vulnerable mice most affected."
+    },
+    {
+      "title": "Air Pollution Exposure Linked to Faster Spinal Bone Loss",
+      "url": "https://www.prnewswire.com/news-releases/air-pollution-exposure-linked-to-faster-spinal-bone-loss-302946477.html",
+      "publisher": "Radiological Society of North America (via PR Newswire)",
+      "published_date": "2026-11-23",
+      "topic": "air_pollution",
+      "summary": "A Johns Hopkins study to be presented at RSNA 2026 found that higher recent nitrogen dioxide exposure was associated with modestly faster loss of spinal bone density among older adults in metropolitan areas, measured by AI on routine chest CT scans. No consistent association was found for PM2.5 in the overall study group."
+    }
+  ]
+}
