@@ -44,6 +44,14 @@
   },
   "status": "published",
   "published_at": "2026-11-27T14:37:31+00:00",
-  "shared": {},
+  "shared": {
+    "linkedin": "make",
+    "linkedin_at": "2026-11-27T14:43:49+00:00",
+    "bluesky": "at://did:plc:i3txwv6fsdxxgwqbua4lzcd5/app.bsky.feed.post/3n3cgfeq3on2l",
+    "featured_email": {
+      "to": "media@iaslc.org",
+      "at": "2026-11-27T14:43:53+00:00"
+    }
+  },
   "x_attempts": 1
 }
