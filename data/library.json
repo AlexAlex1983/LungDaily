@@ -226,7 +226,8 @@
     "2026-11-26-china-s-nmpa-accepts-hutchmed-application-for-savolitinib-plus-osimert": "ctscan/ctscan-09.jpg",
     "2026-11-27-solace-lung-cancer-screening-consortium-launches-in-vienna-with-46-par": "ctscan/ctscan-14.jpg",
     "2026-11-27-slow-oxygen-saturation-recovery-after-6-minute-walk-test-linked-to-hig": "airways/airways-12.jpg",
-    "2026-11-27-serum-protein-risk-score-predicts-one-year-progression-in-idiopathic-p": "cells/cells-04.jpg"
+    "2026-11-27-serum-protein-risk-score-predicts-one-year-progression-in-idiopathic-p": "cells/cells-04.jpg",
+    "2026-11-27-canadian-cancer-society-urges-all-provinces-and-territories-to-fully-i": "ctscan/ctscan-01.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -319,7 +320,7 @@
     "cells/cells-02.jpg": 88,
     "events/events-05.jpg": 89,
     "asthma/asthma-20.jpg": 90,
-    "ctscan/ctscan-01.jpg": 91,
+    "ctscan/ctscan-01.jpg": 228,
     "pollution/pollution-04.jpg": 92,
     "cells/cells-15.jpg": 93,
     "pollution/pollution-07.jpg": 94,
@@ -423,5 +424,5 @@
     "city/city-04.jpg": 223,
     "cells/cells-04.jpg": 227
   },
-  "counter": 227
+  "counter": 228
 }
