@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-27T09:13:22+00:00",
+  "fetched_at": "2026-11-28T05:13:32+00:00",
   "groups": [
     {
       "slug": "copd",
@@ -251,6 +251,20 @@
           "url": "https://clinicaltrials.gov/study/NCT07910409"
         },
         {
+          "nct": "NCT07903805",
+          "title": "Asthma and Primary Arterial Hypertension: an Inflammatory Link?",
+          "phase": "—",
+          "sponsor": "Istituti Clinici Scientifici Maugeri SpA",
+          "countries": [
+            "Italy"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-29",
+          "status": "RECRUITING",
+          "enrollment": 74,
+          "url": "https://clinicaltrials.gov/study/NCT07903805"
+        },
+        {
           "nct": "NCT07904052",
           "title": "Specific Immunotherapy With Mannan-Conjugated Allergoids for HDM-Allergic Rhinitis/Rhinoconjunctivitis. MM09-SIT-063.",
           "phase": "Phase 3",
@@ -264,20 +278,6 @@
           "status": "RECRUITING",
           "enrollment": 250,
           "url": "https://clinicaltrials.gov/study/NCT07904052"
-        },
-        {
-          "nct": "NCT07903805",
-          "title": "Asthma and Primary Arterial Hypertension: an Inflammatory Link?",
-          "phase": "—",
-          "sponsor": "Istituti Clinici Scientifici Maugeri SpA",
-          "countries": [
-            "Italy"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-10-29",
-          "status": "RECRUITING",
-          "enrollment": 74,
-          "url": "https://clinicaltrials.gov/study/NCT07903805"
         },
         {
           "nct": "NCT07904195",
@@ -358,6 +358,34 @@
       "label": "Lung cancer",
       "rows": [
         {
+          "nct": "NCT07963540",
+          "title": "Single-Cell Sequencing to Identify New Predictors of Immunotherapy Response in Non-Small Cell Lung Cancer",
+          "phase": "—",
+          "sponsor": "Hubei Cancer Hospital",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-27",
+          "status": "RECRUITING",
+          "enrollment": 20,
+          "url": "https://clinicaltrials.gov/study/NCT07963540"
+        },
+        {
+          "nct": "NCT07956065",
+          "title": "Structured and Adapted Exercise Prehabilitation Before Pulmonary Resection in Patients With Multiple Comorbidities",
+          "phase": "—",
+          "sponsor": "University of Foggia",
+          "countries": [
+            "Italy"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-24",
+          "status": "RECRUITING",
+          "enrollment": 150,
+          "url": "https://clinicaltrials.gov/study/NCT07956065"
+        },
+        {
           "nct": "NCT07955051",
           "title": "A Trial of KJ-103 in Solid Cancers",
           "phase": "Phase 1 / Phase 2",
@@ -384,20 +412,6 @@
           "status": "RECRUITING",
           "enrollment": 140,
           "url": "https://clinicaltrials.gov/study/NCT07957820"
-        },
-        {
-          "nct": "NCT07956065",
-          "title": "Structured and Adapted Exercise Prehabilitation Before Pulmonary Resection in Patients With Multiple Comorbidities",
-          "phase": "—",
-          "sponsor": "University of Foggia",
-          "countries": [
-            "Italy"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-11-24",
-          "status": "RECRUITING",
-          "enrollment": 150,
-          "url": "https://clinicaltrials.gov/study/NCT07956065"
         },
         {
           "nct": "NCT07953881",
@@ -442,20 +456,6 @@
           "url": "https://clinicaltrials.gov/study/NCT07953699"
         },
         {
-          "nct": "NCT07946848",
-          "title": "Phase 2 Study to Evaluate Dose Optimization and Anti-tumor Activity of Atebimetinib in Participants With Advanced or Metastatic NSCLC.",
-          "phase": "Phase 2",
-          "sponsor": "Immuneering Corporation",
-          "countries": [
-            "United States"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-11-18",
-          "status": "RECRUITING",
-          "enrollment": 100,
-          "url": "https://clinicaltrials.gov/study/NCT07946848"
-        },
-        {
           "nct": "NCT07947043",
           "title": "Exploratory Clinical Study of Autologous Tumor-Infiltrating Lymphocytes (TIL) Injection",
           "phase": "Phase 1",
@@ -470,18 +470,18 @@
           "url": "https://clinicaltrials.gov/study/NCT07947043"
         },
         {
-          "nct": "NCT07940881",
-          "title": "SI-B037-ST-101 in Adult Patients With Advanced/Metastatic Solid Tumors",
-          "phase": "Phase 1",
-          "sponsor": "SystImmune Inc.",
+          "nct": "NCT07946848",
+          "title": "Phase 2 Study to Evaluate Dose Optimization and Anti-tumor Activity of Atebimetinib in Participants With Advanced or Metastatic NSCLC.",
+          "phase": "Phase 2",
+          "sponsor": "Immuneering Corporation",
           "countries": [
             "United States"
           ],
           "n_countries": 1,
-          "first_posted": "2026-11-17",
+          "first_posted": "2026-11-18",
           "status": "RECRUITING",
-          "enrollment": 400,
-          "url": "https://clinicaltrials.gov/study/NCT07940881"
+          "enrollment": 100,
+          "url": "https://clinicaltrials.gov/study/NCT07946848"
         },
         {
           "nct": "NCT07941128",
@@ -498,6 +498,20 @@
           "url": "https://clinicaltrials.gov/study/NCT07941128"
         },
         {
+          "nct": "NCT07940881",
+          "title": "SI-B037-ST-101 in Adult Patients With Advanced/Metastatic Solid Tumors",
+          "phase": "Phase 1",
+          "sponsor": "SystImmune Inc.",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-17",
+          "status": "RECRUITING",
+          "enrollment": 400,
+          "url": "https://clinicaltrials.gov/study/NCT07940881"
+        },
+        {
           "nct": "NCT07938385",
           "title": "Characterisation of Immunological and Molecular Changes Evolving in Patients Undergoing Radiotherapy (CHIMERA)",
           "phase": "—",
@@ -510,20 +524,6 @@
           "status": "RECRUITING",
           "enrollment": 94,
           "url": "https://clinicaltrials.gov/study/NCT07938385"
-        },
-        {
-          "nct": "NCT07933055",
-          "title": "Phase 1b/2 to Evaluate the Safety, Tolerability, and Efficacy of TXN10128 in Combination With TOPO-I Inhibitor-based Therapies (Irinotecan or TROP2 ADC) in Advanced or Metastatic EGFR Mutated NSCLC",
-          "phase": "Phase 1 / Phase 2",
-          "sponsor": "Txinno Bioscience Inc.",
-          "countries": [
-            "South Korea"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-11-12",
-          "status": "RECRUITING",
-          "enrollment": 104,
-          "url": "https://clinicaltrials.gov/study/NCT07933055"
         }
       ]
     },
@@ -672,20 +672,6 @@
           "url": "https://clinicaltrials.gov/study/NCT07869147"
         },
         {
-          "nct": "NCT07868419",
-          "title": "Idiopathic Pulmonary Fibrosis (IPF)-Related Chronic Cough Reduction With Nalbuphine (NAL) Extended-Release (ER) Tablets",
-          "phase": "Phase 3",
-          "sponsor": "Trevi Therapeutics",
-          "countries": [
-            "United States"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-10-09",
-          "status": "RECRUITING",
-          "enrollment": 201,
-          "url": "https://clinicaltrials.gov/study/NCT07868419"
-        },
-        {
           "nct": "NCT07867938",
           "title": "A Clinical Trial of Tulisokibart (MK-7240) in Participants With Pulmonary Sarcoidosis (MK-7240-016)",
           "phase": "Phase 2",
@@ -698,6 +684,20 @@
           "status": "RECRUITING",
           "enrollment": 158,
           "url": "https://clinicaltrials.gov/study/NCT07867938"
+        },
+        {
+          "nct": "NCT07868419",
+          "title": "Idiopathic Pulmonary Fibrosis (IPF)-Related Chronic Cough Reduction With Nalbuphine (NAL) Extended-Release (ER) Tablets",
+          "phase": "Phase 3",
+          "sponsor": "Trevi Therapeutics",
+          "countries": [
+            "United States"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-10-09",
+          "status": "RECRUITING",
+          "enrollment": 201,
+          "url": "https://clinicaltrials.gov/study/NCT07868419"
         }
       ]
     },
@@ -734,20 +734,6 @@
           "url": "https://clinicaltrials.gov/study/NCT07924462"
         },
         {
-          "nct": "NCT07915011",
-          "title": "Investigation of Pharmacokinetics, Safety of HSK31858 in Subjects With Renal Impairment",
-          "phase": "Phase 1",
-          "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
-          "countries": [
-            "China"
-          ],
-          "n_countries": 1,
-          "first_posted": "2026-11-04",
-          "status": "RECRUITING",
-          "enrollment": 24,
-          "url": "https://clinicaltrials.gov/study/NCT07915011"
-        },
-        {
           "nct": "NCT07915024",
           "title": "Phase 1 Study to Assess the Effects of HSK31858 on the QT/QTc Interval in Healthy Chinese Participants",
           "phase": "Phase 1",
@@ -760,6 +746,20 @@
           "status": "RECRUITING",
           "enrollment": 47,
           "url": "https://clinicaltrials.gov/study/NCT07915024"
+        },
+        {
+          "nct": "NCT07915011",
+          "title": "Investigation of Pharmacokinetics, Safety of HSK31858 in Subjects With Renal Impairment",
+          "phase": "Phase 1",
+          "sponsor": "Haisco Pharmaceutical Group Co., Ltd.",
+          "countries": [
+            "China"
+          ],
+          "n_countries": 1,
+          "first_posted": "2026-11-04",
+          "status": "RECRUITING",
+          "enrollment": 24,
+          "url": "https://clinicaltrials.gov/study/NCT07915011"
         },
         {
           "nct": "NCT07913009",
