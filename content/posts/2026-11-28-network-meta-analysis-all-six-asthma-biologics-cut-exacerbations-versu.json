@@ -1,0 +1,51 @@
+{
+  "slug": "2026-11-28-network-meta-analysis-all-six-asthma-biologics-cut-exacerbations-versu",
+  "headline": "Network meta-analysis: all six asthma biologics cut exacerbations versus placebo, tezepelumab ranked highest",
+  "dek": "A network meta-analysis in BMC Pulmonary Medicine found all six biologics reduced annualised exacerbation rates, but indirect evidence and heterogeneity precluded a universal treatment hierarchy.",
+  "body": "All six biologic therapies studied significantly reduced annualised asthma exacerbation rates (AAER) compared with placebo in severe asthma, according to a systematic review and network meta-analysis published in BMC Pulmonary Medicine. The authors, led by Saad Alhumaid, said the work was needed because no eligible direct head-to-head randomised comparisons were identified.\n\nThe team searched PubMed/MEDLINE, Embase, Scopus, Web of Science and CENTRAL from inception through 30 June 2026, following PRISMA 2020 and PRISMA-NMA guidance and a registered PROSPERO protocol. They included randomised controlled trials of omalizumab, mepolizumab, reslizumab, benralizumab, dupilumab or tezepelumab in severe or persistently uncontrolled asthma. Thirty-two trials with 17,384 participants were included; 19 studies, contributing 20 independent contrasts and 10,892 unique participants, entered the primary analysis.\n\nTezepelumab had the most favourable estimate and the highest P-score (rate ratio 0.34, 95% CI 0.24-0.49; P-score 0.934). Rate ratios versus placebo were 0.46 for reslizumab, 0.47 for benralizumab, 0.47 for dupilumab, 0.49 for mepolizumab and 0.68 for omalizumab. The entirely indirect comparison favoured tezepelumab over omalizumab (RR 0.50, 95% CI 0.31-0.80); no other active-treatment comparison was statistically significant.\n\nHeterogeneity was substantial (τ² = 0.062; I² = 70.9%), and exploratory analyses indicated possible small-study effects. Confidence in biologic-versus-placebo estimates was moderate, except for omalizumab, where it was low. Confidence in most biologic-versus-biologic estimates was low or very low.\n\nThe authors concluded that the indirect nature of the active-treatment evidence and the heterogeneity precluded a universal treatment hierarchy. They wrote that treatment selection should remain individualised according to eligibility, inflammatory phenotype, biomarkers, comorbidities, treatment burden, patient preferences, access and cost.",
+  "key_quote": "All six biologics reduced AAER versus placebo, but entirely indirect active-treatment evidence and substantial heterogeneity precluded a universal treatment hierarchy.",
+  "tags": [
+    "asthma",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [
+    "Saad Alhumaid",
+    "Fatima A Aborshaid",
+    "Nourah Al Dossary"
+  ],
+  "category": "research",
+  "score": 7.0,
+  "created_at": "2026-11-28T11:08:35+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43104425/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "pubmed:43104425",
+    "source": "pubmed",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43104425/",
+    "title": "Comparative effectiveness of biologic therapies for preventing asthma exacerbations in severe asthma: a systematic review and network meta-analysis.",
+    "author_name": "Saad Alhumaid, Fatima A Aborshaid, Nourah Al Dossary et al.",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-09-08T00:00:00+00:00",
+    "extra": {
+      "journal": "BMC pulmonary medicine",
+      "doi": "10.1186/s12890-026-04675-4",
+      "pub_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Network Meta-Analysis",
+        "Comparative Study"
+      ],
+      "first_author": "Saad Alhumaid"
+    }
+  },
+  "status": "ready"
+}
