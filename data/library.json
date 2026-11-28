@@ -233,7 +233,8 @@
     "2026-11-27-the-union-and-partners-publish-report-on-widening-access-to-inhaled-me": "globe/globe-22.jpg",
     "2026-11-28-fda-approves-new-therapies-across-five-cancers-in-november-including-n": "pharma/pharma-16.jpg",
     "2026-11-28-network-meta-analysis-all-six-asthma-biologics-cut-exacerbations-versu": "pharma/pharma-12.jpg",
-    "2026-11-28-air-pollution-linked-to-more-than-2-million-deaths-in-india-in-2023-re": "pollution/pollution-02.jpg"
+    "2026-11-28-air-pollution-linked-to-more-than-2-million-deaths-in-india-in-2023-re": "pollution/pollution-02.jpg",
+    "2026-11-28-doctorspeak-air-pollution-poses-particular-risks-to-children-s-develop": "pollution/pollution-03.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -272,7 +273,7 @@
     "tobacco/tobacco-09.jpg": 34,
     "research/research-06.jpg": 206,
     "pollution/pollution-02.jpg": 234,
-    "pollution/pollution-03.jpg": 37,
+    "pollution/pollution-03.jpg": 235,
     "pharma/pharma-05.jpg": 205,
     "pharma/pharma-14.jpg": 207,
     "airways/airways-06.jpg": 40,
@@ -431,5 +432,5 @@
     "cells/cells-04.jpg": 227,
     "globe/globe-22.jpg": 231
   },
-  "counter": 234
+  "counter": 235
 }
