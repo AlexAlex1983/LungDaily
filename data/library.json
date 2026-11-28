@@ -232,7 +232,8 @@
     "2026-11-27-lisa-carter-bawa-oncology-nurses-should-lead-with-empathy-not-smoking": "ctscan/ctscan-07.jpg",
     "2026-11-27-the-union-and-partners-publish-report-on-widening-access-to-inhaled-me": "globe/globe-22.jpg",
     "2026-11-28-fda-approves-new-therapies-across-five-cancers-in-november-including-n": "pharma/pharma-16.jpg",
-    "2026-11-28-network-meta-analysis-all-six-asthma-biologics-cut-exacerbations-versu": "pharma/pharma-12.jpg"
+    "2026-11-28-network-meta-analysis-all-six-asthma-biologics-cut-exacerbations-versu": "pharma/pharma-12.jpg",
+    "2026-11-28-air-pollution-linked-to-more-than-2-million-deaths-in-india-in-2023-re": "pollution/pollution-02.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -270,7 +271,7 @@
     "ctscan/ctscan-06.jpg": 174,
     "tobacco/tobacco-09.jpg": 34,
     "research/research-06.jpg": 206,
-    "pollution/pollution-02.jpg": 36,
+    "pollution/pollution-02.jpg": 234,
     "pollution/pollution-03.jpg": 37,
     "pharma/pharma-05.jpg": 205,
     "pharma/pharma-14.jpg": 207,
@@ -430,5 +431,5 @@
     "cells/cells-04.jpg": 227,
     "globe/globe-22.jpg": 231
   },
-  "counter": 233
+  "counter": 234
 }
