@@ -39,5 +39,8 @@
       "page_fetched": true
     }
   },
-  "status": "ready"
+  "status": "published",
+  "published_at": "2026-11-28T08:45:19+00:00",
+  "shared": {},
+  "x_attempts": 1
 }
