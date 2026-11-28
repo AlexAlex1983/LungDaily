@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-28-doctorspeak-air-pollution-poses-particular-risks-to-children-s-develop",
+  "headline": "DoctorSpeak: Air pollution poses particular risks to children's developing lungs, column says",
+  "dek": "A doctor writing in The Tribune's DoctorSpeak column says repeated childhood exposure to pollution can affect lung development and worsen respiratory conditions, citing Indian and global data.",
+  "body": "A doctor writing in The Tribune's DoctorSpeak column says that the haze settling over Indian cities each winter brings familiar symptoms in children, including persistent cough, blocked nose, wheezing and breathing difficulty. These are often mistaken for seasonal infections but may be triggered or aggravated by air pollution, the author wrote.\n\nThe author said infants, toddlers, school-going children and adolescents are particularly vulnerable because their lungs, airways and immune systems are still developing. Children breathe faster than adults and so inhale more air relative to their body weight, and their smaller airways are more prone to inflammation and narrowing. The column singles out fine particulate matter (PM2.5) as one of the most harmful pollutants, naming vehicle emissions, industry, construction dust, crop-residue burning, waste combustion and household fuels as major sources.\n\nThe column describes a two-year-old patient from Ghaziabad whose cough, cold and breathing difficulty worsen when pollution rises and ease in cleaner surroundings. The author called this a major indication that pollution may be irritating his airways.\n\nThe piece cites several figures. Air pollution contributes to an estimated 169,400 deaths a year among children under five in India, according to the column. The State of Global Air 2025 report attributed about 79 lakh deaths worldwide in 2023 to air pollution, including more than 20 lakh in India.\n\nIt also cites a study in The Lancet Regional Health – Southeast Asia, which analysed data on 2,24,214 children under five from the National Family Health Survey-5. The study found a significant association between higher PM2.5 exposure and respiratory illness, including at levels close to or below India's annual standard of 40 micrograms per cubic metre. The WHO recommends an annual average of no more than 5 micrograms per cubic metre.",
+  "key_quote": "Repeated exposure during childhood can affect lung development, worsen respiratory conditions and potentially influence health well into adulthood.",
+  "tags": [
+    "air-pollution",
+    "paediatrics",
+    "global-health",
+    "who"
+  ],
+  "people": [],
+  "category": "voices",
+  "score": 5.0,
+  "created_at": "2026-11-28T14:29:14+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.tribuneindia.com/news/health/doctorspeak-protecting-children-against-air-pollution/"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:09d6e5f4bb102785",
+    "source": "rss",
+    "url": "https://www.tribuneindia.com/news/health/doctorspeak-protecting-children-against-air-pollution/",
+    "title": "DoctorSpeak: Protecting children against air pollution",
+    "author_name": "The Tribune (India)",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-28T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "A November 2026 CREA systematic review found that about 92% of analysed Indian epidemiological studies linked air pollution to adverse outcomes including respiratory illness, cardiovascular disease, diabetes and premature death. Insurance data show pollution-linked respiratory and cardiovascular claims rose roughly 4.3-fold over four years.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

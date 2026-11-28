@@ -1,0 +1,53 @@
+{
+  "edition": "Health news digest – Saturday, 28 November 2026 – Afternoon edition",
+  "items": [
+    {
+      "title": "COPD patients urged to recognise warning signs as Cape Town study highlights disease burden",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/",
+      "publisher": "TimesLIVE",
+      "published_date": "2026-11-26",
+      "topic": "copd",
+      "summary": "South African clinicians urge people with COPD to seek medical advice when breathlessness, cough or sputum suddenly worsen, as a Cape Town study highlights the burden of chronic respiratory disease and gaps in diagnosis and treatment. A related South African study found adolescents successfully treated for TB often do not regain full lung function and face earlier chronic lung disease."
+    },
+    {
+      "title": "Air pollution mechanism that triggers asthma discovered",
+      "url": "https://www.clinicalservicesjournal.com/story/53263/air-pollution-mechanism-that-triggers-asthma-discovered",
+      "publisher": "The Clinical Services Journal",
+      "published_date": "2026-11-27",
+      "topic": "asthma",
+      "summary": "A King's College London and Cardiff University study in eBioMedicine reports that metal particles in air pollution activate the calcium-sensing receptor (CaSR) in the airway lining, driving inflammation linked to asthma attacks and chronic bronchitis. The authors propose CaSR as a potential target for preventing pollution-related asthma symptoms."
+    },
+    {
+      "title": "India Logs Over 2 Million Air Pollution Deaths a Year",
+      "url": "https://en.sedaily.com/world/2026/11/28/india-logs-over-2-million-air-pollution-deaths-a-year",
+      "publisher": "Seoul Economic Daily",
+      "published_date": "2026-11-28",
+      "topic": "air_pollution",
+      "summary": "Citing the State of Global Air report by the Health Effects Institute and IHME, the article notes that air-pollution-linked deaths in India exceeded 2 million in 2023, up 43% from 2000. New Delhi was again ranked the world's most polluted capital, and protesters gathered near Parliament demanding action."
+    },
+    {
+      "title": "DoctorSpeak: Protecting children against air pollution",
+      "url": "https://www.tribuneindia.com/news/health/doctorspeak-protecting-children-against-air-pollution/",
+      "publisher": "The Tribune (India)",
+      "published_date": "2026-11-28",
+      "topic": "air_pollution",
+      "summary": "A November 2026 CREA systematic review found that about 92% of analysed Indian epidemiological studies linked air pollution to adverse outcomes including respiratory illness, cardiovascular disease, diabetes and premature death. Insurance data show pollution-linked respiratory and cardiovascular claims rose roughly 4.3-fold over four years."
+    },
+    {
+      "title": "State of Lung Cancer 2026 takeaways: don't lead with 'Did you smoke?'",
+      "url": "https://www.oncnursingnews.com/view/dont-lead-with-did-you-smoke-lung-cancer-advice-for-oncology-nurses",
+      "publisher": "Oncology Nursing News",
+      "published_date": "2026-11-27",
+      "topic": "lung_cancer",
+      "summary": "Drawing on the American Lung Association's State of Lung Cancer 2026 report, the article notes US five-year lung cancer survival has reached 31.0%, but only 24.4% of eligible people were screened and 20.9% of cases received no treatment. It advises clinicians to avoid stigmatising questions about smoking."
+    },
+    {
+      "title": "Something in New York City's Soil Kills Lung Cancer Cells",
+      "url": "https://www.sciencealert.com/something-in-new-york-citys-soil-kills-lung-cancer-cells",
+      "publisher": "ScienceAlert",
+      "published_date": "2026-11-27",
+      "topic": "lung_cancer",
+      "summary": "Columbia University researchers isolated 17 bacterial cultures, mostly Bacillus, from soil in 25 Manhattan parks; all produced substances that killed cultured human lung cancer cells in the lab, with widely varying potency. The findings, in BioDesign Research, are preclinical and the active compounds were not yet identified."
+    }
+  ]
+}

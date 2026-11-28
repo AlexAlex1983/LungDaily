@@ -3646,5 +3646,51 @@
       }
     },
     "status": "held"
+  },
+  {
+    "slug": "2026-11-28-soil-bacteria-from-manhattan-parks-produce-compounds-that-kill-lung-ca",
+    "headline": "Soil bacteria from Manhattan parks produce compounds that kill lung cancer cells in the laboratory",
+    "dek": "Columbia University researchers isolated 17 bacterial cultures from park soil, all of which produced substances that killed cultured human lung cancer cells, though potency varied widely.",
+    "body": "Bacteria collected from soil in New York City parks produce compounds that can kill lung cancer cells in laboratory tests, according to a study reported in BioDesign Research.\n\nResearchers from Columbia University collected soil samples from 25 public parks across Manhattan and isolated 17 bacterial cultures. All of them produced substances that killed cultured human lung cancer cells, although potency varied widely. Genetic sequencing indicated that over 80 per cent of the strains belonged to the genus Bacillus.\n\nFurther tests identified four strains among the Bacillus isolates. Each showed cytotoxic effects against human lymphoma cells, mouse colon cancer cells and lung cancer cell spheroids, which more closely resemble the three-dimensional physiology of real tumours. Two of the strains appeared to produce larger, potentially protein-based toxins, while the other two secreted smaller toxic compounds.\n\nThe team did not identify the specific compounds. The authors, led by first author and cancer biologist Dhruba Deb, suggested that the activity of B. wiedmannii, the most potent strain, is likely due to proteinaceous toxins such as hemolysin BL. They wrote that the cytotoxicity of B. thuringiensis is likely mediated by a low molecular weight β-exotoxin (thuringiensin).\n\nThe high toxicity of the four strains prevented the bacteria from colonising the cancer spheroids. In a separate experiment, a non-cytotoxic species, B. subtilis, was able to colonise them. This points to a possible future approach in which B. subtilis could carry toxic compounds into tumours. The researchers developed an exploratory mathematical model of the concept, and its calculations suggested the approach could work, although more research is needed.\n\nWhether the compounds would be safe and non-toxic in humans has not been investigated.",
+    "key_quote": "This approach provides a conceptual framework for advancing bacteria-based cancer treatments by leveraging novel Bacillus-derived cytotoxic compounds identified via microbial bioprospecting.",
+    "tags": [
+      "lung-cancer",
+      "therapeutics"
+    ],
+    "people": [
+      "Dhruba Deb"
+    ],
+    "category": "research",
+    "score": 5.0,
+    "created_at": "2026-11-28T14:29:21+00:00",
+    "checker": {
+      "pass": false,
+      "issues": [
+        "key_quote is not verbatim from source"
+      ]
+    },
+    "embed": {
+      "type": "link",
+      "url": "https://www.sciencealert.com/something-in-new-york-citys-soil-kills-lung-cancer-cells"
+    },
+    "mentions": [],
+    "source": {
+      "id": "rss:8030e4318018b0d6",
+      "source": "rss",
+      "url": "https://www.sciencealert.com/something-in-new-york-citys-soil-kills-lung-cancer-cells",
+      "title": "Something in New York City's Soil Kills Lung Cancer Cells",
+      "author_name": "ScienceAlert",
+      "author_handle": "",
+      "author_url": "",
+      "published_at": "2026-11-27T00:00:00+00:00",
+      "extra": {
+        "feed": "Editor digest",
+        "web_search": true,
+        "topic": "lung_cancer",
+        "scout_summary": "Columbia University researchers isolated 17 bacterial cultures, mostly Bacillus, from soil in 25 Manhattan parks; all produced substances that killed cultured human lung cancer cells in the lab, with widely varying potency. The findings, in BioDesign Research, are preclinical and the active compounds were not yet identified.",
+        "page_fetched": true
+      }
+    },
+    "status": "held"
   }
 ]

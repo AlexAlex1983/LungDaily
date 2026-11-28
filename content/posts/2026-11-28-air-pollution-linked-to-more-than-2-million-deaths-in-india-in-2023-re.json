@@ -1,0 +1,44 @@
+{
+  "slug": "2026-11-28-air-pollution-linked-to-more-than-2-million-deaths-in-india-in-2023-re",
+  "headline": "Air pollution linked to more than 2 million deaths in India in 2023, report finds",
+  "dek": "The State of Global Air 2025 report puts India's air-pollution deaths at over 2 million, while IQAir data show 66 of the world's 100 most polluted cities are Indian.",
+  "body": "Deaths linked to air pollution in India exceeded 2 million in 2023, up 43% from 1.4 million in 2000, according to the State of Global Air 2025 report by the Health Effects Institute and the Institute for Health Metrics and Evaluation. The death rate was about 186 per 100,000 people, against 17 in high-income countries. The report estimated that 39% of deaths from stroke and heart disease in India were attributable to air pollution.\n\nThe Lancet Countdown 2025, which involved University College London and the WHO, estimated that about 1.72 million people in India died in 2022 from human-generated PM2.5, up 38% from 2010. Of these, 752,000 deaths were linked to fossil fuels. The report put the economic loss from premature deaths at about $339.4 billion, or 9.5% of gross domestic product.\n\nIQAir's 2025 World Air Quality Report put India's population-weighted average PM2.5 concentration at 48.9 micrograms per cubic metre, the sixth-highest globally. Of the world's 100 most polluted cities, 66 were in India, including five of the top 10. New Delhi, at 82.2 micrograms per cubic metre, was the most polluted capital for the eighth consecutive year. That was down from 91.6 a year earlier but still more than 16 times the WHO's recommended annual average of 5 micrograms or less.\n\nA study analysing Global Burden of Disease data found that about 15% of all deaths in Delhi in 2023 originated from air pollution, the largest single cause of death in the city. India's environment ministry drew criticism in December last year after stating there was no conclusive data linking air pollution and deaths.\n\nDelhi's air quality index reached 393, classed as \"very poor\", in the early hours of 27 November, despite winter measures in place since 1 November. A ban on all construction and demolition work takes effect on 10 December and runs through 20 January.",
+  "key_quote": "deaths linked to air pollution in India exceeded 2 million in 2023, up 43% from 1.4 million in 2000",
+  "tags": [
+    "air-pollution",
+    "global-health",
+    "policy",
+    "who"
+  ],
+  "people": [],
+  "category": "research",
+  "score": 5.0,
+  "created_at": "2026-11-28T14:28:43+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://en.sedaily.com/world/2026/11/28/india-logs-over-2-million-air-pollution-deaths-a-year"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:47e95e95ec13f5af",
+    "source": "rss",
+    "url": "https://en.sedaily.com/world/2026/11/28/india-logs-over-2-million-air-pollution-deaths-a-year",
+    "title": "India Logs Over 2 Million Air Pollution Deaths a Year",
+    "author_name": "Seoul Economic Daily",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-28T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "air_pollution",
+      "scout_summary": "Citing the State of Global Air report by the Health Effects Institute and IHME, the article notes that air-pollution-linked deaths in India exceeded 2 million in 2023, up 43% from 2000. New Delhi was again ranked the world's most polluted capital, and protesters gathered near Parliament demanding action.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}
