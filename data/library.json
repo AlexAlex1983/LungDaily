@@ -231,7 +231,8 @@
     "2026-11-27-saffron-osimertinib-plus-savolitinib-improves-pfs-and-os-in-egfr-mutan": "ctscan/ctscan-04.jpg",
     "2026-11-27-lisa-carter-bawa-oncology-nurses-should-lead-with-empathy-not-smoking": "ctscan/ctscan-07.jpg",
     "2026-11-27-the-union-and-partners-publish-report-on-widening-access-to-inhaled-me": "globe/globe-22.jpg",
-    "2026-11-28-fda-approves-new-therapies-across-five-cancers-in-november-including-n": "pharma/pharma-16.jpg"
+    "2026-11-28-fda-approves-new-therapies-across-five-cancers-in-november-including-n": "pharma/pharma-16.jpg",
+    "2026-11-28-network-meta-analysis-all-six-asthma-biologics-cut-exacerbations-versu": "pharma/pharma-12.jpg"
   },
   "last_used": {
     "asthma/asthma-02.jpg": 201,
@@ -294,7 +295,7 @@
     "ctscan/ctscan-03.jpg": 193,
     "asthma/asthma-11.jpg": 59,
     "globe/globe-02.jpg": 60,
-    "pharma/pharma-12.jpg": 61,
+    "pharma/pharma-12.jpg": 233,
     "events/events-02.jpg": 62,
     "airways/airways-03.jpg": 63,
     "airways/airways-15.jpg": 64,
@@ -429,5 +430,5 @@
     "cells/cells-04.jpg": 227,
     "globe/globe-22.jpg": 231
   },
-  "counter": 232
+  "counter": 233
 }
