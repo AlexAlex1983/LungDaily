@@ -1,0 +1,43 @@
+{
+  "slug": "2026-11-28-fda-approves-new-therapies-across-five-cancers-in-november-including-n",
+  "headline": "FDA approves new therapies across five cancers in November, including non-small cell lung cancer",
+  "dek": "AJMC's roundup lists November approvals for head and neck, bladder, breast, non-small cell lung cancer and gastrointestinal stromal tumours, including two based on the OrigAMI-4 and VOLGA trials.",
+  "body": "The US Food and Drug Administration (FDA) cleared new therapies in November for head and neck squamous cell carcinoma (HNSCC), muscle-invasive bladder cancer (MIBC), breast cancer, non-small cell lung cancer (NSCLC) and gastrointestinal stromal tumours (GIST), according to a roundup by AJMC.\n\nOn 5 November 2026, the agency granted accelerated approval to amivantamab and hyaluronidase-lpuj (Rybrevant Faspro; Johnson & Johnson) for adults with recurrent or metastatic HNSCC whose disease progressed on or after platinum-based chemotherapy and immunotherapy. AJMC reported that this is the combination's first approval beyond NSCLC. The decision was based on Cohort 1 of the phase 1b/2 OrigAMI-4 trial, which enrolled 102 eligible participants. The confirmed overall response rate was 42% (95% CI, 32%-52%), with complete responses in 15% of patients and partial responses in 27%. Of participants in the cohort, 56% maintained a response for more than six months. Continued approval may depend on the phase 3 OrigAMI-5 confirmatory trial.\n\nOn 13 November 2026, the FDA approved perioperative durvalumab (Imfinzi; AstraZeneca) with enfortumab vedotin-ejfv (Padcev; Astellas/Pfizer) for adults with MIBC who are ineligible for, or have refused, cisplatin-based chemotherapy. In the phase 3 VOLGA trial of 695 patients, estimated 24-month event-free survival was 63.5% with durvalumab plus enfortumab vedotin versus 45.1% with surgery alone (HR, 0.51; 95% CI, 0.38-0.67). Estimated 24-month overall survival was 78.4% versus 69.4% (HR, 0.58; 95% CI, 0.40-0.83).",
+  "key_quote": "the first and only dual-targeted therapy approved for this patient population",
+  "tags": [
+    "lung-cancer",
+    "therapeutics",
+    "trial"
+  ],
+  "people": [],
+  "category": "approvals",
+  "score": 5.0,
+  "created_at": "2026-11-28T08:08:56+00:00",
+  "checker": {
+    "pass": true,
+    "issues": []
+  },
+  "embed": {
+    "type": "link",
+    "url": "https://www.ajmc.com/view/november-fda-approvals-bring-new-options-across-5-cancers"
+  },
+  "mentions": [],
+  "source": {
+    "id": "rss:0501b5023ab61c37",
+    "source": "rss",
+    "url": "https://www.ajmc.com/view/november-fda-approvals-bring-new-options-across-5-cancers",
+    "title": "November FDA Approvals Bring New Options Across 5 Cancers",
+    "author_name": "AJMC",
+    "author_handle": "",
+    "author_url": "",
+    "published_at": "2026-11-26T00:00:00+00:00",
+    "extra": {
+      "feed": "Editor digest",
+      "web_search": true,
+      "topic": "lung_cancer",
+      "scout_summary": "A roundup of FDA oncology approvals in November 2026 across five cancer types, including a decision based on the ongoing phase 1/2 ALKOVE-1 study sponsored by Nuvalent.",
+      "page_fetched": true
+    }
+  },
+  "status": "ready"
+}

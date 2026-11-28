@@ -1,0 +1,37 @@
+{
+  "edition": "Health news digest – Saturday, 28 November 2026 – Morning edition",
+  "items": [
+    {
+      "title": "COPD patients urged to recognise warning signs as Cape Town study highlights disease burden",
+      "url": "https://www.timeslive.co.za/news/south-africa/2026-11-26-copd-patients-urged-to-recognise-warning-signs-as-cape-town-study-highlights-disease-burden/",
+      "publisher": "TimesLIVE",
+      "published_date": "2026-11-26",
+      "topic": "copd",
+      "summary": "A Cape Town study highlights the burden of chronic respiratory disease and the difficulty of diagnosing and treating COPD patients. People with COPD are urged to seek care when breathlessness, cough or sputum suddenly worsen, as exacerbations can seriously affect health."
+    },
+    {
+      "title": "Air pollution mechanism that triggers asthma discovered",
+      "url": "https://www.clinicalservicesjournal.com/story/53263/air-pollution-mechanism-that-triggers-asthma-discovered",
+      "publisher": "The Clinical Services Journal",
+      "published_date": "2026-11-27",
+      "topic": "asthma",
+      "summary": "Researchers at King's College London and Cardiff University found that metal particles in air pollution activate the calcium-sensing receptor (CaSR) in the airway lining, driving inflammation linked to asthma attacks and possibly COPD. The study, published in eBioMedicine, proposes CaSR as a target for preventing pollution-related symptoms."
+    },
+    {
+      "title": "Early Detection of Lung Cancer: Lessons From Major Screening Trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43097448",
+      "publisher": "American Journal of Clinical Oncology (PubMed)",
+      "published_date": "2026-11-26",
+      "topic": "lung_cancer",
+      "summary": "A review finds that chest X-ray and sputum cytology screening gave no mortality benefit, while low-dose CT cut mortality in the NLST and NELSON trials. Risk prediction tools beyond age and smoking history, and lung cancer-specific biomarkers, are being validated to widen eligibility and reduce false positives."
+    },
+    {
+      "title": "November FDA Approvals Bring New Options Across 5 Cancers",
+      "url": "https://ajmc.com/view/november-fda-approvals-bring-new-options-across-5-cancers",
+      "publisher": "AJMC",
+      "published_date": "2026-11-26",
+      "topic": "lung_cancer",
+      "summary": "A roundup of FDA oncology approvals in November 2026 across five cancer types, including a decision based on the ongoing phase 1/2 ALKOVE-1 study sponsored by Nuvalent."
+    }
+  ]
+}
